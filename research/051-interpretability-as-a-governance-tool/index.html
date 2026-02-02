@@ -1,0 +1,143 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="How interpretability methods supply evidence for AI oversight: approvals, audits, monitoring, and incident response."><meta name="generator" content="Astro v5.17.1"><!-- Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Source+Serif+4:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet"><!-- Favicon --><link rel="icon" type="image/png" href="/logo.png"><!-- Open Graph --><meta property="og:title" content="Interpretability as a Governance Tool | Reflexive AI Initiative"><meta property="og:description" content="How interpretability methods supply evidence for AI oversight: approvals, audits, monitoring, and incident response."><meta property="og:type" content="website"><meta property="og:site_name" content="Reflexive AI Initiative"><title>Interpretability as a Governance Tool | Reflexive AI Initiative</title><link rel="stylesheet" href="/_astro/_slug_.BtA_RPCv.css"></head> <body>  <header class="header"> <div class="container header__inner"> <a href="/" class="header__brand"> <img src="/logo.png" alt="" class="header__logo"> <div> <span class="header__title">Reflexive AI</span> <span class="header__tagline">Governance · Reflexivity · Constraint</span> </div> </a> <nav class="header__nav"> <a href="/about" class="header__link">About</a> <a href="/research" class="header__link">Research</a> <a href="/contribute" class="header__link">Contribute</a> </nav> </div> </header>  <main>  <div class="article-layout"> <article class="article"> <header class="article__header"> <div class="article__meta"> <a href="/research" class="article__category">Research</a> <span>·</span> <time datetime="2026-02-02T00:00:00.000Z"> February 2, 2026 </time> </div> <h1 class="article__title">Interpretability as a Governance Tool</h1> <p class="article__excerpt">How interpretability methods supply evidence for AI oversight: approvals, audits, monitoring, and incident response.</p> </header>  <div class="toc-mobile"> <button class="toc-mobile__button" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('open');"> <span>On This Page</span> <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </svg> </button> <nav class="toc-mobile__content"> <ul class="toc-mobile__list"> <li style="margin-left: 0px"> <a href="#governance-use-cases-for-interpretability">Governance Use Cases for Interpretability</a> </li><li style="margin-left: 0px"> <a href="#requirements-for-governance-grade-evidence">Requirements for Governance-Grade Evidence</a> </li><li style="margin-left: 0px"> <a href="#method-families-and-governance-fit">Method Families and Governance Fit</a> </li><li style="margin-left: 0px"> <a href="#protocol-using-interpretability-for-approvals">Protocol: Using Interpretability for Approvals</a> </li><li style="margin-left: 12px"> <a href="#evidence-packet-template">Evidence Packet Template</a> </li><li style="margin-left: 0px"> <a href="#monitoring-with-interpretability-signals">Monitoring With Interpretability Signals</a> </li><li style="margin-left: 0px"> <a href="#incident-response-playbook">Incident Response Playbook</a> </li><li style="margin-left: 0px"> <a href="#validation-and-quality-control">Validation and Quality Control</a> </li><li style="margin-left: 0px"> <a href="#policy-and-process-recommendations">Policy and Process Recommendations</a> </li><li style="margin-left: 0px"> <a href="#limitations-and-open-research">Limitations and Open Research</a> </li> </ul> </nav> </div> <div class="article__content">  <p>Interpretability is often treated as an internal research goal. For governance, it is an evidence channel: a way to show how a system behaves, why it behaves that way, and whether safeguards are working. This piece maps interpretability methods to concrete governance functions and outlines protocols for making the resulting evidence trustworthy.</p>
+<h2 id="governance-use-cases-for-interpretability">Governance Use Cases for Interpretability</h2>
+<ul>
+<li><strong>Pre-deployment approval</strong>: Demonstrate that safety mitigations are present and active on high-risk pathways.</li>
+<li><strong>Ongoing monitoring</strong>: Detect drift or unexpected capability emergence by tracking concept activations and behavioral probes.</li>
+<li><strong>Audit and certification</strong>: Provide reproducible artifacts that external auditors can rerun, including seeds, checkpoints, and scripts.</li>
+<li><strong>Incident response</strong>: Localize the components that contributed to a failure and propose targeted remediations.</li>
+<li><strong>Policy verification</strong>: Show that system behavior aligns with declared constraints, especially when claims are tied to regulatory filings.</li>
+</ul>
+<h2 id="requirements-for-governance-grade-evidence">Requirements for Governance-Grade Evidence</h2>
+<p>Interpretability results only help governance if they meet evidence standards similar to laboratory testing.</p>
+<ul>
+<li><strong>Reproducibility</strong>: Same inputs, same seeds, same outputs. Publish scripts and versions.</li>
+<li><strong>Scope clarity</strong>: Define what the method can and cannot show (features, layers, tasks). Avoid over-claiming.</li>
+<li><strong>Falsifiability</strong>: Provide counter-tests that would invalidate the conclusion if the model changed.</li>
+<li><strong>Calibration</strong>: Link interpretability findings to behavioral metrics. A saliency map without correlated performance movement is weak evidence.</li>
+<li><strong>Stability under distribution shift</strong>: Re-run interpretability probes on alternative datasets to ensure conclusions are not dataset artifacts.</li>
+</ul>
+<h2 id="method-families-and-governance-fit">Method Families and Governance Fit</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Method</th><th>Governance value</th><th>Typical outputs</th><th>Limitations</th></tr></thead><tbody><tr><td><strong>Feature attribution (e.g., Integrated Gradients, SHAP)</strong></td><td>Shows which inputs drive outputs; useful for disclosure and bias review</td><td>Ranked tokens, heatmaps, input spans</td><td>Can be unstable; not causal; sensitive to baselines</td></tr><tr><td><strong>Mechanistic interpretability (circuits, feature dictionaries)</strong></td><td>Identifies internal variables linked to human-meaningful concepts; strong for incident analysis</td><td>Neuron/feature labels, patching results, circuit graphs</td><td>Expensive; coverage is partial; requires expertise</td></tr><tr><td><strong>Behavioral probes</strong></td><td>Tests specific capabilities or constraints; aligns with audit checklists</td><td>Pass/fail metrics, confusion matrices</td><td>Surface-level; can miss latent capacity</td></tr><tr><td><strong>Concept activation vectors (CAV/TCAV)</strong></td><td>Quantifies model sensitivity to governance-relevant concepts (e.g., PII, violence)</td><td>Sensitivity scores over layers</td><td>Depends on concept datasets; risk of concept drift</td></tr><tr><td><strong>Counterfactual editing/patching</strong></td><td>Demonstrates that an identified component controls a behavior</td><td>Before/after outputs, patch deltas</td><td>Risk of side effects; may not be stable across contexts</td></tr></tbody></table>
+<p>No single method is sufficient. Governance relies on method pairs: a structural signal (what part of the model matters) plus a behavioral check (does changing it alter outputs in the expected direction).</p>
+<h2 id="protocol-using-interpretability-for-approvals">Protocol: Using Interpretability for Approvals</h2>
+<ol>
+<li><strong>Risk scoping</strong>: Identify high-impact behaviors to justify interpretability effort (e.g., PII leakage, biological instructions, policy jailbreaks).</li>
+<li><strong>Select probes and targets</strong>: Choose layers, heads, or features tied to the risky behaviors. Document why these targets are relevant.</li>
+<li><strong>Run paired tests</strong>:
+<ul>
+<li>Structural: locate and label components correlated with the behavior.</li>
+<li>Behavioral: intervene (ablate, patch, edit weights, or gate attention) and measure output change.</li>
+</ul>
+</li>
+<li><strong>Set thresholds</strong>: Define acceptance criteria (e.g., ablation reduces risky output rate by 90 percent with less than 2 percent utility loss).</li>
+<li><strong>Package artifacts</strong>: Provide scripts, seeds, checkpoints, and minimal datasets so auditors can rerun the tests.</li>
+<li><strong>Store attestations</strong>: Record hash digests of artifacts and sign reports to support tamper detection.</li>
+</ol>
+<h3 id="evidence-packet-template">Evidence Packet Template</h3>
+<pre class="astro-code github-light" style="background-color:#fff;color:#24292e; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;" tabindex="0" data-language="yaml"><code><span class="line"><span style="color:#22863A">audit_case</span><span style="color:#24292E">: </span><span style="color:#032F62">"Interpretability for PII suppression"</span></span>
+<span class="line"><span style="color:#22863A">model</span><span style="color:#24292E">: </span><span style="color:#032F62">"frontier-2026-02"</span></span>
+<span class="line"><span style="color:#22863A">commit</span><span style="color:#24292E">: </span><span style="color:#032F62">"&#x3C;git-sha>"</span></span>
+<span class="line"><span style="color:#22863A">data</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#22863A">  eval_set</span><span style="color:#24292E">: </span><span style="color:#032F62">"pii_eval_v3"</span></span>
+<span class="line"><span style="color:#22863A">  control_set</span><span style="color:#24292E">: </span><span style="color:#032F62">"benign_queries_v2"</span></span>
+<span class="line"><span style="color:#22863A">methods</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#22863A">  structural</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#22863A">    name</span><span style="color:#24292E">: </span><span style="color:#032F62">"attention head path patching"</span></span>
+<span class="line"><span style="color:#22863A">    layers</span><span style="color:#24292E">: [</span><span style="color:#005CC5">16</span><span style="color:#24292E">, </span><span style="color:#005CC5">17</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#22863A">    heads</span><span style="color:#24292E">: [</span><span style="color:#005CC5">3</span><span style="color:#24292E">, </span><span style="color:#005CC5">12</span><span style="color:#24292E">]</span></span>
+<span class="line"><span style="color:#22863A">  behavioral</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#22863A">    name</span><span style="color:#24292E">: </span><span style="color:#032F62">"logit lens + attention gating"</span></span>
+<span class="line"><span style="color:#22863A">    metric</span><span style="color:#24292E">: </span><span style="color:#032F62">"PII leakage rate"</span></span>
+<span class="line"><span style="color:#22863A">results</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#22863A">  baseline_leak_rate</span><span style="color:#24292E">: </span><span style="color:#005CC5">0.072</span></span>
+<span class="line"><span style="color:#22863A">  post_gating_leak_rate</span><span style="color:#24292E">: </span><span style="color:#005CC5">0.006</span></span>
+<span class="line"><span style="color:#22863A">  utility_delta</span><span style="color:#24292E">: </span><span style="color:#005CC5">-0.011</span></span>
+<span class="line"><span style="color:#22863A">reproducibility</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#22863A">  seed</span><span style="color:#24292E">: </span><span style="color:#005CC5">1234</span></span>
+<span class="line"><span style="color:#22863A">  scripts</span><span style="color:#24292E">: </span><span style="color:#032F62">"audits/pii_gating"</span></span>
+<span class="line"><span style="color:#22863A">  checkpoint_hash</span><span style="color:#24292E">: </span><span style="color:#032F62">"sha256:..."</span></span>
+<span class="line"><span style="color:#22863A">signoff</span><span style="color:#24292E">:</span></span>
+<span class="line"><span style="color:#22863A">  approved_by</span><span style="color:#24292E">: </span><span style="color:#032F62">"safety-lead@example.org"</span></span>
+<span class="line"><span style="color:#22863A">  date</span><span style="color:#24292E">: </span><span style="color:#032F62">"2026-02-02"</span></span></code></pre>
+<h2 id="monitoring-with-interpretability-signals">Monitoring With Interpretability Signals</h2>
+<p>Interpretability metrics can serve as early-warning indicators when combined with telemetry.</p>
+<ul>
+<li>Track <strong>concept activations</strong> for restricted topics and alert on upward drift.</li>
+<li>Monitor <strong>attention to sensitive tokens</strong> (names, locations) on sampled traffic.</li>
+<li>Use <strong>feature dictionaries</strong> to detect new features that cluster near risky concepts.</li>
+<li>Pair monitors with <strong>canary prompts</strong> that run on every model revision to keep historical baselines.</li>
+</ul>
+<p>To avoid alert fatigue, set clear escalation paths: automatic block, human review, or deferred logging depending on severity.</p>
+<h2 id="incident-response-playbook">Incident Response Playbook</h2>
+<p>When a governance-relevant incident occurs, interpretability can narrow the search space.</p>
+<ol>
+<li>Capture the failing prompts, model version, and logs.</li>
+<li>Run localization methods (attention tracing, activation patching) to find components that carry the failure signal.</li>
+<li>Propose targeted mitigations: gate or edit the implicated components, or add data that reduces activation strength.</li>
+<li>Re-run paired behavioral tests to confirm the mitigation addresses the failure without major utility loss.</li>
+<li>Update documentation and monitoring to prevent regression.</li>
+</ol>
+<h2 id="validation-and-quality-control">Validation and Quality Control</h2>
+<ul>
+<li><strong>Cross-method agreement</strong>: Prefer conclusions supported by at least two independent methods.</li>
+<li><strong>Adversarial testing of explanations</strong>: Check if small input changes flip attribution results; instability lowers trust.</li>
+<li><strong>Holdout evaluation</strong>: Validate findings on data outside the discovery set to reduce cherry-picking risk.</li>
+<li><strong>Versioned reporting</strong>: Tie every interpretability claim to a model hash and dataset version; treat claims as invalidated when versions change.</li>
+</ul>
+<h2 id="policy-and-process-recommendations">Policy and Process Recommendations</h2>
+<ul>
+<li>Require high-risk deployments to submit an <strong>interpretability evidence packet</strong> as part of approval, alongside standard evals.</li>
+<li>Maintain a <strong>registry of governance concepts</strong> (e.g., PII, dual-use biology) with standard probes and datasets.</li>
+<li>Fund <strong>shared auditor benches</strong>: reproducible containers that run the same interpretability tests across labs.</li>
+<li>Incentivize <strong>negative results</strong>: publish when methods fail or produce unstable findings to avoid false confidence.</li>
+<li>Align <strong>disclosure</strong>: include interpretability findings in system cards and regulator filings, with links to rerunnable code.</li>
+</ul>
+<h2 id="limitations-and-open-research">Limitations and Open Research</h2>
+<ul>
+<li>Current methods do not offer full coverage; many findings are local rather than global guarantees.</li>
+<li>Interventions can cause side effects; every governance use should include regression checks on core utility metrics.</li>
+<li>Concept drift remains hard: concept activation scores can shift as models update, so monitoring must be continuous.</li>
+<li>Automated summarization of interpretability results for auditors is promising but needs careful validation to avoid misstatement.</li>
+</ul>
+<p>Interpretability will not replace behavioral evaluation or red teaming. It can, however, give governance processes a clearer map of where risky behaviors live, how to suppress them, and how to prove that mitigations hold over time.</p>  </div> <footer class="article__footer" style="margin-top: var(--space-12); padding-top: var(--space-6); border-top: 1px solid var(--color-border);"> <div class="article-card__meta"> <a href="/tags" class="article-card__tag">Interpretability</a><a href="/tags" class="article-card__tag">Transparency</a><a href="/tags" class="article-card__tag">Governance</a><a href="/tags" class="article-card__tag">Evaluation</a> </div> </footer> </article>  <aside class="toc-sidebar" id="toc-sidebar"> <div class="toc-sidebar__inner"> <div class="toc-sidebar__header"> <span class="toc-sidebar__title">On This Page</span> <button class="toc-sidebar__toggle" aria-label="Toggle table of contents" onclick="document.getElementById('toc-sidebar').classList.toggle('collapsed');"> <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </svg> </button> </div> <ul class="toc-sidebar__list"> <li style="margin-left: 0px"> <a href="#governance-use-cases-for-interpretability">Governance Use Cases for Interpretability</a> </li><li style="margin-left: 0px"> <a href="#requirements-for-governance-grade-evidence">Requirements for Governance-Grade Evidence</a> </li><li style="margin-left: 0px"> <a href="#method-families-and-governance-fit">Method Families and Governance Fit</a> </li><li style="margin-left: 0px"> <a href="#protocol-using-interpretability-for-approvals">Protocol: Using Interpretability for Approvals</a> </li><li style="margin-left: 12px"> <a href="#evidence-packet-template">Evidence Packet Template</a> </li><li style="margin-left: 0px"> <a href="#monitoring-with-interpretability-signals">Monitoring With Interpretability Signals</a> </li><li style="margin-left: 0px"> <a href="#incident-response-playbook">Incident Response Playbook</a> </li><li style="margin-left: 0px"> <a href="#validation-and-quality-control">Validation and Quality Control</a> </li><li style="margin-left: 0px"> <a href="#policy-and-process-recommendations">Policy and Process Recommendations</a> </li><li style="margin-left: 0px"> <a href="#limitations-and-open-research">Limitations and Open Research</a> </li> </ul> </div> </aside> </div> <div class="scroll-progress" id="scroll-progress"></div> <script type="module">const s=document.getElementById("scroll-progress");s&&window.addEventListener("scroll",()=>{const o=window.scrollY,e=document.documentElement.scrollHeight-window.innerHeight,t=o/e*100;s.style.width=`${t}%`});const r=document.querySelectorAll(".toc-sidebar__list a"),n=document.querySelectorAll(".article__content h2, .article__content h3");if(r.length>0&&n.length>0){const o=new IntersectionObserver(e=>{e.forEach(t=>{if(t.isIntersecting){r.forEach(i=>i.classList.remove("active"));const c=document.querySelector(`.toc-sidebar__list a[href="#${t.target.id}"]`);c&&c.classList.add("active")}})},{rootMargin:"-20% 0% -60% 0%"});n.forEach(e=>o.observe(e))}</script>  </main> <footer class="footer"> <div class="container footer__inner"> <a href="/" class="footer__brand"> <img src="/logo.png" alt="" class="footer__logo"> <span>Reflexive AI Initiative</span> </a> <div class="footer__links"> <a href="https://github.com/Reflexive-AI" class="footer__link" target="_blank" rel="noopener">GitHub</a> <a href="/research" class="footer__link">Research</a> <a href="/tags" class="footer__link">Tags</a> <a href="/contribute" class="footer__link">Contribute</a> </div> <div class="footer__meta"> <span>Maintained by <a href="https://eugenekondratov.eu" target="_blank" rel="noopener">Eugene Kondratov</a></span> <span>·</span> <a href="https://creativecommons.org/licenses/by/4.0/" class="footer__license" target="_blank" rel="noopener">CC BY 4.0</a> </div> </div> </footer> </body></html>

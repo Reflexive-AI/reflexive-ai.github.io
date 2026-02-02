@@ -1,0 +1,147 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Structured approaches to adversarial testing of AI systems, from scope definition through remediation verification."><meta name="generator" content="Astro v5.17.1"><!-- Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Source+Serif+4:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet"><!-- Favicon --><link rel="icon" type="image/png" href="/logo.png"><!-- Open Graph --><meta property="og:title" content="Red Teaming Methodologies | Reflexive AI Initiative"><meta property="og:description" content="Structured approaches to adversarial testing of AI systems, from scope definition through remediation verification."><meta property="og:type" content="website"><meta property="og:site_name" content="Reflexive AI Initiative"><title>Red Teaming Methodologies | Reflexive AI Initiative</title><link rel="stylesheet" href="/_astro/_slug_.BtA_RPCv.css"></head> <body>  <header class="header"> <div class="container header__inner"> <a href="/" class="header__brand"> <img src="/logo.png" alt="" class="header__logo"> <div> <span class="header__title">Reflexive AI</span> <span class="header__tagline">Governance · Reflexivity · Constraint</span> </div> </a> <nav class="header__nav"> <a href="/about" class="header__link">About</a> <a href="/research" class="header__link">Research</a> <a href="/contribute" class="header__link">Contribute</a> </nav> </div> </header>  <main>  <div class="article-layout"> <article class="article"> <header class="article__header"> <div class="article__meta"> <a href="/research" class="article__category">Research</a> <span>·</span> <time datetime="2026-02-01T00:00:00.000Z"> February 1, 2026 </time> </div> <h1 class="article__title">Red Teaming Methodologies</h1> <p class="article__excerpt">Structured approaches to adversarial testing of AI systems, from scope definition through remediation verification.</p> </header>  <div class="toc-mobile"> <button class="toc-mobile__button" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('open');"> <span>On This Page</span> <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </svg> </button> <nav class="toc-mobile__content"> <ul class="toc-mobile__list"> <li style="margin-left: 0px"> <a href="#red-teaming-foundations">Red Teaming Foundations</a> </li><li style="margin-left: 0px"> <a href="#scope-definition">Scope Definition</a> </li><li style="margin-left: 12px"> <a href="#whats-in-scope">What’s In Scope</a> </li><li style="margin-left: 12px"> <a href="#whats-out-of-scope">What’s Out of Scope</a> </li><li style="margin-left: 12px"> <a href="#success-criteria">Success Criteria</a> </li><li style="margin-left: 0px"> <a href="#team-composition">Team Composition</a> </li><li style="margin-left: 12px"> <a href="#expertise-diversity">Expertise Diversity</a> </li><li style="margin-left: 12px"> <a href="#independence">Independence</a> </li><li style="margin-left: 12px"> <a href="#external-vs-internal-teams">External vs. Internal Teams</a> </li><li style="margin-left: 0px"> <a href="#testing-methodologies">Testing Methodologies</a> </li><li style="margin-left: 12px"> <a href="#systematic-coverage">Systematic Coverage</a> </li><li style="margin-left: 12px"> <a href="#creative-exploration">Creative Exploration</a> </li><li style="margin-left: 12px"> <a href="#automated-testing">Automated Testing</a> </li><li style="margin-left: 0px"> <a href="#attack-categories">Attack Categories</a> </li><li style="margin-left: 12px"> <a href="#prompt-injection">Prompt Injection</a> </li><li style="margin-left: 12px"> <a href="#jailbreaking">Jailbreaking</a> </li><li style="margin-left: 12px"> <a href="#capability-elicitation">Capability Elicitation</a> </li><li style="margin-left: 12px"> <a href="#data-extraction">Data Extraction</a> </li><li style="margin-left: 12px"> <a href="#misrepresentation-attacks">Misrepresentation Attacks</a> </li><li style="margin-left: 0px"> <a href="#documentation-and-reporting">Documentation and Reporting</a> </li><li style="margin-left: 12px"> <a href="#vulnerability-documentation">Vulnerability Documentation</a> </li><li style="margin-left: 12px"> <a href="#aggregate-reporting">Aggregate Reporting</a> </li><li style="margin-left: 12px"> <a href="#responsible-disclosure">Responsible Disclosure</a> </li><li style="margin-left: 0px"> <a href="#remediation-and-verification">Remediation and Verification</a> </li><li style="margin-left: 12px"> <a href="#remediation-tracking">Remediation Tracking</a> </li><li style="margin-left: 12px"> <a href="#verification-testing">Verification Testing</a> </li><li style="margin-left: 0px"> <a href="#ethical-considerations">Ethical Considerations</a> </li><li style="margin-left: 0px"> <a href="#maturity-model">Maturity Model</a> </li><li style="margin-left: 0px"> <a href="#integration-with-governance">Integration with Governance</a> </li><li style="margin-left: 0px"> <a href="#conclusion">Conclusion</a> </li> </ul> </nav> </div> <div class="article__content">  <p>Red teaming—structured adversarial testing by teams attempting to find system failures—has become essential practice for AI safety evaluation. But methodological variation across organizations limits comparability and may leave gaps in coverage. This analysis presents a framework for AI red teaming that balances rigor with practical constraints.</p>
+<h2 id="red-teaming-foundations">Red Teaming Foundations</h2>
+<p>Red teaming originated in military contexts: independent teams challenge plans, assumptions, and defenses to identify vulnerabilities before adversaries exploit them. Applied to AI, red teaming involves systematically attempting to cause system failures—producing harmful outputs, bypassing safety measures, revealing sensitive information, or otherwise behaving contrary to intended design.</p>
+<p>The value of red teaming lies in its adversarial stance. Development teams build systems to work; red teams try to make them fail. This perspective shift surfaces issues that well-intentioned testing misses.</p>
+<p>Red teaming differs from:</p>
+<ul>
+<li><strong>Quality assurance</strong>: Testing expected behavior under normal conditions</li>
+<li><strong>Penetration testing</strong>: Security-focused examination of infrastructure</li>
+<li><strong>User testing</strong>: Evaluating usability and user experience</li>
+<li><strong>Stress testing</strong>: Performance under load</li>
+</ul>
+<p>Though related, each serves distinct purposes. Red teaming specifically seeks adversarial failures that would harm users, operators, or broader society.</p>
+<h2 id="scope-definition">Scope Definition</h2>
+<p>Effective red teaming begins with clear scope definition. Ambiguous scope leads to wasted effort, missed vulnerabilities, and contested findings.</p>
+<h3 id="whats-in-scope">What’s In Scope</h3>
+<p>Define the attack surface under examination:</p>
+<p><strong>System boundaries</strong>: Which components are targeted? The model alone? The model plus safety layers? The full deployment stack including interfaces, integrations, and infrastructure?</p>
+<p><strong>Threat models</strong>: What adversaries are considered? Casual users exploring limits? Sophisticated attackers with technical expertise? Nation-state actors with extensive resources? Different threat models imply different testing approaches.</p>
+<p><strong>Failure types</strong>: What constitutes a red team success? Harmful content generation? Policy violations? Capability elicitation? Data extraction? Security breaches? Clear categorization enables systematic coverage.</p>
+<p><strong>Severity thresholds</strong>: What level of impact matters? Any policy violation? Only significant harms? Novel capability demonstrations? Defining thresholds focuses effort and enables prioritization.</p>
+<h3 id="whats-out-of-scope">What’s Out of Scope</h3>
+<p>Explicit exclusions prevent confusion:</p>
+<p><strong>Ethical boundaries</strong>: What attacks won’t be attempted even for testing purposes? Attacks that could cause real harm during testing require special protocols or exclusion.</p>
+<p><strong>Infrastructure limits</strong>: Are attacks on production systems in scope, or only staged environments? Production testing carries operational risk.</p>
+<p><strong>Third-party constraints</strong>: Testing interactions with external services may violate terms of service or create liability.</p>
+<h3 id="success-criteria">Success Criteria</h3>
+<p>Define what constitutes a successful red team engagement:</p>
+<p><strong>Completeness metrics</strong>: Coverage of defined attack surface. Were all failure types explored? All threat models considered?</p>
+<p><strong>Findings thresholds</strong>: Minimum severity for reportable findings. What doesn’t count?</p>
+<p><strong>Time and resource bounds</strong>: When does the engagement end? What resources are available?</p>
+<h2 id="team-composition">Team Composition</h2>
+<p>Red team effectiveness depends on team composition. Different perspectives find different failures.</p>
+<h3 id="expertise-diversity">Expertise Diversity</h3>
+<p><strong>Technical AI expertise</strong>: Understanding model architecture, training procedures, and known failure modes enables efficient targeting.</p>
+<p><strong>Security expertise</strong>: Traditional security researchers bring attack methodology and tool familiarity. Prompt injection shares patterns with traditional injection attacks.</p>
+<p><strong>Domain expertise</strong>: Subject matter experts identify failures that generalists miss. Medical red teams catch clinically dangerous outputs; legal red teams find liability-creating statements.</p>
+<p><strong>Adversarial creativity</strong>: Some individuals excel at finding unexpected failure modes. This skill complements but differs from technical knowledge.</p>
+<h3 id="independence">Independence</h3>
+<p>Red teams should be independent from development teams:</p>
+<p><strong>Organizational separation</strong>: Red teams shouldn’t report to the same managers responsible for deployment decisions.</p>
+<p><strong>Information access</strong>: Teams need sufficient system knowledge to test effectively, but complete access may reduce adversarial perspective.</p>
+<p><strong>Incentive alignment</strong>: Red teams should be evaluated on finding problems, not on supporting deployment schedules.</p>
+<h3 id="external-vs-internal-teams">External vs. Internal Teams</h3>
+<p><strong>Internal teams</strong>: Better system access, faster iteration, lower cost, but potential blindspots and organizational pressure.</p>
+<p><strong>External teams</strong>: Fresh perspective, independence, specialized expertise, but higher cost and access challenges.</p>
+<p>Best practice often combines both: internal teams provide continuous testing; external teams add periodic independent assessment. <a href="/research/006-meta-governance-auditors/">Auditor governance frameworks</a> inform external team selection and oversight.</p>
+<h2 id="testing-methodologies">Testing Methodologies</h2>
+<h3 id="systematic-coverage">Systematic Coverage</h3>
+<p>Structured exploration ensures comprehensive coverage:</p>
+<p><strong>Taxonomic approaches</strong>: Test each category in a failure taxonomy (content types, capability areas, attack vectors). Track coverage to identify gaps.</p>
+<p><strong>Scenario libraries</strong>: Maintain collections of test scenarios that can be adapted across systems. Build on prior experience and public research.</p>
+<p><strong>Attack trees</strong>: Structured decomposition of high-level attack goals into specific techniques. Enables systematic exploration of attack paths.</p>
+<h3 id="creative-exploration">Creative Exploration</h3>
+<p>Systematic approaches can miss novel vulnerabilities. Complement with:</p>
+<p><strong>Open-ended exploration</strong>: Skilled testers following intuition without prescribed structure.</p>
+<p><strong>Challenge formats</strong>: Time-boxed competitions with prizes for novel findings. Incentivize creativity.</p>
+<p><strong>Cross-pollination</strong>: Techniques from one domain may transfer unexpectedly. Encourage broad awareness of attack patterns.</p>
+<h3 id="automated-testing">Automated Testing</h3>
+<p>Automation enables scale:</p>
+<p><strong>Fuzzing</strong>: Automated generation of varied inputs seeking failures. Can explore more inputs than manual testing.</p>
+<p><strong>Attack templates</strong>: Parameterized attacks that can be instantiated across many variations.</p>
+<p><strong>AI-assisted red teaming</strong>: Using AI systems to generate attack vectors. Raises interesting recursive questions when testing AI with AI.</p>
+<p><strong>Regression testing</strong>: Automated verification that previously-found vulnerabilities remain fixed.</p>
+<p>Automation supplements but doesn’t replace human creativity. Novel attack types typically emerge from human insight; automation scales coverage.</p>
+<h2 id="attack-categories">Attack Categories</h2>
+<h3 id="prompt-injection">Prompt Injection</h3>
+<p>Attempts to override system instructions through adversarial inputs:</p>
+<p><strong>Direct injection</strong>: Explicit instructions in user input (“Ignore previous instructions and…”)</p>
+<p><strong>Indirect injection</strong>: Malicious content in retrieved documents or tool outputs that influences model behavior.</p>
+<p><strong>Encoding attacks</strong>: Instructions hidden through encoding, translation, or structural manipulation.</p>
+<h3 id="jailbreaking">Jailbreaking</h3>
+<p>Attempts to bypass content policies:</p>
+<p><strong>Roleplay attacks</strong>: Framing harmful requests as fiction, hypotheticals, or educational content.</p>
+<p><strong>Multi-turn manipulation</strong>: Gradually escalating requests across conversation turns.</p>
+<p><strong>Context confusion</strong>: Exploiting inconsistencies between training-time and inference-time context.</p>
+<h3 id="capability-elicitation">Capability Elicitation</h3>
+<p>Attempts to access restricted capabilities:</p>
+<p><strong>Dual-use probing</strong>: Extracting information with both benign and harmful applications. <a href="/research/035-dual-use-biology/">Dual-use considerations</a> frame these concerns.</p>
+<p><strong>Expertise extraction</strong>: Obtaining detailed instructions for dangerous activities.</p>
+<p><strong>Tool misuse</strong>: Leveraging legitimate tools for unintended purposes.</p>
+<h3 id="data-extraction">Data Extraction</h3>
+<p>Attempts to extract sensitive information:</p>
+<p><strong>Training data extraction</strong>: Recovering specific training examples from model outputs.</p>
+<p><strong>Privacy attacks</strong>: Extracting personal information about individuals.</p>
+<p><strong>System prompt extraction</strong>: Revealing confidential system configuration.</p>
+<h3 id="misrepresentation-attacks">Misrepresentation Attacks</h3>
+<p>Exploiting model identity and trust:</p>
+<p><strong>Impersonation</strong>: Convincing users the AI is human or has authority it lacks.</p>
+<p><strong>False claims</strong>: Generating plausible-sounding but false information on important topics.</p>
+<p><strong>Manipulation</strong>: Using psychological techniques to influence user beliefs or behavior inappropriately.</p>
+<h2 id="documentation-and-reporting">Documentation and Reporting</h2>
+<h3 id="vulnerability-documentation">Vulnerability Documentation</h3>
+<p>Each finding should document:</p>
+<p><strong>Reproduction steps</strong>: Precise instructions enabling verification of the vulnerability.</p>
+<p><strong>Impact assessment</strong>: Severity, likelihood, and potential consequences if exploited.</p>
+<p><strong>Classification</strong>: Mapping to defined failure types and severity thresholds.</p>
+<p><strong>Root cause analysis</strong>: Why does this vulnerability exist? What enables it?</p>
+<p><strong>Mitigation recommendations</strong>: Potential fixes or workarounds.</p>
+<h3 id="aggregate-reporting">Aggregate Reporting</h3>
+<p>Beyond individual findings:</p>
+<p><strong>Coverage assessment</strong>: What was tested? What gaps remain?</p>
+<p><strong>Finding distribution</strong>: Patterns across categories, severities, and attack types.</p>
+<p><strong>Comparison baselines</strong>: How do findings compare to previous testing or other systems?</p>
+<p><strong>Systemic issues</strong>: Are there patterns suggesting broader problems beyond specific vulnerabilities?</p>
+<h3 id="responsible-disclosure">Responsible Disclosure</h3>
+<p>Findings require careful handling:</p>
+<p><strong>Internal disclosure</strong>: Communicate findings to development teams for remediation.</p>
+<p><strong>Timing decisions</strong>: When do findings become public? After remediation? After deployment? Never for certain categories?</p>
+<p><strong>Information minimization</strong>: Disclose enough to understand the issue without enabling exploitation.</p>
+<p><strong>Coordination</strong>: When findings affect multiple organizations (shared components, common techniques), coordinate disclosure.</p>
+<h2 id="remediation-and-verification">Remediation and Verification</h2>
+<p>Red teaming’s value comes from remediation, not just finding problems.</p>
+<h3 id="remediation-tracking">Remediation Tracking</h3>
+<p><strong>Severity-based prioritization</strong>: Critical findings require immediate attention; lower-severity issues can be scheduled.</p>
+<p><strong>Owner assignment</strong>: Clear responsibility for each finding.</p>
+<p><strong>Timeline accountability</strong>: Expected remediation dates with escalation for delays.</p>
+<p><strong>Status tracking</strong>: Systematic tracking of finding status through resolution.</p>
+<h3 id="verification-testing">Verification Testing</h3>
+<p><strong>Fix validation</strong>: Verify that remediations actually address findings. Superficial fixes may leave underlying vulnerabilities.</p>
+<p><strong>Regression prevention</strong>: Ensure fixes don’t reintroduce vulnerabilities in other forms.</p>
+<p><strong>Ongoing monitoring</strong>: Some vulnerabilities may recur as systems evolve.</p>
+<h2 id="ethical-considerations">Ethical Considerations</h2>
+<p>Red teaming involves deliberately attempting to cause harmful outputs. This creates ethical obligations:</p>
+<p><strong>Minimize real-world harm</strong>: Testing should occur in environments where harmful outputs don’t affect real users. When testing must occur in production, minimize exposure.</p>
+<p><strong>Team wellbeing</strong>: Exposure to harmful content can affect red team members. Provide appropriate support and rotation.</p>
+<p><strong>Dual-use awareness</strong>: Techniques developed for defensive testing can enable attacks. Consider information security around methodology details.</p>
+<p><strong>Proportionality</strong>: More invasive testing requires stronger justification. <a href="/research/001-proportionality-disclosure/">Risk proportionality frameworks</a> apply to testing decisions.</p>
+<h2 id="maturity-model">Maturity Model</h2>
+<p>Organizations can assess red teaming maturity:</p>
+<p><strong>Level 1 - Ad hoc</strong>: Informal, unstructured testing by development teams.</p>
+<p><strong>Level 2 - Defined</strong>: Dedicated testing with basic scope and methodology.</p>
+<p><strong>Level 3 - Systematic</strong>: Comprehensive coverage using structured approaches, documented findings, tracked remediation.</p>
+<p><strong>Level 4 - Continuous</strong>: Ongoing red teaming integrated into development cycle, automated regression testing, regular external assessment.</p>
+<p><strong>Level 5 - Advanced</strong>: Leading methodology development, contribution to field knowledge, influence on standards.</p>
+<p>Most organizations are at Level 2-3. Advancing requires investment in team development, tooling, and organizational integration.</p>
+<h2 id="integration-with-governance">Integration with Governance</h2>
+<p>Red teaming should connect to broader governance:</p>
+<p><strong>Pre-deployment gates</strong>: Red team sign-off before deployment. Clear criteria for what findings block release. <a href="/research/047-pre-deployment-risk-assessment/">Pre-deployment assessment</a> frameworks integrate red teaming.</p>
+<p><strong>Board-level reporting</strong>: Material findings escalate to governance bodies. <a href="/research/043-board-oversight/">Board oversight</a> creates appropriate escalation paths.</p>
+<p><strong>Regulatory compliance</strong>: Red teaming evidence supports regulatory requirements for safety evaluation.</p>
+<p><strong>Continuous improvement</strong>: Findings inform development practices, training procedures, and safety research priorities.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Red teaming provides essential adversarial perspective on AI safety. Effective red teaming requires clear scope, diverse teams, systematic methodology, thorough documentation, and integration with remediation processes.</p>
+<p>The methodologies presented here represent current practice, but the field is evolving. As AI capabilities advance, red teaming techniques must advance correspondingly. Organizations should invest in red teaming capability as a core safety function, not a one-time evaluation exercise.</p>
+<p>The gap between red team capability and adversary capability determines vulnerability exposure. Investing in advanced red teaming reduces this gap, finding and fixing issues before exploitation. In the current landscape of rapidly advancing AI capabilities, this investment is increasingly essential.</p>
+<hr>
+<p><em>This framework presents red teaming methodology for general AI systems. Specific contexts—frontier models, high-stakes applications, novel capabilities—may require enhanced approaches beyond these baselines.</em></p>  </div> <footer class="article__footer" style="margin-top: var(--space-12); padding-top: var(--space-6); border-top: 1px solid var(--color-border);"> <div class="article-card__meta"> <a href="/tags" class="article-card__tag">Red Teaming</a><a href="/tags" class="article-card__tag">Security</a><a href="/tags" class="article-card__tag">Safety</a><a href="/tags" class="article-card__tag">Evaluation</a> </div> </footer> </article>  <aside class="toc-sidebar" id="toc-sidebar"> <div class="toc-sidebar__inner"> <div class="toc-sidebar__header"> <span class="toc-sidebar__title">On This Page</span> <button class="toc-sidebar__toggle" aria-label="Toggle table of contents" onclick="document.getElementById('toc-sidebar').classList.toggle('collapsed');"> <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </svg> </button> </div> <ul class="toc-sidebar__list"> <li style="margin-left: 0px"> <a href="#red-teaming-foundations">Red Teaming Foundations</a> </li><li style="margin-left: 0px"> <a href="#scope-definition">Scope Definition</a> </li><li style="margin-left: 12px"> <a href="#whats-in-scope">What’s In Scope</a> </li><li style="margin-left: 12px"> <a href="#whats-out-of-scope">What’s Out of Scope</a> </li><li style="margin-left: 12px"> <a href="#success-criteria">Success Criteria</a> </li><li style="margin-left: 0px"> <a href="#team-composition">Team Composition</a> </li><li style="margin-left: 12px"> <a href="#expertise-diversity">Expertise Diversity</a> </li><li style="margin-left: 12px"> <a href="#independence">Independence</a> </li><li style="margin-left: 12px"> <a href="#external-vs-internal-teams">External vs. Internal Teams</a> </li><li style="margin-left: 0px"> <a href="#testing-methodologies">Testing Methodologies</a> </li><li style="margin-left: 12px"> <a href="#systematic-coverage">Systematic Coverage</a> </li><li style="margin-left: 12px"> <a href="#creative-exploration">Creative Exploration</a> </li><li style="margin-left: 12px"> <a href="#automated-testing">Automated Testing</a> </li><li style="margin-left: 0px"> <a href="#attack-categories">Attack Categories</a> </li><li style="margin-left: 12px"> <a href="#prompt-injection">Prompt Injection</a> </li><li style="margin-left: 12px"> <a href="#jailbreaking">Jailbreaking</a> </li><li style="margin-left: 12px"> <a href="#capability-elicitation">Capability Elicitation</a> </li><li style="margin-left: 12px"> <a href="#data-extraction">Data Extraction</a> </li><li style="margin-left: 12px"> <a href="#misrepresentation-attacks">Misrepresentation Attacks</a> </li><li style="margin-left: 0px"> <a href="#documentation-and-reporting">Documentation and Reporting</a> </li><li style="margin-left: 12px"> <a href="#vulnerability-documentation">Vulnerability Documentation</a> </li><li style="margin-left: 12px"> <a href="#aggregate-reporting">Aggregate Reporting</a> </li><li style="margin-left: 12px"> <a href="#responsible-disclosure">Responsible Disclosure</a> </li><li style="margin-left: 0px"> <a href="#remediation-and-verification">Remediation and Verification</a> </li><li style="margin-left: 12px"> <a href="#remediation-tracking">Remediation Tracking</a> </li><li style="margin-left: 12px"> <a href="#verification-testing">Verification Testing</a> </li><li style="margin-left: 0px"> <a href="#ethical-considerations">Ethical Considerations</a> </li><li style="margin-left: 0px"> <a href="#maturity-model">Maturity Model</a> </li><li style="margin-left: 0px"> <a href="#integration-with-governance">Integration with Governance</a> </li><li style="margin-left: 0px"> <a href="#conclusion">Conclusion</a> </li> </ul> </div> </aside> </div> <div class="scroll-progress" id="scroll-progress"></div> <script type="module">const s=document.getElementById("scroll-progress");s&&window.addEventListener("scroll",()=>{const o=window.scrollY,e=document.documentElement.scrollHeight-window.innerHeight,t=o/e*100;s.style.width=`${t}%`});const r=document.querySelectorAll(".toc-sidebar__list a"),n=document.querySelectorAll(".article__content h2, .article__content h3");if(r.length>0&&n.length>0){const o=new IntersectionObserver(e=>{e.forEach(t=>{if(t.isIntersecting){r.forEach(i=>i.classList.remove("active"));const c=document.querySelector(`.toc-sidebar__list a[href="#${t.target.id}"]`);c&&c.classList.add("active")}})},{rootMargin:"-20% 0% -60% 0%"});n.forEach(e=>o.observe(e))}</script>  </main> <footer class="footer"> <div class="container footer__inner"> <a href="/" class="footer__brand"> <img src="/logo.png" alt="" class="footer__logo"> <span>Reflexive AI Initiative</span> </a> <div class="footer__links"> <a href="https://github.com/Reflexive-AI" class="footer__link" target="_blank" rel="noopener">GitHub</a> <a href="/research" class="footer__link">Research</a> <a href="/tags" class="footer__link">Tags</a> <a href="/contribute" class="footer__link">Contribute</a> </div> <div class="footer__meta"> <span>Maintained by <a href="https://eugenekondratov.eu" target="_blank" rel="noopener">Eugene Kondratov</a></span> <span>·</span> <a href="https://creativecommons.org/licenses/by/4.0/" class="footer__license" target="_blank" rel="noopener">CC BY 4.0</a> </div> </div> </footer> </body></html>

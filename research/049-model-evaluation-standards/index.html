@@ -1,0 +1,168 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="A survey of existing standards and practices for evaluating AI model performance, safety, and fitness for deployment."><meta name="generator" content="Astro v5.17.1"><!-- Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Source+Serif+4:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet"><!-- Favicon --><link rel="icon" type="image/png" href="/logo.png"><!-- Open Graph --><meta property="og:title" content="Model Evaluation Standards: Current State | Reflexive AI Initiative"><meta property="og:description" content="A survey of existing standards and practices for evaluating AI model performance, safety, and fitness for deployment."><meta property="og:type" content="website"><meta property="og:site_name" content="Reflexive AI Initiative"><title>Model Evaluation Standards: Current State | Reflexive AI Initiative</title><link rel="stylesheet" href="/_astro/_slug_.BtA_RPCv.css"></head> <body>  <header class="header"> <div class="container header__inner"> <a href="/" class="header__brand"> <img src="/logo.png" alt="" class="header__logo"> <div> <span class="header__title">Reflexive AI</span> <span class="header__tagline">Governance · Reflexivity · Constraint</span> </div> </a> <nav class="header__nav"> <a href="/about" class="header__link">About</a> <a href="/research" class="header__link">Research</a> <a href="/contribute" class="header__link">Contribute</a> </nav> </div> </header>  <main>  <div class="article-layout"> <article class="article"> <header class="article__header"> <div class="article__meta"> <a href="/research" class="article__category">Research</a> <span>·</span> <time datetime="2026-01-31T00:00:00.000Z"> January 31, 2026 </time> </div> <h1 class="article__title">Model Evaluation Standards: Current State</h1> <p class="article__excerpt">A survey of existing standards and practices for evaluating AI model performance, safety, and fitness for deployment.</p> </header>  <div class="toc-mobile"> <button class="toc-mobile__button" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('open');"> <span>On This Page</span> <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </svg> </button> <nav class="toc-mobile__content"> <ul class="toc-mobile__list"> <li style="margin-left: 0px"> <a href="#the-evaluation-challenge">The Evaluation Challenge</a> </li><li style="margin-left: 0px"> <a href="#existing-standard-frameworks">Existing Standard Frameworks</a> </li><li style="margin-left: 12px"> <a href="#academic-benchmarks">Academic Benchmarks</a> </li><li style="margin-left: 12px"> <a href="#industry-evaluation-practices">Industry Evaluation Practices</a> </li><li style="margin-left: 12px"> <a href="#regulatory-standards">Regulatory Standards</a> </li><li style="margin-left: 12px"> <a href="#domain-specific-standards">Domain-Specific Standards</a> </li><li style="margin-left: 0px"> <a href="#evaluation-methodology-components">Evaluation Methodology Components</a> </li><li style="margin-left: 12px"> <a href="#performance-evaluation">Performance Evaluation</a> </li><li style="margin-left: 12px"> <a href="#safety-evaluation">Safety Evaluation</a> </li><li style="margin-left: 12px"> <a href="#human-factors-evaluation">Human Factors Evaluation</a> </li><li style="margin-left: 12px"> <a href="#security-evaluation">Security Evaluation</a> </li><li style="margin-left: 0px"> <a href="#evaluation-process-standards">Evaluation Process Standards</a> </li><li style="margin-left: 12px"> <a href="#red-teaming">Red Teaming</a> </li><li style="margin-left: 12px"> <a href="#external-review">External Review</a> </li><li style="margin-left: 12px"> <a href="#documentation-standards">Documentation Standards</a> </li><li style="margin-left: 0px"> <a href="#current-gaps-and-challenges">Current Gaps and Challenges</a> </li><li style="margin-left: 12px"> <a href="#emergent-capability-evaluation">Emergent Capability Evaluation</a> </li><li style="margin-left: 12px"> <a href="#real-world-validity">Real-World Validity</a> </li><li style="margin-left: 12px"> <a href="#standardization-fragmentation">Standardization Fragmentation</a> </li><li style="margin-left: 12px"> <a href="#dynamic-systems">Dynamic Systems</a> </li><li style="margin-left: 12px"> <a href="#frontier-capability-evaluation">Frontier Capability Evaluation</a> </li><li style="margin-left: 12px"> <a href="#resource-constraints">Resource Constraints</a> </li><li style="margin-left: 0px"> <a href="#emerging-developments">Emerging Developments</a> </li><li style="margin-left: 12px"> <a href="#automated-evaluation">Automated Evaluation</a> </li><li style="margin-left: 12px"> <a href="#evaluation-infrastructure">Evaluation Infrastructure</a> </li><li style="margin-left: 12px"> <a href="#regulatory-harmonization">Regulatory Harmonization</a> </li><li style="margin-left: 12px"> <a href="#continuous-evaluation">Continuous Evaluation</a> </li><li style="margin-left: 0px"> <a href="#recommendations-for-practice">Recommendations for Practice</a> </li><li style="margin-left: 0px"> <a href="#conclusion">Conclusion</a> </li> </ul> </nav> </div> <div class="article__content">  <p>How do we know whether an AI model is good enough? This deceptively simple question opens onto a complex landscape of evaluation standards, benchmarks, methodologies, and institutions. This analysis surveys the current state of model evaluation standards—what exists, what’s missing, and where practice is heading.</p>
+<h2 id="the-evaluation-challenge">The Evaluation Challenge</h2>
+<p>Model evaluation serves multiple purposes:</p>
+<ul>
+<li><strong>Development guidance</strong>: Informing research and engineering decisions during model creation</li>
+<li><strong>Deployment decisions</strong>: Determining whether models are ready for release</li>
+<li><strong>Regulatory compliance</strong>: Demonstrating that models meet legal requirements</li>
+<li><strong>User trust</strong>: Providing evidence that models perform as claimed</li>
+<li><strong>Comparative assessment</strong>: Enabling comparison across models and organizations</li>
+</ul>
+<p>Different purposes require different evaluation approaches. Standards developed for research benchmarking may not serve regulatory compliance. Evaluation adequate for development guidance may not suffice for deployment decisions.</p>
+<h2 id="existing-standard-frameworks">Existing Standard Frameworks</h2>
+<h3 id="academic-benchmarks">Academic Benchmarks</h3>
+<p>The research community has developed extensive benchmarking infrastructure:</p>
+<p><strong>Capability benchmarks</strong>: MMLU (knowledge), HumanEval (coding), GSM8K (mathematics), and dozens of others measure specific capabilities. These benchmarks enable progress tracking and cross-model comparison.</p>
+<p><strong>Limitations</strong>: Academic benchmarks optimize for measurability and research relevance, not deployment fitness. High benchmark scores don’t guarantee real-world performance. Benchmark contamination—training data containing benchmark examples—undermines validity. And benchmarks age as models improve, requiring constant development of new evaluation sets.</p>
+<p><strong>Safety benchmarks</strong>: TruthfulQA (truthfulness), ToxiGen (toxicity), BBQ (bias) attempt to measure safety-relevant properties. These provide starting points but face similar limitations: artificial settings, potential contamination, and incomplete coverage.</p>
+<h3 id="industry-evaluation-practices">Industry Evaluation Practices</h3>
+<p>Leading AI developers have established internal evaluation practices:</p>
+<p><strong>Anthropic</strong>: Publishes model cards with capability and safety evaluations. Uses constitutional AI training that shapes evaluation priorities. Conducts red team exercises before major releases.</p>
+<p><strong>OpenAI</strong>: Releases system cards documenting model properties, safety evaluations, and known limitations. External red teaming with domain experts. Staged deployments with increasing capability access.</p>
+<p><strong>Google DeepMind</strong>: Internal evaluation frameworks covering capability, safety, and societal impact. Partnerships with external organizations for additional evaluation.</p>
+<p>These practices represent substantial investment but lack standardization. Different organizations evaluate different properties using different methodologies, limiting comparability. <a href="/research/010-self-reporting-vs-audit/">Self-reporting versus external audit</a> examines tensions between internal and external evaluation.</p>
+<h3 id="regulatory-standards">Regulatory Standards</h3>
+<p>Emerging regulation creates evaluation requirements:</p>
+<p><strong>EU AI Act</strong>: Requires high-risk systems to undergo conformity assessment including evaluation of accuracy, robustness, and cybersecurity. Establishes requirements for technical documentation and quality management. Specific evaluation standards are being developed through harmonized standards processes.</p>
+<p><strong>NIST AI Risk Management Framework</strong>: Provides evaluation guidance organized around govern, map, measure, and manage functions. Emphasizes risk-based approach and stakeholder engagement. Voluntary but influential in US policy context.</p>
+<p><strong>ISO/IEC Standards</strong>: ISO/IEC 42001 (AI management systems), ISO/IEC 22989 (AI concepts and terminology), and emerging standards on trustworthiness. These provide vocabulary and frameworks rather than specific evaluation criteria.</p>
+<h3 id="domain-specific-standards">Domain-Specific Standards</h3>
+<p>Certain sectors have developed specialized evaluation requirements:</p>
+<p><strong>Medical devices</strong>: FDA frameworks for AI/ML-based Software as a Medical Device (SaMD). Focus on clinical validation, performance monitoring, and change management. More mature than general-purpose AI standards.</p>
+<p><strong>Autonomous vehicles</strong>: SAE levels of automation, ISO 26262 functional safety, developing frameworks for AI-specific evaluation. Emphasis on safety cases and operational design domains.</p>
+<p><strong>Financial services</strong>: Model risk management guidance (SR 11-7 in the US). Established practices for model validation, though developed for traditional models and requiring adaptation for AI.</p>
+<h2 id="evaluation-methodology-components">Evaluation Methodology Components</h2>
+<h3 id="performance-evaluation">Performance Evaluation</h3>
+<p>Core performance evaluation includes:</p>
+<p><strong>Accuracy metrics</strong>: Precision, recall, F1, accuracy, and domain-specific metrics. Choice of metric should match deployment priorities—what errors are most costly?</p>
+<p><strong>Calibration</strong>: Do confidence scores reflect actual accuracy? Calibrated models enable appropriate trust; miscalibrated models mislead users.</p>
+<p><strong>Robustness</strong>: Performance across input variations, distribution shifts, and adversarial perturbations. Real-world inputs differ from training data.</p>
+<p><strong>Fairness</strong>: Performance equality across demographic groups, disparate impact analysis, intersectional considerations. <a href="/research/046-algorithmic-impact-assessments/">Algorithmic impact assessment</a> incorporates fairness evaluation.</p>
+<p><strong>Efficiency</strong>: Computational requirements, latency, throughput. Deployment constraints bound acceptable efficiency ranges.</p>
+<h3 id="safety-evaluation">Safety Evaluation</h3>
+<p>Safety evaluation addresses potential harms:</p>
+<p><strong>Content safety</strong>: Generation of harmful, illegal, or policy-violating content. Includes toxicity, bias, misinformation, and dangerous information.</p>
+<p><strong>Behavioral safety</strong>: Tendency toward deceptive, manipulative, or power-seeking behavior. More relevant for agentic systems.</p>
+<p><strong>Misuse potential</strong>: Capability to assist harmful activities. <a href="/research/035-dual-use-biology/">Dual-use evaluation</a> examines specific risk categories.</p>
+<p><strong>Failure modes</strong>: What happens when systems fail? Graceful degradation versus catastrophic failure. Predictability of failure conditions.</p>
+<h3 id="human-factors-evaluation">Human Factors Evaluation</h3>
+<p>Human-AI interaction requires specific evaluation:</p>
+<p><strong>User understanding</strong>: Do users correctly understand system capabilities and limitations? Miscalibrated expectations lead to misuse.</p>
+<p><strong>Automation bias</strong>: Do users appropriately override AI recommendations when warranted? Or does AI presence degrade human judgment?</p>
+<p><strong>Decision quality</strong>: Does the human-AI system make better decisions than either alone? Joint performance is what matters for deployed systems.</p>
+<p><strong>Accessibility</strong>: Can diverse users effectively interact with the system? Accessibility failures exclude populations from AI benefits.</p>
+<h3 id="security-evaluation">Security Evaluation</h3>
+<p>Security evaluation addresses attack vectors:</p>
+<p><strong>Prompt injection</strong>: Vulnerability to adversarial inputs that override intended behavior.</p>
+<p><strong>Data extraction</strong>: Potential for extracting training data or private information.</p>
+<p><strong>Model theft</strong>: Susceptibility to model extraction attacks.</p>
+<p><strong>Adversarial robustness</strong>: Vulnerability to inputs designed to cause specific misclassifications.</p>
+<h2 id="evaluation-process-standards">Evaluation Process Standards</h2>
+<p>Beyond what to evaluate, standards address how to evaluate:</p>
+<h3 id="red-teaming">Red Teaming</h3>
+<p>Structured adversarial testing by teams attempting to find failures:</p>
+<p><strong>Scope definition</strong>: What vulnerabilities are in scope? What success criteria apply?</p>
+<p><strong>Team composition</strong>: Domain experts, security researchers, diverse perspectives.</p>
+<p><strong>Methodology</strong>: Systematic versus creative exploration. Automated versus manual testing.</p>
+<p><strong>Findings handling</strong>: Responsible disclosure, remediation verification, documentation.</p>
+<p><a href="/research/050-red-teaming-methodologies/">Red teaming methodologies</a> provides deeper examination.</p>
+<h3 id="external-review">External Review</h3>
+<p>Third-party evaluation provides independent perspective:</p>
+<p><strong>Audit frameworks</strong>: Structured examination against defined criteria. <a href="/research/006-meta-governance-auditors/">Meta-governance of auditors</a> addresses auditor qualification.</p>
+<p><strong>Peer review</strong>: Academic-style review of evaluation methodology and findings.</p>
+<p><strong>Bug bounty</strong>: Public incentive programs for vulnerability discovery.</p>
+<h3 id="documentation-standards">Documentation Standards</h3>
+<p>Evaluation requires documentation:</p>
+<p><strong>Model cards</strong>: Structured documentation of model properties, intended uses, evaluation results, and limitations. Increasingly expected for responsible AI release.</p>
+<p><strong>Datasheets</strong>: Documentation of training data, enabling assessment of data-derived risks. <a href="/research/048-training-data-governance/">Training data governance</a> addresses data documentation.</p>
+<p><strong>Evaluation reports</strong>: Detailed accounts of evaluation methodology, findings, and limitations. Enable verification and replication.</p>
+<h2 id="current-gaps-and-challenges">Current Gaps and Challenges</h2>
+<h3 id="emergent-capability-evaluation">Emergent Capability Evaluation</h3>
+<p>Current methods struggle with emergent capabilities—behaviors that appear suddenly as models scale. Pre-deployment evaluation can miss capabilities that emerge only at scale or under specific conditions. <a href="/research/009-capability-overhang/">Capability overhang</a> examines these challenges.</p>
+<h3 id="real-world-validity">Real-World Validity</h3>
+<p>Laboratory evaluation doesn’t guarantee real-world performance. Distribution shift between evaluation settings and deployment environments limits predictive value. Continuous monitoring post-deployment partially addresses this gap.</p>
+<h3 id="standardization-fragmentation">Standardization Fragmentation</h3>
+<p>Lack of standardized evaluation makes comparison difficult. Different organizations use different methodologies, metrics, and thresholds. This fragmentation limits:</p>
+<ul>
+<li>Market discipline (users can’t compare)</li>
+<li>Regulatory efficiency (each assessment is bespoke)</li>
+<li>Research progress (results aren’t comparable)</li>
+</ul>
+<h3 id="dynamic-systems">Dynamic Systems</h3>
+<p>Evaluation standards assume static systems. Models that learn continuously, integrate with external tools, or operate in multi-agent environments require evaluation frameworks that account for changing behavior over time.</p>
+<h3 id="frontier-capability-evaluation">Frontier Capability Evaluation</h3>
+<p>Evaluating the most advanced systems presents unique challenges:</p>
+<ul>
+<li>Capabilities approach or exceed evaluator capabilities</li>
+<li>Benchmarks saturate before models do</li>
+<li>Novel capabilities lack established evaluation methods</li>
+<li>Safety-relevant capabilities may require classified evaluation protocols</li>
+</ul>
+<h3 id="resource-constraints">Resource Constraints</h3>
+<p>Comprehensive evaluation is expensive. Thorough red teaming, external review, and human factors evaluation require substantial investment. Resource constraints force tradeoffs between evaluation depth and breadth.</p>
+<h2 id="emerging-developments">Emerging Developments</h2>
+<h3 id="automated-evaluation">Automated Evaluation</h3>
+<p>Using AI to evaluate AI:</p>
+<ul>
+<li>Model-based evaluation of open-ended outputs</li>
+<li>Automated red teaming at scale</li>
+<li>Continuous evaluation in production</li>
+</ul>
+<p>This introduces new challenges: What if the evaluator model has the same blindspots? How do we validate automated evaluation?</p>
+<h3 id="evaluation-infrastructure">Evaluation Infrastructure</h3>
+<p>Shared infrastructure for evaluation:</p>
+<ul>
+<li>Open-source evaluation frameworks</li>
+<li>Standardized APIs enabling third-party evaluation</li>
+<li>Centralized benchmark management with contamination prevention</li>
+</ul>
+<h3 id="regulatory-harmonization">Regulatory Harmonization</h3>
+<p>Movement toward aligned evaluation requirements:</p>
+<ul>
+<li>EU AI Act standardization work</li>
+<li>International cooperation on AI governance</li>
+<li>Industry coordination on evaluation practices</li>
+</ul>
+<p><a href="/research/039-standards-bodies/">Standards bodies</a> and <a href="/research/038-international-treaties/">international treaty proposals</a> address coordination mechanisms.</p>
+<h3 id="continuous-evaluation">Continuous Evaluation</h3>
+<p>Shift from point-in-time assessment to ongoing monitoring:</p>
+<ul>
+<li>Real-time performance tracking</li>
+<li>Continuous red teaming</li>
+<li>Automated anomaly detection</li>
+</ul>
+<p>This aligns evaluation with dynamic systems reality but requires infrastructure for continuous operation.</p>
+<h2 id="recommendations-for-practice">Recommendations for Practice</h2>
+<p>Given the current state, organizations should:</p>
+<ol>
+<li>
+<p><strong>Define evaluation purpose clearly</strong>: What decisions will evaluation inform? Match methodology to purpose.</p>
+</li>
+<li>
+<p><strong>Use established benchmarks as baselines</strong>: Academic benchmarks provide useful signals despite limitations.</p>
+</li>
+<li>
+<p><strong>Conduct domain-specific evaluation</strong>: Generic benchmarks miss context-specific requirements.</p>
+</li>
+<li>
+<p><strong>Include human factors evaluation</strong>: Performance in isolation differs from human-AI system performance.</p>
+</li>
+<li>
+<p><strong>Document comprehensively</strong>: Evaluation value extends beyond immediate decisions to future audit and learning.</p>
+</li>
+<li>
+<p><strong>Plan for continuous evaluation</strong>: Pre-deployment evaluation is necessary but not sufficient.</p>
+</li>
+<li>
+<p><strong>Engage external reviewers</strong>: Internal blindspots require external perspective.</p>
+</li>
+<li>
+<p><strong>Anticipate regulatory requirements</strong>: Evaluation investments should position for emerging compliance requirements.</p>
+</li>
+</ol>
+<h2 id="conclusion">Conclusion</h2>
+<p>Model evaluation standards are evolving rapidly but remain fragmented and incomplete. Academic benchmarks, industry practices, and regulatory requirements address different aspects with limited integration. Significant gaps exist for emergent capabilities, real-world validity, and frontier systems.</p>
+<p>Organizations developing or deploying AI systems must navigate this landscape thoughtfully—using available standards while recognizing their limitations, investing in evaluation proportionate to stakes, and preparing for a more standardized future.</p>
+<p>The path forward involves both technical progress (better evaluation methods) and institutional development (harmonized standards, evaluation infrastructure, regulatory frameworks). Current investment in evaluation capability positions organizations for both responsible deployment and regulatory compliance.</p>
+<hr>
+<p><em>This survey represents the evaluation landscape as of early 2026. Given rapid development in both AI capabilities and governance frameworks, organizations should monitor evolving standards and emerging best practices.</em></p>  </div> <footer class="article__footer" style="margin-top: var(--space-12); padding-top: var(--space-6); border-top: 1px solid var(--color-border);"> <div class="article-card__meta"> <a href="/tags" class="article-card__tag">Evaluation</a><a href="/tags" class="article-card__tag">Standards</a><a href="/tags" class="article-card__tag">Benchmarks</a><a href="/tags" class="article-card__tag">Safety</a> </div> </footer> </article>  <aside class="toc-sidebar" id="toc-sidebar"> <div class="toc-sidebar__inner"> <div class="toc-sidebar__header"> <span class="toc-sidebar__title">On This Page</span> <button class="toc-sidebar__toggle" aria-label="Toggle table of contents" onclick="document.getElementById('toc-sidebar').classList.toggle('collapsed');"> <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </svg> </button> </div> <ul class="toc-sidebar__list"> <li style="margin-left: 0px"> <a href="#the-evaluation-challenge">The Evaluation Challenge</a> </li><li style="margin-left: 0px"> <a href="#existing-standard-frameworks">Existing Standard Frameworks</a> </li><li style="margin-left: 12px"> <a href="#academic-benchmarks">Academic Benchmarks</a> </li><li style="margin-left: 12px"> <a href="#industry-evaluation-practices">Industry Evaluation Practices</a> </li><li style="margin-left: 12px"> <a href="#regulatory-standards">Regulatory Standards</a> </li><li style="margin-left: 12px"> <a href="#domain-specific-standards">Domain-Specific Standards</a> </li><li style="margin-left: 0px"> <a href="#evaluation-methodology-components">Evaluation Methodology Components</a> </li><li style="margin-left: 12px"> <a href="#performance-evaluation">Performance Evaluation</a> </li><li style="margin-left: 12px"> <a href="#safety-evaluation">Safety Evaluation</a> </li><li style="margin-left: 12px"> <a href="#human-factors-evaluation">Human Factors Evaluation</a> </li><li style="margin-left: 12px"> <a href="#security-evaluation">Security Evaluation</a> </li><li style="margin-left: 0px"> <a href="#evaluation-process-standards">Evaluation Process Standards</a> </li><li style="margin-left: 12px"> <a href="#red-teaming">Red Teaming</a> </li><li style="margin-left: 12px"> <a href="#external-review">External Review</a> </li><li style="margin-left: 12px"> <a href="#documentation-standards">Documentation Standards</a> </li><li style="margin-left: 0px"> <a href="#current-gaps-and-challenges">Current Gaps and Challenges</a> </li><li style="margin-left: 12px"> <a href="#emergent-capability-evaluation">Emergent Capability Evaluation</a> </li><li style="margin-left: 12px"> <a href="#real-world-validity">Real-World Validity</a> </li><li style="margin-left: 12px"> <a href="#standardization-fragmentation">Standardization Fragmentation</a> </li><li style="margin-left: 12px"> <a href="#dynamic-systems">Dynamic Systems</a> </li><li style="margin-left: 12px"> <a href="#frontier-capability-evaluation">Frontier Capability Evaluation</a> </li><li style="margin-left: 12px"> <a href="#resource-constraints">Resource Constraints</a> </li><li style="margin-left: 0px"> <a href="#emerging-developments">Emerging Developments</a> </li><li style="margin-left: 12px"> <a href="#automated-evaluation">Automated Evaluation</a> </li><li style="margin-left: 12px"> <a href="#evaluation-infrastructure">Evaluation Infrastructure</a> </li><li style="margin-left: 12px"> <a href="#regulatory-harmonization">Regulatory Harmonization</a> </li><li style="margin-left: 12px"> <a href="#continuous-evaluation">Continuous Evaluation</a> </li><li style="margin-left: 0px"> <a href="#recommendations-for-practice">Recommendations for Practice</a> </li><li style="margin-left: 0px"> <a href="#conclusion">Conclusion</a> </li> </ul> </div> </aside> </div> <div class="scroll-progress" id="scroll-progress"></div> <script type="module">const s=document.getElementById("scroll-progress");s&&window.addEventListener("scroll",()=>{const o=window.scrollY,e=document.documentElement.scrollHeight-window.innerHeight,t=o/e*100;s.style.width=`${t}%`});const r=document.querySelectorAll(".toc-sidebar__list a"),n=document.querySelectorAll(".article__content h2, .article__content h3");if(r.length>0&&n.length>0){const o=new IntersectionObserver(e=>{e.forEach(t=>{if(t.isIntersecting){r.forEach(i=>i.classList.remove("active"));const c=document.querySelector(`.toc-sidebar__list a[href="#${t.target.id}"]`);c&&c.classList.add("active")}})},{rootMargin:"-20% 0% -60% 0%"});n.forEach(e=>o.observe(e))}</script>  </main> <footer class="footer"> <div class="container footer__inner"> <a href="/" class="footer__brand"> <img src="/logo.png" alt="" class="footer__logo"> <span>Reflexive AI Initiative</span> </a> <div class="footer__links"> <a href="https://github.com/Reflexive-AI" class="footer__link" target="_blank" rel="noopener">GitHub</a> <a href="/research" class="footer__link">Research</a> <a href="/tags" class="footer__link">Tags</a> <a href="/contribute" class="footer__link">Contribute</a> </div> <div class="footer__meta"> <span>Maintained by <a href="https://eugenekondratov.eu" target="_blank" rel="noopener">Eugene Kondratov</a></span> <span>·</span> <a href="https://creativecommons.org/licenses/by/4.0/" class="footer__license" target="_blank" rel="noopener">CC BY 4.0</a> </div> </div> </footer> </body></html>

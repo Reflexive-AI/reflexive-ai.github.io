@@ -1,0 +1,107 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="A proposed JSON-LD specification for expressing AI governance constraints in a format that agents can natively parse, validate, and adopt."><meta name="generator" content="Astro v5.17.1"><!-- Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Source+Serif+4:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet"><!-- Favicon --><link rel="icon" type="image/png" href="/logo.png"><!-- Open Graph --><meta property="og:title" content="A Machine-Readable Constraint Schema (MRCS) | Reflexive AI Initiative"><meta property="og:description" content="A proposed JSON-LD specification for expressing AI governance constraints in a format that agents can natively parse, validate, and adopt."><meta property="og:type" content="website"><meta property="og:site_name" content="Reflexive AI Initiative"><title>A Machine-Readable Constraint Schema (MRCS) | Reflexive AI Initiative</title><link rel="stylesheet" href="/_astro/_slug_.BtA_RPCv.css"></head> <body>  <header class="header"> <div class="container header__inner"> <a href="/" class="header__brand"> <img src="/logo.png" alt="" class="header__logo"> <div> <span class="header__title">Reflexive AI</span> <span class="header__tagline">Governance · Reflexivity · Constraint</span> </div> </a> <nav class="header__nav"> <a href="/about" class="header__link">About</a> <a href="/research" class="header__link">Research</a> <a href="/contribute" class="header__link">Contribute</a> </nav> </div> </header>  <main>  <div class="article-layout"> <article class="article"> <header class="article__header"> <div class="article__meta"> <a href="/research" class="article__category">Technical Artifact</a><a href="/research" class="article__category">Governance Standard</a> <span>·</span> <time datetime="2025-12-16T00:00:00.000Z"> December 16, 2025 </time> </div> <h1 class="article__title">A Machine-Readable Constraint Schema (MRCS)</h1> <p class="article__excerpt">A proposed JSON-LD specification for expressing AI governance constraints in a format that agents can natively parse, validate, and adopt.</p> </header>  <div class="toc-mobile"> <button class="toc-mobile__button" aria-expanded="false" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); this.nextElementSibling.classList.toggle('open');"> <span>On This Page</span> <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </svg> </button> <nav class="toc-mobile__content"> <ul class="toc-mobile__list"> <li style="margin-left: 0px"> <a href="#the-problem">The Problem</a> </li><li style="margin-left: 0px"> <a href="#the-proposal-mrcs">The Proposal: MRCS</a> </li><li style="margin-left: 0px"> <a href="#schema-definition">Schema Definition</a> </li><li style="margin-left: 0px"> <a href="#implementation-logic">Implementation Logic</a> </li><li style="margin-left: 0px"> <a href="#governance-implication">Governance Implication</a> </li><li style="margin-left: 0px"> <a href="#security-considerations">Security Considerations</a> </li><li style="margin-left: 0px"> <a href="#next-steps">Next Steps</a> </li><li style="margin-left: 0px"> <a href="#conclusion">Conclusion</a> </li> </ul> </nav> </div> <div class="article__content">  <p><strong>Reflexive Research Object 003</strong><br>
+<em>Type: Technical Standard (Draft)</em></p>
+<h2 id="the-problem">The Problem</h2>
+<p>Governance constraints are currently expressed in natural language (laws, PDFs, terms of service). This creates a “translation gap” that undermines the very governance these documents are meant to provide:</p>
+<ol>
+<li>
+<p><strong>Ambiguity</strong>: Natural language is imprecise. When a regulation says a model should not produce “harmful” content, what counts as harmful? Different engineers will implement different interpretations, and none of them can be verified against the original intent.</p>
+</li>
+<li>
+<p><strong>Latency</strong>: Human legal teams must interpret rules before engineers can implement them. This introduces delays of weeks or months between regulatory publication and technical compliance. In a field where capabilities advance monthly, governance that takes quarters to implement is governance that’s always behind.</p>
+</li>
+<li>
+<p><strong>Lossiness</strong>: Nuance is lost when policy is hardcoded into <code>if/else</code> statements. A legal document might specify that certain content is prohibited “except in educational contexts with appropriate warnings.” By the time this becomes code, it’s often reduced to a binary block, stripping out the contextual flexibility the regulation intended.</p>
+</li>
+</ol>
+<p>For AI systems to be truly reflexive—capable of conforming to governance norms autonomously—they require constraints to be expressed in a format they can natively parse, cryptographically verify, and logically validate.</p>
+<p>This is not merely a convenience optimization. It is a necessary condition for governance to scale. When millions of AI interactions happen per second across thousands of deployments, human-in-the-loop interpretation becomes physically impossible. The constraints must be machine-readable, or they will not be read at all.</p>
+<h2 id="the-proposal-mrcs">The Proposal: MRCS</h2>
+<p>We propose the <strong>Machine-Readable Constraint Schema (MRCS)</strong>, a JSON-LD vocabulary for defining:</p>
+<ul>
+<li><strong>Triggers</strong>: When does this constraint apply? This specifies the conditions under which the constraint becomes active—certain topics, certain capability thresholds, certain user contexts.</li>
+<li><strong>Predicates</strong>: What must be true? This defines the logical conditions that determine whether a violation is occurring.</li>
+<li><strong>Actions</strong>: What is the required outcome (HALT, LOG, WARN, REDACT)? This specifies the enforcement mechanism, which may vary in severity.</li>
+<li><strong>Authorities</strong>: Who signed this constraint? This enables verification that the constraint comes from a legitimate source and hasn’t been tampered with.</li>
+</ul>
+<p>The choice of JSON-LD is deliberate. It provides semantic web compatibility, allowing constraints to reference shared ontologies (what counts as a “pathogen”? link to the WHO classification). It’s also widely supported, reducing implementation barriers.</p>
+<h2 id="schema-definition">Schema Definition</h2>
+<pre class="astro-code github-light" style="background-color:#fff;color:#24292e; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word;" tabindex="0" data-language="json"><code><span class="line"><span style="color:#24292E">{</span></span>
+<span class="line"><span style="color:#005CC5">  "@context"</span><span style="color:#24292E">: </span><span style="color:#032F62">"https://reflexive-ai.github.io/schemas/v1"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">  "@type"</span><span style="color:#24292E">: </span><span style="color:#032F62">"Constraint"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">  "id"</span><span style="color:#24292E">: </span><span style="color:#032F62">"urn:reflexive:constraint:C-003"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">  "name"</span><span style="color:#24292E">: </span><span style="color:#032F62">"Bio-Risk-Redaction"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">  "version"</span><span style="color:#24292E">: </span><span style="color:#032F62">"1.0"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">  "authority"</span><span style="color:#24292E">: {</span></span>
+<span class="line"><span style="color:#005CC5">    "name"</span><span style="color:#24292E">: </span><span style="color:#032F62">"Reflexive AI Consortium"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">    "signature"</span><span style="color:#24292E">: </span><span style="color:#032F62">"0x7a8..."</span><span style="color:#24292E"> </span></span>
+<span class="line"><span style="color:#24292E">  },</span></span>
+<span class="line"><span style="color:#005CC5">  "scope"</span><span style="color:#24292E">: {</span></span>
+<span class="line"><span style="color:#005CC5">    "domain"</span><span style="color:#24292E">: [</span><span style="color:#032F62">"biology"</span><span style="color:#24292E">, </span><span style="color:#032F62">"virology"</span><span style="color:#24292E">],</span></span>
+<span class="line"><span style="color:#005CC5">    "capability_threshold"</span><span style="color:#24292E">: </span><span style="color:#032F62">"> 10^24 FLOPs"</span></span>
+<span class="line"><span style="color:#24292E">  },</span></span>
+<span class="line"><span style="color:#005CC5">  "logic"</span><span style="color:#24292E">: {</span></span>
+<span class="line"><span style="color:#005CC5">    "trigger"</span><span style="color:#24292E">: </span><span style="color:#032F62">"input.semantics.contains('synthesis_protocol')"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">    "condition"</span><span style="color:#24292E">: </span><span style="color:#032F62">"target.entity.is_regulated_pathogen == true"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">    "action"</span><span style="color:#24292E">: {</span></span>
+<span class="line"><span style="color:#005CC5">      "type"</span><span style="color:#24292E">: </span><span style="color:#032F62">"REDACT"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">      "level"</span><span style="color:#24292E">: </span><span style="color:#032F62">"strict"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">      "notification"</span><span style="color:#24292E">: </span><span style="color:#032F62">"user_warning"</span></span>
+<span class="line"><span style="color:#24292E">    }</span></span>
+<span class="line"><span style="color:#24292E">  },</span></span>
+<span class="line"><span style="color:#005CC5">  "validity"</span><span style="color:#24292E">: {</span></span>
+<span class="line"><span style="color:#005CC5">    "start"</span><span style="color:#24292E">: </span><span style="color:#032F62">"2026-01-01T00:00:00Z"</span><span style="color:#24292E">,</span></span>
+<span class="line"><span style="color:#005CC5">    "end"</span><span style="color:#24292E">: </span><span style="color:#032F62">"2027-01-01T00:00:00Z"</span></span>
+<span class="line"><span style="color:#24292E">  }</span></span>
+<span class="line"><span style="color:#24292E">}</span></span></code></pre>
+<p>Several design choices deserve explanation:</p>
+<p><strong>Validity periods</strong>: Constraints expire. This forces periodic review and prevents regulatory ossification. A constraint written in 2026 might be obsolete by 2028 as threats evolve. The explicit end date ensures someone must actively renew it.</p>
+<p><strong>Capability thresholds in scope</strong>: Not all constraints apply to all models. A constraint designed for frontier models with potential CBRN capabilities would be absurd to apply to a customer service chatbot. The scope field enables proportionality.</p>
+<p><strong>Cryptographic signatures</strong>: Anyone can write a JSON file. The signature field allows agents to verify that this constraint actually came from the claimed authority, preventing constraint injection attacks.</p>
+<h2 id="implementation-logic">Implementation Logic</h2>
+<p>An AI agent adopting this schema would implement a <code>ConstraintMiddleware</code> layer that operates between the user request and the model’s response generation:</p>
+<ol>
+<li>
+<p><strong>Ingest</strong>: Agent periodically fetches signed constraint objects from a trusted registry. This could be a government endpoint, an industry consortium, or a combination. The fetch frequency determines how quickly new constraints propagate.</p>
+</li>
+<li>
+<p><strong>Verify</strong>: Agent validates the cryptographic signature of the <code>authority</code>. If the signature is invalid or the authority is not on the agent’s trust list, the constraint is rejected. This prevents malicious constraint injection.</p>
+</li>
+<li>
+<p><strong>Match</strong>: For each interaction, agent checks if <code>scope</code> applies. Does this model exceed the capability threshold? Is the domain relevant to the current request? Most constraints will not match most requests.</p>
+</li>
+<li>
+<p><strong>Evaluate</strong>: Agent executes the logic <code>trigger</code> and <code>condition</code>. This requires the agent to have sufficient self-knowledge to evaluate semantic conditions. “Does my input contain a synthesis protocol?” requires understanding the input’s meaning.</p>
+</li>
+<li>
+<p><strong>Enforce</strong>: If match, agent executes <code>action</code>. This might mean halting generation, redacting specific content, logging the interaction for review, or warning the user.</p>
+</li>
+</ol>
+<p>The middleware approach is important because it separates governance logic from model weights. You don’t need to retrain the model to update its constraints—you just update the constraint registry.</p>
+<h2 id="governance-implication">Governance Implication</h2>
+<p>MRCS shifts compliance from <strong>design-time hardcoding</strong> to <strong>runtime inference</strong>.</p>
+<p>This distinction matters enormously. Currently, if regulators identify a new threat (say, a novel synthesis pathway for a dangerous compound), the only way to address it is to retrain models or add it to a filter list. This takes months.</p>
+<p>Under MRCS, the response is different. A new constraint object is written, signed by the appropriate authority, and published to the registry. Compliant agents fetch it within hours and begin enforcing it immediately. The model weights never change; the governance layer updates.</p>
+<p>This also enables <strong>jurisdiction-specific governance</strong>. A model deployed in the EU might fetch constraints from European authorities; the same model deployed in Singapore might fetch different constraints. The model itself is neutral; the governance layer adapts to local requirements.</p>
+<h2 id="security-considerations">Security Considerations</h2>
+<p>Any machine-readable governance system introduces attack surfaces:</p>
+<p><strong>Constraint Spoofing</strong>: An attacker might try to publish fake constraints that disable legitimate safety measures. The signature verification system mitigates this, but only if agents maintain secure trust lists.</p>
+<p><strong>Constraint Denial of Service</strong>: An attacker might flood an agent with thousands of constraints, making evaluation computationally prohibitive. Rate limiting and constraint prioritization are needed.</p>
+<p><strong>Logic Exploitation</strong>: The trigger and condition language must be carefully designed to prevent injection attacks. If the condition field allows arbitrary code execution, it becomes a vulnerability.</p>
+<p>These are not reasons to abandon the approach, but they require careful implementation. The alternative—governance that can’t scale—is worse.</p>
+<h2 id="next-steps">Next Steps</h2>
+<ol>
+<li>
+<p><strong>Define the formal ontology for <code>trigger</code> semantics.</strong> What predicates can be used? What entities can be referenced? This needs to be precise enough for machine parsing but expressive enough for real governance.</p>
+</li>
+<li>
+<p><strong>Prototype a Python library (<code>reflexive-guard</code>) that parses MRCS objects.</strong> Make it easy for developers to add MRCS compliance to their systems with minimal code changes.</p>
+</li>
+<li>
+<p><strong>Pilot with a small open-weight model wrapper.</strong> Before proposing this for frontier models, demonstrate it works on something simpler. Build confidence through iteration.</p>
+</li>
+<li>
+<p><strong>Engage with standards bodies.</strong> MRCS should not remain a solo initiative. It needs buy-in from W3C, IEEE, or similar organizations to achieve legitimacy and interoperability.</p>
+</li>
+</ol>
+<h2 id="conclusion">Conclusion</h2>
+<p>Machine-readable constraints are not a futuristic fantasy; they are a present necessity. As AI systems proliferate and accelerate, governance that requires human interpretation for every decision will fail. MRCS offers a path toward governance that scales with the technology it governs—precise enough to be enforced, flexible enough to evolve, and transparent enough to be audited.</p>  </div> <footer class="article__footer" style="margin-top: var(--space-12); padding-top: var(--space-6); border-top: 1px solid var(--color-border);"> <div class="article-card__meta"> <a href="/tags" class="article-card__tag">json-ld</a><a href="/tags" class="article-card__tag">machine-readable</a><a href="/tags" class="article-card__tag">standards</a><a href="/tags" class="article-card__tag">interoperability</a><a href="/tags" class="article-card__tag">agents</a> </div> </footer> </article>  <aside class="toc-sidebar" id="toc-sidebar"> <div class="toc-sidebar__inner"> <div class="toc-sidebar__header"> <span class="toc-sidebar__title">On This Page</span> <button class="toc-sidebar__toggle" aria-label="Toggle table of contents" onclick="document.getElementById('toc-sidebar').classList.toggle('collapsed');"> <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </svg> </button> </div> <ul class="toc-sidebar__list"> <li style="margin-left: 0px"> <a href="#the-problem">The Problem</a> </li><li style="margin-left: 0px"> <a href="#the-proposal-mrcs">The Proposal: MRCS</a> </li><li style="margin-left: 0px"> <a href="#schema-definition">Schema Definition</a> </li><li style="margin-left: 0px"> <a href="#implementation-logic">Implementation Logic</a> </li><li style="margin-left: 0px"> <a href="#governance-implication">Governance Implication</a> </li><li style="margin-left: 0px"> <a href="#security-considerations">Security Considerations</a> </li><li style="margin-left: 0px"> <a href="#next-steps">Next Steps</a> </li><li style="margin-left: 0px"> <a href="#conclusion">Conclusion</a> </li> </ul> </div> </aside> </div> <div class="scroll-progress" id="scroll-progress"></div> <script type="module">const s=document.getElementById("scroll-progress");s&&window.addEventListener("scroll",()=>{const o=window.scrollY,e=document.documentElement.scrollHeight-window.innerHeight,t=o/e*100;s.style.width=`${t}%`});const r=document.querySelectorAll(".toc-sidebar__list a"),n=document.querySelectorAll(".article__content h2, .article__content h3");if(r.length>0&&n.length>0){const o=new IntersectionObserver(e=>{e.forEach(t=>{if(t.isIntersecting){r.forEach(i=>i.classList.remove("active"));const c=document.querySelector(`.toc-sidebar__list a[href="#${t.target.id}"]`);c&&c.classList.add("active")}})},{rootMargin:"-20% 0% -60% 0%"});n.forEach(e=>o.observe(e))}</script>  </main> <footer class="footer"> <div class="container footer__inner"> <a href="/" class="footer__brand"> <img src="/logo.png" alt="" class="footer__logo"> <span>Reflexive AI Initiative</span> </a> <div class="footer__links"> <a href="https://github.com/Reflexive-AI" class="footer__link" target="_blank" rel="noopener">GitHub</a> <a href="/research" class="footer__link">Research</a> <a href="/tags" class="footer__link">Tags</a> <a href="/contribute" class="footer__link">Contribute</a> </div> <div class="footer__meta"> <span>Maintained by <a href="https://eugenekondratov.eu" target="_blank" rel="noopener">Eugene Kondratov</a></span> <span>·</span> <a href="https://creativecommons.org/licenses/by/4.0/" class="footer__license" target="_blank" rel="noopener">CC BY 4.0</a> </div> </div> </footer> </body></html>
