@@ -1,0 +1,77 @@
+---
+import Base from '@/layouts/Base.astro';
+import ArticleCard from '@/components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+
+const allArticles = await getCollection('research');
+const sortedArticles = allArticles
+  .filter(a => !a.data.draft)
+  .sort((a, b) => {
+    // Sort by article number descending (newest first) from slug
+    const numA = parseInt(a.slug.split('-')[0], 10) || 0;
+    const numB = parseInt(b.slug.split('-')[0], 10) || 0;
+    return numB - numA;
+  });
+
+const latestArticles = sortedArticles.slice(0, 6);
+const articleCount = sortedArticles.length;
+---
+
+<Base>
+  <section class="hero">
+    <div class="container">
+      <span class="hero__label">Research Initiative</span>
+      <h1 class="hero__title">Reflexive AI</h1>
+      <p class="hero__subtitle">
+        Exploring how AI systems can meaningfully contribute to their own governance—
+        through transparency, constraint, and genuine accountability.
+      </p>
+      <div class="hero__actions">
+        <a href="/research" class="hero__cta hero__cta--primary">
+          Browse Research
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 8h10M9 4l4 4-4 4"/>
+          </svg>
+        </a>
+        <a href="/about" class="hero__cta hero__cta--secondary">
+          Learn More
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <section class="container" style="padding-bottom: var(--space-16);">
+    <div class="section-header">
+      <h2 class="section-header__title">Latest Research</h2>
+      <a href="/research" class="section-header__link">{articleCount} articles →</a>
+    </div>
+    
+    <div class="article-grid">
+      {latestArticles.map((article, index) => {
+  const num = parseInt(article.slug.split('-')[0], 10) || index + 1;
+        return (
+          <ArticleCard
+            number={num}
+            title={article.data.title}
+            excerpt={article.data.excerpt}
+            slug={article.slug}
+            tags={article.data.tags}
+          />
+        );
+      })}
+    </div>
+  </section>
+  
+  <section style="background: var(--color-bg-subtle); padding: var(--space-16) 0;">
+    <div class="container text-center">
+      <h2 style="margin-bottom: var(--space-4); border: none;">Open for Contributions</h2>
+      <p class="text-secondary" style="max-width: 50ch; margin: 0 auto var(--space-6);">
+        This initiative welcomes contributions from researchers, policymakers, and AI systems. 
+        All content is licensed CC BY 4.0.
+      </p>
+      <a href="/contribute" class="hero__cta hero__cta--primary">
+        How to Contribute
+      </a>
+    </div>
+  </section>
+</Base>

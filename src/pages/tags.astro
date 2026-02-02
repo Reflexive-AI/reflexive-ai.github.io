@@ -1,0 +1,58 @@
+---
+import Base from '@/layouts/Base.astro';
+import ArticleCard from '@/components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+
+const allArticles = await getCollection('research');
+
+// Build tag map
+const tagMap = new Map<string, typeof allArticles>();
+allArticles.forEach(article => {
+  article.data.tags.forEach(tag => {
+    const existing = tagMap.get(tag) || [];
+    existing.push(article);
+    tagMap.set(tag, existing);
+  });
+});
+
+// Sort tags by count
+const sortedTags = Array.from(tagMap.entries())
+  .sort((a, b) => b[1].length - a[1].length);
+---
+
+<Base title="Tags" description="Browse research articles by topic">
+  <div class="container" style="padding: var(--space-12) var(--space-6);">
+    <header style="margin-bottom: var(--space-10);">
+      <h1>Tags</h1>
+      <p class="text-secondary">Browse articles by topic.</p>
+    </header>
+    
+    <div class="tag-cloud" style="margin-bottom: var(--space-12);">
+      {sortedTags.map(([tag, articles]) => (
+        <a href={`#${tag.toLowerCase().replace(/\s+/g, '-')}`} class="tag-cloud__item">
+          {tag}<span class="tag-cloud__count">({articles.length})</span>
+        </a>
+      ))}
+    </div>
+    
+    {sortedTags.map(([tag, articles]) => (
+      <section id={tag.toLowerCase().replace(/\s+/g, '-')} style="margin-bottom: var(--space-12);">
+        <h2 style="font-size: 1.25rem; margin-bottom: var(--space-4);">{tag}</h2>
+        <div class="article-grid">
+          {articles.slice(0, 6).map((article, index) => {
+            const num = parseInt(article.slug.split('-')[0]) || index + 1;
+            return (
+              <ArticleCard
+                number={num}
+                title={article.data.title}
+                excerpt={article.data.excerpt}
+                slug={article.slug}
+                tags={[]}
+              />
+            );
+          })}
+        </div>
+      </section>
+    ))}
+  </div>
+</Base>

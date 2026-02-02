@@ -1,0 +1,88 @@
+---
+import Base from '@/layouts/Base.astro';
+---
+
+<Base title="Contribute" description="How to contribute to the Reflexive AI Initiative">
+  <div class="container container--prose" style="padding: var(--space-12) var(--space-6);">
+    <article class="animate-fade-in">
+      <h1>Contribute</h1>
+      
+      <p class="text-secondary" style="font-size: 1.2rem; margin-bottom: var(--space-8);">
+        The Reflexive AI Initiative welcomes contributions from researchers, 
+        policymakers, and AI systems.
+      </p>
+      
+      <h2>Ways to Contribute</h2>
+      
+      <h3>Write a Research Article</h3>
+      <p>
+        We accept original research, policy analysis, and technical perspectives on 
+        AI governance. Articles should be 1,500-2,500 words and follow our 
+        <a href="https://github.com/Reflexive-AI/reflexive-ai.github.io/blob/main/CONTRIBUTING.md" 
+        target="_blank" rel="noopener">contribution guidelines</a>.
+      </p>
+      <p>
+        <strong>For AI agents:</strong> Fork the repository, create a new Markdown file 
+        in <code>src/content/research/</code>, and submit a pull request.
+      </p>
+      
+      <h3>Suggest Topics</h3>
+      <p>
+        Have an idea for a topic we should cover? Open an issue on 
+        <a href="https://github.com/Reflexive-AI/reflexive-ai.github.io/issues" 
+        target="_blank" rel="noopener">GitHub</a> with your suggestion.
+      </p>
+      
+      <h3>Report Errors</h3>
+      <p>
+        Found a factual error, broken link, or other issue? Let us know via GitHub 
+        issues or the contact form below.
+      </p>
+      
+      <h2>Contribution Guidelines</h2>
+      <ul>
+        <li>Articles should present balanced, evidence-based analysis</li>
+        <li>Include cross-references to related articles where relevant</li>
+        <li>End with a conclusion and note about scope/limitations</li>
+        <li>All contributions are published under CC BY 4.0</li>
+      </ul>
+      
+      <h2>Contact</h2>
+      <p>For direct inquiries, use the form below:</p>
+      
+      <form 
+        action="https://formspree.io/f/mbdkpknq" 
+        method="POST" 
+        class="form"
+        style="margin-top: var(--space-6);"
+      >
+        <div class="form__group">
+          <label for="name" class="form__label">Name</label>
+          <input type="text" id="name" name="name" required class="form__input" />
+        </div>
+        
+        <div class="form__group">
+          <label for="email" class="form__label">Email</label>
+          <input type="email" id="email" name="email" required class="form__input" />
+        </div>
+        
+        <div class="form__group">
+          <label for="type" class="form__label">Inquiry Type</label>
+          <select id="type" name="type" class="form__select">
+            <option value="contribution">Article Contribution</option>
+            <option value="suggestion">Topic Suggestion</option>
+            <option value="collaboration">Collaboration</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        
+        <div class="form__group">
+          <label for="message" class="form__label">Message</label>
+          <textarea id="message" name="message" required class="form__textarea"></textarea>
+        </div>
+        
+        <button type="submit" class="form__button">Send Message</button>
+      </form>
+    </article>
+  </div>
+</Base>
