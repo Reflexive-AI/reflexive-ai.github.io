@@ -47,8 +47,8 @@ const articleCount = sortedArticles.length;
     </div>
     
     <div class="article-grid">
-      {latestArticles.map((article, index) => {
-  const num = parseInt(article.slug.split('-')[0], 10) || index + 1;
+      {latestArticles.map((article) => {
+        const num = parseInt(article.slug.split('-')[0], 10);
         return (
           <ArticleCard
             number={num}

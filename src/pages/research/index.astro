@@ -25,8 +25,8 @@ const sortedArticles = allArticles
     </header>
     
     <div class="article-grid">
-      {sortedArticles.map((article, index) => {
-  const num = parseInt(article.slug.split('-')[0], 10) || index + 1;
+      {sortedArticles.map((article) => {
+        const num = parseInt(article.slug.split('-')[0], 10);
         return (
           <ArticleCard
             number={num}
