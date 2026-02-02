@@ -1,20 +1,5 @@
 ---
 import Base from '@/layouts/Base.astro';
-import ArticleCard from '@/components/ArticleCard.astro';
-import { getCollection } from 'astro:content';
-
-const allArticles = await getCollection('research');
-const sortedArticles = allArticles
-  .filter(a => !a.data.draft)
-  .sort((a, b) => {
-    // Sort by article number extracted from slug (e.g., "051-foo")
-    const numA = parseInt(a.slug.split('-')[0], 10) || 0;
-    const numB = parseInt(b.slug.split('-')[0], 10) || 0;
-    return numB - numA; // Descending: newest first
-  });
-
-const latestArticles = sortedArticles.slice(0, 6);
-const articleCount = sortedArticles.length;
 ---
 
 <Base>
@@ -37,28 +22,6 @@ const articleCount = sortedArticles.length;
           Learn More
         </a>
       </div>
-    </div>
-  </section>
-  
-  <section class="container" style="padding-bottom: var(--space-16);">
-    <div class="section-header">
-      <h2 class="section-header__title">Latest Research</h2>
-      <a href="/research" class="section-header__link">{articleCount} articles →</a>
-    </div>
-    
-    <div class="article-grid">
-      {latestArticles.map((article) => {
-        const num = parseInt(article.slug.split('-')[0], 10);
-        return (
-          <ArticleCard
-            number={num}
-            title={article.data.title}
-            excerpt={article.data.excerpt}
-            slug={article.slug}
-            tags={article.data.tags}
-          />
-        );
-      })}
     </div>
   </section>
   
