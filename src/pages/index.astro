@@ -7,10 +7,10 @@ const allArticles = await getCollection('research');
 const sortedArticles = allArticles
   .filter(a => !a.data.draft)
   .sort((a, b) => {
-    // Sort by article number descending (newest first) from slug
+    // Sort by article number extracted from slug (e.g., "051-foo")
     const numA = parseInt(a.slug.split('-')[0], 10) || 0;
     const numB = parseInt(b.slug.split('-')[0], 10) || 0;
-    return numB - numA;
+    return numB - numA; // Descending: newest first
   });
 
 const latestArticles = sortedArticles.slice(0, 6);
