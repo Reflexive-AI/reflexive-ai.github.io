@@ -25,7 +25,7 @@ The gap between assessment and action stems from structural problems. Many frame
 
 Effective assessment begins before any formal process starts. Organizations must establish clear authority for the assessment team—including the power to delay or block deployment if harms cannot be mitigated. Without real authority, assessments become documentation exercises.
 
-The assessment team requires independence from the deployment team. This doesn't mean external reviewers for every system, but internal assessors shouldn't report to project managers with delivery pressures. [Corporate governance structures](/research/042-corporate-governance-structures/) that separate oversight from development enable more honest evaluation.
+The assessment team requires independence from the deployment team. This doesn't mean external reviewers for every system, but internal assessors shouldn't report to project managers with delivery pressures. [Corporate governance structures](/research/042-corporate-governance/) that separate oversight from development enable more honest evaluation.
 
 Scoping decisions shape everything that follows. The system boundary determines which impacts get counted. Drawing the boundary narrowly—counting only direct outputs rather than downstream effects—systematically undercounts harm. Better practice: extend the boundary to include reasonably foreseeable uses and second-order effects, acknowledging uncertainty increases with distance.
 
@@ -41,7 +41,7 @@ Methods for identifying overlooked stakeholders:
 - **Power analysis**: Who lacks voice in deployment decisions?
 - **Historical review**: Who was harmed by analogous systems?
 
-Meaningful stakeholder engagement requires resources—time, accessibility, compensation for participation. Rushed consultations that extract input without enabling genuine influence undermine both the assessment and community trust. [Public participation frameworks](/research/045-public-participation-ai-policy/) offer models for authentic engagement.
+Meaningful stakeholder engagement requires resources—time, accessibility, compensation for participation. Rushed consultations that extract input without enabling genuine influence undermine both the assessment and community trust. [Public participation frameworks](/research/045-public-participation/) offer models for authentic engagement.
 
 ## Risk Identification Methodology
 
@@ -109,13 +109,13 @@ AIAs that live in a compliance silo have limited impact. Integration with produc
 
 Product requirements should reference assessment findings. Design reviews should verify that assessment-recommended mitigations have been implemented. Launch gates should include sign-off from assessment functions.
 
-[Board-level oversight](/research/043-board-level-oversight/) provides escalation paths for high-stakes assessments. When assessment teams identify risks beyond their authority to mitigate, governance structures should enable executive decision-making with full visibility.
+[Board-level oversight](/research/043-board-oversight/) provides escalation paths for high-stakes assessments. When assessment teams identify risks beyond their authority to mitigate, governance structures should enable executive decision-making with full visibility.
 
 ## Regulatory Alignment
 
 Multiple regulatory frameworks now require impact assessments: the EU AI Act for high-risk systems, sector-specific requirements in finance and healthcare, municipal ordinances for public-sector use. Designing assessment processes that satisfy multiple requirements reduces duplication while ensuring compliance.
 
-However, regulatory floors shouldn't become ceilings. Compliance-driven assessment meets legal requirements but may miss context-specific harms. Organizations with genuine safety commitments exceed minimum requirements, treating regulation as baseline rather than target. [Soft law frameworks](/research/040-soft-law-vs-hard-law/) often extend beyond hard law requirements.
+However, regulatory floors shouldn't become ceilings. Compliance-driven assessment meets legal requirements but may miss context-specific harms. Organizations with genuine safety commitments exceed minimum requirements, treating regulation as baseline rather than target. [Soft law frameworks](/research/040-soft-law-hard-law/) often extend beyond hard law requirements.
 
 ## Common Pitfalls
 

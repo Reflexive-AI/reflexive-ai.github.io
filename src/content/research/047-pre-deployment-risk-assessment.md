@@ -86,7 +86,7 @@ Scenarios explore possible futures systematically. Rather than attempting to pre
 
 **Stress scenarios**: High-load conditions, unusual inputs, edge cases. How does the system behave at extremes?
 
-**Adversarial scenarios**: Intentional manipulation by sophisticated actors. [Dual-use concerns](/research/035-dual-use-ai/) are explored here.
+**Adversarial scenarios**: Intentional manipulation by sophisticated actors. [Dual-use concerns](/research/035-dual-use-biology/) are explored here.
 
 **Failure scenarios**: What if the system fails? What if monitoring fails? What if remediation fails? Cascading failure analysis identifies single points of catastrophe.
 
@@ -101,7 +101,7 @@ Explicit thresholds force difficult conversations before they're complicated by 
 - "Delay if red team identifies jailbreaks achievable in fewer than 10 attempts"
 - "External review required before deploying systems with dual-use potential"
 
-These thresholds should be set in advance by appropriate authority—not by assessment teams facing deadline pressure, not by product managers with commercial incentives. [Corporate governance structures](/research/042-corporate-governance-structures/) establish who sets thresholds and who can grant exceptions.
+These thresholds should be set in advance by appropriate authority—not by assessment teams facing deadline pressure, not by product managers with commercial incentives. [Corporate governance structures](/research/042-corporate-governance/) establish who sets thresholds and who can grant exceptions.
 
 ## External Review Integration
 
@@ -167,7 +167,7 @@ Effective pre-deployment assessment requires organizational infrastructure beyon
 
 **Resources**: Assessment requires time, expertise, and tooling. Under-resourced assessment produces superficial results.
 
-**Escalation paths**: When assessment identifies serious concerns, clear routes to executive decision-making enable appropriate response. [Board-level oversight](/research/043-board-level-oversight/) provides ultimate escalation.
+**Escalation paths**: When assessment identifies serious concerns, clear routes to executive decision-making enable appropriate response. [Board-level oversight](/research/043-board-oversight/) provides ultimate escalation.
 
 ## Conclusion
 

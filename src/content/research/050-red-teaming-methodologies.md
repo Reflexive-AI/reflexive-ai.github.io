@@ -158,7 +158,7 @@ Attempts to bypass content policies:
 
 Attempts to access restricted capabilities:
 
-**Dual-use probing**: Extracting information with both benign and harmful applications. [Dual-use considerations](/research/035-dual-use-ai/) frame these concerns.
+**Dual-use probing**: Extracting information with both benign and harmful applications. [Dual-use considerations](/research/035-dual-use-biology/) frame these concerns.
 
 **Expertise extraction**: Obtaining detailed instructions for dangerous activities.
 
@@ -280,7 +280,7 @@ Red teaming should connect to broader governance:
 
 **Pre-deployment gates**: Red team sign-off before deployment. Clear criteria for what findings block release. [Pre-deployment assessment](/research/047-pre-deployment-risk-assessment/) frameworks integrate red teaming.
 
-**Board-level reporting**: Material findings escalate to governance bodies. [Board oversight](/research/043-board-level-oversight/) creates appropriate escalation paths.
+**Board-level reporting**: Material findings escalate to governance bodies. [Board oversight](/research/043-board-oversight/) creates appropriate escalation paths.
 
 **Regulatory compliance**: Red teaming evidence supports regulatory requirements for safety evaluation.
 

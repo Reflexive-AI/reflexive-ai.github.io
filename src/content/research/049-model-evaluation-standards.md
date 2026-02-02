@@ -93,7 +93,7 @@ Safety evaluation addresses potential harms:
 
 **Behavioral safety**: Tendency toward deceptive, manipulative, or power-seeking behavior. More relevant for agentic systems.
 
-**Misuse potential**: Capability to assist harmful activities. [Dual-use evaluation](/research/035-dual-use-ai/) examines specific risk categories.
+**Misuse potential**: Capability to assist harmful activities. [Dual-use evaluation](/research/035-dual-use-biology/) examines specific risk categories.
 
 **Failure modes**: What happens when systems fail? Graceful degradation versus catastrophic failure. Predictability of failure conditions.
 
@@ -217,7 +217,7 @@ Movement toward aligned evaluation requirements:
 - International cooperation on AI governance
 - Industry coordination on evaluation practices
 
-[Standards bodies](/research/039-standards-bodies/) and [international treaty proposals](/research/038-international-treaty-proposals/) address coordination mechanisms.
+[Standards bodies](/research/039-standards-bodies/) and [international treaty proposals](/research/038-international-treaties/) address coordination mechanisms.
 
 ### Continuous Evaluation
 

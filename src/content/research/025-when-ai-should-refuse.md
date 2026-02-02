@@ -107,7 +107,7 @@ This proportionality connects to [proportionality in model disclosure](/research
 
 For Tier 2 and Tier 3 refusals, the system should be able to articulate why this request falls into the category it does. This enables appeal, correction, and learning.
 
-Our work on [AI systems explaining their constraints](/research/ai-systems-explaining-constraints/) explores how this explainability might be implemented.
+Our work on [AI systems explaining their constraints](/research/026-explaining-constraints/) explores how this explainability might be implemented.
 
 ### Appeal Pathways
 
