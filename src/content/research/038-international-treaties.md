@@ -98,7 +98,7 @@ Drawing on nuclear governance, some propose an International AI Agency modeled o
 
 **Advantages:** Proven model for governing dangerous technology. Addresses verification challenges.
 
-**Challenges:** AI differs from nuclear technology—it's distributed, dual-use by default, and developed primarily by private actors. Inspection regimes that work for nuclear facilities translate poorly to AI labs. We explored related challenges in [compute governance](/research/compute-governance/).
+**Challenges:** AI differs from nuclear technology—it's distributed, dual-use by default, and developed primarily by private actors. Inspection regimes that work for nuclear facilities translate poorly to AI labs. We explored related challenges in [compute governance](/research/023-compute-governance/).
 
 ### Arms Control Model
 
@@ -124,7 +124,7 @@ The Biological Weapons Convention (BWC) offers another analogy:
 
 **Advantages:** Addresses dual-use technology with civilian and military applications.
 
-**Challenges:** The BWC's weakness—lack of verification—would likely apply to AI agreements. As we discussed in [dual-use AI in biology](/research/dual-use-biology/), AI makes biosecurity harder, not easier.
+**Challenges:** The BWC's weakness—lack of verification—would likely apply to AI agreements. As we discussed in [dual-use AI in biology](/research/035-dual-use-biology/), AI makes biosecurity harder, not easier.
 
 ### Climate Model
 
@@ -159,23 +159,23 @@ Different aspects of AI governance might benefit from international coordination
 
 ### Safety Standards
 
-International standards for AI safety testing, evaluation, and deployment could reduce fragmentation and races to the bottom. This connects to our analysis of [capability evaluations](/research/capability-evaluations/).
+International standards for AI safety testing, evaluation, and deployment could reduce fragmentation and races to the bottom. This connects to our analysis of [capability evaluations](/research/024-capability-evaluations/).
 
 ### Incident Reporting
 
-International mechanisms for reporting and sharing information about AI incidents could improve collective learning. Aviation's ICAO offers a model, as we discussed in [aviation incident reporting lessons](/research/aviation-lessons/).
+International mechanisms for reporting and sharing information about AI incidents could improve collective learning. Aviation's ICAO offers a model, as we discussed in [aviation incident reporting lessons](/research/021-aviation-lessons/).
 
 ### Prohibited Applications
 
-Agreement on AI applications that should be universally prohibited—perhaps CBRN weapon development, mass surveillance, or autonomous weapons—could establish global norms. Our [red lines taxonomy](/research/red-lines-taxonomy/) identifies candidates.
+Agreement on AI applications that should be universally prohibited—perhaps CBRN weapon development, mass surveillance, or autonomous weapons—could establish global norms. Our [red lines taxonomy](/research/004-red-lines-taxonomy/) identifies candidates.
 
 ### Transparency
 
-Agreements on what AI developers should disclose could address [regulatory arbitrage](/research/regulatory-arbitrage/) and support consistent global oversight.
+Agreements on what AI developers should disclose could address [regulatory arbitrage](/research/008-regulatory-arbitrage/) and support consistent global oversight.
 
 ### Compute Governance
 
-Given compute's role in frontier AI development, international coordination on compute access and tracking could support governance objectives. See our [compute governance analysis](/research/compute-governance/).
+Given compute's role in frontier AI development, international coordination on compute access and tracking could support governance objectives. See our [compute governance analysis](/research/023-compute-governance/).
 
 ### Research Cooperation
 
@@ -249,7 +249,7 @@ The goal should be establishing foundations for more robust international govern
 
 ## Further Reading
 
-- [Why "Just Regulate AI" Is Harder Than It Sounds](/research/regulation-is-hard/)
-- [Regulatory Arbitrage in AI Deployment](/research/regulatory-arbitrage/)
-- [Compute Governance: Promises and Limits](/research/compute-governance/)
-- [Incident Reporting Systems: Lessons from Aviation](/research/aviation-lessons/)
+- [Why "Just Regulate AI" Is Harder Than It Sounds](/research/018-regulation-is-hard/)
+- [Regulatory Arbitrage in AI Deployment](/research/008-regulatory-arbitrage/)
+- [Compute Governance: Promises and Limits](/research/023-compute-governance/)
+- [Incident Reporting Systems: Lessons from Aviation](/research/021-aviation-lessons/)

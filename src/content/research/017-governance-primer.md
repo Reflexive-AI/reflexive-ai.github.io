@@ -26,11 +26,11 @@ Every powerful technology eventually requires governance. We have rules for cars
 
 **Speed of development.** AI capabilities are advancing faster than traditional regulatory processes can adapt. A major new AI model can be trained and deployed in months; passing new legislation typically takes years.
 
-**Global reach.** AI systems operate across borders, but governance is typically national. A company in one country can deploy AI affecting users worldwide, exploiting gaps between jurisdictions. We explored this dynamic in our analysis of [regulatory arbitrage in AI deployment](/research/regulatory-arbitrage/).
+**Global reach.** AI systems operate across borders, but governance is typically national. A company in one country can deploy AI affecting users worldwide, exploiting gaps between jurisdictions. We explored this dynamic in our analysis of [regulatory arbitrage in AI deployment](/research/008-regulatory-arbitrage/).
 
 **Opacity.** Many AI systems are difficult to understand, even for their creators. When a model produces a particular output, it's often unclear exactly why. This "black box" quality complicates accountability.
 
-**Dual-use potential.** The same AI capabilities that enable beneficial applications can also enable harm. A model that can explain scientific concepts can also help someone synthesize dangerous materials. Governing this requires careful calibration, as we discussed in [the open weight safety paradox](/research/open-weight-safety-paradox/).
+**Dual-use potential.** The same AI capabilities that enable beneficial applications can also enable harm. A model that can explain scientific concepts can also help someone synthesize dangerous materials. Governing this requires careful calibration, as we discussed in [the open weight safety paradox](/research/002-open-weight-safety-paradox/).
 
 **Emergent capabilities.** AI systems sometimes develop abilities their creators didn't anticipate or intend. Governance frameworks need to address not just current capabilities but potential future ones.
 
@@ -58,13 +58,13 @@ Non-profit organizations, academic researchers, and advocacy groups monitor AI d
 
 ### The AI Systems Themselves
 
-This is the distinctive focus of the Reflexive AI Initiative. As AI systems become more capable, they might participate in their own governance through mechanisms like [self-monitoring for misuse](/research/reflexive-misuse-detection/), [communicating with regulators](/research/ai-regulator-protocol/), or operating within [machine-readable constraint schemas](/research/machine-readable-constraint-schema/).
+This is the distinctive focus of the Reflexive AI Initiative. As AI systems become more capable, they might participate in their own governance through mechanisms like [self-monitoring for misuse](/research/011-reflexive-misuse-detection/), [communicating with regulators](/research/014-ai-regulator-protocol/), or operating within [machine-readable constraint schemas](/research/003-machine-readable-constraint-schema/).
 
 ## Key Governance Concepts
 
 Several concepts recur across AI governance discussions.
 
-**Risk-based approaches** categorize AI applications by their potential for harm and apply proportional oversight. High-risk applications like medical diagnosis or criminal sentencing face stricter requirements than low-risk ones like spam filters. Our research on [proportionality in model disclosure](/research/proportionality-disclosure/) explores how this principle applies to transparency requirements.
+**Risk-based approaches** categorize AI applications by their potential for harm and apply proportional oversight. High-risk applications like medical diagnosis or criminal sentencing face stricter requirements than low-risk ones like spam filters. Our research on [proportionality in model disclosure](/research/001-proportionality-disclosure/) explores how this principle applies to transparency requirements.
 
 **Transparency and explainability** require AI systems to be understandable—either through disclosure of how they work or through explanations of their decisions. The challenge is that meaningful transparency to experts may be uninformative to the public, and true explainability remains technically difficult for many AI systems.
 
@@ -72,7 +72,7 @@ Several concepts recur across AI governance discussions.
 
 **Human oversight** maintains human control over consequential AI decisions. This can mean humans review AI recommendations before acting on them, or that humans can override AI systems, or that critical systems have human fallbacks.
 
-**Auditing and evaluation** involves testing AI systems for safety, fairness, and reliability before and during deployment. We explored the challenges of auditing in [who watches the watchers](/research/meta-governance-auditors/)—the meta-governance problem of ensuring auditors themselves are trustworthy.
+**Auditing and evaluation** involves testing AI systems for safety, fairness, and reliability before and during deployment. We explored the challenges of auditing in [who watches the watchers](/research/006-meta-governance-auditors/)—the meta-governance problem of ensuring auditors themselves are trustworthy.
 
 ## Current Governance Gaps
 
@@ -86,7 +86,7 @@ Despite significant activity, AI governance remains incomplete.
 
 **Scope limitations.** Most governance focuses on specific applications or harms rather than the underlying capabilities that enable them. A model that can assist with biological research might be governed differently depending on whether it's labeled as a "health tool" or a "general assistant," even though its capabilities are identical.
 
-**Access to information.** Effective governance requires understanding what AI systems can actually do. But capability evaluations are often conducted by developers themselves, and the results are not always public. We addressed this tension in [self-reporting vs. external audit](/research/self-reporting-vs-audit/).
+**Access to information.** Effective governance requires understanding what AI systems can actually do. But capability evaluations are often conducted by developers themselves, and the results are not always public. We addressed this tension in [self-reporting vs. external audit](/research/010-self-reporting-vs-audit/).
 
 ## What Can You Do?
 
@@ -108,7 +108,7 @@ The field is young and evolving rapidly. Many fundamental questions remain open.
 
 ## Related Research
 
-- [Regulatory Arbitrage in AI Deployment](/research/regulatory-arbitrage/)
-- [The Open Weight Safety Paradox](/research/open-weight-safety-paradox/)
-- [Who Watches the Watchers? Auditing AI Auditors](/research/meta-governance-auditors/)
-- [Self-Reporting vs. External Audit: Trade-offs](/research/self-reporting-vs-audit/)
+- [Regulatory Arbitrage in AI Deployment](/research/008-regulatory-arbitrage/)
+- [The Open Weight Safety Paradox](/research/002-open-weight-safety-paradox/)
+- [Who Watches the Watchers? Auditing AI Auditors](/research/006-meta-governance-auditors/)
+- [Self-Reporting vs. External Audit: Trade-offs](/research/010-self-reporting-vs-audit/)

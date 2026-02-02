@@ -106,7 +106,7 @@ Board AI oversight should cover several areas.
 
 **Emerging risks.** What new risks are emerging as AI capabilities advance?
 
-Our analysis of [capability overhang](/research/capability-overhang/) is relevant—risks may exist that aren't yet apparent.
+Our analysis of [capability overhang](/research/009-capability-overhang/) is relevant—risks may exist that aren't yet apparent.
 
 ### Ethics and Safety
 
@@ -134,7 +134,7 @@ Our analysis of [capability overhang](/research/capability-overhang/) is relevan
 
 **Culture.** Does the organization have appropriate culture around AI safety? Are concerns raised and addressed?
 
-We examined organizational governance in [corporate governance structures for AI safety](/research/corporate-governance/).
+We examined organizational governance in [corporate governance structures for AI safety](/research/042-corporate-governance/).
 
 ## Board Engagement Practices
 
@@ -211,7 +211,7 @@ The stakes are high. AI-related failures can create material harm to companies a
 
 ## Further Reading
 
-- [Corporate Governance Structures for AI Safety](/research/corporate-governance/)
-- [Liability Frameworks for AI Harm](/research/liability-frameworks/)
-- [Whistleblower Protections in AI Labs](/research/whistleblower-protections/)
-- [The Capability Overhang Problem](/research/capability-overhang/)
+- [Corporate Governance Structures for AI Safety](/research/042-corporate-governance/)
+- [Liability Frameworks for AI Harm](/research/020-liability-frameworks/)
+- [Whistleblower Protections in AI Labs](/research/022-whistleblower-protections/)
+- [The Capability Overhang Problem](/research/009-capability-overhang/)

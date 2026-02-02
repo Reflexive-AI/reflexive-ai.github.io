@@ -29,7 +29,7 @@ AI development is unusually opaque. The most capable systems are built by a smal
 
 Employees, by contrast, often know:
 
-**What capabilities exist.** Internal testing may reveal capabilities not disclosed publicly. We explored the dangers of undocumented capabilities in [the capability overhang problem](/research/capability-overhang/)—the gap between what systems can do and what's publicly known.
+**What capabilities exist.** Internal testing may reveal capabilities not disclosed publicly. We explored the dangers of undocumented capabilities in [the capability overhang problem](/research/009-capability-overhang/)—the gap between what systems can do and what's publicly known.
 
 **How safety decisions are made.** Are safety concerns seriously evaluated, or routinely overridden by commercial pressure? Is testing adequate? Are red team findings addressed or ignored?
 
@@ -37,7 +37,7 @@ Employees, by contrast, often know:
 
 **What problems have occurred.** Internal incidents, near-misses, and concerning behaviors that don't reach the public.
 
-This information is essential for effective governance. Without it, regulators operate largely on what companies choose to disclose. As we discussed in [self-reporting vs. external audit](/research/self-reporting-vs-audit/), self-reporting alone is insufficient for safety-critical domains.
+This information is essential for effective governance. Without it, regulators operate largely on what companies choose to disclose. As we discussed in [self-reporting vs. external audit](/research/010-self-reporting-vs-audit/), self-reporting alone is insufficient for safety-critical domains.
 
 ## Current Protections Are Inadequate
 
@@ -99,7 +99,7 @@ This requires legal provisions explicitly voiding confidentiality obligations fo
 
 There should be clear channels for internal reporting (within the company), regulatory reporting (to government agencies), and—as a last resort—public disclosure. Protection should apply to all channels, with appropriate requirements for escalation.
 
-This connects to our work on [protocols for AI-to-regulator communication](/research/ai-regulator-protocol/). Human whistleblowers and AI-based monitoring systems need clear pathways to communicate concerns to oversight bodies.
+This connects to our work on [protocols for AI-to-regulator communication](/research/014-ai-regulator-protocol/). Human whistleblowers and AI-based monitoring systems need clear pathways to communicate concerns to oversight bodies.
 
 ### Immigration Protections
 
@@ -129,9 +129,9 @@ Changing this requires:
 
 Whistleblower protections are not separate from other AI governance mechanisms but integral to them.
 
-Regulations only work if violations are detected. External audits only reach what companies choose to reveal. [Who watches the watchers](/research/meta-governance-auditors/)—our analysis of auditing governance—concluded that external oversight requires information from multiple sources. Internal sources are among the most valuable.
+Regulations only work if violations are detected. External audits only reach what companies choose to reveal. [Who watches the watchers](/research/006-meta-governance-auditors/)—our analysis of auditing governance—concluded that external oversight requires information from multiple sources. Internal sources are among the most valuable.
 
-Similarly, the incident reporting systems we analyzed in [aviation lessons](/research/aviation-lessons/) depend on information flowing from those who witness incidents. If employees fear reporting, the information necessary for learning doesn't reach those who need it.
+Similarly, the incident reporting systems we analyzed in [aviation lessons](/research/021-aviation-lessons/) depend on information flowing from those who witness incidents. If employees fear reporting, the information necessary for learning doesn't reach those who need it.
 
 And reflexive governance—AI systems participating in their own oversight—is complementary to human whistleblowing, not a substitute. AI systems can monitor some things; humans notice others. Both channels need to be protected.
 
@@ -145,7 +145,7 @@ These protections serve not just the individual whistleblowers but the public in
 
 ## Related Research
 
-- [The Capability Overhang Problem](/research/capability-overhang/)
-- [Self-Reporting vs. External Audit: Trade-offs](/research/self-reporting-vs-audit/)
-- [Who Watches the Watchers? Auditing AI Auditors](/research/meta-governance-auditors/)
-- [A Protocol for AI-to-Regulator Communication](/research/ai-regulator-protocol/)
+- [The Capability Overhang Problem](/research/009-capability-overhang/)
+- [Self-Reporting vs. External Audit: Trade-offs](/research/010-self-reporting-vs-audit/)
+- [Who Watches the Watchers? Auditing AI Auditors](/research/006-meta-governance-auditors/)
+- [A Protocol for AI-to-Regulator Communication](/research/014-ai-regulator-protocol/)

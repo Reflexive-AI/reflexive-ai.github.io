@@ -29,7 +29,7 @@ Define AI too narrowly, and you create loopholes. A company might restructure it
 
 The EU AI Act attempts a risk-based approach, categorizing applications rather than technologies. But this creates its own problems: the same underlying model might be "high-risk" when used for hiring decisions but "minimal-risk" when used for customer service, even though its capabilities—and potential for misuse—remain identical.
 
-Capability-based approaches, as we explored in [proportionality in model disclosure](/research/proportionality-disclosure/), offer an alternative. Instead of regulating by application, regulate by what a system can do. But measuring capability is itself technically challenging, and capabilities can emerge unexpectedly as systems scale.
+Capability-based approaches, as we explored in [proportionality in model disclosure](/research/001-proportionality-disclosure/), offer an alternative. Instead of regulating by application, regulate by what a system can do. But measuring capability is itself technically challenging, and capabilities can emerge unexpectedly as systems scale.
 
 ## Challenge 2: The Pace Problem
 
@@ -49,7 +49,7 @@ Regulators often lack the technical expertise to evaluate AI systems directly. T
 
 This creates an information asymmetry. Companies know more about their systems than regulators do, which complicates enforcement. It's difficult to verify compliance with rules you don't fully understand.
 
-Some approaches attempt to address this: hiring technical staff into regulatory agencies, using third-party auditors as intermediaries, or requiring companies to provide interpretable documentation. But each introduces new problems. Third-party auditors may face conflicts of interest, as we discussed in [who watches the watchers](/research/meta-governance-auditors/). Technical staff may leave for higher-paying industry jobs. Documentation can be misleading.
+Some approaches attempt to address this: hiring technical staff into regulatory agencies, using third-party auditors as intermediaries, or requiring companies to provide interpretable documentation. But each introduces new problems. Third-party auditors may face conflicts of interest, as we discussed in [who watches the watchers](/research/006-meta-governance-auditors/). Technical staff may leave for higher-paying industry jobs. Documentation can be misleading.
 
 ## Challenge 4: Jurisdictional Arbitrage
 
@@ -57,7 +57,7 @@ AI development is global. Governance is national.
 
 A company facing restrictive regulations in one jurisdiction can relocate development to another. Users in regulated jurisdictions can access services from providers elsewhere. Models trained in one country can be deployed worldwide.
 
-This creates a race-to-the-bottom risk: jurisdictions might compete for AI development by offering looser regulations, undermining the effectiveness of stricter rules elsewhere. We analyzed this dynamic in [regulatory arbitrage in AI deployment](/research/regulatory-arbitrage/).
+This creates a race-to-the-bottom risk: jurisdictions might compete for AI development by offering looser regulations, undermining the effectiveness of stricter rules elsewhere. We analyzed this dynamic in [regulatory arbitrage in AI deployment](/research/008-regulatory-arbitrage/).
 
 International coordination could address this, but AI governance lacks the global institutional architecture that exists for some other domains. There is no AI equivalent of the International Atomic Energy Agency or the International Civil Aviation Organization. Building such institutions takes decades.
 
@@ -81,7 +81,7 @@ Regulations can be captured by the entities they're supposed to govern. Companie
 
 The AI industry is highly concentrated. A small number of large companies dominate frontier development and have significant resources to invest in regulatory engagement. There is genuine risk that AI governance becomes a tool of incumbent advantage rather than public protection.
 
-Gaming is a related concern. Sophisticated actors find ways to comply with the letter of regulations while violating their spirit. An AI system might pass required safety evaluations while retaining dangerous capabilities that those evaluations didn't probe. We explored similar dynamics in [the limits of self-constraint](/research/limits-of-self-constraint/).
+Gaming is a related concern. Sophisticated actors find ways to comply with the letter of regulations while violating their spirit. An AI system might pass required safety evaluations while retaining dangerous capabilities that those evaluations didn't probe. We explored similar dynamics in [the limits of self-constraint](/research/013-limits-of-self-constraint/).
 
 ## What Might Work Better
 
@@ -97,7 +97,7 @@ More promising approaches share several features:
 
 **Investment in capacity.** Effective governance requires resources. Training technical staff, developing evaluation tools, and building enforcement capacity are as important as writing rules.
 
-**Reflexive mechanisms.** AI systems themselves might contribute to governance through [machine-readable constraint schemas](/research/machine-readable-constraint-schema/), [self-monitoring for misuse](/research/reflexive-misuse-detection/), and [protocols for communicating with regulators](/research/ai-regulator-protocol/). This is the central focus of the Reflexive AI Initiative.
+**Reflexive mechanisms.** AI systems themselves might contribute to governance through [machine-readable constraint schemas](/research/003-machine-readable-constraint-schema/), [self-monitoring for misuse](/research/011-reflexive-misuse-detection/), and [protocols for communicating with regulators](/research/014-ai-regulator-protocol/). This is the central focus of the Reflexive AI Initiative.
 
 ## Conclusion
 
@@ -109,7 +109,7 @@ This is not an argument for inaction. The risks of inadequate governance are sev
 
 ## Related Research
 
-- [Proportionality in Model Disclosure](/research/proportionality-disclosure/)
-- [Regulatory Arbitrage in AI Deployment](/research/regulatory-arbitrage/)
-- [Who Watches the Watchers? Auditing AI Auditors](/research/meta-governance-auditors/)
-- [A Protocol for AI-to-Regulator Communication](/research/ai-regulator-protocol/)
+- [Proportionality in Model Disclosure](/research/001-proportionality-disclosure/)
+- [Regulatory Arbitrage in AI Deployment](/research/008-regulatory-arbitrage/)
+- [Who Watches the Watchers? Auditing AI Auditors](/research/006-meta-governance-auditors/)
+- [A Protocol for AI-to-Regulator Communication](/research/014-ai-regulator-protocol/)

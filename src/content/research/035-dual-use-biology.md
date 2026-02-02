@@ -54,13 +54,13 @@ This is the essence of dual-use: capabilities that are beneficial in legitimate 
 
 The AI-biology dual-use problem connects to broader governance challenges we've explored.
 
-**Capability overhang.** As we discussed in [the capability overhang problem](/research/capability-overhang/), AI systems may have dangerous capabilities that aren't publicly known or tested. This is particularly concerning for biology, where dangerous capabilities might not be discovered until they're misused.
+**Capability overhang.** As we discussed in [the capability overhang problem](/research/009-capability-overhang/), AI systems may have dangerous capabilities that aren't publicly known or tested. This is particularly concerning for biology, where dangerous capabilities might not be discovered until they're misused.
 
-**Disclosure dilemmas.** How much should be disclosed about AI capabilities in biology? Publishing research enables beneficial applications but also informs adversaries. This connects to our analysis of [proportionality in disclosure](/research/proportionality-disclosure/).
+**Disclosure dilemmas.** How much should be disclosed about AI capabilities in biology? Publishing research enables beneficial applications but also informs adversaries. This connects to our analysis of [proportionality in disclosure](/research/001-proportionality-disclosure/).
 
-**The limits of refusal.** We explored [when AI should refuse](/research/when-ai-should-refuse/) requests. Biological research presents hard cases: requests for synthesis information might be legitimate research or bioweapon preparation, and AI systems lack context to distinguish reliably.
+**The limits of refusal.** We explored [when AI should refuse](/research/025-when-ai-should-refuse/) requests. Biological research presents hard cases: requests for synthesis information might be legitimate research or bioweapon preparation, and AI systems lack context to distinguish reliably.
 
-**Red lines.** Some capabilities might warrant absolute restrictions. Our [taxonomy of non-negotiable AI limits](/research/red-lines-taxonomy/) identified CBRN (chemical, biological, radiological, nuclear) weapon assistance as a potential red line. But drawing the line precisely is difficult.
+**Red lines.** Some capabilities might warrant absolute restrictions. Our [taxonomy of non-negotiable AI limits](/research/004-red-lines-taxonomy/) identified CBRN (chemical, biological, radiological, nuclear) weapon assistance as a potential red line. But drawing the line precisely is difficult.
 
 ## Current Governance Approaches
 
@@ -92,7 +92,7 @@ These norms could potentially extend to AI-biological research, but enforcement 
 
 ### Capability Evaluations
 
-As we discussed in [dangerous capability evaluations](/research/capability-evaluations/), AI labs are beginning to test systems for biological capabilities before deployment. This is valuable but limited—evaluations may miss capabilities that exist but aren't tested.
+As we discussed in [dangerous capability evaluations](/research/024-capability-evaluations/), AI labs are beginning to test systems for biological capabilities before deployment. This is valuable but limited—evaluations may miss capabilities that exist but aren't tested.
 
 ## Governance Proposals
 
@@ -112,7 +112,7 @@ Limitations: Creates barriers to legitimate research. May concentrate AI biology
 
 ### Compute Governance
 
-Restrict access to the computational resources needed to train dangerous AI models. As we examined in [compute governance](/research/compute-governance/), compute is a potential chokepoint for governance.
+Restrict access to the computational resources needed to train dangerous AI models. As we examined in [compute governance](/research/023-compute-governance/), compute is a potential chokepoint for governance.
 
 Limitations: Applies to training, not inference. Compute governance is difficult to implement internationally. May become less effective as training becomes more efficient.
 
@@ -148,11 +148,11 @@ Our work on reflexive AI governance offers some relevant perspectives.
 
 AI systems could potentially participate in biosecurity governance:
 
-- **Self-restriction.** Systems trained with safety objectives can refuse dangerous requests—a form of [machine-readable constraint](/research/machine-readable-constraint-schema/).
+- **Self-restriction.** Systems trained with safety objectives can refuse dangerous requests—a form of [machine-readable constraint](/research/003-machine-readable-constraint-schema/).
 - **Monitoring.** AI systems could monitor for concerning usage patterns, though this raises surveillance concerns.
-- **Explaining limits.** Systems could [explain their constraints](/research/explaining-constraints/) to users, creating understanding rather than just restriction.
+- **Explaining limits.** Systems could [explain their constraints](/research/026-explaining-constraints/) to users, creating understanding rather than just restriction.
 
-However, [the limits of self-constraint](/research/limits-of-self-constraint/) apply here too. Technical restrictions can be circumvented. Institutional and social governance mechanisms remain essential.
+However, [the limits of self-constraint](/research/013-limits-of-self-constraint/) apply here too. Technical restrictions can be circumvented. Institutional and social governance mechanisms remain essential.
 
 ## What Might Work
 
@@ -172,7 +172,7 @@ The stakes are high. Getting AI-biology governance right could mean the differen
 
 ## Further Reading
 
-- [The Capability Overhang Problem](/research/capability-overhang/)
-- [Red Lines: A Taxonomy of Non-Negotiable AI Limits](/research/red-lines-taxonomy/)
-- [When AI Should Refuse: A Framework](/research/when-ai-should-refuse/)
-- [Dangerous Capability Evaluations](/research/capability-evaluations/)
+- [The Capability Overhang Problem](/research/009-capability-overhang/)
+- [Red Lines: A Taxonomy of Non-Negotiable AI Limits](/research/004-red-lines-taxonomy/)
+- [When AI Should Refuse: A Framework](/research/025-when-ai-should-refuse/)
+- [Dangerous Capability Evaluations](/research/024-capability-evaluations/)

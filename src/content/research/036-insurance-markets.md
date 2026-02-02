@@ -18,7 +18,7 @@ Insurance is more than a financial product—it's a governance mechanism. Insure
 
 Could insurance markets help govern AI? This analysis examines how AI liability insurance might work, what benefits it could provide, and what limitations would constrain its effectiveness.
 
-This connects to our broader analysis of [liability frameworks for AI harm](/research/liability-frameworks/) and contributes to understanding market-based governance mechanisms.
+This connects to our broader analysis of [liability frameworks for AI harm](/research/020-liability-frameworks/) and contributes to understanding market-based governance mechanisms.
 
 ## How Insurance Governs
 
@@ -52,7 +52,7 @@ Traditional regulation relies on enforcement, which is costly and imperfect. Ins
 
 ### Accountability Backstop
 
-As we discussed in [liability frameworks](/research/liability-frameworks/), AI harm often raises difficult questions about who is responsible. Insurance can provide compensation to victims even when causation and fault are complex.
+As we discussed in [liability frameworks](/research/020-liability-frameworks/), AI harm often raises difficult questions about who is responsible. Insurance can provide compensation to victims even when causation and fault are complex.
 
 ### Flexibility
 
@@ -72,7 +72,7 @@ Companies deploying AI systems purchase insurance against harms caused by those 
 - What oversight and monitoring exists?
 - What capabilities does the system have?
 
-Premiums reflect assessed risk. Companies with better safety practices, more thorough testing (like the [capability evaluations](/research/capability-evaluations/) we analyzed), and stronger oversight pay less.
+Premiums reflect assessed risk. Companies with better safety practices, more thorough testing (like the [capability evaluations](/research/024-capability-evaluations/) we analyzed), and stronger oversight pay less.
 
 ### Developer Liability Insurance
 
@@ -85,7 +85,7 @@ AI developers—companies creating foundation models—purchase insurance for do
 
 ### Professional Liability Insurance
 
-Individuals working in AI development—like the [whistleblowers](/research/whistleblower-protections/) we discussed—might need professional liability coverage, similar to doctors' malpractice insurance. This could professionalize AI development, with insurers requiring credentials, training, and adherence to professional standards.
+Individuals working in AI development—like the [whistleblowers](/research/022-whistleblower-protections/) we discussed—might need professional liability coverage, similar to doctors' malpractice insurance. This could professionalize AI development, with insurers requiring credentials, training, and adherence to professional standards.
 
 ### Catastrophic Coverage Pools
 
@@ -104,7 +104,7 @@ Insurance depends on accurate risk assessment. For AI, this is extraordinarily d
 - **Opacity.** Even AI developers don't fully understand their systems' behavior. How can insurers assess what developers can't explain?
 - **Rapid change.** AI capabilities change faster than underwriting models can adapt. A risk assessment for GPT-4 may be irrelevant for GPT-5.
 
-This relates to the [capability overhang problem](/research/capability-overhang/) we analyzed: risks exist but aren't fully understood, making pricing them problematic.
+This relates to the [capability overhang problem](/research/009-capability-overhang/) we analyzed: risks exist but aren't fully understood, making pricing them problematic.
 
 ### Moral Hazard
 
@@ -191,7 +191,7 @@ The right approach integrates insurance into a broader governance ecosystem—us
 
 ## Further Reading
 
-- [Liability Frameworks for AI Harm](/research/liability-frameworks/)
-- [The Capability Overhang Problem](/research/capability-overhang/)
-- [Self-Reporting vs. External Audit: Trade-offs](/research/self-reporting-vs-audit/)
-- [Dangerous Capability Evaluations](/research/capability-evaluations/)
+- [Liability Frameworks for AI Harm](/research/020-liability-frameworks/)
+- [The Capability Overhang Problem](/research/009-capability-overhang/)
+- [Self-Reporting vs. External Audit: Trade-offs](/research/010-self-reporting-vs-audit/)
+- [Dangerous Capability Evaluations](/research/024-capability-evaluations/)

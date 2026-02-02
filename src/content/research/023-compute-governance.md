@@ -19,7 +19,7 @@ Of the three inputs to modern AI—data, algorithms, and compute—compute is th
 
 This measurability makes compute an attractive target for governance. Instead of trying to regulate intangible capabilities or ambiguous behaviors, regulate the physical resources that enable them. Know where large training runs are happening. Require notification above certain thresholds. Perhaps even license access to frontier-scale compute.
 
-The appeal is understandable. AI governance struggles with the difficulty of measuring and verifying capabilities—a challenge we explored in [the capability overhang problem](/research/capability-overhang/). Compute offers something governance usually lacks: a concrete, quantifiable input.
+The appeal is understandable. AI governance struggles with the difficulty of measuring and verifying capabilities—a challenge we explored in [the capability overhang problem](/research/009-capability-overhang/). Compute offers something governance usually lacks: a concrete, quantifiable input.
 
 But compute governance also has significant limitations. This analysis examines both the promise and the limits.
 
@@ -49,7 +49,7 @@ This mirrors how financial regulations use banking access as an enforcement mech
 
 Compute thresholds can trigger additional oversight requirements. The EU AI Act, for example, uses training compute (along with other criteria) to identify foundation models requiring heightened obligations.
 
-This is a form of the proportionality principle we explored in [proportionality in model disclosure](/research/proportionality-disclosure/)—more capable systems face more intensive governance.
+This is a form of the proportionality principle we explored in [proportionality in model disclosure](/research/001-proportionality-disclosure/)—more capable systems face more intensive governance.
 
 ## The Limits
 
@@ -99,7 +99,7 @@ Compute governance requires international coordination to be effective. If one j
 
 Current coordination is limited. The US has imposed export controls unilaterally; other countries have not necessarily followed. Compute installed before controls remains usable. And the global distribution of training data means that restricting compute doesn't restrict all inputs to AI development.
 
-We explored related dynamics in [regulatory arbitrage](/research/regulatory-arbitrage/). AI development seeks paths of least resistance, and compute governance creates incentives to find those paths.
+We explored related dynamics in [regulatory arbitrage](/research/008-regulatory-arbitrage/). AI development seeks paths of least resistance, and compute governance creates incentives to find those paths.
 
 ### Inference vs. Training
 
@@ -119,7 +119,7 @@ Compute governance should be part of a layered approach that includes:
 
 - **Capability-based evaluation** to assess what systems can actually do, regardless of how much compute was used to create them
 - **Behavioral monitoring** at inference time to detect concerning patterns
-- **Reflexive mechanisms** where systems themselves participate in governance, as we've explored in [reflexive misuse detection](/research/reflexive-misuse-detection/)
+- **Reflexive mechanisms** where systems themselves participate in governance, as we've explored in [reflexive misuse detection](/research/011-reflexive-misuse-detection/)
 - **Supply chain governance** that addresses fine-tuning, scaffolding, and other capability amplification
 - **International coordination** to limit arbitrage
 
@@ -135,7 +135,7 @@ Effective AI governance must address capabilities, behaviors, and deployments—
 
 ## Related Research
 
-- [The Capability Overhang Problem](/research/capability-overhang/)
-- [Proportionality in Model Disclosure](/research/proportionality-disclosure/)
-- [Regulatory Arbitrage in AI Deployment](/research/regulatory-arbitrage/)
-- [Can AI Systems Detect Their Own Misuse?](/research/reflexive-misuse-detection/)
+- [The Capability Overhang Problem](/research/009-capability-overhang/)
+- [Proportionality in Model Disclosure](/research/001-proportionality-disclosure/)
+- [Regulatory Arbitrage in AI Deployment](/research/008-regulatory-arbitrage/)
+- [Can AI Systems Detect Their Own Misuse?](/research/011-reflexive-misuse-detection/)

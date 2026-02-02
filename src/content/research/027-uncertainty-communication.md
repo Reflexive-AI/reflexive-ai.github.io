@@ -47,7 +47,7 @@ Uncertainty signals can flag potential failures. Unusual uncertainty patterns—
 
 For AI systems to participate in their own governance, they must have some representation of their own reliability. A system that doesn't model its uncertainty cannot accurately report when it's operating outside its competence.
 
-This connects to the self-monitoring capabilities we explored in [can AI systems detect their own misuse](/research/reflexive-misuse-detection/). Uncertainty awareness is a precondition for systems that monitor their own behavior.
+This connects to the self-monitoring capabilities we explored in [can AI systems detect their own misuse](/research/011-reflexive-misuse-detection/). Uncertainty awareness is a precondition for systems that monitor their own behavior.
 
 ## Technical Approaches
 
@@ -83,7 +83,7 @@ This shifts the uncertainty assessment to users, which may or may not be appropr
 
 Outputs can be tagged with structured uncertainty metadata—not just the content but information about how confident the system is, what type of uncertainty applies, and what factors contribute to it.
 
-This connects to our work on [output provenance tagging](/research/output-provenance/). Just as provenance metadata tracks where content comes from, uncertainty metadata tracks how reliable it is.
+This connects to our work on [output provenance tagging](/research/012-output-provenance/). Just as provenance metadata tracks where content comes from, uncertainty metadata tracks how reliable it is.
 
 ## Types of Uncertainty
 
@@ -127,7 +127,7 @@ Outputs below threshold trigger additional actions: human review, warnings to us
 
 Uncertainty signals provide data for ongoing monitoring. Patterns of unusual uncertainty may indicate problems: distributional shift in deployment, degradation of model quality, or attempted manipulation.
 
-This connects to the continuous evaluation we discussed in [dangerous capability evaluations](/research/capability-evaluations/)—uncertainty monitoring is a form of ongoing capability assessment.
+This connects to the continuous evaluation we discussed in [dangerous capability evaluations](/research/024-capability-evaluations/)—uncertainty monitoring is a form of ongoing capability assessment.
 
 ### User Interfaces
 
@@ -139,7 +139,7 @@ The goal is not overwhelming users with uncertainty information but helping them
 
 Uncertainty communication capabilities should be documented as part of model disclosure. Users need to know not just what a model can do but how well it knows what it knows.
 
-This is an extension of the [proportional disclosure](/research/proportionality-disclosure/) framework—disclosure should include information about reliability, not just capability.
+This is an extension of the [proportional disclosure](/research/001-proportionality-disclosure/) framework—disclosure should include information about reliability, not just capability.
 
 ## Challenges and Limitations
 
@@ -167,7 +167,7 @@ Interface design must bridge the gap between technical uncertainty representatio
 
 If adversaries can observe uncertainty signals, they may use them to identify system weaknesses—focusing attacks on areas of high uncertainty.
 
-This creates tension between transparency and security, similar to what we discussed in [AI systems explaining their constraints](/research/explaining-constraints/).
+This creates tension between transparency and security, similar to what we discussed in [AI systems explaining their constraints](/research/026-explaining-constraints/).
 
 ## Conclusion
 
@@ -181,8 +181,8 @@ AI systems that operate as if they're always confident are misleading. AI system
 
 ## Related Research
 
-- [Can AI Systems Detect Their Own Misuse?](/research/reflexive-misuse-detection/)
-- [Output Provenance Tagging](/research/output-provenance/)
-- [Proportionality in Model Disclosure](/research/proportionality-disclosure/)
-- [Dangerous Capability Evaluations](/research/capability-evaluations/)
-- [AI Systems Explaining Their Constraints](/research/explaining-constraints/)
+- [Can AI Systems Detect Their Own Misuse?](/research/011-reflexive-misuse-detection/)
+- [Output Provenance Tagging](/research/012-output-provenance/)
+- [Proportionality in Model Disclosure](/research/001-proportionality-disclosure/)
+- [Dangerous Capability Evaluations](/research/024-capability-evaluations/)
+- [AI Systems Explaining Their Constraints](/research/026-explaining-constraints/)

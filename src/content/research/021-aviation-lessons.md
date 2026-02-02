@@ -57,7 +57,7 @@ Aviation reports use standardized formats that capture essential information: wh
 
 Standardization enables analysis across reports. Patterns become visible when data is consistent. Ad hoc narratives, while valuable for context, are hard to aggregate.
 
-AI incident reporting would benefit from similar structure. A standardized schema for AI incidents might capture: the system involved (with capability characterization), the deployment context, the harm that occurred, the apparent cause, any mitigation that was attempted. This connects to our work on [machine-readable constraint schemas](/research/machine-readable-constraint-schema/)—structured formats that enable computational analysis.
+AI incident reporting would benefit from similar structure. A standardized schema for AI incidents might capture: the system involved (with capability characterization), the deployment context, the harm that occurred, the apparent cause, any mitigation that was attempted. This connects to our work on [machine-readable constraint schemas](/research/003-machine-readable-constraint-schema/)—structured formats that enable computational analysis.
 
 ### Analysis and Dissemination
 
@@ -101,9 +101,9 @@ AI incident analysis must be faster than aviation analysis, and findings must be
 
 Incident reporting is particularly relevant to reflexive AI governance. AI systems might themselves participate in incident detection and reporting.
 
-A system that monitors its own outputs and flags potential harms contributes to incident detection. We explored this in [can AI systems detect their own misuse](/research/reflexive-misuse-detection/). Such self-monitoring could feed into incident reporting systems automatically.
+A system that monitors its own outputs and flags potential harms contributes to incident detection. We explored this in [can AI systems detect their own misuse](/research/011-reflexive-misuse-detection/). Such self-monitoring could feed into incident reporting systems automatically.
 
-Similarly, our work on [protocols for AI-to-regulator communication](/research/ai-regulator-protocol/) envisions AI systems that can directly report concerns to oversight bodies. This creates a pathway for real-time incident reporting that doesn't depend on human operators noticing and choosing to report.
+Similarly, our work on [protocols for AI-to-regulator communication](/research/014-ai-regulator-protocol/) envisions AI systems that can directly report concerns to oversight bodies. This creates a pathway for real-time incident reporting that doesn't depend on human operators noticing and choosing to report.
 
 The combination of human and AI reporting could capture incidents that either alone would miss. Humans notice harms that systems don't recognize; systems notice patterns that humans overlook.
 
@@ -133,7 +133,7 @@ This is not a complete solution to AI governance—incident reporting addresses 
 
 ## Related Research
 
-- [Can AI Systems Detect Their Own Misuse?](/research/reflexive-misuse-detection/)
-- [A Protocol for AI-to-Regulator Communication](/research/ai-regulator-protocol/)
-- [A Machine-Readable Constraint Schema](/research/machine-readable-constraint-schema/)
-- [Self-Reporting vs. External Audit: Trade-offs](/research/self-reporting-vs-audit/)
+- [Can AI Systems Detect Their Own Misuse?](/research/011-reflexive-misuse-detection/)
+- [A Protocol for AI-to-Regulator Communication](/research/014-ai-regulator-protocol/)
+- [A Machine-Readable Constraint Schema](/research/003-machine-readable-constraint-schema/)
+- [Self-Reporting vs. External Audit: Trade-offs](/research/010-self-reporting-vs-audit/)

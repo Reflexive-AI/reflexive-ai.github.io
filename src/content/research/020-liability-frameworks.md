@@ -45,7 +45,7 @@ This "black box" quality makes it hard to prove the causal chain necessary for l
 
 AI systems sometimes exhibit behaviors that were not intended, anticipated, or tested for. A capability might emerge from scale or from unexpected interactions between components. Harm resulting from such emergent behavior is difficult to attribute to negligence, because the behavior was not foreseeable by reasonable standards.
 
-This connects to what we explored in [the capability overhang problem](/research/capability-overhang/)—capabilities that exist but haven't been documented or tested present liability challenges because they weren't known to anyone who might be held responsible.
+This connects to what we explored in [the capability overhang problem](/research/009-capability-overhang/)—capabilities that exist but haven't been documented or tested present liability challenges because they weren't known to anyone who might be held responsible.
 
 ### Autonomous Action
 
@@ -93,7 +93,7 @@ The trade-off is potential over-deterrence. If liability is too strict, benefici
 
 Requiring AI deployers to carry liability insurance creates several benefits. Insurance companies have incentives to assess and price risk accurately, creating market pressure for safety. Premiums reflect risk levels, providing price signals that guide deployment decisions. And harm victims have a guaranteed source of compensation even if the deployer becomes insolvent.
 
-The challenge is that insurers may lack the ability to assess AI risks, leading to premiums that are either too high (deterring beneficial use) or too low (failing to reflect true risk). As we discussed in [self-reporting vs. external audit](/research/self-reporting-vs-audit/), assessing AI capabilities and risks is technically difficult even for specialists.
+The challenge is that insurers may lack the ability to assess AI risks, leading to premiums that are either too high (deterring beneficial use) or too low (failing to reflect true risk). As we discussed in [self-reporting vs. external audit](/research/010-self-reporting-vs-audit/), assessing AI capabilities and risks is technically difficult even for specialists.
 
 ### Compensation Funds
 
@@ -105,13 +105,13 @@ This ensures compensation even when attribution is impossible but weakens the in
 
 Liability frameworks work better when the information needed to establish responsibility is available. Requirements to document AI development processes, to log system operations, and to enable post-hoc analysis of decisions make it possible to trace causation and assign responsibility.
 
-Our work on [machine-readable constraint schemas](/research/machine-readable-constraint-schema/) and [output provenance tagging](/research/output-provenance/) supports this approach—creating structured records that can be used to understand what happened when harm occurs.
+Our work on [machine-readable constraint schemas](/research/003-machine-readable-constraint-schema/) and [output provenance tagging](/research/012-output-provenance/) supports this approach—creating structured records that can be used to understand what happened when harm occurs.
 
 ### Supply Chain Liability
 
 When harm results from the interaction of multiple parties in an AI supply chain, allocation of liability among them becomes critical. Clear rules about how liability flows through supply chains—from foundation model developers to fine-tuners to deployers to users—reduce uncertainty and ensure incentives for safety at each level.
 
-This is particularly important for the open-weight model ecosystem, where the relationship between original developers and downstream users is attenuated. We explored related issues in [the open weight safety paradox](/research/open-weight-safety-paradox/).
+This is particularly important for the open-weight model ecosystem, where the relationship between original developers and downstream users is attenuated. We explored related issues in [the open weight safety paradox](/research/002-open-weight-safety-paradox/).
 
 ## Design Principles
 
@@ -137,7 +137,7 @@ Getting this right matters not just for victims of AI harms but for the legitima
 
 ## Related Research
 
-- [The Capability Overhang Problem](/research/capability-overhang/)
-- [Self-Reporting vs. External Audit: Trade-offs](/research/self-reporting-vs-audit/)
-- [The Open Weight Safety Paradox](/research/open-weight-safety-paradox/)
-- [Output Provenance Tagging](/research/output-provenance/)
+- [The Capability Overhang Problem](/research/009-capability-overhang/)
+- [Self-Reporting vs. External Audit: Trade-offs](/research/010-self-reporting-vs-audit/)
+- [The Open Weight Safety Paradox](/research/002-open-weight-safety-paradox/)
+- [Output Provenance Tagging](/research/012-output-provenance/)

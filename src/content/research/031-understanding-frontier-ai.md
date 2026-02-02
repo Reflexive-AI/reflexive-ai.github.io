@@ -28,7 +28,7 @@ Modern frontier AI systems are built on what's called "machine learning"—speci
 
 **The result.** After training, the system can generate new text, answer questions, write code, analyze documents, and much more. It's not looking things up in a database—it's using patterns it learned during training to produce responses.
 
-**Why this matters for governance.** Because these systems learn from data rather than being explicitly programmed, their capabilities can be surprising. They may be able to do things their creators didn't anticipate, including things that could be harmful. This unpredictability is one reason governance is challenging—a point we explore in [why regulation is harder than it sounds](/research/regulation-is-hard/).
+**Why this matters for governance.** Because these systems learn from data rather than being explicitly programmed, their capabilities can be surprising. They may be able to do things their creators didn't anticipate, including things that could be harmful. This unpredictability is one reason governance is challenging—a point we explore in [why regulation is harder than it sounds](/research/018-regulation-is-hard/).
 
 ## What Makes Frontier Systems Different
 
@@ -44,7 +44,7 @@ Unlike traditional AI designed for single tasks (playing chess, recognizing face
 
 ### Autonomy Potential
 
-Increasingly, frontier systems can take actions in the world—browsing the web, executing code, interacting with other systems. They're moving from tools that respond to questions toward agents that accomplish tasks independently. This shift has major governance implications, as we discuss in [emergent norms in multi-agent systems](/research/emergent-norms/).
+Increasingly, frontier systems can take actions in the world—browsing the web, executing code, interacting with other systems. They're moving from tools that respond to questions toward agents that accomplish tasks independently. This shift has major governance implications, as we discuss in [emergent norms in multi-agent systems](/research/015-emergent-norms/).
 
 ### Opacity
 
@@ -54,11 +54,11 @@ Even their creators don't fully understand why frontier systems produce specific
 
 The governance challenges for frontier AI are qualitatively different from those for conventional software.
 
-**Speed of development.** Capabilities are advancing rapidly. Systems released one year can be significantly surpassed the next. Governance frameworks designed for today's capabilities may be obsolete by the time they're implemented. This is the [capability overhang problem](/research/capability-overhang/)—the gap between what exists and what's publicly known or regulated.
+**Speed of development.** Capabilities are advancing rapidly. Systems released one year can be significantly surpassed the next. Governance frameworks designed for today's capabilities may be obsolete by the time they're implemented. This is the [capability overhang problem](/research/009-capability-overhang/)—the gap between what exists and what's publicly known or regulated.
 
 **Dual-use by default.** The same capabilities that make frontier AI useful also make it potentially dangerous. A system that can help scientists understand biology can potentially help bad actors design pathogens. A system that can write software can also write malware. We can't easily separate beneficial and harmful applications.
 
-**Limited understanding.** We lack reliable methods for predicting what a frontier system can or can't do. Dangerous capabilities might exist but remain undiscovered until someone tries them. This uncertainty is explored in our [dangerous capability evaluations](/research/capability-evaluations/) analysis.
+**Limited understanding.** We lack reliable methods for predicting what a frontier system can or can't do. Dangerous capabilities might exist but remain undiscovered until someone tries them. This uncertainty is explored in our [dangerous capability evaluations](/research/024-capability-evaluations/) analysis.
 
 **Concentration.** Only a handful of organizations have the resources to build frontier systems—perhaps a dozen worldwide. This concentration creates both risks (few decision-makers with enormous power) and opportunities (potentially easier to regulate than a diffuse industry).
 
@@ -80,7 +80,7 @@ While technical expertise is essential, governance cannot be left to technical e
 
 ### "We Just Need Better AI"
 
-Some suggest that future AI systems will be able to solve their own governance problems. This is questionable. The challenges are fundamentally about human values, power, and institutions—areas where AI assistance is limited. We explore this in [the limits of self-constraint](/research/limits-of-self-constraint/).
+Some suggest that future AI systems will be able to solve their own governance problems. This is questionable. The challenges are fundamentally about human values, power, and institutions—areas where AI assistance is limited. We explore this in [the limits of self-constraint](/research/013-limits-of-self-constraint/).
 
 ## What Non-Technical People Need to Know
 
@@ -98,7 +98,7 @@ If you're engaging with AI governance without a technical background, focus on t
 
 Understanding frontier AI is the first step toward meaningful engagement with AI governance.
 
-**For policymakers:** Our [governance primer](/research/governance-primer/) provides a foundation for policy development. The [disclosure tiers framework](/research/policy-brief-disclosure-tiers/) offers concrete policy options.
+**For policymakers:** Our [governance primer](/research/017-governance-primer/) provides a foundation for policy development. The [disclosure tiers framework](/research/005-policy-brief-disclosure-tiers/) offers concrete policy options.
 
 **For civil society:** Understanding what questions to ask is as important as technical knowledge. What risks are acceptable? Who bears the costs of AI development? Who benefits?
 
@@ -110,6 +110,6 @@ Understanding frontier AI is the first step toward meaningful engagement with AI
 
 For deeper exploration of topics introduced here:
 
-- [What Alignment Actually Means](/research/what-alignment-means/) explains the technical challenge of building AI that does what we intend.
-- [AI Governance for Non-Experts: A Primer](/research/governance-primer/) provides a more detailed overview of governance approaches.
-- [Why "Just Regulate AI" Is Harder Than It Sounds](/research/regulation-is-hard/) examines the specific challenges of AI regulation.
+- [What Alignment Actually Means](/research/016-what-alignment-means/) explains the technical challenge of building AI that does what we intend.
+- [AI Governance for Non-Experts: A Primer](/research/017-governance-primer/) provides a more detailed overview of governance approaches.
+- [Why "Just Regulate AI" Is Harder Than It Sounds](/research/018-regulation-is-hard/) examines the specific challenges of AI regulation.

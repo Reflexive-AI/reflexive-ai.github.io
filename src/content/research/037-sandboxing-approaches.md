@@ -133,7 +133,7 @@ Evidence from existing sandboxes suggests success factors.
 
 Sandboxes require regulatory resources. Intensive oversight, technical assessment, and ongoing engagement demand staff time and expertise. Under-resourced sandboxes become rubber stamps rather than learning opportunities.
 
-This connects to our analysis of [regulatory capacity](/research/regulation-is-hard/)—governance requires institutional investment, not just legal authority.
+This connects to our analysis of [regulatory capacity](/research/018-regulation-is-hard/)—governance requires institutional investment, not just legal authority.
 
 ### Genuine Learning Orientation
 
@@ -197,7 +197,7 @@ Given these considerations, sandboxes are most appropriate when:
 
 Sandboxes work best as part of comprehensive governance, not as standalone measures.
 
-**Baseline rules.** Some requirements should apply universally, with no sandbox exemption. Our analysis of [red lines](/research/red-lines-taxonomy/) identifies constraints that should be non-negotiable.
+**Baseline rules.** Some requirements should apply universally, with no sandbox exemption. Our analysis of [red lines](/research/004-red-lines-taxonomy/) identifies constraints that should be non-negotiable.
 
 **Graduated deployment.** Sandboxes can be one tier in graduated deployment frameworks—limited trials, expanded pilots, full deployment, each with increasing requirements.
 
@@ -215,7 +215,7 @@ The question isn't whether to use sandboxes, but how to design them well and int
 
 ## Further Reading
 
-- [Why "Just Regulate AI" Is Harder Than It Sounds](/research/regulation-is-hard/)
-- [The EU AI Act: What It Misses](/research/eu-ai-act-gaps/)
-- [Self-Reporting vs. External Audit: Trade-offs](/research/self-reporting-vs-audit/)
-- [Red Lines: A Taxonomy of Non-Negotiable AI Limits](/research/red-lines-taxonomy/)
+- [Why "Just Regulate AI" Is Harder Than It Sounds](/research/018-regulation-is-hard/)
+- [The EU AI Act: What It Misses](/research/019-eu-ai-act-gaps/)
+- [Self-Reporting vs. External Audit: Trade-offs](/research/010-self-reporting-vs-audit/)
+- [Red Lines: A Taxonomy of Non-Negotiable AI Limits](/research/004-red-lines-taxonomy/)

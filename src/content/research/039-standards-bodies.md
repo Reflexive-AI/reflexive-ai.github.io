@@ -29,7 +29,7 @@ Standards define precisely what requirements mean. A regulation might require AI
 
 ### Interoperability
 
-Standards enable systems to work together. A [machine-readable constraint schema](/research/machine-readable-constraint-schema/) is useful only if systems implement it consistently. Standards make interoperability possible.
+Standards enable systems to work together. A [machine-readable constraint schema](/research/003-machine-readable-constraint-schema/) is useful only if systems implement it consistently. Standards make interoperability possible.
 
 ### Quality Assurance
 
@@ -150,7 +150,7 @@ Companies have strong incentives to shape standards that affect their products. 
 - Create barriers to entry for new firms
 - Legitimate existing practices
 
-The risk of capture is significant. We've explored similar dynamics in [who watches the watchers](/research/meta-governance-auditors/).
+The risk of capture is significant. We've explored similar dynamics in [who watches the watchers](/research/006-meta-governance-auditors/).
 
 ### Speed Mismatch
 
@@ -166,7 +166,7 @@ A standard exists only on paper until it's implemented. Questions arise:
 - How is compliance verified?
 - What happens when standards are violated?
 
-Standards without implementation infrastructure may have limited practical effect. This connects to our analysis of [self-reporting versus audit](/research/self-reporting-vs-audit/).
+Standards without implementation infrastructure may have limited practical effect. This connects to our analysis of [self-reporting versus audit](/research/010-self-reporting-vs-audit/).
 
 ### Geographic Politics
 
@@ -190,7 +190,7 @@ This suggests standards should focus on processes rather than specific technical
 
 ### Opacity
 
-AI systems' opacity makes verification difficult. How do you standardize "explainability" for systems that aren't fully understood by their creators? As we explored in [explaining constraints](/research/explaining-constraints/), this is technically challenging.
+AI systems' opacity makes verification difficult. How do you standardize "explainability" for systems that aren't fully understood by their creators? As we explored in [explaining constraints](/research/026-explaining-constraints/), this is technically challenging.
 
 ### Context Dependence
 
@@ -253,7 +253,7 @@ Improving standards governance requires attention to who participates, how decis
 
 ## Further Reading
 
-- [A Machine-Readable Constraint Schema](/research/machine-readable-constraint-schema/)
-- [Who Watches the Watchers? Auditing AI Auditors](/research/meta-governance-auditors/)
-- [Self-Reporting vs. External Audit: Trade-offs](/research/self-reporting-vs-audit/)
-- [The EU AI Act: What It Misses](/research/eu-ai-act-gaps/)
+- [A Machine-Readable Constraint Schema](/research/003-machine-readable-constraint-schema/)
+- [Who Watches the Watchers? Auditing AI Auditors](/research/006-meta-governance-auditors/)
+- [Self-Reporting vs. External Audit: Trade-offs](/research/010-self-reporting-vs-audit/)
+- [The EU AI Act: What It Misses](/research/019-eu-ai-act-gaps/)

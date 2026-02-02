@@ -218,7 +218,7 @@ These benefit from public input on value dimensions while respecting technical c
 
 Our work on reflexive governance has implications for public participation.
 
-**Transparency as enabler.** AI systems that [explain their constraints](/research/explaining-constraints/) and [communicate uncertainty](/research/uncertainty-communication/) make AI more legible to non-experts, potentially enabling more informed public participation.
+**Transparency as enabler.** AI systems that [explain their constraints](/research/026-explaining-constraints/) and [communicate uncertainty](/research/027-uncertainty-communication/) make AI more legible to non-experts, potentially enabling more informed public participation.
 
 **AI-mediated participation.** AI might help scale participation—summarizing comments, identifying consensus, translating technical content. But AI mediation also risks bias and manipulation.
 
@@ -250,7 +250,7 @@ This is not about replacing expertise with popular opinion. It's about ensuring 
 
 ## Further Reading
 
-- [What Policymakers Get Wrong About AI Risk](/research/policymaker-misconceptions/)
-- [The Role of Civil Society in AI Governance](/research/civil-society-role/)
-- [AI Systems Explaining Their Constraints](/research/explaining-constraints/)
-- [Uncertainty Communication in AI Outputs](/research/uncertainty-communication/)
+- [What Policymakers Get Wrong About AI Risk](/research/033-policymaker-misconceptions/)
+- [The Role of Civil Society in AI Governance](/research/044-civil-society-role/)
+- [AI Systems Explaining Their Constraints](/research/026-explaining-constraints/)
+- [Uncertainty Communication in AI Outputs](/research/027-uncertainty-communication/)

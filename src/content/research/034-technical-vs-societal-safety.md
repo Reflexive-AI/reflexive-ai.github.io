@@ -30,7 +30,7 @@ Technical safety is primarily an engineering challenge. The goal is reliable, pr
 
 ### Key Questions
 
-- How do we specify what we want AI to do precisely enough that it actually does it? (The alignment problem we explored in [what alignment actually means](/research/what-alignment-means/).)
+- How do we specify what we want AI to do precisely enough that it actually does it? (The alignment problem we explored in [what alignment actually means](/research/016-what-alignment-means/).)
 - How do we prevent AI from producing harmful outputs like dangerous instructions or manipulative content?
 - How do we ensure AI systems behave consistently across different contexts and inputs?
 - How do we maintain human oversight as systems become more autonomous?
@@ -81,13 +81,13 @@ When we fail to distinguish technical and societal safety, several problems emer
 
 Technical safety work is valuable, but it cannot answer questions like "who should AI serve?" or "how should benefits be distributed?" When technical researchers imply that alignment research solves AI governance, they overreach—and potentially distract from necessary political engagement.
 
-This is related to what we identified in [the honest AI problem](/research/honest-ai/): technical solutions embed value judgments, but those judgments should be made explicitly through democratic processes, not implicitly through engineering decisions.
+This is related to what we identified in [the honest AI problem](/research/029-honest-ai/): technical solutions embed value judgments, but those judgments should be made explicitly through democratic processes, not implicitly through engineering decisions.
 
 ### Policymakers Deferring to Technical "Solutions"
 
 Policymakers sometimes treat AI governance as a technical problem that technical experts should solve. This abdicates democratic responsibility. Questions about acceptable risk, distribution of benefits, and fundamental rights are political questions requiring political decisions.
 
-As we discussed in [what policymakers get wrong about AI risk](/research/policymaker-misconceptions/), technical expertise should inform governance but cannot substitute for democratic deliberation.
+As we discussed in [what policymakers get wrong about AI risk](/research/033-policymaker-misconceptions/), technical expertise should inform governance but cannot substitute for democratic deliberation.
 
 ### Safety Teams Doing Ethics (and Vice Versa)
 
@@ -139,15 +139,15 @@ AI developers shouldn't claim that technical safety work addresses societal conc
 
 ## The Reflexive Connection
 
-Our work on reflexive governance attempts to bridge these domains. The idea that [AI systems can participate in their own governance](/research/manifesto/) is both a technical proposal (systems reporting constraints, explaining limits) and a societal one (making AI more legible and accountable).
+Our work on reflexive governance attempts to bridge these domains. The idea that [AI systems can participate in their own governance](/research/030-manifesto/) is both a technical proposal (systems reporting constraints, explaining limits) and a societal one (making AI more legible and accountable).
 
-[Machine-readable constraints](/research/machine-readable-constraint-schema/) are a technical artifact that serves societal purposes. [AI-to-regulator communication protocols](/research/ai-regulator-protocol/) require both technical infrastructure and institutional capacity.
+[Machine-readable constraints](/research/003-machine-readable-constraint-schema/) are a technical artifact that serves societal purposes. [AI-to-regulator communication protocols](/research/014-ai-regulator-protocol/) require both technical infrastructure and institutional capacity.
 
 This integration is the distinctive contribution of reflexive approaches: recognizing that the technical and societal are distinct but must be connected, and building bridges that respect both domains.
 
 ## Further Reading
 
-- [What Alignment Actually Means](/research/what-alignment-means/)
-- [The Honest AI Problem](/research/honest-ai/)
-- [A Reflexive AI Manifesto](/research/manifesto/)
-- [What Policymakers Get Wrong About AI Risk](/research/policymaker-misconceptions/)
+- [What Alignment Actually Means](/research/016-what-alignment-means/)
+- [The Honest AI Problem](/research/029-honest-ai/)
+- [A Reflexive AI Manifesto](/research/030-manifesto/)
+- [What Policymakers Get Wrong About AI Risk](/research/033-policymaker-misconceptions/)

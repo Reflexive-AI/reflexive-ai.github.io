@@ -54,7 +54,7 @@ Civil society monitors AI development and deployment:
 - Documenting AI failures and harms
 - Tracking regulatory compliance
 
-This oversight supplements limited government capacity. As we discussed in [who watches the watchers](/research/meta-governance-auditors/), independent oversight is essential.
+This oversight supplements limited government capacity. As we discussed in [who watches the watchers](/research/006-meta-governance-auditors/), independent oversight is essential.
 
 ### Standards Development
 
@@ -64,7 +64,7 @@ Civil society participates in standards development:
 - Professional associations setting norms
 - Multi-stakeholder initiatives developing guidelines
 
-Standards bodies, as we examined in [their governance role](/research/standards-bodies/), often include civil society participation.
+Standards bodies, as we examined in [their governance role](/research/039-standards-bodies/), often include civil society participation.
 
 ### Capacity Building
 
@@ -121,7 +121,7 @@ AI is technically complex. Civil society organizations may lack technical expert
 
 ### Access to Systems
 
-Civil society cannot audit what it cannot access. Most AI systems are proprietary, with limited external access. This constrains independent assessment. We explored related challenges in [self-reporting versus audit](/research/self-reporting-vs-audit/).
+Civil society cannot audit what it cannot access. Most AI systems are proprietary, with limited external access. This constrains independent assessment. We explored related challenges in [self-reporting versus audit](/research/010-self-reporting-vs-audit/).
 
 ### Political Capture
 
@@ -141,7 +141,7 @@ Several approaches could strengthen civil society's contribution to AI governanc
 
 ### Access Rights
 
-Legal requirements for researcher access to AI systems—as proposed in the EU Digital Services Act for platforms—could enable independent assessment. Similarly, whistleblower protections (as we examined in [our analysis](/research/whistleblower-protections/)) help information flow to civil society.
+Legal requirements for researcher access to AI systems—as proposed in the EU Digital Services Act for platforms—could enable independent assessment. Similarly, whistleblower protections (as we examined in [our analysis](/research/022-whistleblower-protections/)) help information flow to civil society.
 
 ### Funding Independence
 
@@ -167,7 +167,7 @@ Civil society organizations can amplify impact through coalition building—coor
 
 Our work on reflexive governance suggests additional roles for civil society.
 
-**Interpreting AI self-reporting.** If AI systems increasingly [report their constraints](/research/ai-regulator-protocol/) and [explain their limitations](/research/explaining-constraints/), civil society can interpret these reports for public understanding.
+**Interpreting AI self-reporting.** If AI systems increasingly [report their constraints](/research/014-ai-regulator-protocol/) and [explain their limitations](/research/026-explaining-constraints/), civil society can interpret these reports for public understanding.
 
 **Monitoring reflexive mechanisms.** Civil society can monitor whether reflexive governance mechanisms actually work—are AI systems' self-reports accurate? Do constraints function as claimed?
 
@@ -203,7 +203,7 @@ The Reflexive AI Initiative aims to contribute to this ecosystem—producing res
 
 ## Further Reading
 
-- [Who Watches the Watchers? Auditing AI Auditors](/research/meta-governance-auditors/)
-- [Whistleblower Protections in AI Labs](/research/whistleblower-protections/)
-- [The Role of Standards Bodies in AI Governance](/research/standards-bodies/)
-- [Self-Reporting vs. External Audit: Trade-offs](/research/self-reporting-vs-audit/)
+- [Who Watches the Watchers? Auditing AI Auditors](/research/006-meta-governance-auditors/)
+- [Whistleblower Protections in AI Labs](/research/022-whistleblower-protections/)
+- [The Role of Standards Bodies in AI Governance](/research/039-standards-bodies/)
+- [Self-Reporting vs. External Audit: Trade-offs](/research/010-self-reporting-vs-audit/)

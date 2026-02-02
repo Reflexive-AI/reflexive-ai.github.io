@@ -43,7 +43,7 @@ Systems that can explain their own constraints enable a form of real-time transp
 
 When constraints are wrong—either too restrictive or not restrictive enough—the first step to fixing them is understanding them. A system that can explain why it's refusing helps developers identify mistaken triggers, missing cases, and unintended interactions.
 
-This connects to the incident reporting and learning mechanisms we explored in [aviation lessons](/research/aviation-lessons/). Learning from problems requires understanding what happened; explainability enables that understanding.
+This connects to the incident reporting and learning mechanisms we explored in [aviation lessons](/research/021-aviation-lessons/). Learning from problems requires understanding what happened; explainability enables that understanding.
 
 ### Contestation
 
@@ -73,7 +73,7 @@ Accurate explanation requires knowing which mechanism triggered the refusal and 
 
 Fully explaining constraints can help adversaries circumvent them. If the system explains "I'm refusing because your request matches pattern X," users can modify their requests to avoid the pattern while preserving malicious intent.
 
-There's a tension between explainability and security. Tier 1 prohibitions—the absolute limits we discussed in [when AI should refuse](/research/when-ai-should-refuse/)—may require less specificity to avoid providing a circumvention roadmap.
+There's a tension between explainability and security. Tier 1 prohibitions—the absolute limits we discussed in [when AI should refuse](/research/025-when-ai-should-refuse/)—may require less specificity to avoid providing a circumvention roadmap.
 
 ### Accuracy and Truthfulness
 
@@ -87,7 +87,7 @@ Several approaches can enable constraint explainability.
 
 ### Explicit Constraint Schemas
 
-Rather than relying solely on trained behavior, constraints can be represented explicitly in machine-readable formats. Our work on [machine-readable constraint schemas](/research/machine-readable-constraint-schema/) proposes exactly this.
+Rather than relying solely on trained behavior, constraints can be represented explicitly in machine-readable formats. Our work on [machine-readable constraint schemas](/research/003-machine-readable-constraint-schema/) proposes exactly this.
 
 When constraints are explicit, explanation is straightforward: cite the constraint that applies. "I'm refusing this request because it falls under constraint C-004: Synthesis Information for Controlled Pathogens. This is a Tier 1 prohibition that applies regardless of context."
 
@@ -117,10 +117,10 @@ Constraint explainability is a core component of reflexive governance. A system 
 
 This connects to several threads in the Reflexive AI Initiative's research:
 
-- [The machine-readable constraint schema](/research/machine-readable-constraint-schema/) provides the representation layer for explicit, explainable constraints
-- [Output provenance tagging](/research/output-provenance/) includes metadata that could encompass constraint-related information
-- [The protocol for AI-to-regulator communication](/research/ai-regulator-protocol/) envisions systems that can explain their behavior to oversight bodies
-- [The limits of self-constraint](/research/limits-of-self-constraint/) acknowledges that explanation itself has limits—a system might not have full access to its own behavioral drivers
+- [The machine-readable constraint schema](/research/003-machine-readable-constraint-schema/) provides the representation layer for explicit, explainable constraints
+- [Output provenance tagging](/research/012-output-provenance/) includes metadata that could encompass constraint-related information
+- [The protocol for AI-to-regulator communication](/research/014-ai-regulator-protocol/) envisions systems that can explain their behavior to oversight bodies
+- [The limits of self-constraint](/research/013-limits-of-self-constraint/) acknowledges that explanation itself has limits—a system might not have full access to its own behavioral drivers
 
 Taken together, these form a vision of AI systems that are not merely constrained but articulately constrained—able to participate in discussions about their own limitations.
 
@@ -150,8 +150,8 @@ As AI systems become more powerful and more integrated into consequential decisi
 
 ## Related Research
 
-- [A Machine-Readable Constraint Schema](/research/machine-readable-constraint-schema/)
-- [When AI Should Refuse: A Framework](/research/when-ai-should-refuse/)
-- [Output Provenance Tagging](/research/output-provenance/)
-- [A Protocol for AI-to-Regulator Communication](/research/ai-regulator-protocol/)
-- [The Limits of Self-Constraint](/research/limits-of-self-constraint/)
+- [A Machine-Readable Constraint Schema](/research/003-machine-readable-constraint-schema/)
+- [When AI Should Refuse: A Framework](/research/025-when-ai-should-refuse/)
+- [Output Provenance Tagging](/research/012-output-provenance/)
+- [A Protocol for AI-to-Regulator Communication](/research/014-ai-regulator-protocol/)
+- [The Limits of Self-Constraint](/research/013-limits-of-self-constraint/)

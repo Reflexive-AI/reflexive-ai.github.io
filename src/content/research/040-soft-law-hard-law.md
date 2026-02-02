@@ -30,7 +30,7 @@ Binding legal requirements have several advantages.
 
 Hard law can be enforced. Companies that violate requirements face penalties—fines, operational restrictions, or criminal liability. This creates strong incentives for compliance that don't depend on voluntary cooperation.
 
-As we discussed in [self-reporting versus audit](/research/self-reporting-vs-audit/), voluntary measures are systematically limited. Hard law addresses situations where commercial incentives diverge from public interest.
+As we discussed in [self-reporting versus audit](/research/010-self-reporting-vs-audit/), voluntary measures are systematically limited. Hard law addresses situations where commercial incentives diverge from public interest.
 
 ### Equality
 
@@ -118,7 +118,7 @@ The progression from AI ethics principles (2016-2019) to the EU AI Act (2024) il
 
 Legislation cannot anticipate every situation. Soft law fills gaps—providing guidance where statutes are silent or ambiguous. Standards bodies develop specifications that implement legislative requirements.
 
-We examined this relationship in [the role of standards bodies](/research/standards-bodies/).
+We examined this relationship in [the role of standards bodies](/research/039-standards-bodies/).
 
 ### Hard Law Backstop
 
@@ -140,7 +140,7 @@ AI governance presents particular challenges for choosing between hard and soft 
 
 We don't fully understand what current AI systems can do, let alone future systems. This uncertainty argues for soft law's flexibility—but high-stakes applications may not tolerate the ambiguity.
 
-This relates to [the capability overhang problem](/research/capability-overhang/): risks exist but aren't fully known.
+This relates to [the capability overhang problem](/research/009-capability-overhang/): risks exist but aren't fully known.
 
 ### Corporate Concentration
 
@@ -174,7 +174,7 @@ Soft law should include triggers for escalation to hard law. If voluntary approa
 
 ### Standard-Legislation Integration
 
-Standards should be developed in coordination with legislation, not as alternatives. Our analysis of [standards governance](/research/standards-bodies/) explores this relationship.
+Standards should be developed in coordination with legislation, not as alternatives. Our analysis of [standards governance](/research/039-standards-bodies/) explores this relationship.
 
 ### Accountability Layering
 
@@ -192,7 +192,7 @@ Effective AI governance requires both, integrated thoughtfully. Core rights and 
 
 ## Further Reading
 
-- [Why "Just Regulate AI" Is Harder Than It Sounds](/research/regulation-is-hard/)
-- [Self-Reporting vs. External Audit: Trade-offs](/research/self-reporting-vs-audit/)
-- [The Role of Standards Bodies in AI Governance](/research/standards-bodies/)
-- [The EU AI Act: What It Misses](/research/eu-ai-act-gaps/)
+- [Why "Just Regulate AI" Is Harder Than It Sounds](/research/018-regulation-is-hard/)
+- [Self-Reporting vs. External Audit: Trade-offs](/research/010-self-reporting-vs-audit/)
+- [The Role of Standards Bodies in AI Governance](/research/039-standards-bodies/)
+- [The EU AI Act: What It Misses](/research/019-eu-ai-act-gaps/)

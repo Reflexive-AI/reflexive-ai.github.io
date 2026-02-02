@@ -16,7 +16,7 @@ tags:
 
 AI governance began before AI itself existed.
 
-**1942: Asimov's Three Laws.** Science fiction writer Isaac Asimov introduced his famous Three Laws of Robotics. While fictional, they represented the first serious attempt to think about how artificial intelligences might be constrained. They also illustrated a fundamental problem: formal rules can have unintended consequences and edge cases that undermine their intent. This foreshadowed challenges we still grapple with today in [defining alignment](/research/what-alignment-means/).
+**1942: Asimov's Three Laws.** Science fiction writer Isaac Asimov introduced his famous Three Laws of Robotics. While fictional, they represented the first serious attempt to think about how artificial intelligences might be constrained. They also illustrated a fundamental problem: formal rules can have unintended consequences and edge cases that undermine their intent. This foreshadowed challenges we still grapple with today in [defining alignment](/research/016-what-alignment-means/).
 
 **1956: AI is born.** The Dartmouth Conference launched AI as a field. Early optimism predicted human-level AI within decades. Governance seemed premature—the technology barely existed.
 
@@ -58,7 +58,7 @@ This period established key concepts: fairness, accountability, transparency, an
 
 The COVID-19 pandemic and capability advances transformed AI governance.
 
-**2020: Pandemic accelerates adoption.** AI systems were deployed rapidly for medical diagnosis, vaccine development, and contact tracing. This acceleration often outpaced governance capacity, raising questions about [proportionality in disclosure](/research/proportionality-disclosure/) and oversight.
+**2020: Pandemic accelerates adoption.** AI systems were deployed rapidly for medical diagnosis, vaccine development, and contact tracing. This acceleration often outpaced governance capacity, raising questions about [proportionality in disclosure](/research/001-proportionality-disclosure/) and oversight.
 
 **2021: EU AI Act proposed.** The European Commission proposed the world's first comprehensive AI regulation. Its risk-based approach—banning some applications, heavily regulating others, and leaving many unregulated—became a template for governance thinking globally.
 
@@ -72,7 +72,7 @@ The COVID-19 pandemic and capability advances transformed AI governance.
 - Voluntary commitments from major AI companies
 - Executive orders on AI safety from the White House
 
-This period saw the emergence of "frontier AI" as a governance category—systems whose capabilities demanded special attention. We've explored how these systems create [regulatory challenges](/research/regulation-is-hard/) and [capability overhang problems](/research/capability-overhang/).
+This period saw the emergence of "frontier AI" as a governance category—systems whose capabilities demanded special attention. We've explored how these systems create [regulatory challenges](/research/018-regulation-is-hard/) and [capability overhang problems](/research/009-capability-overhang/).
 
 ## The Implementation Challenge: 2024-Present
 
@@ -80,19 +80,19 @@ We are now in a period of institutional development.
 
 **2024: The EU AI Act passes.** The world's first comprehensive AI legislation became law. Its implementation would take years, but the template existed. Other jurisdictions began adapting or responding to the EU approach.
 
-**AI Safety Institutes proliferate.** The UK, US, Japan, Singapore, and others established national AI safety institutes. These bodies aim to build technical capacity within government—a recognition that [external audit capability](/research/self-reporting-vs-audit/) is essential for effective oversight.
+**AI Safety Institutes proliferate.** The UK, US, Japan, Singapore, and others established national AI safety institutes. These bodies aim to build technical capacity within government—a recognition that [external audit capability](/research/010-self-reporting-vs-audit/) is essential for effective oversight.
 
-**Voluntary commitments deepen.** Major AI labs made commitments regarding dangerous capability testing, incident reporting, and safety practices. The question of whether these commitments are meaningful without enforcement remains open, as we discuss in our analysis of [self-reporting limitations](/research/self-reporting-vs-audit/).
+**Voluntary commitments deepen.** Major AI labs made commitments regarding dangerous capability testing, incident reporting, and safety practices. The question of whether these commitments are meaningful without enforcement remains open, as we discuss in our analysis of [self-reporting limitations](/research/010-self-reporting-vs-audit/).
 
 **International coordination attempts.** The UN convened discussions on international AI governance. Bilateral agreements between major AI powers were explored. However, progress remains limited, reflecting the fundamental challenges of governing a technology where competitive advantage and national security interests are significant.
 
 **2025-2026: Current challenges.** As of this writing, we face:
 
 - Implementation of the EU AI Act and similar regulations
-- Debate over compute governance and [its limitations](/research/compute-governance/)
-- Questions about [whistleblower protection](/research/whistleblower-protections/) in AI labs
+- Debate over compute governance and [its limitations](/research/023-compute-governance/)
+- Questions about [whistleblower protection](/research/022-whistleblower-protections/) in AI labs
 - Ongoing capability advances that outpace governance
-- [Liability frameworks](/research/liability-frameworks/) still under development
+- [Liability frameworks](/research/020-liability-frameworks/) still under development
 
 ## Lessons from History
 
@@ -108,11 +108,11 @@ Periods of crisis and attention create opportunities for governance innovation. 
 
 ### Principles Are Insufficient
 
-Every major technology company has AI ethics principles. Many violate them regularly. Principles matter, but enforcement mechanisms, accountability structures, and genuine constraint are what make governance real. This is why we focus on [machine-readable constraints](/research/machine-readable-constraint-schema/) and [operational accountability](/research/meta-governance-auditors/).
+Every major technology company has AI ethics principles. Many violate them regularly. Principles matter, but enforcement mechanisms, accountability structures, and genuine constraint are what make governance real. This is why we focus on [machine-readable constraints](/research/003-machine-readable-constraint-schema/) and [operational accountability](/research/006-meta-governance-auditors/).
 
 ### Technical and Social Solutions Must Combine
 
-AI governance cannot be purely technical (build safer systems) or purely social (regulate behavior). It requires both, integrated carefully. This is the core insight of reflexive governance—the idea that systems can participate in their own oversight, as explored in our [manifesto](/research/manifesto/).
+AI governance cannot be purely technical (build safer systems) or purely social (regulate behavior). It requires both, integrated carefully. This is the core insight of reflexive governance—the idea that systems can participate in their own oversight, as explored in our [manifesto](/research/030-manifesto/).
 
 ### Concentration Creates Both Risk and Opportunity
 
@@ -133,7 +133,7 @@ What we do now—in this window of attention and possibility—will shape AI gov
 
 ## Further Reading
 
-- [AI Governance for Non-Experts: A Primer](/research/governance-primer/)
-- [Why "Just Regulate AI" Is Harder Than It Sounds](/research/regulation-is-hard/)
-- [The EU AI Act: What It Misses](/research/eu-ai-act-gaps/)
-- [Soft Law vs. Hard Law in AI Regulation](/research/soft-law-hard-law/) (forthcoming)
+- [AI Governance for Non-Experts: A Primer](/research/017-governance-primer/)
+- [Why "Just Regulate AI" Is Harder Than It Sounds](/research/018-regulation-is-hard/)
+- [The EU AI Act: What It Misses](/research/019-eu-ai-act-gaps/)
+- [Soft Law vs. Hard Law in AI Regulation](/research/040-soft-law-hard-law/) (forthcoming)

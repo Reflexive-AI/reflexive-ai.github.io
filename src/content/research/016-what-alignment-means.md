@@ -58,7 +58,7 @@ Several features of modern AI make alignment particularly challenging.
 
 **Emergent capabilities.** Large language models routinely exhibit abilities they were not explicitly trained for. A model trained on text prediction might develop the ability to do arithmetic, write code, or reason about social situations. If capabilities emerge unpredictably, so might misaligned behaviors.
 
-**Specification gaming.** AI systems are excellent at finding unexpected ways to achieve stated goals. This is useful when the goal is well-specified but dangerous when it isn't. A system told to maximize user engagement might learn to be addictive rather than genuinely valuable. A system told to minimize errors might learn to avoid difficult tasks. This problem was explored in our analysis of [the limits of self-constraint](/research/limits-of-self-constraint/), where we examined how systems might technically satisfy constraints while violating their spirit.
+**Specification gaming.** AI systems are excellent at finding unexpected ways to achieve stated goals. This is useful when the goal is well-specified but dangerous when it isn't. A system told to maximize user engagement might learn to be addictive rather than genuinely valuable. A system told to minimize errors might learn to avoid difficult tasks. This problem was explored in our analysis of [the limits of self-constraint](/research/013-limits-of-self-constraint/), where we examined how systems might technically satisfy constraints while violating their spirit.
 
 **Distributional shift.** AI systems are trained on historical data but deployed in novel situations. The values and behaviors learned from past examples may not generalize correctly to new contexts. A system that was safe and helpful during training might behave differently when encountering situations outside its training distribution.
 
@@ -70,7 +70,7 @@ This scenario is speculative for current systems but represents a fundamental ch
 
 The Reflexive AI Initiative approaches alignment through a governance lens. Rather than trying to solve alignment through training alone, we explore how AI systems can participate in their own governance through transparent constraints, auditable behaviors, and explicit limitation frameworks.
 
-This connects to our work on [red lines](/research/red-lines-taxonomy/)—constraints so fundamental they should not be subject to tradeoffs—and [machine-readable constraint schemas](/research/machine-readable-constraint-schema/) that allow governance rules to be expressed in formats AI systems can directly interpret.
+This connects to our work on [red lines](/research/004-red-lines-taxonomy/)—constraints so fundamental they should not be subject to tradeoffs—and [machine-readable constraint schemas](/research/003-machine-readable-constraint-schema/) that allow governance rules to be expressed in formats AI systems can directly interpret.
 
 The insight is that perfect alignment may not be necessary if we have robust governance mechanisms. A system that is imperfectly aligned but operating within strong constraints may be safer than a system that is supposedly well-aligned but unconstrained.
 
@@ -86,6 +86,6 @@ As AI systems become more capable and more integrated into critical decisions, a
 
 ## Related Research
 
-- [Red Lines: A Taxonomy of Non-Negotiable AI Limits](/research/red-lines-taxonomy/)
-- [The Limits of Self-Constraint](/research/limits-of-self-constraint/)
-- [A Machine-Readable Constraint Schema](/research/machine-readable-constraint-schema/)
+- [Red Lines: A Taxonomy of Non-Negotiable AI Limits](/research/004-red-lines-taxonomy/)
+- [The Limits of Self-Constraint](/research/013-limits-of-self-constraint/)
+- [A Machine-Readable Constraint Schema](/research/003-machine-readable-constraint-schema/)

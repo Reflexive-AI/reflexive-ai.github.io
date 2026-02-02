@@ -57,13 +57,13 @@ Healthcare AI must work reliably across diverse patient populations, clinical co
 
 Demonstrating this robustness is difficult. Patient privacy limits data sharing. Rare conditions have limited samples. Long-term outcomes take years to observe. The validation challenge is fundamentally harder in healthcare than in domains where immediate, objective feedback is available.
 
-This connects to [dangerous capability evaluations](/research/capability-evaluations/)—the challenge of assessing AI capabilities is especially acute when capabilities must be reliable across the full distribution of medical cases.
+This connects to [dangerous capability evaluations](/research/024-capability-evaluations/)—the challenge of assessing AI capabilities is especially acute when capabilities must be reliable across the full distribution of medical cases.
 
 ### Liability and Responsibility
 
 When AI contributes to a medical error, who is responsible? The physician who relied on the AI? The hospital that deployed it? The company that developed it?
 
-Current liability frameworks struggle with this distributed responsibility, as we analyzed in [liability frameworks for AI harm](/research/liability-frameworks/). Healthcare adds additional complexity: existing malpractice and medical liability doctrines interact with product liability in unclear ways.
+Current liability frameworks struggle with this distributed responsibility, as we analyzed in [liability frameworks for AI harm](/research/020-liability-frameworks/). Healthcare adds additional complexity: existing malpractice and medical liability doctrines interact with product liability in unclear ways.
 
 The result is uncertainty. If liability falls primarily on physicians, they may avoid using beneficial AI tools. If liability falls primarily on developers, they may avoid the healthcare market. If liability is unclear, all parties may make suboptimal decisions.
 
@@ -101,7 +101,7 @@ Several directions could improve healthcare AI governance.
 
 Beyond premarket clinical trials, ongoing collection of real-world evidence—how AI systems perform in actual deployment—provides crucial information for governance.
 
-This requires infrastructure for post-market surveillance, mechanisms to detect performance degradation or unexpected harms, and feedback loops that enable continuous improvement. It connects to the incident reporting systems we examined in [aviation lessons](/research/aviation-lessons/).
+This requires infrastructure for post-market surveillance, mechanisms to detect performance degradation or unexpected harms, and feedback loops that enable continuous improvement. It connects to the incident reporting systems we examined in [aviation lessons](/research/021-aviation-lessons/).
 
 ### Transparency Requirements
 
@@ -121,15 +121,15 @@ Explicit requirements for equity testing and monitoring would address bias conce
 
 Patients should have voice in how AI is used in their care. This includes informed consent about AI involvement, access to information about how AI recommendations affected their care, and mechanisms to opt out of AI-assisted decision-making when appropriate.
 
-This connects to the broader consent challenges we analyzed in [consent and AI: a structural impossibility](/research/consent-structural-impossibility/)—the difficulty of meaningful consent for complex, opaque systems.
+This connects to the broader consent challenges we analyzed in [consent and AI: a structural impossibility](/research/007-consent-structural-impossibility/)—the difficulty of meaningful consent for complex, opaque systems.
 
 ## The Reflexive Dimension
 
 Healthcare AI offers opportunities for reflexive governance mechanisms.
 
-An AI diagnostic system might monitor its own confidence across different patient populations, flagging when performance appears degraded—a form of [reflexive misuse detection](/research/reflexive-misuse-detection/) applied to reliability monitoring.
+An AI diagnostic system might monitor its own confidence across different patient populations, flagging when performance appears degraded—a form of [reflexive misuse detection](/research/011-reflexive-misuse-detection/) applied to reliability monitoring.
 
-AI systems could communicate uncertainty to clinicians, signaling when recommendations are less reliable and additional scrutiny is warranted—the [uncertainty communication](/research/uncertainty-communication/) we explored elsewhere.
+AI systems could communicate uncertainty to clinicians, signaling when recommendations are less reliable and additional scrutiny is warranted—the [uncertainty communication](/research/027-uncertainty-communication/) we explored elsewhere.
 
 And healthcare AI might participate in post-market surveillance by automatically logging outcomes and identifying discrepancies between predictions and results.
 
@@ -147,8 +147,8 @@ Getting healthcare AI governance right is one of the most important and difficul
 
 ## Related Research
 
-- [Dangerous Capability Evaluations](/research/capability-evaluations/)
-- [Liability Frameworks for AI Harm](/research/liability-frameworks/)
-- [Incident Reporting Systems: Lessons from Aviation](/research/aviation-lessons/)
-- [Consent and AI: A Structural Impossibility?](/research/consent-structural-impossibility/)
-- [Uncertainty Communication in AI Outputs](/research/uncertainty-communication/)
+- [Dangerous Capability Evaluations](/research/024-capability-evaluations/)
+- [Liability Frameworks for AI Harm](/research/020-liability-frameworks/)
+- [Incident Reporting Systems: Lessons from Aviation](/research/021-aviation-lessons/)
+- [Consent and AI: A Structural Impossibility?](/research/007-consent-structural-impossibility/)
+- [Uncertainty Communication in AI Outputs](/research/027-uncertainty-communication/)

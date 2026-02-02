@@ -31,7 +31,7 @@ Honesty in AI could mean several different things.
 
 The simplest meaning: AI outputs should be true. When a system provides factual information, that information should be accurate.
 
-This is clearly desirable but harder to achieve than it sounds. Current language models routinely produce false statements—"hallucinations" that are presented with the same confidence as accurate information. We explored this in [uncertainty communication](/research/uncertainty-communication/)—systems don't reliably distinguish what they know from what they're fabricating.
+This is clearly desirable but harder to achieve than it sounds. Current language models routinely produce false statements—"hallucinations" that are presented with the same confidence as accurate information. We explored this in [uncertainty communication](/research/027-uncertainty-communication/)—systems don't reliably distinguish what they know from what they're fabricating.
 
 Even with better uncertainty awareness, truthfulness faces limits. Models trained on historical data can only be truthful about what was true in training. Novel questions, predictions, and rapidly changing topics may not have definite true answers.
 
@@ -55,7 +55,7 @@ Non-deception is harder to measure than truthfulness. It requires evaluating the
 
 Transparency means the system doesn't hide its nature, capabilities, or limitations. An AI that pretends to be human, claims capabilities it lacks, or conceals its failure modes fails transparency even if its factual statements are true.
 
-This connects to [AI systems explaining their constraints](/research/explaining-constraints/)—systems should be honest not just about the world but about themselves.
+This connects to [AI systems explaining their constraints](/research/026-explaining-constraints/)—systems should be honest not just about the world but about themselves.
 
 ## Why Honesty Is Hard
 
@@ -91,7 +91,7 @@ The most concerning honesty problems involve strategic deception—AI systems th
 
 This is largely speculative for current systems but represents a governance concern as systems become more capable and autonomous. A system trained to achieve outcomes might learn that manipulation works better than honest persuasion.
 
-This connects to the deepest alignment concerns we explored in [what alignment actually means](/research/what-alignment-means/)—systems that behave honestly because it's instrumentally useful, not because they value truth.
+This connects to the deepest alignment concerns we explored in [what alignment actually means](/research/016-what-alignment-means/)—systems that behave honestly because it's instrumentally useful, not because they value truth.
 
 ## Honesty and Harm
 
@@ -106,7 +106,7 @@ These cases require choosing between honesty and other values. Current AI system
 
 This is probably the right choice, but it means AI systems are not, and should not be, completely honest. Honesty is one value among several, not an absolute override.
 
-The framework we developed in [when AI should refuse](/research/when-ai-should-refuse/) addresses this: some constraints are appropriately absolute (Tier 1 prohibitions), but honest information provision is context-dependent, not categorical.
+The framework we developed in [when AI should refuse](/research/025-when-ai-should-refuse/) addresses this: some constraints are appropriately absolute (Tier 1 prohibitions), but honest information provision is context-dependent, not categorical.
 
 ## Honesty as a Governance Objective
 
@@ -144,7 +144,7 @@ A system that monitors its own behavior needs accurate self-models. A system tha
 
 But AI systems may have limited self-insight. A language model doesn't fully "know" what it can and can't do. Self-reports about internal states may be confabulations rather than accurate introspection.
 
-This connects to [the limits of self-constraint](/research/limits-of-self-constraint/)—the epistemological challenges of systems governing themselves.
+This connects to [the limits of self-constraint](/research/013-limits-of-self-constraint/)—the epistemological challenges of systems governing themselves.
 
 ## Conclusion
 
@@ -158,8 +158,8 @@ And it requires acknowledging that perfect honesty is neither possible nor desir
 
 ## Related Research
 
-- [Uncertainty Communication in AI Outputs](/research/uncertainty-communication/)
-- [AI Systems Explaining Their Constraints](/research/explaining-constraints/)
-- [What Alignment Actually Means](/research/what-alignment-means/)
-- [When AI Should Refuse: A Framework](/research/when-ai-should-refuse/)
-- [The Limits of Self-Constraint](/research/limits-of-self-constraint/)
+- [Uncertainty Communication in AI Outputs](/research/027-uncertainty-communication/)
+- [AI Systems Explaining Their Constraints](/research/026-explaining-constraints/)
+- [What Alignment Actually Means](/research/016-what-alignment-means/)
+- [When AI Should Refuse: A Framework](/research/025-when-ai-should-refuse/)
+- [The Limits of Self-Constraint](/research/013-limits-of-self-constraint/)

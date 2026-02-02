@@ -18,7 +18,7 @@ Policymakers face an unenviable task. They must govern a technology they didn't 
 
 But misconceptions lead to ineffective policy. Resources are directed at the wrong problems. Real risks go unaddressed while imaginary ones consume attention. This analysis identifies the most common and consequential errors in how policymakers think about AI risk—and suggests corrections.
 
-This builds on our examination of [why AI regulation is difficult](/research/regulation-is-hard/) and offers concrete guidance for more effective policy thinking.
+This builds on our examination of [why AI regulation is difficult](/research/018-regulation-is-hard/) and offers concrete guidance for more effective policy thinking.
 
 ## Misconception 1: AI Risk Is Primarily About Job Loss
 
@@ -46,7 +46,7 @@ Job displacement is a policy problem, but it's a familiar one with established r
 - What uses of AI are compatible with human rights and dignity?
 - How should power over AI be distributed?
 
-These are political, ethical, and social questions. Technical experts can inform them but cannot answer them. As we explored in [the honest AI problem](/research/honest-ai/), even questions that seem technical often embed deep value judgments.
+These are political, ethical, and social questions. Technical experts can inform them but cannot answer them. As we explored in [the honest AI problem](/research/029-honest-ai/), even questions that seem technical often embed deep value judgments.
 
 **Better approach.** Use technical expertise to understand capabilities and constraints. Use democratic processes to make value judgments. Don't confuse the two.
 
@@ -74,7 +74,7 @@ The dismissive view leads to underinvestment in governance capacity. By the time
 
 The emergency view leads to rushed, poorly designed interventions. It can also provoke backlash that makes governance harder. And by focusing on speculative long-term risks, it may distract from concrete near-term harms.
 
-**Better approach.** Take AI seriously as a governance challenge without requiring certainty about extreme scenarios. Build institutions that can respond flexibly. Address concrete harms now while maintaining awareness of potential future challenges. This is the approach we advocate throughout our research on [proportionality](/research/proportionality-disclosure/) and [capability assessment](/research/capability-evaluations/).
+**Better approach.** Take AI seriously as a governance challenge without requiring certainty about extreme scenarios. Build institutions that can respond flexibly. Address concrete harms now while maintaining awareness of potential future challenges. This is the approach we advocate throughout our research on [proportionality](/research/001-proportionality-disclosure/) and [capability assessment](/research/024-capability-evaluations/).
 
 ## Misconception 5: Voluntary Commitments Are Sufficient
 
@@ -87,7 +87,7 @@ The emergency view leads to rushed, poorly designed interventions. It can also p
 - Moving targets—commitments can be quietly weakened
 - Opacity—compliance is self-assessed
 
-We analyzed these dynamics in detail in [self-reporting versus external audit](/research/self-reporting-vs-audit/). History suggests that voluntary commitments work when backed by credible threat of regulation, not as alternatives to it.
+We analyzed these dynamics in detail in [self-reporting versus external audit](/research/010-self-reporting-vs-audit/). History suggests that voluntary commitments work when backed by credible threat of regulation, not as alternatives to it.
 
 **Better approach.** Voluntary commitments can be useful for exploring governance approaches and building consensus. But they should precede, not replace, enforceable requirements.
 
@@ -114,7 +114,7 @@ We analyzed these dynamics in detail in [self-reporting versus external audit](/
 - Some harms are irreversible or catastrophic. A "wait and see" approach is appropriate for recoverable harms, not for potential catastrophes.
 - By the time harms are proven, industry structure may make intervention difficult. Regulatory capture is easier when industries are established.
 
-The [capability overhang problem](/research/capability-overhang/) means that risks may exist but remain undiscovered. Waiting for demonstrated harm may mean waiting until it's too late.
+The [capability overhang problem](/research/009-capability-overhang/) means that risks may exist but remain undiscovered. Waiting for demonstrated harm may mean waiting until it's too late.
 
 **Better approach.** Use risk-based assessment. Where potential harms are serious and irreversible, precaution is justified. Where harms are minor and reversible, lighter-touch approaches make sense. The EU AI Act's tiered approach, whatever its flaws, gets this basic structure right.
 
@@ -129,7 +129,7 @@ The [capability overhang problem](/research/capability-overhang/) means that ris
 - Adaptation processes (how are standards updated?)
 - Interpretation authority (who resolves ambiguity?)
 
-Standards without institutions are like traffic laws without traffic police. They describe expected behavior but cannot ensure it. This is why we focus on [meta-governance](/research/meta-governance-auditors/)—governing the governance mechanisms themselves.
+Standards without institutions are like traffic laws without traffic police. They describe expected behavior but cannot ensure it. This is why we focus on [meta-governance](/research/006-meta-governance-auditors/)—governing the governance mechanisms themselves.
 
 **Better approach.** Technical standards should be embedded in institutional frameworks that ensure their development is legitimate, their application is consistent, and their enforcement is real.
 
@@ -137,11 +137,11 @@ Standards without institutions are like traffic laws without traffic police. The
 
 Good AI policy requires:
 
-**Proportionality.** Match governance intensity to actual risk, not to hype or fear. See our [proportionality framework](/research/proportionality-disclosure/).
+**Proportionality.** Match governance intensity to actual risk, not to hype or fear. See our [proportionality framework](/research/001-proportionality-disclosure/).
 
 **Institutional capacity.** Build the expertise and authority to govern AI before crises force rushed responses.
 
-**Stakeholder inclusion.** Technical experts inform, but democratic processes decide. This is central to our vision of [reflexive governance](/research/manifesto/).
+**Stakeholder inclusion.** Technical experts inform, but democratic processes decide. This is central to our vision of [reflexive governance](/research/030-manifesto/).
 
 **Adaptive design.** Create governance mechanisms that can evolve as technology and understanding change.
 
@@ -151,7 +151,7 @@ The stakes are high enough to warrant serious policy attention—and high enough
 
 ## Further Reading
 
-- [Why "Just Regulate AI" Is Harder Than It Sounds](/research/regulation-is-hard/)
-- [Liability Frameworks for AI Harm](/research/liability-frameworks/)
-- [The EU AI Act: What It Misses](/research/eu-ai-act-gaps/)
-- [A Reflexive AI Manifesto](/research/manifesto/)
+- [Why "Just Regulate AI" Is Harder Than It Sounds](/research/018-regulation-is-hard/)
+- [Liability Frameworks for AI Harm](/research/020-liability-frameworks/)
+- [The EU AI Act: What It Misses](/research/019-eu-ai-act-gaps/)
+- [A Reflexive AI Manifesto](/research/030-manifesto/)

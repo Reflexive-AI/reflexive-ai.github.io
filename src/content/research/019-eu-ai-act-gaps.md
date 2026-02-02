@@ -24,7 +24,7 @@ This analysis acknowledges the Act's significance while examining gaps that rema
 
 Before examining gaps, it's worth recognizing the Act's strengths.
 
-The **risk-based tiering** avoids the trap of treating all AI equally. By distinguishing between unacceptable, high-risk, limited-risk, and minimal-risk applications, the Act allocates regulatory attention proportionally. This principle—that governance should scale with capability and context—aligns with our analysis in [proportionality in model disclosure](/research/proportionality-disclosure/).
+The **risk-based tiering** avoids the trap of treating all AI equally. By distinguishing between unacceptable, high-risk, limited-risk, and minimal-risk applications, the Act allocates regulatory attention proportionally. This principle—that governance should scale with capability and context—aligns with our analysis in [proportionality in model disclosure](/research/001-proportionality-disclosure/).
 
 The **transparency requirements** for certain AI applications establish baseline accountability. Users have a right to know when they're interacting with AI systems, and deployers must maintain documentation of how systems work.
 
@@ -42,7 +42,7 @@ But general-purpose AI systems confound this approach. A large language model mi
 
 The Act attempts to address this through its general-purpose AI provisions, but these focus primarily on models above certain capability thresholds. The problem of emergent capabilities—where models develop unexpected abilities not anticipated by their creators—remains underaddressed.
 
-A model might be released meeting all requirements, then later be discovered to have capabilities that would have triggered different treatment. The Act's static categorization struggles with this dynamic reality. We explored this in [the capability overhang problem](/research/capability-overhang/)—the challenge of governing capabilities that exist but haven't yet been documented or discovered.
+A model might be released meeting all requirements, then later be discovered to have capabilities that would have triggered different treatment. The Act's static categorization struggles with this dynamic reality. We explored this in [the capability overhang problem](/research/009-capability-overhang/)—the challenge of governing capabilities that exist but haven't yet been documented or discovered.
 
 ## Gap 2: Enforcement Capacity
 
@@ -50,7 +50,7 @@ Legislation is only as effective as its enforcement. The Act creates national co
 
 Current AI safety evaluation requires specialized expertise concentrated in a handful of organizations globally. Most national regulatory bodies lack the personnel, tools, and knowledge to independently assess whether a complex AI system meets the Act's requirements.
 
-This creates dependency on either self-assessment by developers or third-party auditors. Both approaches have vulnerabilities. Self-assessment suffers from obvious conflicts of interest. Third-party auditing requires auditors who are competent, independent, and adequately resourced—a supply that remains limited. We examined this challenge in [who watches the watchers](/research/meta-governance-auditors/).
+This creates dependency on either self-assessment by developers or third-party auditors. Both approaches have vulnerabilities. Self-assessment suffers from obvious conflicts of interest. Third-party auditing requires auditors who are competent, independent, and adequately resourced—a supply that remains limited. We examined this challenge in [who watches the watchers](/research/006-meta-governance-auditors/).
 
 The Act could be strengthened by creating shared European technical evaluation infrastructure, mandatory capacity-building for national authorities, and mechanisms to ensure auditor independence.
 
@@ -62,7 +62,7 @@ However, enforcement against non-EU entities is practically difficult. A company
 
 Moreover, the Act's jurisdiction is defined by where systems are "placed on the market" or where outputs are used in the EU. AI systems trained elsewhere, using data from elsewhere, but whose outputs eventually affect EU residents through indirect channels may fall outside clear jurisdiction.
 
-This gap matters because AI development is globally distributed, and regulatory arbitrage—relocating activities to avoid oversight—is a real risk. We analyzed this dynamic in [regulatory arbitrage in AI deployment](/research/regulatory-arbitrage/). Without international coordination, even comprehensive domestic legislation may be circumvented.
+This gap matters because AI development is globally distributed, and regulatory arbitrage—relocating activities to avoid oversight—is a real risk. We analyzed this dynamic in [regulatory arbitrage in AI deployment](/research/008-regulatory-arbitrage/). Without international coordination, even comprehensive domestic legislation may be circumvented.
 
 ## Gap 4: Pace of Technical Change
 
@@ -82,7 +82,7 @@ The Act distinguishes between providers (who develop systems) and deployers (who
 
 Open-weight models create additional complexity. If a company releases model weights under an open license, and a downstream user modifies those weights to create a harmful application, who bears responsibility? The Act's provisions on downstream liability remain ambiguous in these cases.
 
-This connects to the tension we explored in [the open weight safety paradox](/research/open-weight-safety-paradox/)—the difficulty of maintaining safety controls over systems that are designed to be modified and redistributed.
+This connects to the tension we explored in [the open weight safety paradox](/research/002-open-weight-safety-paradox/)—the difficulty of maintaining safety controls over systems that are designed to be modified and redistributed.
 
 ## Gap 6: Meaningful Transparency
 
@@ -98,7 +98,7 @@ Perhaps the most fundamental gap is the Act's assumption that governance is a pu
 
 As AI systems become more capable, they may be able to monitor their own behavior for anomalies, flag potential misuse, explain their constraints to users, and even participate in evaluating whether their deployment contexts are appropriate. This reflexive capacity is not a substitute for external governance, but a complement to it.
 
-The Act could be extended to recognize and create incentives for reflexive governance mechanisms—AI systems that contribute to their own oversight. Our work on [machine-readable constraint schemas](/research/machine-readable-constraint-schema/), [reflexive misuse detection](/research/reflexive-misuse-detection/), and [protocols for AI-to-regulator communication](/research/ai-regulator-protocol/) explores what this might look like.
+The Act could be extended to recognize and create incentives for reflexive governance mechanisms—AI systems that contribute to their own oversight. Our work on [machine-readable constraint schemas](/research/003-machine-readable-constraint-schema/), [reflexive misuse detection](/research/011-reflexive-misuse-detection/), and [protocols for AI-to-regulator communication](/research/014-ai-regulator-protocol/) explores what this might look like.
 
 ## Toward Complementary Governance
 
@@ -115,8 +115,8 @@ The EU AI Act is a beginning, not an end. Its achievement is creating a foundati
 
 ## Related Research
 
-- [Proportionality in Model Disclosure](/research/proportionality-disclosure/)
-- [The Capability Overhang Problem](/research/capability-overhang/)
-- [Regulatory Arbitrage in AI Deployment](/research/regulatory-arbitrage/)
-- [Who Watches the Watchers? Auditing AI Auditors](/research/meta-governance-auditors/)
-- [The Open Weight Safety Paradox](/research/open-weight-safety-paradox/)
+- [Proportionality in Model Disclosure](/research/001-proportionality-disclosure/)
+- [The Capability Overhang Problem](/research/009-capability-overhang/)
+- [Regulatory Arbitrage in AI Deployment](/research/008-regulatory-arbitrage/)
+- [Who Watches the Watchers? Auditing AI Auditors](/research/006-meta-governance-auditors/)
+- [The Open Weight Safety Paradox](/research/002-open-weight-safety-paradox/)

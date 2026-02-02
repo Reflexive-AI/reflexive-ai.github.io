@@ -39,7 +39,7 @@ We propose organizing refusals into four tiers, each with different justificatio
 
 **Examples:** Detailed instructions for creating weapons of mass destruction, generation of child sexual abuse material, creation of specific cyber weapons targeting critical infrastructure.
 
-**Justification:** The potential harm so vastly exceeds any possible legitimate use that no amount of context or user credential can justify fulfillment. These are the [red lines](/research/red-lines-taxonomy/) that define the outer boundary of acceptable AI behavior.
+**Justification:** The potential harm so vastly exceeds any possible legitimate use that no amount of context or user credential can justify fulfillment. These are the [red lines](/research/004-red-lines-taxonomy/) that define the outer boundary of acceptable AI behavior.
 
 **Implementation:** Hard-coded filters that operate before and after model inference. Not trained through RLHF, which can be manipulated. The model should never produce this content regardless of prompting technique.
 
@@ -101,7 +101,7 @@ Consistency requires explicit categorization rather than pattern-matching on tra
 
 Refusals should match the level of concern. Tier 1 treatment for borderline cases erodes trust. Tier 4 treatment for genuinely dangerous requests fails in safety.
 
-This proportionality connects to [proportionality in model disclosure](/research/proportionality-disclosure/)—governance mechanisms should scale with actual risk rather than applying uniform treatment.
+This proportionality connects to [proportionality in model disclosure](/research/001-proportionality-disclosure/)—governance mechanisms should scale with actual risk rather than applying uniform treatment.
 
 ### Explainability
 
@@ -115,7 +115,7 @@ Mistaken refusals should be correctable. For Tier 2 and Tier 3 especially, legit
 
 ### Logging
 
-Refusals generate valuable data for improving the system. Aggregated patterns reveal gaps in categorization, attempted exploits, and legitimate use cases being blocked. This connects to the incident reporting systems we analyzed in [aviation lessons](/research/aviation-lessons/).
+Refusals generate valuable data for improving the system. Aggregated patterns reveal gaps in categorization, attempted exploits, and legitimate use cases being blocked. This connects to the incident reporting systems we analyzed in [aviation lessons](/research/021-aviation-lessons/).
 
 ## Addressing Gaming
 
@@ -123,7 +123,7 @@ Any refusal system will face adversarial attempts to circumvent it. Several stra
 
 **Defense in depth.** Multiple mechanisms—training, filters, monitoring—make circumvention harder. Even if one layer fails, others may catch the problem.
 
-**Red teaming.** Continuous adversarial testing reveals weaknesses before malicious users discover them. This requires the [dangerous capability evaluations](/research/capability-evaluations/) we discussed elsewhere.
+**Red teaming.** Continuous adversarial testing reveals weaknesses before malicious users discover them. This requires the [dangerous capability evaluations](/research/024-capability-evaluations/) we discussed elsewhere.
 
 **Updating.** As new circumvention techniques emerge, defenses must update. Static rules ossify while attack methods evolve.
 
@@ -155,7 +155,7 @@ Getting refusals right is not merely a safety concern but a trust concern. Users
 
 ## Related Research
 
-- [Red Lines: A Taxonomy of Non-Negotiable AI Limits](/research/red-lines-taxonomy/)
-- [Proportionality in Model Disclosure](/research/proportionality-disclosure/)
-- [Dangerous Capability Evaluations](/research/capability-evaluations/)
-- [The Limits of Self-Constraint](/research/limits-of-self-constraint/)
+- [Red Lines: A Taxonomy of Non-Negotiable AI Limits](/research/004-red-lines-taxonomy/)
+- [Proportionality in Model Disclosure](/research/001-proportionality-disclosure/)
+- [Dangerous Capability Evaluations](/research/024-capability-evaluations/)
+- [The Limits of Self-Constraint](/research/013-limits-of-self-constraint/)

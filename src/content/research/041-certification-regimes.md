@@ -32,7 +32,7 @@ Aircraft certification is among the most rigorous:
 - **Individual certification:** Each aircraft is inspected before operation
 - **Ongoing compliance:** Continued airworthiness requires regular inspection and maintenance
 
-This regime is expensive and time-consuming—but has achieved remarkable safety records. We explored aviation's lessons for AI in [incident reporting systems](/research/aviation-lessons/).
+This regime is expensive and time-consuming—but has achieved remarkable safety records. We explored aviation's lessons for AI in [incident reporting systems](/research/021-aviation-lessons/).
 
 ### Medical Devices
 
@@ -73,7 +73,7 @@ Drawing on these models, AI certification could potentially include several elem
 
 Before deployment, AI systems could undergo assessment covering:
 
-- **Capability evaluation:** What can the system do? (connecting to our analysis of [dangerous capability evaluations](/research/capability-evaluations/))
+- **Capability evaluation:** What can the system do? (connecting to our analysis of [dangerous capability evaluations](/research/024-capability-evaluations/))
 - **Risk assessment:** What harms might occur?
 - **Testing:** How does the system perform in controlled conditions?
 - **Documentation:** Is there adequate documentation of training, architecture, and limitations?
@@ -92,7 +92,7 @@ Based on assessment, certification authorities could:
 Certification wouldn't end at deployment. Requirements could include:
 
 - **Performance monitoring:** Tracking system behavior in real-world operation
-- **Incident reporting:** Disclosing problems that emerge (as we examined in [aviation lessons](/research/aviation-lessons/))
+- **Incident reporting:** Disclosing problems that emerge (as we examined in [aviation lessons](/research/021-aviation-lessons/))
 - **Recertification:** Periodic reassessment, especially after significant changes
 - **Update approval:** Changes to deployed systems require review
 
@@ -149,7 +149,7 @@ Certification requires clear standards. For AI, what standards would apply?
 - "Good enough" performance is context-dependent
 - Trade-offs between different properties (accuracy vs. explainability vs. privacy) require judgment
 
-We examined standards challenges in [the role of standards bodies](/research/standards-bodies/).
+We examined standards challenges in [the role of standards bodies](/research/039-standards-bodies/).
 
 ### How Would Testing Work?
 
@@ -158,7 +158,7 @@ Traditional certification testing involves defined tests against specifications.
 - Systems may behave differently in deployment than in testing
 - Adversarial inputs can cause failures that standard testing misses
 - Rare but important situations are hard to test
-- Testing may not reveal the capabilities we identified in [capability overhang](/research/capability-overhang/)
+- Testing may not reveal the capabilities we identified in [capability overhang](/research/009-capability-overhang/)
 
 ### Post-Deployment Drift
 
@@ -170,7 +170,7 @@ Rigorous certification is expensive. Aviation certification costs millions; medi
 
 ### Regulatory Capacity
 
-Certification requires capable certifiers. Regulators would need technical expertise in AI that many currently lack. Third-party certifiers would need similar capacity. We explored related challenges in [why regulation is hard](/research/regulation-is-hard/).
+Certification requires capable certifiers. Regulators would need technical expertise in AI that many currently lack. Third-party certifiers would need similar capacity. We explored related challenges in [why regulation is hard](/research/018-regulation-is-hard/).
 
 ### Circumvention Risks
 
@@ -233,11 +233,11 @@ Our work on reflexive governance suggests additional possibilities.
 
 AI systems could participate in their own certification:
 
-- **Self-reporting:** Systems report their capabilities and limitations (as we explored in [AI-to-regulator communication](/research/ai-regulator-protocol/))
-- **Constraint explanation:** Systems explain what they're designed to refuse (see [explaining constraints](/research/explaining-constraints/))
+- **Self-reporting:** Systems report their capabilities and limitations (as we explored in [AI-to-regulator communication](/research/014-ai-regulator-protocol/))
+- **Constraint explanation:** Systems explain what they're designed to refuse (see [explaining constraints](/research/026-explaining-constraints/))
 - **Monitoring assistance:** Systems help detect their own problems
 
-This wouldn't replace external certification but could complement it. However, as we examined in [the limits of self-constraint](/research/limits-of-self-constraint/), self-reporting has inherent limitations.
+This wouldn't replace external certification but could complement it. However, as we examined in [the limits of self-constraint](/research/013-limits-of-self-constraint/), self-reporting has inherent limitations.
 
 ## Recommendations
 
@@ -263,7 +263,7 @@ Certification should be part of AI governance but cannot be the whole of it. Bui
 
 ## Further Reading
 
-- [Dangerous Capability Evaluations](/research/capability-evaluations/)
-- [Incident Reporting Systems: Lessons from Aviation](/research/aviation-lessons/)
-- [The Role of Standards Bodies in AI Governance](/research/standards-bodies/)
-- [Self-Reporting vs. External Audit: Trade-offs](/research/self-reporting-vs-audit/)
+- [Dangerous Capability Evaluations](/research/024-capability-evaluations/)
+- [Incident Reporting Systems: Lessons from Aviation](/research/021-aviation-lessons/)
+- [The Role of Standards Bodies in AI Governance](/research/039-standards-bodies/)
+- [Self-Reporting vs. External Audit: Trade-offs](/research/010-self-reporting-vs-audit/)

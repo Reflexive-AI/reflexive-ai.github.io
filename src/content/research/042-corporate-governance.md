@@ -105,7 +105,7 @@ Evidence from AI companies and analogous industries suggests factors that make s
 
 **Incident learning.** Companies that systematically learn from near-misses and failures improve. Companies that treat incidents as embarrassments to hide don't.
 
-**Whistleblower protection.** As we examined in [whistleblower protections](/research/whistleblower-protections/), employees who can safely raise concerns are essential for identifying problems.
+**Whistleblower protection.** As we examined in [whistleblower protections](/research/022-whistleblower-protections/), employees who can safely raise concerns are essential for identifying problems.
 
 **Aligned incentives.** When safety and commercial teams share goals—or when safety success is rewarded—conflicts are reduced.
 
@@ -197,7 +197,7 @@ Liability regimes should create board-level attention to safety:
 - Enhanced liability for companies lacking adequate governance
 - Safe harbor for companies with robust governance
 
-We explored liability implications in [liability frameworks](/research/liability-frameworks/).
+We explored liability implications in [liability frameworks](/research/020-liability-frameworks/).
 
 ### Transparency Requirements
 
@@ -209,13 +209,13 @@ Requiring disclosure of governance structures enables:
 
 ### Whistleblower Protection
 
-Robust whistleblower protection, discussed in [our analysis](/research/whistleblower-protections/), ensures that organizational failures can be surfaced externally when internal processes fail.
+Robust whistleblower protection, discussed in [our analysis](/research/022-whistleblower-protections/), ensures that organizational failures can be surfaced externally when internal processes fail.
 
 ## The Reflexive Angle
 
 Our work on reflexive governance has implications for corporate structure.
 
-If AI systems are to participate in their own governance—[reporting constraints](/research/ai-regulator-protocol/), [explaining limits](/research/explaining-constraints/)—corporate structures must enable this:
+If AI systems are to participate in their own governance—[reporting constraints](/research/014-ai-regulator-protocol/), [explaining limits](/research/026-explaining-constraints/)—corporate structures must enable this:
 
 - Systems to receive and surface AI-generated safety signals
 - Processes to act on AI self-assessment
@@ -249,7 +249,7 @@ External governance should attend to organizational structure—requiring, asses
 
 ## Further Reading
 
-- [Whistleblower Protections in AI Labs](/research/whistleblower-protections/)
-- [Self-Reporting vs. External Audit: Trade-offs](/research/self-reporting-vs-audit/)
-- [Liability Frameworks for AI Harm](/research/liability-frameworks/)
-- [Who Watches the Watchers? Auditing AI Auditors](/research/meta-governance-auditors/)
+- [Whistleblower Protections in AI Labs](/research/022-whistleblower-protections/)
+- [Self-Reporting vs. External Audit: Trade-offs](/research/010-self-reporting-vs-audit/)
+- [Liability Frameworks for AI Harm](/research/020-liability-frameworks/)
+- [Who Watches the Watchers? Auditing AI Auditors](/research/006-meta-governance-auditors/)

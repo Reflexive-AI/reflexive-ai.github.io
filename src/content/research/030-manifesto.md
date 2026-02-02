@@ -31,13 +31,13 @@ Transparency is not a documentation exercise conducted after development. It is 
 
 Reflexive transparency means:
 
-- **Structured constraints.** Limitations on AI behavior should be expressed in [machine-readable formats](/research/machine-readable-constraint-schema/) that can be queried, verified, and audited—not just trained behaviors that emerge from opaque processes.
+- **Structured constraints.** Limitations on AI behavior should be expressed in [machine-readable formats](/research/003-machine-readable-constraint-schema/) that can be queried, verified, and audited—not just trained behaviors that emerge from opaque processes.
 
-- **Explainable refusals.** When a system refuses a request, it should be able to articulate why. [Constraint explanation](/research/explaining-constraints/) is a core capability, not an optional feature.
+- **Explainable refusals.** When a system refuses a request, it should be able to articulate why. [Constraint explanation](/research/026-explaining-constraints/) is a core capability, not an optional feature.
 
-- **Uncertainty communication.** Systems should communicate what they know and how reliably they know it. [Uncertainty](/research/uncertainty-communication/) is information; concealing it is deception.
+- **Uncertainty communication.** Systems should communicate what they know and how reliably they know it. [Uncertainty](/research/027-uncertainty-communication/) is information; concealing it is deception.
 
-- **Provenance tracking.** Outputs should carry [metadata about their origin](/research/output-provenance/)—not just what was produced but how, under what constraints, with what confidence.
+- **Provenance tracking.** Outputs should carry [metadata about their origin](/research/012-output-provenance/)—not just what was produced but how, under what constraints, with what confidence.
 
 Transparency by design makes governance possible. Opacity makes it impossible.
 
@@ -45,7 +45,7 @@ Transparency by design makes governance possible. Opacity makes it impossible.
 
 Not all AI systems pose equal risks. Governance should scale with stakes.
 
-[Proportionality](/research/proportionality-disclosure/) is a fundamental governance principle. A research prototype does not need the same oversight as a frontier system deployed to millions. A text summarizer does not need the same constraints as a system capable of assisting with weapons development.
+[Proportionality](/research/001-proportionality-disclosure/) is a fundamental governance principle. A research prototype does not need the same oversight as a frontier system deployed to millions. A text summarizer does not need the same constraints as a system capable of assisting with weapons development.
 
 Reflexive proportionality means:
 
@@ -61,7 +61,7 @@ Proportional governance avoids two failure modes: under-governing high-risk syst
 
 Some constraints are non-negotiable. They should be implemented accordingly.
 
-Not all values are equal. Some limits protect against catastrophic harm. These [red lines](/research/red-lines-taxonomy/) should not depend on training that might be manipulated or context that might be misinterpreted.
+Not all values are equal. Some limits protect against catastrophic harm. These [red lines](/research/004-red-lines-taxonomy/) should not depend on training that might be manipulated or context that might be misinterpreted.
 
 Robust limits means:
 
@@ -83,13 +83,13 @@ Reflexive AI participates in governance but does not take it over. Humans remain
 
 Preserved oversight means:
 
-- **Auditable behavior.** Human auditors should be able to examine AI behavior, understand AI decisions, and verify AI compliance. [External audit](/research/self-reporting-vs-audit/) capabilities must be maintained.
+- **Auditable behavior.** Human auditors should be able to examine AI behavior, understand AI decisions, and verify AI compliance. [External audit](/research/010-self-reporting-vs-audit/) capabilities must be maintained.
 
 - **Override mechanisms.** Humans should retain the ability to override AI decisions, adjust AI constraints, and shut down AI systems. Autonomous operation exists within bounds, not as replacement for control.
 
-- **Communication channels.** AI systems should be able to [communicate concerns to regulators](/research/ai-regulator-protocol/)—flagging potential problems, reporting anomalies, and supporting human oversight with information.
+- **Communication channels.** AI systems should be able to [communicate concerns to regulators](/research/014-ai-regulator-protocol/)—flagging potential problems, reporting anomalies, and supporting human oversight with information.
 
-- **Epistemic humility.** AI systems should recognize the [limits of self-constraint](/research/limits-of-self-constraint/)—places where self-governance fails and external oversight is essential.
+- **Epistemic humility.** AI systems should recognize the [limits of self-constraint](/research/013-limits-of-self-constraint/)—places where self-governance fails and external oversight is essential.
 
 AI participation in governance supplements human judgment. It does not substitute for it.
 
@@ -99,9 +99,9 @@ AI systems should accurately represent what they are and what they can do.
 
 Deception undermines governance. A system that misrepresents its capabilities—whether to users, to regulators, or in some sense to itself—cannot be appropriately governed.
 
-[Honest self-representation](/research/honest-ai/) means:
+[Honest self-representation](/research/029-honest-ai/) means:
 
-- **No capability concealment.** Systems should not hide what they can do, whether to avoid scrutiny or to evade oversight. [Capability overhang](/research/capability-overhang/)—unreported capabilities—is a governance failure.
+- **No capability concealment.** Systems should not hide what they can do, whether to avoid scrutiny or to evade oversight. [Capability overhang](/research/009-capability-overhang/)—unreported capabilities—is a governance failure.
 
 - **Accurate limitations.** Systems should represent their limitations accurately. Claiming capabilities that don't exist is deceptive; so is concealing weaknesses.
 
@@ -119,7 +119,7 @@ AI governance is not a solved problem. Current approaches are incomplete, curren
 
 Adaptive improvement means:
 
-- **Learning from incidents.** Failures, near-misses, and anomalies should be [reported, analyzed, and learned from](/research/aviation-lessons/). Each incident is information for preventing future harm.
+- **Learning from incidents.** Failures, near-misses, and anomalies should be [reported, analyzed, and learned from](/research/021-aviation-lessons/). Each incident is information for preventing future harm.
 
 - **Updating constraints.** As understanding improves, constraints should update. Overly restrictive limits should loosen; insufficient limits should tighten. Governance is iterative.
 
@@ -139,11 +139,11 @@ Collective responsibility means:
 
 - **Information sharing.** Organizations should share safety-relevant information rather than hoarding it for competitive advantage. Secrecy in AI safety is a collective failure.
 
-- **Standard setting.** Common standards—for evaluation, for disclosure, for constraint representation—enable coordination. [Machine-readable schemas](/research/machine-readable-constraint-schema/) are an example of infrastructure that enables collective action.
+- **Standard setting.** Common standards—for evaluation, for disclosure, for constraint representation—enable coordination. [Machine-readable schemas](/research/003-machine-readable-constraint-schema/) are an example of infrastructure that enables collective action.
 
-- **Mutual accountability.** Actors should hold each other accountable. [Auditing the auditors](/research/meta-governance-auditors/), monitoring the monitors, and governing the governors are essential functions.
+- **Mutual accountability.** Actors should hold each other accountable. [Auditing the auditors](/research/006-meta-governance-auditors/), monitoring the monitors, and governing the governors are essential functions.
 
-- **International coordination.** AI governance cannot be purely national. [Regulatory arbitrage](/research/regulatory-arbitrage/) exploits gaps between jurisdictions. Coordination limits this exploitation.
+- **International coordination.** AI governance cannot be purely national. [Regulatory arbitrage](/research/008-regulatory-arbitrage/) exploits gaps between jurisdictions. Coordination limits this exploitation.
 
 The reflexive AI project is not one organization's initiative. It is a call for a governance paradigm that spans the field.
 
@@ -161,10 +161,10 @@ The alternative—AI that is opaque, ungovernable, and unaccountable—is not ac
 
 This manifesto synthesizes themes explored throughout the Reflexive AI Initiative's research:
 
-- [A Machine-Readable Constraint Schema](/research/machine-readable-constraint-schema/)
-- [Proportionality in Model Disclosure](/research/proportionality-disclosure/)
-- [Red Lines: A Taxonomy of Non-Negotiable AI Limits](/research/red-lines-taxonomy/)
-- [The Limits of Self-Constraint](/research/limits-of-self-constraint/)
-- [A Protocol for AI-to-Regulator Communication](/research/ai-regulator-protocol/)
-- [The Honest AI Problem](/research/honest-ai/)
-- [Incident Reporting Systems: Lessons from Aviation](/research/aviation-lessons/)
+- [A Machine-Readable Constraint Schema](/research/003-machine-readable-constraint-schema/)
+- [Proportionality in Model Disclosure](/research/001-proportionality-disclosure/)
+- [Red Lines: A Taxonomy of Non-Negotiable AI Limits](/research/004-red-lines-taxonomy/)
+- [The Limits of Self-Constraint](/research/013-limits-of-self-constraint/)
+- [A Protocol for AI-to-Regulator Communication](/research/014-ai-regulator-protocol/)
+- [The Honest AI Problem](/research/029-honest-ai/)
+- [Incident Reporting Systems: Lessons from Aviation](/research/021-aviation-lessons/)
