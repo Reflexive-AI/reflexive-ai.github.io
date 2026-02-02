@@ -1,7 +1,7 @@
 ---
 title: "Meta-Governance: Who Audits the Auditors?"
 excerpt: "As third-party auditing becomes a regulatory requirement, a new principal-agent problem emerges. This note analyzes the certification market and proposes a 'proof-of-verification' protocol."
-date: 2026-01-04
+date: 2025-12-19
 categories:
   - Governance Analysis
 tags:

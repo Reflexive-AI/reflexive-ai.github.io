@@ -1,7 +1,7 @@
 ---
 title: "Corporate Governance Structures for AI Safety"
 excerpt: "How companies organize to manage AI safety matters as much as what rules they follow. An examination of governance structures that enable—or undermine—responsible AI development."
-date: 2026-01-27
+date: 2026-01-24
 categories:
   - Governance Analysis
 tags:

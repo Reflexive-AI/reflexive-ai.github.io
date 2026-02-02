@@ -1,7 +1,7 @@
 ---
 title: "Whistleblower Protections in AI Labs"
 excerpt: "Employees at AI companies often have unique insight into risks. Current protections are inadequate. This analysis examines what meaningful whistleblower frameworks for AI would require."
-date: 2026-01-14
+date: 2026-01-04
 categories:
   - Governance Analysis
   - Policy Proposal

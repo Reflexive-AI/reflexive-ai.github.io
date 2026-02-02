@@ -1,7 +1,7 @@
 ---
 title: "Board-Level AI Oversight: Best Practices"
 excerpt: "Boards of directors increasingly need to oversee AI strategy and risk. A practical guide to what effective board-level AI oversight looks like."
-date: 2026-01-28
+date: 2026-01-25
 categories:
   - Governance Analysis
   - Public

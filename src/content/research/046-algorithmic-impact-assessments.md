@@ -1,7 +1,7 @@
 ---
 title: "Algorithmic Impact Assessments: Implementation Guide"
 excerpt: "A practical framework for conducting meaningful algorithmic impact assessments that move beyond checkbox compliance to genuine harm prevention."
-date: 2026-01-30
+date: 2026-01-28
 toc: true
 categories:
   - Research

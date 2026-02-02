@@ -1,7 +1,7 @@
 ---
 title: "Why 'Just Regulate AI' Is Harder Than It Sounds"
 excerpt: "Regulation seems like the obvious answer to AI risks. But the path from 'we should regulate AI' to effective governance is fraught with technical, political, and conceptual obstacles."
-date: 2026-01-12
+date: 2025-12-31
 categories:
   - Public
   - Governance Analysis

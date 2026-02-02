@@ -1,7 +1,7 @@
 ---
 title: "Consent at Scale: A Structural Impossibility?"
 excerpt: "Can meaningful consent exist between a human and a hyper-scale inference engine? We argue that 'consent' is the wrong legal primitive for AI interactions."
-date: 2026-01-05
+date: 2025-12-20
 categories:
   - Governance Analysis
 tags:

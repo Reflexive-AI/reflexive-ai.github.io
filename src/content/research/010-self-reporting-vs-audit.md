@@ -1,7 +1,7 @@
 ---
 title: "Self-Reporting vs. External Audit: The Trade-off Space"
 excerpt: "A game-theoretic analysis of disclosure incentives. Why self-reporting fails without a credible threat of external verification."
-date: 2026-01-07
+date: 2025-12-23
 categories:
   - Governance Analysis
 tags:

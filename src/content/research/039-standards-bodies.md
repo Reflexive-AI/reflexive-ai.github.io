@@ -1,7 +1,7 @@
 ---
 title: "The Role of Standards Bodies in AI Governance"
 excerpt: "Technical standards organizations may shape AI governance as much as legislation. An examination of who sets AI standards, how standards work, and their governance implications."
-date: 2026-01-25
+date: 2026-01-21
 categories:
   - Governance Analysis
 tags:

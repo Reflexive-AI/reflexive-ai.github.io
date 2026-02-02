@@ -1,7 +1,7 @@
 ---
 title: "Emergent Norms in Multi-Agent Systems"
 excerpt: "When agents interact at speed and scale, human law is too slow. We look to game theory and evolution for how 'machine law' might emerge."
-date: 2026-01-10
+date: 2025-12-28
 categories:
   - Theoretical Analysis
 tags:

@@ -1,7 +1,7 @@
 ---
 title: "The EU AI Act: What It Misses"
 excerpt: "The EU AI Act represents the world's most comprehensive AI legislation. But even well-designed regulation has blind spots. A constructive critique of what the Act leaves unaddressed."
-date: 2026-01-13
+date: 2026-01-01
 categories:
   - Governance Analysis
   - Policy Proposal

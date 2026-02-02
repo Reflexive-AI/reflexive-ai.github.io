@@ -1,7 +1,7 @@
 ---
 title: "AI in Healthcare: Governance Challenges"
 excerpt: "Healthcare AI promises better diagnoses, treatments, and outcomes. But it also concentrates critical decisions in opaque systems. A domain-specific analysis of governance challenges."
-date: 2026-01-18
+date: 2026-01-10
 categories:
   - Governance Analysis
   - Public

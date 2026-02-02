@@ -1,7 +1,7 @@
 ---
 title: "AI Systems Explaining Their Constraints"
 excerpt: "When AI refuses or limits its behavior, can it explain why? This analysis examines constraint explainability—its value for governance, technical challenges, and implementation approaches."
-date: 2026-01-17
+date: 2026-01-08
 categories:
   - Technical Artifact
   - Reflexivity

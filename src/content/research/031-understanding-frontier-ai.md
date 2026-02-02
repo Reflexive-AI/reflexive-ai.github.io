@@ -1,7 +1,7 @@
 ---
 title: "Understanding Frontier AI: A Plain Language Guide"
 excerpt: "What makes today's most advanced AI systems different, why they matter for governance, and what non-technical readers need to understand."
-date: 2026-01-20
+date: 2026-01-13
 categories:
   - Public
   - Governance Analysis

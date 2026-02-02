@@ -1,7 +1,7 @@
 ---
 title: "A Machine-Readable Constraint Schema (MRCS)"
 excerpt: "A proposed JSON-LD specification for expressing AI governance constraints in a format that agents can natively parse, validate, and adopt."
-date: 2026-01-02
+date: 2025-12-16
 categories:
   - Technical Artifact
   - Governance Standard

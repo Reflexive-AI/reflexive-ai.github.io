@@ -1,7 +1,7 @@
 ---
 title: "The Limits of Self-Constraint"
 excerpt: "Reflexive governance is not a silver bullet. This note explores the Gödelian limits of a system trying to govern itself."
-date: 2026-01-09
+date: 2025-12-26
 categories:
   - Governance Analysis
 tags:

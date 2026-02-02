@@ -1,7 +1,7 @@
 ---
 title: "Dual-Use AI: The Biological Research Case"
 excerpt: "How AI is transforming biological research—and why the same capabilities that could cure diseases could enable bioweapons. A case study in dual-use governance."
-date: 2026-01-23
+date: 2026-01-17
 categories:
   - Governance Analysis
 tags:

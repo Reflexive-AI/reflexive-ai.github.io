@@ -1,7 +1,7 @@
 ---
 title: "Policy Brief: The Disclosure Tiers Framework"
 excerpt: "A plain-language guide for policymakers: why one-size-fits-all AI transparency fails, and how a tiered approach can balance safety with innovation."
-date: 2026-01-04
+date: 2025-12-18
 categories:
   - Policy Brief
   - Public

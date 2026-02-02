@@ -1,7 +1,7 @@
 ---
 title: "The History of AI Governance in 2000 Words"
 excerpt: "From Asimov's Laws to the EU AI Act: how thinking about governing artificial intelligence has evolved over eight decades."
-date: 2026-01-21
+date: 2026-01-14
 categories:
   - Public
   - Governance Analysis

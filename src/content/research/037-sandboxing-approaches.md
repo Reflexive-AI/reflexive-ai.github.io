@@ -1,7 +1,7 @@
 ---
 title: "Sandboxing Approaches: What Works"
 excerpt: "Regulatory sandboxes for AI allow experimentation under controlled conditions. An analysis of existing approaches, what makes them effective, and their limitations."
-date: 2026-01-24
+date: 2026-01-19
 categories:
   - Governance Analysis
 tags:

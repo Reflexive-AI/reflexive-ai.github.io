@@ -1,7 +1,7 @@
 ---
 title: "Constraint: Output Provenance Tagging"
 excerpt: "A cryptographic proposal for AI systems to sign their own outputs, creating a chain of custody for synthetic information."
-date: 2026-01-08
+date: 2025-12-25
 categories:
   - Candidate Constraint
   - Technical Standard

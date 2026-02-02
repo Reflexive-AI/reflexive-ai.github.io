@@ -1,7 +1,7 @@
 ---
 title: "Compute Governance: Promises and Limits"
 excerpt: "Compute is one of the few measurable inputs to AI development. Governing at the compute layer is appealing but faces significant challenges. An honest assessment."
-date: 2026-01-15
+date: 2026-01-05
 categories:
   - Technical Analysis
   - Governance Analysis

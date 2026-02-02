@@ -1,7 +1,7 @@
 ---
 title: "The Capability Overhang"
 excerpt: "Models are often capable of more than their developers know. This 'overhang' between demonstrated and latent capability is a primary governance risk."
-date: 2026-01-06
+date: 2025-12-22
 categories:
   - Technical Analysis
 tags:

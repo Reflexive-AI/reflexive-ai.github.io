@@ -1,7 +1,7 @@
 ---
 title: "Liability Frameworks for AI Harm"
 excerpt: "When AI systems cause harm, who pays? Existing liability frameworks struggle with AI's distinctive features. This analysis maps the problem and evaluates potential solutions."
-date: 2026-01-13
+date: 2026-01-02
 categories:
   - Governance Analysis
   - Policy Proposal

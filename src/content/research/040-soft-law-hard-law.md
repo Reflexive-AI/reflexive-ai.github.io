@@ -1,7 +1,7 @@
 ---
 title: "Soft Law vs. Hard Law in AI Regulation"
 excerpt: "AI governance uses both binding legislation and non-binding guidelines. An analysis of when each approach works, their tradeoffs, and how they interact."
-date: 2026-01-26
+date: 2026-01-22
 categories:
   - Governance Analysis
   - Public

@@ -1,7 +1,7 @@
 ---
 title: "Model Evaluation Standards: Current State"
 excerpt: "A survey of existing standards and practices for evaluating AI model performance, safety, and fitness for deployment."
-date: 2026-02-01
+date: 2026-01-31
 toc: true
 categories:
   - Research

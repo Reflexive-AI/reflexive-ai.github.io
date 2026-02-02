@@ -1,7 +1,7 @@
 ---
 title: "A Reflexive AI Manifesto"
 excerpt: "A statement of principles for AI that participates in its own governance. What reflexive AI means, why it matters, and what it commits to."
-date: 2026-01-20
+date: 2026-01-12
 categories:
   - Public
   - Reflexivity

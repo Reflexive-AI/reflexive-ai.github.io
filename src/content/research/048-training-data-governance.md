@@ -1,7 +1,7 @@
 ---
 title: "Training Data Governance"
 excerpt: "Comprehensive frameworks for managing the data that shapes AI systems, from collection through curation to retirement."
-date: 2026-01-31
+date: 2026-01-30
 toc: true
 categories:
   - Research

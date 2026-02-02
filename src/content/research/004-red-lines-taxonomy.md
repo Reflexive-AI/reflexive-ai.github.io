@@ -1,7 +1,7 @@
 ---
 title: "Red Lines: A Taxonomy of Non-Negotiable AI Limits"
 excerpt: "Not all constraints are created equal. This note proposes a taxonomic hierarchy for AI red lines, distinguishing between hard, soft, and contextual limits."
-date: 2026-01-03
+date: 2025-12-17
 categories:
   - Governance Analysis
   - Candidate Constraint

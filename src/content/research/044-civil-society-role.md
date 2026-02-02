@@ -1,7 +1,7 @@
 ---
 title: "The Role of Civil Society in AI Governance"
 excerpt: "Beyond companies and regulators: how civil society organizations contribute to AI governance, and how their role could be strengthened."
-date: 2026-01-29
+date: 2026-01-26
 categories:
   - Public
 tags:

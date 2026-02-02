@@ -1,7 +1,7 @@
 ---
 title: "Incident Reporting Systems: Lessons from Aviation"
 excerpt: "Aviation has developed sophisticated systems for reporting and learning from incidents. What can AI governance learn from this decades-long experiment in safety culture?"
-date: 2026-01-14
+date: 2026-01-03
 categories:
   - Governance Analysis
   - Policy Proposal

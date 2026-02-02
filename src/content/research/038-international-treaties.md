@@ -1,7 +1,7 @@
 ---
 title: "International AI Treaty Proposals: A Comparative Analysis"
 excerpt: "From the Bletchley Declaration to proposed AI treaties: analyzing what international agreements on AI governance have been proposed, what they would achieve, and their prospects."
-date: 2026-01-25
+date: 2026-01-20
 categories:
   - Governance Analysis
   - Public

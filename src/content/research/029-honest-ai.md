@@ -1,7 +1,7 @@
 ---
 title: "The Honest AI Problem"
 excerpt: "Should AI systems tell the truth? The question sounds simple but reveals deep tensions between honesty, helpfulness, and harm. A conceptual analysis of AI truthfulness."
-date: 2026-01-19
+date: 2026-01-11
 categories:
   - Governance Analysis
   - Reflexivity

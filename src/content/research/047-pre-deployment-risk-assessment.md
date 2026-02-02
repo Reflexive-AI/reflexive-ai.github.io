@@ -1,7 +1,7 @@
 ---
 title: "Pre-Deployment Risk Assessment Frameworks"
 excerpt: "Structured approaches to evaluating AI system risks before release, balancing comprehensiveness with practical constraints."
-date: 2026-01-30
+date: 2026-01-29
 toc: true
 categories:
   - Research

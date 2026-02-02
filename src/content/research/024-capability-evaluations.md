@@ -1,7 +1,7 @@
 ---
 title: "Dangerous Capability Evaluations"
 excerpt: "Before deploying powerful AI, we need to know what it can do. This analysis examines the current state of capability evaluation, its limitations, and paths forward."
-date: 2026-01-16
+date: 2026-01-06
 categories:
   - Technical Analysis
   - Governance Analysis

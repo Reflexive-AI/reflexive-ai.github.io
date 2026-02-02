@@ -1,7 +1,7 @@
 ---
 title: "Operationalizing Proportionality in Model Disclosure"
 excerpt: "How disclosure requirements should scale with model capability, moving from static to reflexive transparency."
-date: 2026-01-01
+date: 2025-12-14
 categories:
   - Governance Analysis
 tags:

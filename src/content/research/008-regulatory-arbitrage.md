@@ -1,7 +1,7 @@
 ---
 title: "Regulatory Arbitrage in Deployment Architectures"
 excerpt: "How distributed inference and model fragmentation allow actors to bypass jurisdictional constraints."
-date: 2026-01-05
+date: 2025-12-21
 categories:
   - Governance Analysis
 tags:

@@ -1,7 +1,7 @@
 ---
 title: "Uncertainty Communication in AI Outputs"
 excerpt: "AI systems often present confident outputs when genuine uncertainty exists. This analysis examines how AI can better communicate its uncertainty—and why governance requires it."
-date: 2026-01-18
+date: 2026-01-09
 categories:
   - Technical Artifact
   - Reflexivity

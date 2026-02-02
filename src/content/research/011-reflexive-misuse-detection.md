@@ -1,7 +1,7 @@
 ---
 title: "Can AI Systems Detect Their Own Misuse?"
 excerpt: "Moving beyond static filters to dynamic intent recognition. Can a model understand *why* a user is asking for a specific chemical precursor?"
-date: 2026-01-07
+date: 2025-12-24
 categories:
   - Technical Analysis
   - Reflexivity

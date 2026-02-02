@@ -1,7 +1,7 @@
 ---
 title: "Technical Safety vs. Societal Safety: Different Problems"
 excerpt: "Why making AI systems work as intended is a different challenge from making AI development good for society—and why confusing them leads to poor governance."
-date: 2026-01-22
+date: 2026-01-16
 categories:
   - Governance Analysis
   - Public

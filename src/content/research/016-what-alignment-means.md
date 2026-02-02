@@ -1,7 +1,7 @@
 ---
 title: "What Alignment Actually Means"
 excerpt: "Demystifying AI alignment for non-technical audiences. What are we trying to align, to what, and why is it so hard?"
-date: 2026-01-11
+date: 2025-12-29
 categories:
   - Public
 tags:

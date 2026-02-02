@@ -1,7 +1,7 @@
 ---
 title: "Insurance Markets and AI Risk Pricing"
 excerpt: "How insurance markets could help govern AI by pricing risk, incentivizing safety, and providing accountability. An analysis of possibilities and limitations."
-date: 2026-01-23
+date: 2026-01-18
 categories:
   - Governance Analysis
 tags:

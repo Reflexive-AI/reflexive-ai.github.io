@@ -1,7 +1,7 @@
 ---
 title: "A Protocol for AI-to-Regulator Communication"
 excerpt: "What if AI systems could report safety incidents directly? A draft spec for the 'Whistleblower API'."
-date: 2026-01-09
+date: 2025-12-27
 categories:
   - Technical Standard
   - Policy Proposal

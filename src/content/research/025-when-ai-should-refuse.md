@@ -1,7 +1,7 @@
 ---
 title: "When AI Should Refuse: A Framework"
 excerpt: "Not every request should be fulfilled. This analysis develops a principled framework for AI refusals—when they're appropriate, how they should be implemented, and how to handle edge cases."
-date: 2026-01-16
+date: 2026-01-07
 categories:
   - Technical Artifact
   - Governance Analysis

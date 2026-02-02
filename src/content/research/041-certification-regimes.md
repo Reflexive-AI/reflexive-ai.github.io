@@ -1,7 +1,7 @@
 ---
 title: "Certification Regimes for AI Systems"
 excerpt: "Could AI systems be certified for safety like aircraft or medical devices? An analysis of what AI certification might look like, its benefits, and significant challenges."
-date: 2026-01-27
+date: 2026-01-23
 categories:
   - Governance Analysis
 tags:

@@ -1,7 +1,7 @@
 ---
 title: "What Policymakers Get Wrong About AI Risk"
 excerpt: "Common misconceptions that lead to ineffective AI policy, and how to think more clearly about the actual risks posed by advanced AI systems."
-date: 2026-01-21
+date: 2026-01-15
 categories:
   - Public
   - Policy Proposal

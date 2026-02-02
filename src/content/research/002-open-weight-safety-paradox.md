@@ -1,7 +1,7 @@
 ---
 title: "The Open Weight Safety Paradox"
 excerpt: "Open-weight AI models present a governance contradiction: transparency enables both safety research and misuse. This note analyzes the structural tension and proposes a differentiated access framework."
-date: 2026-01-02
+date: 2025-12-15
 last_modified_at: 2026-02-02
 categories:
   - Governance Analysis

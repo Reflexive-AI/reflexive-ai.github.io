@@ -1,7 +1,7 @@
 ---
 title: "AI Governance for Non-Experts: A Primer"
 excerpt: "A five-minute introduction to AI governance. No technical background required. What it is, why it matters, and who's doing it."
-date: 2026-01-11
+date: 2025-12-30
 categories:
   - Public
 tags:

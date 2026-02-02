@@ -1,7 +1,7 @@
 ---
 title: "Public Participation in AI Policy"
 excerpt: "How can ordinary citizens meaningfully participate in decisions about AI that will affect their lives? An examination of mechanisms for democratic AI governance."
-date: 2026-01-29
+date: 2026-01-27
 categories:
   - Public
 tags:
