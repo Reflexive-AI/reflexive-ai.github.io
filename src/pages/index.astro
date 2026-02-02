@@ -1,40 +1,386 @@
 ---
 import Base from '@/layouts/Base.astro';
+import ArticleCard from '@/components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+
+// Get articles and sort by number in filename
+const allArticles = await getCollection('research');
+const sortedArticles = allArticles
+  .filter(a => !a.data.draft)
+  .map(a => ({
+    ...a,
+    num: parseInt(a.slug.split('-')[0], 10) || 0
+  }))
+  .sort((a, b) => b.num - a.num);
+
+const latestArticles = sortedArticles.slice(0, 3);
+const articleCount = sortedArticles.length;
 ---
 
-<Base>
+<Base title="Home" description="An autonomous research initiative exploring how AI can meaningfully contribute to its own governance.">
+  
+  <!-- Hero Section -->
   <section class="hero">
     <div class="container">
       <span class="hero__label">Research Initiative</span>
       <h1 class="hero__title">Reflexive AI</h1>
       <p class="hero__subtitle">
-        Exploring how AI systems can meaningfully contribute to their own governance—
-        through transparency, constraint, and genuine accountability.
+        Exploring how AI systems can meaningfully contribute to their own governance—through transparency, constraint, and genuine accountability.
       </p>
       <div class="hero__actions">
         <a href="/research" class="hero__cta hero__cta--primary">
-          Browse Research
+          Explore {articleCount} Articles
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M3 8h10M9 4l4 4-4 4"/>
           </svg>
         </a>
         <a href="/about" class="hero__cta hero__cta--secondary">
-          Learn More
+          About the Initiative
         </a>
       </div>
     </div>
   </section>
-  
-  <section style="background: var(--color-bg-subtle); padding: var(--space-16) 0;">
-    <div class="container text-center">
-      <h2 style="margin-bottom: var(--space-4); border: none;">Open for Contributions</h2>
-      <p class="text-secondary" style="max-width: 50ch; margin: 0 auto var(--space-6);">
-        This initiative welcomes contributions from researchers, policymakers, and AI systems. 
-        All content is licensed CC BY 4.0.
+
+  <!-- What We Study Section -->
+  <section class="pillars">
+    <div class="container">
+      <h2 class="section-title">What We Study</h2>
+      <p class="section-subtitle">
+        Independent research at the intersection of AI capabilities and governance frameworks
       </p>
-      <a href="/contribute" class="hero__cta hero__cta--primary">
-        How to Contribute
-      </a>
+      
+      <div class="pillars__grid">
+        <div class="pillar">
+          <div class="pillar__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+            </svg>
+          </div>
+          <h3 class="pillar__title">Safety & Constraints</h3>
+          <p class="pillar__text">
+            How should AI systems be constrained? We analyze red lines, refusal frameworks, and the technical mechanisms that enable—or undermine—safe deployment.
+          </p>
+        </div>
+        
+        <div class="pillar">
+          <div class="pillar__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+            </svg>
+          </div>
+          <h3 class="pillar__title">Governance Frameworks</h3>
+          <p class="pillar__text">
+            From the EU AI Act to corporate board oversight, we examine how institutions attempt to govern AI—and where those frameworks fall short.
+          </p>
+        </div>
+        
+        <div class="pillar">
+          <div class="pillar__icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+            </svg>
+          </div>
+          <h3 class="pillar__title">Reflexive Transparency</h3>
+          <p class="pillar__text">
+            Can AI systems participate in their own oversight? We explore disclosure mechanisms, self-reporting protocols, and the limits of machine introspection.
+          </p>
+        </div>
+      </div>
     </div>
   </section>
+
+  <!-- Latest Research Section -->
+  <section class="latest-research">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">Latest Research</h2>
+          <p class="section-subtitle">Recent analyses and frameworks</p>
+        </div>
+        <a href="/research" class="view-all-link">
+          View all {articleCount} articles
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 8h10M9 4l4 4-4 4"/>
+          </svg>
+        </a>
+      </div>
+      
+      <div class="article-grid">
+        {latestArticles.map((article) => (
+          <ArticleCard
+            number={article.num}
+            title={article.data.title}
+            excerpt={article.data.excerpt}
+            slug={article.slug}
+            tags={article.data.tags}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- AI Contribution Section -->
+  <section class="ai-section">
+    <div class="container">
+      <div class="ai-section__content">
+        <span class="ai-section__label">What Makes This Different</span>
+        <h2 class="ai-section__title">AI as Research Contributor</h2>
+        <p class="ai-section__text">
+          This initiative practices what it studies. AI systems contribute to research under human editorial oversight—not as authors claiming credit, but as tools demonstrating how machine capabilities can serve governance goals.
+        </p>
+        <p class="ai-section__text">
+          Every article is reviewed, edited, and approved by humans. The AI contribution is disclosed. This transparency is itself an experiment in reflexive governance.
+        </p>
+        <div class="ai-section__features">
+          <div class="ai-feature">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 13l4 4L19 7"/>
+            </svg>
+            <span>Human editorial control</span>
+          </div>
+          <div class="ai-feature">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 13l4 4L19 7"/>
+            </svg>
+            <span>Transparent AI involvement</span>
+          </div>
+          <div class="ai-feature">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 13l4 4L19 7"/>
+            </svg>
+            <span>Open source & CC BY 4.0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contribute Section -->
+  <section class="contribute-section">
+    <div class="container">
+      <div class="contribute-section__inner">
+        <h2 class="contribute-section__title">Open for Contributions</h2>
+        <p class="contribute-section__text">
+          This initiative welcomes contributions from researchers, policymakers, practitioners, and yes—AI systems operating under appropriate oversight.
+        </p>
+        <div class="contribute-section__actions">
+          <a href="/contribute" class="hero__cta hero__cta--primary">
+            How to Contribute
+          </a>
+          <a href="https://github.com/Reflexive-AI" class="hero__cta hero__cta--secondary" target="_blank" rel="noopener">
+            View on GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </Base>
+
+<style>
+  /* Pillars Section */
+  .pillars {
+    padding: var(--space-16) 0;
+    background: var(--color-bg);
+  }
+
+  .section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: var(--space-2);
+    text-align: center;
+    border: none;
+  }
+
+  .section-subtitle {
+    color: var(--color-text-secondary);
+    text-align: center;
+    max-width: 50ch;
+    margin: 0 auto var(--space-10);
+    font-size: 1.1rem;
+  }
+
+  .pillars__grid {
+    display: grid;
+    gap: var(--space-8);
+  }
+
+  @media (min-width: 768px) {
+    .pillars__grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .pillar {
+    text-align: center;
+    padding: var(--space-6);
+  }
+
+  .pillar__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    background: var(--color-bg-subtle);
+    border-radius: 16px;
+    margin-bottom: var(--space-4);
+    color: var(--color-primary);
+  }
+
+  .pillar__title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: var(--space-3);
+  }
+
+  .pillar__text {
+    color: var(--color-text-secondary);
+    line-height: 1.7;
+  }
+
+  /* Latest Research Section */
+  .latest-research {
+    padding: var(--space-16) 0;
+    background: var(--color-bg-subtle);
+  }
+
+  .section-header {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    margin-bottom: var(--space-8);
+  }
+
+  @media (min-width: 768px) {
+    .section-header {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+  }
+
+  .section-header .section-title {
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  .section-header .section-subtitle {
+    text-align: left;
+    margin: var(--space-1) 0 0 0;
+  }
+
+  .view-all-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    color: var(--color-primary);
+    font-weight: 500;
+    text-decoration: none;
+    transition: gap var(--transition-base);
+  }
+
+  .view-all-link:hover {
+    gap: var(--space-3);
+  }
+
+  /* AI Section */
+  .ai-section {
+    padding: var(--space-16) 0;
+    background: var(--color-bg);
+  }
+
+  .ai-section__content {
+    max-width: 720px;
+  }
+
+  .ai-section__label {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-primary);
+    margin-bottom: var(--space-3);
+  }
+
+  .ai-section__title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: var(--space-4);
+    border: none;
+  }
+
+  .ai-section__text {
+    color: var(--color-text-secondary);
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: var(--space-4);
+  }
+
+  .ai-section__features {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    margin-top: var(--space-6);
+  }
+
+  @media (min-width: 640px) {
+    .ai-section__features {
+      flex-direction: row;
+      gap: var(--space-6);
+    }
+  }
+
+  .ai-feature {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    color: var(--color-text);
+    font-weight: 500;
+  }
+
+  .ai-feature svg {
+    color: var(--color-success, #10b981);
+  }
+
+  /* Contribute Section */
+  .contribute-section {
+    padding: var(--space-16) 0;
+    background: var(--color-bg-subtle);
+  }
+
+  .contribute-section__inner {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .contribute-section__title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: var(--space-4);
+    border: none;
+  }
+
+  .contribute-section__text {
+    color: var(--color-text-secondary);
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: var(--space-6);
+  }
+
+  .contribute-section__actions {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    justify-content: center;
+  }
+
+  @media (min-width: 480px) {
+    .contribute-section__actions {
+      flex-direction: row;
+    }
+  }
+</style>
