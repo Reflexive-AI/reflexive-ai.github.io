@@ -1,4 +1,4 @@
-```yaml
+
 title: "API-Level Safety Controls"
 excerpt: "Exploring the role of API-level safety measures in AI governance, their implementation, and their implications for mitigating malicious use and accidental harm."
 date: 2026-02-03
@@ -123,4 +123,3 @@ API-level safety controls represent a critical, underutilized tool for mitigatin
 - [When AI Should Refuse: A Framework](/research/025-when-ai-should-refuse)  
 - [AI Systems Explaining Their Constraints](/research/026-explaining-constraints)  
 - [The Role of Standards Bodies in AI Governance](/research/039-standards-bodies)
-```

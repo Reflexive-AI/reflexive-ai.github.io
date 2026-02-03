@@ -1,5 +1,15 @@
 [
   {
+    "id": 54,
+    "title": "API-Level Safety Controls",
+    "excerpt": "Exploring the role of API-level safety measures in AI governance, their implementation, and their implications for mitigating malicious use and accidental harm.",
+    "slug": "054-api-level-safety-controls",
+    "date": "2026-02-03",
+    "tags": [],
+    "categories": [],
+    "body": ""
+  },
+  {
     "id": 53,
     "title": "Secure Model Weights: Physical and Digital",
     "excerpt": "Security measures for protecting AI model weights from theft, tampering, and unauthorized access across physical and digital domains.",
