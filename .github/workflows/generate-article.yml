@@ -46,6 +46,7 @@ jobs:
         env:
           ARTICLE_COUNT: ${{ github.event.inputs.article_count || '1' }}
           MODEL: ${{ github.event.inputs.model || 'claude-3-5-sonnet' }}
+          MODELS_API_TOKEN: ${{ secrets.MODELS_API_TOKEN }}
         with:
           script: |
             const fs = require('fs');
@@ -161,7 +162,7 @@ jobs:
                 method: 'POST',
                 headers: {
                   'Content-Type': 'application/json',
-                  'Authorization': `Bearer ${process.env.GITHUB_TOKEN}`
+                  'Authorization': `Bearer ${process.env.MODELS_API_TOKEN}`
                 },
                 body: JSON.stringify({
                   model: process.env.MODEL,
