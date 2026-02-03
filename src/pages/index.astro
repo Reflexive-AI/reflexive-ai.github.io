@@ -41,6 +41,18 @@ const articleCount = sortedArticles.length;
     </div>
   </section>
 
+  <!-- Neural Lattice Teaser -->
+  <section class="visualizer-teaser">
+    <div class="container">
+      <a href="/brain" class="feature-card special">
+        <div class="card-content">
+          <h2>The Neural Lattice <span>&rarr;</span></h2>
+          <p>Explore the living connections of the initiative. An interactive, evolving visualization of our governance research.</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
   <!-- What We Study Section -->
   <section class="pillars">
     <div class="container">
@@ -178,6 +190,30 @@ const articleCount = sortedArticles.length;
 </Base>
 
 <style>
+  /* Visualizer Teaser */
+  .visualizer-teaser {
+    padding: var(--space-8) 0;
+    background: var(--color-bg);
+  }
+  
+  .feature-card {
+    display: block;
+    background: var(--color-bg-subtle);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    padding: var(--space-6);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .feature-card p {
+    color: var(--color-text-secondary);
+    margin-top: var(--space-2);
+  }
+
   /* Pillars Section */
   .pillars {
     padding: var(--space-16) 0;
@@ -280,8 +316,22 @@ const articleCount = sortedArticles.length;
     transition: gap var(--transition-base);
   }
 
-  .view-all-link:hover {
-    gap: var(--space-3);
+  .feature-card:hover h2 span {
+    transform: translateX(5px);
+  }
+  
+  .feature-card.special {
+    background: radial-gradient(circle at top right, rgba(180, 100, 255, 0.1), rgba(35, 38, 45, 0));
+    border-color: rgba(180, 100, 255, 0.3);
+  }
+  .feature-card.special:hover {
+    border-color: rgba(180, 100, 255, 0.8);
+    box-shadow: 0 0 20px rgba(180, 100, 255, 0.2);
+  }
+  .feature-card.special h2 {
+    background: linear-gradient(90deg, #fff, #b464ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   /* AI Section */
