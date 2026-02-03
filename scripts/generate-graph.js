@@ -7,7 +7,7 @@ const __dirname = path.dirname(__filename);
 
 const contentDir = path.join(__dirname, '../src/content/research');
 const outputDir = path.join(__dirname, '../public');
-const outputFile = path.join(outputDir, 'lattice.json');
+const outputFile = path.join(outputDir, 'graph.json');
 
 // Ensure output directory exists
 if (!fs.existsSync(outputDir)) {
@@ -167,7 +167,8 @@ linkMap.forEach((link) => {
     });
 });
 
+// Output data
 const data = { nodes, links };
 fs.writeFileSync(outputFile, JSON.stringify(data, null, 2));
 
-console.log(`✓ Generated Concept Lattice: ${nodes.length} tags, ${links.length} connections`);
+console.log(`✓ Generated Concept Graph: ${nodes.length} tags, ${links.length} connections`);

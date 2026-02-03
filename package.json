@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "prebuild": "node scripts/generate-llms-txt.js && node scripts/generate-search-index.js && node scripts/generate-lattice.js",
+    "prebuild": "node scripts/generate-llms-txt.js && node scripts/generate-search-index.js && node scripts/generate-graph.js",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"

@@ -240,9 +240,9 @@
   };
 
   async function initLattice() {
-    const response = await fetch('/lattice.json');
+    const response = await fetch('/graph.json');
     if (!response.ok) {
-      console.error('Failed to load lattice data');
+      console.error('Failed to load graph data');
       return;
     }
     const data = await response.json();
