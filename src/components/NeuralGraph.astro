@@ -62,28 +62,49 @@
   /* Search Bar */
   .search-bar {
     position: absolute;
-    top: 7rem; /* Below header */
-    left: 2rem;
+    top: 1.5rem;
+    left: 1.5rem;
     pointer-events: auto;
+    z-index: 15;
   }
   
   .search-bar input {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.95);
     border: 1px solid rgba(0, 0, 0, 0.1);
     color: #333;
-    padding: 0.8rem 1.2rem;
+    padding: 0.75rem 1rem;
     border-radius: 2rem;
-    width: 300px;
+    width: 260px;
     backdrop-filter: blur(10px);
     font-family: 'Inter', sans-serif;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    font-size: 0.9rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     transition: all 0.3s ease;
   }
   
   .search-bar input:focus {
     border-color: var(--color-primary);
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.12);
     outline: none;
+    width: 300px;
+  }
+
+  @media (max-width: 640px) {
+    .search-bar {
+      top: 1rem;
+      left: 1rem;
+      right: 1rem;
+    }
+    
+    .search-bar input {
+      width: 100%;
+      padding: 0.6rem 0.9rem;
+      font-size: 0.85rem;
+    }
+    
+    .search-bar input:focus {
+      width: 100%;
+    }
   }
 
   /* Node Card (Concept Details) */
@@ -178,25 +199,51 @@
   /* Controls */
   .controls {
     position: absolute;
-    bottom: 2rem;
-    left: 2rem;
+    bottom: 1.5rem;
+    left: 1.5rem;
     pointer-events: auto;
+    z-index: 15;
   }
   .controls button {
-    width: 40px;
-    height: 40px;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.95);
     border: 1px solid rgba(0,0,0,0.1);
     color: #333;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     cursor: pointer;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .controls button:hover {
     transform: rotate(90deg);
-    background: #f9fafb;
+    background: #fff;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  }
+
+  @media (max-width: 640px) {
+    .controls {
+      bottom: 1rem;
+      left: 1rem;
+    }
+    
+    .controls button {
+      width: 40px;
+      height: 40px;
+      font-size: 1.1rem;
+    }
+    
+    .node-card {
+      bottom: 1rem;
+      right: 1rem;
+      left: 1rem;
+      width: auto;
+      max-height: 50vh;
+    }
   }
 
   /* Loader */
