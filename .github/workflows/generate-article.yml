@@ -166,15 +166,14 @@ jobs:
               fs.writeFileSync(filepath, content);
               console.log(`✓ Generated: ${filename}`);
               generatedFiles.push(filename);
-            }
-            
-            // Update article list to mark as complete
-            let updatedList = articleList;
-            for (const article of toGenerate) {
+              
+              // Only mark article as complete AFTER file is successfully written
+              let currentList = fs.readFileSync(articleListPath, 'utf8');
               const pattern = new RegExp(`^(${article.number})\\.\\s*\\[\\s*\\]`, 'm');
-              updatedList = updatedList.replace(pattern, `$1. [x]`);
+              currentList = currentList.replace(pattern, `$1. [x]`);
+              fs.writeFileSync(articleListPath, currentList);
+              console.log(`✓ Marked article ${article.number} as complete`);
             }
-            fs.writeFileSync(articleListPath, updatedList);
             
             return generatedFiles.join(',');
             
