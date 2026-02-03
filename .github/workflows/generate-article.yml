@@ -14,10 +14,9 @@ on:
       model:
         description: 'AI model to use'
         required: false
-        default: 'claude-3-5-sonnet'
+        default: 'gpt-4o'
         type: choice
         options:
-          - claude-3-5-sonnet
           - gpt-4o
           - gpt-4o-mini
 
@@ -45,7 +44,7 @@ jobs:
         id: generate
         env:
           ARTICLE_COUNT: ${{ github.event.inputs.article_count || '1' }}
-          MODEL: ${{ github.event.inputs.model || 'claude-3-5-sonnet' }}
+          MODEL: ${{ github.event.inputs.model || 'gpt-4o' }}
           MODELS_API_TOKEN: ${{ secrets.MODELS_API_TOKEN }}
         with:
           script: |
