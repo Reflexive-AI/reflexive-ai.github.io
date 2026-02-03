@@ -10,10 +10,19 @@ const research = defineCollection({
       .union([z.string(), z.date()])
       .optional()
       .transform((val) => (val ? new Date(val as any) : new Date())),
+    // Last modification date for SEO freshness signals
+    lastModified: z
+      .union([z.string(), z.date()])
+      .optional()
+      .transform((val) => (val ? new Date(val as any) : undefined)),
     draft: z.boolean().default(false),
     categories: z.array(z.string()).default(['Research']),
     tags: z.array(z.string()).default([]),
+    // SEO keywords (separate from display tags)
+    keywords: z.array(z.string()).optional(),
     toc: z.boolean().default(true),
+    // Author (defaults to organization)
+    author: z.string().default('Reflexive AI Initiative'),
   }),
 });
 

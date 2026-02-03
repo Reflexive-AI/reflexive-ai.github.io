@@ -1,0 +1,174 @@
+---
+import Base from '../layouts/Base.astro';
+
+// AI Governance Glossary Terms
+const terms = [
+  {
+    term: "Reflexive AI",
+    definition: "AI systems designed to participate in their own governance through transparent constraints, self-monitoring, and structured communication with oversight bodies.",
+    related: ["Self-Constraint", "Machine-Readable Policy"]
+  },
+  {
+    term: "Machine-Readable Constraints",
+    definition: "Governance rules expressed in structured data formats (JSON-LD, YAML, etc.) that AI systems can parse, validate, and act upon without human interpretation.",
+    related: ["Constraint Schema", "Policy Automation"]
+  },
+  {
+    term: "Red Lines",
+    definition: "Non-negotiable constraints on AI behavior implemented as hard technical filters rather than trained preferences. These represent absolute limits that should never be crossed.",
+    related: ["Safety Constraints", "Guardrails"]
+  },
+  {
+    term: "Capability Overhang",
+    definition: "The gap between what an AI system can do and what its operators or regulators know it can do. Undocumented capabilities represent a governance vulnerability.",
+    related: ["Emergent Capabilities", "Capability Elicitation"]
+  },
+  {
+    term: "Proportional Disclosure",
+    definition: "A governance principle where transparency requirements scale with model capability and risk, rather than applying uniform disclosure rules to all systems.",
+    related: ["Tiered Regulation", "Risk-Based Approach"]
+  },
+  {
+    term: "Regulatory Arbitrage",
+    definition: "The practice of exploiting differences between jurisdictions to avoid AI governance requirements by operating in locations with weaker regulations.",
+    related: ["Jurisdictional Gaps", "International Coordination"]
+  },
+  {
+    term: "Alignment",
+    definition: "The degree to which an AI system's behavior, objectives, and values match those intended by its designers and operators, and more broadly, human values and interests.",
+    related: ["Value Alignment", "Goal Alignment"]
+  },
+  {
+    term: "Frontier AI",
+    definition: "The most capable AI systems at any given time, typically characterized by emergent capabilities, broad applicability, and potential for significant societal impact.",
+    related: ["General-Purpose AI", "Foundation Models"]
+  },
+  {
+    term: "Compute Governance",
+    definition: "Regulatory approaches that focus on controlling access to the computational resources (GPUs, TPUs, cloud infrastructure) required to train and deploy powerful AI systems.",
+    related: ["Hardware Controls", "Export Restrictions"]
+  },
+  {
+    term: "Model Card",
+    definition: "A standardized document that describes an AI model's intended use, capabilities, limitations, training data, evaluation results, and ethical considerations.",
+    related: ["System Card", "Datasheets for Datasets"]
+  },
+  {
+    term: "Red Teaming",
+    definition: "Systematic adversarial testing of AI systems to discover vulnerabilities, unsafe behaviors, or potential for misuse before deployment.",
+    related: ["Adversarial Testing", "Safety Evaluation"]
+  },
+  {
+    term: "Interpretability",
+    definition: "The ability to understand how an AI system produces its outputs, including which internal components and representations contribute to specific behaviors.",
+    related: ["Explainability", "Mechanistic Interpretability"]
+  },
+  {
+    term: "Provenance",
+    definition: "The documented chain of custody for AI-generated content, including metadata about the generating model, timestamp, and policy constraints active during generation.",
+    related: ["Watermarking", "Content Authentication"]
+  },
+  {
+    term: "Dual-Use",
+    definition: "AI capabilities that can be used for both beneficial and harmful purposes, requiring careful governance to maximize benefits while minimizing misuse potential.",
+    related: ["Misuse Prevention", "Beneficial AI"]
+  },
+  {
+    term: "Audit Trail",
+    definition: "A chronological record of AI system actions, decisions, and inputs that enables retrospective review and accountability.",
+    related: ["Logging", "Compliance Records"]
+  },
+  {
+    term: "Sandboxing",
+    definition: "Isolating AI systems in controlled environments to test their behavior before deployment, limiting their access to external resources and real-world effects.",
+    related: ["Containment", "Isolated Testing"]
+  },
+  {
+    term: "Guardrails",
+    definition: "Technical and procedural safeguards designed to keep AI systems operating within acceptable boundaries, typically implemented as input/output filters or behavioral constraints.",
+    related: ["Safety Filters", "Content Moderation"]
+  },
+  {
+    term: "Emergent Behavior",
+    definition: "Capabilities or behaviors that arise in AI systems as they scale, which were not explicitly designed or anticipated by developers.",
+    related: ["Emergent Capabilities", "Scaling Laws"]
+  }
+].sort((a, b) => a.term.localeCompare(b.term));
+---
+
+<Base 
+  title="AI Governance Glossary" 
+  description="Key terms and definitions for understanding AI governance, safety, and reflexive constraint systems."
+  keywords={["AI glossary", "AI governance terms", "AI safety definitions", "machine learning terminology"]}
+>
+  <div class="container" style="padding: var(--space-12) 0;">
+    <header style="margin-bottom: var(--space-12);">
+      <h1 style="font-size: var(--font-3xl); margin-bottom: var(--space-4);">AI Governance Glossary</h1>
+      <p style="font-size: var(--font-lg); color: var(--color-text-muted); max-width: 65ch;">
+        Key terms and definitions for understanding AI governance, safety, and reflexive constraint systems. 
+        This glossary is designed to be accessible to policymakers, researchers, and AI systems alike.
+      </p>
+    </header>
+    
+    <div class="glossary-grid">
+      {terms.map(({ term, definition, related }) => (
+        <article class="glossary-item" id={term.toLowerCase().replace(/\s+/g, '-')}>
+          <h2 class="glossary-term">{term}</h2>
+          <p class="glossary-definition">{definition}</p>
+          {related.length > 0 && (
+            <div class="glossary-related">
+              <span>Related:</span>
+              {related.map((r, i) => (
+                <span>{r}{i < related.length - 1 ? ', ' : ''}</span>
+              ))}
+            </div>
+          )}
+        </article>
+      ))}
+    </div>
+  </div>
+  
+  <style>
+    .glossary-grid {
+      display: grid;
+      gap: var(--space-6);
+    }
+    
+    .glossary-item {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: var(--space-6);
+    }
+    
+    .glossary-term {
+      font-size: var(--font-lg);
+      font-weight: 600;
+      margin-bottom: var(--space-2);
+      color: var(--color-primary);
+    }
+    
+    .glossary-definition {
+      font-size: var(--font-base);
+      line-height: 1.7;
+      color: var(--color-text);
+      margin-bottom: var(--space-3);
+    }
+    
+    .glossary-related {
+      font-size: var(--font-sm);
+      color: var(--color-text-muted);
+    }
+    
+    .glossary-related span:first-child {
+      font-weight: 500;
+      margin-right: var(--space-1);
+    }
+    
+    @media (min-width: 768px) {
+      .glossary-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</Base>
