@@ -1,4 +1,4 @@
-
+---
 title: "API-Level Safety Controls"
 excerpt: "Exploring the role of API-level safety measures in AI governance, their implementation, and their implications for mitigating malicious use and accidental harm."
 date: 2026-02-03
@@ -12,7 +12,7 @@ tags:
   - access-management
   - ai-governance
   - regulation
-version: "1.0"
+
 ---
 
 **Reflexive Research Object 054**  
