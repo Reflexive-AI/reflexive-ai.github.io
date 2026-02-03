@@ -19,10 +19,6 @@
         <!-- Articles injected here -->
       </div>
     </div>
-
-    <div class="controls">
-      <button id="reset-view" aria-label="Reset View">⟲</button>
-    </div>
   </div>
   
   <div id="loading-overlay" class="loading-overlay">
@@ -63,7 +59,8 @@
   .search-bar {
     position: absolute;
     top: 1.5rem;
-    left: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
     pointer-events: auto;
     z-index: 15;
   }
@@ -72,21 +69,31 @@
     background: rgba(255, 255, 255, 0.95);
     border: 1px solid rgba(0, 0, 0, 0.1);
     color: #333;
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 1.25rem;
     border-radius: 2rem;
-    width: 260px;
+    width: 320px;
     backdrop-filter: blur(10px);
     font-family: 'Inter', sans-serif;
     font-size: 0.9rem;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     transition: all 0.3s ease;
+    text-align: center;
+  }
+  
+  .search-bar input::placeholder {
+    text-align: center;
   }
   
   .search-bar input:focus {
     border-color: var(--color-primary);
     box-shadow: 0 4px 15px rgba(0,0,0,0.12);
     outline: none;
-    width: 300px;
+    width: 360px;
+    text-align: left;
+  }
+  
+  .search-bar input:focus::placeholder {
+    text-align: left;
   }
 
   @media (max-width: 640px) {
@@ -94,6 +101,7 @@
       top: 1rem;
       left: 1rem;
       right: 1rem;
+      transform: none;
     }
     
     .search-bar input {
@@ -196,47 +204,7 @@
     overflow: hidden;
   }
 
-  /* Controls */
-  .controls {
-    position: absolute;
-    bottom: 1.5rem;
-    left: 1.5rem;
-    pointer-events: auto;
-    z-index: 15;
-  }
-  .controls button {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.95);
-    border: 1px solid rgba(0,0,0,0.1);
-    color: #333;
-    font-size: 1.3rem;
-    cursor: pointer;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    transition: all 0.2s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .controls button:hover {
-    transform: rotate(90deg);
-    background: #fff;
-    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
-  }
-
   @media (max-width: 640px) {
-    .controls {
-      bottom: 1rem;
-      left: 1rem;
-    }
-    
-    .controls button {
-      width: 40px;
-      height: 40px;
-      font-size: 1.1rem;
-    }
-    
     .node-card {
       bottom: 1rem;
       right: 1rem;
