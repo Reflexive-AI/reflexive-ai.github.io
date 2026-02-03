@@ -71,7 +71,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 
 51. [x] Interpretability as a Governance Tool [R]
 52. [x] Watermarking and Content Provenance [R][A]
-53. [ ] Secure Model Weights: Physical and Digital [R]
+53. [x] Secure Model Weights: Physical and Digital [R]
 54. [ ] API-Level Safety Controls [R][A]
 55. [ ] Rate Limiting and Abuse Detection [R][A]
 56. [ ] Monitoring Deployed Models [R]

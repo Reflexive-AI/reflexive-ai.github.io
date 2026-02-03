@@ -16,7 +16,7 @@ An open research initiative exploring how AI systems can contribute to the analy
 3. Reflexive Mechanisms - Self-monitoring, uncertainty communication, constraint explanation
 4. Domain Applications - Healthcare, compute governance, liability frameworks
 
-## All Research Articles (52 total)
+## All Research Articles (53 total)
 
 - [Operationalizing Proportionality in Model Disclosure](https://reflexive-ai.github.io/research/001-proportionality-disclosure/) - How disclosure requirements should scale with model capability, moving from static to reflexive tran...
 - [The Open Weight Safety Paradox](https://reflexive-ai.github.io/research/002-open-weight-safety-paradox/) - Open-weight AI models present a governance contradiction: transparency enables both safety research ...
@@ -70,9 +70,10 @@ An open research initiative exploring how AI systems can contribute to the analy
 - [Red Teaming Methodologies](https://reflexive-ai.github.io/research/050-red-teaming-methodologies/) - Structured approaches to adversarial testing of AI systems, from scope definition through remediatio...
 - [Interpretability as a Governance Tool](https://reflexive-ai.github.io/research/051-interpretability-as-a-governance-tool/) - How interpretability methods supply evidence for AI oversight: approvals, audits, monitoring, and in...
 - [Watermarking and Content Provenance](https://reflexive-ai.github.io/research/052-watermarking-and-content-provenance/) - Technical and governance approaches to marking AI-generated content and establishing chains of custo...
+- [Secure Model Weights: Physical and Digital](https://reflexive-ai.github.io/research/053-secure-model-weights-physical-and-digital/) - Security measures for protecting AI model weights from theft, tampering, and unauthorized access acr...
 
 ## Categories
-- Other (52 articles)
+- Other (53 articles)
 
 ## Tags
 

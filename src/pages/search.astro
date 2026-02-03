@@ -1,0 +1,317 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base 
+  title="Search Research" 
+  description="Search through all Reflexive AI Initiative research articles on AI governance, safety, and reflexive constraints."
+  keywords={["search", "AI governance research", "AI safety articles"]}
+>
+  <div class="container" style="padding: var(--space-12) 0;">
+    <header style="margin-bottom: var(--space-8);">
+      <h1 style="font-size: var(--font-3xl); margin-bottom: var(--space-4);">Search Research</h1>
+      <p style="font-size: var(--font-lg); color: var(--color-text-muted); max-width: 65ch;">
+        Find articles across all AI governance topics, technical standards, and policy analysis.
+      </p>
+    </header>
+    
+    <div class="search-container">
+      <div class="search-input-wrapper">
+        <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"></circle>
+          <path d="M21 21l-4.35-4.35"></path>
+        </svg>
+        <input 
+          type="search" 
+          id="search-input" 
+          class="search-input" 
+          placeholder="Search articles..." 
+          autocomplete="off"
+        />
+        <span id="search-count" class="search-count"></span>
+      </div>
+      
+      <div class="search-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="Research">Research</button>
+        <button class="filter-btn" data-filter="Governance Analysis">Governance</button>
+        <button class="filter-btn" data-filter="Technical Artifact">Technical</button>
+        <button class="filter-btn" data-filter="Public">Public</button>
+      </div>
+    </div>
+    
+    <div id="search-results" class="search-results">
+      <p class="search-placeholder">Start typing to search...</p>
+    </div>
+  </div>
+  
+  <style>
+    .search-container {
+      margin-bottom: var(--space-8);
+    }
+    
+    .search-input-wrapper {
+      position: relative;
+      margin-bottom: var(--space-4);
+    }
+    
+    .search-icon {
+      position: absolute;
+      left: var(--space-4);
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--color-text-muted);
+    }
+    
+    .search-input {
+      width: 100%;
+      padding: var(--space-4) var(--space-4) var(--space-4) var(--space-12);
+      font-size: var(--font-lg);
+      border: 2px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      background: var(--color-surface);
+      color: var(--color-text);
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    
+    .search-input:focus {
+      border-color: var(--color-primary);
+      box-shadow: 0 0 0 3px rgba(var(--color-primary-rgb), 0.1);
+    }
+    
+    .search-count {
+      position: absolute;
+      right: var(--space-4);
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: var(--font-sm);
+      color: var(--color-text-muted);
+    }
+    
+    .search-filters {
+      display: flex;
+      gap: var(--space-2);
+      flex-wrap: wrap;
+    }
+    
+    .filter-btn {
+      padding: var(--space-2) var(--space-4);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      background: var(--color-surface);
+      color: var(--color-text-muted);
+      font-size: var(--font-sm);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .filter-btn:hover {
+      border-color: var(--color-primary);
+      color: var(--color-primary);
+    }
+    
+    .filter-btn.active {
+      background: var(--color-primary);
+      border-color: var(--color-primary);
+      color: white;
+    }
+    
+    .search-results {
+      display: grid;
+      gap: var(--space-4);
+    }
+    
+    .search-placeholder {
+      color: var(--color-text-muted);
+      text-align: center;
+      padding: var(--space-12);
+    }
+    
+    .search-result {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: var(--space-5);
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    
+    .search-result:hover {
+      border-color: var(--color-primary);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+    
+    .search-result__title {
+      font-size: var(--font-lg);
+      font-weight: 600;
+      margin-bottom: var(--space-2);
+      color: var(--color-text);
+    }
+    
+    .search-result__title a {
+      color: inherit;
+      text-decoration: none;
+    }
+    
+    .search-result__title a:hover {
+      color: var(--color-primary);
+    }
+    
+    .search-result__excerpt {
+      color: var(--color-text-muted);
+      font-size: var(--font-base);
+      line-height: 1.6;
+      margin-bottom: var(--space-3);
+    }
+    
+    .search-result__meta {
+      display: flex;
+      gap: var(--space-3);
+      flex-wrap: wrap;
+      font-size: var(--font-sm);
+      color: var(--color-text-muted);
+    }
+    
+    .search-result__tag {
+      background: var(--color-bg);
+      padding: 2px 8px;
+      border-radius: var(--radius-sm);
+    }
+    
+    .search-result mark {
+      background: rgba(var(--color-primary-rgb), 0.2);
+      color: inherit;
+      padding: 0 2px;
+      border-radius: 2px;
+    }
+    
+    .no-results {
+      text-align: center;
+      padding: var(--space-12);
+      color: var(--color-text-muted);
+    }
+  </style>
+  
+  <script>
+    let articles = [];
+    let currentFilter = 'all';
+    
+    // Load search index
+    async function loadSearchIndex() {
+      try {
+        const response = await fetch('/search-index.json');
+        articles = await response.json();
+      } catch (e) {
+        console.error('Failed to load search index:', e);
+      }
+    }
+    
+    // Simple fuzzy search
+    function searchArticles(query) {
+      if (!query.trim()) return [];
+      
+      const terms = query.toLowerCase().split(/\s+/);
+      
+      return articles
+        .filter(article => {
+          // Apply category filter
+          if (currentFilter !== 'all' && !article.categories.includes(currentFilter)) {
+            return false;
+          }
+          
+          const searchText = `${article.title} ${article.excerpt} ${article.body} ${article.tags.join(' ')}`.toLowerCase();
+          return terms.every(term => searchText.includes(term));
+        })
+        .map(article => {
+          // Calculate relevance score
+          const searchText = `${article.title} ${article.excerpt}`.toLowerCase();
+          let score = 0;
+          terms.forEach(term => {
+            if (article.title.toLowerCase().includes(term)) score += 10;
+            if (article.excerpt.toLowerCase().includes(term)) score += 5;
+            if (article.tags.some(t => t.toLowerCase().includes(term))) score += 3;
+          });
+          return { ...article, score };
+        })
+        .sort((a, b) => b.score - a.score);
+    }
+    
+    // Highlight matches
+    function highlightText(text, query) {
+      if (!query.trim()) return text;
+      const terms = query.toLowerCase().split(/\s+/).filter(t => t.length > 1);
+      let result = text;
+      terms.forEach(term => {
+        const regex = new RegExp(`(${term})`, 'gi');
+        result = result.replace(regex, '<mark>$1</mark>');
+      });
+      return result;
+    }
+    
+    // Render results
+    function renderResults(results, query) {
+      const container = document.getElementById('search-results');
+      const countEl = document.getElementById('search-count');
+      
+      if (!query.trim()) {
+        container.innerHTML = '<p class="search-placeholder">Start typing to search...</p>';
+        countEl.textContent = '';
+        return;
+      }
+      
+      if (results.length === 0) {
+        container.innerHTML = '<div class="no-results"><p>No articles found matching your search.</p></div>';
+        countEl.textContent = '0 results';
+        return;
+      }
+      
+      countEl.textContent = `${results.length} result${results.length === 1 ? '' : 's'}`;
+      
+      container.innerHTML = results.map(article => `
+        <article class="search-result">
+          <h2 class="search-result__title">
+            <a href="/research/${article.slug}/">${highlightText(article.title, query)}</a>
+          </h2>
+          <p class="search-result__excerpt">${highlightText(article.excerpt, query)}</p>
+          <div class="search-result__meta">
+            <span>${article.date}</span>
+            ${article.tags.slice(0, 3).map(tag => `<span class="search-result__tag">${tag}</span>`).join('')}
+          </div>
+        </article>
+      `).join('');
+    }
+    
+    // Initialize
+    document.addEventListener('DOMContentLoaded', async () => {
+      await loadSearchIndex();
+      
+      const input = document.getElementById('search-input');
+      const filterBtns = document.querySelectorAll('.filter-btn');
+      
+      // Debounced search
+      let timeout;
+      input.addEventListener('input', (e) => {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => {
+          const results = searchArticles(e.target.value);
+          renderResults(results, e.target.value);
+        }, 150);
+      });
+      
+      // Filter buttons
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          filterBtns.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          currentFilter = btn.dataset.filter;
+          
+          const results = searchArticles(input.value);
+          renderResults(results, input.value);
+        });
+      });
+      
+      // Focus input on page load
+      input.focus();
+    });
+  </script>
+</Base>
