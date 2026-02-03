@@ -2,8 +2,8 @@ name: Generate Daily Article
 
 on:
   schedule:
-    # Runs at 6:00 AM UTC every day
-    - cron: '0 6 * * *'
+    # Runs every 6 hours: 00:00, 06:00, 12:00, 18:00 UTC
+    - cron: '0 */6 * * *'
   workflow_dispatch:
     inputs:
       article_count:
@@ -65,6 +65,19 @@ jobs:
                 .filter(n => !isNaN(n))
             );
             
+            // Build compact article index for cross-referencing (title + slug only)
+            const articleIndex = existingFiles
+              .filter(f => f.endsWith('.md'))
+              .slice(-30) // Cap at 30 most recent to keep prompt compact
+              .map(f => {
+                const content = fs.readFileSync(path.join(researchDir, f), 'utf8');
+                const titleMatch = content.match(/title:\s*"([^"]+)"/);
+                const slug = f.replace('.md', '');
+                return titleMatch ? `- ${titleMatch[1]} → /research/${slug}` : null;
+              })
+              .filter(Boolean)
+              .join('\n');
+            
             // Parse article list for unpublished articles
             const unpublishedPattern = /^(\d+)\.\s*\[\s*\]\s*(.+?)(?:\s*\[([A-Z\]\[]+)\])?\s*$/gm;
             const unpublished = [];
@@ -80,8 +93,15 @@ jobs:
               }
             }
             
+            // Check if we need to generate new article ideas
+            if (unpublished.length < 10) {
+              console.log(`Only ${unpublished.length} articles remaining. Will create PR with new ideas.`);
+              core.setOutput('needs_ideas', 'true');
+            }
+            
             if (unpublished.length === 0) {
               console.log('No unpublished articles found');
+              core.setOutput('needs_ideas', 'true');
               return;
             }
             
@@ -96,7 +116,7 @@ jobs:
             if (existingFiles.length > 0) {
               const sampleFile = existingFiles.find(f => f.endsWith('.md'));
               if (sampleFile) {
-                sampleContent = fs.readFileSync(path.join(researchDir, sampleFile), 'utf8').slice(0, 3000);
+                sampleContent = fs.readFileSync(path.join(researchDir, sampleFile), 'utf8').slice(0, 2000);
               }
             }
             
@@ -119,11 +139,24 @@ jobs:
             6. End with a conclusion section
             7. Add an italicized note about scope/limitations at the end
 
+            CROSS-LINKING: Include 2-3 inline references to related articles using this format: [Article Title](/research/slug)
+            At the end, add a "## Related Articles" section listing 2-3 relevant pieces.
+            
+            Here are existing articles you can reference:
+            ${articleIndex}
+
+            STYLE RULES (from WRITING_STYLE.md):
+            - No emojis ever
+            - No em-dashes (use colons or semicolons)
+            - Avoid: "utilize", "leverage", "facilitate", "in order to", "delve", "crucial"
+            - Be direct, specific, prefer short sentences
+            - Sound like a researcher, not a press release
+
             ${sampleContent ? `Here's an example of our style:\n\n${sampleContent}` : ''}
 
             Write the complete article now:`;
               
-              // Use GitHub Models API via fetch (available to GitHub Pro users)
+              // Use GitHub Models API via fetch
               const response = await fetch('https://models.inference.ai.azure.com/chat/completions', {
                 method: 'POST',
                 headers: {
@@ -177,7 +210,7 @@ jobs:
             
             return generatedFiles.join(',');
             
-      - name: Commit and push
+      - name: Commit and push articles
         if: steps.generate.outputs.result != ''
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
@@ -185,3 +218,85 @@ jobs:
           git add -A
           git diff --staged --quiet || git commit -m "Add generated article(s) - $(date +'%Y-%m-%d')"
           git push
+
+      # Generate new article ideas when list runs low
+      - name: Generate article ideas
+        if: steps.generate.outputs.needs_ideas == 'true'
+        uses: actions/github-script@v7
+        id: ideas
+        env:
+          MODEL: ${{ github.event.inputs.model || 'gpt-4o' }}
+        with:
+          script: |
+            const fs = require('fs');
+            
+            const articleList = fs.readFileSync('ARTICLE_LIST_100.md', 'utf8');
+            
+            const prompt = `You are helping expand the article list for the Reflexive AI Initiative.
+
+            Current article list:
+            ${articleList}
+
+            Generate 15 NEW article ideas that:
+            1. Fill gaps in current coverage
+            2. Extend existing themes naturally
+            3. Balance [R] Research, [P] Policy, and [A] AI-focused tags
+            4. Are timely and evergreen (avoid dated references)
+            5. Follow the numbering from where the list ends
+
+            Format each as:
+            [NUMBER]. [ ] Article Title [TAGS]
+
+            Return ONLY the numbered list, nothing else.`;
+
+            const response = await fetch('https://models.inference.ai.azure.com/chat/completions', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${process.env.GITHUB_TOKEN}`
+              },
+              body: JSON.stringify({
+                model: process.env.MODEL,
+                messages: [{ role: 'user', content: prompt }],
+                max_tokens: 1000,
+                temperature: 0.8
+              })
+            });
+
+            if (!response.ok) {
+              console.error('Failed to generate ideas');
+              return;
+            }
+
+            const data = await response.json();
+            const ideas = data.choices[0].message.content;
+            
+            // Save ideas to a file for the PR
+            fs.writeFileSync('PROPOSED_ARTICLES.md', `# Proposed New Articles\n\nGenerated on ${new Date().toISOString().split('T')[0]}\n\n${ideas}\n`);
+            
+            return ideas;
+
+      - name: Create PR with new ideas
+        if: steps.ideas.outputs.result != ''
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          BRANCH="article-ideas-$(date +'%Y%m%d-%H%M')"
+          git checkout -b "$BRANCH"
+          git add PROPOSED_ARTICLES.md
+          git commit -m "chore: propose new article ideas"
+          git push -u origin "$BRANCH"
+          
+          gh pr create \
+            --title "📝 Proposed new article ideas" \
+            --body "The article list is running low. Here are 15 proposed new topics for review.
+
+          ## Instructions
+          1. Review the ideas in \`PROPOSED_ARTICLES.md\`
+          2. Edit/approve topics you like
+          3. Add approved topics to \`ARTICLE_LIST_100.md\`
+          4. Delete \`PROPOSED_ARTICLES.md\` before merging" \
+            --base main
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
