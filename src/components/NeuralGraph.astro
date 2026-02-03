@@ -346,9 +346,9 @@
       });
     d3.select(canvas).call(zoom);
 
-    // Initial positioning
+    // Initial positioning - center on origin with no offset since simulation centers nodes
     d3.select(canvas)
-      .call(zoom.transform, d3.zoomIdentity.translate(width/2, height/2).scale(0.8));
+      .call(zoom.transform, d3.zoomIdentity.scale(0.9));
 
     setTimeout(() => {
       ui.loader.classList.add('fade-out');

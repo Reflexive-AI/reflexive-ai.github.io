@@ -19,9 +19,10 @@ const description = "Visualizing the connections between AI governance research 
     left: 0;
     width: 100vw;
     height: calc(100vh - var(--header-height, 64px));
-    z-index: 1;
+    z-index: 10;
     overflow: hidden;
     padding: 0;
+    background: #ffffff;
   }
   
   :global(.header) {
@@ -31,4 +32,10 @@ const description = "Visualizing the connections between AI governance research 
     backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   }
+  
+  /* Hide footer on this page */
+  :global(.footer) {
+    display: none !important;
+  }
 </style>
+
