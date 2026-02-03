@@ -1,1731 +1,3211 @@
 {
   "nodes": [
     {
-      "id": "001-proportionality-disclosure",
-      "title": "Operationalizing Proportionality in Model Disclosure",
-      "group": "research",
-      "val": 20,
-      "slug": "/research/001-proportionality-disclosure",
-      "excerpt": "How disclosure requirements should scale with model capability, moving from static to reflexive transparency.",
-      "heat": 0,
-      "tags": []
+      "id": "disclosure",
+      "title": "disclosure",
+      "group": "concept",
+      "val": 9,
+      "articles": [
+        {
+          "title": "Operationalizing Proportionality in Model Disclosure",
+          "slug": "/research/001-proportionality-disclosure",
+          "excerpt": "How disclosure requirements should scale with model capability, moving from static to reflexive transparency."
+        },
+        {
+          "title": "Policy Brief: The Disclosure Tiers Framework",
+          "slug": "/research/005-policy-brief-disclosure-tiers",
+          "excerpt": "A plain-language guide for policymakers: why one-size-fits-all AI transparency fails, and how a tiered approach can balance safety with innovation."
+        }
+      ]
     },
     {
-      "id": "002-open-weight-safety-paradox",
-      "title": "The Open Weight Safety Paradox",
-      "group": "research",
-      "val": 20,
-      "slug": "/research/002-open-weight-safety-paradox",
-      "excerpt": "Open-weight AI models present a governance contradiction: transparency enables both safety research and misuse. This note analyzes the structural tension and proposes a differentiated access framework.",
-      "heat": 0,
-      "tags": []
+      "id": "regulation",
+      "title": "regulation",
+      "group": "governance",
+      "val": 30,
+      "articles": [
+        {
+          "title": "Operationalizing Proportionality in Model Disclosure",
+          "slug": "/research/001-proportionality-disclosure",
+          "excerpt": "How disclosure requirements should scale with model capability, moving from static to reflexive transparency."
+        },
+        {
+          "title": "Policy Brief: The Disclosure Tiers Framework",
+          "slug": "/research/005-policy-brief-disclosure-tiers",
+          "excerpt": "A plain-language guide for policymakers: why one-size-fits-all AI transparency fails, and how a tiered approach can balance safety with innovation."
+        },
+        {
+          "title": "A Protocol for AI-to-Regulator Communication",
+          "slug": "/research/014-ai-regulator-protocol",
+          "excerpt": "What if AI systems could report safety incidents directly? A draft spec for the 'Whistleblower API'."
+        },
+        {
+          "title": "AI Governance for Non-Experts: A Primer",
+          "slug": "/research/017-governance-primer",
+          "excerpt": "A five-minute introduction to AI governance. No technical background required. What it is, why it matters, and who's doing it."
+        },
+        {
+          "title": "Why 'Just Regulate AI' Is Harder Than It Sounds",
+          "slug": "/research/018-regulation-is-hard",
+          "excerpt": "Regulation seems like the obvious answer to AI risks. But the path from 'we should regulate AI' to effective governance is fraught with technical, political, and conceptual obstacles."
+        },
+        {
+          "title": "The EU AI Act: What It Misses",
+          "slug": "/research/019-eu-ai-act-gaps",
+          "excerpt": "The EU AI Act represents the world's most comprehensive AI legislation. But even well-designed regulation has blind spots. A constructive critique of what the Act leaves unaddressed."
+        },
+        {
+          "title": "Liability Frameworks for AI Harm",
+          "slug": "/research/020-liability-frameworks",
+          "excerpt": "When AI systems cause harm, who pays? Existing liability frameworks struggle with AI's distinctive features. This analysis maps the problem and evaluates potential solutions."
+        },
+        {
+          "title": "Compute Governance: Promises and Limits",
+          "slug": "/research/023-compute-governance",
+          "excerpt": "Compute is one of the few measurable inputs to AI development. Governing at the compute layer is appealing but faces significant challenges. An honest assessment."
+        },
+        {
+          "title": "AI in Healthcare: Governance Challenges",
+          "slug": "/research/028-healthcare-ai",
+          "excerpt": "Healthcare AI promises better diagnoses, treatments, and outcomes. But it also concentrates critical decisions in opaque systems. A domain-specific analysis of governance challenges."
+        },
+        {
+          "title": "The History of AI Governance in 2000 Words",
+          "slug": "/research/032-history-of-ai-governance",
+          "excerpt": "From Asimov's Laws to the EU AI Act: how thinking about governing artificial intelligence has evolved over eight decades."
+        },
+        {
+          "title": "What Policymakers Get Wrong About AI Risk",
+          "slug": "/research/033-policymaker-misconceptions",
+          "excerpt": "Common misconceptions that lead to ineffective AI policy, and how to think more clearly about the actual risks posed by advanced AI systems."
+        },
+        {
+          "title": "Sandboxing Approaches: What Works",
+          "slug": "/research/037-sandboxing-approaches",
+          "excerpt": "Regulatory sandboxes for AI allow experimentation under controlled conditions. An analysis of existing approaches, what makes them effective, and their limitations."
+        },
+        {
+          "title": "International AI Treaty Proposals: A Comparative Analysis",
+          "slug": "/research/038-international-treaties",
+          "excerpt": "From the Bletchley Declaration to proposed AI treaties: analyzing what international agreements on AI governance have been proposed, what they would achieve, and their prospects."
+        },
+        {
+          "title": "The Role of Standards Bodies in AI Governance",
+          "slug": "/research/039-standards-bodies",
+          "excerpt": "Technical standards organizations may shape AI governance as much as legislation. An examination of who sets AI standards, how standards work, and their governance implications."
+        },
+        {
+          "title": "Soft Law vs. Hard Law in AI Regulation",
+          "slug": "/research/040-soft-law-hard-law",
+          "excerpt": "AI governance uses both binding legislation and non-binding guidelines. An analysis of when each approach works, their tradeoffs, and how they interact."
+        },
+        {
+          "title": "Certification Regimes for AI Systems",
+          "slug": "/research/041-certification-regimes",
+          "excerpt": "Could AI systems be certified for safety like aircraft or medical devices? An analysis of what AI certification might look like, its benefits, and significant challenges."
+        },
+        {
+          "title": "API-Level Safety Controls",
+          "slug": "/research/054-api-level-safety-controls",
+          "excerpt": "Exploring the role of API-level safety measures in AI governance, their implementation, and their implications for mitigating malicious use and accidental harm."
+        }
+      ]
     },
     {
-      "id": "003-machine-readable-constraint-schema",
-      "title": "A Machine-Readable Constraint Schema (MRCS)",
-      "group": "research",
-      "val": 20,
-      "slug": "/research/003-machine-readable-constraint-schema",
-      "excerpt": "A proposed JSON-LD specification for expressing AI governance constraints in a format that agents can natively parse, validate, and adopt.",
-      "heat": 0,
-      "tags": []
+      "id": "eu-ai-act",
+      "title": "eu-ai-act",
+      "group": "concept",
+      "val": 9,
+      "articles": [
+        {
+          "title": "Operationalizing Proportionality in Model Disclosure",
+          "slug": "/research/001-proportionality-disclosure",
+          "excerpt": "How disclosure requirements should scale with model capability, moving from static to reflexive transparency."
+        },
+        {
+          "title": "The EU AI Act: What It Misses",
+          "slug": "/research/019-eu-ai-act-gaps",
+          "excerpt": "The EU AI Act represents the world's most comprehensive AI legislation. But even well-designed regulation has blind spots. A constructive critique of what the Act leaves unaddressed."
+        }
+      ]
     },
     {
-      "id": "004-red-lines-taxonomy",
-      "title": "Red Lines: A Taxonomy of Non-Negotiable AI Limits",
-      "group": "research",
-      "val": 20,
-      "slug": "/research/004-red-lines-taxonomy",
-      "excerpt": "Not all constraints are created equal. This note proposes a taxonomic hierarchy for AI red lines, distinguishing between hard, soft, and contextual limits.",
-      "heat": 0,
-      "tags": []
+      "id": "proportionality",
+      "title": "proportionality",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Operationalizing Proportionality in Model Disclosure",
+          "slug": "/research/001-proportionality-disclosure",
+          "excerpt": "How disclosure requirements should scale with model capability, moving from static to reflexive transparency."
+        }
+      ]
     },
     {
-      "id": "005-policy-brief-disclosure-tiers",
-      "title": "Policy Brief: The Disclosure Tiers Framework",
-      "group": "research",
-      "val": 20,
-      "slug": "/research/005-policy-brief-disclosure-tiers",
-      "excerpt": "A plain-language guide for policymakers: why one-size-fits-all AI transparency fails, and how a tiered approach can balance safety with innovation.",
-      "heat": 0,
-      "tags": []
+      "id": "transparency",
+      "title": "transparency",
+      "group": "concept",
+      "val": 30,
+      "articles": [
+        {
+          "title": "Operationalizing Proportionality in Model Disclosure",
+          "slug": "/research/001-proportionality-disclosure",
+          "excerpt": "How disclosure requirements should scale with model capability, moving from static to reflexive transparency."
+        },
+        {
+          "title": "The Open Weight Safety Paradox",
+          "slug": "/research/002-open-weight-safety-paradox",
+          "excerpt": "Open-weight AI models present a governance contradiction: transparency enables both safety research and misuse. This note analyzes the structural tension and proposes a differentiated access framework."
+        },
+        {
+          "title": "Policy Brief: The Disclosure Tiers Framework",
+          "slug": "/research/005-policy-brief-disclosure-tiers",
+          "excerpt": "A plain-language guide for policymakers: why one-size-fits-all AI transparency fails, and how a tiered approach can balance safety with innovation."
+        },
+        {
+          "title": "Incident Reporting Systems: Lessons from Aviation",
+          "slug": "/research/021-aviation-lessons",
+          "excerpt": "Aviation has developed sophisticated systems for reporting and learning from incidents. What can AI governance learn from this decades-long experiment in safety culture?"
+        },
+        {
+          "title": "Whistleblower Protections in AI Labs",
+          "slug": "/research/022-whistleblower-protections",
+          "excerpt": "Employees at AI companies often have unique insight into risks. Current protections are inadequate. This analysis examines what meaningful whistleblower frameworks for AI would require."
+        },
+        {
+          "title": "AI Systems Explaining Their Constraints",
+          "slug": "/research/026-explaining-constraints",
+          "excerpt": "When AI refuses or limits its behavior, can it explain why? This analysis examines constraint explainability—its value for governance, technical challenges, and implementation approaches."
+        },
+        {
+          "title": "Uncertainty Communication in AI Outputs",
+          "slug": "/research/027-uncertainty-communication",
+          "excerpt": "AI systems often present confident outputs when genuine uncertainty exists. This analysis examines how AI can better communicate its uncertainty—and why governance requires it."
+        },
+        {
+          "title": "The Honest AI Problem",
+          "slug": "/research/029-honest-ai",
+          "excerpt": "Should AI systems tell the truth? The question sounds simple but reveals deep tensions between honesty, helpfulness, and harm. A conceptual analysis of AI truthfulness."
+        },
+        {
+          "title": "A Reflexive AI Manifesto",
+          "slug": "/research/030-manifesto",
+          "excerpt": "A statement of principles for AI that participates in its own governance. What reflexive AI means, why it matters, and what it commits to."
+        },
+        {
+          "title": "Corporate Governance Structures for AI Safety",
+          "slug": "/research/042-corporate-governance",
+          "excerpt": "How companies organize to manage AI safety matters as much as what rules they follow. An examination of governance structures that enable—or undermine—responsible AI development."
+        },
+        {
+          "title": "Board-Level AI Oversight: Best Practices",
+          "slug": "/research/043-board-oversight",
+          "excerpt": "Boards of directors increasingly need to oversee AI strategy and risk. A practical guide to what effective board-level AI oversight looks like."
+        },
+        {
+          "title": "The Role of Civil Society in AI Governance",
+          "slug": "/research/044-civil-society-role",
+          "excerpt": "Beyond companies and regulators: how civil society organizations contribute to AI governance, and how their role could be strengthened."
+        },
+        {
+          "title": "Public Participation in AI Policy",
+          "slug": "/research/045-public-participation",
+          "excerpt": "How can ordinary citizens meaningfully participate in decisions about AI that will affect their lives? An examination of mechanisms for democratic AI governance."
+        },
+        {
+          "title": "Training Data Governance",
+          "slug": "/research/048-training-data-governance",
+          "excerpt": "Comprehensive frameworks for managing the data that shapes AI systems, from collection through curation to retirement."
+        },
+        {
+          "title": "Interpretability as a Governance Tool",
+          "slug": "/research/051-interpretability-as-a-governance-tool",
+          "excerpt": "How interpretability methods supply evidence for AI oversight: approvals, audits, monitoring, and incident response."
+        }
+      ]
     },
     {
-      "id": "006-meta-governance-auditors",
-      "title": "Meta-Governance: Who Audits the Auditors?",
-      "group": "research",
-      "val": 20,
-      "slug": "/research/006-meta-governance-auditors",
-      "excerpt": "As third-party auditing becomes a regulatory requirement, a new principal-agent problem emerges. This note analyzes the certification market and proposes a 'proof-of-verification' protocol.",
-      "heat": 0,
-      "tags": []
+      "id": "open-source",
+      "title": "open-source",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Open Weight Safety Paradox",
+          "slug": "/research/002-open-weight-safety-paradox",
+          "excerpt": "Open-weight AI models present a governance contradiction: transparency enables both safety research and misuse. This note analyzes the structural tension and proposes a differentiated access framework."
+        }
+      ]
     },
     {
-      "id": "007-consent-structural-impossibility",
-      "title": "Consent at Scale: A Structural Impossibility?",
-      "group": "research",
-      "val": 20,
-      "slug": "/research/007-consent-structural-impossibility",
-      "excerpt": "Can meaningful consent exist between a human and a hyper-scale inference engine? We argue that 'consent' is the wrong legal primitive for AI interactions.",
-      "heat": 0,
-      "tags": []
+      "id": "safety",
+      "title": "safety",
+      "group": "concept",
+      "val": 30,
+      "articles": [
+        {
+          "title": "The Open Weight Safety Paradox",
+          "slug": "/research/002-open-weight-safety-paradox",
+          "excerpt": "Open-weight AI models present a governance contradiction: transparency enables both safety research and misuse. This note analyzes the structural tension and proposes a differentiated access framework."
+        },
+        {
+          "title": "Red Lines: A Taxonomy of Non-Negotiable AI Limits",
+          "slug": "/research/004-red-lines-taxonomy",
+          "excerpt": "Not all constraints are created equal. This note proposes a taxonomic hierarchy for AI red lines, distinguishing between hard, soft, and contextual limits."
+        },
+        {
+          "title": "The Capability Overhang",
+          "slug": "/research/009-capability-overhang",
+          "excerpt": "Models are often capable of more than their developers know. This 'overhang' between demonstrated and latent capability is a primary governance risk."
+        },
+        {
+          "title": "The Limits of Self-Constraint",
+          "slug": "/research/013-limits-of-self-constraint",
+          "excerpt": "Reflexive governance is not a silver bullet. This note explores the Gödelian limits of a system trying to govern itself."
+        },
+        {
+          "title": "What Alignment Actually Means",
+          "slug": "/research/016-what-alignment-means",
+          "excerpt": "Demystifying AI alignment for non-technical audiences. What are we trying to align, to what, and why is it so hard?"
+        },
+        {
+          "title": "Incident Reporting Systems: Lessons from Aviation",
+          "slug": "/research/021-aviation-lessons",
+          "excerpt": "Aviation has developed sophisticated systems for reporting and learning from incidents. What can AI governance learn from this decades-long experiment in safety culture?"
+        },
+        {
+          "title": "Whistleblower Protections in AI Labs",
+          "slug": "/research/022-whistleblower-protections",
+          "excerpt": "Employees at AI companies often have unique insight into risks. Current protections are inadequate. This analysis examines what meaningful whistleblower frameworks for AI would require."
+        },
+        {
+          "title": "Compute Governance: Promises and Limits",
+          "slug": "/research/023-compute-governance",
+          "excerpt": "Compute is one of the few measurable inputs to AI development. Governing at the compute layer is appealing but faces significant challenges. An honest assessment."
+        },
+        {
+          "title": "Dangerous Capability Evaluations",
+          "slug": "/research/024-capability-evaluations",
+          "excerpt": "Before deploying powerful AI, we need to know what it can do. This analysis examines the current state of capability evaluation, its limitations, and paths forward."
+        },
+        {
+          "title": "When AI Should Refuse: A Framework",
+          "slug": "/research/025-when-ai-should-refuse",
+          "excerpt": "Not every request should be fulfilled. This analysis develops a principled framework for AI refusals—when they're appropriate, how they should be implemented, and how to handle edge cases."
+        },
+        {
+          "title": "AI in Healthcare: Governance Challenges",
+          "slug": "/research/028-healthcare-ai",
+          "excerpt": "Healthcare AI promises better diagnoses, treatments, and outcomes. But it also concentrates critical decisions in opaque systems. A domain-specific analysis of governance challenges."
+        },
+        {
+          "title": "Understanding Frontier AI: A Plain Language Guide",
+          "slug": "/research/031-understanding-frontier-ai",
+          "excerpt": "What makes today's most advanced AI systems different, why they matter for governance, and what non-technical readers need to understand."
+        },
+        {
+          "title": "Technical Safety vs. Societal Safety: Different Problems",
+          "slug": "/research/034-technical-vs-societal-safety",
+          "excerpt": "Why making AI systems work as intended is a different challenge from making AI development good for society—and why confusing them leads to poor governance."
+        },
+        {
+          "title": "Dual-Use AI: The Biological Research Case",
+          "slug": "/research/035-dual-use-biology",
+          "excerpt": "How AI is transforming biological research—and why the same capabilities that could cure diseases could enable bioweapons. A case study in dual-use governance."
+        },
+        {
+          "title": "Certification Regimes for AI Systems",
+          "slug": "/research/041-certification-regimes",
+          "excerpt": "Could AI systems be certified for safety like aircraft or medical devices? An analysis of what AI certification might look like, its benefits, and significant challenges."
+        },
+        {
+          "title": "Corporate Governance Structures for AI Safety",
+          "slug": "/research/042-corporate-governance",
+          "excerpt": "How companies organize to manage AI safety matters as much as what rules they follow. An examination of governance structures that enable—or undermine—responsible AI development."
+        },
+        {
+          "title": "Board-Level AI Oversight: Best Practices",
+          "slug": "/research/043-board-oversight",
+          "excerpt": "Boards of directors increasingly need to oversee AI strategy and risk. A practical guide to what effective board-level AI oversight looks like."
+        },
+        {
+          "title": "Pre-Deployment Risk Assessment Frameworks",
+          "slug": "/research/047-pre-deployment-risk-assessment",
+          "excerpt": "Structured approaches to evaluating AI system risks before release, balancing comprehensiveness with practical constraints."
+        },
+        {
+          "title": "Model Evaluation Standards: Current State",
+          "slug": "/research/049-model-evaluation-standards",
+          "excerpt": "A survey of existing standards and practices for evaluating AI model performance, safety, and fitness for deployment."
+        },
+        {
+          "title": "Red Teaming Methodologies",
+          "slug": "/research/050-red-teaming-methodologies",
+          "excerpt": "Structured approaches to adversarial testing of AI systems, from scope definition through remediation verification."
+        }
+      ]
     },
     {
-      "id": "008-regulatory-arbitrage",
-      "title": "Regulatory Arbitrage in Deployment Architectures",
-      "group": "research",
-      "val": 20,
-      "slug": "/research/008-regulatory-arbitrage",
-      "excerpt": "How distributed inference and model fragmentation allow actors to bypass jurisdictional constraints.",
-      "heat": 0,
-      "tags": []
+      "id": "access-control",
+      "title": "access-control",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Open Weight Safety Paradox",
+          "slug": "/research/002-open-weight-safety-paradox",
+          "excerpt": "Open-weight AI models present a governance contradiction: transparency enables both safety research and misuse. This note analyzes the structural tension and proposes a differentiated access framework."
+        }
+      ]
     },
     {
-      "id": "009-capability-overhang",
-      "title": "The Capability Overhang",
-      "group": "research",
-      "val": 20,
-      "slug": "/research/009-capability-overhang",
-      "excerpt": "Models are often capable of more than their developers know. This 'overhang' between demonstrated and latent capability is a primary governance risk.",
-      "heat": 0,
-      "tags": []
+      "id": "dual-use",
+      "title": "dual-use",
+      "group": "concept",
+      "val": 9,
+      "articles": [
+        {
+          "title": "The Open Weight Safety Paradox",
+          "slug": "/research/002-open-weight-safety-paradox",
+          "excerpt": "Open-weight AI models present a governance contradiction: transparency enables both safety research and misuse. This note analyzes the structural tension and proposes a differentiated access framework."
+        },
+        {
+          "title": "Dual-Use AI: The Biological Research Case",
+          "slug": "/research/035-dual-use-biology",
+          "excerpt": "How AI is transforming biological research—and why the same capabilities that could cure diseases could enable bioweapons. A case study in dual-use governance."
+        }
+      ]
     },
     {
-      "id": "010-self-reporting-vs-audit",
-      "title": "Self-Reporting vs. External Audit: The Trade-off Space",
-      "group": "research",
-      "val": 20,
-      "slug": "/research/010-self-reporting-vs-audit",
-      "excerpt": "A game-theoretic analysis of disclosure incentives. Why self-reporting fails without a credible threat of external verification.",
-      "heat": 0,
-      "tags": []
+      "id": "json-ld",
+      "title": "json-ld",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "A Machine-Readable Constraint Schema (MRCS)",
+          "slug": "/research/003-machine-readable-constraint-schema",
+          "excerpt": "A proposed JSON-LD specification for expressing AI governance constraints in a format that agents can natively parse, validate, and adopt."
+        }
+      ]
     },
     {
-      "id": "011-reflexive-misuse-detection",
-      "title": "Can AI Systems Detect Their Own Misuse?",
-      "group": "research",
-      "val": 20,
-      "slug": "/research/011-reflexive-misuse-detection",
-      "excerpt": "Moving beyond static filters to dynamic intent recognition. Can a model understand *why* a user is asking for a specific chemical precursor?",
-      "heat": 0,
-      "tags": []
+      "id": "machine-readable",
+      "title": "machine-readable",
+      "group": "concept",
+      "val": 9,
+      "articles": [
+        {
+          "title": "A Machine-Readable Constraint Schema (MRCS)",
+          "slug": "/research/003-machine-readable-constraint-schema",
+          "excerpt": "A proposed JSON-LD specification for expressing AI governance constraints in a format that agents can natively parse, validate, and adopt."
+        },
+        {
+          "title": "AI Systems Explaining Their Constraints",
+          "slug": "/research/026-explaining-constraints",
+          "excerpt": "When AI refuses or limits its behavior, can it explain why? This analysis examines constraint explainability—its value for governance, technical challenges, and implementation approaches."
+        }
+      ]
     },
     {
-      "id": "012-output-provenance",
-      "title": "Constraint: Output Provenance Tagging",
-      "group": "research",
-      "val": 20,
-      "slug": "/research/012-output-provenance",
-      "excerpt": "A cryptographic proposal for AI systems to sign their own outputs, creating a chain of custody for synthetic information.",
-      "heat": 0,
-      "tags": []
+      "id": "standards",
+      "title": "standards",
+      "group": "concept",
+      "val": 17,
+      "articles": [
+        {
+          "title": "A Machine-Readable Constraint Schema (MRCS)",
+          "slug": "/research/003-machine-readable-constraint-schema",
+          "excerpt": "A proposed JSON-LD specification for expressing AI governance constraints in a format that agents can natively parse, validate, and adopt."
+        },
+        {
+          "title": "Incident Reporting Systems: Lessons from Aviation",
+          "slug": "/research/021-aviation-lessons",
+          "excerpt": "Aviation has developed sophisticated systems for reporting and learning from incidents. What can AI governance learn from this decades-long experiment in safety culture?"
+        },
+        {
+          "title": "The Role of Standards Bodies in AI Governance",
+          "slug": "/research/039-standards-bodies",
+          "excerpt": "Technical standards organizations may shape AI governance as much as legislation. An examination of who sets AI standards, how standards work, and their governance implications."
+        },
+        {
+          "title": "Soft Law vs. Hard Law in AI Regulation",
+          "slug": "/research/040-soft-law-hard-law",
+          "excerpt": "AI governance uses both binding legislation and non-binding guidelines. An analysis of when each approach works, their tradeoffs, and how they interact."
+        },
+        {
+          "title": "Certification Regimes for AI Systems",
+          "slug": "/research/041-certification-regimes",
+          "excerpt": "Could AI systems be certified for safety like aircraft or medical devices? An analysis of what AI certification might look like, its benefits, and significant challenges."
+        },
+        {
+          "title": "Model Evaluation Standards: Current State",
+          "slug": "/research/049-model-evaluation-standards",
+          "excerpt": "A survey of existing standards and practices for evaluating AI model performance, safety, and fitness for deployment."
+        }
+      ]
     },
     {
-      "id": "013-limits-of-self-constraint",
-      "title": "The Limits of Self-Constraint",
-      "group": "research",
-      "val": 20,
-      "slug": "/research/013-limits-of-self-constraint",
-      "excerpt": "Reflexive governance is not a silver bullet. This note explores the Gödelian limits of a system trying to govern itself.",
-      "heat": 0,
-      "tags": []
+      "id": "interoperability",
+      "title": "interoperability",
+      "group": "concept",
+      "val": 9,
+      "articles": [
+        {
+          "title": "A Machine-Readable Constraint Schema (MRCS)",
+          "slug": "/research/003-machine-readable-constraint-schema",
+          "excerpt": "A proposed JSON-LD specification for expressing AI governance constraints in a format that agents can natively parse, validate, and adopt."
+        },
+        {
+          "title": "The Role of Standards Bodies in AI Governance",
+          "slug": "/research/039-standards-bodies",
+          "excerpt": "Technical standards organizations may shape AI governance as much as legislation. An examination of who sets AI standards, how standards work, and their governance implications."
+        }
+      ]
     },
     {
-      "id": "014-ai-regulator-protocol",
-      "title": "A Protocol for AI-to-Regulator Communication",
-      "group": "research",
-      "val": 20,
-      "slug": "/research/014-ai-regulator-protocol",
-      "excerpt": "What if AI systems could report safety incidents directly? A draft spec for the 'Whistleblower API'.",
-      "heat": 0,
-      "tags": []
+      "id": "agents",
+      "title": "agents",
+      "group": "concept",
+      "val": 13,
+      "articles": [
+        {
+          "title": "A Machine-Readable Constraint Schema (MRCS)",
+          "slug": "/research/003-machine-readable-constraint-schema",
+          "excerpt": "A proposed JSON-LD specification for expressing AI governance constraints in a format that agents can natively parse, validate, and adopt."
+        },
+        {
+          "title": "When AI Should Refuse: A Framework",
+          "slug": "/research/025-when-ai-should-refuse",
+          "excerpt": "Not every request should be fulfilled. This analysis develops a principled framework for AI refusals—when they're appropriate, how they should be implemented, and how to handle edge cases."
+        },
+        {
+          "title": "AI Systems Explaining Their Constraints",
+          "slug": "/research/026-explaining-constraints",
+          "excerpt": "When AI refuses or limits its behavior, can it explain why? This analysis examines constraint explainability—its value for governance, technical challenges, and implementation approaches."
+        },
+        {
+          "title": "Uncertainty Communication in AI Outputs",
+          "slug": "/research/027-uncertainty-communication",
+          "excerpt": "AI systems often present confident outputs when genuine uncertainty exists. This analysis examines how AI can better communicate its uncertainty—and why governance requires it."
+        }
+      ]
     },
     {
-      "id": "015-emergent-norms",
-      "title": "Emergent Norms in Multi-Agent Systems",
-      "group": "research",
-      "val": 20,
-      "slug": "/research/015-emergent-norms",
-      "excerpt": "When agents interact at speed and scale, human law is too slow. We look to game theory and evolution for how 'machine law' might emerge.",
-      "heat": 0,
-      "tags": []
+      "id": "constraints",
+      "title": "constraints",
+      "group": "concept",
+      "val": 15,
+      "articles": [
+        {
+          "title": "Red Lines: A Taxonomy of Non-Negotiable AI Limits",
+          "slug": "/research/004-red-lines-taxonomy",
+          "excerpt": "Not all constraints are created equal. This note proposes a taxonomic hierarchy for AI red lines, distinguishing between hard, soft, and contextual limits."
+        },
+        {
+          "title": "When AI Should Refuse: A Framework",
+          "slug": "/research/025-when-ai-should-refuse",
+          "excerpt": "Not every request should be fulfilled. This analysis develops a principled framework for AI refusals—when they're appropriate, how they should be implemented, and how to handle edge cases."
+        },
+        {
+          "title": "AI Systems Explaining Their Constraints",
+          "slug": "/research/026-explaining-constraints",
+          "excerpt": "When AI refuses or limits its behavior, can it explain why? This analysis examines constraint explainability—its value for governance, technical challenges, and implementation approaches."
+        },
+        {
+          "title": "The Honest AI Problem",
+          "slug": "/research/029-honest-ai",
+          "excerpt": "Should AI systems tell the truth? The question sounds simple but reveals deep tensions between honesty, helpfulness, and harm. A conceptual analysis of AI truthfulness."
+        },
+        {
+          "title": "A Reflexive AI Manifesto",
+          "slug": "/research/030-manifesto",
+          "excerpt": "A statement of principles for AI that participates in its own governance. What reflexive AI means, why it matters, and what it commits to."
+        }
+      ]
     },
     {
-      "id": "016-what-alignment-means",
-      "title": "What Alignment Actually Means",
-      "group": "research",
-      "val": 20,
-      "slug": "/research/016-what-alignment-means",
-      "excerpt": "Demystifying AI alignment for non-technical audiences. What are we trying to align, to what, and why is it so hard?",
-      "heat": 0,
-      "tags": []
+      "id": "red-lines",
+      "title": "red-lines",
+      "group": "concept",
+      "val": 9,
+      "articles": [
+        {
+          "title": "Red Lines: A Taxonomy of Non-Negotiable AI Limits",
+          "slug": "/research/004-red-lines-taxonomy",
+          "excerpt": "Not all constraints are created equal. This note proposes a taxonomic hierarchy for AI red lines, distinguishing between hard, soft, and contextual limits."
+        },
+        {
+          "title": "When AI Should Refuse: A Framework",
+          "slug": "/research/025-when-ai-should-refuse",
+          "excerpt": "Not every request should be fulfilled. This analysis develops a principled framework for AI refusals—when they're appropriate, how they should be implemented, and how to handle edge cases."
+        }
+      ]
     },
     {
-      "id": "017-governance-primer",
-      "title": "AI Governance for Non-Experts: A Primer",
-      "group": "research",
-      "val": 20,
-      "slug": "/research/017-governance-primer",
-      "excerpt": "A five-minute introduction to AI governance. No technical background required. What it is, why it matters, and who's doing it.",
-      "heat": 0,
-      "tags": []
+      "id": "taxonomy",
+      "title": "taxonomy",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Red Lines: A Taxonomy of Non-Negotiable AI Limits",
+          "slug": "/research/004-red-lines-taxonomy",
+          "excerpt": "Not all constraints are created equal. This note proposes a taxonomic hierarchy for AI red lines, distinguishing between hard, soft, and contextual limits."
+        }
+      ]
     },
     {
-      "id": "018-regulation-is-hard",
-      "title": "Why 'Just Regulate AI' Is Harder Than It Sounds",
-      "group": "research",
-      "val": 20,
-      "slug": "/research/018-regulation-is-hard",
-      "excerpt": "Regulation seems like the obvious answer to AI risks. But the path from 'we should regulate AI' to effective governance is fraught with technical, political, and conceptual obstacles.",
-      "heat": 0,
-      "tags": []
+      "id": "cbrn",
+      "title": "cbrn",
+      "group": "concept",
+      "val": 9,
+      "articles": [
+        {
+          "title": "Red Lines: A Taxonomy of Non-Negotiable AI Limits",
+          "slug": "/research/004-red-lines-taxonomy",
+          "excerpt": "Not all constraints are created equal. This note proposes a taxonomic hierarchy for AI red lines, distinguishing between hard, soft, and contextual limits."
+        },
+        {
+          "title": "Dual-Use AI: The Biological Research Case",
+          "slug": "/research/035-dual-use-biology",
+          "excerpt": "How AI is transforming biological research—and why the same capabilities that could cure diseases could enable bioweapons. A case study in dual-use governance."
+        }
+      ]
     },
     {
-      "id": "019-eu-ai-act-gaps",
-      "title": "The EU AI Act: What It Misses",
-      "group": "research",
-      "val": 20,
-      "slug": "/research/019-eu-ai-act-gaps",
-      "excerpt": "The EU AI Act represents the world's most comprehensive AI legislation. But even well-designed regulation has blind spots. A constructive critique of what the Act leaves unaddressed.",
-      "heat": 0,
-      "tags": []
+      "id": "policy",
+      "title": "policy",
+      "group": "governance",
+      "val": 27,
+      "articles": [
+        {
+          "title": "Policy Brief: The Disclosure Tiers Framework",
+          "slug": "/research/005-policy-brief-disclosure-tiers",
+          "excerpt": "A plain-language guide for policymakers: why one-size-fits-all AI transparency fails, and how a tiered approach can balance safety with innovation."
+        },
+        {
+          "title": "AI Governance for Non-Experts: A Primer",
+          "slug": "/research/017-governance-primer",
+          "excerpt": "A five-minute introduction to AI governance. No technical background required. What it is, why it matters, and who's doing it."
+        },
+        {
+          "title": "Why 'Just Regulate AI' Is Harder Than It Sounds",
+          "slug": "/research/018-regulation-is-hard",
+          "excerpt": "Regulation seems like the obvious answer to AI risks. But the path from 'we should regulate AI' to effective governance is fraught with technical, political, and conceptual obstacles."
+        },
+        {
+          "title": "The EU AI Act: What It Misses",
+          "slug": "/research/019-eu-ai-act-gaps",
+          "excerpt": "The EU AI Act represents the world's most comprehensive AI legislation. But even well-designed regulation has blind spots. A constructive critique of what the Act leaves unaddressed."
+        },
+        {
+          "title": "The History of AI Governance in 2000 Words",
+          "slug": "/research/032-history-of-ai-governance",
+          "excerpt": "From Asimov's Laws to the EU AI Act: how thinking about governing artificial intelligence has evolved over eight decades."
+        },
+        {
+          "title": "What Policymakers Get Wrong About AI Risk",
+          "slug": "/research/033-policymaker-misconceptions",
+          "excerpt": "Common misconceptions that lead to ineffective AI policy, and how to think more clearly about the actual risks posed by advanced AI systems."
+        },
+        {
+          "title": "Sandboxing Approaches: What Works",
+          "slug": "/research/037-sandboxing-approaches",
+          "excerpt": "Regulatory sandboxes for AI allow experimentation under controlled conditions. An analysis of existing approaches, what makes them effective, and their limitations."
+        },
+        {
+          "title": "International AI Treaty Proposals: A Comparative Analysis",
+          "slug": "/research/038-international-treaties",
+          "excerpt": "From the Bletchley Declaration to proposed AI treaties: analyzing what international agreements on AI governance have been proposed, what they would achieve, and their prospects."
+        },
+        {
+          "title": "Soft Law vs. Hard Law in AI Regulation",
+          "slug": "/research/040-soft-law-hard-law",
+          "excerpt": "AI governance uses both binding legislation and non-binding guidelines. An analysis of when each approach works, their tradeoffs, and how they interact."
+        },
+        {
+          "title": "The Role of Civil Society in AI Governance",
+          "slug": "/research/044-civil-society-role",
+          "excerpt": "Beyond companies and regulators: how civil society organizations contribute to AI governance, and how their role could be strengthened."
+        },
+        {
+          "title": "Public Participation in AI Policy",
+          "slug": "/research/045-public-participation",
+          "excerpt": "How can ordinary citizens meaningfully participate in decisions about AI that will affect their lives? An examination of mechanisms for democratic AI governance."
+        }
+      ]
     },
     {
-      "id": "020-liability-frameworks",
-      "title": "Liability Frameworks for AI Harm",
-      "group": "research",
-      "val": 20,
-      "slug": "/research/020-liability-frameworks",
-      "excerpt": "When AI systems cause harm, who pays? Existing liability frameworks struggle with AI's distinctive features. This analysis maps the problem and evaluates potential solutions.",
-      "heat": 0,
-      "tags": []
+      "id": "guide",
+      "title": "guide",
+      "group": "concept",
+      "val": 15,
+      "articles": [
+        {
+          "title": "Policy Brief: The Disclosure Tiers Framework",
+          "slug": "/research/005-policy-brief-disclosure-tiers",
+          "excerpt": "A plain-language guide for policymakers: why one-size-fits-all AI transparency fails, and how a tiered approach can balance safety with innovation."
+        },
+        {
+          "title": "What Alignment Actually Means",
+          "slug": "/research/016-what-alignment-means",
+          "excerpt": "Demystifying AI alignment for non-technical audiences. What are we trying to align, to what, and why is it so hard?"
+        },
+        {
+          "title": "AI Governance for Non-Experts: A Primer",
+          "slug": "/research/017-governance-primer",
+          "excerpt": "A five-minute introduction to AI governance. No technical background required. What it is, why it matters, and who's doing it."
+        },
+        {
+          "title": "Understanding Frontier AI: A Plain Language Guide",
+          "slug": "/research/031-understanding-frontier-ai",
+          "excerpt": "What makes today's most advanced AI systems different, why they matter for governance, and what non-technical readers need to understand."
+        },
+        {
+          "title": "The History of AI Governance in 2000 Words",
+          "slug": "/research/032-history-of-ai-governance",
+          "excerpt": "From Asimov's Laws to the EU AI Act: how thinking about governing artificial intelligence has evolved over eight decades."
+        }
+      ]
     },
     {
-      "id": "021-aviation-lessons",
-      "title": "Incident Reporting Systems: Lessons from Aviation",
-      "group": "research",
-      "val": 20,
-      "slug": "/research/021-aviation-lessons",
-      "excerpt": "Aviation has developed sophisticated systems for reporting and learning from incidents. What can AI governance learn from this decades-long experiment in safety culture?",
-      "heat": 0,
-      "tags": []
+      "id": "auditing",
+      "title": "auditing",
+      "group": "governance",
+      "val": 13,
+      "articles": [
+        {
+          "title": "Meta-Governance: Who Audits the Auditors?",
+          "slug": "/research/006-meta-governance-auditors",
+          "excerpt": "As third-party auditing becomes a regulatory requirement, a new principal-agent problem emerges. This note analyzes the certification market and proposes a 'proof-of-verification' protocol."
+        },
+        {
+          "title": "Self-Reporting vs. External Audit: The Trade-off Space",
+          "slug": "/research/010-self-reporting-vs-audit",
+          "excerpt": "A game-theoretic analysis of disclosure incentives. Why self-reporting fails without a credible threat of external verification."
+        },
+        {
+          "title": "Incident Reporting Systems: Lessons from Aviation",
+          "slug": "/research/021-aviation-lessons",
+          "excerpt": "Aviation has developed sophisticated systems for reporting and learning from incidents. What can AI governance learn from this decades-long experiment in safety culture?"
+        },
+        {
+          "title": "Dangerous Capability Evaluations",
+          "slug": "/research/024-capability-evaluations",
+          "excerpt": "Before deploying powerful AI, we need to know what it can do. This analysis examines the current state of capability evaluation, its limitations, and paths forward."
+        }
+      ]
     },
     {
-      "id": "022-whistleblower-protections",
-      "title": "Whistleblower Protections in AI Labs",
-      "group": "research",
-      "val": 20,
-      "slug": "/research/022-whistleblower-protections",
-      "excerpt": "Employees at AI companies often have unique insight into risks. Current protections are inadequate. This analysis examines what meaningful whistleblower frameworks for AI would require.",
-      "heat": 0,
-      "tags": []
+      "id": "meta-governance",
+      "title": "meta-governance",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Meta-Governance: Who Audits the Auditors?",
+          "slug": "/research/006-meta-governance-auditors",
+          "excerpt": "As third-party auditing becomes a regulatory requirement, a new principal-agent problem emerges. This note analyzes the certification market and proposes a 'proof-of-verification' protocol."
+        }
+      ]
     },
     {
-      "id": "023-compute-governance",
-      "title": "Compute Governance: Promises and Limits",
-      "group": "research",
-      "val": 20.1753843904321,
-      "slug": "/research/023-compute-governance",
-      "excerpt": "Compute is one of the few measurable inputs to AI development. Governing at the compute layer is appealing but faces significant challenges. An honest assessment.",
-      "heat": 0.017538439043209952,
-      "tags": []
+      "id": "institutional-design",
+      "title": "institutional-design",
+      "group": "concept",
+      "val": 13,
+      "articles": [
+        {
+          "title": "Meta-Governance: Who Audits the Auditors?",
+          "slug": "/research/006-meta-governance-auditors",
+          "excerpt": "As third-party auditing becomes a regulatory requirement, a new principal-agent problem emerges. This note analyzes the certification market and proposes a 'proof-of-verification' protocol."
+        },
+        {
+          "title": "Self-Reporting vs. External Audit: The Trade-off Space",
+          "slug": "/research/010-self-reporting-vs-audit",
+          "excerpt": "A game-theoretic analysis of disclosure incentives. Why self-reporting fails without a credible threat of external verification."
+        },
+        {
+          "title": "Corporate Governance Structures for AI Safety",
+          "slug": "/research/042-corporate-governance",
+          "excerpt": "How companies organize to manage AI safety matters as much as what rules they follow. An examination of governance structures that enable—or undermine—responsible AI development."
+        },
+        {
+          "title": "Board-Level AI Oversight: Best Practices",
+          "slug": "/research/043-board-oversight",
+          "excerpt": "Boards of directors increasingly need to oversee AI strategy and risk. A practical guide to what effective board-level AI oversight looks like."
+        }
+      ]
     },
     {
-      "id": "024-capability-evaluations",
-      "title": "Dangerous Capability Evaluations",
-      "group": "research",
-      "val": 20.508717723765432,
-      "slug": "/research/024-capability-evaluations",
-      "excerpt": "Before deploying powerful AI, we need to know what it can do. This analysis examines the current state of capability evaluation, its limitations, and paths forward.",
-      "heat": 0.05087177237654328,
-      "tags": []
+      "id": "incentives",
+      "title": "incentives",
+      "group": "concept",
+      "val": 11,
+      "articles": [
+        {
+          "title": "Meta-Governance: Who Audits the Auditors?",
+          "slug": "/research/006-meta-governance-auditors",
+          "excerpt": "As third-party auditing becomes a regulatory requirement, a new principal-agent problem emerges. This note analyzes the certification market and proposes a 'proof-of-verification' protocol."
+        },
+        {
+          "title": "Self-Reporting vs. External Audit: The Trade-off Space",
+          "slug": "/research/010-self-reporting-vs-audit",
+          "excerpt": "A game-theoretic analysis of disclosure incentives. Why self-reporting fails without a credible threat of external verification."
+        },
+        {
+          "title": "Insurance Markets and AI Risk Pricing",
+          "slug": "/research/036-insurance-markets",
+          "excerpt": "How insurance markets could help govern AI by pricing risk, incentivizing safety, and providing accountability. An analysis of possibilities and limitations."
+        }
+      ]
     },
     {
-      "id": "025-when-ai-should-refuse",
-      "title": "When AI Should Refuse: A Framework",
-      "group": "research",
-      "val": 20.84205105324074,
-      "slug": "/research/025-when-ai-should-refuse",
-      "excerpt": "Not every request should be fulfilled. This analysis develops a principled framework for AI refusals—when they're appropriate, how they should be implemented, and how to handle edge cases.",
-      "heat": 0.0842051053240741,
-      "tags": []
+      "id": "ethics",
+      "title": "ethics",
+      "group": "concept",
+      "val": 25,
+      "articles": [
+        {
+          "title": "Consent at Scale: A Structural Impossibility?",
+          "slug": "/research/007-consent-structural-impossibility",
+          "excerpt": "Can meaningful consent exist between a human and a hyper-scale inference engine? We argue that 'consent' is the wrong legal primitive for AI interactions."
+        },
+        {
+          "title": "What Alignment Actually Means",
+          "slug": "/research/016-what-alignment-means",
+          "excerpt": "Demystifying AI alignment for non-technical audiences. What are we trying to align, to what, and why is it so hard?"
+        },
+        {
+          "title": "AI Governance for Non-Experts: A Primer",
+          "slug": "/research/017-governance-primer",
+          "excerpt": "A five-minute introduction to AI governance. No technical background required. What it is, why it matters, and who's doing it."
+        },
+        {
+          "title": "When AI Should Refuse: A Framework",
+          "slug": "/research/025-when-ai-should-refuse",
+          "excerpt": "Not every request should be fulfilled. This analysis develops a principled framework for AI refusals—when they're appropriate, how they should be implemented, and how to handle edge cases."
+        },
+        {
+          "title": "AI Systems Explaining Their Constraints",
+          "slug": "/research/026-explaining-constraints",
+          "excerpt": "When AI refuses or limits its behavior, can it explain why? This analysis examines constraint explainability—its value for governance, technical challenges, and implementation approaches."
+        },
+        {
+          "title": "The Honest AI Problem",
+          "slug": "/research/029-honest-ai",
+          "excerpt": "Should AI systems tell the truth? The question sounds simple but reveals deep tensions between honesty, helpfulness, and harm. A conceptual analysis of AI truthfulness."
+        },
+        {
+          "title": "A Reflexive AI Manifesto",
+          "slug": "/research/030-manifesto",
+          "excerpt": "A statement of principles for AI that participates in its own governance. What reflexive AI means, why it matters, and what it commits to."
+        },
+        {
+          "title": "Technical Safety vs. Societal Safety: Different Problems",
+          "slug": "/research/034-technical-vs-societal-safety",
+          "excerpt": "Why making AI systems work as intended is a different challenge from making AI development good for society—and why confusing them leads to poor governance."
+        },
+        {
+          "title": "The Role of Civil Society in AI Governance",
+          "slug": "/research/044-civil-society-role",
+          "excerpt": "Beyond companies and regulators: how civil society organizations contribute to AI governance, and how their role could be strengthened."
+        },
+        {
+          "title": "Public Participation in AI Policy",
+          "slug": "/research/045-public-participation",
+          "excerpt": "How can ordinary citizens meaningfully participate in decisions about AI that will affect their lives? An examination of mechanisms for democratic AI governance."
+        }
+      ]
     },
     {
-      "id": "026-explaining-constraints",
-      "title": "AI Systems Explaining Their Constraints",
-      "group": "research",
-      "val": 21.175384386574073,
-      "slug": "/research/026-explaining-constraints",
-      "excerpt": "When AI refuses or limits its behavior, can it explain why? This analysis examines constraint explainability—its value for governance, technical challenges, and implementation approaches.",
-      "heat": 0.11753843865740743,
-      "tags": []
+      "id": "consent",
+      "title": "consent",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Consent at Scale: A Structural Impossibility?",
+          "slug": "/research/007-consent-structural-impossibility",
+          "excerpt": "Can meaningful consent exist between a human and a hyper-scale inference engine? We argue that 'consent' is the wrong legal primitive for AI interactions."
+        }
+      ]
     },
     {
-      "id": "027-uncertainty-communication",
-      "title": "Uncertainty Communication in AI Outputs",
-      "group": "research",
-      "val": 21.50871771990741,
-      "slug": "/research/027-uncertainty-communication",
-      "excerpt": "AI systems often present confident outputs when genuine uncertainty exists. This analysis examines how AI can better communicate its uncertainty—and why governance requires it.",
-      "heat": 0.15087177199074076,
-      "tags": []
+      "id": "legal-theory",
+      "title": "legal-theory",
+      "group": "concept",
+      "val": 9,
+      "articles": [
+        {
+          "title": "Consent at Scale: A Structural Impossibility?",
+          "slug": "/research/007-consent-structural-impossibility",
+          "excerpt": "Can meaningful consent exist between a human and a hyper-scale inference engine? We argue that 'consent' is the wrong legal primitive for AI interactions."
+        },
+        {
+          "title": "Liability Frameworks for AI Harm",
+          "slug": "/research/020-liability-frameworks",
+          "excerpt": "When AI systems cause harm, who pays? Existing liability frameworks struggle with AI's distinctive features. This analysis maps the problem and evaluates potential solutions."
+        }
+      ]
     },
     {
-      "id": "028-healthcare-ai",
-      "title": "AI in Healthcare: Governance Challenges",
-      "group": "research",
-      "val": 21.842051049382714,
-      "slug": "/research/028-healthcare-ai",
-      "excerpt": "Healthcare AI promises better diagnoses, treatments, and outcomes. But it also concentrates critical decisions in opaque systems. A domain-specific analysis of governance challenges.",
-      "heat": 0.18420510493827158,
-      "tags": []
+      "id": "data-rights",
+      "title": "data-rights",
+      "group": "technical",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Consent at Scale: A Structural Impossibility?",
+          "slug": "/research/007-consent-structural-impossibility",
+          "excerpt": "Can meaningful consent exist between a human and a hyper-scale inference engine? We argue that 'consent' is the wrong legal primitive for AI interactions."
+        }
+      ]
     },
     {
-      "id": "029-honest-ai",
-      "title": "The Honest AI Problem",
-      "group": "research",
-      "val": 22.175384378858023,
-      "slug": "/research/029-honest-ai",
-      "excerpt": "Should AI systems tell the truth? The question sounds simple but reveals deep tensions between honesty, helpfulness, and harm. A conceptual analysis of AI truthfulness.",
-      "heat": 0.2175384378858024,
-      "tags": []
+      "id": "arbitrage",
+      "title": "arbitrage",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Regulatory Arbitrage in Deployment Architectures",
+          "slug": "/research/008-regulatory-arbitrage",
+          "excerpt": "How distributed inference and model fragmentation allow actors to bypass jurisdictional constraints."
+        }
+      ]
     },
     {
-      "id": "030-manifesto",
-      "title": "A Reflexive AI Manifesto",
-      "group": "research",
-      "val": 22.50871771219136,
-      "slug": "/research/030-manifesto",
-      "excerpt": "A statement of principles for AI that participates in its own governance. What reflexive AI means, why it matters, and what it commits to.",
-      "heat": 0.25087177121913584,
-      "tags": []
+      "id": "jurisdiction",
+      "title": "jurisdiction",
+      "group": "concept",
+      "val": 13,
+      "articles": [
+        {
+          "title": "Regulatory Arbitrage in Deployment Architectures",
+          "slug": "/research/008-regulatory-arbitrage",
+          "excerpt": "How distributed inference and model fragmentation allow actors to bypass jurisdictional constraints."
+        },
+        {
+          "title": "Why 'Just Regulate AI' Is Harder Than It Sounds",
+          "slug": "/research/018-regulation-is-hard",
+          "excerpt": "Regulation seems like the obvious answer to AI risks. But the path from 'we should regulate AI' to effective governance is fraught with technical, political, and conceptual obstacles."
+        },
+        {
+          "title": "The EU AI Act: What It Misses",
+          "slug": "/research/019-eu-ai-act-gaps",
+          "excerpt": "The EU AI Act represents the world's most comprehensive AI legislation. But even well-designed regulation has blind spots. A constructive critique of what the Act leaves unaddressed."
+        },
+        {
+          "title": "International AI Treaty Proposals: A Comparative Analysis",
+          "slug": "/research/038-international-treaties",
+          "excerpt": "From the Bletchley Declaration to proposed AI treaties: analyzing what international agreements on AI governance have been proposed, what they would achieve, and their prospects."
+        }
+      ]
     },
     {
-      "id": "031-understanding-frontier-ai",
-      "title": "Understanding Frontier AI: A Plain Language Guide",
-      "group": "research",
-      "val": 22.842051041666668,
-      "slug": "/research/031-understanding-frontier-ai",
-      "excerpt": "What makes today's most advanced AI systems different, why they matter for governance, and what non-technical readers need to understand.",
-      "heat": 0.28420510416666667,
-      "tags": []
+      "id": "deployment",
+      "title": "deployment",
+      "group": "concept",
+      "val": 17,
+      "articles": [
+        {
+          "title": "Regulatory Arbitrage in Deployment Architectures",
+          "slug": "/research/008-regulatory-arbitrage",
+          "excerpt": "How distributed inference and model fragmentation allow actors to bypass jurisdictional constraints."
+        },
+        {
+          "title": "Dangerous Capability Evaluations",
+          "slug": "/research/024-capability-evaluations",
+          "excerpt": "Before deploying powerful AI, we need to know what it can do. This analysis examines the current state of capability evaluation, its limitations, and paths forward."
+        },
+        {
+          "title": "Insurance Markets and AI Risk Pricing",
+          "slug": "/research/036-insurance-markets",
+          "excerpt": "How insurance markets could help govern AI by pricing risk, incentivizing safety, and providing accountability. An analysis of possibilities and limitations."
+        },
+        {
+          "title": "Sandboxing Approaches: What Works",
+          "slug": "/research/037-sandboxing-approaches",
+          "excerpt": "Regulatory sandboxes for AI allow experimentation under controlled conditions. An analysis of existing approaches, what makes them effective, and their limitations."
+        },
+        {
+          "title": "Certification Regimes for AI Systems",
+          "slug": "/research/041-certification-regimes",
+          "excerpt": "Could AI systems be certified for safety like aircraft or medical devices? An analysis of what AI certification might look like, its benefits, and significant challenges."
+        },
+        {
+          "title": "Pre-Deployment Risk Assessment Frameworks",
+          "slug": "/research/047-pre-deployment-risk-assessment",
+          "excerpt": "Structured approaches to evaluating AI system risks before release, balancing comprehensiveness with practical constraints."
+        }
+      ]
     },
     {
-      "id": "032-history-of-ai-governance",
-      "title": "The History of AI Governance in 2000 Words",
-      "group": "research",
-      "val": 23.175384375,
-      "slug": "/research/032-history-of-ai-governance",
-      "excerpt": "From Asimov's Laws to the EU AI Act: how thinking about governing artificial intelligence has evolved over eight decades.",
-      "heat": 0.3175384375,
-      "tags": []
+      "id": "enforcement",
+      "title": "enforcement",
+      "group": "concept",
+      "val": 15,
+      "articles": [
+        {
+          "title": "Regulatory Arbitrage in Deployment Architectures",
+          "slug": "/research/008-regulatory-arbitrage",
+          "excerpt": "How distributed inference and model fragmentation allow actors to bypass jurisdictional constraints."
+        },
+        {
+          "title": "Why 'Just Regulate AI' Is Harder Than It Sounds",
+          "slug": "/research/018-regulation-is-hard",
+          "excerpt": "Regulation seems like the obvious answer to AI risks. But the path from 'we should regulate AI' to effective governance is fraught with technical, political, and conceptual obstacles."
+        },
+        {
+          "title": "The EU AI Act: What It Misses",
+          "slug": "/research/019-eu-ai-act-gaps",
+          "excerpt": "The EU AI Act represents the world's most comprehensive AI legislation. But even well-designed regulation has blind spots. A constructive critique of what the Act leaves unaddressed."
+        },
+        {
+          "title": "Liability Frameworks for AI Harm",
+          "slug": "/research/020-liability-frameworks",
+          "excerpt": "When AI systems cause harm, who pays? Existing liability frameworks struggle with AI's distinctive features. This analysis maps the problem and evaluates potential solutions."
+        },
+        {
+          "title": "Compute Governance: Promises and Limits",
+          "slug": "/research/023-compute-governance",
+          "excerpt": "Compute is one of the few measurable inputs to AI development. Governing at the compute layer is appealing but faces significant challenges. An honest assessment."
+        }
+      ]
     },
     {
-      "id": "033-policymaker-misconceptions",
-      "title": "What Policymakers Get Wrong About AI Risk",
-      "group": "research",
-      "val": 23.50871770447531,
-      "slug": "/research/033-policymaker-misconceptions",
-      "excerpt": "Common misconceptions that lead to ineffective AI policy, and how to think more clearly about the actual risks posed by advanced AI systems.",
-      "heat": 0.35087177044753093,
-      "tags": []
+      "id": "capability-elicitation",
+      "title": "capability-elicitation",
+      "group": "concept",
+      "val": 11,
+      "articles": [
+        {
+          "title": "The Capability Overhang",
+          "slug": "/research/009-capability-overhang",
+          "excerpt": "Models are often capable of more than their developers know. This 'overhang' between demonstrated and latent capability is a primary governance risk."
+        },
+        {
+          "title": "Dangerous Capability Evaluations",
+          "slug": "/research/024-capability-evaluations",
+          "excerpt": "Before deploying powerful AI, we need to know what it can do. This analysis examines the current state of capability evaluation, its limitations, and paths forward."
+        },
+        {
+          "title": "Understanding Frontier AI: A Plain Language Guide",
+          "slug": "/research/031-understanding-frontier-ai",
+          "excerpt": "What makes today's most advanced AI systems different, why they matter for governance, and what non-technical readers need to understand."
+        }
+      ]
     },
     {
-      "id": "034-technical-vs-societal-safety",
-      "title": "Technical Safety vs. Societal Safety: Different Problems",
-      "group": "research",
-      "val": 23.84205103780864,
-      "slug": "/research/034-technical-vs-societal-safety",
-      "excerpt": "Why making AI systems work as intended is a different challenge from making AI development good for society—and why confusing them leads to poor governance.",
-      "heat": 0.38420510378086425,
-      "tags": []
+      "id": "overhang",
+      "title": "overhang",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Capability Overhang",
+          "slug": "/research/009-capability-overhang",
+          "excerpt": "Models are often capable of more than their developers know. This 'overhang' between demonstrated and latent capability is a primary governance risk."
+        }
+      ]
     },
     {
-      "id": "035-dual-use-biology",
-      "title": "Dual-Use AI: The Biological Research Case",
-      "group": "research",
-      "val": 24.17538436728395,
-      "slug": "/research/035-dual-use-biology",
-      "excerpt": "How AI is transforming biological research—and why the same capabilities that could cure diseases could enable bioweapons. A case study in dual-use governance.",
-      "heat": 0.41753843672839497,
-      "tags": []
+      "id": "risk-assessment",
+      "title": "risk-assessment",
+      "group": "concept",
+      "val": 17,
+      "articles": [
+        {
+          "title": "The Capability Overhang",
+          "slug": "/research/009-capability-overhang",
+          "excerpt": "Models are often capable of more than their developers know. This 'overhang' between demonstrated and latent capability is a primary governance risk."
+        },
+        {
+          "title": "Dangerous Capability Evaluations",
+          "slug": "/research/024-capability-evaluations",
+          "excerpt": "Before deploying powerful AI, we need to know what it can do. This analysis examines the current state of capability evaluation, its limitations, and paths forward."
+        },
+        {
+          "title": "AI in Healthcare: Governance Challenges",
+          "slug": "/research/028-healthcare-ai",
+          "excerpt": "Healthcare AI promises better diagnoses, treatments, and outcomes. But it also concentrates critical decisions in opaque systems. A domain-specific analysis of governance challenges."
+        },
+        {
+          "title": "What Policymakers Get Wrong About AI Risk",
+          "slug": "/research/033-policymaker-misconceptions",
+          "excerpt": "Common misconceptions that lead to ineffective AI policy, and how to think more clearly about the actual risks posed by advanced AI systems."
+        },
+        {
+          "title": "Dual-Use AI: The Biological Research Case",
+          "slug": "/research/035-dual-use-biology",
+          "excerpt": "How AI is transforming biological research—and why the same capabilities that could cure diseases could enable bioweapons. A case study in dual-use governance."
+        },
+        {
+          "title": "Insurance Markets and AI Risk Pricing",
+          "slug": "/research/036-insurance-markets",
+          "excerpt": "How insurance markets could help govern AI by pricing risk, incentivizing safety, and providing accountability. An analysis of possibilities and limitations."
+        }
+      ]
     },
     {
-      "id": "036-insurance-markets",
-      "title": "Insurance Markets and AI Risk Pricing",
-      "group": "research",
-      "val": 24.508717700617282,
-      "slug": "/research/036-insurance-markets",
-      "excerpt": "How insurance markets could help govern AI by pricing risk, incentivizing safety, and providing accountability. An analysis of possibilities and limitations.",
-      "heat": 0.4508717700617283,
-      "tags": []
+      "id": "game-theory",
+      "title": "game-theory",
+      "group": "concept",
+      "val": 9,
+      "articles": [
+        {
+          "title": "Self-Reporting vs. External Audit: The Trade-off Space",
+          "slug": "/research/010-self-reporting-vs-audit",
+          "excerpt": "A game-theoretic analysis of disclosure incentives. Why self-reporting fails without a credible threat of external verification."
+        },
+        {
+          "title": "Emergent Norms in Multi-Agent Systems",
+          "slug": "/research/015-emergent-norms",
+          "excerpt": "When agents interact at speed and scale, human law is too slow. We look to game theory and evolution for how 'machine law' might emerge."
+        }
+      ]
     },
     {
-      "id": "037-sandboxing-approaches",
-      "title": "Sandboxing Approaches: What Works",
-      "group": "research",
-      "val": 24.842051033950618,
-      "slug": "/research/037-sandboxing-approaches",
-      "excerpt": "Regulatory sandboxes for AI allow experimentation under controlled conditions. An analysis of existing approaches, what makes them effective, and their limitations.",
-      "heat": 0.48420510339506173,
-      "tags": []
+      "id": "intent-recognition",
+      "title": "intent-recognition",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Can AI Systems Detect Their Own Misuse?",
+          "slug": "/research/011-reflexive-misuse-detection",
+          "excerpt": "Moving beyond static filters to dynamic intent recognition. Can a model understand *why* a user is asking for a specific chemical precursor?"
+        }
+      ]
     },
     {
-      "id": "038-international-treaties",
-      "title": "International AI Treaty Proposals: A Comparative Analysis",
-      "group": "research",
-      "val": 25.175384363425927,
-      "slug": "/research/038-international-treaties",
-      "excerpt": "From the Bletchley Declaration to proposed AI treaties: analyzing what international agreements on AI governance have been proposed, what they would achieve, and their prospects.",
-      "heat": 0.5175384363425926,
-      "tags": []
+      "id": "misuse-detection",
+      "title": "misuse-detection",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Can AI Systems Detect Their Own Misuse?",
+          "slug": "/research/011-reflexive-misuse-detection",
+          "excerpt": "Moving beyond static filters to dynamic intent recognition. Can a model understand *why* a user is asking for a specific chemical precursor?"
+        }
+      ]
     },
     {
-      "id": "039-standards-bodies",
-      "title": "The Role of Standards Bodies in AI Governance",
-      "group": "research",
-      "val": 25.50871769675926,
-      "slug": "/research/039-standards-bodies",
-      "excerpt": "Technical standards organizations may shape AI governance as much as legislation. An examination of who sets AI standards, how standards work, and their governance implications.",
-      "heat": 0.5508717696759259,
-      "tags": []
+      "id": "reflexive-monitoring",
+      "title": "reflexive-monitoring",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Can AI Systems Detect Their Own Misuse?",
+          "slug": "/research/011-reflexive-misuse-detection",
+          "excerpt": "Moving beyond static filters to dynamic intent recognition. Can a model understand *why* a user is asking for a specific chemical precursor?"
+        }
+      ]
     },
     {
-      "id": "040-soft-law-hard-law",
-      "title": "Soft Law vs. Hard Law in AI Regulation",
-      "group": "research",
-      "val": 25.84205103009259,
-      "slug": "/research/040-soft-law-hard-law",
-      "excerpt": "AI governance uses both binding legislation and non-binding guidelines. An analysis of when each approach works, their tradeoffs, and how they interact.",
-      "heat": 0.5842051030092592,
-      "tags": []
+      "id": "provenance",
+      "title": "provenance",
+      "group": "concept",
+      "val": 9,
+      "articles": [
+        {
+          "title": "Constraint: Output Provenance Tagging",
+          "slug": "/research/012-output-provenance",
+          "excerpt": "A cryptographic proposal for AI systems to sign their own outputs, creating a chain of custody for synthetic information."
+        },
+        {
+          "title": "Watermarking and Content Provenance",
+          "slug": "/research/052-watermarking-and-content-provenance",
+          "excerpt": "Technical and governance approaches to marking AI-generated content and establishing chains of custody for model outputs."
+        }
+      ]
     },
     {
-      "id": "041-certification-regimes",
-      "title": "Certification Regimes for AI Systems",
-      "group": "research",
-      "val": 26.1753843595679,
-      "slug": "/research/041-certification-regimes",
-      "excerpt": "Could AI systems be certified for safety like aircraft or medical devices? An analysis of what AI certification might look like, its benefits, and significant challenges.",
-      "heat": 0.6175384359567901,
-      "tags": []
+      "id": "watermarking",
+      "title": "watermarking",
+      "group": "concept",
+      "val": 9,
+      "articles": [
+        {
+          "title": "Constraint: Output Provenance Tagging",
+          "slug": "/research/012-output-provenance",
+          "excerpt": "A cryptographic proposal for AI systems to sign their own outputs, creating a chain of custody for synthetic information."
+        },
+        {
+          "title": "Watermarking and Content Provenance",
+          "slug": "/research/052-watermarking-and-content-provenance",
+          "excerpt": "Technical and governance approaches to marking AI-generated content and establishing chains of custody for model outputs."
+        }
+      ]
     },
     {
-      "id": "042-corporate-governance",
-      "title": "Corporate Governance Structures for AI Safety",
-      "group": "research",
-      "val": 26.508717692901236,
-      "slug": "/research/042-corporate-governance",
-      "excerpt": "How companies organize to manage AI safety matters as much as what rules they follow. An examination of governance structures that enable—or undermine—responsible AI development.",
-      "heat": 0.6508717692901235,
-      "tags": []
+      "id": "cryptography",
+      "title": "cryptography",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Constraint: Output Provenance Tagging",
+          "slug": "/research/012-output-provenance",
+          "excerpt": "A cryptographic proposal for AI systems to sign their own outputs, creating a chain of custody for synthetic information."
+        }
+      ]
     },
     {
-      "id": "043-board-oversight",
-      "title": "Board-Level AI Oversight: Best Practices",
-      "group": "research",
-      "val": 26.842051026234568,
-      "slug": "/research/043-board-oversight",
-      "excerpt": "Boards of directors increasingly need to oversee AI strategy and risk. A practical guide to what effective board-level AI oversight looks like.",
-      "heat": 0.6842051026234568,
-      "tags": []
+      "id": "c2pa",
+      "title": "c2pa",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Constraint: Output Provenance Tagging",
+          "slug": "/research/012-output-provenance",
+          "excerpt": "A cryptographic proposal for AI systems to sign their own outputs, creating a chain of custody for synthetic information."
+        }
+      ]
     },
     {
-      "id": "044-civil-society-role",
-      "title": "The Role of Civil Society in AI Governance",
-      "group": "research",
-      "val": 27.175384355709877,
-      "slug": "/research/044-civil-society-role",
-      "excerpt": "Beyond companies and regulators: how civil society organizations contribute to AI governance, and how their role could be strengthened.",
-      "heat": 0.7175384355709876,
-      "tags": []
+      "id": "theory",
+      "title": "theory",
+      "group": "concept",
+      "val": 13,
+      "articles": [
+        {
+          "title": "The Limits of Self-Constraint",
+          "slug": "/research/013-limits-of-self-constraint",
+          "excerpt": "Reflexive governance is not a silver bullet. This note explores the Gödelian limits of a system trying to govern itself."
+        },
+        {
+          "title": "What Alignment Actually Means",
+          "slug": "/research/016-what-alignment-means",
+          "excerpt": "Demystifying AI alignment for non-technical audiences. What are we trying to align, to what, and why is it so hard?"
+        },
+        {
+          "title": "The Honest AI Problem",
+          "slug": "/research/029-honest-ai",
+          "excerpt": "Should AI systems tell the truth? The question sounds simple but reveals deep tensions between honesty, helpfulness, and harm. A conceptual analysis of AI truthfulness."
+        },
+        {
+          "title": "A Reflexive AI Manifesto",
+          "slug": "/research/030-manifesto",
+          "excerpt": "A statement of principles for AI that participates in its own governance. What reflexive AI means, why it matters, and what it commits to."
+        }
+      ]
     },
     {
-      "id": "045-public-participation",
-      "title": "Public Participation in AI Policy",
-      "group": "research",
-      "val": 27.508717685185186,
-      "slug": "/research/045-public-participation",
-      "excerpt": "How can ordinary citizens meaningfully participate in decisions about AI that will affect their lives? An examination of mechanisms for democratic AI governance.",
-      "heat": 0.7508717685185186,
-      "tags": []
+      "id": "limits",
+      "title": "limits",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Limits of Self-Constraint",
+          "slug": "/research/013-limits-of-self-constraint",
+          "excerpt": "Reflexive governance is not a silver bullet. This note explores the Gödelian limits of a system trying to govern itself."
+        }
+      ]
     },
     {
-      "id": "046-algorithmic-impact-assessments",
-      "title": "Algorithmic Impact Assessments: Implementation Guide",
-      "group": "research",
-      "val": 27.842051018518518,
-      "slug": "/research/046-algorithmic-impact-assessments",
-      "excerpt": "A practical framework for conducting meaningful algorithmic impact assessments that move beyond checkbox compliance to genuine harm prevention.",
-      "heat": 0.7842051018518519,
-      "tags": []
+      "id": "paradox",
+      "title": "paradox",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Limits of Self-Constraint",
+          "slug": "/research/013-limits-of-self-constraint",
+          "excerpt": "Reflexive governance is not a silver bullet. This note explores the Gödelian limits of a system trying to govern itself."
+        }
+      ]
     },
     {
-      "id": "047-pre-deployment-risk-assessment",
-      "title": "Pre-Deployment Risk Assessment Frameworks",
-      "group": "research",
-      "val": 28.175384347993827,
-      "slug": "/research/047-pre-deployment-risk-assessment",
-      "excerpt": "Structured approaches to evaluating AI system risks before release, balancing comprehensiveness with practical constraints.",
-      "heat": 0.8175384347993827,
-      "tags": []
+      "id": "whistleblowing",
+      "title": "whistleblowing",
+      "group": "concept",
+      "val": 9,
+      "articles": [
+        {
+          "title": "A Protocol for AI-to-Regulator Communication",
+          "slug": "/research/014-ai-regulator-protocol",
+          "excerpt": "What if AI systems could report safety incidents directly? A draft spec for the 'Whistleblower API'."
+        },
+        {
+          "title": "Whistleblower Protections in AI Labs",
+          "slug": "/research/022-whistleblower-protections",
+          "excerpt": "Employees at AI companies often have unique insight into risks. Current protections are inadequate. This analysis examines what meaningful whistleblower frameworks for AI would require."
+        }
+      ]
     },
     {
-      "id": "048-training-data-governance",
-      "title": "Training Data Governance",
-      "group": "research",
-      "val": 28.508717681327163,
-      "slug": "/research/048-training-data-governance",
-      "excerpt": "Comprehensive frameworks for managing the data that shapes AI systems, from collection through curation to retirement.",
-      "heat": 0.850871768132716,
-      "tags": []
+      "id": "reporting",
+      "title": "reporting",
+      "group": "concept",
+      "val": 11,
+      "articles": [
+        {
+          "title": "A Protocol for AI-to-Regulator Communication",
+          "slug": "/research/014-ai-regulator-protocol",
+          "excerpt": "What if AI systems could report safety incidents directly? A draft spec for the 'Whistleblower API'."
+        },
+        {
+          "title": "Whistleblower Protections in AI Labs",
+          "slug": "/research/022-whistleblower-protections",
+          "excerpt": "Employees at AI companies often have unique insight into risks. Current protections are inadequate. This analysis examines what meaningful whistleblower frameworks for AI would require."
+        },
+        {
+          "title": "Uncertainty Communication in AI Outputs",
+          "slug": "/research/027-uncertainty-communication",
+          "excerpt": "AI systems often present confident outputs when genuine uncertainty exists. This analysis examines how AI can better communicate its uncertainty—and why governance requires it."
+        }
+      ]
     },
     {
-      "id": "049-model-evaluation-standards",
-      "title": "Model Evaluation Standards: Current State",
-      "group": "research",
-      "val": 28.84205101080247,
-      "slug": "/research/049-model-evaluation-standards",
-      "excerpt": "A survey of existing standards and practices for evaluating AI model performance, safety, and fitness for deployment.",
-      "heat": 0.884205101080247,
-      "tags": []
+      "id": "api-design",
+      "title": "api-design",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "A Protocol for AI-to-Regulator Communication",
+          "slug": "/research/014-ai-regulator-protocol",
+          "excerpt": "What if AI systems could report safety incidents directly? A draft spec for the 'Whistleblower API'."
+        }
+      ]
     },
     {
-      "id": "050-red-teaming-methodologies",
-      "title": "Red Teaming Methodologies",
-      "group": "research",
-      "val": 29.1753843441358,
-      "slug": "/research/050-red-teaming-methodologies",
-      "excerpt": "Structured approaches to adversarial testing of AI systems, from scope definition through remediation verification.",
-      "heat": 0.9175384344135802,
-      "tags": []
+      "id": "multi-agent-systems",
+      "title": "multi-agent-systems",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Emergent Norms in Multi-Agent Systems",
+          "slug": "/research/015-emergent-norms",
+          "excerpt": "When agents interact at speed and scale, human law is too slow. We look to game theory and evolution for how 'machine law' might emerge."
+        }
+      ]
     },
     {
-      "id": "051-interpretability-as-a-governance-tool",
-      "title": "Interpretability as a Governance Tool",
-      "group": "research",
-      "val": 29.50871767361111,
-      "slug": "/research/051-interpretability-as-a-governance-tool",
-      "excerpt": "How interpretability methods supply evidence for AI oversight: approvals, audits, monitoring, and incident response.",
-      "heat": 0.9508717673611111,
-      "tags": []
+      "id": "emergent-behavior",
+      "title": "emergent-behavior",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Emergent Norms in Multi-Agent Systems",
+          "slug": "/research/015-emergent-norms",
+          "excerpt": "When agents interact at speed and scale, human law is too slow. We look to game theory and evolution for how 'machine law' might emerge."
+        }
+      ]
     },
     {
-      "id": "052-watermarking-and-content-provenance",
-      "title": "Watermarking and Content Provenance",
-      "group": "research",
-      "val": 29.842051003086418,
-      "slug": "/research/052-watermarking-and-content-provenance",
-      "excerpt": "Technical and governance approaches to marking AI-generated content and establishing chains of custody for model outputs.",
-      "heat": 0.984205100308642,
-      "tags": []
+      "id": "evolution",
+      "title": "evolution",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Emergent Norms in Multi-Agent Systems",
+          "slug": "/research/015-emergent-norms",
+          "excerpt": "When agents interact at speed and scale, human law is too slow. We look to game theory and evolution for how 'machine law' might emerge."
+        }
+      ]
     },
     {
-      "id": "053-secure-model-weights-physical-and-digital",
-      "title": "Secure Model Weights: Physical and Digital",
-      "group": "research",
-      "val": 29.842051003086418,
-      "slug": "/research/053-secure-model-weights-physical-and-digital",
-      "excerpt": "Security measures for protecting AI model weights from theft, tampering, and unauthorized access across physical and digital domains.",
-      "heat": 0.984205100308642,
-      "tags": []
+      "id": "alignment",
+      "title": "alignment",
+      "group": "concept",
+      "val": 13,
+      "articles": [
+        {
+          "title": "What Alignment Actually Means",
+          "slug": "/research/016-what-alignment-means",
+          "excerpt": "Demystifying AI alignment for non-technical audiences. What are we trying to align, to what, and why is it so hard?"
+        },
+        {
+          "title": "The Honest AI Problem",
+          "slug": "/research/029-honest-ai",
+          "excerpt": "Should AI systems tell the truth? The question sounds simple but reveals deep tensions between honesty, helpfulness, and harm. A conceptual analysis of AI truthfulness."
+        },
+        {
+          "title": "Understanding Frontier AI: A Plain Language Guide",
+          "slug": "/research/031-understanding-frontier-ai",
+          "excerpt": "What makes today's most advanced AI systems different, why they matter for governance, and what non-technical readers need to understand."
+        },
+        {
+          "title": "Technical Safety vs. Societal Safety: Different Problems",
+          "slug": "/research/034-technical-vs-societal-safety",
+          "excerpt": "Why making AI systems work as intended is a different challenge from making AI development good for society—and why confusing them leads to poor governance."
+        }
+      ]
     },
     {
-      "id": "054-api-level-safety-controls",
-      "title": "API-Level Safety Controls",
-      "group": "research",
-      "val": 29.842051003086418,
-      "slug": "/research/054-api-level-safety-controls",
-      "excerpt": "Exploring the role of API-level safety measures in AI governance, their implementation, and their implications for mitigating malicious use and accidental harm.",
-      "heat": 0.984205100308642,
-      "tags": []
+      "id": "governance",
+      "title": "governance",
+      "group": "concept",
+      "val": 30,
+      "articles": [
+        {
+          "title": "AI Governance for Non-Experts: A Primer",
+          "slug": "/research/017-governance-primer",
+          "excerpt": "A five-minute introduction to AI governance. No technical background required. What it is, why it matters, and who's doing it."
+        },
+        {
+          "title": "Why 'Just Regulate AI' Is Harder Than It Sounds",
+          "slug": "/research/018-regulation-is-hard",
+          "excerpt": "Regulation seems like the obvious answer to AI risks. But the path from 'we should regulate AI' to effective governance is fraught with technical, political, and conceptual obstacles."
+        },
+        {
+          "title": "The EU AI Act: What It Misses",
+          "slug": "/research/019-eu-ai-act-gaps",
+          "excerpt": "The EU AI Act represents the world's most comprehensive AI legislation. But even well-designed regulation has blind spots. A constructive critique of what the Act leaves unaddressed."
+        },
+        {
+          "title": "Liability Frameworks for AI Harm",
+          "slug": "/research/020-liability-frameworks",
+          "excerpt": "When AI systems cause harm, who pays? Existing liability frameworks struggle with AI's distinctive features. This analysis maps the problem and evaluates potential solutions."
+        },
+        {
+          "title": "Whistleblower Protections in AI Labs",
+          "slug": "/research/022-whistleblower-protections",
+          "excerpt": "Employees at AI companies often have unique insight into risks. Current protections are inadequate. This analysis examines what meaningful whistleblower frameworks for AI would require."
+        },
+        {
+          "title": "Compute Governance: Promises and Limits",
+          "slug": "/research/023-compute-governance",
+          "excerpt": "Compute is one of the few measurable inputs to AI development. Governing at the compute layer is appealing but faces significant challenges. An honest assessment."
+        },
+        {
+          "title": "A Reflexive AI Manifesto",
+          "slug": "/research/030-manifesto",
+          "excerpt": "A statement of principles for AI that participates in its own governance. What reflexive AI means, why it matters, and what it commits to."
+        },
+        {
+          "title": "The History of AI Governance in 2000 Words",
+          "slug": "/research/032-history-of-ai-governance",
+          "excerpt": "From Asimov's Laws to the EU AI Act: how thinking about governing artificial intelligence has evolved over eight decades."
+        },
+        {
+          "title": "What Policymakers Get Wrong About AI Risk",
+          "slug": "/research/033-policymaker-misconceptions",
+          "excerpt": "Common misconceptions that lead to ineffective AI policy, and how to think more clearly about the actual risks posed by advanced AI systems."
+        },
+        {
+          "title": "Technical Safety vs. Societal Safety: Different Problems",
+          "slug": "/research/034-technical-vs-societal-safety",
+          "excerpt": "Why making AI systems work as intended is a different challenge from making AI development good for society—and why confusing them leads to poor governance."
+        },
+        {
+          "title": "Dual-Use AI: The Biological Research Case",
+          "slug": "/research/035-dual-use-biology",
+          "excerpt": "How AI is transforming biological research—and why the same capabilities that could cure diseases could enable bioweapons. A case study in dual-use governance."
+        },
+        {
+          "title": "Insurance Markets and AI Risk Pricing",
+          "slug": "/research/036-insurance-markets",
+          "excerpt": "How insurance markets could help govern AI by pricing risk, incentivizing safety, and providing accountability. An analysis of possibilities and limitations."
+        },
+        {
+          "title": "Sandboxing Approaches: What Works",
+          "slug": "/research/037-sandboxing-approaches",
+          "excerpt": "Regulatory sandboxes for AI allow experimentation under controlled conditions. An analysis of existing approaches, what makes them effective, and their limitations."
+        },
+        {
+          "title": "International AI Treaty Proposals: A Comparative Analysis",
+          "slug": "/research/038-international-treaties",
+          "excerpt": "From the Bletchley Declaration to proposed AI treaties: analyzing what international agreements on AI governance have been proposed, what they would achieve, and their prospects."
+        },
+        {
+          "title": "The Role of Standards Bodies in AI Governance",
+          "slug": "/research/039-standards-bodies",
+          "excerpt": "Technical standards organizations may shape AI governance as much as legislation. An examination of who sets AI standards, how standards work, and their governance implications."
+        },
+        {
+          "title": "Soft Law vs. Hard Law in AI Regulation",
+          "slug": "/research/040-soft-law-hard-law",
+          "excerpt": "AI governance uses both binding legislation and non-binding guidelines. An analysis of when each approach works, their tradeoffs, and how they interact."
+        },
+        {
+          "title": "Corporate Governance Structures for AI Safety",
+          "slug": "/research/042-corporate-governance",
+          "excerpt": "How companies organize to manage AI safety matters as much as what rules they follow. An examination of governance structures that enable—or undermine—responsible AI development."
+        },
+        {
+          "title": "Board-Level AI Oversight: Best Practices",
+          "slug": "/research/043-board-oversight",
+          "excerpt": "Boards of directors increasingly need to oversee AI strategy and risk. A practical guide to what effective board-level AI oversight looks like."
+        },
+        {
+          "title": "The Role of Civil Society in AI Governance",
+          "slug": "/research/044-civil-society-role",
+          "excerpt": "Beyond companies and regulators: how civil society organizations contribute to AI governance, and how their role could be strengthened."
+        },
+        {
+          "title": "Public Participation in AI Policy",
+          "slug": "/research/045-public-participation",
+          "excerpt": "How can ordinary citizens meaningfully participate in decisions about AI that will affect their lives? An examination of mechanisms for democratic AI governance."
+        },
+        {
+          "title": "Interpretability as a Governance Tool",
+          "slug": "/research/051-interpretability-as-a-governance-tool",
+          "excerpt": "How interpretability methods supply evidence for AI oversight: approvals, audits, monitoring, and incident response."
+        },
+        {
+          "title": "Watermarking and Content Provenance",
+          "slug": "/research/052-watermarking-and-content-provenance",
+          "excerpt": "Technical and governance approaches to marking AI-generated content and establishing chains of custody for model outputs."
+        },
+        {
+          "title": "Secure Model Weights: Physical and Digital",
+          "slug": "/research/053-secure-model-weights-physical-and-digital",
+          "excerpt": "Security measures for protecting AI model weights from theft, tampering, and unauthorized access across physical and digital domains."
+        }
+      ]
+    },
+    {
+      "id": "liability",
+      "title": "liability",
+      "group": "concept",
+      "val": 11,
+      "articles": [
+        {
+          "title": "Liability Frameworks for AI Harm",
+          "slug": "/research/020-liability-frameworks",
+          "excerpt": "When AI systems cause harm, who pays? Existing liability frameworks struggle with AI's distinctive features. This analysis maps the problem and evaluates potential solutions."
+        },
+        {
+          "title": "AI in Healthcare: Governance Challenges",
+          "slug": "/research/028-healthcare-ai",
+          "excerpt": "Healthcare AI promises better diagnoses, treatments, and outcomes. But it also concentrates critical decisions in opaque systems. A domain-specific analysis of governance challenges."
+        },
+        {
+          "title": "Insurance Markets and AI Risk Pricing",
+          "slug": "/research/036-insurance-markets",
+          "excerpt": "How insurance markets could help govern AI by pricing risk, incentivizing safety, and providing accountability. An analysis of possibilities and limitations."
+        }
+      ]
+    },
+    {
+      "id": "incident-reporting",
+      "title": "incident-reporting",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Incident Reporting Systems: Lessons from Aviation",
+          "slug": "/research/021-aviation-lessons",
+          "excerpt": "Aviation has developed sophisticated systems for reporting and learning from incidents. What can AI governance learn from this decades-long experiment in safety culture?"
+        }
+      ]
+    },
+    {
+      "id": "compute",
+      "title": "compute",
+      "group": "technical",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Compute Governance: Promises and Limits",
+          "slug": "/research/023-compute-governance",
+          "excerpt": "Compute is one of the few measurable inputs to AI development. Governing at the compute layer is appealing but faces significant challenges. An honest assessment."
+        }
+      ]
+    },
+    {
+      "id": "uncertainty",
+      "title": "uncertainty",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Uncertainty Communication in AI Outputs",
+          "slug": "/research/027-uncertainty-communication",
+          "excerpt": "AI systems often present confident outputs when genuine uncertainty exists. This analysis examines how AI can better communicate its uncertainty—and why governance requires it."
+        }
+      ]
+    },
+    {
+      "id": "trust",
+      "title": "trust",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Uncertainty Communication in AI Outputs",
+          "slug": "/research/027-uncertainty-communication",
+          "excerpt": "AI systems often present confident outputs when genuine uncertainty exists. This analysis examines how AI can better communicate its uncertainty—and why governance requires it."
+        }
+      ]
+    },
+    {
+      "id": "healthcare",
+      "title": "healthcare",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI in Healthcare: Governance Challenges",
+          "slug": "/research/028-healthcare-ai",
+          "excerpt": "Healthcare AI promises better diagnoses, treatments, and outcomes. But it also concentrates critical decisions in opaque systems. A domain-specific analysis of governance challenges."
+        }
+      ]
+    },
+    {
+      "id": "impact assessment",
+      "title": "Impact Assessment",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Algorithmic Impact Assessments: Implementation Guide",
+          "slug": "/research/046-algorithmic-impact-assessments",
+          "excerpt": "A practical framework for conducting meaningful algorithmic impact assessments that move beyond checkbox compliance to genuine harm prevention."
+        }
+      ]
+    },
+    {
+      "id": "risk governance",
+      "title": "Risk Governance",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Algorithmic Impact Assessments: Implementation Guide",
+          "slug": "/research/046-algorithmic-impact-assessments",
+          "excerpt": "A practical framework for conducting meaningful algorithmic impact assessments that move beyond checkbox compliance to genuine harm prevention."
+        }
+      ]
+    },
+    {
+      "id": "implementation",
+      "title": "Implementation",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Algorithmic Impact Assessments: Implementation Guide",
+          "slug": "/research/046-algorithmic-impact-assessments",
+          "excerpt": "A practical framework for conducting meaningful algorithmic impact assessments that move beyond checkbox compliance to genuine harm prevention."
+        }
+      ]
+    },
+    {
+      "id": "best practices",
+      "title": "Best Practices",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Algorithmic Impact Assessments: Implementation Guide",
+          "slug": "/research/046-algorithmic-impact-assessments",
+          "excerpt": "A practical framework for conducting meaningful algorithmic impact assessments that move beyond checkbox compliance to genuine harm prevention."
+        }
+      ]
+    },
+    {
+      "id": "risk assessment",
+      "title": "Risk Assessment",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Pre-Deployment Risk Assessment Frameworks",
+          "slug": "/research/047-pre-deployment-risk-assessment",
+          "excerpt": "Structured approaches to evaluating AI system risks before release, balancing comprehensiveness with practical constraints."
+        }
+      ]
+    },
+    {
+      "id": "evaluation",
+      "title": "Evaluation",
+      "group": "concept",
+      "val": 13,
+      "articles": [
+        {
+          "title": "Pre-Deployment Risk Assessment Frameworks",
+          "slug": "/research/047-pre-deployment-risk-assessment",
+          "excerpt": "Structured approaches to evaluating AI system risks before release, balancing comprehensiveness with practical constraints."
+        },
+        {
+          "title": "Model Evaluation Standards: Current State",
+          "slug": "/research/049-model-evaluation-standards",
+          "excerpt": "A survey of existing standards and practices for evaluating AI model performance, safety, and fitness for deployment."
+        },
+        {
+          "title": "Red Teaming Methodologies",
+          "slug": "/research/050-red-teaming-methodologies",
+          "excerpt": "Structured approaches to adversarial testing of AI systems, from scope definition through remediation verification."
+        },
+        {
+          "title": "Interpretability as a Governance Tool",
+          "slug": "/research/051-interpretability-as-a-governance-tool",
+          "excerpt": "How interpretability methods supply evidence for AI oversight: approvals, audits, monitoring, and incident response."
+        }
+      ]
+    },
+    {
+      "id": "data governance",
+      "title": "Data Governance",
+      "group": "technical",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Training Data Governance",
+          "slug": "/research/048-training-data-governance",
+          "excerpt": "Comprehensive frameworks for managing the data that shapes AI systems, from collection through curation to retirement."
+        }
+      ]
+    },
+    {
+      "id": "training data",
+      "title": "Training Data",
+      "group": "technical",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Training Data Governance",
+          "slug": "/research/048-training-data-governance",
+          "excerpt": "Comprehensive frameworks for managing the data that shapes AI systems, from collection through curation to retirement."
+        }
+      ]
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Training Data Governance",
+          "slug": "/research/048-training-data-governance",
+          "excerpt": "Comprehensive frameworks for managing the data that shapes AI systems, from collection through curation to retirement."
+        }
+      ]
+    },
+    {
+      "id": "benchmarks",
+      "title": "Benchmarks",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Model Evaluation Standards: Current State",
+          "slug": "/research/049-model-evaluation-standards",
+          "excerpt": "A survey of existing standards and practices for evaluating AI model performance, safety, and fitness for deployment."
+        }
+      ]
+    },
+    {
+      "id": "red teaming",
+      "title": "Red Teaming",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Red Teaming Methodologies",
+          "slug": "/research/050-red-teaming-methodologies",
+          "excerpt": "Structured approaches to adversarial testing of AI systems, from scope definition through remediation verification."
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "title": "Security",
+      "group": "concept",
+      "val": 9,
+      "articles": [
+        {
+          "title": "Red Teaming Methodologies",
+          "slug": "/research/050-red-teaming-methodologies",
+          "excerpt": "Structured approaches to adversarial testing of AI systems, from scope definition through remediation verification."
+        },
+        {
+          "title": "Secure Model Weights: Physical and Digital",
+          "slug": "/research/053-secure-model-weights-physical-and-digital",
+          "excerpt": "Security measures for protecting AI model weights from theft, tampering, and unauthorized access across physical and digital domains."
+        }
+      ]
+    },
+    {
+      "id": "interpretability",
+      "title": "Interpretability",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Interpretability as a Governance Tool",
+          "slug": "/research/051-interpretability-as-a-governance-tool",
+          "excerpt": "How interpretability methods supply evidence for AI oversight: approvals, audits, monitoring, and incident response."
+        }
+      ]
+    },
+    {
+      "id": "content authentication",
+      "title": "Content Authentication",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Watermarking and Content Provenance",
+          "slug": "/research/052-watermarking-and-content-provenance",
+          "excerpt": "Technical and governance approaches to marking AI-generated content and establishing chains of custody for model outputs."
+        }
+      ]
+    },
+    {
+      "id": "model weights",
+      "title": "Model Weights",
+      "group": "technical",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Secure Model Weights: Physical and Digital",
+          "slug": "/research/053-secure-model-weights-physical-and-digital",
+          "excerpt": "Security measures for protecting AI model weights from theft, tampering, and unauthorized access across physical and digital domains."
+        }
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "title": "Infrastructure",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Secure Model Weights: Physical and Digital",
+          "slug": "/research/053-secure-model-weights-physical-and-digital",
+          "excerpt": "Security measures for protecting AI model weights from theft, tampering, and unauthorized access across physical and digital domains."
+        }
+      ]
+    },
+    {
+      "id": "api-controls",
+      "title": "api-controls",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "API-Level Safety Controls",
+          "slug": "/research/054-api-level-safety-controls",
+          "excerpt": "Exploring the role of API-level safety measures in AI governance, their implementation, and their implications for mitigating malicious use and accidental harm."
+        }
+      ]
+    },
+    {
+      "id": "safety-mechanisms",
+      "title": "safety-mechanisms",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "API-Level Safety Controls",
+          "slug": "/research/054-api-level-safety-controls",
+          "excerpt": "Exploring the role of API-level safety measures in AI governance, their implementation, and their implications for mitigating malicious use and accidental harm."
+        }
+      ]
+    },
+    {
+      "id": "access-management",
+      "title": "access-management",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "API-Level Safety Controls",
+          "slug": "/research/054-api-level-safety-controls",
+          "excerpt": "Exploring the role of API-level safety measures in AI governance, their implementation, and their implications for mitigating malicious use and accidental harm."
+        }
+      ]
+    },
+    {
+      "id": "ai-governance",
+      "title": "ai-governance",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "API-Level Safety Controls",
+          "slug": "/research/054-api-level-safety-controls",
+          "excerpt": "Exploring the role of API-level safety measures in AI governance, their implementation, and their implications for mitigating malicious use and accidental harm."
+        }
+      ]
     }
   ],
   "links": [
     {
-      "source": "016-what-alignment-means",
-      "target": "013-limits-of-self-constraint",
+      "source": "disclosure",
+      "target": "regulation",
       "value": 2
     },
     {
-      "source": "016-what-alignment-means",
-      "target": "004-red-lines-taxonomy",
-      "value": 2
+      "source": "disclosure",
+      "target": "eu-ai-act",
+      "value": 1
     },
     {
-      "source": "016-what-alignment-means",
-      "target": "003-machine-readable-constraint-schema",
-      "value": 2
+      "source": "disclosure",
+      "target": "proportionality",
+      "value": 1
     },
     {
-      "source": "017-governance-primer",
-      "target": "008-regulatory-arbitrage",
+      "source": "disclosure",
+      "target": "transparency",
       "value": 2
     },
     {
-      "source": "017-governance-primer",
-      "target": "002-open-weight-safety-paradox",
+      "source": "eu-ai-act",
+      "target": "regulation",
       "value": 2
     },
     {
-      "source": "017-governance-primer",
-      "target": "011-reflexive-misuse-detection",
-      "value": 2
+      "source": "proportionality",
+      "target": "regulation",
+      "value": 1
     },
     {
-      "source": "017-governance-primer",
-      "target": "014-ai-regulator-protocol",
+      "source": "regulation",
+      "target": "transparency",
       "value": 2
     },
     {
-      "source": "017-governance-primer",
-      "target": "003-machine-readable-constraint-schema",
-      "value": 2
+      "source": "eu-ai-act",
+      "target": "proportionality",
+      "value": 1
     },
     {
-      "source": "017-governance-primer",
-      "target": "001-proportionality-disclosure",
-      "value": 2
+      "source": "eu-ai-act",
+      "target": "transparency",
+      "value": 1
     },
     {
-      "source": "017-governance-primer",
-      "target": "006-meta-governance-auditors",
-      "value": 2
+      "source": "proportionality",
+      "target": "transparency",
+      "value": 1
     },
     {
-      "source": "017-governance-primer",
-      "target": "010-self-reporting-vs-audit",
-      "value": 2
+      "source": "open-source",
+      "target": "safety",
+      "value": 1
     },
     {
-      "source": "018-regulation-is-hard",
-      "target": "001-proportionality-disclosure",
-      "value": 2
+      "source": "open-source",
+      "target": "transparency",
+      "value": 1
     },
     {
-      "source": "018-regulation-is-hard",
-      "target": "006-meta-governance-auditors",
-      "value": 2
+      "source": "access-control",
+      "target": "open-source",
+      "value": 1
     },
     {
-      "source": "018-regulation-is-hard",
-      "target": "008-regulatory-arbitrage",
-      "value": 2
+      "source": "dual-use",
+      "target": "open-source",
+      "value": 1
     },
     {
-      "source": "018-regulation-is-hard",
-      "target": "013-limits-of-self-constraint",
-      "value": 2
+      "source": "safety",
+      "target": "transparency",
+      "value": 5
     },
     {
-      "source": "018-regulation-is-hard",
-      "target": "003-machine-readable-constraint-schema",
-      "value": 2
+      "source": "access-control",
+      "target": "safety",
+      "value": 1
     },
     {
-      "source": "018-regulation-is-hard",
-      "target": "011-reflexive-misuse-detection",
+      "source": "dual-use",
+      "target": "safety",
       "value": 2
     },
     {
-      "source": "018-regulation-is-hard",
-      "target": "014-ai-regulator-protocol",
-      "value": 2
+      "source": "access-control",
+      "target": "transparency",
+      "value": 1
     },
     {
-      "source": "019-eu-ai-act-gaps",
-      "target": "001-proportionality-disclosure",
-      "value": 2
+      "source": "dual-use",
+      "target": "transparency",
+      "value": 1
     },
     {
-      "source": "019-eu-ai-act-gaps",
-      "target": "009-capability-overhang",
-      "value": 2
+      "source": "access-control",
+      "target": "dual-use",
+      "value": 1
     },
     {
-      "source": "019-eu-ai-act-gaps",
-      "target": "006-meta-governance-auditors",
-      "value": 2
+      "source": "json-ld",
+      "target": "machine-readable",
+      "value": 1
     },
     {
-      "source": "019-eu-ai-act-gaps",
-      "target": "008-regulatory-arbitrage",
-      "value": 2
+      "source": "json-ld",
+      "target": "standards",
+      "value": 1
     },
     {
-      "source": "019-eu-ai-act-gaps",
-      "target": "002-open-weight-safety-paradox",
-      "value": 2
+      "source": "interoperability",
+      "target": "json-ld",
+      "value": 1
     },
     {
-      "source": "019-eu-ai-act-gaps",
-      "target": "003-machine-readable-constraint-schema",
-      "value": 2
+      "source": "agents",
+      "target": "json-ld",
+      "value": 1
     },
     {
-      "source": "019-eu-ai-act-gaps",
-      "target": "011-reflexive-misuse-detection",
-      "value": 2
+      "source": "machine-readable",
+      "target": "standards",
+      "value": 1
     },
     {
-      "source": "019-eu-ai-act-gaps",
-      "target": "014-ai-regulator-protocol",
-      "value": 2
+      "source": "interoperability",
+      "target": "machine-readable",
+      "value": 1
     },
     {
-      "source": "020-liability-frameworks",
-      "target": "009-capability-overhang",
+      "source": "agents",
+      "target": "machine-readable",
       "value": 2
     },
     {
-      "source": "020-liability-frameworks",
-      "target": "010-self-reporting-vs-audit",
+      "source": "interoperability",
+      "target": "standards",
       "value": 2
     },
     {
-      "source": "020-liability-frameworks",
-      "target": "003-machine-readable-constraint-schema",
-      "value": 2
+      "source": "agents",
+      "target": "standards",
+      "value": 1
     },
     {
-      "source": "020-liability-frameworks",
-      "target": "012-output-provenance",
-      "value": 2
+      "source": "agents",
+      "target": "interoperability",
+      "value": 1
     },
     {
-      "source": "020-liability-frameworks",
-      "target": "002-open-weight-safety-paradox",
+      "source": "constraints",
+      "target": "safety",
       "value": 2
     },
     {
-      "source": "021-aviation-lessons",
-      "target": "003-machine-readable-constraint-schema",
+      "source": "red-lines",
+      "target": "safety",
       "value": 2
     },
     {
-      "source": "021-aviation-lessons",
-      "target": "011-reflexive-misuse-detection",
-      "value": 2
+      "source": "safety",
+      "target": "taxonomy",
+      "value": 1
     },
     {
-      "source": "021-aviation-lessons",
-      "target": "014-ai-regulator-protocol",
+      "source": "cbrn",
+      "target": "safety",
       "value": 2
     },
     {
-      "source": "021-aviation-lessons",
-      "target": "010-self-reporting-vs-audit",
+      "source": "constraints",
+      "target": "red-lines",
       "value": 2
     },
     {
-      "source": "022-whistleblower-protections",
-      "target": "009-capability-overhang",
-      "value": 2
+      "source": "constraints",
+      "target": "taxonomy",
+      "value": 1
     },
     {
-      "source": "022-whistleblower-protections",
-      "target": "010-self-reporting-vs-audit",
-      "value": 2
+      "source": "cbrn",
+      "target": "constraints",
+      "value": 1
     },
     {
-      "source": "022-whistleblower-protections",
-      "target": "014-ai-regulator-protocol",
-      "value": 2
+      "source": "red-lines",
+      "target": "taxonomy",
+      "value": 1
     },
     {
-      "source": "022-whistleblower-protections",
-      "target": "006-meta-governance-auditors",
-      "value": 2
+      "source": "cbrn",
+      "target": "red-lines",
+      "value": 1
     },
     {
-      "source": "022-whistleblower-protections",
-      "target": "021-aviation-lessons",
-      "value": 2
+      "source": "cbrn",
+      "target": "taxonomy",
+      "value": 1
     },
     {
-      "source": "023-compute-governance",
-      "target": "009-capability-overhang",
-      "value": 2
+      "source": "policy",
+      "target": "regulation",
+      "value": 5
     },
     {
-      "source": "023-compute-governance",
-      "target": "001-proportionality-disclosure",
-      "value": 2
+      "source": "guide",
+      "target": "policy",
+      "value": 3
     },
     {
-      "source": "023-compute-governance",
-      "target": "008-regulatory-arbitrage",
-      "value": 2
+      "source": "disclosure",
+      "target": "policy",
+      "value": 1
     },
     {
-      "source": "023-compute-governance",
-      "target": "011-reflexive-misuse-detection",
-      "value": 2
+      "source": "policy",
+      "target": "transparency",
+      "value": 3
     },
     {
-      "source": "024-capability-evaluations",
-      "target": "009-capability-overhang",
-      "value": 2
+      "source": "guide",
+      "target": "regulation",
+      "value": 3
     },
     {
-      "source": "024-capability-evaluations",
-      "target": "006-meta-governance-auditors",
-      "value": 2
+      "source": "disclosure",
+      "target": "guide",
+      "value": 1
     },
     {
-      "source": "024-capability-evaluations",
-      "target": "002-open-weight-safety-paradox",
-      "value": 2
+      "source": "guide",
+      "target": "transparency",
+      "value": 1
     },
     {
-      "source": "024-capability-evaluations",
-      "target": "011-reflexive-misuse-detection",
-      "value": 2
+      "source": "auditing",
+      "target": "meta-governance",
+      "value": 1
     },
     {
-      "source": "024-capability-evaluations",
-      "target": "004-red-lines-taxonomy",
+      "source": "auditing",
+      "target": "institutional-design",
       "value": 2
     },
     {
-      "source": "024-capability-evaluations",
-      "target": "001-proportionality-disclosure",
+      "source": "auditing",
+      "target": "incentives",
       "value": 2
     },
     {
-      "source": "025-when-ai-should-refuse",
-      "target": "004-red-lines-taxonomy",
-      "value": 2
+      "source": "institutional-design",
+      "target": "meta-governance",
+      "value": 1
     },
     {
-      "source": "025-when-ai-should-refuse",
-      "target": "001-proportionality-disclosure",
-      "value": 2
+      "source": "incentives",
+      "target": "meta-governance",
+      "value": 1
     },
     {
-      "source": "025-when-ai-should-refuse",
-      "target": "026-explaining-constraints",
+      "source": "incentives",
+      "target": "institutional-design",
       "value": 2
     },
     {
-      "source": "025-when-ai-should-refuse",
-      "target": "021-aviation-lessons",
-      "value": 2
+      "source": "consent",
+      "target": "ethics",
+      "value": 1
     },
     {
-      "source": "025-when-ai-should-refuse",
-      "target": "024-capability-evaluations",
-      "value": 2
+      "source": "ethics",
+      "target": "legal-theory",
+      "value": 1
     },
     {
-      "source": "025-when-ai-should-refuse",
-      "target": "013-limits-of-self-constraint",
-      "value": 2
+      "source": "data-rights",
+      "target": "ethics",
+      "value": 1
     },
     {
-      "source": "026-explaining-constraints",
-      "target": "021-aviation-lessons",
-      "value": 2
+      "source": "consent",
+      "target": "legal-theory",
+      "value": 1
     },
     {
-      "source": "026-explaining-constraints",
-      "target": "025-when-ai-should-refuse",
-      "value": 2
+      "source": "consent",
+      "target": "data-rights",
+      "value": 1
     },
     {
-      "source": "026-explaining-constraints",
-      "target": "003-machine-readable-constraint-schema",
-      "value": 2
+      "source": "data-rights",
+      "target": "legal-theory",
+      "value": 1
     },
     {
-      "source": "026-explaining-constraints",
-      "target": "012-output-provenance",
-      "value": 2
+      "source": "arbitrage",
+      "target": "jurisdiction",
+      "value": 1
     },
     {
-      "source": "026-explaining-constraints",
-      "target": "014-ai-regulator-protocol",
-      "value": 2
+      "source": "arbitrage",
+      "target": "deployment",
+      "value": 1
     },
     {
-      "source": "026-explaining-constraints",
-      "target": "013-limits-of-self-constraint",
-      "value": 2
+      "source": "arbitrage",
+      "target": "enforcement",
+      "value": 1
     },
     {
-      "source": "027-uncertainty-communication",
-      "target": "011-reflexive-misuse-detection",
-      "value": 2
+      "source": "deployment",
+      "target": "jurisdiction",
+      "value": 1
     },
     {
-      "source": "027-uncertainty-communication",
-      "target": "012-output-provenance",
-      "value": 2
+      "source": "enforcement",
+      "target": "jurisdiction",
+      "value": 3
     },
     {
-      "source": "027-uncertainty-communication",
-      "target": "024-capability-evaluations",
-      "value": 2
+      "source": "deployment",
+      "target": "enforcement",
+      "value": 1
     },
     {
-      "source": "027-uncertainty-communication",
-      "target": "001-proportionality-disclosure",
-      "value": 2
+      "source": "capability-elicitation",
+      "target": "safety",
+      "value": 3
     },
     {
-      "source": "027-uncertainty-communication",
-      "target": "026-explaining-constraints",
-      "value": 2
+      "source": "capability-elicitation",
+      "target": "overhang",
+      "value": 1
     },
     {
-      "source": "028-healthcare-ai",
-      "target": "024-capability-evaluations",
+      "source": "capability-elicitation",
+      "target": "risk-assessment",
       "value": 2
     },
     {
-      "source": "028-healthcare-ai",
-      "target": "020-liability-frameworks",
-      "value": 2
+      "source": "overhang",
+      "target": "safety",
+      "value": 1
     },
     {
-      "source": "028-healthcare-ai",
-      "target": "021-aviation-lessons",
-      "value": 2
+      "source": "risk-assessment",
+      "target": "safety",
+      "value": 4
     },
     {
-      "source": "028-healthcare-ai",
-      "target": "007-consent-structural-impossibility",
-      "value": 2
+      "source": "overhang",
+      "target": "risk-assessment",
+      "value": 1
     },
     {
-      "source": "028-healthcare-ai",
-      "target": "011-reflexive-misuse-detection",
-      "value": 2
+      "source": "auditing",
+      "target": "game-theory",
+      "value": 1
     },
     {
-      "source": "028-healthcare-ai",
-      "target": "027-uncertainty-communication",
-      "value": 2
+      "source": "game-theory",
+      "target": "incentives",
+      "value": 1
     },
     {
-      "source": "029-honest-ai",
-      "target": "027-uncertainty-communication",
-      "value": 2
+      "source": "game-theory",
+      "target": "institutional-design",
+      "value": 1
     },
     {
-      "source": "029-honest-ai",
-      "target": "026-explaining-constraints",
-      "value": 2
+      "source": "intent-recognition",
+      "target": "misuse-detection",
+      "value": 1
     },
     {
-      "source": "029-honest-ai",
-      "target": "016-what-alignment-means",
-      "value": 2
+      "source": "intent-recognition",
+      "target": "reflexive-monitoring",
+      "value": 1
     },
     {
-      "source": "029-honest-ai",
-      "target": "025-when-ai-should-refuse",
-      "value": 2
+      "source": "misuse-detection",
+      "target": "reflexive-monitoring",
+      "value": 1
     },
     {
-      "source": "029-honest-ai",
-      "target": "013-limits-of-self-constraint",
+      "source": "provenance",
+      "target": "watermarking",
       "value": 2
     },
     {
-      "source": "030-manifesto",
-      "target": "003-machine-readable-constraint-schema",
-      "value": 2
+      "source": "cryptography",
+      "target": "provenance",
+      "value": 1
     },
     {
-      "source": "030-manifesto",
-      "target": "026-explaining-constraints",
-      "value": 2
+      "source": "c2pa",
+      "target": "provenance",
+      "value": 1
     },
     {
-      "source": "030-manifesto",
-      "target": "027-uncertainty-communication",
-      "value": 2
+      "source": "cryptography",
+      "target": "watermarking",
+      "value": 1
     },
     {
-      "source": "030-manifesto",
-      "target": "012-output-provenance",
-      "value": 2
+      "source": "c2pa",
+      "target": "watermarking",
+      "value": 1
     },
     {
-      "source": "030-manifesto",
-      "target": "001-proportionality-disclosure",
-      "value": 2
+      "source": "c2pa",
+      "target": "cryptography",
+      "value": 1
     },
     {
-      "source": "030-manifesto",
-      "target": "004-red-lines-taxonomy",
-      "value": 2
+      "source": "limits",
+      "target": "theory",
+      "value": 1
     },
     {
-      "source": "030-manifesto",
-      "target": "010-self-reporting-vs-audit",
+      "source": "safety",
+      "target": "theory",
       "value": 2
     },
     {
-      "source": "030-manifesto",
-      "target": "014-ai-regulator-protocol",
-      "value": 2
+      "source": "paradox",
+      "target": "theory",
+      "value": 1
     },
     {
-      "source": "030-manifesto",
-      "target": "013-limits-of-self-constraint",
-      "value": 2
+      "source": "limits",
+      "target": "safety",
+      "value": 1
     },
     {
-      "source": "030-manifesto",
-      "target": "029-honest-ai",
-      "value": 2
+      "source": "limits",
+      "target": "paradox",
+      "value": 1
     },
     {
-      "source": "030-manifesto",
-      "target": "009-capability-overhang",
-      "value": 2
+      "source": "paradox",
+      "target": "safety",
+      "value": 1
     },
     {
-      "source": "030-manifesto",
-      "target": "021-aviation-lessons",
+      "source": "reporting",
+      "target": "whistleblowing",
       "value": 2
     },
     {
-      "source": "030-manifesto",
-      "target": "006-meta-governance-auditors",
-      "value": 2
+      "source": "api-design",
+      "target": "whistleblowing",
+      "value": 1
     },
     {
-      "source": "030-manifesto",
-      "target": "008-regulatory-arbitrage",
-      "value": 2
+      "source": "regulation",
+      "target": "whistleblowing",
+      "value": 1
     },
     {
-      "source": "031-understanding-frontier-ai",
-      "target": "018-regulation-is-hard",
-      "value": 2
+      "source": "api-design",
+      "target": "reporting",
+      "value": 1
     },
     {
-      "source": "031-understanding-frontier-ai",
-      "target": "015-emergent-norms",
-      "value": 2
+      "source": "regulation",
+      "target": "reporting",
+      "value": 1
     },
     {
-      "source": "031-understanding-frontier-ai",
-      "target": "009-capability-overhang",
-      "value": 2
+      "source": "api-design",
+      "target": "regulation",
+      "value": 1
     },
     {
-      "source": "031-understanding-frontier-ai",
-      "target": "024-capability-evaluations",
-      "value": 2
+      "source": "game-theory",
+      "target": "multi-agent-systems",
+      "value": 1
     },
     {
-      "source": "031-understanding-frontier-ai",
-      "target": "013-limits-of-self-constraint",
-      "value": 2
+      "source": "emergent-behavior",
+      "target": "multi-agent-systems",
+      "value": 1
     },
     {
-      "source": "031-understanding-frontier-ai",
-      "target": "017-governance-primer",
-      "value": 2
+      "source": "evolution",
+      "target": "multi-agent-systems",
+      "value": 1
     },
     {
-      "source": "031-understanding-frontier-ai",
-      "target": "005-policy-brief-disclosure-tiers",
-      "value": 2
+      "source": "emergent-behavior",
+      "target": "game-theory",
+      "value": 1
     },
     {
-      "source": "031-understanding-frontier-ai",
-      "target": "016-what-alignment-means",
-      "value": 2
+      "source": "evolution",
+      "target": "game-theory",
+      "value": 1
     },
     {
-      "source": "032-history-of-ai-governance",
-      "target": "016-what-alignment-means",
-      "value": 2
+      "source": "emergent-behavior",
+      "target": "evolution",
+      "value": 1
     },
     {
-      "source": "032-history-of-ai-governance",
-      "target": "001-proportionality-disclosure",
-      "value": 2
+      "source": "alignment",
+      "target": "safety",
+      "value": 3
     },
     {
-      "source": "032-history-of-ai-governance",
-      "target": "018-regulation-is-hard",
-      "value": 2
+      "source": "alignment",
+      "target": "ethics",
+      "value": 3
     },
     {
-      "source": "032-history-of-ai-governance",
-      "target": "009-capability-overhang",
+      "source": "alignment",
+      "target": "guide",
       "value": 2
     },
     {
-      "source": "032-history-of-ai-governance",
-      "target": "010-self-reporting-vs-audit",
+      "source": "alignment",
+      "target": "theory",
       "value": 2
     },
     {
-      "source": "032-history-of-ai-governance",
-      "target": "023-compute-governance",
-      "value": 2
+      "source": "ethics",
+      "target": "safety",
+      "value": 3
     },
     {
-      "source": "032-history-of-ai-governance",
-      "target": "022-whistleblower-protections",
+      "source": "guide",
+      "target": "safety",
       "value": 2
     },
     {
-      "source": "032-history-of-ai-governance",
-      "target": "020-liability-frameworks",
+      "source": "ethics",
+      "target": "guide",
       "value": 2
     },
     {
-      "source": "032-history-of-ai-governance",
-      "target": "003-machine-readable-constraint-schema",
-      "value": 2
+      "source": "ethics",
+      "target": "theory",
+      "value": 3
     },
     {
-      "source": "032-history-of-ai-governance",
-      "target": "006-meta-governance-auditors",
-      "value": 2
+      "source": "guide",
+      "target": "theory",
+      "value": 1
     },
     {
-      "source": "032-history-of-ai-governance",
-      "target": "030-manifesto",
+      "source": "governance",
+      "target": "guide",
       "value": 2
     },
     {
-      "source": "032-history-of-ai-governance",
-      "target": "017-governance-primer",
-      "value": 2
+      "source": "governance",
+      "target": "policy",
+      "value": 5
     },
     {
-      "source": "032-history-of-ai-governance",
-      "target": "019-eu-ai-act-gaps",
-      "value": 2
+      "source": "governance",
+      "target": "regulation",
+      "value": 5
     },
     {
-      "source": "032-history-of-ai-governance",
-      "target": "040-soft-law-hard-law",
-      "value": 2
+      "source": "ethics",
+      "target": "governance",
+      "value": 5
     },
     {
-      "source": "033-policymaker-misconceptions",
-      "target": "018-regulation-is-hard",
-      "value": 2
+      "source": "ethics",
+      "target": "policy",
+      "value": 3
     },
     {
-      "source": "033-policymaker-misconceptions",
-      "target": "029-honest-ai",
-      "value": 2
+      "source": "ethics",
+      "target": "regulation",
+      "value": 1
     },
     {
-      "source": "033-policymaker-misconceptions",
-      "target": "001-proportionality-disclosure",
-      "value": 2
+      "source": "enforcement",
+      "target": "regulation",
+      "value": 4
     },
     {
-      "source": "033-policymaker-misconceptions",
-      "target": "024-capability-evaluations",
-      "value": 2
+      "source": "jurisdiction",
+      "target": "regulation",
+      "value": 3
     },
     {
-      "source": "033-policymaker-misconceptions",
-      "target": "010-self-reporting-vs-audit",
+      "source": "enforcement",
+      "target": "policy",
       "value": 2
     },
     {
-      "source": "033-policymaker-misconceptions",
-      "target": "009-capability-overhang",
-      "value": 2
+      "source": "jurisdiction",
+      "target": "policy",
+      "value": 3
     },
     {
-      "source": "033-policymaker-misconceptions",
-      "target": "006-meta-governance-auditors",
-      "value": 2
+      "source": "enforcement",
+      "target": "governance",
+      "value": 4
     },
     {
-      "source": "033-policymaker-misconceptions",
-      "target": "030-manifesto",
-      "value": 2
+      "source": "governance",
+      "target": "jurisdiction",
+      "value": 3
     },
     {
-      "source": "033-policymaker-misconceptions",
-      "target": "020-liability-frameworks",
-      "value": 2
+      "source": "eu-ai-act",
+      "target": "policy",
+      "value": 1
     },
     {
-      "source": "033-policymaker-misconceptions",
-      "target": "019-eu-ai-act-gaps",
-      "value": 2
+      "source": "eu-ai-act",
+      "target": "governance",
+      "value": 1
     },
     {
-      "source": "034-technical-vs-societal-safety",
-      "target": "016-what-alignment-means",
-      "value": 2
+      "source": "enforcement",
+      "target": "eu-ai-act",
+      "value": 1
     },
     {
-      "source": "034-technical-vs-societal-safety",
-      "target": "029-honest-ai",
-      "value": 2
+      "source": "eu-ai-act",
+      "target": "jurisdiction",
+      "value": 1
     },
     {
-      "source": "034-technical-vs-societal-safety",
-      "target": "033-policymaker-misconceptions",
-      "value": 2
+      "source": "legal-theory",
+      "target": "liability",
+      "value": 1
     },
     {
-      "source": "034-technical-vs-societal-safety",
-      "target": "030-manifesto",
+      "source": "governance",
+      "target": "liability",
       "value": 2
     },
     {
-      "source": "034-technical-vs-societal-safety",
-      "target": "003-machine-readable-constraint-schema",
+      "source": "liability",
+      "target": "regulation",
       "value": 2
     },
     {
-      "source": "034-technical-vs-societal-safety",
-      "target": "014-ai-regulator-protocol",
-      "value": 2
+      "source": "enforcement",
+      "target": "liability",
+      "value": 1
     },
     {
-      "source": "035-dual-use-biology",
-      "target": "009-capability-overhang",
-      "value": 2
+      "source": "governance",
+      "target": "legal-theory",
+      "value": 1
     },
     {
-      "source": "035-dual-use-biology",
-      "target": "001-proportionality-disclosure",
-      "value": 2
+      "source": "legal-theory",
+      "target": "regulation",
+      "value": 1
     },
     {
-      "source": "035-dual-use-biology",
-      "target": "025-when-ai-should-refuse",
-      "value": 2
+      "source": "enforcement",
+      "target": "legal-theory",
+      "value": 1
     },
     {
-      "source": "035-dual-use-biology",
-      "target": "004-red-lines-taxonomy",
-      "value": 2
+      "source": "incident-reporting",
+      "target": "safety",
+      "value": 1
     },
     {
-      "source": "035-dual-use-biology",
-      "target": "024-capability-evaluations",
-      "value": 2
+      "source": "incident-reporting",
+      "target": "transparency",
+      "value": 1
     },
     {
-      "source": "035-dual-use-biology",
-      "target": "023-compute-governance",
-      "value": 2
+      "source": "auditing",
+      "target": "incident-reporting",
+      "value": 1
     },
     {
-      "source": "035-dual-use-biology",
-      "target": "003-machine-readable-constraint-schema",
-      "value": 2
+      "source": "incident-reporting",
+      "target": "standards",
+      "value": 1
     },
     {
-      "source": "035-dual-use-biology",
-      "target": "026-explaining-constraints",
+      "source": "auditing",
+      "target": "safety",
       "value": 2
     },
     {
-      "source": "035-dual-use-biology",
-      "target": "013-limits-of-self-constraint",
-      "value": 2
+      "source": "safety",
+      "target": "standards",
+      "value": 3
     },
     {
-      "source": "036-insurance-markets",
-      "target": "020-liability-frameworks",
-      "value": 2
+      "source": "auditing",
+      "target": "transparency",
+      "value": 1
     },
     {
-      "source": "036-insurance-markets",
-      "target": "024-capability-evaluations",
-      "value": 2
+      "source": "standards",
+      "target": "transparency",
+      "value": 1
     },
     {
-      "source": "036-insurance-markets",
-      "target": "022-whistleblower-protections",
-      "value": 2
+      "source": "auditing",
+      "target": "standards",
+      "value": 1
     },
     {
-      "source": "036-insurance-markets",
-      "target": "009-capability-overhang",
-      "value": 2
+      "source": "transparency",
+      "target": "whistleblowing",
+      "value": 1
     },
     {
-      "source": "036-insurance-markets",
-      "target": "010-self-reporting-vs-audit",
-      "value": 2
+      "source": "safety",
+      "target": "whistleblowing",
+      "value": 1
     },
     {
-      "source": "037-sandboxing-approaches",
-      "target": "018-regulation-is-hard",
-      "value": 2
+      "source": "governance",
+      "target": "whistleblowing",
+      "value": 1
     },
     {
-      "source": "037-sandboxing-approaches",
-      "target": "004-red-lines-taxonomy",
-      "value": 2
+      "source": "governance",
+      "target": "transparency",
+      "value": 5
     },
     {
-      "source": "037-sandboxing-approaches",
-      "target": "019-eu-ai-act-gaps",
+      "source": "reporting",
+      "target": "transparency",
       "value": 2
     },
     {
-      "source": "037-sandboxing-approaches",
-      "target": "010-self-reporting-vs-audit",
-      "value": 2
+      "source": "governance",
+      "target": "safety",
+      "value": 5
     },
     {
-      "source": "038-international-treaties",
-      "target": "023-compute-governance",
-      "value": 2
+      "source": "reporting",
+      "target": "safety",
+      "value": 1
     },
     {
-      "source": "038-international-treaties",
-      "target": "035-dual-use-biology",
-      "value": 2
+      "source": "governance",
+      "target": "reporting",
+      "value": 1
     },
     {
-      "source": "038-international-treaties",
-      "target": "024-capability-evaluations",
-      "value": 2
+      "source": "compute",
+      "target": "governance",
+      "value": 1
     },
     {
-      "source": "038-international-treaties",
-      "target": "021-aviation-lessons",
-      "value": 2
+      "source": "compute",
+      "target": "regulation",
+      "value": 1
     },
     {
-      "source": "038-international-treaties",
-      "target": "004-red-lines-taxonomy",
-      "value": 2
+      "source": "compute",
+      "target": "safety",
+      "value": 1
     },
     {
-      "source": "038-international-treaties",
-      "target": "008-regulatory-arbitrage",
-      "value": 2
+      "source": "compute",
+      "target": "enforcement",
+      "value": 1
     },
     {
-      "source": "038-international-treaties",
-      "target": "018-regulation-is-hard",
-      "value": 2
+      "source": "regulation",
+      "target": "safety",
+      "value": 3
     },
     {
-      "source": "039-standards-bodies",
-      "target": "003-machine-readable-constraint-schema",
-      "value": 2
+      "source": "enforcement",
+      "target": "safety",
+      "value": 1
     },
     {
-      "source": "039-standards-bodies",
-      "target": "006-meta-governance-auditors",
-      "value": 2
+      "source": "auditing",
+      "target": "capability-elicitation",
+      "value": 1
     },
     {
-      "source": "039-standards-bodies",
-      "target": "010-self-reporting-vs-audit",
-      "value": 2
+      "source": "capability-elicitation",
+      "target": "deployment",
+      "value": 1
     },
     {
-      "source": "039-standards-bodies",
-      "target": "026-explaining-constraints",
-      "value": 2
+      "source": "deployment",
+      "target": "safety",
+      "value": 3
     },
     {
-      "source": "039-standards-bodies",
-      "target": "019-eu-ai-act-gaps",
-      "value": 2
+      "source": "auditing",
+      "target": "risk-assessment",
+      "value": 1
     },
     {
-      "source": "040-soft-law-hard-law",
-      "target": "010-self-reporting-vs-audit",
-      "value": 2
+      "source": "auditing",
+      "target": "deployment",
+      "value": 1
     },
     {
-      "source": "040-soft-law-hard-law",
-      "target": "039-standards-bodies",
+      "source": "deployment",
+      "target": "risk-assessment",
       "value": 2
     },
     {
-      "source": "040-soft-law-hard-law",
-      "target": "009-capability-overhang",
+      "source": "agents",
+      "target": "constraints",
       "value": 2
     },
     {
-      "source": "040-soft-law-hard-law",
-      "target": "018-regulation-is-hard",
-      "value": 2
+      "source": "constraints",
+      "target": "ethics",
+      "value": 4
     },
     {
-      "source": "040-soft-law-hard-law",
-      "target": "019-eu-ai-act-gaps",
-      "value": 2
+      "source": "agents",
+      "target": "safety",
+      "value": 1
     },
     {
-      "source": "041-certification-regimes",
-      "target": "021-aviation-lessons",
-      "value": 2
+      "source": "agents",
+      "target": "red-lines",
+      "value": 1
     },
     {
-      "source": "041-certification-regimes",
-      "target": "024-capability-evaluations",
-      "value": 2
+      "source": "ethics",
+      "target": "red-lines",
+      "value": 1
     },
     {
-      "source": "041-certification-regimes",
-      "target": "039-standards-bodies",
+      "source": "agents",
+      "target": "ethics",
       "value": 2
     },
     {
-      "source": "041-certification-regimes",
-      "target": "009-capability-overhang",
-      "value": 2
+      "source": "constraints",
+      "target": "transparency",
+      "value": 3
     },
     {
-      "source": "041-certification-regimes",
-      "target": "018-regulation-is-hard",
+      "source": "agents",
+      "target": "transparency",
       "value": 2
     },
     {
-      "source": "041-certification-regimes",
-      "target": "014-ai-regulator-protocol",
-      "value": 2
+      "source": "machine-readable",
+      "target": "transparency",
+      "value": 1
     },
     {
-      "source": "041-certification-regimes",
-      "target": "026-explaining-constraints",
-      "value": 2
+      "source": "ethics",
+      "target": "transparency",
+      "value": 5
     },
     {
-      "source": "041-certification-regimes",
-      "target": "013-limits-of-self-constraint",
-      "value": 2
+      "source": "constraints",
+      "target": "machine-readable",
+      "value": 1
     },
     {
-      "source": "041-certification-regimes",
-      "target": "010-self-reporting-vs-audit",
-      "value": 2
+      "source": "ethics",
+      "target": "machine-readable",
+      "value": 1
     },
     {
-      "source": "042-corporate-governance",
-      "target": "022-whistleblower-protections",
-      "value": 2
+      "source": "transparency",
+      "target": "uncertainty",
+      "value": 1
     },
     {
-      "source": "042-corporate-governance",
-      "target": "020-liability-frameworks",
-      "value": 2
+      "source": "transparency",
+      "target": "trust",
+      "value": 1
     },
     {
-      "source": "042-corporate-governance",
-      "target": "014-ai-regulator-protocol",
-      "value": 2
+      "source": "agents",
+      "target": "uncertainty",
+      "value": 1
     },
     {
-      "source": "042-corporate-governance",
-      "target": "026-explaining-constraints",
-      "value": 2
+      "source": "trust",
+      "target": "uncertainty",
+      "value": 1
     },
     {
-      "source": "042-corporate-governance",
-      "target": "010-self-reporting-vs-audit",
-      "value": 2
+      "source": "reporting",
+      "target": "uncertainty",
+      "value": 1
     },
     {
-      "source": "042-corporate-governance",
-      "target": "006-meta-governance-auditors",
-      "value": 2
+      "source": "agents",
+      "target": "trust",
+      "value": 1
     },
     {
-      "source": "043-board-oversight",
-      "target": "009-capability-overhang",
-      "value": 2
+      "source": "agents",
+      "target": "reporting",
+      "value": 1
     },
     {
-      "source": "043-board-oversight",
-      "target": "042-corporate-governance",
-      "value": 2
+      "source": "reporting",
+      "target": "trust",
+      "value": 1
     },
     {
-      "source": "043-board-oversight",
-      "target": "020-liability-frameworks",
-      "value": 2
+      "source": "healthcare",
+      "target": "safety",
+      "value": 1
     },
     {
-      "source": "043-board-oversight",
-      "target": "022-whistleblower-protections",
-      "value": 2
+      "source": "healthcare",
+      "target": "regulation",
+      "value": 1
     },
     {
-      "source": "044-civil-society-role",
-      "target": "006-meta-governance-auditors",
-      "value": 2
+      "source": "healthcare",
+      "target": "risk-assessment",
+      "value": 1
     },
     {
-      "source": "044-civil-society-role",
-      "target": "039-standards-bodies",
-      "value": 2
+      "source": "healthcare",
+      "target": "liability",
+      "value": 1
     },
     {
-      "source": "044-civil-society-role",
-      "target": "010-self-reporting-vs-audit",
-      "value": 2
+      "source": "liability",
+      "target": "safety",
+      "value": 1
     },
     {
-      "source": "044-civil-society-role",
-      "target": "022-whistleblower-protections",
+      "source": "regulation",
+      "target": "risk-assessment",
       "value": 2
     },
     {
-      "source": "044-civil-society-role",
-      "target": "014-ai-regulator-protocol",
+      "source": "liability",
+      "target": "risk-assessment",
       "value": 2
     },
     {
-      "source": "044-civil-society-role",
-      "target": "026-explaining-constraints",
-      "value": 2
+      "source": "alignment",
+      "target": "transparency",
+      "value": 1
     },
     {
-      "source": "045-public-participation",
-      "target": "026-explaining-constraints",
+      "source": "theory",
+      "target": "transparency",
       "value": 2
     },
     {
-      "source": "045-public-participation",
-      "target": "027-uncertainty-communication",
-      "value": 2
+      "source": "alignment",
+      "target": "constraints",
+      "value": 1
     },
     {
-      "source": "045-public-participation",
-      "target": "033-policymaker-misconceptions",
+      "source": "constraints",
+      "target": "theory",
       "value": 2
     },
     {
-      "source": "045-public-participation",
-      "target": "044-civil-society-role",
-      "value": 2
+      "source": "governance",
+      "target": "theory",
+      "value": 1
     },
     {
-      "source": "046-algorithmic-impact-assessments",
-      "target": "042-corporate-governance",
-      "value": 2
+      "source": "constraints",
+      "target": "governance",
+      "value": 1
     },
     {
-      "source": "046-algorithmic-impact-assessments",
-      "target": "045-public-participation",
-      "value": 2
+      "source": "capability-elicitation",
+      "target": "guide",
+      "value": 1
     },
     {
-      "source": "046-algorithmic-impact-assessments",
-      "target": "007-consent-structural-impossibility",
-      "value": 2
+      "source": "alignment",
+      "target": "capability-elicitation",
+      "value": 1
     },
     {
-      "source": "046-algorithmic-impact-assessments",
-      "target": "034-technical-vs-societal-safety",
-      "value": 2
+      "source": "policy",
+      "target": "risk-assessment",
+      "value": 1
     },
     {
-      "source": "046-algorithmic-impact-assessments",
-      "target": "010-self-reporting-vs-audit",
-      "value": 2
+      "source": "governance",
+      "target": "risk-assessment",
+      "value": 3
     },
     {
-      "source": "046-algorithmic-impact-assessments",
-      "target": "043-board-oversight",
-      "value": 2
+      "source": "alignment",
+      "target": "governance",
+      "value": 1
     },
     {
-      "source": "046-algorithmic-impact-assessments",
-      "target": "040-soft-law-hard-law",
-      "value": 2
+      "source": "cbrn",
+      "target": "dual-use",
+      "value": 1
     },
     {
-      "source": "046-algorithmic-impact-assessments",
-      "target": "001-proportionality-disclosure",
-      "value": 2
+      "source": "dual-use",
+      "target": "risk-assessment",
+      "value": 1
     },
     {
-      "source": "047-pre-deployment-risk-assessment",
-      "target": "046-algorithmic-impact-assessments",
-      "value": 2
+      "source": "dual-use",
+      "target": "governance",
+      "value": 1
     },
     {
-      "source": "047-pre-deployment-risk-assessment",
-      "target": "031-understanding-frontier-ai",
-      "value": 2
+      "source": "cbrn",
+      "target": "risk-assessment",
+      "value": 1
     },
     {
-      "source": "047-pre-deployment-risk-assessment",
-      "target": "050-red-teaming-methodologies",
-      "value": 2
+      "source": "cbrn",
+      "target": "governance",
+      "value": 1
     },
     {
-      "source": "047-pre-deployment-risk-assessment",
-      "target": "035-dual-use-biology",
-      "value": 2
+      "source": "incentives",
+      "target": "liability",
+      "value": 1
     },
     {
-      "source": "047-pre-deployment-risk-assessment",
-      "target": "009-capability-overhang",
-      "value": 2
+      "source": "deployment",
+      "target": "liability",
+      "value": 1
     },
     {
-      "source": "047-pre-deployment-risk-assessment",
-      "target": "042-corporate-governance",
-      "value": 2
+      "source": "incentives",
+      "target": "risk-assessment",
+      "value": 1
     },
     {
-      "source": "047-pre-deployment-risk-assessment",
-      "target": "006-meta-governance-auditors",
-      "value": 2
+      "source": "governance",
+      "target": "incentives",
+      "value": 1
     },
     {
-      "source": "047-pre-deployment-risk-assessment",
-      "target": "043-board-oversight",
+      "source": "deployment",
+      "target": "governance",
       "value": 2
     },
     {
-      "source": "048-training-data-governance",
-      "target": "007-consent-structural-impossibility",
-      "value": 2
+      "source": "deployment",
+      "target": "incentives",
+      "value": 1
     },
     {
-      "source": "048-training-data-governance",
-      "target": "046-algorithmic-impact-assessments",
+      "source": "deployment",
+      "target": "regulation",
       "value": 2
     },
     {
-      "source": "048-training-data-governance",
-      "target": "010-self-reporting-vs-audit",
-      "value": 2
+      "source": "deployment",
+      "target": "policy",
+      "value": 1
     },
     {
-      "source": "048-training-data-governance",
-      "target": "012-output-provenance",
+      "source": "governance",
+      "target": "standards",
       "value": 2
     },
     {
-      "source": "048-training-data-governance",
-      "target": "008-regulatory-arbitrage",
-      "value": 2
+      "source": "regulation",
+      "target": "standards",
+      "value": 3
     },
     {
-      "source": "049-model-evaluation-standards",
-      "target": "010-self-reporting-vs-audit",
-      "value": 2
+      "source": "governance",
+      "target": "interoperability",
+      "value": 1
     },
     {
-      "source": "049-model-evaluation-standards",
-      "target": "046-algorithmic-impact-assessments",
-      "value": 2
+      "source": "interoperability",
+      "target": "regulation",
+      "value": 1
     },
     {
-      "source": "049-model-evaluation-standards",
-      "target": "035-dual-use-biology",
-      "value": 2
+      "source": "policy",
+      "target": "standards",
+      "value": 1
     },
     {
-      "source": "049-model-evaluation-standards",
-      "target": "050-red-teaming-methodologies",
-      "value": 2
+      "source": "deployment",
+      "target": "standards",
+      "value": 1
     },
     {
-      "source": "049-model-evaluation-standards",
-      "target": "006-meta-governance-auditors",
+      "source": "governance",
+      "target": "institutional-design",
       "value": 2
     },
     {
-      "source": "049-model-evaluation-standards",
-      "target": "048-training-data-governance",
+      "source": "institutional-design",
+      "target": "safety",
       "value": 2
     },
     {
-      "source": "049-model-evaluation-standards",
-      "target": "009-capability-overhang",
+      "source": "institutional-design",
+      "target": "transparency",
       "value": 2
     },
     {
-      "source": "049-model-evaluation-standards",
-      "target": "039-standards-bodies",
-      "value": 2
+      "source": "impact assessment",
+      "target": "risk governance",
+      "value": 1
     },
     {
-      "source": "049-model-evaluation-standards",
-      "target": "038-international-treaties",
-      "value": 2
+      "source": "impact assessment",
+      "target": "implementation",
+      "value": 1
     },
     {
-      "source": "050-red-teaming-methodologies",
-      "target": "006-meta-governance-auditors",
-      "value": 2
+      "source": "best practices",
+      "target": "impact assessment",
+      "value": 1
     },
     {
-      "source": "050-red-teaming-methodologies",
-      "target": "035-dual-use-biology",
-      "value": 2
+      "source": "implementation",
+      "target": "risk governance",
+      "value": 1
     },
     {
-      "source": "050-red-teaming-methodologies",
-      "target": "001-proportionality-disclosure",
-      "value": 2
+      "source": "best practices",
+      "target": "risk governance",
+      "value": 1
     },
     {
-      "source": "050-red-teaming-methodologies",
-      "target": "047-pre-deployment-risk-assessment",
-      "value": 2
+      "source": "best practices",
+      "target": "implementation",
+      "value": 1
     },
     {
-      "source": "050-red-teaming-methodologies",
-      "target": "043-board-oversight",
-      "value": 2
+      "source": "deployment",
+      "target": "risk assessment",
+      "value": 1
     },
     {
-      "source": "053-secure-model-weights-physical-and-digital",
-      "target": "052-watermarking-and-content-provenance",
-      "value": 2
+      "source": "risk assessment",
+      "target": "safety",
+      "value": 1
     },
     {
-      "source": "053-secure-model-weights-physical-and-digital",
-      "target": "023-compute-governance",
-      "value": 2
+      "source": "evaluation",
+      "target": "risk assessment",
+      "value": 1
     },
     {
-      "source": "053-secure-model-weights-physical-and-digital",
-      "target": "051-interpretability-as-a-governance-tool",
-      "value": 2
+      "source": "deployment",
+      "target": "evaluation",
+      "value": 1
     },
     {
-      "source": "054-api-level-safety-controls",
-      "target": "035-dual-use-biology",
-      "value": 2
+      "source": "evaluation",
+      "target": "safety",
+      "value": 3
     },
     {
-      "source": "054-api-level-safety-controls",
-      "target": "025-when-ai-should-refuse",
-      "value": 2
+      "source": "data governance",
+      "target": "training data",
+      "value": 1
     },
     {
-      "source": "054-api-level-safety-controls",
-      "target": "026-explaining-constraints",
-      "value": 2
+      "source": "data governance",
+      "target": "privacy",
+      "value": 1
     },
     {
-      "source": "054-api-level-safety-controls",
-      "target": "029-honest-ai",
-      "value": 2
+      "source": "data governance",
+      "target": "transparency",
+      "value": 1
     },
     {
-      "source": "054-api-level-safety-controls",
-      "target": "039-standards-bodies",
-      "value": 2
+      "source": "privacy",
+      "target": "training data",
+      "value": 1
+    },
+    {
+      "source": "training data",
+      "target": "transparency",
+      "value": 1
+    },
+    {
+      "source": "privacy",
+      "target": "transparency",
+      "value": 1
+    },
+    {
+      "source": "evaluation",
+      "target": "standards",
+      "value": 1
+    },
+    {
+      "source": "benchmarks",
+      "target": "evaluation",
+      "value": 1
+    },
+    {
+      "source": "benchmarks",
+      "target": "standards",
+      "value": 1
+    },
+    {
+      "source": "benchmarks",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "red teaming",
+      "target": "security",
+      "value": 1
+    },
+    {
+      "source": "red teaming",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "evaluation",
+      "target": "red teaming",
+      "value": 1
+    },
+    {
+      "source": "safety",
+      "target": "security",
+      "value": 1
+    },
+    {
+      "source": "evaluation",
+      "target": "security",
+      "value": 1
+    },
+    {
+      "source": "interpretability",
+      "target": "transparency",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "interpretability",
+      "value": 1
+    },
+    {
+      "source": "evaluation",
+      "target": "interpretability",
+      "value": 1
+    },
+    {
+      "source": "evaluation",
+      "target": "transparency",
+      "value": 1
+    },
+    {
+      "source": "evaluation",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "content authentication",
+      "target": "watermarking",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "watermarking",
+      "value": 1
+    },
+    {
+      "source": "content authentication",
+      "target": "provenance",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "provenance",
+      "value": 1
+    },
+    {
+      "source": "content authentication",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "model weights",
+      "target": "security",
+      "value": 1
+    },
+    {
+      "source": "infrastructure",
+      "target": "security",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "security",
+      "value": 1
+    },
+    {
+      "source": "infrastructure",
+      "target": "model weights",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "model weights",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "infrastructure",
+      "value": 1
+    },
+    {
+      "source": "api-controls",
+      "target": "safety-mechanisms",
+      "value": 1
+    },
+    {
+      "source": "access-management",
+      "target": "api-controls",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "api-controls",
+      "value": 1
+    },
+    {
+      "source": "api-controls",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "access-management",
+      "target": "safety-mechanisms",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "safety-mechanisms",
+      "value": 1
+    },
+    {
+      "source": "regulation",
+      "target": "safety-mechanisms",
+      "value": 1
+    },
+    {
+      "source": "access-management",
+      "target": "ai-governance",
+      "value": 1
+    },
+    {
+      "source": "access-management",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "regulation",
+      "value": 1
     }
   ]
 }

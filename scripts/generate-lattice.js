@@ -25,23 +25,47 @@ function parseMarkdown(content) {
     const body = match[2];
     const metadata = {};
 
-    frontmatterRaw.split('\n').forEach(line => {
-        const parts = line.split(':');
-        if (parts.length >= 2) {
-            const key = parts[0].trim();
-            let value = parts.slice(1).join(':').trim();
+    let currentKey = null;
 
-            // Basic YAML parsing
-            if (value.startsWith('"') && value.endsWith('"')) {
-                value = value.slice(1, -1);
+    const lines = frontmatterRaw.split('\n');
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+
+        // Check for list item: "  - value" or "- value"
+        const listMatch = line.match(/^\s*-\s+(.+)$/);
+        if (listMatch) {
+            if (currentKey) {
+                if (!Array.isArray(metadata[currentKey])) {
+                    metadata[currentKey] = [];
+                }
+                metadata[currentKey].push(listMatch[1].trim());
             }
+            continue;
+        }
+
+        // Check for key: "key: value" or "key:"
+        const keyMatch = line.match(/^([a-zA-Z0-9_]+):\s*(.*)$/);
+        if (keyMatch) {
+            const key = keyMatch[1].trim();
+            let value = keyMatch[2].trim();
+
+            // Handle inline array [a, b]
             if (value.startsWith('[') && value.endsWith(']')) {
                 value = value.slice(1, -1).split(',').map(v => v.trim());
+            } else if (value === '' || value === null) {
+                // If empty value, it might be start of a list
+                // Initialize as empty array anticipating items?
+                // Or just wait for the next line to decide.
+                // We'll set it to null for now.
+                value = null;
+            } else if (value.startsWith('"') && value.endsWith('"')) {
+                value = value.slice(1, -1);
             }
 
             metadata[key] = value;
+            currentKey = key;
         }
-    });
+    }
 
     return { metadata, body };
 }
@@ -57,128 +81,93 @@ const nodes = [];
 const links = [];
 const tagMap = new Map();
 
-// 1. Process Nodes
+// 1. Process Articles to build Tag Map
 files.forEach(file => {
     const content = fs.readFileSync(path.join(contentDir, file), 'utf8');
     const parsed = parseMarkdown(content);
-
     if (!parsed) return;
 
-    const { metadata, body } = parsed;
+    const { metadata } = parsed;
     const slug = file.replace('.md', '');
-    const id = slug;
 
-    // Categorize
-    let group = 'research';
-    if (Array.isArray(metadata.categories)) {
-        if (metadata.categories.some(c => c.toLowerCase().includes('governance'))) group = 'governance';
-        else if (metadata.categories.some(c => c.toLowerCase().includes('technical'))) group = 'technical';
-    } else if (typeof metadata.categories === 'string') {
-        if (metadata.categories.toLowerCase().includes('governance')) group = 'governance';
-        else if (metadata.categories.toLowerCase().includes('technical')) group = 'technical';
-    }
-
-    // Calculate "Heat" (Recency)
-    const date = new Date(metadata.date || new Date());
-    const now = new Date();
-    const daysOld = (now - date) / (1000 * 60 * 60 * 24);
-    const heat = Math.max(0, 1 - (daysOld / 30)); // 1.0 = brand new, 0.0 = >30 days
-
-    nodes.push({
-        id,
-        title: metadata.title || slug,
-        group,
-        val: Math.min(20, (body.length / 100)) + (heat * 10), // Size based on length + recency
-        slug: `/research/${slug}`,
-        excerpt: metadata.excerpt || '',
-        heat,
-        tags: Array.isArray(metadata.tags) ? metadata.tags : []
-    });
-
-    // Track tags for clustering
+    // Only process if we have tags
     if (Array.isArray(metadata.tags)) {
         metadata.tags.forEach(tag => {
-            if (!tagMap.has(tag)) tagMap.set(tag, []);
-            tagMap.get(tag).push(id);
+            const normalizedTag = tag.toLowerCase().trim();
+            if (!tagMap.has(normalizedTag)) {
+                tagMap.set(normalizedTag, {
+                    id: normalizedTag,
+                    title: tag, // Keep original casing for display
+                    count: 0,
+                    articles: [],
+                    group: 'concept' // Default group
+                });
+            }
+
+            const tagNode = tagMap.get(normalizedTag);
+            tagNode.count++;
+            tagNode.articles.push({
+                title: metadata.title,
+                slug: `/research/${slug}`,
+                excerpt: metadata.excerpt
+            });
+
+            // Simple heuristic for grouping
+            if (['compliance', 'regulation', 'audit', 'law', 'policy'].some(k => normalizedTag.includes(k))) {
+                tagNode.group = 'governance';
+            } else if (['weight', 'model', 'data', 'search', 'compute'].some(k => normalizedTag.includes(k))) {
+                tagNode.group = 'technical';
+            }
         });
     }
+});
 
-    // 2. Process Hard Links (Cross-references)
-    const linkMatches = body.matchAll(/\/research\/([a-zA-Z0-9-]+)/g);
-    const linkedTargets = new Set();
-
-    for (const match of linkMatches) {
-        const targetSlug = match[1];
-        if (targetSlug !== slug) {
-            linkedTargets.add(targetSlug);
-        }
-    }
-
-    linkedTargets.forEach(target => {
-        links.push({
-            source: id,
-            target: target,
-            value: 2 // Strong connection
-        });
+// 2. Generate Nodes from Tag Map
+Array.from(tagMap.values()).forEach(t => {
+    nodes.push({
+        id: t.id,
+        title: t.title,
+        group: t.group,
+        val: Math.min(30, 5 + (t.count * 2)), // Size = base + frequency
+        articles: t.articles // Embed article list in node for UI
     });
 });
 
-// 3. Process Soft Links (Shared Tags) & Ghost Nodes
-const ghostNodes = [];
+// 3. Generate Links based on Co-occurrence
+const linkMap = new Map();
 
-tagMap.forEach((ids, tag) => {
-    // If many nodes share a tag, they are loosely connected
-    if (ids.length > 1) {
-        for (let i = 0; i < ids.length; i++) {
-            for (let j = i + 1; j < ids.length; j++) {
-                // Only add soft link if no hard link exists
-                const existing = links.find(l =>
-                    (l.source === ids[i] && l.target === ids[j]) ||
-                    (l.source === ids[j] && l.target === ids[i])
-                );
+files.forEach(file => {
+    const content = fs.readFileSync(path.join(contentDir, file), 'utf8');
+    const parsed = parseMarkdown(content);
+    if (!parsed || !Array.isArray(parsed.metadata.tags)) return;
 
-                if (!existing) {
-                    links.push({
-                        source: ids[i],
-                        target: ids[j],
-                        value: 0.5 // Weak connection
-                    });
-                }
+    const tags = parsed.metadata.tags.map(t => t.toLowerCase().trim());
+
+    // Connect every tag in this article to every other tag
+    for (let i = 0; i < tags.length; i++) {
+        for (let j = i + 1; j < tags.length; j++) {
+            const source = tags[i] < tags[j] ? tags[i] : tags[j];
+            const target = tags[i] < tags[j] ? tags[j] : tags[i];
+            const key = `${source}-${target}`;
+
+            if (linkMap.has(key)) {
+                linkMap.get(key).weight++;
+            } else {
+                linkMap.set(key, { source, target, weight: 1 });
             }
         }
     }
-
-    // Create Ghost Nodes for tag clusters that are dense but might need a "Hub"
-    // or just to populate empty space
-    if (ids.length >= 3) {
-        const ghostId = `ghost-${tag}`;
-        ghostNodes.push({
-            id: ghostId,
-            title: `Potential: ${tag} Nexus`,
-            group: 'ghost',
-            val: 5,
-            slug: '#', // No link
-            excerpt: `Hypothetical article synthesizing ${tag} concepts.`,
-            tags: [tag]
-        });
-
-        // Link ghost to its constituents
-        ids.forEach(id => {
-            links.push({
-                source: ghostId,
-                target: id,
-                value: 0.2
-            });
-        });
-    }
 });
 
-// Add Ghost Nodes to main list
-// Limit ghost nodes to keep it clean
-const limitedGhosts = ghostNodes.slice(0, 15);
-nodes.push(...limitedGhosts);
+linkMap.forEach((link) => {
+    links.push({
+        source: link.source,
+        target: link.target,
+        value: Math.min(5, link.weight) // Thickness cap
+    });
+});
 
 const data = { nodes, links };
 fs.writeFileSync(outputFile, JSON.stringify(data, null, 2));
 
-console.log(`✓ Generated Lattice: ${nodes.length} nodes (${limitedGhosts.length} ghosts), ${links.length} links`);
+console.log(`✓ Generated Concept Lattice: ${nodes.length} tags, ${links.length} connections`);
