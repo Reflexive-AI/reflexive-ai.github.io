@@ -75,7 +75,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 54. [x] API-Level Safety Controls [R][A]
 55. [x] Rate Limiting and Abuse Detection [R][A]
 56. [x] Monitoring Deployed Models [R]
-57. [ ] Post-Deployment Capability Discovery [R]
+57. [x] Post-Deployment Capability Discovery [R]
 58. [ ] Model Versioning and Rollback Protocols [R]
 59. [ ] Differential Privacy in AI Systems [R]
 60. [ ] Hardware-Level Safety Mechanisms [R]
