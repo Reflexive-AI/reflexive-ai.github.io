@@ -73,7 +73,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 52. [x] Watermarking and Content Provenance [R][A]
 53. [x] Secure Model Weights: Physical and Digital [R]
 54. [x] API-Level Safety Controls [R][A]
-55. [ ] Rate Limiting and Abuse Detection [R][A]
+55. [x] Rate Limiting and Abuse Detection [R][A]
 56. [ ] Monitoring Deployed Models [R]
 57. [ ] Post-Deployment Capability Discovery [R]
 58. [ ] Model Versioning and Rollback Protocols [R]
