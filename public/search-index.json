@@ -1,5 +1,15 @@
 [
   {
+    "id": 55,
+    "title": "Rate Limiting and Abuse Detection",
+    "excerpt": "A comprehensive exploration of how rate limiting and abuse detection mechanisms can be employed to improve AI system safety and governance.",
+    "slug": "055-rate-limiting-and-abuse-detection",
+    "date": "2026-02-03",
+    "tags": [],
+    "categories": [],
+    "body": "Reflexive Research Object 055 Type: Safety Mechanisms & Governance Tools Introduction As AI systems become more capable and accessible, they are increasingly embedded in critical societal functions. However, this ubiquity also introduces significant risks: from spamming and misuse to hostile exploitation. Two critical tools for mitigating these risks—rate limiting and abuse detection—are often overlooked in broader conversations about AI governance and safety mechanisms. These techniques, widely"
+  },
+  {
     "id": 54,
     "title": "API-Level Safety Controls",
     "excerpt": "Exploring the role of API-level safety measures in AI governance, their implementation, and their implications for mitigating malicious use and accidental harm.",

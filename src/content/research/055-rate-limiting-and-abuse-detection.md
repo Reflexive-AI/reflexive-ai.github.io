@@ -1,4 +1,4 @@
-```yaml
+---
 title: "Rate Limiting and Abuse Detection"
 excerpt: "A comprehensive exploration of how rate limiting and abuse detection mechanisms can be employed to improve AI system safety and governance."
 date: 2026-02-03
@@ -12,7 +12,7 @@ tags:
   - ai governance
   - safety mechanisms
   - trust and safety
-version: "1.0"
+
 ---
 
 **Reflexive Research Object 055**  

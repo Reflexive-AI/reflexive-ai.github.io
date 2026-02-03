@@ -79,7 +79,13 @@ const keywordsString = keywords.length > 0 ? keywords.join(', ') : 'AI governanc
             </div>
           </a>
           
-          <nav class="header__nav">
+          <button class="header__toggle" id="menu-toggle" aria-label="Toggle Navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          
+          <nav class="header__nav" id="header-nav">
             <a href="/neural-graph" class="header__link special">Neural Graph</a>
             <a href="/search" class="header__link">Search</a>
             <a href="/about" class="header__link">About</a>
@@ -117,5 +123,15 @@ const keywordsString = keywords.length > 0 ? keywords.join(', ') : 'AI governanc
         </div>
       </div>
     </footer>
+
+    <script>
+      const menuToggle = document.getElementById('menu-toggle');
+      const headerNav = document.getElementById('header-nav');
+      
+      menuToggle?.addEventListener('click', () => {
+        headerNav?.classList.toggle('is-open');
+        menuToggle.classList.toggle('is-active');
+      });
+    </script>
   </body>
 </html>

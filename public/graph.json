@@ -1834,6 +1834,71 @@
           "excerpt": "Exploring the role of API-level safety measures in AI governance, their implementation, and their implications for mitigating malicious use and accidental harm."
         }
       ]
+    },
+    {
+      "id": "rate limiting",
+      "title": "rate limiting",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Rate Limiting and Abuse Detection",
+          "slug": "/research/055-rate-limiting-and-abuse-detection",
+          "excerpt": "A comprehensive exploration of how rate limiting and abuse detection mechanisms can be employed to improve AI system safety and governance."
+        }
+      ]
+    },
+    {
+      "id": "abuse detection",
+      "title": "abuse detection",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Rate Limiting and Abuse Detection",
+          "slug": "/research/055-rate-limiting-and-abuse-detection",
+          "excerpt": "A comprehensive exploration of how rate limiting and abuse detection mechanisms can be employed to improve AI system safety and governance."
+        }
+      ]
+    },
+    {
+      "id": "ai governance",
+      "title": "ai governance",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Rate Limiting and Abuse Detection",
+          "slug": "/research/055-rate-limiting-and-abuse-detection",
+          "excerpt": "A comprehensive exploration of how rate limiting and abuse detection mechanisms can be employed to improve AI system safety and governance."
+        }
+      ]
+    },
+    {
+      "id": "safety mechanisms",
+      "title": "safety mechanisms",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Rate Limiting and Abuse Detection",
+          "slug": "/research/055-rate-limiting-and-abuse-detection",
+          "excerpt": "A comprehensive exploration of how rate limiting and abuse detection mechanisms can be employed to improve AI system safety and governance."
+        }
+      ]
+    },
+    {
+      "id": "trust and safety",
+      "title": "trust and safety",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Rate Limiting and Abuse Detection",
+          "slug": "/research/055-rate-limiting-and-abuse-detection",
+          "excerpt": "A comprehensive exploration of how rate limiting and abuse detection mechanisms can be employed to improve AI system safety and governance."
+        }
+      ]
     }
   ],
   "links": [
@@ -3205,6 +3270,56 @@
     {
       "source": "ai-governance",
       "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "abuse detection",
+      "target": "rate limiting",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "rate limiting",
+      "value": 1
+    },
+    {
+      "source": "rate limiting",
+      "target": "safety mechanisms",
+      "value": 1
+    },
+    {
+      "source": "rate limiting",
+      "target": "trust and safety",
+      "value": 1
+    },
+    {
+      "source": "abuse detection",
+      "target": "ai governance",
+      "value": 1
+    },
+    {
+      "source": "abuse detection",
+      "target": "safety mechanisms",
+      "value": 1
+    },
+    {
+      "source": "abuse detection",
+      "target": "trust and safety",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "safety mechanisms",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "trust and safety",
+      "value": 1
+    },
+    {
+      "source": "safety mechanisms",
+      "target": "trust and safety",
       "value": 1
     }
   ]
