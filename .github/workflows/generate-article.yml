@@ -210,6 +210,17 @@ jobs:
             
             return generatedFiles.join(',');
             
+      - name: Install dependencies
+        if: steps.generate.outputs.result != ''
+        run: npm ci
+
+      - name: Regenerate neural graph and search index
+        if: steps.generate.outputs.result != ''
+        run: |
+          node scripts/generate-graph.js
+          node scripts/generate-search-index.js
+          node scripts/generate-llms-txt.js
+
       - name: Commit and push articles
         if: steps.generate.outputs.result != ''
         run: |
