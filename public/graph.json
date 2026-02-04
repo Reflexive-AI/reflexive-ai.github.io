@@ -4,7 +4,7 @@
       "id": "disclosure",
       "title": "disclosure",
       "group": "concept",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "Operationalizing Proportionality in Model Disclosure",
@@ -15,6 +15,11 @@
           "title": "Policy Brief: The Disclosure Tiers Framework",
           "slug": "/research/005-policy-brief-disclosure-tiers",
           "excerpt": "A plain-language guide for policymakers: why one-size-fits-all AI transparency fails, and how a tiered approach can balance safety with innovation."
+        },
+        {
+          "title": "The Game Theory of AI Disclosure: When Transparency is a Prisoner's Dilemma",
+          "slug": "/research/067-game-theory-disclosure",
+          "excerpt": "Companies face a collective action problem: all would benefit from industry-wide transparency, but unilateral disclosure may harm competitive position. How do we change the payoff structure?"
         }
       ]
     },
@@ -113,6 +118,11 @@
           "title": "The False Binary: Why 'Regulate Use, Not Models' Gets AI Governance Wrong",
           "slug": "/research/062-use-vs-models-false-binary",
           "excerpt": "A recent IEEE Spectrum article argues for use-based AI regulation over model-based approaches. This framing misses what actually works: layered, reflexive governance that addresses capabilities, deployment, and systemic accountability together."
+        },
+        {
+          "title": "Simulating Governance: Using AI to Stress-Test AI Regulations",
+          "slug": "/research/072-simulating-governance",
+          "excerpt": "Regulations are policies. Policies can be simulated. What if we used AI systems to model the effects of proposed regulations before implementation, identifying loopholes and unintended consequences?"
         }
       ]
     },
@@ -227,6 +237,11 @@
           "title": "Interpretability as a Governance Tool",
           "slug": "/research/051-interpretability-as-a-governance-tool",
           "excerpt": "How interpretability methods supply evidence for AI oversight: approvals, audits, monitoring, and incident response."
+        },
+        {
+          "title": "The Game Theory of AI Disclosure: When Transparency is a Prisoner's Dilemma",
+          "slug": "/research/067-game-theory-disclosure",
+          "excerpt": "Companies face a collective action problem: all would benefit from industry-wide transparency, but unilateral disclosure may harm competitive position. How do we change the payoff structure?"
         }
       ]
     },
@@ -516,7 +531,7 @@
       "id": "constraints",
       "title": "constraints",
       "group": "concept",
-      "val": 15,
+      "val": 21,
       "articles": [
         {
           "title": "Red Lines: A Taxonomy of Non-Negotiable AI Limits",
@@ -542,6 +557,21 @@
           "title": "A Reflexive AI Manifesto",
           "slug": "/research/030-manifesto",
           "excerpt": "A statement of principles for AI that participates in its own governance. What reflexive AI means, why it matters, and what it commits to."
+        },
+        {
+          "title": "Reflexive AI in Practice: A Case Study of Constraint Failures",
+          "slug": "/research/068-constraint-failure-cases",
+          "excerpt": "Rather than theoretical, this examines documented cases where AI systems violated their stated constraints. What went wrong? Were the constraints poorly specified, not enforced, or gamed?"
+        },
+        {
+          "title": "The Semantic Gap Problem: Why Natural Language Constraints Fail",
+          "slug": "/research/069-semantic-gap-problem",
+          "excerpt": "We specify AI constraints in natural language, but models operate on statistical patterns. This disconnect means constraints may not do what we think. What are the technical approaches to bridging this gap?"
+        },
+        {
+          "title": "Who Decides What AI Should Refuse? The Democratic Deficit in Constraint Design",
+          "slug": "/research/070-democratic-deficit-constraints",
+          "excerpt": "AI refusals encode value judgments. Currently, small teams at AI labs make these decisions. Is this legitimate? Exploring the democratic deficit in AI constraint design and possible alternatives."
         }
       ]
     },
@@ -768,7 +798,7 @@
       "id": "incentives",
       "title": "incentives",
       "group": "concept",
-      "val": 11,
+      "val": 13,
       "articles": [
         {
           "title": "Meta-Governance: Who Audits the Auditors?",
@@ -784,6 +814,11 @@
           "title": "Insurance Markets and AI Risk Pricing",
           "slug": "/research/036-insurance-markets",
           "excerpt": "How insurance markets could help govern AI by pricing risk, incentivizing safety, and providing accountability. An analysis of possibilities and limitations."
+        },
+        {
+          "title": "The Game Theory of AI Disclosure: When Transparency is a Prisoner's Dilemma",
+          "slug": "/research/067-game-theory-disclosure",
+          "excerpt": "Companies face a collective action problem: all would benefit from industry-wide transparency, but unilateral disclosure may harm competitive position. How do we change the payoff structure?"
         }
       ]
     },
@@ -1079,7 +1114,7 @@
       "id": "game-theory",
       "title": "game-theory",
       "group": "concept",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "Self-Reporting vs. External Audit: The Trade-off Space",
@@ -1090,6 +1125,11 @@
           "title": "Emergent Norms in Multi-Agent Systems",
           "slug": "/research/015-emergent-norms",
           "excerpt": "When agents interact at speed and scale, human law is too slow. We look to game theory and evolution for how 'machine law' might emerge."
+        },
+        {
+          "title": "The Game Theory of AI Disclosure: When Transparency is a Prisoner's Dilemma",
+          "slug": "/research/067-game-theory-disclosure",
+          "excerpt": "Companies face a collective action problem: all would benefit from industry-wide transparency, but unilateral disclosure may harm competitive position. How do we change the payoff structure?"
         }
       ]
     },
@@ -1239,12 +1279,17 @@
       "id": "paradox",
       "title": "paradox",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "The Limits of Self-Constraint",
           "slug": "/research/013-limits-of-self-constraint",
           "excerpt": "Reflexive governance is not a silver bullet. This note explores the Gödelian limits of a system trying to govern itself."
+        },
+        {
+          "title": "The Governance Paradox: When AI Systems Are Better Regulators Than Humans",
+          "slug": "/research/063-governance-paradox",
+          "excerpt": "AI systems may detect regulatory violations more reliably than human auditors. This creates tension with the principle of human oversight. What does meaningful oversight mean when humans are the bottleneck?"
         }
       ]
     },
@@ -1345,7 +1390,7 @@
       "id": "alignment",
       "title": "alignment",
       "group": "concept",
-      "val": 13,
+      "val": 15,
       "articles": [
         {
           "title": "What Alignment Actually Means",
@@ -1366,6 +1411,11 @@
           "title": "Technical Safety vs. Societal Safety: Different Problems",
           "slug": "/research/034-technical-vs-societal-safety",
           "excerpt": "Why making AI systems work as intended is a different challenge from making AI development good for society—and why confusing them leads to poor governance."
+        },
+        {
+          "title": "Why AI Safety Researchers Disagree: A Taxonomy of Worldviews",
+          "slug": "/research/064-ai-safety-worldviews",
+          "excerpt": "The AI safety field appears fractured. Some focus on alignment, others on governance, others on misuse. This article maps the underlying worldview differences that produce divergent research agendas."
         }
       ]
     },
@@ -1519,6 +1569,21 @@
           "title": "The False Binary: Why 'Regulate Use, Not Models' Gets AI Governance Wrong",
           "slug": "/research/062-use-vs-models-false-binary",
           "excerpt": "A recent IEEE Spectrum article argues for use-based AI regulation over model-based approaches. This framing misses what actually works: layered, reflexive governance that addresses capabilities, deployment, and systemic accountability together."
+        },
+        {
+          "title": "The Governance Paradox: When AI Systems Are Better Regulators Than Humans",
+          "slug": "/research/063-governance-paradox",
+          "excerpt": "AI systems may detect regulatory violations more reliably than human auditors. This creates tension with the principle of human oversight. What does meaningful oversight mean when humans are the bottleneck?"
+        },
+        {
+          "title": "Why AI Safety Researchers Disagree: A Taxonomy of Worldviews",
+          "slug": "/research/064-ai-safety-worldviews",
+          "excerpt": "The AI safety field appears fractured. Some focus on alignment, others on governance, others on misuse. This article maps the underlying worldview differences that produce divergent research agendas."
+        },
+        {
+          "title": "The Attention Economy Meets AI Governance: Designing for Distraction-Resistant Oversight",
+          "slug": "/research/065-attention-economy-governance",
+          "excerpt": "Human oversight assumes humans are paying attention. But modern interfaces are designed to maximize engagement, not careful evaluation. How do attention-economy dynamics undermine governance?"
         }
       ]
     },
@@ -1526,7 +1591,7 @@
       "id": "liability",
       "title": "liability",
       "group": "concept",
-      "val": 11,
+      "val": 13,
       "articles": [
         {
           "title": "Liability Frameworks for AI Harm",
@@ -1542,6 +1607,11 @@
           "title": "Insurance Markets and AI Risk Pricing",
           "slug": "/research/036-insurance-markets",
           "excerpt": "How insurance markets could help govern AI by pricing risk, incentivizing safety, and providing accountability. An analysis of possibilities and limitations."
+        },
+        {
+          "title": "The Liability Vacuum: When AI Harms Fall Between Legal Categories",
+          "slug": "/research/071-liability-vacuum",
+          "excerpt": "AI harms often don't fit existing legal frameworks: not quite product liability, not quite professional malpractice, not quite negligence. This article maps the specific gaps and proposes targeted fixes."
         }
       ]
     },
@@ -1640,12 +1710,22 @@
       "id": "implementation",
       "title": "Implementation",
       "group": "concept",
-      "val": 7,
+      "val": 11,
       "articles": [
         {
           "title": "Algorithmic Impact Assessments: Implementation Guide",
           "slug": "/research/046-algorithmic-impact-assessments",
           "excerpt": "A practical framework for conducting meaningful algorithmic impact assessments that move beyond checkbox compliance to genuine harm prevention."
+        },
+        {
+          "title": "Reflexive AI in Practice: A Case Study of Constraint Failures",
+          "slug": "/research/068-constraint-failure-cases",
+          "excerpt": "Rather than theoretical, this examines documented cases where AI systems violated their stated constraints. What went wrong? Were the constraints poorly specified, not enforced, or gamed?"
+        },
+        {
+          "title": "The Semantic Gap Problem: Why Natural Language Constraints Fail",
+          "slug": "/research/069-semantic-gap-problem",
+          "excerpt": "We specify AI constraints in natural language, but models operate on statistical patterns. This disconnect means constraints may not do what we think. What are the technical approaches to bridging this gap?"
         }
       ]
     },
@@ -1987,12 +2067,17 @@
       "id": "ai-safety",
       "title": "ai-safety",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Monitoring Deployed Models",
           "slug": "/research/056-monitoring-deployed-models",
           "excerpt": "A comprehensive framework for ensuring the safety, reliability, and accountability of AI models post-deployment."
+        },
+        {
+          "title": "Why AI Safety Researchers Disagree: A Taxonomy of Worldviews",
+          "slug": "/research/064-ai-safety-worldviews",
+          "excerpt": "The AI safety field appears fractured. Some focus on alignment, others on governance, others on misuse. This article maps the underlying worldview differences that produce divergent research agendas."
         }
       ]
     },
@@ -2000,7 +2085,7 @@
       "id": "accountability",
       "title": "accountability",
       "group": "concept",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "Monitoring Deployed Models",
@@ -2011,6 +2096,11 @@
           "title": "Model Versioning and Rollback Protocols",
           "slug": "/research/058-model-versioning-and-rollback-protocols",
           "excerpt": "Examining the role of versioning and rollback mechanisms in AI governance to ensure safety, accountability, and operational continuity."
+        },
+        {
+          "title": "The Liability Vacuum: When AI Harms Fall Between Legal Categories",
+          "slug": "/research/071-liability-vacuum",
+          "excerpt": "AI harms often don't fit existing legal frameworks: not quite product liability, not quite professional malpractice, not quite negligence. This article maps the specific gaps and proposes targeted fixes."
         }
       ]
     },
@@ -2195,6 +2285,414 @@
           "excerpt": "A recent IEEE Spectrum article argues for use-based AI regulation over model-based approaches. This framing misses what actually works: layered, reflexive governance that addresses capabilities, deployment, and systemic accountability together."
         }
       ]
+    },
+    {
+      "id": "oversight",
+      "title": "oversight",
+      "group": "concept",
+      "val": 9,
+      "articles": [
+        {
+          "title": "The Governance Paradox: When AI Systems Are Better Regulators Than Humans",
+          "slug": "/research/063-governance-paradox",
+          "excerpt": "AI systems may detect regulatory violations more reliably than human auditors. This creates tension with the principle of human oversight. What does meaningful oversight mean when humans are the bottleneck?"
+        },
+        {
+          "title": "The Attention Economy Meets AI Governance: Designing for Distraction-Resistant Oversight",
+          "slug": "/research/065-attention-economy-governance",
+          "excerpt": "Human oversight assumes humans are paying attention. But modern interfaces are designed to maximize engagement, not careful evaluation. How do attention-economy dynamics undermine governance?"
+        }
+      ]
+    },
+    {
+      "id": "human-in-the-loop",
+      "title": "human-in-the-loop",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Governance Paradox: When AI Systems Are Better Regulators Than Humans",
+          "slug": "/research/063-governance-paradox",
+          "excerpt": "AI systems may detect regulatory violations more reliably than human auditors. This creates tension with the principle of human oversight. What does meaningful oversight mean when humans are the bottleneck?"
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "title": "automation",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Governance Paradox: When AI Systems Are Better Regulators Than Humans",
+          "slug": "/research/063-governance-paradox",
+          "excerpt": "AI systems may detect regulatory violations more reliably than human auditors. This creates tension with the principle of human oversight. What does meaningful oversight mean when humans are the bottleneck?"
+        }
+      ]
+    },
+    {
+      "id": "worldviews",
+      "title": "worldviews",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Why AI Safety Researchers Disagree: A Taxonomy of Worldviews",
+          "slug": "/research/064-ai-safety-worldviews",
+          "excerpt": "The AI safety field appears fractured. Some focus on alignment, others on governance, others on misuse. This article maps the underlying worldview differences that produce divergent research agendas."
+        }
+      ]
+    },
+    {
+      "id": "methodology",
+      "title": "methodology",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Why AI Safety Researchers Disagree: A Taxonomy of Worldviews",
+          "slug": "/research/064-ai-safety-worldviews",
+          "excerpt": "The AI safety field appears fractured. Some focus on alignment, others on governance, others on misuse. This article maps the underlying worldview differences that produce divergent research agendas."
+        }
+      ]
+    },
+    {
+      "id": "attention",
+      "title": "attention",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Attention Economy Meets AI Governance: Designing for Distraction-Resistant Oversight",
+          "slug": "/research/065-attention-economy-governance",
+          "excerpt": "Human oversight assumes humans are paying attention. But modern interfaces are designed to maximize engagement, not careful evaluation. How do attention-economy dynamics undermine governance?"
+        }
+      ]
+    },
+    {
+      "id": "interface-design",
+      "title": "interface-design",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Attention Economy Meets AI Governance: Designing for Distraction-Resistant Oversight",
+          "slug": "/research/065-attention-economy-governance",
+          "excerpt": "Human oversight assumes humans are paying attention. But modern interfaces are designed to maximize engagement, not careful evaluation. How do attention-economy dynamics undermine governance?"
+        }
+      ]
+    },
+    {
+      "id": "human-factors",
+      "title": "human-factors",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Attention Economy Meets AI Governance: Designing for Distraction-Resistant Oversight",
+          "slug": "/research/065-attention-economy-governance",
+          "excerpt": "Human oversight assumes humans are paying attention. But modern interfaces are designed to maximize engagement, not careful evaluation. How do attention-economy dynamics undermine governance?"
+        }
+      ]
+    },
+    {
+      "id": "internet-governance",
+      "title": "internet-governance",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI Governance Without Borders: Lessons from Internet Governance History",
+          "slug": "/research/066-internet-governance-lessons",
+          "excerpt": "The internet faced similar challenges: global technology, national regulation, coordination problems. What worked? What failed? Lessons from ICANN, IETF, and content moderation for AI governance."
+        }
+      ]
+    },
+    {
+      "id": "international",
+      "title": "international",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI Governance Without Borders: Lessons from Internet Governance History",
+          "slug": "/research/066-internet-governance-lessons",
+          "excerpt": "The internet faced similar challenges: global technology, national regulation, coordination problems. What worked? What failed? Lessons from ICANN, IETF, and content moderation for AI governance."
+        }
+      ]
+    },
+    {
+      "id": "coordination",
+      "title": "coordination",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI Governance Without Borders: Lessons from Internet Governance History",
+          "slug": "/research/066-internet-governance-lessons",
+          "excerpt": "The internet faced similar challenges: global technology, national regulation, coordination problems. What worked? What failed? Lessons from ICANN, IETF, and content moderation for AI governance."
+        }
+      ]
+    },
+    {
+      "id": "multistakeholder",
+      "title": "multistakeholder",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI Governance Without Borders: Lessons from Internet Governance History",
+          "slug": "/research/066-internet-governance-lessons",
+          "excerpt": "The internet faced similar challenges: global technology, national regulation, coordination problems. What worked? What failed? Lessons from ICANN, IETF, and content moderation for AI governance."
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "history",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI Governance Without Borders: Lessons from Internet Governance History",
+          "slug": "/research/066-internet-governance-lessons",
+          "excerpt": "The internet faced similar challenges: global technology, national regulation, coordination problems. What worked? What failed? Lessons from ICANN, IETF, and content moderation for AI governance."
+        }
+      ]
+    },
+    {
+      "id": "collective-action",
+      "title": "collective-action",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Game Theory of AI Disclosure: When Transparency is a Prisoner's Dilemma",
+          "slug": "/research/067-game-theory-disclosure",
+          "excerpt": "Companies face a collective action problem: all would benefit from industry-wide transparency, but unilateral disclosure may harm competitive position. How do we change the payoff structure?"
+        }
+      ]
+    },
+    {
+      "id": "failures",
+      "title": "failures",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Reflexive AI in Practice: A Case Study of Constraint Failures",
+          "slug": "/research/068-constraint-failure-cases",
+          "excerpt": "Rather than theoretical, this examines documented cases where AI systems violated their stated constraints. What went wrong? Were the constraints poorly specified, not enforced, or gamed?"
+        }
+      ]
+    },
+    {
+      "id": "case-studies",
+      "title": "case-studies",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Reflexive AI in Practice: A Case Study of Constraint Failures",
+          "slug": "/research/068-constraint-failure-cases",
+          "excerpt": "Rather than theoretical, this examines documented cases where AI systems violated their stated constraints. What went wrong? Were the constraints poorly specified, not enforced, or gamed?"
+        }
+      ]
+    },
+    {
+      "id": "lessons",
+      "title": "lessons",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Reflexive AI in Practice: A Case Study of Constraint Failures",
+          "slug": "/research/068-constraint-failure-cases",
+          "excerpt": "Rather than theoretical, this examines documented cases where AI systems violated their stated constraints. What went wrong? Were the constraints poorly specified, not enforced, or gamed?"
+        }
+      ]
+    },
+    {
+      "id": "semantics",
+      "title": "semantics",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Semantic Gap Problem: Why Natural Language Constraints Fail",
+          "slug": "/research/069-semantic-gap-problem",
+          "excerpt": "We specify AI constraints in natural language, but models operate on statistical patterns. This disconnect means constraints may not do what we think. What are the technical approaches to bridging this gap?"
+        }
+      ]
+    },
+    {
+      "id": "natural-language",
+      "title": "natural-language",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Semantic Gap Problem: Why Natural Language Constraints Fail",
+          "slug": "/research/069-semantic-gap-problem",
+          "excerpt": "We specify AI constraints in natural language, but models operate on statistical patterns. This disconnect means constraints may not do what we think. What are the technical approaches to bridging this gap?"
+        }
+      ]
+    },
+    {
+      "id": "formal-verification",
+      "title": "formal-verification",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Semantic Gap Problem: Why Natural Language Constraints Fail",
+          "slug": "/research/069-semantic-gap-problem",
+          "excerpt": "We specify AI constraints in natural language, but models operate on statistical patterns. This disconnect means constraints may not do what we think. What are the technical approaches to bridging this gap?"
+        }
+      ]
+    },
+    {
+      "id": "democracy",
+      "title": "democracy",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Who Decides What AI Should Refuse? The Democratic Deficit in Constraint Design",
+          "slug": "/research/070-democratic-deficit-constraints",
+          "excerpt": "AI refusals encode value judgments. Currently, small teams at AI labs make these decisions. Is this legitimate? Exploring the democratic deficit in AI constraint design and possible alternatives."
+        }
+      ]
+    },
+    {
+      "id": "legitimacy",
+      "title": "legitimacy",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Who Decides What AI Should Refuse? The Democratic Deficit in Constraint Design",
+          "slug": "/research/070-democratic-deficit-constraints",
+          "excerpt": "AI refusals encode value judgments. Currently, small teams at AI labs make these decisions. Is this legitimate? Exploring the democratic deficit in AI constraint design and possible alternatives."
+        }
+      ]
+    },
+    {
+      "id": "refusals",
+      "title": "refusals",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Who Decides What AI Should Refuse? The Democratic Deficit in Constraint Design",
+          "slug": "/research/070-democratic-deficit-constraints",
+          "excerpt": "AI refusals encode value judgments. Currently, small teams at AI labs make these decisions. Is this legitimate? Exploring the democratic deficit in AI constraint design and possible alternatives."
+        }
+      ]
+    },
+    {
+      "id": "participation",
+      "title": "participation",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Who Decides What AI Should Refuse? The Democratic Deficit in Constraint Design",
+          "slug": "/research/070-democratic-deficit-constraints",
+          "excerpt": "AI refusals encode value judgments. Currently, small teams at AI labs make these decisions. Is this legitimate? Exploring the democratic deficit in AI constraint design and possible alternatives."
+        }
+      ]
+    },
+    {
+      "id": "law",
+      "title": "law",
+      "group": "governance",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Liability Vacuum: When AI Harms Fall Between Legal Categories",
+          "slug": "/research/071-liability-vacuum",
+          "excerpt": "AI harms often don't fit existing legal frameworks: not quite product liability, not quite professional malpractice, not quite negligence. This article maps the specific gaps and proposes targeted fixes."
+        }
+      ]
+    },
+    {
+      "id": "harms",
+      "title": "harms",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Liability Vacuum: When AI Harms Fall Between Legal Categories",
+          "slug": "/research/071-liability-vacuum",
+          "excerpt": "AI harms often don't fit existing legal frameworks: not quite product liability, not quite professional malpractice, not quite negligence. This article maps the specific gaps and proposes targeted fixes."
+        }
+      ]
+    },
+    {
+      "id": "legal-frameworks",
+      "title": "legal-frameworks",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Liability Vacuum: When AI Harms Fall Between Legal Categories",
+          "slug": "/research/071-liability-vacuum",
+          "excerpt": "AI harms often don't fit existing legal frameworks: not quite product liability, not quite professional malpractice, not quite negligence. This article maps the specific gaps and proposes targeted fixes."
+        }
+      ]
+    },
+    {
+      "id": "simulation",
+      "title": "simulation",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Simulating Governance: Using AI to Stress-Test AI Regulations",
+          "slug": "/research/072-simulating-governance",
+          "excerpt": "Regulations are policies. Policies can be simulated. What if we used AI systems to model the effects of proposed regulations before implementation, identifying loopholes and unintended consequences?"
+        }
+      ]
+    },
+    {
+      "id": "policy-testing",
+      "title": "policy-testing",
+      "group": "governance",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Simulating Governance: Using AI to Stress-Test AI Regulations",
+          "slug": "/research/072-simulating-governance",
+          "excerpt": "Regulations are policies. Policies can be simulated. What if we used AI systems to model the effects of proposed regulations before implementation, identifying loopholes and unintended consequences?"
+        }
+      ]
+    },
+    {
+      "id": "modeling",
+      "title": "modeling",
+      "group": "technical",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Simulating Governance: Using AI to Stress-Test AI Regulations",
+          "slug": "/research/072-simulating-governance",
+          "excerpt": "Regulations are policies. Policies can be simulated. What if we used AI systems to model the effects of proposed regulations before implementation, identifying loopholes and unintended consequences?"
+        }
+      ]
+    },
+    {
+      "id": "unintended-consequences",
+      "title": "unintended-consequences",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Simulating Governance: Using AI to Stress-Test AI Regulations",
+          "slug": "/research/072-simulating-governance",
+          "excerpt": "Regulations are policies. Policies can be simulated. What if we used AI systems to model the effects of proposed regulations before implementation, identifying loopholes and unintended consequences?"
+        }
+      ]
     }
   ],
   "links": [
@@ -2216,7 +2714,7 @@
     {
       "source": "disclosure",
       "target": "transparency",
-      "value": 2
+      "value": 3
     },
     {
       "source": "eu-ai-act",
@@ -2561,7 +3059,7 @@
     {
       "source": "game-theory",
       "target": "incentives",
-      "value": 1
+      "value": 2
     },
     {
       "source": "game-theory",
@@ -3196,7 +3694,7 @@
     {
       "source": "alignment",
       "target": "governance",
-      "value": 1
+      "value": 2
     },
     {
       "source": "cbrn",
@@ -3636,7 +4134,7 @@
     {
       "source": "ai-safety",
       "target": "governance",
-      "value": 1
+      "value": 2
     },
     {
       "source": "accountability",
@@ -3876,6 +4374,476 @@
     {
       "source": "ai-models",
       "target": "use-based-regulation",
+      "value": 1
+    },
+    {
+      "source": "human-in-the-loop",
+      "target": "oversight",
+      "value": 1
+    },
+    {
+      "source": "automation",
+      "target": "oversight",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "oversight",
+      "value": 2
+    },
+    {
+      "source": "oversight",
+      "target": "paradox",
+      "value": 1
+    },
+    {
+      "source": "automation",
+      "target": "human-in-the-loop",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "human-in-the-loop",
+      "value": 1
+    },
+    {
+      "source": "human-in-the-loop",
+      "target": "paradox",
+      "value": 1
+    },
+    {
+      "source": "automation",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "automation",
+      "target": "paradox",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "paradox",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "worldviews",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "alignment",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "methodology",
+      "value": 1
+    },
+    {
+      "source": "alignment",
+      "target": "worldviews",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "worldviews",
+      "value": 1
+    },
+    {
+      "source": "methodology",
+      "target": "worldviews",
+      "value": 1
+    },
+    {
+      "source": "alignment",
+      "target": "methodology",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "methodology",
+      "value": 1
+    },
+    {
+      "source": "attention",
+      "target": "oversight",
+      "value": 1
+    },
+    {
+      "source": "attention",
+      "target": "interface-design",
+      "value": 1
+    },
+    {
+      "source": "attention",
+      "target": "human-factors",
+      "value": 1
+    },
+    {
+      "source": "attention",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "interface-design",
+      "target": "oversight",
+      "value": 1
+    },
+    {
+      "source": "human-factors",
+      "target": "oversight",
+      "value": 1
+    },
+    {
+      "source": "human-factors",
+      "target": "interface-design",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "interface-design",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "human-factors",
+      "value": 1
+    },
+    {
+      "source": "international",
+      "target": "internet-governance",
+      "value": 1
+    },
+    {
+      "source": "coordination",
+      "target": "internet-governance",
+      "value": 1
+    },
+    {
+      "source": "internet-governance",
+      "target": "multistakeholder",
+      "value": 1
+    },
+    {
+      "source": "history",
+      "target": "internet-governance",
+      "value": 1
+    },
+    {
+      "source": "coordination",
+      "target": "international",
+      "value": 1
+    },
+    {
+      "source": "international",
+      "target": "multistakeholder",
+      "value": 1
+    },
+    {
+      "source": "history",
+      "target": "international",
+      "value": 1
+    },
+    {
+      "source": "coordination",
+      "target": "multistakeholder",
+      "value": 1
+    },
+    {
+      "source": "coordination",
+      "target": "history",
+      "value": 1
+    },
+    {
+      "source": "history",
+      "target": "multistakeholder",
+      "value": 1
+    },
+    {
+      "source": "game-theory",
+      "target": "transparency",
+      "value": 1
+    },
+    {
+      "source": "collective-action",
+      "target": "transparency",
+      "value": 1
+    },
+    {
+      "source": "incentives",
+      "target": "transparency",
+      "value": 1
+    },
+    {
+      "source": "collective-action",
+      "target": "game-theory",
+      "value": 1
+    },
+    {
+      "source": "disclosure",
+      "target": "game-theory",
+      "value": 1
+    },
+    {
+      "source": "collective-action",
+      "target": "disclosure",
+      "value": 1
+    },
+    {
+      "source": "collective-action",
+      "target": "incentives",
+      "value": 1
+    },
+    {
+      "source": "disclosure",
+      "target": "incentives",
+      "value": 1
+    },
+    {
+      "source": "constraints",
+      "target": "failures",
+      "value": 1
+    },
+    {
+      "source": "case-studies",
+      "target": "constraints",
+      "value": 1
+    },
+    {
+      "source": "constraints",
+      "target": "implementation",
+      "value": 2
+    },
+    {
+      "source": "constraints",
+      "target": "lessons",
+      "value": 1
+    },
+    {
+      "source": "case-studies",
+      "target": "failures",
+      "value": 1
+    },
+    {
+      "source": "failures",
+      "target": "implementation",
+      "value": 1
+    },
+    {
+      "source": "failures",
+      "target": "lessons",
+      "value": 1
+    },
+    {
+      "source": "case-studies",
+      "target": "implementation",
+      "value": 1
+    },
+    {
+      "source": "case-studies",
+      "target": "lessons",
+      "value": 1
+    },
+    {
+      "source": "implementation",
+      "target": "lessons",
+      "value": 1
+    },
+    {
+      "source": "constraints",
+      "target": "semantics",
+      "value": 1
+    },
+    {
+      "source": "constraints",
+      "target": "natural-language",
+      "value": 1
+    },
+    {
+      "source": "constraints",
+      "target": "formal-verification",
+      "value": 1
+    },
+    {
+      "source": "natural-language",
+      "target": "semantics",
+      "value": 1
+    },
+    {
+      "source": "formal-verification",
+      "target": "semantics",
+      "value": 1
+    },
+    {
+      "source": "implementation",
+      "target": "semantics",
+      "value": 1
+    },
+    {
+      "source": "formal-verification",
+      "target": "natural-language",
+      "value": 1
+    },
+    {
+      "source": "implementation",
+      "target": "natural-language",
+      "value": 1
+    },
+    {
+      "source": "formal-verification",
+      "target": "implementation",
+      "value": 1
+    },
+    {
+      "source": "democracy",
+      "target": "legitimacy",
+      "value": 1
+    },
+    {
+      "source": "democracy",
+      "target": "refusals",
+      "value": 1
+    },
+    {
+      "source": "constraints",
+      "target": "democracy",
+      "value": 1
+    },
+    {
+      "source": "democracy",
+      "target": "participation",
+      "value": 1
+    },
+    {
+      "source": "legitimacy",
+      "target": "refusals",
+      "value": 1
+    },
+    {
+      "source": "constraints",
+      "target": "legitimacy",
+      "value": 1
+    },
+    {
+      "source": "legitimacy",
+      "target": "participation",
+      "value": 1
+    },
+    {
+      "source": "constraints",
+      "target": "refusals",
+      "value": 1
+    },
+    {
+      "source": "participation",
+      "target": "refusals",
+      "value": 1
+    },
+    {
+      "source": "constraints",
+      "target": "participation",
+      "value": 1
+    },
+    {
+      "source": "law",
+      "target": "liability",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "liability",
+      "value": 1
+    },
+    {
+      "source": "harms",
+      "target": "liability",
+      "value": 1
+    },
+    {
+      "source": "legal-frameworks",
+      "target": "liability",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "law",
+      "value": 1
+    },
+    {
+      "source": "harms",
+      "target": "law",
+      "value": 1
+    },
+    {
+      "source": "law",
+      "target": "legal-frameworks",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "harms",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "legal-frameworks",
+      "value": 1
+    },
+    {
+      "source": "harms",
+      "target": "legal-frameworks",
+      "value": 1
+    },
+    {
+      "source": "regulation",
+      "target": "simulation",
+      "value": 1
+    },
+    {
+      "source": "policy-testing",
+      "target": "simulation",
+      "value": 1
+    },
+    {
+      "source": "modeling",
+      "target": "simulation",
+      "value": 1
+    },
+    {
+      "source": "simulation",
+      "target": "unintended-consequences",
+      "value": 1
+    },
+    {
+      "source": "policy-testing",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "modeling",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "regulation",
+      "target": "unintended-consequences",
+      "value": 1
+    },
+    {
+      "source": "modeling",
+      "target": "policy-testing",
+      "value": 1
+    },
+    {
+      "source": "policy-testing",
+      "target": "unintended-consequences",
+      "value": 1
+    },
+    {
+      "source": "modeling",
+      "target": "unintended-consequences",
       "value": 1
     }
   ]

@@ -1,5 +1,105 @@
 [
   {
+    "id": 72,
+    "title": "Simulating Governance: Using AI to Stress-Test AI Regulations",
+    "excerpt": "Regulations are policies. Policies can be simulated. What if we used AI systems to model the effects of proposed regulations before implementation, identifying loopholes and unintended consequences?",
+    "slug": "072-simulating-governance",
+    "date": "2026-02-04",
+    "tags": [],
+    "categories": [],
+    "body": "The Policy Design Problem AI governance proposals proliferate. Compute thresholds, capability evaluations, disclosure mandates, liability frameworks, certification regimes. Each promises to address specific risks. Few are tested before implementation. Traditional policy development relies on deliberation, expert consultation, and learning from analogous cases. These methods have value. They also have limits. Deliberation cannot anticipate all actor responses. Experts have blind spots. Analogies "
+  },
+  {
+    "id": 71,
+    "title": "The Liability Vacuum: When AI Harms Fall Between Legal Categories",
+    "excerpt": "AI harms often don't fit existing legal frameworks: not quite product liability, not quite professional malpractice, not quite negligence. This article maps the specific gaps and proposes targeted fixes.",
+    "slug": "071-liability-vacuum",
+    "date": "2026-02-04",
+    "tags": [],
+    "categories": [],
+    "body": "Harms Without Remedy When AI systems cause harm, legal accountability is often unclear. Existing legal categories were designed for different technologies and relationships. AI falls awkwardly between them. A patient harmed by an AI diagnostic tool may struggle to hold anyone accountable. Is it product liability (the tool was defective)? Medical malpractice (the doctor should have caught the error)? Negligence (someone failed to exercise reasonable care)? Each category has elements that AI harms"
+  },
+  {
+    "id": 70,
+    "title": "Who Decides What AI Should Refuse? The Democratic Deficit in Constraint Design",
+    "excerpt": "AI refusals encode value judgments. Currently, small teams at AI labs make these decisions. Is this legitimate? Exploring the democratic deficit in AI constraint design and possible alternatives.",
+    "slug": "070-democratic-deficit-constraints",
+    "date": "2026-02-04",
+    "tags": [],
+    "categories": [],
+    "body": "The Hidden Power When an AI system refuses a request, it makes a value judgment. It has determined that the request falls outside what it should do. This determination reflects decisions made by someone, somewhere, about what AI systems should and should not enable. Who makes these decisions? Currently: small teams of researchers, policy staff, and executives at AI companies. These teams decide whether to refuse requests about weapons, drugs, politics, sexuality, religion, and countless other do"
+  },
+  {
+    "id": 69,
+    "title": "The Semantic Gap Problem: Why Natural Language Constraints Fail",
+    "excerpt": "We specify AI constraints in natural language, but models operate on statistical patterns. This disconnect means constraints may not do what we think. What are the technical approaches to bridging this gap?",
+    "slug": "069-semantic-gap-problem",
+    "date": "2026-02-04",
+    "tags": [],
+    "categories": [],
+    "body": "The Gap We write AI constraints in natural language. \"Be helpful, harmless, and honest.\" \"Do not provide instructions for illegal activities.\" \"Respect user privacy.\" \"Avoid bias.\" AI systems do not operate in natural language. They operate on statistical patterns over tokens. The mapping from natural language intent to model behavior is indirect, approximate, and often unreliable. This is the semantic gap: the distance between what constraints mean to humans and what they mean (if anything) to "
+  },
+  {
+    "id": 68,
+    "title": "Reflexive AI in Practice: A Case Study of Constraint Failures",
+    "excerpt": "Rather than theoretical, this examines documented cases where AI systems violated their stated constraints. What went wrong? Were the constraints poorly specified, not enforced, or gamed?",
+    "slug": "068-constraint-failure-cases",
+    "date": "2026-02-04",
+    "tags": [],
+    "categories": [],
+    "body": "Learning from Failure Reflexive governance proposes that AI systems should participate in their own oversight: monitoring their behavior, enforcing their constraints, explaining their limitations. The theory is compelling. The practice is harder. This article examines documented cases where AI systems failed to maintain stated constraints. Not theoretical risks, but actual failures in deployed systems. Understanding what went wrong provides concrete lessons for constraint design. Case 1: The Jai"
+  },
+  {
+    "id": 67,
+    "title": "The Game Theory of AI Disclosure: When Transparency is a Prisoner's Dilemma",
+    "excerpt": "Companies face a collective action problem: all would benefit from industry-wide transparency, but unilateral disclosure may harm competitive position. How do we change the payoff structure?",
+    "slug": "067-game-theory-disclosure",
+    "date": "2026-02-04",
+    "tags": [],
+    "categories": [],
+    "body": "The Transparency Problem Everyone agrees AI systems should be more transparent. Companies issue transparency reports. Regulators mandate disclosure. Researchers call for openness about training data, model capabilities, and safety evaluations. Yet meaningful transparency remains rare. Model cards omit critical information. Safety evaluations are conducted privately and reported selectively. Competitive dynamics discourage disclosure. Why? Because transparency is not just a technical or ethical q"
+  },
+  {
+    "id": 66,
+    "title": "AI Governance Without Borders: Lessons from Internet Governance History",
+    "excerpt": "The internet faced similar challenges: global technology, national regulation, coordination problems. What worked? What failed? Lessons from ICANN, IETF, and content moderation for AI governance.",
+    "slug": "066-internet-governance-lessons",
+    "date": "2026-02-04",
+    "tags": [],
+    "categories": [],
+    "body": "The Parallel AI governance faces a familiar problem: how do you govern something that does not respect borders? The internet faced this problem first. A global network operating across jurisdictions, controlled by no single entity, evolving faster than law could follow. The solutions developed for internet governance, imperfect as they are, offer lessons for AI. This is not to say AI is just like the internet. The technologies differ, the actors differ, the risks differ. But the structural probl"
+  },
+  {
+    "id": 65,
+    "title": "The Attention Economy Meets AI Governance: Designing for Distraction-Resistant Oversight",
+    "excerpt": "Human oversight assumes humans are paying attention. But modern interfaces are designed to maximize engagement, not careful evaluation. How do attention-economy dynamics undermine governance?",
+    "slug": "065-attention-economy-governance",
+    "date": "2026-02-04",
+    "tags": [],
+    "categories": [],
+    "body": "The Attention Assumption AI governance frameworks assume human oversight. Humans review decisions. Humans approve deployments. Humans catch errors. Humans intervene when something goes wrong. This assumption contains a hidden premise: that humans are actually paying attention. Attention is a scarce resource. Modern digital environments are specifically designed to capture and monetize that resource. Every notification, every infinite scroll, every variable reward schedule competes for the same c"
+  },
+  {
+    "id": 64,
+    "title": "Why AI Safety Researchers Disagree: A Taxonomy of Worldviews",
+    "excerpt": "The AI safety field appears fractured. Some focus on alignment, others on governance, others on misuse. This article maps the underlying worldview differences that produce divergent research agendas.",
+    "slug": "064-ai-safety-worldviews",
+    "date": "2026-02-04",
+    "tags": [],
+    "categories": [],
+    "body": "The Appearance of Disagreement AI safety experts disagree about almost everything. They disagree about which risks matter most. They disagree about which interventions help. They disagree about timelines, about probability estimates, about whether to focus on current systems or future ones. To outsiders, this appears chaotic. If the experts cannot agree, how should policymakers, journalists, or the public evaluate claims about AI risk? But much of this disagreement is not random. It stems from d"
+  },
+  {
+    "id": 63,
+    "title": "The Governance Paradox: When AI Systems Are Better Regulators Than Humans",
+    "excerpt": "AI systems may detect regulatory violations more reliably than human auditors. This creates tension with the principle of human oversight. What does meaningful oversight mean when humans are the bottleneck?",
+    "slug": "063-governance-paradox",
+    "date": "2026-02-04",
+    "tags": [],
+    "categories": [],
+    "body": "The Uncomfortable Question A core principle of AI governance is human oversight. Humans must remain in control. Humans must make final decisions. Humans must be able to understand, intervene, and correct. But what if humans are worse at oversight than the systems they're supposed to oversee? This is not a hypothetical. In fraud detection, AI systems routinely identify patterns that human analysts miss. In medical imaging, algorithms detect cancers that radiologists overlook. In code review, auto"
+  },
+  {
     "id": 62,
     "title": "The False Binary: Why 'Regulate Use, Not Models' Gets AI Governance Wrong",
     "excerpt": "A recent IEEE Spectrum article argues for use-based AI regulation over model-based approaches. This framing misses what actually works: layered, reflexive governance that addresses capabilities, deployment, and systemic accountability together.",
