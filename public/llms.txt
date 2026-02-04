@@ -16,7 +16,7 @@ An open research initiative exploring how AI systems can contribute to the analy
 3. Reflexive Mechanisms - Self-monitoring, uncertainty communication, constraint explanation
 4. Domain Applications - Healthcare, compute governance, liability frameworks
 
-## All Research Articles (60 total)
+## All Research Articles (61 total)
 
 - [Operationalizing Proportionality in Model Disclosure](https://reflexive-ai.github.io/research/001-proportionality-disclosure/) - How disclosure requirements should scale with model capability, moving from static to reflexive tran...
 - [The Open Weight Safety Paradox](https://reflexive-ai.github.io/research/002-open-weight-safety-paradox/) - Open-weight AI models present a governance contradiction: transparency enables both safety research ...
@@ -78,16 +78,17 @@ An open research initiative exploring how AI systems can contribute to the analy
 - [Model Versioning and Rollback Protocols](https://reflexive-ai.github.io/research/058-model-versioning-and-rollback-protocols/) - Examining the role of versioning and rollback mechanisms in AI governance to ensure safety, accounta...
 - [Differential Privacy in AI Systems](https://reflexive-ai.github.io/research/059-differential-privacy-in-ai-systems/) - An exploration of differential privacy as a critical tool for AI governance, its practical applicati...
 - [Hardware-Level Safety Mechanisms](https://reflexive-ai.github.io/research/060-hardware-level-safety-mechanisms/) - Exploring how hardware design can embed safety and security features directly into AI systems, with ...
+- [Self-Modifying Constraints: Technical Approaches](https://reflexive-ai.github.io/research/061-self-modifying-constraints-technical-approaches/) - Exploring how AI systems can be governed through self-modifying constraints, bridging technical arch...
 
 ## Categories
 - Governance Analysis (24 articles)
 - Technical Artifact (4 articles)
 - Public (9 articles)
 - Research (9 articles)
-- Other (14 articles)
+- Other (15 articles)
 
 ## Tags
-AI safety, Benchmarks, Best Practices, Content Authentication, Data Governance, Deployment, Evaluation, Governance, Impact Assessment, Implementation, Infrastructure, Interpretability, Model Weights, Privacy, Provenance, Red Teaming, Risk Assessment, Risk Governance, Safety, Security, Standards, Training Data, Transparency, Watermarking, abuse detection, access-control, access-management, accountability, agents, ai governance, ai-governance, ai-safety, alignment, api-controls, api-design, arbitrage, auditing, c2pa, capability-elicitation, cbrn, compute, consent, constraints, cryptography, data security, data-rights, deployment, disclosure, dual-use, emergent behavior, emergent-behavior, enforcement, ethics, eu-ai-act, evolution, game-theory, governance, guide, hardware, healthcare, incentives, incident-reporting, institutional-design, intent-recognition, interoperability, json-ld, jurisdiction, legal-theory, liability, limits, machine-readable, meta-governance, misuse-detection, monitoring, multi-agent-systems, open-source, overhang, paradox, policy, post-deployment risks, privacy, proportionality, provenance, rate limiting, red-lines, reflexive AI, reflexive-monitoring, regulation, reporting, risk-assessment, risk-mitigation, rollback, safety, safety mechanisms, safety-mechanisms, standards, taxonomy, technical safeguards, theory, transparency, trust, trust and safety, uncertainty, versioning, watermarking, whistleblowing
+AI constraints, AI safety, Benchmarks, Best Practices, Content Authentication, Data Governance, Deployment, Evaluation, Governance, Impact Assessment, Implementation, Infrastructure, Interpretability, Model Weights, Privacy, Provenance, Red Teaming, Risk Assessment, Risk Governance, Safety, Security, Standards, Training Data, Transparency, Watermarking, abuse detection, access-control, access-management, accountability, agents, ai governance, ai-governance, ai-safety, alignment, api-controls, api-design, arbitrage, auditing, c2pa, capability-elicitation, cbrn, compute, consent, constraints, cryptography, data security, data-rights, deployment, disclosure, dual-use, emergent behavior, emergent-behavior, enforcement, ethics, eu-ai-act, evolution, game-theory, governance, guide, hardware, healthcare, incentives, incident-reporting, institutional-design, intent-recognition, interoperability, json-ld, jurisdiction, legal-theory, liability, limits, machine-readable, meta-governance, misuse-detection, monitoring, multi-agent-systems, open-source, overhang, paradox, policy, post-deployment risks, privacy, proportionality, provenance, rate limiting, red-lines, reflexive AI, reflexive-monitoring, regulation, reporting, risk-assessment, risk-mitigation, rollback, safety, safety mechanisms, safety-mechanisms, self-modification, standards, taxonomy, technical safeguards, theory, transparency, trust, trust and safety, uncertainty, versioning, watermarking, whistleblowing
 
 ## Glossary
 See https://reflexive-ai.github.io/glossary/ for key AI governance terms and definitions.

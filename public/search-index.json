@@ -1,5 +1,22 @@
 [
   {
+    "id": 61,
+    "title": "Self-Modifying Constraints: Technical Approaches",
+    "excerpt": "Exploring how AI systems can be governed through self-modifying constraints, bridging technical architecture with safety and oversight frameworks.",
+    "slug": "061-self-modifying-constraints-technical-approaches",
+    "date": "2026-02-04",
+    "tags": [
+      "governance",
+      "safety",
+      "self-modification",
+      "AI constraints"
+    ],
+    "categories": [
+      "Technical Research"
+    ],
+    "body": "Reflexive Research Object 061 Type: Technical Research & Candidate Constraint Introduction As artificial intelligence systems grow in complexity and capability, ensuring their safe operation becomes increasingly difficult. One promising approach involves embedding constraints directly into AI systems, allowing them to self-monitor and, in some cases, self-modify these constraints to adapt to new contexts without compromising safety. These \"self-modifying constraints\" represent a hybrid strategy:"
+  },
+  {
     "id": 60,
     "title": "Hardware-Level Safety Mechanisms",
     "excerpt": "Exploring how hardware design can embed safety and security features directly into AI systems, with implications for governance and risk mitigation.",

@@ -82,7 +82,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 
 ### Reflexive Governance Deep Dives (61-70)
 
-61. [ ] Self-Modifying Constraints: Technical Approaches [R][A]
+61. [x] Self-Modifying Constraints: Technical Approaches [R][A]
 62. [ ] AI Systems as Governance Participants [R][A]
 63. [ ] Machine-Readable Policy: Beyond JSON-LD [R][A]
 64. [ ] Real-Time Constraint Checking [R][A]

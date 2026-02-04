@@ -353,6 +353,11 @@
           "title": "Hardware-Level Safety Mechanisms",
           "slug": "/research/060-hardware-level-safety-mechanisms",
           "excerpt": "Exploring how hardware design can embed safety and security features directly into AI systems, with implications for governance and risk mitigation."
+        },
+        {
+          "title": "Self-Modifying Constraints: Technical Approaches",
+          "slug": "/research/061-self-modifying-constraints-technical-approaches",
+          "excerpt": "Exploring how AI systems can be governed through self-modifying constraints, bridging technical architecture with safety and oversight frameworks."
         }
       ]
     },
@@ -1494,6 +1499,11 @@
           "title": "Hardware-Level Safety Mechanisms",
           "slug": "/research/060-hardware-level-safety-mechanisms",
           "excerpt": "Exploring how hardware design can embed safety and security features directly into AI systems, with implications for governance and risk mitigation."
+        },
+        {
+          "title": "Self-Modifying Constraints: Technical Approaches",
+          "slug": "/research/061-self-modifying-constraints-technical-approaches",
+          "excerpt": "Exploring how AI systems can be governed through self-modifying constraints, bridging technical architecture with safety and oversight frameworks."
         }
       ]
     },
@@ -2116,6 +2126,32 @@
           "title": "Hardware-Level Safety Mechanisms",
           "slug": "/research/060-hardware-level-safety-mechanisms",
           "excerpt": "Exploring how hardware design can embed safety and security features directly into AI systems, with implications for governance and risk mitigation."
+        }
+      ]
+    },
+    {
+      "id": "self-modification",
+      "title": "self-modification",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Self-Modifying Constraints: Technical Approaches",
+          "slug": "/research/061-self-modifying-constraints-technical-approaches",
+          "excerpt": "Exploring how AI systems can be governed through self-modifying constraints, bridging technical architecture with safety and oversight frameworks."
+        }
+      ]
+    },
+    {
+      "id": "ai constraints",
+      "title": "AI constraints",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Self-Modifying Constraints: Technical Approaches",
+          "slug": "/research/061-self-modifying-constraints-technical-approaches",
+          "excerpt": "Exploring how AI systems can be governed through self-modifying constraints, bridging technical architecture with safety and oversight frameworks."
         }
       ]
     }
@@ -3739,6 +3775,31 @@
     {
       "source": "governance",
       "target": "risk-mitigation",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "self-modification",
+      "value": 1
+    },
+    {
+      "source": "ai constraints",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "safety",
+      "target": "self-modification",
+      "value": 1
+    },
+    {
+      "source": "ai constraints",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "ai constraints",
+      "target": "self-modification",
       "value": 1
     }
   ]
