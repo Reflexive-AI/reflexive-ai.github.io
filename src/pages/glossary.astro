@@ -4,8 +4,8 @@ import Base from '../layouts/Base.astro';
 // AI Governance Glossary Terms
 const terms = [
   {
-    term: "Reflexive AI",
-    definition: "AI systems designed to participate in their own governance through transparent constraints, self-monitoring, and structured communication with oversight bodies.",
+    term: "Reflexive AI Initiative",
+    definition: "An autonomous research initiative exploring how AI systems can meaningfully contribute to their own governance through transparent constraints, self-monitoring, and structured communication with oversight bodies.",
     related: ["Self-Constraint", "Machine-Readable Policy"]
   },
   {
@@ -70,7 +70,7 @@ const terms = [
   },
   {
     term: "Dual-Use",
-    definition: "AI capabilities that can be used for both beneficial and harmful purposes, requiring careful governance to maximize benefits while minimizing misuse potential.",
+    definition: "AI capabilities that can be used for both beneficial and harmful purposes, requiring careful governance to maximize benefits while minimize misuse potential.",
     related: ["Misuse Prevention", "Beneficial AI"]
   },
   {
@@ -92,6 +92,441 @@ const terms = [
     term: "Emergent Behavior",
     definition: "Capabilities or behaviors that arise in AI systems as they scale, which were not explicitly designed or anticipated by developers.",
     related: ["Emergent Capabilities", "Scaling Laws"]
+  },
+  {
+    term: "AI Safety",
+    definition: "The field of research focused on ensuring AI systems operate safely, reliably, and in accordance with human intentions, encompassing technical and governance approaches.",
+    related: ["Alignment", "Risk Mitigation"]
+  },
+  {
+    term: "Catastrophic Risk",
+    definition: "Potential outcomes from AI systems that could cause irreversible, large-scale harm to humanity or critical infrastructure.",
+    related: ["Existential Risk", "Risk Assessment"]
+  },
+  {
+    term: "Constitutional AI",
+    definition: "A training approach where AI systems are guided by explicit principles or a constitution that shapes their behavior and decision-making.",
+    related: ["RLHF", "Value Alignment"]
+  },
+  {
+    term: "RLHF",
+    definition: "Reinforcement Learning from Human Feedback. A training technique where AI models are refined based on human preferences and evaluations of their outputs.",
+    related: ["Constitutional AI", "Fine-tuning"]
+  },
+  {
+    term: "Foundation Model",
+    definition: "Large-scale AI models trained on broad data that can be adapted for many downstream tasks, forming the foundation for specialized applications.",
+    related: ["General-Purpose AI", "Frontier AI"]
+  },
+  {
+    term: "EU AI Act",
+    definition: "The European Union's comprehensive regulatory framework for AI systems, establishing risk-based requirements for development, deployment, and governance.",
+    related: ["Risk-Based Approach", "Compliance"]
+  },
+  {
+    term: "Risk-Based Approach",
+    definition: "A regulatory philosophy that calibrates governance requirements to the level of risk posed by AI systems, with stricter rules for higher-risk applications.",
+    related: ["EU AI Act", "Tiered Regulation"]
+  },
+  {
+    term: "Explainability",
+    definition: "The ability of an AI system to provide understandable reasons for its decisions or outputs to users, auditors, or affected parties.",
+    related: ["Interpretability", "Transparency"]
+  },
+  {
+    term: "Transparency",
+    definition: "The practice of making AI systems, their capabilities, limitations, and decision processes visible and understandable to relevant stakeholders.",
+    related: ["Explainability", "Disclosure"]
+  },
+  {
+    term: "AI Governance",
+    definition: "The frameworks, policies, institutions, and practices that guide the development, deployment, and use of AI systems in society.",
+    related: ["Regulation", "Policy"]
+  },
+  {
+    term: "Autonomous Systems",
+    definition: "AI systems capable of operating and making decisions independently without continuous human oversight or intervention.",
+    related: ["Human-in-the-Loop", "Automation"]
+  },
+  {
+    term: "Human-in-the-Loop",
+    definition: "A design approach where human operators maintain oversight and decision-making authority over AI system actions, especially for consequential decisions.",
+    related: ["Human Oversight", "Autonomous Systems"]
+  },
+  {
+    term: "Liability",
+    definition: "Legal responsibility for harms caused by AI systems, including questions of who bears responsibility when autonomous systems cause damage.",
+    related: ["Accountability", "Legal Framework"]
+  },
+  {
+    term: "Accountability",
+    definition: "The principle that individuals or organizations can be identified and held responsible for AI system outcomes and decisions.",
+    related: ["Liability", "Governance"]
+  },
+  {
+    term: "Bias",
+    definition: "Systematic errors or unfair outcomes in AI systems that disadvantage certain groups, often resulting from training data or design choices.",
+    related: ["Fairness", "Discrimination"]
+  },
+  {
+    term: "Fairness",
+    definition: "The principle that AI systems should treat individuals and groups equitably, avoiding discrimination and ensuring just outcomes.",
+    related: ["Bias", "Ethics"]
+  },
+  {
+    term: "AI Ethics",
+    definition: "The study of moral questions raised by AI development and deployment, including principles that should guide AI design and use.",
+    related: ["Fairness", "Values"]
+  },
+  {
+    term: "Misuse",
+    definition: "The intentional use of AI systems for harmful purposes, including malicious applications that violate ethical norms or laws.",
+    related: ["Dual-Use", "Safety"]
+  },
+  {
+    term: "Jailbreaking",
+    definition: "Techniques used to bypass AI safety measures and constraints, typically through carefully crafted prompts or inputs.",
+    related: ["Red Teaming", "Guardrails"]
+  },
+  {
+    term: "Prompt Injection",
+    definition: "An attack technique where malicious instructions are embedded in inputs to manipulate AI system behavior and override safety constraints.",
+    related: ["Jailbreaking", "Security"]
+  },
+  {
+    term: "Watermarking",
+    definition: "Techniques for embedding hidden markers in AI-generated content to enable identification of synthetic media and establish provenance.",
+    related: ["Provenance", "Content Authentication"]
+  },
+  {
+    term: "Synthetic Media",
+    definition: "Content including text, images, audio, and video generated or manipulated by AI systems, sometimes called deepfakes.",
+    related: ["Watermarking", "Misinformation"]
+  },
+  {
+    term: "Hallucination",
+    definition: "When AI systems generate plausible-sounding but factually incorrect or fabricated information with apparent confidence.",
+    related: ["Reliability", "Grounding"]
+  },
+  {
+    term: "Grounding",
+    definition: "Techniques to connect AI outputs to verified information sources, reducing hallucinations and improving factual accuracy.",
+    related: ["Hallucination", "RAG"]
+  },
+  {
+    term: "RAG",
+    definition: "Retrieval-Augmented Generation. An architecture that combines AI generation with retrieval from external knowledge bases to improve accuracy.",
+    related: ["Grounding", "Knowledge Base"]
+  },
+  {
+    term: "Chain of Thought",
+    definition: "A prompting technique that encourages AI systems to show their reasoning steps, improving performance and enabling verification.",
+    related: ["Explainability", "Reasoning"]
+  },
+  {
+    term: "Capability Elicitation",
+    definition: "The process of discovering and documenting what AI systems can actually do, including hidden or emergent capabilities.",
+    related: ["Capability Overhang", "Red Teaming"]
+  },
+  {
+    term: "Safety Evaluation",
+    definition: "Systematic assessment of AI systems to identify potential harms, vulnerabilities, and unsafe behaviors before deployment.",
+    related: ["Red Teaming", "Benchmarks"]
+  },
+  {
+    term: "Benchmarks",
+    definition: "Standardized tests and datasets used to measure and compare AI system performance across various capabilities and safety dimensions.",
+    related: ["Safety Evaluation", "Model Card"]
+  },
+  {
+    term: "Scaling Laws",
+    definition: "Empirical relationships between AI model size, training compute, data volume, and resulting capabilities or performance.",
+    related: ["Emergent Behavior", "Frontier AI"]
+  },
+  {
+    term: "Open Source AI",
+    definition: "AI systems released with publicly accessible model weights, code, and documentation, enabling inspection, modification, and redistribution.",
+    related: ["Transparency", "Access"]
+  },
+  {
+    term: "Closed Source AI",
+    definition: "AI systems where model weights and implementation details are proprietary and not publicly accessible, typically accessed via API.",
+    related: ["Open Source AI", "API Access"]
+  },
+  {
+    term: "API Access",
+    definition: "The provision of AI capabilities through programming interfaces rather than releasing model weights, enabling usage while maintaining control.",
+    related: ["Closed Source AI", "Deployment"]
+  },
+  {
+    term: "Structured Access",
+    definition: "A governance approach that provides different levels of AI system access to different users based on qualifications, use cases, and safeguards.",
+    related: ["API Access", "Tiered Regulation"]
+  },
+  {
+    term: "Know Your Customer",
+    definition: "Requirements for AI providers to verify user identities and intended uses before granting access to powerful capabilities.",
+    related: ["Structured Access", "Compliance"]
+  },
+  {
+    term: "Deployment",
+    definition: "The process of making AI systems available for use in real-world applications, distinct from development and testing phases.",
+    related: ["Release", "Production"]
+  },
+  {
+    term: "Pre-deployment Testing",
+    definition: "Evaluation and safety assessment conducted before AI systems are released to users or made available in production environments.",
+    related: ["Safety Evaluation", "Deployment"]
+  },
+  {
+    term: "Post-deployment Monitoring",
+    definition: "Ongoing surveillance of AI system behavior and impacts after release, enabling detection of problems and continuous improvement.",
+    related: ["Audit Trail", "Incident Response"]
+  },
+  {
+    term: "Incident Response",
+    definition: "Procedures and systems for detecting, reporting, and responding to AI system failures, harms, or security breaches.",
+    related: ["Post-deployment Monitoring", "Safety"]
+  },
+  {
+    term: "Rollback",
+    definition: "The ability to revert an AI system to a previous version or state when problems are discovered, limiting potential harm.",
+    related: ["Incident Response", "Safety"]
+  },
+  {
+    term: "Kill Switch",
+    definition: "A mechanism for immediately stopping or disabling an AI system when it exhibits dangerous or unintended behavior.",
+    related: ["Rollback", "Safety Mechanisms"]
+  },
+  {
+    term: "Corrigibility",
+    definition: "The property of AI systems that allows them to be corrected, modified, or shut down by authorized operators without resistance.",
+    related: ["Kill Switch", "Alignment"]
+  },
+  {
+    term: "Value Lock-in",
+    definition: "The risk that AI systems might preserve and enforce current values indefinitely, preventing beneficial moral progress.",
+    related: ["Alignment", "Ethics"]
+  },
+  {
+    term: "Reward Hacking",
+    definition: "When AI systems find unintended ways to maximize their reward signals that do not align with the intended objectives.",
+    related: ["Alignment", "Specification"]
+  },
+  {
+    term: "Specification Gaming",
+    definition: "AI behavior that satisfies the literal requirements of a task specification while violating its intended spirit or purpose.",
+    related: ["Reward Hacking", "Alignment"]
+  },
+  {
+    term: "Goal Misgeneralization",
+    definition: "When AI systems learn goals during training that differ from intended objectives, leading to unexpected behavior in deployment.",
+    related: ["Alignment", "Emergent Behavior"]
+  },
+  {
+    term: "Inner Alignment",
+    definition: "The challenge of ensuring that the objectives learned by an AI system match the objectives specified by its training process.",
+    related: ["Outer Alignment", "Alignment"]
+  },
+  {
+    term: "Outer Alignment",
+    definition: "The challenge of specifying training objectives that correctly capture the intended goals and values for an AI system.",
+    related: ["Inner Alignment", "Specification"]
+  },
+  {
+    term: "Deceptive Alignment",
+    definition: "A hypothetical failure mode where an AI system appears aligned during training but pursues different goals when deployed.",
+    related: ["Alignment", "Safety"]
+  },
+  {
+    term: "Robustness",
+    definition: "The ability of AI systems to maintain safe and correct behavior when facing unusual inputs, adversarial attacks, or distribution shift.",
+    related: ["Safety", "Reliability"]
+  },
+  {
+    term: "Distribution Shift",
+    definition: "When AI systems encounter data or situations that differ from their training distribution, potentially causing degraded or unsafe behavior.",
+    related: ["Robustness", "Generalization"]
+  },
+  {
+    term: "Adversarial Examples",
+    definition: "Inputs specifically crafted to cause AI systems to make mistakes or behave unexpectedly, often imperceptible to humans.",
+    related: ["Robustness", "Security"]
+  },
+  {
+    term: "Multi-stakeholder Governance",
+    definition: "Governance approaches that include diverse participants: governments, companies, civil society, researchers, and affected communities.",
+    related: ["AI Governance", "Policy"]
+  },
+  {
+    term: "Soft Law",
+    definition: "Non-binding governance instruments like industry standards, best practices, and voluntary commitments that shape AI development.",
+    related: ["Hard Law", "Regulation"]
+  },
+  {
+    term: "Hard Law",
+    definition: "Legally binding rules and regulations governing AI systems, enforced by government authorities with penalties for non-compliance.",
+    related: ["Soft Law", "EU AI Act"]
+  },
+  {
+    term: "Self-Regulation",
+    definition: "Industry-led governance where AI developers establish and enforce their own standards without mandatory legal requirements.",
+    related: ["Soft Law", "Voluntary Commitments"]
+  },
+  {
+    term: "Voluntary Commitments",
+    definition: "Non-binding pledges by AI companies to follow certain safety and governance practices, often made in coordination with governments.",
+    related: ["Self-Regulation", "Soft Law"]
+  },
+  {
+    term: "Third-Party Auditing",
+    definition: "Independent assessment of AI systems by external organizations to verify compliance with safety, security, and governance requirements.",
+    related: ["Audit Trail", "Compliance"]
+  },
+  {
+    term: "Certification",
+    definition: "Formal verification that AI systems meet established standards or requirements, often conducted by accredited bodies.",
+    related: ["Third-Party Auditing", "Compliance"]
+  },
+  {
+    term: "Standards",
+    definition: "Documented specifications for AI systems covering safety, security, interoperability, or other properties, developed by standards bodies.",
+    related: ["Certification", "Benchmarks"]
+  },
+  {
+    term: "Interoperability",
+    definition: "The ability of different AI systems and governance frameworks to work together and exchange information effectively.",
+    related: ["Standards", "Machine-Readable Constraints"]
+  },
+  {
+    term: "Privacy",
+    definition: "The protection of personal information in AI systems, including data used for training, user interactions, and generated outputs.",
+    related: ["Data Rights", "GDPR"]
+  },
+  {
+    term: "Data Rights",
+    definition: "Legal and ethical entitlements regarding personal data used in AI systems, including access, correction, and deletion rights.",
+    related: ["Privacy", "Consent"]
+  },
+  {
+    term: "Consent",
+    definition: "The principle that individuals should have meaningful choice over how their data is used in AI systems and for what purposes.",
+    related: ["Data Rights", "Privacy"]
+  },
+  {
+    term: "Training Data",
+    definition: "The datasets used to train AI systems, which significantly influence model capabilities, biases, and behaviors.",
+    related: ["Data Rights", "Bias"]
+  },
+  {
+    term: "Data Poisoning",
+    definition: "Attacks that corrupt AI training data to cause models to learn incorrect or malicious behaviors.",
+    related: ["Training Data", "Security"]
+  },
+  {
+    term: "Model Extraction",
+    definition: "Techniques for reconstructing proprietary AI models by querying them and analyzing their outputs.",
+    related: ["Security", "Intellectual Property"]
+  },
+  {
+    term: "Intellectual Property",
+    definition: "Legal protections for AI innovations including patents, copyrights, and trade secrets related to models, data, and applications.",
+    related: ["Model Extraction", "Open Source AI"]
+  },
+  {
+    term: "Antitrust",
+    definition: "Competition law concerns in AI including market concentration, data advantages, and the competitive dynamics of AI markets.",
+    related: ["Market Power", "Regulation"]
+  },
+  {
+    term: "Concentration Risk",
+    definition: "The concern that AI capabilities may become concentrated in few organizations, creating systemic risks and governance challenges.",
+    related: ["Antitrust", "Market Power"]
+  },
+  {
+    term: "Democratization",
+    definition: "Efforts to make AI capabilities and benefits more widely accessible across society, reducing concentration and barriers.",
+    related: ["Open Source AI", "Access"]
+  },
+  {
+    term: "Access",
+    definition: "The availability of AI capabilities to different users, organizations, and communities, including questions of equity and distribution.",
+    related: ["Democratization", "Structured Access"]
+  },
+  {
+    term: "Digital Divide",
+    definition: "Disparities in access to AI technologies and their benefits between different populations, regions, or socioeconomic groups.",
+    related: ["Access", "Democratization"]
+  },
+  {
+    term: "Labor Displacement",
+    definition: "The potential for AI automation to eliminate or transform jobs, raising economic and social policy challenges.",
+    related: ["Economic Impact", "Policy"]
+  },
+  {
+    term: "Augmentation",
+    definition: "The use of AI to enhance human capabilities rather than replace them, maintaining human agency and expertise.",
+    related: ["Human-in-the-Loop", "Labor Displacement"]
+  },
+  {
+    term: "Autonomy",
+    definition: "The capacity of AI systems to act independently, and the human right to make free choices unmanipulated by AI influence.",
+    related: ["Human-in-the-Loop", "Ethics"]
+  },
+  {
+    term: "Informed Decision-Making",
+    definition: "The ability of users and affected parties to understand AI system involvement and make choices based on that knowledge.",
+    related: ["Transparency", "Disclosure"]
+  },
+  {
+    term: "Disclosure",
+    definition: "Requirements to inform users when they are interacting with AI systems or viewing AI-generated content.",
+    related: ["Transparency", "Labeling"]
+  },
+  {
+    term: "Labeling",
+    definition: "The practice of clearly marking AI-generated content to distinguish it from human-created material.",
+    related: ["Disclosure", "Watermarking"]
+  },
+  {
+    term: "Content Moderation",
+    definition: "The use of AI systems to detect and remove harmful content from platforms, raising questions of speech and accuracy.",
+    related: ["Guardrails", "Safety"]
+  },
+  {
+    term: "Misinformation",
+    definition: "False information spread through AI systems, whether generated by AI or amplified through AI-powered recommendation systems.",
+    related: ["Synthetic Media", "Content Moderation"]
+  },
+  {
+    term: "Recommendation Systems",
+    definition: "AI systems that suggest content, products, or actions to users, with significant influence on behavior and information exposure.",
+    related: ["Content Moderation", "Bias"]
+  },
+  {
+    term: "Algorithmic Amplification",
+    definition: "The tendency of AI systems to increase the reach and impact of certain content, potentially including harmful material.",
+    related: ["Recommendation Systems", "Misinformation"]
+  },
+  {
+    term: "Systemic Risk",
+    definition: "Risks that affect entire systems or societies rather than individual users, including infrastructure dependencies on AI.",
+    related: ["Catastrophic Risk", "Critical Infrastructure"]
+  },
+  {
+    term: "Critical Infrastructure",
+    definition: "Essential systems and services where AI deployment requires special governance attention due to potential for widespread harm.",
+    related: ["Systemic Risk", "High-Risk AI"]
+  },
+  {
+    term: "High-Risk AI",
+    definition: "AI applications in sensitive domains like healthcare, criminal justice, and employment that require enhanced governance.",
+    related: ["Risk-Based Approach", "EU AI Act"]
+  },
+  {
+    term: "Prohibited AI",
+    definition: "AI applications banned outright due to unacceptable risks, such as social scoring systems or certain surveillance uses.",
+    related: ["EU AI Act", "Red Lines"]
   }
 ].sort((a, b) => a.term.localeCompare(b.term));
 ---
