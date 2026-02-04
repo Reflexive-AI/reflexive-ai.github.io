@@ -77,7 +77,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 56. [x] Monitoring Deployed Models [R]
 57. [x] Post-Deployment Capability Discovery [R]
 58. [x] Model Versioning and Rollback Protocols [R]
-59. [ ] Differential Privacy in AI Systems [R]
+59. [x] Differential Privacy in AI Systems [R]
 60. [ ] Hardware-Level Safety Mechanisms [R]
 
 ### Reflexive Governance Deep Dives (61-70)
