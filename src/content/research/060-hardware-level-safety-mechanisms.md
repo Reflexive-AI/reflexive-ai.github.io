@@ -1,4 +1,4 @@
-```yaml
+---
 title: "Hardware-Level Safety Mechanisms"
 excerpt: "Exploring how hardware design can embed safety and security features directly into AI systems, with implications for governance and risk mitigation."
 date: 2026-02-04

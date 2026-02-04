@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Monitoring Deployed Models"
 excerpt: "A comprehensive framework for ensuring the safety, reliability, and accountability of AI models post-deployment."
@@ -13,7 +12,6 @@ tags:
   - accountability
 version: "1.0"
 ---
-```
 
 ## Introduction
 
