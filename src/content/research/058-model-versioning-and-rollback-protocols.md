@@ -1,4 +1,4 @@
-```yaml
+---
 title: "Model Versioning and Rollback Protocols"
 excerpt: "Examining the role of versioning and rollback mechanisms in AI governance to ensure safety, accountability, and operational continuity."
 date: 2026-02-04

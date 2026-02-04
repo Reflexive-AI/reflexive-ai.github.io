@@ -343,6 +343,16 @@
           "title": "Red Teaming Methodologies",
           "slug": "/research/050-red-teaming-methodologies",
           "excerpt": "Structured approaches to adversarial testing of AI systems, from scope definition through remediation verification."
+        },
+        {
+          "title": "Model Versioning and Rollback Protocols",
+          "slug": "/research/058-model-versioning-and-rollback-protocols",
+          "excerpt": "Examining the role of versioning and rollback mechanisms in AI governance to ensure safety, accountability, and operational continuity."
+        },
+        {
+          "title": "Hardware-Level Safety Mechanisms",
+          "slug": "/research/060-hardware-level-safety-mechanisms",
+          "excerpt": "Exploring how hardware design can embed safety and security features directly into AI systems, with implications for governance and risk mitigation."
         }
       ]
     },
@@ -1464,6 +1474,26 @@
           "title": "Secure Model Weights: Physical and Digital",
           "slug": "/research/053-secure-model-weights-physical-and-digital",
           "excerpt": "Security measures for protecting AI model weights from theft, tampering, and unauthorized access across physical and digital domains."
+        },
+        {
+          "title": "Monitoring Deployed Models",
+          "slug": "/research/056-monitoring-deployed-models",
+          "excerpt": "A comprehensive framework for ensuring the safety, reliability, and accountability of AI models post-deployment."
+        },
+        {
+          "title": "Post-Deployment Capability Discovery",
+          "slug": "/research/057-post-deployment-capability-discovery",
+          "excerpt": "Examining the phenomenon of emergent capabilities in deployed AI systems and its implications for safety, governance, and accountability."
+        },
+        {
+          "title": "Differential Privacy in AI Systems",
+          "slug": "/research/059-differential-privacy-in-ai-systems",
+          "excerpt": "An exploration of differential privacy as a critical tool for AI governance, its practical applications, limitations, and its role in ensuring both technical and societal safety."
+        },
+        {
+          "title": "Hardware-Level Safety Mechanisms",
+          "slug": "/research/060-hardware-level-safety-mechanisms",
+          "excerpt": "Exploring how hardware design can embed safety and security features directly into AI systems, with implications for governance and risk mitigation."
         }
       ]
     },
@@ -1678,12 +1708,17 @@
       "id": "privacy",
       "title": "Privacy",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Training Data Governance",
           "slug": "/research/048-training-data-governance",
           "excerpt": "Comprehensive frameworks for managing the data that shapes AI systems, from collection through curation to retirement."
+        },
+        {
+          "title": "Differential Privacy in AI Systems",
+          "slug": "/research/059-differential-privacy-in-ai-systems",
+          "excerpt": "An exploration of differential privacy as a critical tool for AI governance, its practical applications, limitations, and its role in ensuring both technical and societal safety."
         }
       ]
     },
@@ -1826,12 +1861,17 @@
       "id": "ai-governance",
       "title": "ai-governance",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "API-Level Safety Controls",
           "slug": "/research/054-api-level-safety-controls",
           "excerpt": "Exploring the role of API-level safety measures in AI governance, their implementation, and their implications for mitigating malicious use and accidental harm."
+        },
+        {
+          "title": "Model Versioning and Rollback Protocols",
+          "slug": "/research/058-model-versioning-and-rollback-protocols",
+          "excerpt": "Examining the role of versioning and rollback mechanisms in AI governance to ensure safety, accountability, and operational continuity."
         }
       ]
     },
@@ -1897,6 +1937,185 @@
           "title": "Rate Limiting and Abuse Detection",
           "slug": "/research/055-rate-limiting-and-abuse-detection",
           "excerpt": "A comprehensive exploration of how rate limiting and abuse detection mechanisms can be employed to improve AI system safety and governance."
+        }
+      ]
+    },
+    {
+      "id": "monitoring",
+      "title": "monitoring",
+      "group": "concept",
+      "val": 9,
+      "articles": [
+        {
+          "title": "Monitoring Deployed Models",
+          "slug": "/research/056-monitoring-deployed-models",
+          "excerpt": "A comprehensive framework for ensuring the safety, reliability, and accountability of AI models post-deployment."
+        },
+        {
+          "title": "Post-Deployment Capability Discovery",
+          "slug": "/research/057-post-deployment-capability-discovery",
+          "excerpt": "Examining the phenomenon of emergent capabilities in deployed AI systems and its implications for safety, governance, and accountability."
+        }
+      ]
+    },
+    {
+      "id": "ai-safety",
+      "title": "ai-safety",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Monitoring Deployed Models",
+          "slug": "/research/056-monitoring-deployed-models",
+          "excerpt": "A comprehensive framework for ensuring the safety, reliability, and accountability of AI models post-deployment."
+        }
+      ]
+    },
+    {
+      "id": "accountability",
+      "title": "accountability",
+      "group": "concept",
+      "val": 9,
+      "articles": [
+        {
+          "title": "Monitoring Deployed Models",
+          "slug": "/research/056-monitoring-deployed-models",
+          "excerpt": "A comprehensive framework for ensuring the safety, reliability, and accountability of AI models post-deployment."
+        },
+        {
+          "title": "Model Versioning and Rollback Protocols",
+          "slug": "/research/058-model-versioning-and-rollback-protocols",
+          "excerpt": "Examining the role of versioning and rollback mechanisms in AI governance to ensure safety, accountability, and operational continuity."
+        }
+      ]
+    },
+    {
+      "id": "emergent behavior",
+      "title": "emergent behavior",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Post-Deployment Capability Discovery",
+          "slug": "/research/057-post-deployment-capability-discovery",
+          "excerpt": "Examining the phenomenon of emergent capabilities in deployed AI systems and its implications for safety, governance, and accountability."
+        }
+      ]
+    },
+    {
+      "id": "post-deployment risks",
+      "title": "post-deployment risks",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Post-Deployment Capability Discovery",
+          "slug": "/research/057-post-deployment-capability-discovery",
+          "excerpt": "Examining the phenomenon of emergent capabilities in deployed AI systems and its implications for safety, governance, and accountability."
+        }
+      ]
+    },
+    {
+      "id": "reflexive ai",
+      "title": "reflexive AI",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Post-Deployment Capability Discovery",
+          "slug": "/research/057-post-deployment-capability-discovery",
+          "excerpt": "Examining the phenomenon of emergent capabilities in deployed AI systems and its implications for safety, governance, and accountability."
+        }
+      ]
+    },
+    {
+      "id": "versioning",
+      "title": "versioning",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Model Versioning and Rollback Protocols",
+          "slug": "/research/058-model-versioning-and-rollback-protocols",
+          "excerpt": "Examining the role of versioning and rollback mechanisms in AI governance to ensure safety, accountability, and operational continuity."
+        }
+      ]
+    },
+    {
+      "id": "rollback",
+      "title": "rollback",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Model Versioning and Rollback Protocols",
+          "slug": "/research/058-model-versioning-and-rollback-protocols",
+          "excerpt": "Examining the role of versioning and rollback mechanisms in AI governance to ensure safety, accountability, and operational continuity."
+        }
+      ]
+    },
+    {
+      "id": "ai safety",
+      "title": "AI safety",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Differential Privacy in AI Systems",
+          "slug": "/research/059-differential-privacy-in-ai-systems",
+          "excerpt": "An exploration of differential privacy as a critical tool for AI governance, its practical applications, limitations, and its role in ensuring both technical and societal safety."
+        }
+      ]
+    },
+    {
+      "id": "technical safeguards",
+      "title": "technical safeguards",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Differential Privacy in AI Systems",
+          "slug": "/research/059-differential-privacy-in-ai-systems",
+          "excerpt": "An exploration of differential privacy as a critical tool for AI governance, its practical applications, limitations, and its role in ensuring both technical and societal safety."
+        }
+      ]
+    },
+    {
+      "id": "data security",
+      "title": "data security",
+      "group": "technical",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Differential Privacy in AI Systems",
+          "slug": "/research/059-differential-privacy-in-ai-systems",
+          "excerpt": "An exploration of differential privacy as a critical tool for AI governance, its practical applications, limitations, and its role in ensuring both technical and societal safety."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "title": "hardware",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Hardware-Level Safety Mechanisms",
+          "slug": "/research/060-hardware-level-safety-mechanisms",
+          "excerpt": "Exploring how hardware design can embed safety and security features directly into AI systems, with implications for governance and risk mitigation."
+        }
+      ]
+    },
+    {
+      "id": "risk-mitigation",
+      "title": "risk-mitigation",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Hardware-Level Safety Mechanisms",
+          "slug": "/research/060-hardware-level-safety-mechanisms",
+          "excerpt": "Exploring how hardware design can embed safety and security features directly into AI systems, with implications for governance and risk mitigation."
         }
       ]
     }
@@ -3320,6 +3539,206 @@
     {
       "source": "safety mechanisms",
       "target": "trust and safety",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "monitoring",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "monitoring",
+      "value": 2
+    },
+    {
+      "source": "accountability",
+      "target": "monitoring",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "ai-safety",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "emergent behavior",
+      "target": "post-deployment risks",
+      "value": 1
+    },
+    {
+      "source": "emergent behavior",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "emergent behavior",
+      "target": "monitoring",
+      "value": 1
+    },
+    {
+      "source": "emergent behavior",
+      "target": "reflexive ai",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "post-deployment risks",
+      "value": 1
+    },
+    {
+      "source": "monitoring",
+      "target": "post-deployment risks",
+      "value": 1
+    },
+    {
+      "source": "post-deployment risks",
+      "target": "reflexive ai",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "reflexive ai",
+      "value": 1
+    },
+    {
+      "source": "monitoring",
+      "target": "reflexive ai",
+      "value": 1
+    },
+    {
+      "source": "rollback",
+      "target": "versioning",
+      "value": 1
+    },
+    {
+      "source": "safety",
+      "target": "versioning",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "versioning",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "versioning",
+      "value": 1
+    },
+    {
+      "source": "rollback",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "rollback",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "rollback",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "ai-governance",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "privacy",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "privacy",
+      "value": 1
+    },
+    {
+      "source": "privacy",
+      "target": "technical safeguards",
+      "value": 1
+    },
+    {
+      "source": "data security",
+      "target": "privacy",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "technical safeguards",
+      "value": 1
+    },
+    {
+      "source": "data security",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "technical safeguards",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "data security",
+      "value": 1
+    },
+    {
+      "source": "data security",
+      "target": "technical safeguards",
+      "value": 1
+    },
+    {
+      "source": "hardware",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "hardware",
+      "value": 1
+    },
+    {
+      "source": "hardware",
+      "target": "risk-mitigation",
+      "value": 1
+    },
+    {
+      "source": "risk-mitigation",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "risk-mitigation",
       "value": 1
     }
   ]

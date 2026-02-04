@@ -1,4 +1,4 @@
-```yaml
+---
 title: "Differential Privacy in AI Systems"
 excerpt: "An exploration of differential privacy as a critical tool for AI governance, its practical applications, limitations, and its role in ensuring both technical and societal safety."
 date: 2026-02-04
