@@ -123,6 +123,11 @@
           "title": "Simulating Governance: Using AI to Stress-Test AI Regulations",
           "slug": "/research/072-simulating-governance",
           "excerpt": "Regulations are policies. Policies can be simulated. What if we used AI systems to model the effects of proposed regulations before implementation, identifying loopholes and unintended consequences?"
+        },
+        {
+          "title": "The Small Actor Problem: How AI Regulation Shapes Market Structure",
+          "slug": "/research/075-small-actor-problem",
+          "excerpt": "AI regulations often benefit large incumbents who can afford compliance. How can governance avoid creating barriers that entrench power and lock out smaller innovators?"
         }
       ]
     },
@@ -378,6 +383,16 @@
           "title": "Self-Modifying Constraints: Technical Approaches",
           "slug": "/research/061-self-modifying-constraints-technical-approaches",
           "excerpt": "Exploring how AI systems can be governed through self-modifying constraints, bridging technical architecture with safety and oversight frameworks."
+        },
+        {
+          "title": "The Speed-Safety Tradeoff: Making the Implicit Explicit",
+          "slug": "/research/077-speed-safety-tradeoff",
+          "excerpt": "Move fast and break things' vs 'go slow and be careful.' AI development constantly navigates this tension, but rarely discusses it explicitly. What does the tradeoff actually involve, and how should different actors balance it?"
+        },
+        {
+          "title": "The Economics of AI Safety: Who Pays and Why It Matters",
+          "slug": "/research/078-economics-ai-safety",
+          "excerpt": "Safety costs money. Who bears those costs shapes what safety work gets done. This article examines the economics of AI safety: funding structures, incentive misalignments, and what economic systems would adequately support safety."
         }
       ]
     },
@@ -757,12 +772,17 @@
       "id": "meta-governance",
       "title": "meta-governance",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Meta-Governance: Who Audits the Auditors?",
           "slug": "/research/006-meta-governance-auditors",
           "excerpt": "As third-party auditing becomes a regulatory requirement, a new principal-agent problem emerges. This note analyzes the certification market and proposes a 'proof-of-verification' protocol."
+        },
+        {
+          "title": "Governance Fragmentation: Too Many Frameworks, Not Enough Coherence",
+          "slug": "/research/082-governance-fragmentation",
+          "excerpt": "The AI governance landscape is crowded with frameworks: principles, guidelines, regulations, and proposals proliferate. This abundance creates incoherence. How do we synthesize without premature standardization?"
         }
       ]
     },
@@ -798,7 +818,7 @@
       "id": "incentives",
       "title": "incentives",
       "group": "concept",
-      "val": 13,
+      "val": 15,
       "articles": [
         {
           "title": "Meta-Governance: Who Audits the Auditors?",
@@ -819,6 +839,11 @@
           "title": "The Game Theory of AI Disclosure: When Transparency is a Prisoner's Dilemma",
           "slug": "/research/067-game-theory-disclosure",
           "excerpt": "Companies face a collective action problem: all would benefit from industry-wide transparency, but unilateral disclosure may harm competitive position. How do we change the payoff structure?"
+        },
+        {
+          "title": "The Economics of AI Safety: Who Pays and Why It Matters",
+          "slug": "/research/078-economics-ai-safety",
+          "excerpt": "Safety costs money. Who bears those costs shapes what safety work gets done. This article examines the economics of AI safety: funding structures, incentive misalignments, and what economic systems would adequately support safety."
         }
       ]
     },
@@ -1645,12 +1670,17 @@
       "id": "uncertainty",
       "title": "uncertainty",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Uncertainty Communication in AI Outputs",
           "slug": "/research/027-uncertainty-communication",
           "excerpt": "AI systems often present confident outputs when genuine uncertainty exists. This analysis examines how AI can better communicate its uncertainty—and why governance requires it."
+        },
+        {
+          "title": "When Experts Were Wrong: Epistemic Humility in AI Predictions",
+          "slug": "/research/074-when-experts-wrong",
+          "excerpt": "AI experts have a poor track record of prediction. Timelines, capabilities, and societal impacts have been consistently misjudged. What should this teach us about confidence in current claims?"
         }
       ]
     },
@@ -1658,12 +1688,17 @@
       "id": "trust",
       "title": "trust",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Uncertainty Communication in AI Outputs",
           "slug": "/research/027-uncertainty-communication",
           "excerpt": "AI systems often present confident outputs when genuine uncertainty exists. This analysis examines how AI can better communicate its uncertainty—and why governance requires it."
+        },
+        {
+          "title": "Trust Calibration: Teaching Users When to Believe AI",
+          "slug": "/research/079-trust-calibration",
+          "excerpt": "Most AI governance focuses on developers and deployers. But users make trust decisions constantly: should I believe this output? Follow this recommendation? This article explores user-facing trust calibration."
         }
       ]
     },
@@ -2412,12 +2447,17 @@
       "id": "international",
       "title": "international",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "AI Governance Without Borders: Lessons from Internet Governance History",
           "slug": "/research/066-internet-governance-lessons",
           "excerpt": "The internet faced similar challenges: global technology, national regulation, coordination problems. What worked? What failed? Lessons from ICANN, IETF, and content moderation for AI governance."
+        },
+        {
+          "title": "AI Governance in the Global South: Different Contexts, Different Priorities",
+          "slug": "/research/076-global-south-governance",
+          "excerpt": "Most AI governance discourse centers the US, EU, and China. But AI is a global technology. What does governance look like from Africa, Southeast Asia, or Latin America? Different contexts demand different priorities."
         }
       ]
     },
@@ -2425,12 +2465,17 @@
       "id": "coordination",
       "title": "coordination",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "AI Governance Without Borders: Lessons from Internet Governance History",
           "slug": "/research/066-internet-governance-lessons",
           "excerpt": "The internet faced similar challenges: global technology, national regulation, coordination problems. What worked? What failed? Lessons from ICANN, IETF, and content moderation for AI governance."
+        },
+        {
+          "title": "Governance Fragmentation: Too Many Frameworks, Not Enough Coherence",
+          "slug": "/research/082-governance-fragmentation",
+          "excerpt": "The AI governance landscape is crowded with frameworks: principles, guidelines, regulations, and proposals proliferate. This abundance creates incoherence. How do we synthesize without premature standardization?"
         }
       ]
     },
@@ -2451,12 +2496,17 @@
       "id": "history",
       "title": "history",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "AI Governance Without Borders: Lessons from Internet Governance History",
           "slug": "/research/066-internet-governance-lessons",
           "excerpt": "The internet faced similar challenges: global technology, national regulation, coordination problems. What worked? What failed? Lessons from ICANN, IETF, and content moderation for AI governance."
+        },
+        {
+          "title": "When Experts Were Wrong: Epistemic Humility in AI Predictions",
+          "slug": "/research/074-when-experts-wrong",
+          "excerpt": "AI experts have a poor track record of prediction. Timelines, capabilities, and societal impacts have been consistently misjudged. What should this teach us about confidence in current claims?"
         }
       ]
     },
@@ -2691,6 +2741,502 @@
           "title": "Simulating Governance: Using AI to Stress-Test AI Regulations",
           "slug": "/research/072-simulating-governance",
           "excerpt": "Regulations are policies. Policies can be simulated. What if we used AI systems to model the effects of proposed regulations before implementation, identifying loopholes and unintended consequences?"
+        }
+      ]
+    },
+    {
+      "id": "researcher-wellbeing",
+      "title": "researcher-wellbeing",
+      "group": "technical",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Burnout Problem: Sustainability in AI Safety Research",
+          "slug": "/research/073-burnout-problem",
+          "excerpt": "AI safety research operates under a 'race against catastrophe' framing. This urgency culture may undermine the very work it motivates. What does sustainable safety research look like?"
+        }
+      ]
+    },
+    {
+      "id": "sustainability",
+      "title": "sustainability",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Burnout Problem: Sustainability in AI Safety Research",
+          "slug": "/research/073-burnout-problem",
+          "excerpt": "AI safety research operates under a 'race against catastrophe' framing. This urgency culture may undermine the very work it motivates. What does sustainable safety research look like?"
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "title": "culture",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Burnout Problem: Sustainability in AI Safety Research",
+          "slug": "/research/073-burnout-problem",
+          "excerpt": "AI safety research operates under a 'race against catastrophe' framing. This urgency culture may undermine the very work it motivates. What does sustainable safety research look like?"
+        }
+      ]
+    },
+    {
+      "id": "institutions",
+      "title": "institutions",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Burnout Problem: Sustainability in AI Safety Research",
+          "slug": "/research/073-burnout-problem",
+          "excerpt": "AI safety research operates under a 'race against catastrophe' framing. This urgency culture may undermine the very work it motivates. What does sustainable safety research look like?"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "title": "meta",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Burnout Problem: Sustainability in AI Safety Research",
+          "slug": "/research/073-burnout-problem",
+          "excerpt": "AI safety research operates under a 'race against catastrophe' framing. This urgency culture may undermine the very work it motivates. What does sustainable safety research look like?"
+        }
+      ]
+    },
+    {
+      "id": "predictions",
+      "title": "predictions",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "When Experts Were Wrong: Epistemic Humility in AI Predictions",
+          "slug": "/research/074-when-experts-wrong",
+          "excerpt": "AI experts have a poor track record of prediction. Timelines, capabilities, and societal impacts have been consistently misjudged. What should this teach us about confidence in current claims?"
+        }
+      ]
+    },
+    {
+      "id": "epistemic-humility",
+      "title": "epistemic-humility",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "When Experts Were Wrong: Epistemic Humility in AI Predictions",
+          "slug": "/research/074-when-experts-wrong",
+          "excerpt": "AI experts have a poor track record of prediction. Timelines, capabilities, and societal impacts have been consistently misjudged. What should this teach us about confidence in current claims?"
+        }
+      ]
+    },
+    {
+      "id": "expert-judgment",
+      "title": "expert-judgment",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "When Experts Were Wrong: Epistemic Humility in AI Predictions",
+          "slug": "/research/074-when-experts-wrong",
+          "excerpt": "AI experts have a poor track record of prediction. Timelines, capabilities, and societal impacts have been consistently misjudged. What should this teach us about confidence in current claims?"
+        }
+      ]
+    },
+    {
+      "id": "market-structure",
+      "title": "market-structure",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Small Actor Problem: How AI Regulation Shapes Market Structure",
+          "slug": "/research/075-small-actor-problem",
+          "excerpt": "AI regulations often benefit large incumbents who can afford compliance. How can governance avoid creating barriers that entrench power and lock out smaller innovators?"
+        }
+      ]
+    },
+    {
+      "id": "small-actors",
+      "title": "small-actors",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Small Actor Problem: How AI Regulation Shapes Market Structure",
+          "slug": "/research/075-small-actor-problem",
+          "excerpt": "AI regulations often benefit large incumbents who can afford compliance. How can governance avoid creating barriers that entrench power and lock out smaller innovators?"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "competition",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Small Actor Problem: How AI Regulation Shapes Market Structure",
+          "slug": "/research/075-small-actor-problem",
+          "excerpt": "AI regulations often benefit large incumbents who can afford compliance. How can governance avoid creating barriers that entrench power and lock out smaller innovators?"
+        }
+      ]
+    },
+    {
+      "id": "power-concentration",
+      "title": "power-concentration",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Small Actor Problem: How AI Regulation Shapes Market Structure",
+          "slug": "/research/075-small-actor-problem",
+          "excerpt": "AI regulations often benefit large incumbents who can afford compliance. How can governance avoid creating barriers that entrench power and lock out smaller innovators?"
+        }
+      ]
+    },
+    {
+      "id": "global-south",
+      "title": "global-south",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI Governance in the Global South: Different Contexts, Different Priorities",
+          "slug": "/research/076-global-south-governance",
+          "excerpt": "Most AI governance discourse centers the US, EU, and China. But AI is a global technology. What does governance look like from Africa, Southeast Asia, or Latin America? Different contexts demand different priorities."
+        }
+      ]
+    },
+    {
+      "id": "development",
+      "title": "development",
+      "group": "concept",
+      "val": 11,
+      "articles": [
+        {
+          "title": "AI Governance in the Global South: Different Contexts, Different Priorities",
+          "slug": "/research/076-global-south-governance",
+          "excerpt": "Most AI governance discourse centers the US, EU, and China. But AI is a global technology. What does governance look like from Africa, Southeast Asia, or Latin America? Different contexts demand different priorities."
+        },
+        {
+          "title": "The Speed-Safety Tradeoff: Making the Implicit Explicit",
+          "slug": "/research/077-speed-safety-tradeoff",
+          "excerpt": "Move fast and break things' vs 'go slow and be careful.' AI development constantly navigates this tension, but rarely discusses it explicitly. What does the tradeoff actually involve, and how should different actors balance it?"
+        },
+        {
+          "title": "AI and Children: Distinct Moral and Governance Considerations",
+          "slug": "/research/080-ai-and-children",
+          "excerpt": "Children are not small adults. AI systems designed for adult contexts may harm children in specific ways. What governance considerations are distinct when AI systems interact with minors?"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "title": "context",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI Governance in the Global South: Different Contexts, Different Priorities",
+          "slug": "/research/076-global-south-governance",
+          "excerpt": "Most AI governance discourse centers the US, EU, and China. But AI is a global technology. What does governance look like from Africa, Southeast Asia, or Latin America? Different contexts demand different priorities."
+        }
+      ]
+    },
+    {
+      "id": "priorities",
+      "title": "priorities",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI Governance in the Global South: Different Contexts, Different Priorities",
+          "slug": "/research/076-global-south-governance",
+          "excerpt": "Most AI governance discourse centers the US, EU, and China. But AI is a global technology. What does governance look like from Africa, Southeast Asia, or Latin America? Different contexts demand different priorities."
+        }
+      ]
+    },
+    {
+      "id": "speed",
+      "title": "speed",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Speed-Safety Tradeoff: Making the Implicit Explicit",
+          "slug": "/research/077-speed-safety-tradeoff",
+          "excerpt": "Move fast and break things' vs 'go slow and be careful.' AI development constantly navigates this tension, but rarely discusses it explicitly. What does the tradeoff actually involve, and how should different actors balance it?"
+        }
+      ]
+    },
+    {
+      "id": "tradeoffs",
+      "title": "tradeoffs",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Speed-Safety Tradeoff: Making the Implicit Explicit",
+          "slug": "/research/077-speed-safety-tradeoff",
+          "excerpt": "Move fast and break things' vs 'go slow and be careful.' AI development constantly navigates this tension, but rarely discusses it explicitly. What does the tradeoff actually involve, and how should different actors balance it?"
+        }
+      ]
+    },
+    {
+      "id": "decision-making",
+      "title": "decision-making",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Speed-Safety Tradeoff: Making the Implicit Explicit",
+          "slug": "/research/077-speed-safety-tradeoff",
+          "excerpt": "Move fast and break things' vs 'go slow and be careful.' AI development constantly navigates this tension, but rarely discusses it explicitly. What does the tradeoff actually involve, and how should different actors balance it?"
+        }
+      ]
+    },
+    {
+      "id": "economics",
+      "title": "economics",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Economics of AI Safety: Who Pays and Why It Matters",
+          "slug": "/research/078-economics-ai-safety",
+          "excerpt": "Safety costs money. Who bears those costs shapes what safety work gets done. This article examines the economics of AI safety: funding structures, incentive misalignments, and what economic systems would adequately support safety."
+        }
+      ]
+    },
+    {
+      "id": "funding",
+      "title": "funding",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Economics of AI Safety: Who Pays and Why It Matters",
+          "slug": "/research/078-economics-ai-safety",
+          "excerpt": "Safety costs money. Who bears those costs shapes what safety work gets done. This article examines the economics of AI safety: funding structures, incentive misalignments, and what economic systems would adequately support safety."
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "title": "investment",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Economics of AI Safety: Who Pays and Why It Matters",
+          "slug": "/research/078-economics-ai-safety",
+          "excerpt": "Safety costs money. Who bears those costs shapes what safety work gets done. This article examines the economics of AI safety: funding structures, incentive misalignments, and what economic systems would adequately support safety."
+        }
+      ]
+    },
+    {
+      "id": "users",
+      "title": "users",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Trust Calibration: Teaching Users When to Believe AI",
+          "slug": "/research/079-trust-calibration",
+          "excerpt": "Most AI governance focuses on developers and deployers. But users make trust decisions constantly: should I believe this output? Follow this recommendation? This article explores user-facing trust calibration."
+        }
+      ]
+    },
+    {
+      "id": "calibration",
+      "title": "calibration",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Trust Calibration: Teaching Users When to Believe AI",
+          "slug": "/research/079-trust-calibration",
+          "excerpt": "Most AI governance focuses on developers and deployers. But users make trust decisions constantly: should I believe this output? Follow this recommendation? This article explores user-facing trust calibration."
+        }
+      ]
+    },
+    {
+      "id": "reliability",
+      "title": "reliability",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Trust Calibration: Teaching Users When to Believe AI",
+          "slug": "/research/079-trust-calibration",
+          "excerpt": "Most AI governance focuses on developers and deployers. But users make trust decisions constantly: should I believe this output? Follow this recommendation? This article explores user-facing trust calibration."
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "title": "education",
+      "group": "concept",
+      "val": 9,
+      "articles": [
+        {
+          "title": "Trust Calibration: Teaching Users When to Believe AI",
+          "slug": "/research/079-trust-calibration",
+          "excerpt": "Most AI governance focuses on developers and deployers. But users make trust decisions constantly: should I believe this output? Follow this recommendation? This article explores user-facing trust calibration."
+        },
+        {
+          "title": "AI and Children: Distinct Moral and Governance Considerations",
+          "slug": "/research/080-ai-and-children",
+          "excerpt": "Children are not small adults. AI systems designed for adult contexts may harm children in specific ways. What governance considerations are distinct when AI systems interact with minors?"
+        }
+      ]
+    },
+    {
+      "id": "children",
+      "title": "children",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI and Children: Distinct Moral and Governance Considerations",
+          "slug": "/research/080-ai-and-children",
+          "excerpt": "Children are not small adults. AI systems designed for adult contexts may harm children in specific ways. What governance considerations are distinct when AI systems interact with minors?"
+        }
+      ]
+    },
+    {
+      "id": "minors",
+      "title": "minors",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI and Children: Distinct Moral and Governance Considerations",
+          "slug": "/research/080-ai-and-children",
+          "excerpt": "Children are not small adults. AI systems designed for adult contexts may harm children in specific ways. What governance considerations are distinct when AI systems interact with minors?"
+        }
+      ]
+    },
+    {
+      "id": "protection",
+      "title": "protection",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI and Children: Distinct Moral and Governance Considerations",
+          "slug": "/research/080-ai-and-children",
+          "excerpt": "Children are not small adults. AI systems designed for adult contexts may harm children in specific ways. What governance considerations are distinct when AI systems interact with minors?"
+        }
+      ]
+    },
+    {
+      "id": "psychology",
+      "title": "psychology",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Emotional Labor of AI: Psychological Impacts at Scale",
+          "slug": "/research/081-emotional-labor-ai",
+          "excerpt": "Millions form emotional connections with AI systems: companions, assistants, therapeutic tools. What are the psychological effects? What responsibilities do developers have for emotional wellbeing?"
+        }
+      ]
+    },
+    {
+      "id": "emotions",
+      "title": "emotions",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Emotional Labor of AI: Psychological Impacts at Scale",
+          "slug": "/research/081-emotional-labor-ai",
+          "excerpt": "Millions form emotional connections with AI systems: companions, assistants, therapeutic tools. What are the psychological effects? What responsibilities do developers have for emotional wellbeing?"
+        }
+      ]
+    },
+    {
+      "id": "relationships",
+      "title": "relationships",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Emotional Labor of AI: Psychological Impacts at Scale",
+          "slug": "/research/081-emotional-labor-ai",
+          "excerpt": "Millions form emotional connections with AI systems: companions, assistants, therapeutic tools. What are the psychological effects? What responsibilities do developers have for emotional wellbeing?"
+        }
+      ]
+    },
+    {
+      "id": "wellbeing",
+      "title": "wellbeing",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Emotional Labor of AI: Psychological Impacts at Scale",
+          "slug": "/research/081-emotional-labor-ai",
+          "excerpt": "Millions form emotional connections with AI systems: companions, assistants, therapeutic tools. What are the psychological effects? What responsibilities do developers have for emotional wellbeing?"
+        }
+      ]
+    },
+    {
+      "id": "companionship",
+      "title": "companionship",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Emotional Labor of AI: Psychological Impacts at Scale",
+          "slug": "/research/081-emotional-labor-ai",
+          "excerpt": "Millions form emotional connections with AI systems: companions, assistants, therapeutic tools. What are the psychological effects? What responsibilities do developers have for emotional wellbeing?"
+        }
+      ]
+    },
+    {
+      "id": "fragmentation",
+      "title": "fragmentation",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Governance Fragmentation: Too Many Frameworks, Not Enough Coherence",
+          "slug": "/research/082-governance-fragmentation",
+          "excerpt": "The AI governance landscape is crowded with frameworks: principles, guidelines, regulations, and proposals proliferate. This abundance creates incoherence. How do we synthesize without premature standardization?"
+        }
+      ]
+    },
+    {
+      "id": "frameworks",
+      "title": "frameworks",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Governance Fragmentation: Too Many Frameworks, Not Enough Coherence",
+          "slug": "/research/082-governance-fragmentation",
+          "excerpt": "The AI governance landscape is crowded with frameworks: principles, guidelines, regulations, and proposals proliferate. This abundance creates incoherence. How do we synthesize without premature standardization?"
+        }
+      ]
+    },
+    {
+      "id": "synthesis",
+      "title": "synthesis",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Governance Fragmentation: Too Many Frameworks, Not Enough Coherence",
+          "slug": "/research/082-governance-fragmentation",
+          "excerpt": "The AI governance landscape is crowded with frameworks: principles, guidelines, regulations, and proposals proliferate. This abundance creates incoherence. How do we synthesize without premature standardization?"
         }
       ]
     }
@@ -4844,6 +5390,506 @@
     {
       "source": "modeling",
       "target": "unintended-consequences",
+      "value": 1
+    },
+    {
+      "source": "researcher-wellbeing",
+      "target": "sustainability",
+      "value": 1
+    },
+    {
+      "source": "culture",
+      "target": "researcher-wellbeing",
+      "value": 1
+    },
+    {
+      "source": "institutions",
+      "target": "researcher-wellbeing",
+      "value": 1
+    },
+    {
+      "source": "meta",
+      "target": "researcher-wellbeing",
+      "value": 1
+    },
+    {
+      "source": "culture",
+      "target": "sustainability",
+      "value": 1
+    },
+    {
+      "source": "institutions",
+      "target": "sustainability",
+      "value": 1
+    },
+    {
+      "source": "meta",
+      "target": "sustainability",
+      "value": 1
+    },
+    {
+      "source": "culture",
+      "target": "institutions",
+      "value": 1
+    },
+    {
+      "source": "culture",
+      "target": "meta",
+      "value": 1
+    },
+    {
+      "source": "institutions",
+      "target": "meta",
+      "value": 1
+    },
+    {
+      "source": "epistemic-humility",
+      "target": "predictions",
+      "value": 1
+    },
+    {
+      "source": "history",
+      "target": "predictions",
+      "value": 1
+    },
+    {
+      "source": "predictions",
+      "target": "uncertainty",
+      "value": 1
+    },
+    {
+      "source": "expert-judgment",
+      "target": "predictions",
+      "value": 1
+    },
+    {
+      "source": "epistemic-humility",
+      "target": "history",
+      "value": 1
+    },
+    {
+      "source": "epistemic-humility",
+      "target": "uncertainty",
+      "value": 1
+    },
+    {
+      "source": "epistemic-humility",
+      "target": "expert-judgment",
+      "value": 1
+    },
+    {
+      "source": "history",
+      "target": "uncertainty",
+      "value": 1
+    },
+    {
+      "source": "expert-judgment",
+      "target": "history",
+      "value": 1
+    },
+    {
+      "source": "expert-judgment",
+      "target": "uncertainty",
+      "value": 1
+    },
+    {
+      "source": "market-structure",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "regulation",
+      "target": "small-actors",
+      "value": 1
+    },
+    {
+      "source": "competition",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "power-concentration",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "market-structure",
+      "target": "small-actors",
+      "value": 1
+    },
+    {
+      "source": "competition",
+      "target": "market-structure",
+      "value": 1
+    },
+    {
+      "source": "market-structure",
+      "target": "power-concentration",
+      "value": 1
+    },
+    {
+      "source": "competition",
+      "target": "small-actors",
+      "value": 1
+    },
+    {
+      "source": "power-concentration",
+      "target": "small-actors",
+      "value": 1
+    },
+    {
+      "source": "competition",
+      "target": "power-concentration",
+      "value": 1
+    },
+    {
+      "source": "global-south",
+      "target": "international",
+      "value": 1
+    },
+    {
+      "source": "development",
+      "target": "global-south",
+      "value": 1
+    },
+    {
+      "source": "context",
+      "target": "global-south",
+      "value": 1
+    },
+    {
+      "source": "global-south",
+      "target": "priorities",
+      "value": 1
+    },
+    {
+      "source": "development",
+      "target": "international",
+      "value": 1
+    },
+    {
+      "source": "context",
+      "target": "international",
+      "value": 1
+    },
+    {
+      "source": "international",
+      "target": "priorities",
+      "value": 1
+    },
+    {
+      "source": "context",
+      "target": "development",
+      "value": 1
+    },
+    {
+      "source": "development",
+      "target": "priorities",
+      "value": 1
+    },
+    {
+      "source": "context",
+      "target": "priorities",
+      "value": 1
+    },
+    {
+      "source": "safety",
+      "target": "speed",
+      "value": 1
+    },
+    {
+      "source": "speed",
+      "target": "tradeoffs",
+      "value": 1
+    },
+    {
+      "source": "development",
+      "target": "speed",
+      "value": 1
+    },
+    {
+      "source": "decision-making",
+      "target": "speed",
+      "value": 1
+    },
+    {
+      "source": "safety",
+      "target": "tradeoffs",
+      "value": 1
+    },
+    {
+      "source": "development",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "decision-making",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "development",
+      "target": "tradeoffs",
+      "value": 1
+    },
+    {
+      "source": "decision-making",
+      "target": "tradeoffs",
+      "value": 1
+    },
+    {
+      "source": "decision-making",
+      "target": "development",
+      "value": 1
+    },
+    {
+      "source": "economics",
+      "target": "funding",
+      "value": 1
+    },
+    {
+      "source": "economics",
+      "target": "incentives",
+      "value": 1
+    },
+    {
+      "source": "economics",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "economics",
+      "target": "investment",
+      "value": 1
+    },
+    {
+      "source": "funding",
+      "target": "incentives",
+      "value": 1
+    },
+    {
+      "source": "funding",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "funding",
+      "target": "investment",
+      "value": 1
+    },
+    {
+      "source": "incentives",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "incentives",
+      "target": "investment",
+      "value": 1
+    },
+    {
+      "source": "investment",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "trust",
+      "target": "users",
+      "value": 1
+    },
+    {
+      "source": "calibration",
+      "target": "trust",
+      "value": 1
+    },
+    {
+      "source": "reliability",
+      "target": "trust",
+      "value": 1
+    },
+    {
+      "source": "education",
+      "target": "trust",
+      "value": 1
+    },
+    {
+      "source": "calibration",
+      "target": "users",
+      "value": 1
+    },
+    {
+      "source": "reliability",
+      "target": "users",
+      "value": 1
+    },
+    {
+      "source": "education",
+      "target": "users",
+      "value": 1
+    },
+    {
+      "source": "calibration",
+      "target": "reliability",
+      "value": 1
+    },
+    {
+      "source": "calibration",
+      "target": "education",
+      "value": 1
+    },
+    {
+      "source": "education",
+      "target": "reliability",
+      "value": 1
+    },
+    {
+      "source": "children",
+      "target": "minors",
+      "value": 1
+    },
+    {
+      "source": "children",
+      "target": "development",
+      "value": 1
+    },
+    {
+      "source": "children",
+      "target": "protection",
+      "value": 1
+    },
+    {
+      "source": "children",
+      "target": "education",
+      "value": 1
+    },
+    {
+      "source": "development",
+      "target": "minors",
+      "value": 1
+    },
+    {
+      "source": "minors",
+      "target": "protection",
+      "value": 1
+    },
+    {
+      "source": "education",
+      "target": "minors",
+      "value": 1
+    },
+    {
+      "source": "development",
+      "target": "protection",
+      "value": 1
+    },
+    {
+      "source": "development",
+      "target": "education",
+      "value": 1
+    },
+    {
+      "source": "education",
+      "target": "protection",
+      "value": 1
+    },
+    {
+      "source": "emotions",
+      "target": "psychology",
+      "value": 1
+    },
+    {
+      "source": "psychology",
+      "target": "relationships",
+      "value": 1
+    },
+    {
+      "source": "psychology",
+      "target": "wellbeing",
+      "value": 1
+    },
+    {
+      "source": "companionship",
+      "target": "psychology",
+      "value": 1
+    },
+    {
+      "source": "emotions",
+      "target": "relationships",
+      "value": 1
+    },
+    {
+      "source": "emotions",
+      "target": "wellbeing",
+      "value": 1
+    },
+    {
+      "source": "companionship",
+      "target": "emotions",
+      "value": 1
+    },
+    {
+      "source": "relationships",
+      "target": "wellbeing",
+      "value": 1
+    },
+    {
+      "source": "companionship",
+      "target": "relationships",
+      "value": 1
+    },
+    {
+      "source": "companionship",
+      "target": "wellbeing",
+      "value": 1
+    },
+    {
+      "source": "fragmentation",
+      "target": "frameworks",
+      "value": 1
+    },
+    {
+      "source": "coordination",
+      "target": "fragmentation",
+      "value": 1
+    },
+    {
+      "source": "fragmentation",
+      "target": "meta-governance",
+      "value": 1
+    },
+    {
+      "source": "fragmentation",
+      "target": "synthesis",
+      "value": 1
+    },
+    {
+      "source": "coordination",
+      "target": "frameworks",
+      "value": 1
+    },
+    {
+      "source": "frameworks",
+      "target": "meta-governance",
+      "value": 1
+    },
+    {
+      "source": "frameworks",
+      "target": "synthesis",
+      "value": 1
+    },
+    {
+      "source": "coordination",
+      "target": "meta-governance",
+      "value": 1
+    },
+    {
+      "source": "coordination",
+      "target": "synthesis",
+      "value": 1
+    },
+    {
+      "source": "meta-governance",
+      "target": "synthesis",
       "value": 1
     }
   ]

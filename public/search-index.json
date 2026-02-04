@@ -1,5 +1,105 @@
 [
   {
+    "id": 82,
+    "title": "Governance Fragmentation: Too Many Frameworks, Not Enough Coherence",
+    "excerpt": "The AI governance landscape is crowded with frameworks: principles, guidelines, regulations, and proposals proliferate. This abundance creates incoherence. How do we synthesize without premature standardization?",
+    "slug": "082-governance-fragmentation",
+    "date": "2026-02-04",
+    "tags": [],
+    "categories": [],
+    "body": "The Crowded Landscape Count the AI governance frameworks. The EU AI Act. The NIST AI Risk Management Framework. OECD AI Principles. The Bletchley Declaration. IEEE standards. ISO standards. Industry commitments. Academic proposals. Civil society guidelines. National strategies from dozens of countries. The list grows weekly. Each new framework promises structure, clarity, and guidance. Each adds to the pile that practitioners must somehow navigate. This is governance fragmentation: not absence o"
+  },
+  {
+    "id": 81,
+    "title": "The Emotional Labor of AI: Psychological Impacts at Scale",
+    "excerpt": "Millions form emotional connections with AI systems: companions, assistants, therapeutic tools. What are the psychological effects? What responsibilities do developers have for emotional wellbeing?",
+    "slug": "081-emotional-labor-ai",
+    "date": "2026-02-04",
+    "tags": [],
+    "categories": [],
+    "body": "The New Relationship Something unprecedented is happening. Millions of people are forming emotional bonds with AI systems. Not just using AI as tools but relating to them: confiding in chatbots, developing affection for assistants, finding comfort in AI companions. For some, these are significant relationships, sources of support, understanding, and connection. This is not a fringe phenomenon. Companion AI apps have millions of users. Chatbot interactions often become personal. Users report genu"
+  },
+  {
+    "id": 80,
+    "title": "AI and Children: Distinct Moral and Governance Considerations",
+    "excerpt": "Children are not small adults. AI systems designed for adult contexts may harm children in specific ways. What governance considerations are distinct when AI systems interact with minors?",
+    "slug": "080-ai-and-children",
+    "date": "2026-02-04",
+    "tags": [],
+    "categories": [],
+    "body": "A Distinct Population Children are not small adults. This basic insight, established in developmental psychology and children's rights law, has not been adequately incorporated into AI governance. Children have distinct vulnerabilities: developing brains, limited life experience, ongoing identity formation, dependency on adults. They also have distinct needs: education, play, protection, gradual autonomy. AI systems designed for adult contexts, with adult reasoning and adult resilience assumed, "
+  },
+  {
+    "id": 79,
+    "title": "Trust Calibration: Teaching Users When to Believe AI",
+    "excerpt": "Most AI governance focuses on developers and deployers. But users make trust decisions constantly: should I believe this output? Follow this recommendation? This article explores user-facing trust calibration.",
+    "slug": "079-trust-calibration",
+    "date": "2026-02-04",
+    "tags": [],
+    "categories": [],
+    "body": "The User's Dilemma Every time a user interacts with an AI system, they face a question they may not articulate: should I trust this output? They might trust it completely and act accordingly. They might dismiss it entirely and ignore it. Or they might calibrate: trust it for some purposes, verify it for others, discount it appropriately for uncertainty. Calibration is hard. AI systems do not come with reliability meters. Confidence is not always communicated. Users often lack the domain knowledg"
+  },
+  {
+    "id": 78,
+    "title": "The Economics of AI Safety: Who Pays and Why It Matters",
+    "excerpt": "Safety costs money. Who bears those costs shapes what safety work gets done. This article examines the economics of AI safety: funding structures, incentive misalignments, and what economic systems would adequately support safety.",
+    "slug": "078-economics-ai-safety",
+    "date": "2026-02-04",
+    "tags": [],
+    "categories": [],
+    "body": "Safety is Not Free AI safety requires resources: researcher salaries, compute for experiments, time for testing, infrastructure for auditing. These resources are not free. Who pays for safety work shapes what work gets done. If safety funding comes from commercial labs, it reflects commercial priorities. If it comes from governments, it reflects political priorities. If it comes from philanthropy, it reflects donor priorities. Understanding the economics of AI safety is essential for understandi"
+  },
+  {
+    "id": 77,
+    "title": "The Speed-Safety Tradeoff: Making the Implicit Explicit",
+    "excerpt": "Move fast and break things' vs 'go slow and be careful.' AI development constantly navigates this tension, but rarely discusses it explicitly. What does the tradeoff actually involve, and how should different actors balance it?",
+    "slug": "077-speed-safety-tradeoff",
+    "date": "2026-02-04",
+    "tags": [],
+    "categories": [],
+    "body": "The Unspoken Tension Every AI development decision involves a tradeoff between speed and safety. Should we launch now or test longer? Should we add this capability or wait until we understand it better? Should we prioritize features or red-teaming? This tradeoff is ubiquitous but rarely explicit. It operates in the background of funding decisions, hiring priorities, release schedules, and competitive positioning. Making it explicit may help navigate it more thoughtfully. What Speed Provides Spee"
+  },
+  {
+    "id": 76,
+    "title": "AI Governance in the Global South: Different Contexts, Different Priorities",
+    "excerpt": "Most AI governance discourse centers the US, EU, and China. But AI is a global technology. What does governance look like from Africa, Southeast Asia, or Latin America? Different contexts demand different priorities.",
+    "slug": "076-global-south-governance",
+    "date": "2026-02-04",
+    "tags": [],
+    "categories": [],
+    "body": "The Missing Perspective Open any AI governance paper. The framings are familiar: the EU AI Act, US executive orders, Chinese regulations, the US-China race, competition between OpenAI and Anthropic. What about Nigeria? Indonesia? Brazil? Argentina? Kenya? Vietnam? These countries are not peripheral to AI. They are significant markets, talent sources, and use contexts. Yet their perspectives are largely absent from governance discourse. When global governance is discussed, it usually means: how s"
+  },
+  {
+    "id": 75,
+    "title": "The Small Actor Problem: How AI Regulation Shapes Market Structure",
+    "excerpt": "AI regulations often benefit large incumbents who can afford compliance. How can governance avoid creating barriers that entrench power and lock out smaller innovators?",
+    "slug": "075-small-actor-problem",
+    "date": "2026-02-04",
+    "tags": [],
+    "categories": [],
+    "body": "The Hidden Cost of Compliance Every regulation has compliance costs. Documentation requirements take lawyer time. Audits require auditor fees. Safety testing demands infrastructure. Certification involves bureaucracy. For large organizations, these costs are manageable. A company with billions in revenue can absorb millions in compliance. The cost is a line item. For small organizations, the same absolute costs may be prohibitive. A startup with ten employees cannot hire a compliance team. A non"
+  },
+  {
+    "id": 74,
+    "title": "When Experts Were Wrong: Epistemic Humility in AI Predictions",
+    "excerpt": "AI experts have a poor track record of prediction. Timelines, capabilities, and societal impacts have been consistently misjudged. What should this teach us about confidence in current claims?",
+    "slug": "074-when-experts-wrong",
+    "date": "2026-02-04",
+    "tags": [],
+    "categories": [],
+    "body": "A History of Confident Mistakes In 1965, Herbert Simon predicted that within twenty years, machines would be capable of doing any work a human can do. In 1970, Marvin Minsky said that within three to eight years, we would have a machine with the general intelligence of an average human being. These were not fringe figures making wild guesses. They were founders of the field, speaking from deep expertise. They were wrong. The history of AI is filled with confident predictions that failed spectacu"
+  },
+  {
+    "id": 73,
+    "title": "The Burnout Problem: Sustainability in AI Safety Research",
+    "excerpt": "AI safety research operates under a 'race against catastrophe' framing. This urgency culture may undermine the very work it motivates. What does sustainable safety research look like?",
+    "slug": "073-burnout-problem",
+    "date": "2026-02-04",
+    "tags": [],
+    "categories": [],
+    "body": "The Urgency Trap AI safety researchers often work under extraordinary pressure. The framing is familiar: we may have limited time before transformative AI arrives, safety research is underfunded relative to capability research, the stakes could not be higher. This urgency is not manufactured. There are genuine reasons to believe AI safety matters and that timelines may be shorter than comfortable. But urgency has costs. And those costs may undermine the very research they're supposed to motivate"
+  },
+  {
     "id": 72,
     "title": "Simulating Governance: Using AI to Stress-Test AI Regulations",
     "excerpt": "Regulations are policies. Policies can be simulated. What if we used AI systems to model the effects of proposed regulations before implementation, identifying loopholes and unintended consequences?",
