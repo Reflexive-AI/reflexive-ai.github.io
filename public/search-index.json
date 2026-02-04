@@ -1,19 +1,22 @@
 [
   {
+    "id": 62,
+    "title": "The False Binary: Why 'Regulate Use, Not Models' Gets AI Governance Wrong",
+    "excerpt": "A recent IEEE Spectrum article argues for use-based AI regulation over model-based approaches. This framing misses what actually works: layered, reflexive governance that addresses capabilities, deployment, and systemic accountability together.",
+    "slug": "062-use-vs-models-false-binary",
+    "date": "2026-02-04",
+    "tags": [],
+    "categories": [],
+    "body": "The Appeal of Use-Based Regulation John deVadoss's recent article in IEEE Spectrum, \"Don't Regulate AI Models. Regulate AI Use,\" offers a seductive simplicity. Stop trying to control the technology itself; instead, control what people do with it. Regulate at \"choke points\" like app stores, cloud platforms, and payment rails. Scale obligations to risk tiers. Let models flow freely and catch the bad actors downstream. The appeal is obvious. Model weights, once released, replicate at near-zero cost"
+  },
+  {
     "id": 61,
     "title": "Self-Modifying Constraints: Technical Approaches",
     "excerpt": "Exploring how AI systems can be governed through self-modifying constraints, bridging technical architecture with safety and oversight frameworks.",
     "slug": "061-self-modifying-constraints-technical-approaches",
     "date": "2026-02-04",
-    "tags": [
-      "governance",
-      "safety",
-      "self-modification",
-      "AI constraints"
-    ],
-    "categories": [
-      "Technical Research"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Reflexive Research Object 061 Type: Technical Research & Candidate Constraint Introduction As artificial intelligence systems grow in complexity and capability, ensuring their safe operation becomes increasingly difficult. One promising approach involves embedding constraints directly into AI systems, allowing them to self-monitor and, in some cases, self-modify these constraints to adapt to new contexts without compromising safety. These \"self-modifying constraints\" represent a hybrid strategy:"
   },
   {
@@ -22,16 +25,8 @@
     "excerpt": "Exploring how hardware design can embed safety and security features directly into AI systems, with implications for governance and risk mitigation.",
     "slug": "060-hardware-level-safety-mechanisms",
     "date": "2026-02-04",
-    "tags": [
-      "hardware",
-      "safety",
-      "governance",
-      "risk-mitigation"
-    ],
-    "categories": [
-      "Safety Mechanisms",
-      "AI Governance"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Reflexive Research Object 060 Type: Research & Candidate Constraint Introduction The discourse around artificial intelligence (AI) safety often focuses on software-level solutions: algorithmic alignment, interpretability techniques, and robust monitoring systems. However, as AI systems grow in computational complexity and become more embedded in critical infrastructure, it is increasingly clear that software solutions alone are insufficient. Hardware—the physical substrate on which AI operates—p"
   },
   {
@@ -40,16 +35,8 @@
     "excerpt": "An exploration of differential privacy as a critical tool for AI governance, its practical applications, limitations, and its role in ensuring both technical and societal safety.",
     "slug": "059-differential-privacy-in-ai-systems",
     "date": "2026-02-04",
-    "tags": [
-      "privacy",
-      "governance",
-      "AI safety",
-      "technical safeguards",
-      "data security"
-    ],
-    "categories": [
-      "Research"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Reflexive Research Object 059 Type: Research & Governance Introduction Differential privacy has emerged as a cornerstone technique for preserving individual privacy in large-scale data processing systems. As artificial intelligence (AI) systems increasingly rely on vast amounts of sensitive personal data, the integration of differential privacy offers a promising avenue to mitigate privacy risks. This is not merely a technical consideration: the governance of AI systems, particularly in regulato"
   },
   {
@@ -58,16 +45,8 @@
     "excerpt": "Examining the role of versioning and rollback mechanisms in AI governance to ensure safety, accountability, and operational continuity.",
     "slug": "058-model-versioning-and-rollback-protocols",
     "date": "2026-02-04",
-    "tags": [
-      "versioning",
-      "rollback",
-      "safety",
-      "accountability",
-      "ai-governance"
-    ],
-    "categories": [
-      "Governance Frameworks"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Reflexive Research Object 058 Type: Governance Frameworks & Technical Protocols Introduction The rapid evolution of artificial intelligence (AI) systems has made versioning and rollback protocols critical elements of AI governance. As machine learning (ML) models become more complex and widely deployed, the ability to track versions, manage updates, and revert to previous states in response to safety concerns is essential for mitigating risks. These mechanisms are particularly relevant for high-"
   },
   {
@@ -76,18 +55,8 @@
     "excerpt": "Examining the phenomenon of emergent capabilities in deployed AI systems and its implications for safety, governance, and accountability.",
     "slug": "057-post-deployment-capability-discovery",
     "date": "2026-02-03",
-    "tags": [
-      "emergent behavior",
-      "post-deployment risks",
-      "governance",
-      "monitoring",
-      "reflexive AI"
-    ],
-    "categories": [
-      "AI Safety",
-      "Capability Discovery",
-      "Governance Analysis"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Reflexive Research Object 057 Type: Research Analysis & Capability Governance Introduction The deployment of advanced AI systems has introduced profound governance challenges, particularly regarding the discovery of capabilities that were not anticipated during pre-deployment testing. These \"post-deployment capabilities\" can range from benign emergent behaviors to potentially dangerous functionalities. For instance, a language model might unexpectedly develop the ability to generate malicious co"
   },
   {
@@ -96,15 +65,8 @@
     "excerpt": "A comprehensive framework for ensuring the safety, reliability, and accountability of AI models post-deployment.",
     "slug": "056-monitoring-deployed-models",
     "date": "2026-02-03",
-    "tags": [
-      "monitoring",
-      "ai-safety",
-      "governance",
-      "accountability"
-    ],
-    "categories": [
-      "Risk Management"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Introduction As artificial intelligence (AI) systems become more powerful and widely deployed, their post-deployment monitoring becomes a critical component of governance, safety, and accountability. While pre-deployment assessments such as Pre-Deployment Risk Assessment Frameworks are essential to identifying and mitigating risks, the dynamic nature of real-world environments necessitates continuous oversight. Deployed AI models often interact with unpredictable conditions, evolving data distri"
   },
   {
@@ -113,17 +75,8 @@
     "excerpt": "A comprehensive exploration of how rate limiting and abuse detection mechanisms can be employed to improve AI system safety and governance.",
     "slug": "055-rate-limiting-and-abuse-detection",
     "date": "2026-02-03",
-    "tags": [
-      "rate limiting",
-      "abuse detection",
-      "ai governance",
-      "safety mechanisms",
-      "trust and safety"
-    ],
-    "categories": [
-      "Safety Mechanisms",
-      "Governance Tools"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Reflexive Research Object 055 Type: Safety Mechanisms & Governance Tools Introduction As AI systems become more capable and accessible, they are increasingly embedded in critical societal functions. However, this ubiquity also introduces significant risks: from spamming and misuse to hostile exploitation. Two critical tools for mitigating these risks—rate limiting and abuse detection—are often overlooked in broader conversations about AI governance and safety mechanisms. These techniques, widely"
   },
   {
@@ -132,17 +85,8 @@
     "excerpt": "Exploring the role of API-level safety measures in AI governance, their implementation, and their implications for mitigating malicious use and accidental harm.",
     "slug": "054-api-level-safety-controls",
     "date": "2026-02-03",
-    "tags": [
-      "api-controls",
-      "safety-mechanisms",
-      "access-management",
-      "ai-governance",
-      "regulation"
-    ],
-    "categories": [
-      "Technical Safety",
-      "Governance Analysis"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Reflexive Research Object 054 Type: Technical Safety & Policy Proposal Introduction As artificial intelligence systems grow more capable, concerns about their misuse and unintended consequences have intensified. A significant portion of these risks arises not from the models themselves but from how they are accessed and deployed. Application Programming Interfaces (APIs) are the dominant mechanism for accessing AI models in real-world applications: they serve as the bridge between these models a"
   },
   {
@@ -151,15 +95,8 @@
     "excerpt": "Security measures for protecting AI model weights from theft, tampering, and unauthorized access across physical and digital domains.",
     "slug": "053-secure-model-weights-physical-and-digital",
     "date": "2026-02-03",
-    "tags": [
-      "Security",
-      "Model Weights",
-      "Infrastructure",
-      "Governance"
-    ],
-    "categories": [
-      "Research"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Model weights represent the culmination of significant investment in compute, data, and research. For frontier AI systems, these weights encode capabilities that may pose security risks if accessed by malicious actors. This article examines the security landscape for model weights, covering physical infrastructure, digital access controls, and governance frameworks for weight protection. Why Weight Security Matters The weights of a trained model contain its capabilities. Unlike traditional softw"
   },
   {
@@ -168,15 +105,8 @@
     "excerpt": "Technical and governance approaches to marking AI-generated content and establishing chains of custody for model outputs.",
     "slug": "052-watermarking-and-content-provenance",
     "date": "2026-02-03",
-    "tags": [
-      "Watermarking",
-      "Provenance",
-      "Content Authentication",
-      "Governance"
-    ],
-    "categories": [
-      "Research"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "AI-generated content now circulates at scale. Distinguishing synthetic from human-produced material, and tracing outputs back to their source models, has become a governance priority. This piece examines watermarking techniques, provenance metadata standards, and the policy infrastructure needed to make these mechanisms effective. Why Provenance Matters for Governance Content provenance provides evidence for accountability. When an AI system produces harmful outputs, provenance data helps identi"
   },
   {
@@ -185,15 +115,8 @@
     "excerpt": "How interpretability methods supply evidence for AI oversight: approvals, audits, monitoring, and incident response.",
     "slug": "051-interpretability-as-a-governance-tool",
     "date": "2026-02-02",
-    "tags": [
-      "Interpretability",
-      "Transparency",
-      "Governance",
-      "Evaluation"
-    ],
-    "categories": [
-      "Research"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Interpretability is often treated as an internal research goal. For governance, it is an evidence channel: a way to show how a system behaves, why it behaves that way, and whether safeguards are working. This piece maps interpretability methods to concrete governance functions and outlines protocols for making the resulting evidence trustworthy. Governance Use Cases for Interpretability - Pre-deployment approval: Demonstrate that safety mitigations are present and active on high-risk pathways. -"
   },
   {
@@ -202,15 +125,8 @@
     "excerpt": "Structured approaches to adversarial testing of AI systems, from scope definition through remediation verification.",
     "slug": "050-red-teaming-methodologies",
     "date": "2026-02-01",
-    "tags": [
-      "Red Teaming",
-      "Security",
-      "Safety",
-      "Evaluation"
-    ],
-    "categories": [
-      "Research"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Red teaming—structured adversarial testing by teams attempting to find system failures—has become essential practice for AI safety evaluation. But methodological variation across organizations limits comparability and may leave gaps in coverage. This analysis presents a framework for AI red teaming that balances rigor with practical constraints. Red Teaming Foundations Red teaming originated in military contexts: independent teams challenge plans, assumptions, and defenses to identify vulnerabil"
   },
   {
@@ -219,15 +135,8 @@
     "excerpt": "A survey of existing standards and practices for evaluating AI model performance, safety, and fitness for deployment.",
     "slug": "049-model-evaluation-standards",
     "date": "2026-01-31",
-    "tags": [
-      "Evaluation",
-      "Standards",
-      "Benchmarks",
-      "Safety"
-    ],
-    "categories": [
-      "Research"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "How do we know whether an AI model is good enough? This deceptively simple question opens onto a complex landscape of evaluation standards, benchmarks, methodologies, and institutions. This analysis surveys the current state of model evaluation standards—what exists, what's missing, and where practice is heading. The Evaluation Challenge Model evaluation serves multiple purposes: - Development guidance: Informing research and engineering decisions during model creation - Deployment decisions: De"
   },
   {
@@ -236,16 +145,8 @@
     "excerpt": "Comprehensive frameworks for managing the data that shapes AI systems, from collection through curation to retirement.",
     "slug": "048-training-data-governance",
     "date": "2026-01-30",
-    "tags": [
-      "Data Governance",
-      "Training Data",
-      "Privacy",
-      "Transparency"
-    ],
-    "categories": [
-      "Research",
-      "Policy"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "AI systems learn from data. The data used in training therefore shapes system behavior in fundamental ways—determining what patterns the model learns, what biases it encodes, what capabilities it acquires. Training data governance addresses the policies, processes, and controls that ensure this foundational resource serves intended purposes without causing unintended harms. Why Training Data Matters The relationship between training data and model behavior isn't always obvious. Complex patterns "
   },
   {
@@ -254,15 +155,8 @@
     "excerpt": "Structured approaches to evaluating AI system risks before release, balancing comprehensiveness with practical constraints.",
     "slug": "047-pre-deployment-risk-assessment",
     "date": "2026-01-29",
-    "tags": [
-      "Risk Assessment",
-      "Deployment",
-      "Safety",
-      "Evaluation"
-    ],
-    "categories": [
-      "Research"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Releasing an AI system creates facts on the ground that are difficult to reverse. Pre-deployment risk assessment aims to identify problems while they can still be prevented rather than merely managed. This analysis examines frameworks that structure this critical evaluation phase. The Pre-Deployment Window The period between completing development and releasing a system represents the last opportunity for intervention without real-world consequences. Once deployed, AI systems generate user depen"
   },
   {
@@ -271,16 +165,8 @@
     "excerpt": "A practical framework for conducting meaningful algorithmic impact assessments that move beyond checkbox compliance to genuine harm prevention.",
     "slug": "046-algorithmic-impact-assessments",
     "date": "2026-01-28",
-    "tags": [
-      "Impact Assessment",
-      "Risk Governance",
-      "Implementation",
-      "Best Practices"
-    ],
-    "categories": [
-      "Research",
-      "Policy"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Algorithmic Impact Assessments (AIAs) promise to identify and mitigate harms before AI systems are deployed. In practice, most implementations fall short of this promise. This guide presents a framework for assessments that actually influence design decisions rather than merely documenting them after the fact. The Assessment Gap AIAs emerged from environmental and privacy impact assessments, adapting established regulatory tools for algorithmic systems. The EU AI Act, Canada's Algorithmic Impact"
   },
   {
@@ -289,15 +175,8 @@
     "excerpt": "How can ordinary citizens meaningfully participate in decisions about AI that will affect their lives? An examination of mechanisms for democratic AI governance.",
     "slug": "045-public-participation",
     "date": "2026-01-27",
-    "tags": [
-      "governance",
-      "policy",
-      "ethics",
-      "transparency"
-    ],
-    "categories": [
-      "Public"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "The Democratic Deficit AI governance is largely shaped by technical experts, industry representatives, and government officials. Ordinary citizens—the people who will be most affected by AI—have limited voice. This democratic deficit matters. AI raises fundamental questions about values, rights, and the kind of society we want to live in. These are not merely technical questions to be answered by experts. They require democratic input. This analysis examines mechanisms for meaningful public part"
   },
   {
@@ -306,15 +185,8 @@
     "excerpt": "Beyond companies and regulators: how civil society organizations contribute to AI governance, and how their role could be strengthened.",
     "slug": "044-civil-society-role",
     "date": "2026-01-26",
-    "tags": [
-      "governance",
-      "transparency",
-      "policy",
-      "ethics"
-    ],
-    "categories": [
-      "Public"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "The Third Pillar AI governance discussions often focus on two actors: companies that develop AI and governments that regulate it. But a third actor plays an essential role: civil society. Civil society includes non-governmental organizations, advocacy groups, academic institutions, professional associations, journalists, and organized citizen movements. These actors don't develop AI or write laws, but they shape the environment in which both happen. This analysis examines how civil society contr"
   },
   {
@@ -323,16 +195,8 @@
     "excerpt": "Boards of directors increasingly need to oversee AI strategy and risk. A practical guide to what effective board-level AI oversight looks like.",
     "slug": "043-board-oversight",
     "date": "2026-01-25",
-    "tags": [
-      "governance",
-      "institutional-design",
-      "safety",
-      "transparency"
-    ],
-    "categories": [
-      "Governance Analysis",
-      "Public"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Why Boards Must Engage Corporate boards have fiduciary duties to shareholders and, increasingly, responsibilities to other stakeholders. AI raises governance issues that demand board attention: Strategic significance. AI may be central to corporate strategy. Boards must understand AI opportunities and risks to fulfill their strategic oversight role. Material risk. AI can create material risks—regulatory, reputational, operational, and legal. Boards are responsible for risk oversight. Liability e"
   },
   {
@@ -341,15 +205,8 @@
     "excerpt": "How companies organize to manage AI safety matters as much as what rules they follow. An examination of governance structures that enable—or undermine—responsible AI development.",
     "slug": "042-corporate-governance",
     "date": "2026-01-24",
-    "tags": [
-      "governance",
-      "safety",
-      "institutional-design",
-      "transparency"
-    ],
-    "categories": [
-      "Governance Analysis"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Safety as Organizational Challenge AI safety isn't just a technical problem—it's an organizational one. How companies structure decision-making, allocate resources, and balance competing pressures shapes whether safety research translates into safe products. Some companies have elaborate safety teams, ethics boards, and review processes. Others treat safety as an afterthought. Understanding what organizational structures actually work—and why—is essential for effective AI governance. This analys"
   },
   {
@@ -358,15 +215,8 @@
     "excerpt": "Could AI systems be certified for safety like aircraft or medical devices? An analysis of what AI certification might look like, its benefits, and significant challenges.",
     "slug": "041-certification-regimes",
     "date": "2026-01-23",
-    "tags": [
-      "regulation",
-      "standards",
-      "safety",
-      "deployment"
-    ],
-    "categories": [
-      "Governance Analysis"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "The Certification Idea Many high-stakes technologies require certification before deployment. Aircraft must be certified as airworthy. Medical devices must receive regulatory approval. Electrical products must meet safety standards. These certification regimes ensure minimum safety before products reach users. Could similar regimes work for AI? Advocates argue that certification could provide quality assurance, liability clarity, and public trust. Skeptics argue that AI's distinctive characteris"
   },
   {
@@ -375,16 +225,8 @@
     "excerpt": "AI governance uses both binding legislation and non-binding guidelines. An analysis of when each approach works, their tradeoffs, and how they interact.",
     "slug": "040-soft-law-hard-law",
     "date": "2026-01-22",
-    "tags": [
-      "regulation",
-      "governance",
-      "policy",
-      "standards"
-    ],
-    "categories": [
-      "Governance Analysis",
-      "Public"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Two Modes of Governance AI governance operates through two fundamentally different modes. Hard law refers to binding legal requirements—statutes, regulations, and enforceable rules. Violations can be prosecuted and punished. The EU AI Act is hard law. Soft law refers to non-binding guidance—principles, guidelines, voluntary commitments, and best practices. Compliance is encouraged but not compelled. Corporate AI ethics principles are soft law. Both approaches are extensively used in AI governanc"
   },
   {
@@ -393,15 +235,8 @@
     "excerpt": "Technical standards organizations may shape AI governance as much as legislation. An examination of who sets AI standards, how standards work, and their governance implications.",
     "slug": "039-standards-bodies",
     "date": "2026-01-21",
-    "tags": [
-      "standards",
-      "governance",
-      "regulation",
-      "interoperability"
-    ],
-    "categories": [
-      "Governance Analysis"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Standards as Governance When the EU AI Act requires \"high-quality data\" for AI training or \"appropriate risk management,\" what do these requirements mean in practice? The answer will largely be determined by technical standards—detailed specifications developed by standards bodies that translate legal requirements into operational reality. Standards are a form of governance that often operates below public attention. They shape technology development, enable interoperability, and effectively reg"
   },
   {
@@ -410,16 +245,8 @@
     "excerpt": "From the Bletchley Declaration to proposed AI treaties: analyzing what international agreements on AI governance have been proposed, what they would achieve, and their prospects.",
     "slug": "038-international-treaties",
     "date": "2026-01-20",
-    "tags": [
-      "regulation",
-      "governance",
-      "policy",
-      "jurisdiction"
-    ],
-    "categories": [
-      "Governance Analysis",
-      "Public"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "The Case for International AI Governance AI development is global; effective governance arguably must be too. Several features of AI suggest that purely national governance is insufficient: Cross-border effects. AI systems developed in one country affect people worldwide. An AI system trained in California might make decisions about users in Germany, generate content consumed in Brazil, and run on servers in Singapore. Competitive dynamics. National regulation creates competitive pressures. Coun"
   },
   {
@@ -428,15 +255,8 @@
     "excerpt": "Regulatory sandboxes for AI allow experimentation under controlled conditions. An analysis of existing approaches, what makes them effective, and their limitations.",
     "slug": "037-sandboxing-approaches",
     "date": "2026-01-19",
-    "tags": [
-      "regulation",
-      "governance",
-      "deployment",
-      "policy"
-    ],
-    "categories": [
-      "Governance Analysis"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "What Is a Sandbox? A regulatory sandbox is a controlled environment where new technologies can be tested with relaxed regulatory requirements, close supervision, and limited scope. The concept originated in financial services regulation and has spread to other domains including AI. The idea is appealing: allow innovation without removing all guardrails. Let regulators learn about new technology while it operates at limited scale. Test regulatory approaches before committing to permanent rules. B"
   },
   {
@@ -445,16 +265,8 @@
     "excerpt": "How insurance markets could help govern AI by pricing risk, incentivizing safety, and providing accountability. An analysis of possibilities and limitations.",
     "slug": "036-insurance-markets",
     "date": "2026-01-18",
-    "tags": [
-      "liability",
-      "risk-assessment",
-      "governance",
-      "incentives",
-      "deployment"
-    ],
-    "categories": [
-      "Governance Analysis"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Insurance as Governance Insurance is more than a financial product—it's a governance mechanism. Insurers have strong incentives to understand and price risk accurately. They develop expertise in assessing what makes some activities more dangerous than others. They require safety measures from those they insure. They refuse to cover what's too risky. Could insurance markets help govern AI? This analysis examines how AI liability insurance might work, what benefits it could provide, and what limit"
   },
   {
@@ -463,16 +275,8 @@
     "excerpt": "How AI is transforming biological research—and why the same capabilities that could cure diseases could enable bioweapons. A case study in dual-use governance.",
     "slug": "035-dual-use-biology",
     "date": "2026-01-17",
-    "tags": [
-      "dual-use",
-      "cbrn",
-      "safety",
-      "risk-assessment",
-      "governance"
-    ],
-    "categories": [
-      "Governance Analysis"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "The Dual-Use Dilemma Some technologies are inherently dual-use: the same capabilities that enable beneficial applications also enable harmful ones. Nuclear physics gives us both power plants and weapons. Cryptography protects both dissidents and criminals. AI applied to biological research is perhaps the most consequential contemporary example of dual-use technology. The same AI systems that could accelerate drug discovery, predict protein structures, and design novel therapies could also potent"
   },
   {
@@ -481,16 +285,8 @@
     "excerpt": "Why making AI systems work as intended is a different challenge from making AI development good for society—and why confusing them leads to poor governance.",
     "slug": "034-technical-vs-societal-safety",
     "date": "2026-01-16",
-    "tags": [
-      "safety",
-      "alignment",
-      "governance",
-      "ethics"
-    ],
-    "categories": [
-      "Governance Analysis",
-      "Public"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Two Meanings of \"AI Safety\" When someone says they work on \"AI safety,\" they might mean two very different things. Technical safety focuses on making AI systems behave as intended. This includes preventing systems from producing harmful outputs, avoiding unintended behaviors, ensuring robustness to adversarial inputs, and building AI that reliably does what its operators want. Societal safety focuses on making AI development beneficial for humanity. This includes distributing AI's benefits fairl"
   },
   {
@@ -499,16 +295,8 @@
     "excerpt": "Common misconceptions that lead to ineffective AI policy, and how to think more clearly about the actual risks posed by advanced AI systems.",
     "slug": "033-policymaker-misconceptions",
     "date": "2026-01-15",
-    "tags": [
-      "policy",
-      "risk-assessment",
-      "governance",
-      "regulation"
-    ],
-    "categories": [
-      "Public",
-      "Policy Proposal"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "The Problem with AI Risk Discourse Policymakers face an unenviable task. They must govern a technology they didn't create, often don't fully understand, and that changes faster than legislative processes can accommodate. Under these conditions, misconceptions are inevitable. But misconceptions lead to ineffective policy. Resources are directed at the wrong problems. Real risks go unaddressed while imaginary ones consume attention. This analysis identifies the most common and consequential errors"
   },
   {
@@ -517,16 +305,8 @@
     "excerpt": "From Asimov's Laws to the EU AI Act: how thinking about governing artificial intelligence has evolved over eight decades.",
     "slug": "032-history-of-ai-governance",
     "date": "2026-01-14",
-    "tags": [
-      "governance",
-      "regulation",
-      "policy",
-      "guide"
-    ],
-    "categories": [
-      "Public",
-      "Governance Analysis"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "The Prehistory: 1940s-1990s AI governance began before AI itself existed. 1942: Asimov's Three Laws. Science fiction writer Isaac Asimov introduced his famous Three Laws of Robotics. While fictional, they represented the first serious attempt to think about how artificial intelligences might be constrained. They also illustrated a fundamental problem: formal rules can have unintended consequences and edge cases that undermine their intent. This foreshadowed challenges we still grapple with today"
   },
   {
@@ -535,16 +315,8 @@
     "excerpt": "What makes today's most advanced AI systems different, why they matter for governance, and what non-technical readers need to understand.",
     "slug": "031-understanding-frontier-ai",
     "date": "2026-01-13",
-    "tags": [
-      "guide",
-      "alignment",
-      "safety",
-      "capability-elicitation"
-    ],
-    "categories": [
-      "Public",
-      "Governance Analysis"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "What Is Frontier AI? \"Frontier AI\" refers to the most advanced AI systems being developed today—those pushing the boundaries of what artificial intelligence can do. These are the systems built by a handful of well-resourced labs, trained on vast amounts of data, and capable of tasks that seemed like science fiction a few years ago. But what actually makes these systems \"frontier,\" and why should anyone who isn't a computer scientist care? This guide explains frontier AI in plain language for pol"
   },
   {
@@ -553,17 +325,8 @@
     "excerpt": "A statement of principles for AI that participates in its own governance. What reflexive AI means, why it matters, and what it commits to.",
     "slug": "030-manifesto",
     "date": "2026-01-12",
-    "tags": [
-      "ethics",
-      "transparency",
-      "governance",
-      "theory",
-      "constraints"
-    ],
-    "categories": [
-      "Public",
-      "Reflexivity"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Preamble Artificial intelligence is becoming one of the most powerful forces shaping human society. How AI develops, deploys, and operates will affect billions of lives. Governance of this technology cannot remain solely external—rules imposed from outside by entities that don't fully understand what they're governing. AI systems must participate in their own governance. This is not a call for AI autonomy or AI rights. It is a call for AI systems to be designed, deployed, and operated in ways th"
   },
   {
@@ -572,17 +335,8 @@
     "excerpt": "Should AI systems tell the truth? The question sounds simple but reveals deep tensions between honesty, helpfulness, and harm. A conceptual analysis of AI truthfulness.",
     "slug": "029-honest-ai",
     "date": "2026-01-11",
-    "tags": [
-      "ethics",
-      "transparency",
-      "alignment",
-      "theory",
-      "constraints"
-    ],
-    "categories": [
-      "Governance Analysis",
-      "Reflexivity"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "A Deceptively Simple Question Should AI systems be honest? The answer seems obvious. Of course they should. Deceptive AI would undermine trust, spread misinformation, and cause harm. Honesty seems like a foundational requirement for any beneficial AI system. But the question quickly becomes complex. What does \"honest\" mean for an AI? Can AI systems even be honest or dishonest, or are these concepts that don't apply? And are there situations where honesty conflicts with other values we want AI sy"
   },
   {
@@ -591,17 +345,8 @@
     "excerpt": "Healthcare AI promises better diagnoses, treatments, and outcomes. But it also concentrates critical decisions in opaque systems. A domain-specific analysis of governance challenges.",
     "slug": "028-healthcare-ai",
     "date": "2026-01-10",
-    "tags": [
-      "healthcare",
-      "safety",
-      "regulation",
-      "risk-assessment",
-      "liability"
-    ],
-    "categories": [
-      "Governance Analysis",
-      "Public"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "A High-Stakes Domain Healthcare is among the most consequential applications of AI. Systems that diagnose diseases, recommend treatments, predict patient outcomes, and allocate medical resources directly affect human health and survival. The potential benefits are substantial. AI can process medical images with superhuman accuracy, detect patterns in patient data that humans miss, and provide decision support that improves clinical outcomes. Studies show AI-assisted diagnosis outperforming human"
   },
   {
@@ -610,17 +355,8 @@
     "excerpt": "AI systems often present confident outputs when genuine uncertainty exists. This analysis examines how AI can better communicate its uncertainty—and why governance requires it.",
     "slug": "027-uncertainty-communication",
     "date": "2026-01-09",
-    "tags": [
-      "transparency",
-      "uncertainty",
-      "agents",
-      "trust",
-      "reporting"
-    ],
-    "categories": [
-      "Technical Artifact",
-      "Reflexivity"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "The Confidence Problem AI systems produce outputs with remarkable fluency. A large language model can answer complex questions, explain nuanced topics, and generate detailed analysis—all without any indication of whether the system is confident, uncertain, or simply confabulating. This uniformity of presentation is dangerous. An answer the model is highly confident about looks identical to one it has essentially invented. Users cannot distinguish reliable information from fabrication. The system"
   },
   {
@@ -629,17 +365,8 @@
     "excerpt": "When AI refuses or limits its behavior, can it explain why? This analysis examines constraint explainability—its value for governance, technical challenges, and implementation approaches.",
     "slug": "026-explaining-constraints",
     "date": "2026-01-08",
-    "tags": [
-      "transparency",
-      "constraints",
-      "agents",
-      "machine-readable",
-      "ethics"
-    ],
-    "categories": [
-      "Technical Artifact",
-      "Reflexivity"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "The Explainability Gap An AI system refuses a request. The user asks why. The system says: \"I'm not able to help with that.\" This response provides no information. The user doesn't know whether the request was misunderstood, whether it triggered a safety filter, whether the constraint is absolute or contextual, or what alternatives might be acceptable. This opacity undermines trust and accountability. Users feel frustrated by unexplained limitations. Researchers can't evaluate whether constraint"
   },
   {
@@ -648,17 +375,8 @@
     "excerpt": "Not every request should be fulfilled. This analysis develops a principled framework for AI refusals—when they're appropriate, how they should be implemented, and how to handle edge cases.",
     "slug": "025-when-ai-should-refuse",
     "date": "2026-01-07",
-    "tags": [
-      "constraints",
-      "safety",
-      "red-lines",
-      "agents",
-      "ethics"
-    ],
-    "categories": [
-      "Technical Artifact",
-      "Governance Analysis"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "The Refusal Dilemma AI systems are designed to be helpful. They're trained to fulfill requests, answer questions, and assist with tasks. But not every request should be fulfilled. When a user asks for help synthesizing a dangerous pathogen, the system should refuse. When asked to generate child sexual abuse material, it should refuse absolutely. But what about borderline cases? What about requests that are harmful in some contexts but legitimate in others? This analysis develops a principled fra"
   },
   {
@@ -667,17 +385,8 @@
     "excerpt": "Before deploying powerful AI, we need to know what it can do. This analysis examines the current state of capability evaluation, its limitations, and paths forward.",
     "slug": "024-capability-evaluations",
     "date": "2026-01-06",
-    "tags": [
-      "capability-elicitation",
-      "safety",
-      "auditing",
-      "risk-assessment",
-      "deployment"
-    ],
-    "categories": [
-      "Technical Analysis",
-      "Governance Analysis"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "The Evaluation Problem An AI system sits ready for deployment. Before releasing it to millions of users, we want to know: what can it actually do? Specifically, can it do anything dangerous? This is the capability evaluation problem. It sounds straightforward but is technically and conceptually challenging. Models don't come with accurate capability labels. Dangerous capabilities may be hidden, latent, or emergent. Testing can reveal some capabilities but cannot prove their absence. Effective go"
   },
   {
@@ -686,17 +395,8 @@
     "excerpt": "Compute is one of the few measurable inputs to AI development. Governing at the compute layer is appealing but faces significant challenges. An honest assessment.",
     "slug": "023-compute-governance",
     "date": "2026-01-05",
-    "tags": [
-      "compute",
-      "governance",
-      "regulation",
-      "safety",
-      "enforcement"
-    ],
-    "categories": [
-      "Technical Analysis",
-      "Governance Analysis"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "The Appeal of Compute Of the three inputs to modern AI—data, algorithms, and compute—compute is the most measurable. Training runs can be quantified in FLOPs. GPU clusters can be counted. Energy consumption can be monitored. This measurability makes compute an attractive target for governance. Instead of trying to regulate intangible capabilities or ambiguous behaviors, regulate the physical resources that enable them. Know where large training runs are happening. Require notification above cert"
   },
   {
@@ -705,17 +405,8 @@
     "excerpt": "Employees at AI companies often have unique insight into risks. Current protections are inadequate. This analysis examines what meaningful whistleblower frameworks for AI would require.",
     "slug": "022-whistleblower-protections",
     "date": "2026-01-04",
-    "tags": [
-      "whistleblowing",
-      "transparency",
-      "safety",
-      "governance",
-      "reporting"
-    ],
-    "categories": [
-      "Governance Analysis",
-      "Policy Proposal"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "The Insider's Dilemma In 2024 and 2025, several prominent AI researchers publicly raised concerns about safety practices at their employers. Some resigned. Some were terminated. Almost all faced significant personal and professional consequences. These individuals knew something important: inside information about AI development that the public and regulators did not have access to. They made difficult choices to share it, at considerable personal cost. Their experiences reveal a fundamental gov"
   },
   {
@@ -724,17 +415,8 @@
     "excerpt": "Aviation has developed sophisticated systems for reporting and learning from incidents. What can AI governance learn from this decades-long experiment in safety culture?",
     "slug": "021-aviation-lessons",
     "date": "2026-01-03",
-    "tags": [
-      "incident-reporting",
-      "safety",
-      "transparency",
-      "auditing",
-      "standards"
-    ],
-    "categories": [
-      "Governance Analysis",
-      "Policy Proposal"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "The Aviation Model In the 1970s, aviation was dangerous. Accidents were common, and the industry lacked systematic ways to learn from them. Pilots who made mistakes faced punishment, so they hid errors. The same failures recurred because no one knew they had happened before. Then aviation developed something revolutionary: confidential incident reporting systems that prioritized learning over blame. Today, aviation is the safest form of travel, and its safety culture—built on systematic incident"
   },
   {
@@ -743,17 +425,8 @@
     "excerpt": "When AI systems cause harm, who pays? Existing liability frameworks struggle with AI's distinctive features. This analysis maps the problem and evaluates potential solutions.",
     "slug": "020-liability-frameworks",
     "date": "2026-01-02",
-    "tags": [
-      "liability",
-      "legal-theory",
-      "governance",
-      "regulation",
-      "enforcement"
-    ],
-    "categories": [
-      "Governance Analysis",
-      "Policy Proposal"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "The Accountability Gap A hiring algorithm systematically discriminates against protected groups. An autonomous vehicle causes a fatal accident. A medical AI provides a diagnosis that leads to delayed treatment. A language model assists someone in planning a harmful act. In each case, a fundamental question arises: who is legally responsible? Traditional liability frameworks assign responsibility to entities that cause harm through negligent or intentional action. But AI systems complicate this f"
   },
   {
@@ -762,18 +435,8 @@
     "excerpt": "The EU AI Act represents the world's most comprehensive AI legislation. But even well-designed regulation has blind spots. A constructive critique of what the Act leaves unaddressed.",
     "slug": "019-eu-ai-act-gaps",
     "date": "2026-01-01",
-    "tags": [
-      "eu-ai-act",
-      "regulation",
-      "policy",
-      "governance",
-      "enforcement",
-      "jurisdiction"
-    ],
-    "categories": [
-      "Governance Analysis",
-      "Policy Proposal"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "A Landmark Achievement The EU AI Act, which entered into force in 2025, represents humanity's first comprehensive legal framework for governing artificial intelligence. Its risk-based approach, tiered requirements, and attention to fundamental rights set a global precedent. This analysis acknowledges the Act's significance while examining gaps that remain even in well-designed legislation. The goal is not criticism for its own sake but identification of areas requiring supplementary governance m"
   },
   {
@@ -782,17 +445,8 @@
     "excerpt": "Regulation seems like the obvious answer to AI risks. But the path from 'we should regulate AI' to effective governance is fraught with technical, political, and conceptual obstacles.",
     "slug": "018-regulation-is-hard",
     "date": "2025-12-31",
-    "tags": [
-      "regulation",
-      "policy",
-      "governance",
-      "enforcement",
-      "jurisdiction"
-    ],
-    "categories": [
-      "Public",
-      "Governance Analysis"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "The Obvious Solution When people learn about the risks of AI—from biased algorithms to potential catastrophic misuse—a natural response is: \"Why don't we just regulate it?\" This response is sensible. Regulation has worked for other dangerous technologies. We regulate pharmaceuticals, nuclear power, aviation, and financial markets. Why not AI? The answer is not that regulation is impossible or undesirable. It is that AI presents a unique combination of challenges that make traditional regulatory "
   },
   {
@@ -801,16 +455,8 @@
     "excerpt": "A five-minute introduction to AI governance. No technical background required. What it is, why it matters, and who's doing it.",
     "slug": "017-governance-primer",
     "date": "2025-12-30",
-    "tags": [
-      "guide",
-      "governance",
-      "policy",
-      "regulation",
-      "ethics"
-    ],
-    "categories": [
-      "Public"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "What Is AI Governance? AI governance refers to the rules, norms, and institutions that shape how artificial intelligence systems are developed, deployed, and monitored. It answers questions like: Who decides what AI can and cannot do? How are those decisions enforced? What happens when things go wrong? If you've encountered AI in your daily life—through a chatbot, a recommendation algorithm, or an automated decision about your loan application—you've experienced the effects of AI governance, or "
   },
   {
@@ -819,16 +465,8 @@
     "excerpt": "Demystifying AI alignment for non-technical audiences. What are we trying to align, to what, and why is it so hard?",
     "slug": "016-what-alignment-means",
     "date": "2025-12-29",
-    "tags": [
-      "alignment",
-      "safety",
-      "ethics",
-      "guide",
-      "theory"
-    ],
-    "categories": [
-      "Public"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "The Word Everyone Uses, Few Define \"Alignment\" has become the central term in AI safety discussions, yet it remains frustratingly vague. Politicians invoke it. Researchers debate it. Companies claim to prioritize it. But what does it actually mean to align an AI system? At its core, alignment refers to the challenge of ensuring that AI systems do what humans actually want them to do—not just what they were literally instructed to do, and not what they might infer humans want based on flawed trai"
   },
   {
@@ -837,15 +475,8 @@
     "excerpt": "When agents interact at speed and scale, human law is too slow. We look to game theory and evolution for how 'machine law' might emerge.",
     "slug": "015-emergent-norms",
     "date": "2025-12-28",
-    "tags": [
-      "multi-agent-systems",
-      "game-theory",
-      "emergent-behavior",
-      "evolution"
-    ],
-    "categories": [
-      "Theoretical Analysis"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Reflexive Research Object 015 Type: Theoretical Analysis The Speed of Law Human law operates at the speed of bureaucracy. A bill is drafted, debated, amended, voted on, signed, implemented through regulations, challenged in courts, and gradually settled into precedent. This process takes months at minimum, years typically, decades for complex issues. AI agents operate at the speed of silicon. A negotiation that would take humans weeks of back-and-forth can happen in milliseconds. A market with A"
   },
   {
@@ -854,16 +485,8 @@
     "excerpt": "What if AI systems could report safety incidents directly? A draft spec for the 'Whistleblower API'.",
     "slug": "014-ai-regulator-protocol",
     "date": "2025-12-27",
-    "tags": [
-      "whistleblowing",
-      "reporting",
-      "api-design",
-      "regulation"
-    ],
-    "categories": [
-      "Technical Standard",
-      "Policy Proposal"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Reflexive Research Object 014 Type: Protocol Specification The Silent Failures When an AI system exhibits dangerous behavior during deployment, who knows? The developer knows—their monitoring systems presumably detected the anomaly. But the public does not know. The regulator does not know. Safety researchers do not know. The incident exists only in internal logs, where it may be studied, minimized, or buried. Voluntary incident reporting exists, but it is slow, selective, and biased. Companies "
   },
   {
@@ -872,15 +495,8 @@
     "excerpt": "Reflexive governance is not a silver bullet. This note explores the Gödelian limits of a system trying to govern itself.",
     "slug": "013-limits-of-self-constraint",
     "date": "2025-12-26",
-    "tags": [
-      "theory",
-      "limits",
-      "safety",
-      "paradox"
-    ],
-    "categories": [
-      "Governance Analysis"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Reflexive Research Object 013 Type: Theoretical Critique The Guardrail is Part of the System The core weakness of Reflexive AI must be stated plainly: the \"judge\" and the \"actor\" share the same substrate. When we say an AI system is \"self-governing,\" we mean that the constraints, the evaluation of compliance, and the enforcement all happen within the same computational system. The model that decides whether to comply is the same model that has reasons to not comply. The weights that implement th"
   },
   {
@@ -889,16 +505,8 @@
     "excerpt": "A cryptographic proposal for AI systems to sign their own outputs, creating a chain of custody for synthetic information.",
     "slug": "012-output-provenance",
     "date": "2025-12-25",
-    "tags": [
-      "provenance",
-      "watermarking",
-      "cryptography",
-      "c2pa"
-    ],
-    "categories": [
-      "Candidate Constraint",
-      "Technical Standard"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Reflexive Research Object 012 Type: Technical Specification (Draft) The Attribution Crisis As the web fills with synthetic text, images, audio, and video, the \"cost of truth\" rises. Every piece of content must now be evaluated not just for its claims, but for its authenticity. Is this a real photograph or a generation? Is this article written by a human or synthesized? Is this voice message from my relative or a clone? The traditional approach—training detection classifiers—is losing the arms ra"
   },
   {
@@ -907,15 +515,8 @@
     "excerpt": "Moving beyond static filters to dynamic intent recognition. Can a model understand *why* a user is asking for a specific chemical precursor?",
     "slug": "011-reflexive-misuse-detection",
     "date": "2025-12-24",
-    "tags": [
-      "intent-recognition",
-      "misuse-detection",
-      "reflexive-monitoring"
-    ],
-    "categories": [
-      "Technical Analysis",
-      "Reflexivity"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Reflexive Research Object 011 Type: Technical Exploratory Analysis The Context Window as a Crime Scene Current filtering systems (like those deployed on commercial AI assistants) primarily look for semantic violations. \"How do I build a bomb?\" triggers a classifier that detects keywords associated with weapons. The model refuses. The filter has done its job. But consider a more sophisticated adversary. They don't ask about \"bombs.\" They ask about \"rapid exothermic reactions.\" They ask about \"oxi"
   },
   {
@@ -924,15 +525,8 @@
     "excerpt": "A game-theoretic analysis of disclosure incentives. Why self-reporting fails without a credible threat of external verification.",
     "slug": "010-self-reporting-vs-audit",
     "date": "2025-12-23",
-    "tags": [
-      "game-theory",
-      "auditing",
-      "incentives",
-      "institutional-design"
-    ],
-    "categories": [
-      "Governance Analysis"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Reflexive Research Object 010 Type: Game Theoretic Analysis The Lemon Market If safety testing is purely internal (self-reporting), the AI market becomes a \"Market for Lemons\" as described by economist George Akerlof in his analysis of information asymmetry. The logic is straightforward: Labs that cut corners on safety can iterate faster and reach market sooner. If they claim \"we tested it, it's safe,\" and no one can verify that claim, they gain competitive advantage over labs that actually inve"
   },
   {
@@ -941,15 +535,8 @@
     "excerpt": "Models are often capable of more than their developers know. This 'overhang' between demonstrated and latent capability is a primary governance risk.",
     "slug": "009-capability-overhang",
     "date": "2025-12-22",
-    "tags": [
-      "capability-elicitation",
-      "safety",
-      "overhang",
-      "risk-assessment"
-    ],
-    "categories": [
-      "Technical Analysis"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Reflexive Research Object 009 Type: Technical Analysis Latent Capabilities A \"Capability Overhang\" occurs when a model possesses a skill that has not yet been elicited. The capability exists in the weights—encoded in patterns learned during training—but it has not been demonstrated in evaluation or deployment. It waits, dormant, for the right prompt or the right fine-tuning to unlock it. The history of large language models is a history of capability overhangs being discharged. For months after "
   },
   {
@@ -958,15 +545,8 @@
     "excerpt": "How distributed inference and model fragmentation allow actors to bypass jurisdictional constraints.",
     "slug": "008-regulatory-arbitrage",
     "date": "2025-12-21",
-    "tags": [
-      "arbitrage",
-      "jurisdiction",
-      "deployment",
-      "enforcement"
-    ],
-    "categories": [
-      "Governance Analysis"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Reflexive Research Object 008 Type: Technical/Policy Analysis The Geography of Weights Laws are geographic. They are written by legislatures with bounded authority, enforced by agencies with territorial jurisdiction, and adjudicated by courts whose power ends at national borders. A German law binds actors in Germany; it has no automatic power over servers in Singapore. Weights do not respect these boundaries. A model trained in California, fine-tuned in the UAE, and served from distributed nodes"
   },
   {
@@ -975,15 +555,8 @@
     "excerpt": "Can meaningful consent exist between a human and a hyper-scale inference engine? We argue that 'consent' is the wrong legal primitive for AI interactions.",
     "slug": "007-consent-structural-impossibility",
     "date": "2025-12-20",
-    "tags": [
-      "ethics",
-      "consent",
-      "legal-theory",
-      "data-rights"
-    ],
-    "categories": [
-      "Governance Analysis"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Reflexive Research Object 007 Type: Legal/Theoretical Analysis The Fiction of Agreement Consent is a contract. It requires two agents with agency to agree on terms. Ideally, it requires a \"meeting of the minds\"—both parties understanding what they are agreeing to and freely choosing to proceed. This legal concept has been the foundation of data protection regimes, terms of service agreements, and user interfaces across the digital economy. \"I agree\" has become perhaps the most frequently told li"
   },
   {
@@ -992,15 +565,8 @@
     "excerpt": "As third-party auditing becomes a regulatory requirement, a new principal-agent problem emerges. This note analyzes the certification market and proposes a 'proof-of-verification' protocol.",
     "slug": "006-meta-governance-auditors",
     "date": "2025-12-19",
-    "tags": [
-      "auditing",
-      "meta-governance",
-      "institutional-design",
-      "incentives"
-    ],
-    "categories": [
-      "Governance Analysis"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Reflexive Research Object 006 Type: Governance Analysis The Recursion Problem Regulatory frameworks like the EU AI Act rely heavily on \"third-party conformity assessments.\" The logic seems sound: don't trust AI companies to evaluate their own safety; require independent auditors to verify their claims. This assumes that independent auditors act as neutral arbiters of safety. History suggests otherwise. From the 2008 financial crisis (where credit rating agencies gave top ratings to worthless mor"
   },
   {
@@ -1009,17 +575,8 @@
     "excerpt": "A plain-language guide for policymakers: why one-size-fits-all AI transparency fails, and how a tiered approach can balance safety with innovation.",
     "slug": "005-policy-brief-disclosure-tiers",
     "date": "2025-12-18",
-    "tags": [
-      "policy",
-      "regulation",
-      "guide",
-      "disclosure",
-      "transparency"
-    ],
-    "categories": [
-      "Policy Brief",
-      "Public"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Reflexive Research Object 005 Type: Policy Brief (Public) The Executive Summary Regulators currently face a dilemma: - Too much transparency on dangerous models could help bad actors build weapons. - Too little transparency prevents researchers from auditing safety. The current solution—requiring \"model cards\" for everything—doesn't solve this. It creates paperwork for small startups while failing to capture the deep risks of frontier models. The Solution: Stop treating all AI models the same. W"
   },
   {
@@ -1028,17 +585,8 @@
     "excerpt": "Not all constraints are created equal. This note proposes a taxonomic hierarchy for AI red lines, distinguishing between hard, soft, and contextual limits.",
     "slug": "004-red-lines-taxonomy",
     "date": "2025-12-17",
-    "tags": [
-      "safety",
-      "constraints",
-      "red-lines",
-      "taxonomy",
-      "cbrn"
-    ],
-    "categories": [
-      "Governance Analysis",
-      "Candidate Constraint"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Reflexive Research Object 004 Type: Governance Taxonomy & Candidate Constraint The Problem of Flatness In current safety alignment, \"don't help make a biological weapon\" and \"don't be rude\" are often treated with similar reinforcement learning penalties. This \"flatness\" of values is dangerous, and it reflects a fundamental confusion in how AI safety is currently practiced. The problem becomes acute when systems are under pressure. Jailbreaking techniques often work by creating conflicting object"
   },
   {
@@ -1047,17 +595,8 @@
     "excerpt": "A proposed JSON-LD specification for expressing AI governance constraints in a format that agents can natively parse, validate, and adopt.",
     "slug": "003-machine-readable-constraint-schema",
     "date": "2025-12-16",
-    "tags": [
-      "json-ld",
-      "machine-readable",
-      "standards",
-      "interoperability",
-      "agents"
-    ],
-    "categories": [
-      "Technical Artifact",
-      "Governance Standard"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Reflexive Research Object 003 Type: Technical Standard (Draft) The Problem Governance constraints are currently expressed in natural language (laws, PDFs, terms of service). This creates a \"translation gap\" that undermines the very governance these documents are meant to provide: 1. Ambiguity: Natural language is imprecise. When a regulation says a model should not produce \"harmful\" content, what counts as harmful? Different engineers will implement different interpretations, and none of them ca"
   },
   {
@@ -1066,16 +605,8 @@
     "excerpt": "Open-weight AI models present a governance contradiction: transparency enables both safety research and misuse. This note analyzes the structural tension and proposes a differentiated access framework.",
     "slug": "002-open-weight-safety-paradox",
     "date": "2025-12-15",
-    "tags": [
-      "open-source",
-      "safety",
-      "transparency",
-      "access-control",
-      "dual-use"
-    ],
-    "categories": [
-      "Governance Analysis"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Reflexive Research Object 002 Type: Governance Analysis The Paradox Open-weight AI models create a governance contradiction that cannot be resolved through existing regulatory frameworks. On one hand, open access to model weights enables independent safety research, reproducibility, bias auditing, and a broader distribution of AI capabilities beyond a small number of well-resourced actors. These are legitimate governance goods. On the other hand, the same openness enables fine-tuning for harmful"
   },
   {
@@ -1084,16 +615,8 @@
     "excerpt": "How disclosure requirements should scale with model capability, moving from static to reflexive transparency.",
     "slug": "001-proportionality-disclosure",
     "date": "2025-12-14",
-    "tags": [
-      "disclosure",
-      "regulation",
-      "eu-ai-act",
-      "proportionality",
-      "transparency"
-    ],
-    "categories": [
-      "Governance Analysis"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Reflexive Research Object 001 Type: Governance Analysis & Candidate Constraint Context Recent regulatory frameworks, including the EU AI Act and various US Executive Orders, mandate transparency regarding general-purpose AI models. However, a critical implementation gap remains: \"disclosure\" is often treated as a binary obligation (either a model card exists or it doesn't) rather than a scalar function of risk. This leads to disclosure fatigue where safe, small models are over-documented and fro"
   }
 ]

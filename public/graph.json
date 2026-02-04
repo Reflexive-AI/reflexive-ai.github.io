@@ -108,6 +108,11 @@
           "title": "API-Level Safety Controls",
           "slug": "/research/054-api-level-safety-controls",
           "excerpt": "Exploring the role of API-level safety measures in AI governance, their implementation, and their implications for mitigating malicious use and accidental harm."
+        },
+        {
+          "title": "The False Binary: Why 'Regulate Use, Not Models' Gets AI Governance Wrong",
+          "slug": "/research/062-use-vs-models-false-binary",
+          "excerpt": "A recent IEEE Spectrum article argues for use-based AI regulation over model-based approaches. This framing misses what actually works: layered, reflexive governance that addresses capabilities, deployment, and systemic accountability together."
         }
       ]
     },
@@ -593,7 +598,7 @@
       "id": "policy",
       "title": "policy",
       "group": "governance",
-      "val": 27,
+      "val": 29,
       "articles": [
         {
           "title": "Policy Brief: The Disclosure Tiers Framework",
@@ -649,6 +654,11 @@
           "title": "Public Participation in AI Policy",
           "slug": "/research/045-public-participation",
           "excerpt": "How can ordinary citizens meaningfully participate in decisions about AI that will affect their lives? An examination of mechanisms for democratic AI governance."
+        },
+        {
+          "title": "The False Binary: Why 'Regulate Use, Not Models' Gets AI Governance Wrong",
+          "slug": "/research/062-use-vs-models-false-binary",
+          "excerpt": "A recent IEEE Spectrum article argues for use-based AI regulation over model-based approaches. This framing misses what actually works: layered, reflexive governance that addresses capabilities, deployment, and systemic accountability together."
         }
       ]
     },
@@ -1504,6 +1514,11 @@
           "title": "Self-Modifying Constraints: Technical Approaches",
           "slug": "/research/061-self-modifying-constraints-technical-approaches",
           "excerpt": "Exploring how AI systems can be governed through self-modifying constraints, bridging technical architecture with safety and oversight frameworks."
+        },
+        {
+          "title": "The False Binary: Why 'Regulate Use, Not Models' Gets AI Governance Wrong",
+          "slug": "/research/062-use-vs-models-false-binary",
+          "excerpt": "A recent IEEE Spectrum article argues for use-based AI regulation over model-based approaches. This framing misses what actually works: layered, reflexive governance that addresses capabilities, deployment, and systemic accountability together."
         }
       ]
     },
@@ -2152,6 +2167,32 @@
           "title": "Self-Modifying Constraints: Technical Approaches",
           "slug": "/research/061-self-modifying-constraints-technical-approaches",
           "excerpt": "Exploring how AI systems can be governed through self-modifying constraints, bridging technical architecture with safety and oversight frameworks."
+        }
+      ]
+    },
+    {
+      "id": "ai-models",
+      "title": "ai-models",
+      "group": "technical",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The False Binary: Why 'Regulate Use, Not Models' Gets AI Governance Wrong",
+          "slug": "/research/062-use-vs-models-false-binary",
+          "excerpt": "A recent IEEE Spectrum article argues for use-based AI regulation over model-based approaches. This framing misses what actually works: layered, reflexive governance that addresses capabilities, deployment, and systemic accountability together."
+        }
+      ]
+    },
+    {
+      "id": "use-based-regulation",
+      "title": "use-based-regulation",
+      "group": "governance",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The False Binary: Why 'Regulate Use, Not Models' Gets AI Governance Wrong",
+          "slug": "/research/062-use-vs-models-false-binary",
+          "excerpt": "A recent IEEE Spectrum article argues for use-based AI regulation over model-based approaches. This framing misses what actually works: layered, reflexive governance that addresses capabilities, deployment, and systemic accountability together."
         }
       ]
     }
@@ -3800,6 +3841,41 @@
     {
       "source": "ai constraints",
       "target": "self-modification",
+      "value": 1
+    },
+    {
+      "source": "ai-models",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "regulation",
+      "target": "use-based-regulation",
+      "value": 1
+    },
+    {
+      "source": "ai-models",
+      "target": "policy",
+      "value": 1
+    },
+    {
+      "source": "policy",
+      "target": "use-based-regulation",
+      "value": 1
+    },
+    {
+      "source": "ai-models",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "use-based-regulation",
+      "value": 1
+    },
+    {
+      "source": "ai-models",
+      "target": "use-based-regulation",
       "value": 1
     }
   ]
