@@ -113,7 +113,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 
 ### Emerging and Speculative (86-95)
 
-86. [ ] Governance for Artificial General Intelligence [R]
+86. [x] Governance for Artificial General Intelligence [R]
 87. [ ] Recursive Self-Improvement: Governance Implications [R]
 88. [ ] Multi-Agent Coordination Failures [R]
 89. [ ] AI Consciousness Claims: Policy Responses [R][P]

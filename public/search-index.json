@@ -1,5 +1,24 @@
 [
   {
+    "id": 86,
+    "title": "Governance for Artificial General Intelligence",
+    "excerpt": "Examining the unique challenges and frameworks required to govern Artificial General Intelligence (AGI), with a focus on safety, accountability, and the role of reflexive AI in regulatory compliance.",
+    "slug": "086-governance-for-artificial-general-intelligence",
+    "date": "2026-02-05",
+    "tags": [
+      "AGI",
+      "AI governance",
+      "regulation",
+      "safety",
+      "reflexive AI"
+    ],
+    "categories": [
+      "Governance Analysis",
+      "AI Safety"
+    ],
+    "body": ""
+  },
+  {
     "id": 85,
     "title": "AI in Education: Personalization vs. Privacy",
     "excerpt": "This article examines the tension between personalization and privacy in AI-driven educational tools, exploring governance frameworks, technological solutions, and ethical trade-offs.",
