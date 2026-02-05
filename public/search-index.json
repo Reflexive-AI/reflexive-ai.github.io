@@ -1,5 +1,24 @@
 [
   {
+    "id": 84,
+    "title": "AI in Climate Modeling: Validation Standards",
+    "excerpt": "Establishing rigorous validation standards for AI-driven climate models is essential to ensure their reliability, transparency, and utility in addressing global environmental challenges.",
+    "slug": "084-ai-in-climate-modeling-validation-standards",
+    "date": "2026-02-05",
+    "tags": [
+      "validation",
+      "climate modeling",
+      "standards",
+      "ai safety",
+      "accountability"
+    ],
+    "categories": [
+      "AI Governance",
+      "Climate Science"
+    ],
+    "body": "Related Articles - Model Versioning and Rollback Protocols - AI in Agriculture: Data Governance - The Governance Paradox: When AI Systems Are Better Regulators Than Humans"
+  },
+  {
     "id": 83,
     "title": "AI in Agriculture: Data Governance",
     "excerpt": "Exploring the governance challenges of data use in agricultural AI systems, with a focus on ethical, regulatory, and technical considerations for sustainable and equitable outcomes.",
