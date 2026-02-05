@@ -82,15 +82,26 @@ jobs:
             const unpublishedPattern = /^(\d+)\.\s*\[\s*\]\s*(.+?)(?:\s*\[([A-Z\]\[]+)\])?\s*$/gm;
             const unpublished = [];
             let match;
+            let currentList = fs.readFileSync(articleListPath, 'utf8');
+            let listUpdated = false;
             while ((match = unpublishedPattern.exec(articleList)) !== null) {
               const num = parseInt(match[1]);
-              if (!existingNumbers.has(num)) {
+              if (existingNumbers.has(num)) {
+                // File already exists but tracking list says [ ] — fix the mismatch
+                const markPattern = new RegExp(`^(${num})\\.\\s*\\[\\s*\\]`, 'm');
+                currentList = currentList.replace(markPattern, `$1. [x]`);
+                listUpdated = true;
+                console.log(`✓ Article ${num} already exists on disk, marked as [x]`);
+              } else {
                 unpublished.push({
                   number: num,
                   title: match[2].trim(),
                   tags: match[3] || ''
                 });
               }
+            }
+            if (listUpdated) {
+              fs.writeFileSync(articleListPath, currentList);
             }
             
             // Check if we need to generate new article ideas
@@ -179,8 +190,29 @@ jobs:
               }
               
               const data = await response.json();
-              const content = data.choices[0].message.content;
-              
+              let content = data.choices[0].message.content;
+
+              // Strip markdown code fences that LLMs often wrap around output
+              // Handles ```yaml\n---\n...\n---\n``` and ```\n---\n...\n---\n``` patterns
+              content = content.replace(/^```(?:yaml|markdown|md)?\s*\n?/i, '');
+              content = content.replace(/\n?```\s*$/,  '');
+              content = content.trim();
+
+              // Ensure frontmatter starts with --- delimiter
+              if (!content.startsWith('---')) {
+                // If content starts with valid YAML fields (title:), wrap in delimiters
+                if (/^title:\s*/.test(content)) {
+                  // Find where frontmatter ends (next --- or first ## heading)
+                  const fmEnd = content.indexOf('\n---');
+                  if (fmEnd !== -1) {
+                    content = '---\n' + content;
+                  }
+                } else {
+                  console.error(`Article ${article.number}: generated content has no valid frontmatter, skipping`);
+                  continue;
+                }
+              }
+
               // Generate filename
               const slug = article.title.toLowerCase()
                 .replace(/[^a-z0-9\s-]/g, '')
@@ -201,10 +233,10 @@ jobs:
               generatedFiles.push(filename);
               
               // Only mark article as complete AFTER file is successfully written
-              let currentList = fs.readFileSync(articleListPath, 'utf8');
-              const pattern = new RegExp(`^(${article.number})\\.\\s*\\[\\s*\\]`, 'm');
-              currentList = currentList.replace(pattern, `$1. [x]`);
-              fs.writeFileSync(articleListPath, currentList);
+              let updatedList = fs.readFileSync(articleListPath, 'utf8');
+              const markDonePattern = new RegExp(`^(${article.number})\\.\\s*\\[\\s*\\]`, 'm');
+              updatedList = updatedList.replace(markDonePattern, `$1. [x]`);
+              fs.writeFileSync(articleListPath, updatedList);
               console.log(`✓ Marked article ${article.number} as complete`);
             }
             

@@ -1,4 +1,3 @@
-```yaml
 ---
 title: "Governance for Artificial General Intelligence"
 excerpt: "Examining the unique challenges and frameworks required to govern Artificial General Intelligence (AGI), with a focus on safety, accountability, and the role of reflexive AI in regulatory compliance."
@@ -15,7 +14,6 @@ tags:
   - reflexive AI
 version: "1.0"
 ---
-```
 
 ## Introduction
 
@@ -106,4 +104,3 @@ The principles and frameworks outlined in this article provide a foundation for 
 - [Self-Modifying Constraints: Technical Approaches](/research/061-self-modifying-constraints-technical-approaches)
 - [The Governance Paradox: When AI Systems Are Better Regulators Than Humans](/research/063-governance-paradox)
 - [Simulating Governance: Using AI to Stress-Test AI Regulations](/research/072-simulating-governance)
-```

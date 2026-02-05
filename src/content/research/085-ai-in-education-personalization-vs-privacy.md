@@ -1,4 +1,4 @@
-```yaml
+---
 title: "AI in Education: Personalization vs. Privacy"
 excerpt: "This article examines the tension between personalization and privacy in AI-driven educational tools, exploring governance frameworks, technological solutions, and ethical trade-offs."
 date: 2026-02-05
@@ -115,4 +115,3 @@ AI has immense potential to transform education through personalized learning pa
 - [Differential Privacy in AI Systems](/research/059-differential-privacy-in-ai-systems)  
 - [Monitoring Deployed Models](/research/056-monitoring-deployed-models)  
 - [The Emotional Labor of AI: Psychological Impacts at Scale](/research/081-emotional-labor-ai)
-```
