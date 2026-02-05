@@ -107,7 +107,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 80. [ ] AI in Journalism: Trust and Verification [R][P]
 81. [ ] AI Companionship: Ethical Boundaries [R][P]
 82. [ ] AI in Mental Health: Safety Standards [R][P]
-83. [ ] AI in Agriculture: Data Governance [R]
+83. [x] AI in Agriculture: Data Governance [R]
 84. [ ] AI in Climate Modeling: Validation Standards [R]
 85. [ ] AI in Education: Personalization vs. Privacy [R][P]
 

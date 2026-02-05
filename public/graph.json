@@ -643,7 +643,7 @@
       "id": "policy",
       "title": "policy",
       "group": "governance",
-      "val": 29,
+      "val": 30,
       "articles": [
         {
           "title": "Policy Brief: The Disclosure Tiers Framework",
@@ -704,6 +704,11 @@
           "title": "The False Binary: Why 'Regulate Use, Not Models' Gets AI Governance Wrong",
           "slug": "/research/062-use-vs-models-false-binary",
           "excerpt": "A recent IEEE Spectrum article argues for use-based AI regulation over model-based approaches. This framing misses what actually works: layered, reflexive governance that addresses capabilities, deployment, and systemic accountability together."
+        },
+        {
+          "title": "AI in Agriculture: Data Governance",
+          "slug": "/research/083-ai-in-agriculture-data-governance",
+          "excerpt": "Exploring the governance challenges of data use in agricultural AI systems, with a focus on ethical, regulatory, and technical considerations for sustainable and equitable outcomes."
         }
       ]
     },
@@ -3237,6 +3242,32 @@
           "title": "Governance Fragmentation: Too Many Frameworks, Not Enough Coherence",
           "slug": "/research/082-governance-fragmentation",
           "excerpt": "The AI governance landscape is crowded with frameworks: principles, guidelines, regulations, and proposals proliferate. This abundance creates incoherence. How do we synthesize without premature standardization?"
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "title": "research",
+      "group": "technical",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI in Agriculture: Data Governance",
+          "slug": "/research/083-ai-in-agriculture-data-governance",
+          "excerpt": "Exploring the governance challenges of data use in agricultural AI systems, with a focus on ethical, regulatory, and technical considerations for sustainable and equitable outcomes."
+        }
+      ]
+    },
+    {
+      "id": "ai-focused",
+      "title": "ai-focused",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI in Agriculture: Data Governance",
+          "slug": "/research/083-ai-in-agriculture-data-governance",
+          "excerpt": "Exploring the governance challenges of data use in agricultural AI systems, with a focus on ethical, regulatory, and technical considerations for sustainable and equitable outcomes."
         }
       ]
     }
@@ -5890,6 +5921,21 @@
     {
       "source": "meta-governance",
       "target": "synthesis",
+      "value": 1
+    },
+    {
+      "source": "policy",
+      "target": "research",
+      "value": 1
+    },
+    {
+      "source": "ai-focused",
+      "target": "research",
+      "value": 1
+    },
+    {
+      "source": "ai-focused",
+      "target": "policy",
       "value": 1
     }
   ]
