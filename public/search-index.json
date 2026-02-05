@@ -1,5 +1,24 @@
 [
   {
+    "id": 85,
+    "title": "AI in Education: Personalization vs. Privacy",
+    "excerpt": "This article examines the tension between personalization and privacy in AI-driven educational tools, exploring governance frameworks, technological solutions, and ethical trade-offs.",
+    "slug": "085-ai-in-education-personalization-vs-privacy",
+    "date": "2026-02-05",
+    "tags": [
+      "personalization",
+      "privacy",
+      "governance",
+      "education",
+      "data-protection"
+    ],
+    "categories": [
+      "AI Governance",
+      "Education"
+    ],
+    "body": "The Promise of Personalization in Education Personalization in education refers to tailoring learning experiences to individual students' needs, strengths, and preferences. AI systems, particularly those powered by machine learning, are uniquely positioned to enable this through real-time data analysis and adaptive algorithms. Current Applications of AI in Education AI-driven tools are already used in several domains of education. For instance, adaptive learning platforms like Carnegie Learning "
+  },
+  {
     "id": 84,
     "title": "AI in Climate Modeling: Validation Standards",
     "excerpt": "Establishing rigorous validation standards for AI-driven climate models is essential to ensure their reliability, transparency, and utility in addressing global environmental challenges.",
