@@ -1,5 +1,24 @@
 [
   {
+    "id": 90,
+    "title": "Long-Term AI Futures: Scenario Planning",
+    "excerpt": "Exploring scenario planning as a method for navigating the uncertainties of long-term AI development and its societal implications.",
+    "slug": "090-long-term-ai-futures-scenario-planning",
+    "date": "2026-02-06",
+    "tags": [
+      "scenario planning",
+      "long-termism",
+      "foresight",
+      "AI safety",
+      "regulation"
+    ],
+    "categories": [
+      "Futures Analysis",
+      "AI Governance"
+    ],
+    "body": "Reflexive Research Object 090 Type: Futures Analysis & Policy Framework Introduction The rapid evolution of artificial intelligence (AI) technologies has sparked significant debates about their long-term societal impact. From transformative potential to catastrophic risks, AI occupies a unique position in public and academic discourse. Decision-makers face a daunting challenge: making policies today that will remain robust in an uncertain future. Scenario planning offers a structured approach to"
+  },
+  {
     "id": 89,
     "title": "AI Consciousness Claims: Policy Responses",
     "excerpt": "Exploring the governance challenges posed by AI systems claiming consciousness, and evaluating regulatory strategies to address these claims effectively.",

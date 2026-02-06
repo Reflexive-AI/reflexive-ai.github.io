@@ -138,6 +138,11 @@
           "title": "AI Consciousness Claims: Policy Responses",
           "slug": "/research/089-ai-consciousness-claims-policy-responses",
           "excerpt": "Exploring the governance challenges posed by AI systems claiming consciousness, and evaluating regulatory strategies to address these claims effectively."
+        },
+        {
+          "title": "Long-Term AI Futures: Scenario Planning",
+          "slug": "/research/090-long-term-ai-futures-scenario-planning",
+          "excerpt": "Exploring scenario planning as a method for navigating the uncertainties of long-term AI development and its societal implications."
         }
       ]
     },
@@ -2283,7 +2288,7 @@
       "id": "ai safety",
       "title": "AI safety",
       "group": "concept",
-      "val": 11,
+      "val": 13,
       "articles": [
         {
           "title": "Differential Privacy in AI Systems",
@@ -2299,6 +2304,11 @@
           "title": "Recursive Self-Improvement: Governance Implications",
           "slug": "/research/087-recursive-self-improvement-governance-implications",
           "excerpt": "Examining the governance challenges posed by recursive self-improvement in AI systems, with a focus on safety, accountability, and oversight."
+        },
+        {
+          "title": "Long-Term AI Futures: Scenario Planning",
+          "slug": "/research/090-long-term-ai-futures-scenario-planning",
+          "excerpt": "Exploring scenario planning as a method for navigating the uncertainties of long-term AI development and its societal implications."
         }
       ]
     },
@@ -3498,6 +3508,45 @@
           "title": "AI Consciousness Claims: Policy Responses",
           "slug": "/research/089-ai-consciousness-claims-policy-responses",
           "excerpt": "Exploring the governance challenges posed by AI systems claiming consciousness, and evaluating regulatory strategies to address these claims effectively."
+        }
+      ]
+    },
+    {
+      "id": "scenario planning",
+      "title": "scenario planning",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Long-Term AI Futures: Scenario Planning",
+          "slug": "/research/090-long-term-ai-futures-scenario-planning",
+          "excerpt": "Exploring scenario planning as a method for navigating the uncertainties of long-term AI development and its societal implications."
+        }
+      ]
+    },
+    {
+      "id": "long-termism",
+      "title": "long-termism",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Long-Term AI Futures: Scenario Planning",
+          "slug": "/research/090-long-term-ai-futures-scenario-planning",
+          "excerpt": "Exploring scenario planning as a method for navigating the uncertainties of long-term AI development and its societal implications."
+        }
+      ]
+    },
+    {
+      "id": "foresight",
+      "title": "foresight",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Long-Term AI Futures: Scenario Planning",
+          "slug": "/research/090-long-term-ai-futures-scenario-planning",
+          "excerpt": "Exploring scenario planning as a method for navigating the uncertainties of long-term AI development and its societal implications."
         }
       ]
     }
@@ -6416,6 +6465,56 @@
     {
       "source": "ai-consciousness",
       "target": "policy",
+      "value": 1
+    },
+    {
+      "source": "long-termism",
+      "target": "scenario planning",
+      "value": 1
+    },
+    {
+      "source": "foresight",
+      "target": "scenario planning",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "scenario planning",
+      "value": 1
+    },
+    {
+      "source": "regulation",
+      "target": "scenario planning",
+      "value": 1
+    },
+    {
+      "source": "foresight",
+      "target": "long-termism",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "long-termism",
+      "value": 1
+    },
+    {
+      "source": "long-termism",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "foresight",
+      "value": 1
+    },
+    {
+      "source": "foresight",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "regulation",
       "value": 1
     }
   ]
