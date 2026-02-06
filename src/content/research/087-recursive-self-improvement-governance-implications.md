@@ -1,4 +1,4 @@
-```yaml
+---
 title: "Recursive Self-Improvement: Governance Implications"
 excerpt: "Examining the governance challenges posed by recursive self-improvement in AI systems, with a focus on safety, accountability, and oversight."
 date: 2026-02-06
@@ -104,4 +104,3 @@ Recursive self-improvement represents a profound challenge for AI governance. It
 - [Governance for Artificial General Intelligence](/research/086-governance-for-artificial-general-intelligence)
 - [Self-Modifying Constraints: Technical Approaches](/research/061-self-modifying-constraints-technical-approaches)
 - [The Speed-Safety Tradeoff: Making the Implicit Explicit](/research/077-speed-safety-tradeoff)
-```

@@ -1639,6 +1639,11 @@
           "title": "AI in Education: Personalization vs. Privacy",
           "slug": "/research/085-ai-in-education-personalization-vs-privacy",
           "excerpt": "This article examines the tension between personalization and privacy in AI-driven educational tools, exploring governance frameworks, technological solutions, and ethical trade-offs."
+        },
+        {
+          "title": "Recursive Self-Improvement: Governance Implications",
+          "slug": "/research/087-recursive-self-improvement-governance-implications",
+          "excerpt": "Examining the governance challenges posed by recursive self-improvement in AI systems, with a focus on safety, accountability, and oversight."
         }
       ]
     },
@@ -2258,7 +2263,7 @@
       "id": "ai safety",
       "title": "AI safety",
       "group": "concept",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "Differential Privacy in AI Systems",
@@ -2269,6 +2274,11 @@
           "title": "AI in Climate Modeling: Validation Standards",
           "slug": "/research/084-ai-in-climate-modeling-validation-standards",
           "excerpt": "Establishing rigorous validation standards for AI-driven climate models is essential to ensure their reliability, transparency, and utility in addressing global environmental challenges."
+        },
+        {
+          "title": "Recursive Self-Improvement: Governance Implications",
+          "slug": "/research/087-recursive-self-improvement-governance-implications",
+          "excerpt": "Examining the governance challenges posed by recursive self-improvement in AI systems, with a focus on safety, accountability, and oversight."
         }
       ]
     },
@@ -2380,7 +2390,7 @@
       "id": "oversight",
       "title": "oversight",
       "group": "concept",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "The Governance Paradox: When AI Systems Are Better Regulators Than Humans",
@@ -2391,6 +2401,11 @@
           "title": "The Attention Economy Meets AI Governance: Designing for Distraction-Resistant Oversight",
           "slug": "/research/065-attention-economy-governance",
           "excerpt": "Human oversight assumes humans are paying attention. But modern interfaces are designed to maximize engagement, not careful evaluation. How do attention-economy dynamics undermine governance?"
+        },
+        {
+          "title": "Recursive Self-Improvement: Governance Implications",
+          "slug": "/research/087-recursive-self-improvement-governance-implications",
+          "excerpt": "Examining the governance challenges posed by recursive self-improvement in AI systems, with a focus on safety, accountability, and oversight."
         }
       ]
     },
@@ -3387,12 +3402,30 @@
       "id": "agi",
       "title": "AGI",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Governance for Artificial General Intelligence",
           "slug": "/research/086-governance-for-artificial-general-intelligence",
           "excerpt": "Examining the unique challenges and frameworks required to govern Artificial General Intelligence (AGI), with a focus on safety, accountability, and the role of reflexive AI in regulatory compliance."
+        },
+        {
+          "title": "Recursive Self-Improvement: Governance Implications",
+          "slug": "/research/087-recursive-self-improvement-governance-implications",
+          "excerpt": "Examining the governance challenges posed by recursive self-improvement in AI systems, with a focus on safety, accountability, and oversight."
+        }
+      ]
+    },
+    {
+      "id": "recursive self-improvement",
+      "title": "recursive self-improvement",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Recursive Self-Improvement: Governance Implications",
+          "slug": "/research/087-recursive-self-improvement-governance-implications",
+          "excerpt": "Examining the governance challenges posed by recursive self-improvement in AI systems, with a focus on safety, accountability, and oversight."
         }
       ]
     },
@@ -5005,7 +5038,7 @@
     {
       "source": "ai safety",
       "target": "governance",
-      "value": 1
+      "value": 2
     },
     {
       "source": "governance",
@@ -5130,7 +5163,7 @@
     {
       "source": "governance",
       "target": "oversight",
-      "value": 2
+      "value": 3
     },
     {
       "source": "oversight",
@@ -6240,6 +6273,46 @@
     {
       "source": "reflexive ai",
       "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "recursive self-improvement",
+      "value": 1
+    },
+    {
+      "source": "oversight",
+      "target": "recursive self-improvement",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "recursive self-improvement",
+      "value": 1
+    },
+    {
+      "source": "agi",
+      "target": "recursive self-improvement",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "oversight",
+      "value": 1
+    },
+    {
+      "source": "agi",
+      "target": "ai safety",
+      "value": 1
+    },
+    {
+      "source": "agi",
+      "target": "oversight",
+      "value": 1
+    },
+    {
+      "source": "agi",
+      "target": "governance",
       "value": 1
     },
     {
