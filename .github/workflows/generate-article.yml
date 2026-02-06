@@ -142,13 +142,20 @@ jobs:
             Tags hint: ${article.tags} (R=Research, P=Policy, A=AI-focused)
 
             Requirements:
-            1. Start with YAML frontmatter (title, excerpt, date: ${new Date().toISOString().split('T')[0]}, toc: true, categories, tags)
+            1. Start with YAML frontmatter between --- delimiters (title, excerpt, date: ${new Date().toISOString().split('T')[0]}, toc: true, categories, tags)
             2. Write 1500-2500 words of substantive, evidence-based content
             3. Include 4-6 major sections with ## headers
             4. Use an academic but accessible tone
             5. Cross-reference related concepts where relevant
             6. End with a conclusion section
             7. Add an italicized note about scope/limitations at the end
+
+            CRITICAL FORMATTING RULES:
+            - Output the article as raw markdown, NOT wrapped in code fences
+            - Do NOT wrap output in \`\`\`yaml, \`\`\`markdown, or \`\`\` blocks
+            - The very first line of your response must be --- (the YAML frontmatter opening delimiter)
+            - The frontmatter must end with --- on its own line
+            - After the closing --- write the article body directly as markdown
 
             CROSS-LINKING: Include 2-3 inline references to related articles using this format: [Article Title](/research/slug)
             At the end, add a "## Related Articles" section listing 2-3 relevant pieces.
@@ -192,26 +199,39 @@ jobs:
               const data = await response.json();
               let content = data.choices[0].message.content;
 
-              // Strip markdown code fences that LLMs often wrap around output
-              // Handles ```yaml\n---\n...\n---\n``` and ```\n---\n...\n---\n``` patterns
-              content = content.replace(/^```(?:yaml|markdown|md)?\s*\n?/i, '');
-              content = content.replace(/\n?```\s*$/,  '');
-              content = content.trim();
+              // Robust frontmatter extraction — handles all LLM wrapping patterns:
+              //   ```yaml\n---\nfm\n---\n```\nbody
+              //   ```yaml\nfm\n---\n```\nbody  (missing opening ---)
+              //   ```\n---\nfm\n---\nbody\n```  (whole doc in one fence)
+              //   ---\nfm\n---\nbody            (correct, no fences)
 
-              // Ensure frontmatter starts with --- delimiter
-              if (!content.startsWith('---')) {
-                // If content starts with valid YAML fields (title:), wrap in delimiters
-                if (/^title:\s*/.test(content)) {
-                  // Find where frontmatter ends (next --- or first ## heading)
-                  const fmEnd = content.indexOf('\n---');
-                  if (fmEnd !== -1) {
-                    content = '---\n' + content;
-                  }
-                } else {
-                  console.error(`Article ${article.number}: generated content has no valid frontmatter, skipping`);
-                  continue;
-                }
+              // Step 1: Find the title field — this anchors us to the real frontmatter
+              const titleIdx = content.indexOf('title:');
+              if (titleIdx === -1) {
+                console.error(`Article ${article.number}: no title field found in LLM output, skipping`);
+                continue;
               }
+
+              // Step 2: Find the closing --- after the title (end of frontmatter)
+              const fmCloseIdx = content.indexOf('\n---', titleIdx);
+              if (fmCloseIdx === -1) {
+                console.error(`Article ${article.number}: no closing --- found for frontmatter, skipping`);
+                continue;
+              }
+
+              // Step 3: Extract frontmatter (from title to closing ---) and body (everything after)
+              const fmContent = content.substring(titleIdx, fmCloseIdx).trim();
+              let body = content.substring(fmCloseIdx + 4); // skip past \n---
+
+              // Step 4: Clean stray code fences from the body
+              // Remove fence right after frontmatter (```\n at start of body)
+              body = body.replace(/^\s*```\s*\n?/, '');
+              // Remove trailing fence at end of document
+              body = body.replace(/\n?```\s*$/, '');
+              body = body.trim();
+
+              // Step 5: Reassemble with clean --- delimiters
+              content = '---\n' + fmContent + '\n---\n\n' + body;
 
               // Generate filename
               const slug = article.title.toLowerCase()
