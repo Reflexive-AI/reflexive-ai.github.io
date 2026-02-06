@@ -1,5 +1,23 @@
 [
   {
+    "id": 87,
+    "title": "Recursive Self-Improvement: Governance Implications",
+    "excerpt": "Examining the governance challenges posed by recursive self-improvement in AI systems, with a focus on safety, accountability, and oversight.",
+    "slug": "087-recursive-self-improvement-governance-implications",
+    "date": "2026-02-06",
+    "tags": [
+      "recursive self-improvement",
+      "AI safety",
+      "oversight",
+      "governance",
+      "AGI"
+    ],
+    "categories": [
+      "Governance Analysis"
+    ],
+    "body": "Related Articles - Governance for Artificial General Intelligence - Self-Modifying Constraints: Technical Approaches - The Speed-Safety Tradeoff: Making the Implicit Explicit"
+  },
+  {
     "id": 86,
     "title": "Governance for Artificial General Intelligence",
     "excerpt": "Examining the unique challenges and frameworks required to govern Artificial General Intelligence (AGI), with a focus on safety, accountability, and the role of reflexive AI in regulatory compliance.",
