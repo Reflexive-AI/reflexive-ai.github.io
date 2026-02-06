@@ -1,4 +1,4 @@
-```yaml
+---
 title: "AI in Climate Modeling: Validation Standards"
 excerpt: "Establishing rigorous validation standards for AI-driven climate models is essential to ensure their reliability, transparency, and utility in addressing global environmental challenges."
 date: 2026-02-05
@@ -97,4 +97,3 @@ AI-driven climate models hold immense potential to advance our understanding of 
 - [Model Versioning and Rollback Protocols](/research/058-model-versioning-and-rollback-protocols)  
 - [AI in Agriculture: Data Governance](/research/083-ai-in-agriculture-data-governance)  
 - [The Governance Paradox: When AI Systems Are Better Regulators Than Humans](/research/063-governance-paradox)
-```
