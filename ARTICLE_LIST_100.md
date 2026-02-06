@@ -116,7 +116,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 86. [x] Governance for Artificial General Intelligence [R]
 87. [x] Recursive Self-Improvement: Governance Implications [R]
 88. [x] Multi-Agent Coordination Failures [R]
-89. [ ] AI Consciousness Claims: Policy Responses [R][P]
+89. [x] AI Consciousness Claims: Policy Responses [R][P]
 90. [ ] Long-Term AI Futures: Scenario Planning [R][P]
 91. [ ] AI Governance in Space [R]
 92. [ ] Quantum Computing and AI Security [R]

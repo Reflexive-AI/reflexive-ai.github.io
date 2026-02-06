@@ -133,6 +133,11 @@
           "title": "Governance for Artificial General Intelligence",
           "slug": "/research/086-governance-for-artificial-general-intelligence",
           "excerpt": "Examining the unique challenges and frameworks required to govern Artificial General Intelligence (AGI), with a focus on safety, accountability, and the role of reflexive AI in regulatory compliance."
+        },
+        {
+          "title": "AI Consciousness Claims: Policy Responses",
+          "slug": "/research/089-ai-consciousness-claims-policy-responses",
+          "excerpt": "Exploring the governance challenges posed by AI systems claiming consciousness, and evaluating regulatory strategies to address these claims effectively."
         }
       ]
     },
@@ -729,6 +734,11 @@
           "title": "AI in Agriculture: Data Governance",
           "slug": "/research/083-ai-in-agriculture-data-governance",
           "excerpt": "Exploring the governance challenges of data use in agricultural AI systems, with a focus on ethical, regulatory, and technical considerations for sustainable and equitable outcomes."
+        },
+        {
+          "title": "AI Consciousness Claims: Policy Responses",
+          "slug": "/research/089-ai-consciousness-claims-policy-responses",
+          "excerpt": "Exploring the governance challenges posed by AI systems claiming consciousness, and evaluating regulatory strategies to address these claims effectively."
         }
       ]
     },
@@ -876,7 +886,7 @@
       "id": "ethics",
       "title": "ethics",
       "group": "concept",
-      "val": 25,
+      "val": 27,
       "articles": [
         {
           "title": "Consent at Scale: A Structural Impossibility?",
@@ -927,6 +937,11 @@
           "title": "Public Participation in AI Policy",
           "slug": "/research/045-public-participation",
           "excerpt": "How can ordinary citizens meaningfully participate in decisions about AI that will affect their lives? An examination of mechanisms for democratic AI governance."
+        },
+        {
+          "title": "AI Consciousness Claims: Policy Responses",
+          "slug": "/research/089-ai-consciousness-claims-policy-responses",
+          "excerpt": "Exploring the governance challenges posed by AI systems claiming consciousness, and evaluating regulatory strategies to address these claims effectively."
         }
       ]
     },
@@ -1644,6 +1659,11 @@
           "title": "Recursive Self-Improvement: Governance Implications",
           "slug": "/research/087-recursive-self-improvement-governance-implications",
           "excerpt": "Examining the governance challenges posed by recursive self-improvement in AI systems, with a focus on safety, accountability, and oversight."
+        },
+        {
+          "title": "AI Consciousness Claims: Policy Responses",
+          "slug": "/research/089-ai-consciousness-claims-policy-responses",
+          "excerpt": "Exploring the governance challenges posed by AI systems claiming consciousness, and evaluating regulatory strategies to address these claims effectively."
         }
       ]
     },
@@ -3467,6 +3487,19 @@
           "excerpt": "Exploring the dynamics, risks, and governance challenges of coordination failures among AI systems in multi-agent environments."
         }
       ]
+    },
+    {
+      "id": "ai-consciousness",
+      "title": "ai-consciousness",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI Consciousness Claims: Policy Responses",
+          "slug": "/research/089-ai-consciousness-claims-policy-responses",
+          "excerpt": "Exploring the governance challenges posed by AI systems claiming consciousness, and evaluating regulatory strategies to address these claims effectively."
+        }
+      ]
     }
   ],
   "links": [
@@ -4043,12 +4076,12 @@
     {
       "source": "ethics",
       "target": "policy",
-      "value": 3
+      "value": 4
     },
     {
       "source": "ethics",
       "target": "regulation",
-      "value": 1
+      "value": 2
     },
     {
       "source": "enforcement",
@@ -6363,6 +6396,26 @@
     {
       "source": "failure modes",
       "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "ai-consciousness",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "ai-consciousness",
+      "target": "ethics",
+      "value": 1
+    },
+    {
+      "source": "ai-consciousness",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "ai-consciousness",
+      "target": "policy",
       "value": 1
     }
   ]
