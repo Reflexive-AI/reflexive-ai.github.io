@@ -233,6 +233,14 @@ jobs:
               // Step 5: Reassemble with clean --- delimiters
               content = '---\n' + fmContent + '\n---\n\n' + body;
 
+              // Step 6: Validate required frontmatter fields before writing
+              const hasTitle = /^title:\s*".+"/m.test(fmContent);
+              const hasExcerpt = /^excerpt:\s*".+"/m.test(fmContent);
+              if (!hasTitle || !hasExcerpt) {
+                console.error(`Article ${article.number}: missing required frontmatter fields (title: ${hasTitle}, excerpt: ${hasExcerpt}), skipping`);
+                continue;
+              }
+
               // Generate filename
               const slug = article.title.toLowerCase()
                 .replace(/[^a-z0-9\s-]/g, '')
@@ -262,19 +270,26 @@ jobs:
             
             return generatedFiles.join(',');
             
+      - name: Check for any changes
+        id: check_changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Install dependencies
-        if: steps.generate.outputs.result != ''
+        if: steps.check_changes.outputs.has_changes == 'true'
         run: npm ci
 
       - name: Regenerate neural graph and search index
-        if: steps.generate.outputs.result != ''
+        if: steps.check_changes.outputs.has_changes == 'true'
         run: |
           node scripts/generate-graph.js
           node scripts/generate-search-index.js
           node scripts/generate-llms-txt.js
 
-      - name: Commit and push articles
-        if: steps.generate.outputs.result != ''
+      - name: Commit and push
+        if: steps.check_changes.outputs.has_changes == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
