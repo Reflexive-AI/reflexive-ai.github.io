@@ -128,6 +128,11 @@
           "title": "The Small Actor Problem: How AI Regulation Shapes Market Structure",
           "slug": "/research/075-small-actor-problem",
           "excerpt": "AI regulations often benefit large incumbents who can afford compliance. How can governance avoid creating barriers that entrench power and lock out smaller innovators?"
+        },
+        {
+          "title": "Governance for Artificial General Intelligence",
+          "slug": "/research/086-governance-for-artificial-general-intelligence",
+          "excerpt": "Examining the unique challenges and frameworks required to govern Artificial General Intelligence (AGI), with a focus on safety, accountability, and the role of reflexive AI in regulatory compliance."
         }
       ]
     },
@@ -393,6 +398,16 @@
           "title": "The Economics of AI Safety: Who Pays and Why It Matters",
           "slug": "/research/078-economics-ai-safety",
           "excerpt": "Safety costs money. Who bears those costs shapes what safety work gets done. This article examines the economics of AI safety: funding structures, incentive misalignments, and what economic systems would adequately support safety."
+        },
+        {
+          "title": "Governance for Artificial General Intelligence",
+          "slug": "/research/086-governance-for-artificial-general-intelligence",
+          "excerpt": "Examining the unique challenges and frameworks required to govern Artificial General Intelligence (AGI), with a focus on safety, accountability, and the role of reflexive AI in regulatory compliance."
+        },
+        {
+          "title": "Multi-Agent Coordination Failures",
+          "slug": "/research/088-multi-agent-coordination-failures",
+          "excerpt": "Exploring the dynamics, risks, and governance challenges of coordination failures among AI systems in multi-agent environments."
         }
       ]
     },
@@ -462,7 +477,7 @@
       "id": "standards",
       "title": "standards",
       "group": "concept",
-      "val": 17,
+      "val": 19,
       "articles": [
         {
           "title": "A Machine-Readable Constraint Schema (MRCS)",
@@ -493,6 +508,11 @@
           "title": "Model Evaluation Standards: Current State",
           "slug": "/research/049-model-evaluation-standards",
           "excerpt": "A survey of existing standards and practices for evaluating AI model performance, safety, and fitness for deployment."
+        },
+        {
+          "title": "AI in Climate Modeling: Validation Standards",
+          "slug": "/research/084-ai-in-climate-modeling-validation-standards",
+          "excerpt": "Establishing rigorous validation standards for AI-driven climate models is essential to ensure their reliability, transparency, and utility in addressing global environmental challenges."
         }
       ]
     },
@@ -1614,6 +1634,11 @@
           "title": "The Attention Economy Meets AI Governance: Designing for Distraction-Resistant Oversight",
           "slug": "/research/065-attention-economy-governance",
           "excerpt": "Human oversight assumes humans are paying attention. But modern interfaces are designed to maximize engagement, not careful evaluation. How do attention-economy dynamics undermine governance?"
+        },
+        {
+          "title": "AI in Education: Personalization vs. Privacy",
+          "slug": "/research/085-ai-in-education-personalization-vs-privacy",
+          "excerpt": "This article examines the tension between personalization and privacy in AI-driven educational tools, exploring governance frameworks, technological solutions, and ethical trade-offs."
         }
       ]
     },
@@ -1853,7 +1878,7 @@
       "id": "privacy",
       "title": "Privacy",
       "group": "concept",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "Training Data Governance",
@@ -1864,6 +1889,11 @@
           "title": "Differential Privacy in AI Systems",
           "slug": "/research/059-differential-privacy-in-ai-systems",
           "excerpt": "An exploration of differential privacy as a critical tool for AI governance, its practical applications, limitations, and its role in ensuring both technical and societal safety."
+        },
+        {
+          "title": "AI in Education: Personalization vs. Privacy",
+          "slug": "/research/085-ai-in-education-personalization-vs-privacy",
+          "excerpt": "This article examines the tension between personalization and privacy in AI-driven educational tools, exploring governance frameworks, technological solutions, and ethical trade-offs."
         }
       ]
     },
@@ -2050,12 +2080,17 @@
       "id": "ai governance",
       "title": "ai governance",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Rate Limiting and Abuse Detection",
           "slug": "/research/055-rate-limiting-and-abuse-detection",
           "excerpt": "A comprehensive exploration of how rate limiting and abuse detection mechanisms can be employed to improve AI system safety and governance."
+        },
+        {
+          "title": "Governance for Artificial General Intelligence",
+          "slug": "/research/086-governance-for-artificial-general-intelligence",
+          "excerpt": "Examining the unique challenges and frameworks required to govern Artificial General Intelligence (AGI), with a focus on safety, accountability, and the role of reflexive AI in regulatory compliance."
         }
       ]
     },
@@ -2125,7 +2160,7 @@
       "id": "accountability",
       "title": "accountability",
       "group": "concept",
-      "val": 11,
+      "val": 13,
       "articles": [
         {
           "title": "Monitoring Deployed Models",
@@ -2141,6 +2176,11 @@
           "title": "The Liability Vacuum: When AI Harms Fall Between Legal Categories",
           "slug": "/research/071-liability-vacuum",
           "excerpt": "AI harms often don't fit existing legal frameworks: not quite product liability, not quite professional malpractice, not quite negligence. This article maps the specific gaps and proposes targeted fixes."
+        },
+        {
+          "title": "AI in Climate Modeling: Validation Standards",
+          "slug": "/research/084-ai-in-climate-modeling-validation-standards",
+          "excerpt": "Establishing rigorous validation standards for AI-driven climate models is essential to ensure their reliability, transparency, and utility in addressing global environmental challenges."
         }
       ]
     },
@@ -2174,12 +2214,17 @@
       "id": "reflexive ai",
       "title": "reflexive AI",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Post-Deployment Capability Discovery",
           "slug": "/research/057-post-deployment-capability-discovery",
           "excerpt": "Examining the phenomenon of emergent capabilities in deployed AI systems and its implications for safety, governance, and accountability."
+        },
+        {
+          "title": "Governance for Artificial General Intelligence",
+          "slug": "/research/086-governance-for-artificial-general-intelligence",
+          "excerpt": "Examining the unique challenges and frameworks required to govern Artificial General Intelligence (AGI), with a focus on safety, accountability, and the role of reflexive AI in regulatory compliance."
         }
       ]
     },
@@ -2213,12 +2258,17 @@
       "id": "ai safety",
       "title": "AI safety",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Differential Privacy in AI Systems",
           "slug": "/research/059-differential-privacy-in-ai-systems",
           "excerpt": "An exploration of differential privacy as a critical tool for AI governance, its practical applications, limitations, and its role in ensuring both technical and societal safety."
+        },
+        {
+          "title": "AI in Climate Modeling: Validation Standards",
+          "slug": "/research/084-ai-in-climate-modeling-validation-standards",
+          "excerpt": "Establishing rigorous validation standards for AI-driven climate models is essential to ensure their reliability, transparency, and utility in addressing global environmental challenges."
         }
       ]
     },
@@ -3088,7 +3138,7 @@
       "id": "education",
       "title": "education",
       "group": "concept",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "Trust Calibration: Teaching Users When to Believe AI",
@@ -3099,6 +3149,11 @@
           "title": "AI and Children: Distinct Moral and Governance Considerations",
           "slug": "/research/080-ai-and-children",
           "excerpt": "Children are not small adults. AI systems designed for adult contexts may harm children in specific ways. What governance considerations are distinct when AI systems interact with minors?"
+        },
+        {
+          "title": "AI in Education: Personalization vs. Privacy",
+          "slug": "/research/085-ai-in-education-personalization-vs-privacy",
+          "excerpt": "This article examines the tension between personalization and privacy in AI-driven educational tools, exploring governance frameworks, technological solutions, and ethical trade-offs."
         }
       ]
     },
@@ -3249,12 +3304,17 @@
       "id": "research",
       "title": "research",
       "group": "technical",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "AI in Agriculture: Data Governance",
           "slug": "/research/083-ai-in-agriculture-data-governance",
           "excerpt": "Exploring the governance challenges of data use in agricultural AI systems, with a focus on ethical, regulatory, and technical considerations for sustainable and equitable outcomes."
+        },
+        {
+          "title": "Multi-Agent Coordination Failures",
+          "slug": "/research/088-multi-agent-coordination-failures",
+          "excerpt": "Exploring the dynamics, risks, and governance challenges of coordination failures among AI systems in multi-agent environments."
         }
       ]
     },
@@ -3268,6 +3328,110 @@
           "title": "AI in Agriculture: Data Governance",
           "slug": "/research/083-ai-in-agriculture-data-governance",
           "excerpt": "Exploring the governance challenges of data use in agricultural AI systems, with a focus on ethical, regulatory, and technical considerations for sustainable and equitable outcomes."
+        }
+      ]
+    },
+    {
+      "id": "validation",
+      "title": "validation",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI in Climate Modeling: Validation Standards",
+          "slug": "/research/084-ai-in-climate-modeling-validation-standards",
+          "excerpt": "Establishing rigorous validation standards for AI-driven climate models is essential to ensure their reliability, transparency, and utility in addressing global environmental challenges."
+        }
+      ]
+    },
+    {
+      "id": "climate modeling",
+      "title": "climate modeling",
+      "group": "technical",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI in Climate Modeling: Validation Standards",
+          "slug": "/research/084-ai-in-climate-modeling-validation-standards",
+          "excerpt": "Establishing rigorous validation standards for AI-driven climate models is essential to ensure their reliability, transparency, and utility in addressing global environmental challenges."
+        }
+      ]
+    },
+    {
+      "id": "personalization",
+      "title": "personalization",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI in Education: Personalization vs. Privacy",
+          "slug": "/research/085-ai-in-education-personalization-vs-privacy",
+          "excerpt": "This article examines the tension between personalization and privacy in AI-driven educational tools, exploring governance frameworks, technological solutions, and ethical trade-offs."
+        }
+      ]
+    },
+    {
+      "id": "data-protection",
+      "title": "data-protection",
+      "group": "technical",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI in Education: Personalization vs. Privacy",
+          "slug": "/research/085-ai-in-education-personalization-vs-privacy",
+          "excerpt": "This article examines the tension between personalization and privacy in AI-driven educational tools, exploring governance frameworks, technological solutions, and ethical trade-offs."
+        }
+      ]
+    },
+    {
+      "id": "agi",
+      "title": "AGI",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Governance for Artificial General Intelligence",
+          "slug": "/research/086-governance-for-artificial-general-intelligence",
+          "excerpt": "Examining the unique challenges and frameworks required to govern Artificial General Intelligence (AGI), with a focus on safety, accountability, and the role of reflexive AI in regulatory compliance."
+        }
+      ]
+    },
+    {
+      "id": "multi-agent systems",
+      "title": "multi-agent systems",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Multi-Agent Coordination Failures",
+          "slug": "/research/088-multi-agent-coordination-failures",
+          "excerpt": "Exploring the dynamics, risks, and governance challenges of coordination failures among AI systems in multi-agent environments."
+        }
+      ]
+    },
+    {
+      "id": "ai coordination",
+      "title": "AI coordination",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Multi-Agent Coordination Failures",
+          "slug": "/research/088-multi-agent-coordination-failures",
+          "excerpt": "Exploring the dynamics, risks, and governance challenges of coordination failures among AI systems in multi-agent environments."
+        }
+      ]
+    },
+    {
+      "id": "failure modes",
+      "title": "failure modes",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Multi-Agent Coordination Failures",
+          "slug": "/research/088-multi-agent-coordination-failures",
+          "excerpt": "Exploring the dynamics, risks, and governance challenges of coordination failures among AI systems in multi-agent environments."
         }
       ]
     }
@@ -4046,7 +4210,7 @@
     {
       "source": "regulation",
       "target": "safety",
-      "value": 3
+      "value": 4
     },
     {
       "source": "enforcement",
@@ -4821,7 +4985,7 @@
     {
       "source": "governance",
       "target": "privacy",
-      "value": 1
+      "value": 2
     },
     {
       "source": "ai safety",
@@ -5936,6 +6100,196 @@
     {
       "source": "ai-focused",
       "target": "policy",
+      "value": 1
+    },
+    {
+      "source": "climate modeling",
+      "target": "validation",
+      "value": 1
+    },
+    {
+      "source": "standards",
+      "target": "validation",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "validation",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "validation",
+      "value": 1
+    },
+    {
+      "source": "climate modeling",
+      "target": "standards",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "climate modeling",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "climate modeling",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "standards",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "standards",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "ai safety",
+      "value": 1
+    },
+    {
+      "source": "personalization",
+      "target": "privacy",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "personalization",
+      "value": 1
+    },
+    {
+      "source": "education",
+      "target": "personalization",
+      "value": 1
+    },
+    {
+      "source": "data-protection",
+      "target": "personalization",
+      "value": 1
+    },
+    {
+      "source": "education",
+      "target": "privacy",
+      "value": 1
+    },
+    {
+      "source": "data-protection",
+      "target": "privacy",
+      "value": 1
+    },
+    {
+      "source": "education",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "data-protection",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "data-protection",
+      "target": "education",
+      "value": 1
+    },
+    {
+      "source": "agi",
+      "target": "ai governance",
+      "value": 1
+    },
+    {
+      "source": "agi",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "agi",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "agi",
+      "target": "reflexive ai",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "reflexive ai",
+      "value": 1
+    },
+    {
+      "source": "reflexive ai",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "reflexive ai",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "multi-agent systems",
+      "target": "research",
+      "value": 1
+    },
+    {
+      "source": "ai coordination",
+      "target": "research",
+      "value": 1
+    },
+    {
+      "source": "research",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "failure modes",
+      "target": "research",
+      "value": 1
+    },
+    {
+      "source": "ai coordination",
+      "target": "multi-agent systems",
+      "value": 1
+    },
+    {
+      "source": "multi-agent systems",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "failure modes",
+      "target": "multi-agent systems",
+      "value": 1
+    },
+    {
+      "source": "ai coordination",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "ai coordination",
+      "target": "failure modes",
+      "value": 1
+    },
+    {
+      "source": "failure modes",
+      "target": "safety",
       "value": 1
     }
   ]
