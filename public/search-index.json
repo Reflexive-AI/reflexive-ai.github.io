@@ -1,5 +1,22 @@
 [
   {
+    "id": 91,
+    "title": "AI Governance in Space",
+    "excerpt": "Exploring the unique challenges and opportunities for regulating artificial intelligence in extraterrestrial domains, from autonomous systems to interplanetary collaboration.",
+    "slug": "091-ai-governance-in-space",
+    "date": "2026-02-07",
+    "tags": [
+      "space",
+      "ai-governance",
+      "autonomy",
+      "extraterrestrial"
+    ],
+    "categories": [
+      "Governance Analysis"
+    ],
+    "body": "Reflexive Research Object 091 Type: Governance Analysis & Research Introduction Artificial intelligence (AI) is increasingly integral to space exploration, from optimizing satellite constellations to controlling autonomous rovers on distant planets. As humanity moves toward sustained extraterrestrial presence, AI systems will play crucial roles in decision-making, resource management, and interplanetary communication. However, space introduces unique governance challenges: legal ambiguity, extre"
+  },
+  {
     "id": 90,
     "title": "Long-Term AI Futures: Scenario Planning",
     "excerpt": "Exploring scenario planning as a method for navigating the uncertainties of long-term AI development and its societal implications.",

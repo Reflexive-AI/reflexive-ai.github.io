@@ -2066,7 +2066,7 @@
       "id": "ai-governance",
       "title": "ai-governance",
       "group": "concept",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "API-Level Safety Controls",
@@ -2077,6 +2077,11 @@
           "title": "Model Versioning and Rollback Protocols",
           "slug": "/research/058-model-versioning-and-rollback-protocols",
           "excerpt": "Examining the role of versioning and rollback mechanisms in AI governance to ensure safety, accountability, and operational continuity."
+        },
+        {
+          "title": "AI Governance in Space",
+          "slug": "/research/091-ai-governance-in-space",
+          "excerpt": "Exploring the unique challenges and opportunities for regulating artificial intelligence in extraterrestrial domains, from autonomous systems to interplanetary collaboration."
         }
       ]
     },
@@ -3547,6 +3552,45 @@
           "title": "Long-Term AI Futures: Scenario Planning",
           "slug": "/research/090-long-term-ai-futures-scenario-planning",
           "excerpt": "Exploring scenario planning as a method for navigating the uncertainties of long-term AI development and its societal implications."
+        }
+      ]
+    },
+    {
+      "id": "space",
+      "title": "space",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI Governance in Space",
+          "slug": "/research/091-ai-governance-in-space",
+          "excerpt": "Exploring the unique challenges and opportunities for regulating artificial intelligence in extraterrestrial domains, from autonomous systems to interplanetary collaboration."
+        }
+      ]
+    },
+    {
+      "id": "autonomy",
+      "title": "autonomy",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI Governance in Space",
+          "slug": "/research/091-ai-governance-in-space",
+          "excerpt": "Exploring the unique challenges and opportunities for regulating artificial intelligence in extraterrestrial domains, from autonomous systems to interplanetary collaboration."
+        }
+      ]
+    },
+    {
+      "id": "extraterrestrial",
+      "title": "extraterrestrial",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI Governance in Space",
+          "slug": "/research/091-ai-governance-in-space",
+          "excerpt": "Exploring the unique challenges and opportunities for regulating artificial intelligence in extraterrestrial domains, from autonomous systems to interplanetary collaboration."
         }
       ]
     }
@@ -6515,6 +6559,36 @@
     {
       "source": "ai safety",
       "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "space",
+      "value": 1
+    },
+    {
+      "source": "autonomy",
+      "target": "space",
+      "value": 1
+    },
+    {
+      "source": "extraterrestrial",
+      "target": "space",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "autonomy",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "extraterrestrial",
+      "value": 1
+    },
+    {
+      "source": "autonomy",
+      "target": "extraterrestrial",
       "value": 1
     }
   ]
