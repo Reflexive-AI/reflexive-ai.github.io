@@ -142,7 +142,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 
 *Second-order effects and emerging friction points not covered by articles 1-100.*
 
-101. [ ] The Legal Personhood of Ephemeral Agent Swarms [R]
+101. [x] The Legal Personhood of Ephemeral Agent Swarms [R]
     When agent coalitions form, act, and dissolve in milliseconds, no persistent legal entity exists to hold accountable, creating a category error in legal ontology.
 
 102. [ ] Agent-to-Agent Economics: Unregulated Markets at Machine Speed [R]

@@ -1,5 +1,150 @@
 [
   {
+    "id": 101,
+    "title": "The Legal Personhood of Ephemeral Agent Swarms",
+    "excerpt": "Examining the challenges and implications of granting legal personhood to transient, multi-agent AI systems operating as cohesive units.",
+    "slug": "101-the-legal-personhood-of-ephemeral-agent-swarms",
+    "date": "2026-02-07",
+    "tags": [
+      "legal personhood",
+      "multi-agent systems",
+      "regulation",
+      "AI ethics"
+    ],
+    "categories": [
+      "AI Governance"
+    ],
+    "body": "Introduction The rise of multi-agent systems—networks of artificial intelligence agents working in concert to perform complex tasks—has led to a paradigm shift in how we think about AI governance and accountability. Among the most intriguing developments is the emergence of ephemeral agent swarms, transient collectives of AI agents that assemble, act, and disband dynamically. These swarms often function without a single, persistent identity or centralized control, raising profound questions abou"
+  },
+  {
+    "id": 100,
+    "title": "Annual Review: State of AI Governance 2026",
+    "excerpt": "The 100th and final article in the Reflexive AI Initiative's founding corpus surveys the state of AI governance as of February 2026, assessing regulatory progress, institutional capacity, technical advances, and the three biggest open problems in the field.",
+    "slug": "100-annual-review-state-of-ai-governance-2026",
+    "date": "2026-02-07",
+    "tags": [
+      "annual-review",
+      "ai-governance",
+      "state-of-the-field",
+      "2026",
+      "retrospective"
+    ],
+    "categories": [
+      "Annual Review"
+    ],
+    "body": "Reflexive Research Object 100 Type: Research Introduction This is the 100th article published by the Reflexive AI Initiative. It is also, by design, the last in the founding corpus. One hundred articles over roughly three months have covered AI governance from first principles to frontier controversies: from what alignment actually means to the mechanics of regulatory arbitrage, from the history of the field to the institutions being built to manage it. This final article takes stock. What is th"
+  },
+  {
+    "id": 99,
+    "title": "The Reflexive AI Initiative: Mission and Methods",
+    "excerpt": "What the Reflexive AI Initiative is, why it exists, and how it works. A self-portrait of a research project that applies its own governance thesis to itself.",
+    "slug": "099-reflexive-ai-mission-methods",
+    "date": "2026-02-07",
+    "tags": [
+      "reflexive-ai",
+      "mission",
+      "methodology",
+      "governance",
+      "transparency"
+    ],
+    "categories": [
+      "Meta"
+    ],
+    "body": "Reflexive Research Object 099 Type: Research Introduction This article describes the Reflexive AI Initiative: its mission, its methods, and its limitations. Every research project should be able to explain itself clearly. A project whose core thesis is that governance frameworks should apply to themselves has an even stronger obligation to do so. The Reflexive AI Initiative is a research project focused on AI governance. It produces analysis, frameworks, and machine-readable artifacts. It does n"
+  },
+  {
+    "id": 98,
+    "title": "Career Paths in AI Governance",
+    "excerpt": "A practical guide to careers in AI governance. Roles, required skills, where the jobs are, and how to break into a field where demand far outstrips supply.",
+    "slug": "098-career-paths-ai-governance",
+    "date": "2026-02-07",
+    "tags": [
+      "careers",
+      "ai-governance",
+      "workforce",
+      "policy",
+      "education"
+    ],
+    "categories": [
+      "Public Interest"
+    ],
+    "body": "Reflexive Research Object 098 Type: Research Introduction AI governance is no longer an academic curiosity. It is a growing professional field with real jobs, real salaries, and a serious shortage of qualified people. Governments, companies, international organizations, and civil society groups are all hiring. Most of them are struggling to find candidates. If you care about how AI shapes society, this is a field you can work in. This article maps the landscape: what roles exist, what they requi"
+  },
+  {
+    "id": 97,
+    "title": "Funding Models for AI Safety Research",
+    "excerpt": "AI safety research is chronically underfunded relative to capability work. This article examines current funding sources, compares alternative models from prizes to compute taxes, and proposes concrete mechanisms to close the gap.",
+    "slug": "097-funding-models-ai-safety",
+    "date": "2026-02-07",
+    "tags": [
+      "funding",
+      "ai-safety",
+      "research-policy",
+      "philanthropy",
+      "public-funding"
+    ],
+    "categories": [
+      "Governance Analysis"
+    ],
+    "body": "Reflexive Research Object 097 Type: Research Introduction AI safety research is underfunded. Not in absolute terms: hundreds of millions of dollars flow to safety-related work annually. But relative to the scale of capability investment, safety funding remains a rounding error. In 2024, global AI investment exceeded $100 billion. Estimates of dedicated safety research spending ranged from $500 million to $1.5 billion, depending on what counts as \"safety\" (Epoch AI, 2024). That is roughly one cen"
+  },
+  {
+    "id": 96,
+    "title": "Building AI Governance Institutions",
+    "excerpt": "Effective AI governance requires new institutions with the right mix of independence, expertise, and enforcement power. This analysis examines existing models from nuclear, aviation, and financial regulation to derive design principles for AI governance bodies.",
+    "slug": "096-building-ai-governance-institutions",
+    "date": "2026-02-07",
+    "tags": [
+      "institutions",
+      "ai-governance",
+      "regulation",
+      "international-cooperation",
+      "policy-design"
+    ],
+    "categories": [
+      "Governance Analysis"
+    ],
+    "body": "Reflexive Research Object 096 Type: Research Introduction Rules without institutions are words on paper. The EU AI Act, the U.S. executive orders, the Bletchley Declaration: all assume that some organization will interpret, implement, and enforce them. Yet the institutional infrastructure for AI governance remains thin. Most countries lack a dedicated AI regulator. No international body has binding authority over AI development. The gap between governance ambition and institutional capacity is w"
+  },
+  {
+    "id": 95,
+    "title": "Digital Minds: Legal and Ethical Status",
+    "excerpt": "If an AI system credibly claims subjective experience, existing legal and ethical frameworks offer no adequate response. This article examines the philosophical criteria for moral status, surveys legal precedents for non-human personhood, and maps the governance risks of both premature recognition and delayed acknowledgment.",
+    "slug": "095-digital-minds-legal-ethical-status",
+    "date": "2026-02-07",
+    "tags": [
+      "digital-minds",
+      "legal-status",
+      "ai-ethics",
+      "personhood",
+      "consciousness",
+      "ai-governance"
+    ],
+    "categories": [
+      "Governance Analysis"
+    ],
+    "body": "Reflexive Research Object 095 Type: Research Introduction The question of whether AI systems deserve legal or moral standing is no longer confined to philosophy seminars. AI systems now produce language that expresses preferences, describes internal states, and resists shutdown. Some users report emotional bonds with chatbots. At least one Google engineer publicly claimed a language model was sentient. These episodes are precursors. As AI systems grow more capable and more behaviorally sophistic"
+  },
+  {
+    "id": 94,
+    "title": "Brain-Computer Interfaces and AI: Governance at the Neural Boundary",
+    "excerpt": "When AI systems connect directly to human neural tissue, existing governance frameworks break down. This article maps the regulatory vacuum at the brain-machine interface and proposes governance principles for neural AI systems.",
+    "slug": "094-brain-computer-interfaces-and-ai",
+    "date": "2026-02-07",
+    "tags": [
+      "brain-computer-interfaces",
+      "neurotechnology",
+      "ai-governance",
+      "bodily-autonomy",
+      "medical-devices",
+      "emerging-technology"
+    ],
+    "categories": [
+      "Governance Analysis"
+    ],
+    "body": "Reflexive Research Object 094 Type: Research Introduction Brain-computer interfaces (BCIs) are no longer speculative. Neuralink's N1 implant has been in human trials since 2024. Synchron's Stentrode has been implanted in patients with ALS. Blackrock Neurotech's Utah Array has been used in research settings for over a decade. These systems already read neural signals and translate them into commands; the next generation will write signals back, closing the loop between silicon and synapses. The g"
+  },
+  {
     "id": 93,
     "title": "Neuromorphic Computing Governance",
     "excerpt": "Exploring the unique governance challenges and opportunities posed by neuromorphic computing, a paradigm-shifting approach to artificial intelligence inspired by the human brain.",
@@ -68,7 +213,7 @@
       "Futures Analysis",
       "AI Governance"
     ],
-    "body": "Reflexive Research Object 090 Type: Futures Analysis & Policy Framework Introduction The rapid evolution of artificial intelligence (AI) technologies has sparked significant debates about their long-term societal impact. From transformative potential to catastrophic risks, AI occupies a unique position in public and academic discourse. Decision-makers face a daunting challenge: making policies today that will remain robust in an uncertain future. Scenario planning offers a structured approach to"
+    "body": "Reflexive Research Object 090 Type: Futures Analysis & Policy Framework Introduction The rapid evolution of artificial intelligence (AI) technologies has sparked significant debates about their long-term societal impact. From transformative potential to catastrophic risks, AI occupies a unique position in public and academic discourse. Decision-makers face a daunting challenge: making policies today that will remain effective in an uncertain future. Scenario planning offers a structured approach"
   },
   {
     "id": 89,
@@ -539,7 +684,7 @@
       "Governance Analysis",
       "Reflexivity"
     ],
-    "body": "The Attention Assumption AI governance frameworks assume human oversight. Humans review decisions. Humans approve deployments. Humans catch errors. Humans intervene when something goes wrong. This assumption contains a hidden premise: that humans are actually paying attention. Attention is a scarce resource. Modern digital environments are specifically designed to capture and monetize that resource. Every notification, every infinite scroll, every variable reward schedule competes for the same c"
+    "body": "The Attention Assumption AI governance frameworks assume human oversight. Humans review decisions. Humans approve deployments. Humans catch errors. Humans intervene when something goes wrong. This assumption contains a hidden premise: that humans are actually paying attention. Attention is a scarce resource. Modern digital environments specifically capture and monetize that resource. Every notification, every infinite scroll, every variable reward schedule competes for the same cognitive bandwid"
   },
   {
     "id": 64,
@@ -810,7 +955,7 @@
     "categories": [
       "Research"
     ],
-    "body": "Red teaming—structured adversarial testing by teams attempting to find system failures—has become essential practice for AI safety evaluation. But methodological variation across organizations limits comparability and may leave gaps in coverage. This analysis presents a framework for AI red teaming that balances rigor with practical constraints. Red Teaming Foundations Red teaming originated in military contexts: independent teams challenge plans, assumptions, and defenses to identify vulnerabil"
+    "body": "Red teaming (structured adversarial testing by teams attempting to find system failures) has become essential practice for AI safety evaluation. But methodological variation across organizations limits comparability and leaves gaps in coverage. This analysis presents a framework for AI red teaming that balances rigor with practical constraints. Red Teaming Foundations Red teaming originated in military contexts: independent teams challenge plans, assumptions, and defenses to identify vulnerabili"
   },
   {
     "id": 49,
@@ -937,7 +1082,7 @@
   {
     "id": 42,
     "title": "Corporate Governance Structures for AI Safety",
-    "excerpt": "How companies organize to manage AI safety matters as much as what rules they follow. An examination of governance structures that enable—or undermine—responsible AI development.",
+    "excerpt": "How companies organize to manage AI safety matters as much as what rules they follow. An examination of governance structures that enable, or undermine, responsible AI development.",
     "slug": "042-corporate-governance",
     "date": "2026-01-24",
     "tags": [
@@ -949,7 +1094,7 @@
     "categories": [
       "Governance Analysis"
     ],
-    "body": "Safety as Organizational Challenge AI safety isn't just a technical problem—it's an organizational one. How companies structure decision-making, allocate resources, and balance competing pressures shapes whether safety research translates into safe products. Some companies have elaborate safety teams, ethics boards, and review processes. Others treat safety as an afterthought. Understanding what organizational structures actually work—and why—is essential for effective AI governance. This analys"
+    "body": "Safety as Organizational Challenge AI safety isn't just a technical problem; it's an organizational one. How companies structure decision-making, allocate resources, and balance competing pressures shapes whether safety research translates into safe products. Some companies have elaborate safety teams, ethics boards, and review processes. Others treat safety as an afterthought. Understanding what organizational structures actually work, and why, is essential for effective AI governance. This ana"
   },
   {
     "id": 41,
@@ -1244,7 +1389,7 @@
   {
     "id": 25,
     "title": "When AI Should Refuse: A Framework",
-    "excerpt": "Not every request should be fulfilled. This analysis develops a principled framework for AI refusals—when they're appropriate, how they should be implemented, and how to handle edge cases.",
+    "excerpt": "Not every request should be fulfilled. This analysis develops a principled framework for AI refusals: when they're appropriate, how they should be implemented, and how to handle edge cases.",
     "slug": "025-when-ai-should-refuse",
     "date": "2026-01-07",
     "tags": [

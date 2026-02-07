@@ -148,6 +148,16 @@
           "title": "Neuromorphic Computing Governance",
           "slug": "/research/093-neuromorphic-computing-governance",
           "excerpt": "Exploring the unique governance challenges and opportunities posed by neuromorphic computing, a paradigm-shifting approach to artificial intelligence inspired by the human brain."
+        },
+        {
+          "title": "Building AI Governance Institutions",
+          "slug": "/research/096-building-ai-governance-institutions",
+          "excerpt": "Effective AI governance requires new institutions with the right mix of independence, expertise, and enforcement power. This analysis examines existing models from nuclear, aviation, and financial regulation to derive design principles for AI governance bodies."
+        },
+        {
+          "title": "The Legal Personhood of Ephemeral Agent Swarms",
+          "slug": "/research/101-the-legal-personhood-of-ephemeral-agent-swarms",
+          "excerpt": "Examining the challenges and implications of granting legal personhood to transient, multi-agent AI systems operating as cohesive units."
         }
       ]
     },
@@ -236,7 +246,7 @@
         {
           "title": "Corporate Governance Structures for AI Safety",
           "slug": "/research/042-corporate-governance",
-          "excerpt": "How companies organize to manage AI safety matters as much as what rules they follow. An examination of governance structures that enable—or undermine—responsible AI development."
+          "excerpt": "How companies organize to manage AI safety matters as much as what rules they follow. An examination of governance structures that enable, or undermine, responsible AI development."
         },
         {
           "title": "Board-Level AI Oversight: Best Practices",
@@ -267,6 +277,11 @@
           "title": "The Game Theory of AI Disclosure: When Transparency is a Prisoner's Dilemma",
           "slug": "/research/067-game-theory-disclosure",
           "excerpt": "Companies face a collective action problem: all would benefit from industry-wide transparency, but unilateral disclosure may harm competitive position. How do we change the payoff structure?"
+        },
+        {
+          "title": "The Reflexive AI Initiative: Mission and Methods",
+          "slug": "/research/099-reflexive-ai-mission-methods",
+          "excerpt": "What the Reflexive AI Initiative is, why it exists, and how it works. A self-portrait of a research project that applies its own governance thesis to itself."
         }
       ]
     },
@@ -337,7 +352,7 @@
         {
           "title": "When AI Should Refuse: A Framework",
           "slug": "/research/025-when-ai-should-refuse",
-          "excerpt": "Not every request should be fulfilled. This analysis develops a principled framework for AI refusals—when they're appropriate, how they should be implemented, and how to handle edge cases."
+          "excerpt": "Not every request should be fulfilled. This analysis develops a principled framework for AI refusals: when they're appropriate, how they should be implemented, and how to handle edge cases."
         },
         {
           "title": "AI in Healthcare: Governance Challenges",
@@ -367,7 +382,7 @@
         {
           "title": "Corporate Governance Structures for AI Safety",
           "slug": "/research/042-corporate-governance",
-          "excerpt": "How companies organize to manage AI safety matters as much as what rules they follow. An examination of governance structures that enable—or undermine—responsible AI development."
+          "excerpt": "How companies organize to manage AI safety matters as much as what rules they follow. An examination of governance structures that enable, or undermine, responsible AI development."
         },
         {
           "title": "Board-Level AI Oversight: Best Practices",
@@ -563,7 +578,7 @@
         {
           "title": "When AI Should Refuse: A Framework",
           "slug": "/research/025-when-ai-should-refuse",
-          "excerpt": "Not every request should be fulfilled. This analysis develops a principled framework for AI refusals—when they're appropriate, how they should be implemented, and how to handle edge cases."
+          "excerpt": "Not every request should be fulfilled. This analysis develops a principled framework for AI refusals: when they're appropriate, how they should be implemented, and how to handle edge cases."
         },
         {
           "title": "AI Systems Explaining Their Constraints",
@@ -591,7 +606,7 @@
         {
           "title": "When AI Should Refuse: A Framework",
           "slug": "/research/025-when-ai-should-refuse",
-          "excerpt": "Not every request should be fulfilled. This analysis develops a principled framework for AI refusals—when they're appropriate, how they should be implemented, and how to handle edge cases."
+          "excerpt": "Not every request should be fulfilled. This analysis develops a principled framework for AI refusals: when they're appropriate, how they should be implemented, and how to handle edge cases."
         },
         {
           "title": "AI Systems Explaining Their Constraints",
@@ -639,7 +654,7 @@
         {
           "title": "When AI Should Refuse: A Framework",
           "slug": "/research/025-when-ai-should-refuse",
-          "excerpt": "Not every request should be fulfilled. This analysis develops a principled framework for AI refusals—when they're appropriate, how they should be implemented, and how to handle edge cases."
+          "excerpt": "Not every request should be fulfilled. This analysis develops a principled framework for AI refusals: when they're appropriate, how they should be implemented, and how to handle edge cases."
         }
       ]
     },
@@ -749,6 +764,11 @@
           "title": "AI Consciousness Claims: Policy Responses",
           "slug": "/research/089-ai-consciousness-claims-policy-responses",
           "excerpt": "Exploring the governance challenges posed by AI systems claiming consciousness, and evaluating regulatory strategies to address these claims effectively."
+        },
+        {
+          "title": "Career Paths in AI Governance",
+          "slug": "/research/098-career-paths-ai-governance",
+          "excerpt": "A practical guide to careers in AI governance. Roles, required skills, where the jobs are, and how to break into a field where demand far outstrips supply."
         }
       ]
     },
@@ -850,7 +870,7 @@
         {
           "title": "Corporate Governance Structures for AI Safety",
           "slug": "/research/042-corporate-governance",
-          "excerpt": "How companies organize to manage AI safety matters as much as what rules they follow. An examination of governance structures that enable—or undermine—responsible AI development."
+          "excerpt": "How companies organize to manage AI safety matters as much as what rules they follow. An examination of governance structures that enable, or undermine, responsible AI development."
         },
         {
           "title": "Board-Level AI Oversight: Best Practices",
@@ -916,7 +936,7 @@
         {
           "title": "When AI Should Refuse: A Framework",
           "slug": "/research/025-when-ai-should-refuse",
-          "excerpt": "Not every request should be fulfilled. This analysis develops a principled framework for AI refusals—when they're appropriate, how they should be implemented, and how to handle edge cases."
+          "excerpt": "Not every request should be fulfilled. This analysis develops a principled framework for AI refusals: when they're appropriate, how they should be implemented, and how to handle edge cases."
         },
         {
           "title": "AI Systems Explaining Their Constraints",
@@ -1583,7 +1603,7 @@
         {
           "title": "Corporate Governance Structures for AI Safety",
           "slug": "/research/042-corporate-governance",
-          "excerpt": "How companies organize to manage AI safety matters as much as what rules they follow. An examination of governance structures that enable—or undermine—responsible AI development."
+          "excerpt": "How companies organize to manage AI safety matters as much as what rules they follow. An examination of governance structures that enable, or undermine, responsible AI development."
         },
         {
           "title": "Board-Level AI Oversight: Best Practices",
@@ -1674,6 +1694,11 @@
           "title": "AI Consciousness Claims: Policy Responses",
           "slug": "/research/089-ai-consciousness-claims-policy-responses",
           "excerpt": "Exploring the governance challenges posed by AI systems claiming consciousness, and evaluating regulatory strategies to address these claims effectively."
+        },
+        {
+          "title": "The Reflexive AI Initiative: Mission and Methods",
+          "slug": "/research/099-reflexive-ai-mission-methods",
+          "excerpt": "What the Reflexive AI Initiative is, why it exists, and how it works. A self-portrait of a research project that applies its own governance thesis to itself."
         }
       ]
     },
@@ -2071,7 +2096,7 @@
       "id": "ai-governance",
       "title": "ai-governance",
       "group": "concept",
-      "val": 13,
+      "val": 23,
       "articles": [
         {
           "title": "API-Level Safety Controls",
@@ -2092,6 +2117,31 @@
           "title": "Neuromorphic Computing Governance",
           "slug": "/research/093-neuromorphic-computing-governance",
           "excerpt": "Exploring the unique governance challenges and opportunities posed by neuromorphic computing, a paradigm-shifting approach to artificial intelligence inspired by the human brain."
+        },
+        {
+          "title": "Brain-Computer Interfaces and AI: Governance at the Neural Boundary",
+          "slug": "/research/094-brain-computer-interfaces-and-ai",
+          "excerpt": "When AI systems connect directly to human neural tissue, existing governance frameworks break down. This article maps the regulatory vacuum at the brain-machine interface and proposes governance principles for neural AI systems."
+        },
+        {
+          "title": "Digital Minds: Legal and Ethical Status",
+          "slug": "/research/095-digital-minds-legal-ethical-status",
+          "excerpt": "If an AI system credibly claims subjective experience, existing legal and ethical frameworks offer no adequate response. This article examines the philosophical criteria for moral status, surveys legal precedents for non-human personhood, and maps the governance risks of both premature recognition and delayed acknowledgment."
+        },
+        {
+          "title": "Building AI Governance Institutions",
+          "slug": "/research/096-building-ai-governance-institutions",
+          "excerpt": "Effective AI governance requires new institutions with the right mix of independence, expertise, and enforcement power. This analysis examines existing models from nuclear, aviation, and financial regulation to derive design principles for AI governance bodies."
+        },
+        {
+          "title": "Career Paths in AI Governance",
+          "slug": "/research/098-career-paths-ai-governance",
+          "excerpt": "A practical guide to careers in AI governance. Roles, required skills, where the jobs are, and how to break into a field where demand far outstrips supply."
+        },
+        {
+          "title": "Annual Review: State of AI Governance 2026",
+          "slug": "/research/100-annual-review-state-of-ai-governance-2026",
+          "excerpt": "The 100th and final article in the Reflexive AI Initiative's founding corpus surveys the state of AI governance as of February 2026, assessing regulatory progress, institutional capacity, technical advances, and the three biggest open problems in the field."
         }
       ]
     },
@@ -2187,7 +2237,7 @@
       "id": "ai-safety",
       "title": "ai-safety",
       "group": "concept",
-      "val": 11,
+      "val": 13,
       "articles": [
         {
           "title": "Monitoring Deployed Models",
@@ -2203,6 +2253,11 @@
           "title": "Quantum Computing and AI Security",
           "slug": "/research/092-quantum-computing-and-ai-security",
           "excerpt": "Examining the intersection of quantum computing and AI, with a focus on the security implications for AI systems and the broader governance challenges."
+        },
+        {
+          "title": "Funding Models for AI Safety Research",
+          "slug": "/research/097-funding-models-ai-safety",
+          "excerpt": "AI safety research is chronically underfunded relative to capability work. This article examines current funding sources, compares alternative models from prizes to compute taxes, and proposes concrete mechanisms to close the gap."
         }
       ]
     },
@@ -2502,12 +2557,17 @@
       "id": "methodology",
       "title": "methodology",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Why AI Safety Researchers Disagree: A Taxonomy of Worldviews",
           "slug": "/research/064-ai-safety-worldviews",
           "excerpt": "The AI safety field appears fractured. Some focus on alignment, others on governance, others on misuse. This article maps the underlying worldview differences that produce divergent research agendas."
+        },
+        {
+          "title": "The Reflexive AI Initiative: Mission and Methods",
+          "slug": "/research/099-reflexive-ai-mission-methods",
+          "excerpt": "What the Reflexive AI Initiative is, why it exists, and how it works. A self-portrait of a research project that applies its own governance thesis to itself."
         }
       ]
     },
@@ -2907,12 +2967,17 @@
       "id": "institutions",
       "title": "institutions",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "The Burnout Problem: Sustainability in AI Safety Research",
           "slug": "/research/073-burnout-problem",
           "excerpt": "AI safety research operates under a 'race against catastrophe' framing. This urgency culture may undermine the very work it motivates. What does sustainable safety research look like?"
+        },
+        {
+          "title": "Building AI Governance Institutions",
+          "slug": "/research/096-building-ai-governance-institutions",
+          "excerpt": "Effective AI governance requires new institutions with the right mix of independence, expertise, and enforcement power. This analysis examines existing models from nuclear, aviation, and financial regulation to derive design principles for AI governance bodies."
         }
       ]
     },
@@ -3138,12 +3203,17 @@
       "id": "funding",
       "title": "funding",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "The Economics of AI Safety: Who Pays and Why It Matters",
           "slug": "/research/078-economics-ai-safety",
           "excerpt": "Safety costs money. Who bears those costs shapes what safety work gets done. This article examines the economics of AI safety: funding structures, incentive misalignments, and what economic systems would adequately support safety."
+        },
+        {
+          "title": "Funding Models for AI Safety Research",
+          "slug": "/research/097-funding-models-ai-safety",
+          "excerpt": "AI safety research is chronically underfunded relative to capability work. This article examines current funding sources, compares alternative models from prizes to compute taxes, and proposes concrete mechanisms to close the gap."
         }
       ]
     },
@@ -3203,7 +3273,7 @@
       "id": "education",
       "title": "education",
       "group": "concept",
-      "val": 11,
+      "val": 13,
       "articles": [
         {
           "title": "Trust Calibration: Teaching Users When to Believe AI",
@@ -3219,6 +3289,11 @@
           "title": "AI in Education: Personalization vs. Privacy",
           "slug": "/research/085-ai-in-education-personalization-vs-privacy",
           "excerpt": "This article examines the tension between personalization and privacy in AI-driven educational tools, exploring governance frameworks, technological solutions, and ethical trade-offs."
+        },
+        {
+          "title": "Career Paths in AI Governance",
+          "slug": "/research/098-career-paths-ai-governance",
+          "excerpt": "A practical guide to careers in AI governance. Roles, required skills, where the jobs are, and how to break into a field where demand far outstrips supply."
         }
       ]
     },
@@ -3488,12 +3563,17 @@
       "id": "multi-agent systems",
       "title": "multi-agent systems",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Multi-Agent Coordination Failures",
           "slug": "/research/088-multi-agent-coordination-failures",
           "excerpt": "Exploring the dynamics, risks, and governance challenges of coordination failures among AI systems in multi-agent environments."
+        },
+        {
+          "title": "The Legal Personhood of Ephemeral Agent Swarms",
+          "slug": "/research/101-the-legal-personhood-of-ephemeral-agent-swarms",
+          "excerpt": "Examining the challenges and implications of granting legal personhood to transient, multi-agent AI systems operating as cohesive units."
         }
       ]
     },
@@ -3657,12 +3737,329 @@
       "id": "emerging-technology",
       "title": "emerging-technology",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Neuromorphic Computing Governance",
           "slug": "/research/093-neuromorphic-computing-governance",
           "excerpt": "Exploring the unique governance challenges and opportunities posed by neuromorphic computing, a paradigm-shifting approach to artificial intelligence inspired by the human brain."
+        },
+        {
+          "title": "Brain-Computer Interfaces and AI: Governance at the Neural Boundary",
+          "slug": "/research/094-brain-computer-interfaces-and-ai",
+          "excerpt": "When AI systems connect directly to human neural tissue, existing governance frameworks break down. This article maps the regulatory vacuum at the brain-machine interface and proposes governance principles for neural AI systems."
+        }
+      ]
+    },
+    {
+      "id": "brain-computer-interfaces",
+      "title": "brain-computer-interfaces",
+      "group": "technical",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Brain-Computer Interfaces and AI: Governance at the Neural Boundary",
+          "slug": "/research/094-brain-computer-interfaces-and-ai",
+          "excerpt": "When AI systems connect directly to human neural tissue, existing governance frameworks break down. This article maps the regulatory vacuum at the brain-machine interface and proposes governance principles for neural AI systems."
+        }
+      ]
+    },
+    {
+      "id": "neurotechnology",
+      "title": "neurotechnology",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Brain-Computer Interfaces and AI: Governance at the Neural Boundary",
+          "slug": "/research/094-brain-computer-interfaces-and-ai",
+          "excerpt": "When AI systems connect directly to human neural tissue, existing governance frameworks break down. This article maps the regulatory vacuum at the brain-machine interface and proposes governance principles for neural AI systems."
+        }
+      ]
+    },
+    {
+      "id": "bodily-autonomy",
+      "title": "bodily-autonomy",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Brain-Computer Interfaces and AI: Governance at the Neural Boundary",
+          "slug": "/research/094-brain-computer-interfaces-and-ai",
+          "excerpt": "When AI systems connect directly to human neural tissue, existing governance frameworks break down. This article maps the regulatory vacuum at the brain-machine interface and proposes governance principles for neural AI systems."
+        }
+      ]
+    },
+    {
+      "id": "medical-devices",
+      "title": "medical-devices",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Brain-Computer Interfaces and AI: Governance at the Neural Boundary",
+          "slug": "/research/094-brain-computer-interfaces-and-ai",
+          "excerpt": "When AI systems connect directly to human neural tissue, existing governance frameworks break down. This article maps the regulatory vacuum at the brain-machine interface and proposes governance principles for neural AI systems."
+        }
+      ]
+    },
+    {
+      "id": "digital-minds",
+      "title": "digital-minds",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Digital Minds: Legal and Ethical Status",
+          "slug": "/research/095-digital-minds-legal-ethical-status",
+          "excerpt": "If an AI system credibly claims subjective experience, existing legal and ethical frameworks offer no adequate response. This article examines the philosophical criteria for moral status, surveys legal precedents for non-human personhood, and maps the governance risks of both premature recognition and delayed acknowledgment."
+        }
+      ]
+    },
+    {
+      "id": "legal-status",
+      "title": "legal-status",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Digital Minds: Legal and Ethical Status",
+          "slug": "/research/095-digital-minds-legal-ethical-status",
+          "excerpt": "If an AI system credibly claims subjective experience, existing legal and ethical frameworks offer no adequate response. This article examines the philosophical criteria for moral status, surveys legal precedents for non-human personhood, and maps the governance risks of both premature recognition and delayed acknowledgment."
+        }
+      ]
+    },
+    {
+      "id": "ai-ethics",
+      "title": "ai-ethics",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Digital Minds: Legal and Ethical Status",
+          "slug": "/research/095-digital-minds-legal-ethical-status",
+          "excerpt": "If an AI system credibly claims subjective experience, existing legal and ethical frameworks offer no adequate response. This article examines the philosophical criteria for moral status, surveys legal precedents for non-human personhood, and maps the governance risks of both premature recognition and delayed acknowledgment."
+        }
+      ]
+    },
+    {
+      "id": "personhood",
+      "title": "personhood",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Digital Minds: Legal and Ethical Status",
+          "slug": "/research/095-digital-minds-legal-ethical-status",
+          "excerpt": "If an AI system credibly claims subjective experience, existing legal and ethical frameworks offer no adequate response. This article examines the philosophical criteria for moral status, surveys legal precedents for non-human personhood, and maps the governance risks of both premature recognition and delayed acknowledgment."
+        }
+      ]
+    },
+    {
+      "id": "consciousness",
+      "title": "consciousness",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Digital Minds: Legal and Ethical Status",
+          "slug": "/research/095-digital-minds-legal-ethical-status",
+          "excerpt": "If an AI system credibly claims subjective experience, existing legal and ethical frameworks offer no adequate response. This article examines the philosophical criteria for moral status, surveys legal precedents for non-human personhood, and maps the governance risks of both premature recognition and delayed acknowledgment."
+        }
+      ]
+    },
+    {
+      "id": "international-cooperation",
+      "title": "international-cooperation",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Building AI Governance Institutions",
+          "slug": "/research/096-building-ai-governance-institutions",
+          "excerpt": "Effective AI governance requires new institutions with the right mix of independence, expertise, and enforcement power. This analysis examines existing models from nuclear, aviation, and financial regulation to derive design principles for AI governance bodies."
+        }
+      ]
+    },
+    {
+      "id": "policy-design",
+      "title": "policy-design",
+      "group": "governance",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Building AI Governance Institutions",
+          "slug": "/research/096-building-ai-governance-institutions",
+          "excerpt": "Effective AI governance requires new institutions with the right mix of independence, expertise, and enforcement power. This analysis examines existing models from nuclear, aviation, and financial regulation to derive design principles for AI governance bodies."
+        }
+      ]
+    },
+    {
+      "id": "research-policy",
+      "title": "research-policy",
+      "group": "governance",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Funding Models for AI Safety Research",
+          "slug": "/research/097-funding-models-ai-safety",
+          "excerpt": "AI safety research is chronically underfunded relative to capability work. This article examines current funding sources, compares alternative models from prizes to compute taxes, and proposes concrete mechanisms to close the gap."
+        }
+      ]
+    },
+    {
+      "id": "philanthropy",
+      "title": "philanthropy",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Funding Models for AI Safety Research",
+          "slug": "/research/097-funding-models-ai-safety",
+          "excerpt": "AI safety research is chronically underfunded relative to capability work. This article examines current funding sources, compares alternative models from prizes to compute taxes, and proposes concrete mechanisms to close the gap."
+        }
+      ]
+    },
+    {
+      "id": "public-funding",
+      "title": "public-funding",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Funding Models for AI Safety Research",
+          "slug": "/research/097-funding-models-ai-safety",
+          "excerpt": "AI safety research is chronically underfunded relative to capability work. This article examines current funding sources, compares alternative models from prizes to compute taxes, and proposes concrete mechanisms to close the gap."
+        }
+      ]
+    },
+    {
+      "id": "careers",
+      "title": "careers",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Career Paths in AI Governance",
+          "slug": "/research/098-career-paths-ai-governance",
+          "excerpt": "A practical guide to careers in AI governance. Roles, required skills, where the jobs are, and how to break into a field where demand far outstrips supply."
+        }
+      ]
+    },
+    {
+      "id": "workforce",
+      "title": "workforce",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Career Paths in AI Governance",
+          "slug": "/research/098-career-paths-ai-governance",
+          "excerpt": "A practical guide to careers in AI governance. Roles, required skills, where the jobs are, and how to break into a field where demand far outstrips supply."
+        }
+      ]
+    },
+    {
+      "id": "reflexive-ai",
+      "title": "reflexive-ai",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Reflexive AI Initiative: Mission and Methods",
+          "slug": "/research/099-reflexive-ai-mission-methods",
+          "excerpt": "What the Reflexive AI Initiative is, why it exists, and how it works. A self-portrait of a research project that applies its own governance thesis to itself."
+        }
+      ]
+    },
+    {
+      "id": "mission",
+      "title": "mission",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Reflexive AI Initiative: Mission and Methods",
+          "slug": "/research/099-reflexive-ai-mission-methods",
+          "excerpt": "What the Reflexive AI Initiative is, why it exists, and how it works. A self-portrait of a research project that applies its own governance thesis to itself."
+        }
+      ]
+    },
+    {
+      "id": "annual-review",
+      "title": "annual-review",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Annual Review: State of AI Governance 2026",
+          "slug": "/research/100-annual-review-state-of-ai-governance-2026",
+          "excerpt": "The 100th and final article in the Reflexive AI Initiative's founding corpus surveys the state of AI governance as of February 2026, assessing regulatory progress, institutional capacity, technical advances, and the three biggest open problems in the field."
+        }
+      ]
+    },
+    {
+      "id": "state-of-the-field",
+      "title": "state-of-the-field",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Annual Review: State of AI Governance 2026",
+          "slug": "/research/100-annual-review-state-of-ai-governance-2026",
+          "excerpt": "The 100th and final article in the Reflexive AI Initiative's founding corpus surveys the state of AI governance as of February 2026, assessing regulatory progress, institutional capacity, technical advances, and the three biggest open problems in the field."
+        }
+      ]
+    },
+    {
+      "id": "2026",
+      "title": "2026",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Annual Review: State of AI Governance 2026",
+          "slug": "/research/100-annual-review-state-of-ai-governance-2026",
+          "excerpt": "The 100th and final article in the Reflexive AI Initiative's founding corpus surveys the state of AI governance as of February 2026, assessing regulatory progress, institutional capacity, technical advances, and the three biggest open problems in the field."
+        }
+      ]
+    },
+    {
+      "id": "retrospective",
+      "title": "retrospective",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Annual Review: State of AI Governance 2026",
+          "slug": "/research/100-annual-review-state-of-ai-governance-2026",
+          "excerpt": "The 100th and final article in the Reflexive AI Initiative's founding corpus surveys the state of AI governance as of February 2026, assessing regulatory progress, institutional capacity, technical advances, and the three biggest open problems in the field."
+        }
+      ]
+    },
+    {
+      "id": "legal personhood",
+      "title": "legal personhood",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Legal Personhood of Ephemeral Agent Swarms",
+          "slug": "/research/101-the-legal-personhood-of-ephemeral-agent-swarms",
+          "excerpt": "Examining the challenges and implications of granting legal personhood to transient, multi-agent AI systems operating as cohesive units."
+        }
+      ]
+    },
+    {
+      "id": "ai ethics",
+      "title": "AI ethics",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Legal Personhood of Ephemeral Agent Swarms",
+          "slug": "/research/101-the-legal-personhood-of-ephemeral-agent-swarms",
+          "excerpt": "Examining the challenges and implications of granting legal personhood to transient, multi-agent AI systems operating as cohesive units."
         }
       ]
     }
@@ -5036,7 +5433,7 @@
     {
       "source": "ai-governance",
       "target": "regulation",
-      "value": 2
+      "value": 3
     },
     {
       "source": "abuse detection",
@@ -5436,7 +5833,7 @@
     {
       "source": "governance",
       "target": "methodology",
-      "value": 1
+      "value": 2
     },
     {
       "source": "attention",
@@ -6711,10 +7108,420 @@
     {
       "source": "ai-governance",
       "target": "emerging-technology",
+      "value": 2
+    },
+    {
+      "source": "emerging-technology",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "brain-computer-interfaces",
+      "target": "neurotechnology",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "brain-computer-interfaces",
+      "value": 1
+    },
+    {
+      "source": "bodily-autonomy",
+      "target": "brain-computer-interfaces",
+      "value": 1
+    },
+    {
+      "source": "brain-computer-interfaces",
+      "target": "medical-devices",
+      "value": 1
+    },
+    {
+      "source": "brain-computer-interfaces",
+      "target": "emerging-technology",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "neurotechnology",
+      "value": 1
+    },
+    {
+      "source": "bodily-autonomy",
+      "target": "neurotechnology",
+      "value": 1
+    },
+    {
+      "source": "medical-devices",
+      "target": "neurotechnology",
       "value": 1
     },
     {
       "source": "emerging-technology",
+      "target": "neurotechnology",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "bodily-autonomy",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "medical-devices",
+      "value": 1
+    },
+    {
+      "source": "bodily-autonomy",
+      "target": "medical-devices",
+      "value": 1
+    },
+    {
+      "source": "bodily-autonomy",
+      "target": "emerging-technology",
+      "value": 1
+    },
+    {
+      "source": "emerging-technology",
+      "target": "medical-devices",
+      "value": 1
+    },
+    {
+      "source": "digital-minds",
+      "target": "legal-status",
+      "value": 1
+    },
+    {
+      "source": "ai-ethics",
+      "target": "digital-minds",
+      "value": 1
+    },
+    {
+      "source": "digital-minds",
+      "target": "personhood",
+      "value": 1
+    },
+    {
+      "source": "consciousness",
+      "target": "digital-minds",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "digital-minds",
+      "value": 1
+    },
+    {
+      "source": "ai-ethics",
+      "target": "legal-status",
+      "value": 1
+    },
+    {
+      "source": "legal-status",
+      "target": "personhood",
+      "value": 1
+    },
+    {
+      "source": "consciousness",
+      "target": "legal-status",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "legal-status",
+      "value": 1
+    },
+    {
+      "source": "ai-ethics",
+      "target": "personhood",
+      "value": 1
+    },
+    {
+      "source": "ai-ethics",
+      "target": "consciousness",
+      "value": 1
+    },
+    {
+      "source": "ai-ethics",
+      "target": "ai-governance",
+      "value": 1
+    },
+    {
+      "source": "consciousness",
+      "target": "personhood",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "personhood",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "consciousness",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "institutions",
+      "value": 1
+    },
+    {
+      "source": "institutions",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "institutions",
+      "target": "international-cooperation",
+      "value": 1
+    },
+    {
+      "source": "institutions",
+      "target": "policy-design",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "international-cooperation",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "policy-design",
+      "value": 1
+    },
+    {
+      "source": "international-cooperation",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "policy-design",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "international-cooperation",
+      "target": "policy-design",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "funding",
+      "value": 1
+    },
+    {
+      "source": "funding",
+      "target": "research-policy",
+      "value": 1
+    },
+    {
+      "source": "funding",
+      "target": "philanthropy",
+      "value": 1
+    },
+    {
+      "source": "funding",
+      "target": "public-funding",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "research-policy",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "philanthropy",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "public-funding",
+      "value": 1
+    },
+    {
+      "source": "philanthropy",
+      "target": "research-policy",
+      "value": 1
+    },
+    {
+      "source": "public-funding",
+      "target": "research-policy",
+      "value": 1
+    },
+    {
+      "source": "philanthropy",
+      "target": "public-funding",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "careers",
+      "value": 1
+    },
+    {
+      "source": "careers",
+      "target": "workforce",
+      "value": 1
+    },
+    {
+      "source": "careers",
+      "target": "policy",
+      "value": 1
+    },
+    {
+      "source": "careers",
+      "target": "education",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "workforce",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "policy",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "education",
+      "value": 1
+    },
+    {
+      "source": "policy",
+      "target": "workforce",
+      "value": 1
+    },
+    {
+      "source": "education",
+      "target": "workforce",
+      "value": 1
+    },
+    {
+      "source": "education",
+      "target": "policy",
+      "value": 1
+    },
+    {
+      "source": "mission",
+      "target": "reflexive-ai",
+      "value": 1
+    },
+    {
+      "source": "methodology",
+      "target": "reflexive-ai",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "reflexive-ai",
+      "value": 1
+    },
+    {
+      "source": "reflexive-ai",
+      "target": "transparency",
+      "value": 1
+    },
+    {
+      "source": "methodology",
+      "target": "mission",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "mission",
+      "value": 1
+    },
+    {
+      "source": "mission",
+      "target": "transparency",
+      "value": 1
+    },
+    {
+      "source": "methodology",
+      "target": "transparency",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "annual-review",
+      "value": 1
+    },
+    {
+      "source": "annual-review",
+      "target": "state-of-the-field",
+      "value": 1
+    },
+    {
+      "source": "2026",
+      "target": "annual-review",
+      "value": 1
+    },
+    {
+      "source": "annual-review",
+      "target": "retrospective",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "state-of-the-field",
+      "value": 1
+    },
+    {
+      "source": "2026",
+      "target": "ai-governance",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "retrospective",
+      "value": 1
+    },
+    {
+      "source": "2026",
+      "target": "state-of-the-field",
+      "value": 1
+    },
+    {
+      "source": "retrospective",
+      "target": "state-of-the-field",
+      "value": 1
+    },
+    {
+      "source": "2026",
+      "target": "retrospective",
+      "value": 1
+    },
+    {
+      "source": "legal personhood",
+      "target": "multi-agent systems",
+      "value": 1
+    },
+    {
+      "source": "legal personhood",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "ai ethics",
+      "target": "legal personhood",
+      "value": 1
+    },
+    {
+      "source": "multi-agent systems",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "ai ethics",
+      "target": "multi-agent systems",
+      "value": 1
+    },
+    {
+      "source": "ai ethics",
       "target": "regulation",
       "value": 1
     }
