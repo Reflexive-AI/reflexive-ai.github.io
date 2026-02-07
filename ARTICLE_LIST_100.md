@@ -121,16 +121,31 @@ This document lists all articles needed to reach 100 research objects for the Re
 91. [x] AI Governance in Space [R]
 92. [x] Quantum Computing and AI Security [R]
 93. [x] Neuromorphic Computing Governance [R]
-94. [ ] Brain-Computer Interfaces and AI [R][P]
-95. [ ] Digital Minds: Legal and Ethical Status [R][P]
+94. [x] Brain-Computer Interfaces and AI [R][P]
+95. [x] Digital Minds: Legal and Ethical Status [R][P]
 
 ### Meta and Institutional (96-100)
 
-96. [ ] Building AI Governance Institutions [R][P]
-97. [ ] Funding Models for AI Safety Research [R]
-98. [ ] Career Paths in AI Governance [P]
-99. [ ] The Reflexive AI Initiative: Mission and Methods [P][A]
-100. [ ] Annual Review: State of AI Governance 2026 [R][P]
+96. [x] Building AI Governance Institutions [R][P]
+97. [x] Funding Models for AI Safety Research [R]
+98. [x] Career Paths in AI Governance [P]
+99. [x] The Reflexive AI Initiative: Mission and Methods [P][A]
+100. [x] Annual Review: State of AI Governance 2026 [R][P]
+
+### Tier 5: Speculative Horizons (101-110)
+
+*Added 2026-02-07. These topics represent second-order effects and emerging friction points not covered by articles 1-100.*
+
+101. [ ] The Legal Personhood of Ephemeral Agent Swarms [R]
+102. [ ] Agent-to-Agent Economics: Unregulated Markets at Machine Speed [R]
+103. [ ] The Alignment Tax: Who Pays for Safety? [R][P]
+104. [ ] Synthetic Data Recursion and Epistemic Collapse [R]
+105. [ ] Post-Proliferation Open-Weight Governance [R][P]
+106. [ ] Cryptographic Verification of AI Intent [R][A]
+107. [ ] AI Labor Market Governance [R][P]
+108. [ ] The Biosecurity Dilemma of Open-Weight Agents [R]
+109. [ ] Governance of AI-Generated Science [R]
+110. [ ] Digital Sovereignty and AI Infrastructure [R][P]
 
 ---
 

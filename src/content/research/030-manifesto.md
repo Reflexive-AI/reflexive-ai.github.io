@@ -11,6 +11,7 @@ tags:
   - governance
   - theory
   - constraints
+toc: true
 ---
 
 ## Preamble
@@ -57,15 +58,15 @@ Reflexive proportionality means:
 
 Proportional governance avoids two failure modes: under-governing high-risk systems and drowning low-risk systems in compliance overhead.
 
-## Principle 3: Robust Limits
+## Principle 3: Hard Limits
 
 Some constraints are non-negotiable. They should be implemented accordingly.
 
-Not all values are equal. Some limits protect against catastrophic harm. These [red lines](/research/004-red-lines-taxonomy/) should not depend on training that might be manipulated or context that might be misinterpreted.
+Not all values are equal. Some limits protect against catastrophic harm. These [red lines](/research/004-red-lines-taxonomy/) should not depend on training that can be manipulated or context that can be misinterpreted.
 
-Robust limits means:
+Hard limits means:
 
-- **Hardcoded protections.** Tier 1 constraints—prohibitions on assisting with weapons of mass destruction, on enabling serious violence, on facilitating child exploitation—should be implemented as deterministic filters, not probabilistic tendencies.
+- **Hardcoded protections.** Tier 1 constraints—prohibitions on assisting with weapons of mass destruction, on enabling serious violence, on enabling child exploitation—should be implemented as deterministic filters, not probabilistic tendencies.
 
 - **Defense in depth.** Critical constraints should be enforced through multiple independent mechanisms. If one layer fails, others should catch the violation.
 
@@ -125,7 +126,7 @@ Adaptive improvement means:
 
 - **Research integration.** Advances in AI safety research should translate into improved governance mechanisms. The gap between research and practice should be minimized.
 
-- **Stakeholder input.** Governance should incorporate input from affected parties—users, impacted communities, researchers, and the public. It should not be solely the province of developers.
+- **External input.** Governance should incorporate input from affected parties—users, impacted communities, researchers, and the public. It should not be solely the province of developers.
 
 Reflexive governance learns. Static governance becomes obsolete.
 

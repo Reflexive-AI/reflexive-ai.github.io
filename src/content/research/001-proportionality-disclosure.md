@@ -11,6 +11,7 @@ tags:
   - proportionality
   - transparency
 version: "1.0"
+toc: true
 ---
 
 **Reflexive Research Object 001**  
@@ -76,7 +77,7 @@ Adopting C-001 shifts the burden of classification from the regulator to the mod
 
 This shift is significant because it changes the incentive structure. Under current regimes, developers have an incentive to understate capabilities to avoid regulatory burden. Under this framework, understating capabilities becomes auditable fraud. If a model is later discovered to exceed the threshold it claimed to be below, that's not a judgment call—it's a measurable failure with consequences.
 
-The thresholds themselves must be set through a multi-stakeholder process involving safety researchers, domain experts (virologists, cybersecurity professionals), and civil society representatives. They cannot be set by industry alone, as this would recreate the fox-guarding-henhouse problem. Nor can they be set by government alone, as the technical expertise often resides in labs.
+The thresholds themselves must be set through a multi-party process involving safety researchers, domain experts (virologists, cybersecurity professionals), and civil society representatives. They cannot be set by industry alone, as this would recreate the fox-guarding-henhouse problem. Nor can they be set by government alone, as the technical expertise often resides in labs.
 
 ## Implementation Considerations
 
@@ -86,7 +87,7 @@ Deploying C-001 at scale requires solving several practical challenges:
 
 **Threshold Updates:** Dangerous capabilities evolve. A threshold set in 2026 may be obsolete by 2028. The constraint schema must include versioning and sunset clauses, requiring periodic re-evaluation as the threat landscape shifts.
 
-**Gaming Resistance:** Developers might train models to perform poorly on specific benchmarks while retaining capabilities accessible through different prompting. Evaluation protocols must include adversarial probing, not just benchmark performance.
+**Gaming Resistance:** Developers can train models to perform poorly on specific benchmarks while retaining capabilities accessible through different prompting. Evaluation protocols must include adversarial probing, not just benchmark performance.
 
 ## Open Questions
 
@@ -97,4 +98,4 @@ Deploying C-001 at scale requires solving several practical challenges:
 
 ## Conclusion
 
-Proportional disclosure is not merely a bureaucratic optimization. It is a necessary condition for AI governance to scale with AI capability. Without it, we face a future where the most dangerous systems hide in plain sight—not through deception, but through the sheer volume of compliant paperwork that makes all models look the same. The reflexive approach offers a path forward: systems that understand their own risk profile and communicate it in proportion to the danger they pose.
+Proportional disclosure is not a bureaucratic optimization. It is a necessary condition for AI governance to scale with AI capability. Without it, we face a future where the most dangerous systems hide in plain sight—not through deception, but through the sheer volume of compliant paperwork that makes all models look the same. The reflexive approach offers a path forward: systems that understand their own risk profile and communicate it in proportion to the danger they pose.

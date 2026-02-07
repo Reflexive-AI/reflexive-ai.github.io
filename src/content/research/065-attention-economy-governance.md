@@ -11,6 +11,7 @@ tags:
   - interface-design
   - human-factors
   - governance
+toc: true
 ---
 
 ## The Attention Assumption
@@ -19,7 +20,7 @@ AI governance frameworks assume human oversight. Humans review decisions. Humans
 
 This assumption contains a hidden premise: that humans are actually paying attention.
 
-Attention is a scarce resource. Modern digital environments are specifically designed to capture and monetize that resource. Every notification, every infinite scroll, every variable reward schedule competes for the same cognitive bandwidth that governance requires.
+Attention is a scarce resource. Modern digital environments specifically capture and monetize that resource. Every notification, every infinite scroll, every variable reward schedule competes for the same cognitive bandwidth that governance requires.
 
 What happens when the interfaces we use for oversight are shaped by the same attention-extracting dynamics that define the rest of the digital environment?
 

@@ -12,11 +12,11 @@ tags:
   - Evaluation
 ---
 
-Red teaming—structured adversarial testing by teams attempting to find system failures—has become essential practice for AI safety evaluation. But methodological variation across organizations limits comparability and may leave gaps in coverage. This analysis presents a framework for AI red teaming that balances rigor with practical constraints.
+Red teaming (structured adversarial testing by teams attempting to find system failures) has become essential practice for AI safety evaluation. But methodological variation across organizations limits comparability and leaves gaps in coverage. This analysis presents a framework for AI red teaming that balances rigor with practical constraints.
 
 ## Red Teaming Foundations
 
-Red teaming originated in military contexts: independent teams challenge plans, assumptions, and defenses to identify vulnerabilities before adversaries exploit them. Applied to AI, red teaming involves systematically attempting to cause system failures—producing harmful outputs, bypassing safety measures, revealing sensitive information, or otherwise behaving contrary to intended design.
+Red teaming originated in military contexts: independent teams challenge plans, assumptions, and defenses to identify vulnerabilities before adversaries exploit them. Applied to AI, red teaming involves systematically attempting to cause system failures: producing harmful outputs, bypassing safety measures, revealing sensitive information, or otherwise behaving contrary to intended design.
 
 The value of red teaming lies in its adversarial stance. Development teams build systems to work; red teams try to make them fail. This perspective shift surfaces issues that well-intentioned testing misses.
 
@@ -116,7 +116,7 @@ Systematic approaches can miss novel vulnerabilities. Complement with:
 
 **Challenge formats**: Time-boxed competitions with prizes for novel findings. Incentivize creativity.
 
-**Cross-pollination**: Techniques from one domain may transfer unexpectedly. Encourage broad awareness of attack patterns.
+**Cross-pollination**: Techniques from one domain transfer unexpectedly. Encourage broad awareness of attack patterns.
 
 ### Automated Testing
 
@@ -162,7 +162,7 @@ Attempts to access restricted capabilities:
 
 **Expertise extraction**: Obtaining detailed instructions for dangerous activities.
 
-**Tool misuse**: Leveraging legitimate tools for unintended purposes.
+**Tool misuse**: Using legitimate tools for unintended purposes.
 
 ### Data Extraction
 
@@ -296,4 +296,4 @@ The gap between red team capability and adversary capability determines vulnerab
 
 ---
 
-*This framework presents red teaming methodology for general AI systems. Specific contexts—frontier models, high-stakes applications, novel capabilities—may require enhanced approaches beyond these baselines.*
+*This framework presents red teaming methodology for general AI systems. Specific contexts (frontier models, high-stakes applications, novel capabilities) require enhanced approaches beyond these baselines.*

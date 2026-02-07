@@ -20,9 +20,7 @@ version: "1.0"
 
 ## Introduction
 
-The rapid evolution of artificial intelligence (AI) technologies has sparked significant debates about their long-term societal impact. From transformative potential to catastrophic risks, AI occupies a unique position in public and academic discourse. Decision-makers face a daunting challenge: making policies today that will remain robust in an uncertain future. Scenario planning offers a structured approach to navigate this uncertainty. By exploring potential futures, this method enables more adaptable governance strategies for stewarding AI development.
-
-This article examines the value of scenario planning for long-term AI governance and safety. We discuss the framework's theoretical underpinnings, its application to AI futures, and how it can inform critical issues such as governance structures, safety measures, and societal integration. We also outline key scenarios and their implications for policy and research.
+The rapid evolution of artificial intelligence (AI) technologies has sparked significant debates about their long-term societal impact. From transformative potential to catastrophic risks, AI occupies a unique position in public and academic discourse. Decision-makers face a daunting challenge: making policies today that will remain effective in an uncertain future. Scenario planning offers a structured approach to navigate this uncertainty. By exploring potential futures, this method enables more adaptable governance strategies for stewarding AI development.
 
 ## Why Scenario Planning for AI?
 
@@ -66,7 +64,7 @@ The governance landscape will shape, and be shaped by, AI development. Scenarios
 
 Economic incentives will profoundly influence AI's trajectory. Relevant factors include:
 
-- **Market structure:** Will the AI industry consolidate around a few dominant firms, or will a more decentralized ecosystem emerge? This question is explored in [The Small Actor Problem: How AI Regulation Shapes Market Structure](/research/075-small-actor-problem).
+- **Market structure:** Will the AI industry consolidate around a few dominant firms, or will a more decentralized market emerge? This question is explored in [The Small Actor Problem: How AI Regulation Shapes Market Structure](/research/075-small-actor-problem).
 - **Funding priorities:** Public and private investment patterns will determine which AI applications receive the most attention, from foundational research to applied technologies.
 - **Labor market impacts:** Automation and augmentation will reshape industries and workforce dynamics, creating both opportunities and disruptions.
 
@@ -84,7 +82,7 @@ By combining these drivers, we can construct several illustrative scenarios:
 
 ### Scenario 1: "Controlled Ascent"
 
-In this future, global coordination results in robust, adaptive governance frameworks. AI capabilities continue to advance steadily, but mechanisms like international treaties and multi-stakeholder oversight ensure alignment with human values. Public trust in AI remains high, and societal benefits—such as advances in medicine and climate modeling—are broadly distributed.
+In this future, global coordination results in effective, adaptive governance frameworks. AI capabilities continue to advance steadily, but mechanisms like international treaties and multi-party oversight ensure alignment with human values. Public trust in AI remains high, and societal benefits—such as advances in medicine and climate modeling—are broadly distributed.
 
 ### Scenario 2: "Runaway Innovation"
 
@@ -103,14 +101,12 @@ Technical and political challenges stall AI progress. Economic stagnation and pu
 Scenario planning has significant implications for AI governance:
 
 - **Adaptive policies:** Governance frameworks must be flexible enough to remain effective across multiple futures. This requires ongoing monitoring, stress-testing, and iterative refinement of regulations.
-- **Focus on coordination:** International cooperation will be crucial to ensure safety and equity in AI development. Mechanisms such as multilateral treaties and standards-setting bodies can help align global efforts.
-- **Stakeholder engagement:** Effective scenario planning requires input from diverse perspectives, including technical experts, policymakers, civil society, and marginalized communities.
+- **Focus on coordination:** International cooperation will be necessary to ensure safety and equity in AI development. Mechanisms such as multilateral treaties and standards-setting bodies can help align global efforts.
+- **Broad engagement:** Effective scenario planning requires input from diverse perspectives, including technical experts, policymakers, civil society, and marginalized communities.
 
 ## Conclusion
 
-Long-term AI governance is fraught with uncertainty, but scenario planning offers a structured approach to navigate this complexity. By exploring a range of plausible futures, policymakers and researchers can better anticipate risks, identify opportunities, and design governance systems that remain robust under changing conditions. As the pace of AI development accelerates, investing in strategic foresight is not just prudent—it is imperative.
-
-*This article focuses on the application of scenario planning to long-term AI governance and does not address specific technical safety measures. Future research could integrate these methods with quantitative modeling for more granular analysis.*
+Long-term AI governance is fraught with uncertainty, but scenario planning offers a structured approach to navigate this complexity. By exploring a range of plausible futures, policymakers and researchers can better anticipate risks, identify opportunities, and design governance systems that remain effective under changing conditions. As the pace of AI development accelerates, investing in strategic foresight is not just prudent; it is imperative.
 
 ## Related Articles
 

@@ -2,6 +2,7 @@
 title: "Who Decides What AI Should Refuse? The Democratic Deficit in Constraint Design"
 excerpt: "AI refusals encode value judgments. Currently, small teams at AI labs make these decisions. Is this legitimate? Exploring the democratic deficit in AI constraint design and possible alternatives."
 date: 2026-02-04
+toc: true
 categories:
   - Governance Analysis
   - Public
@@ -29,7 +30,7 @@ Consider the range of decisions embedded in AI refusal policies.
 
 **Contested political questions.** Should AI systems discuss abortion, gun rights, or immigration? Should they refuse to help with legal activities that some consider immoral? Should they decline to criticize governments, religions, or ideologies?
 
-**Cultural variation.** What counts as offensive varies across cultures. What is acceptable sexuality education in one country may be prohibited content in another. Whose norms should global systems enforce?
+**Cultural variation.** What counts as offensive varies across cultures. What is acceptable sexuality education in one country is prohibited content in another. Whose norms should global systems enforce?
 
 **Dual-use capabilities.** Many capabilities have both beneficial and harmful uses. Chemistry knowledge enables medicine and weapons. Coding assistance enables security and attacks. Where should lines be drawn?
 
@@ -57,15 +58,15 @@ This process is not [transparent](/research/001-proportionality-disclosure/). Us
 
 The democratic deficit in constraint design matters for several reasons.
 
-**Legitimacy.** Decisions affecting billions should reflect some form of consent or representation. Pure corporate discretion may not satisfy this standard, regardless of how thoughtful the decision-makers are.
+**Legitimacy.** Decisions affecting billions should reflect some form of consent or representation. Pure corporate discretion does not satisfy this standard, regardless of how thoughtful the decision-makers are.
 
-**Accuracy.** Narrow teams miss perspectives that broader input would capture. Constraint policies developed by Bay Area technology workers may not reflect the needs and values of users worldwide.
+**Accuracy.** Narrow teams miss perspectives that broader input would capture. Constraint policies developed by Bay Area technology workers do not reflect the needs and values of users worldwide.
 
 **Trust.** Users who do not understand why systems refuse may distrust them. Lack of participation breeds suspicion about hidden agendas.
 
 **Accountability.** Who is accountable when refusal policies cause harm? If a system refuses to discuss suicide prevention because the topic seems risky, who bears responsibility for the person who needed that information?
 
-**Bias.** Homogeneous teams reproduce their biases in constraint design. What seems neutral to tech industry professionals may embed particular political or cultural assumptions.
+**Bias.** Homogeneous teams reproduce their biases in constraint design. What seems neutral to tech industry professionals embeds particular political or cultural assumptions.
 
 ## Possible Alternatives
 
@@ -85,23 +86,23 @@ Companies could solicit public input on constraint policies before implementatio
 
 **Advantages:** Incorporates diverse perspectives. Creates transparency about policy development. Signals respect for affected parties.
 
-**Disadvantages:** May favor organized groups over diffuse publics. Cannot resolve deep value disagreements. Could become performative rather than substantive.
+**Disadvantages:** Favors organized groups over diffuse publics. Cannot resolve deep value disagreements. Could become performative rather than substantive.
 
 ### User Customization
 
-Within bounds, users could customize constraint levels. A researcher might disable refusals for academic inquiries. A parent might tighten constraints for a child's account.
+Within bounds, users could customize constraint levels. A researcher can disable refusals for academic inquiries. A parent can tighten constraints for a child's account.
 
 **Advantages:** Respects user autonomy. Acknowledges legitimate variation in needs. Reduces one-size-fits-all conflicts.
 
-**Disadvantages:** Some constraints should not be customizable (like [red lines](/research/004-red-lines-taxonomy/)). Sophisticated users might exploit customization to access harmful capabilities. Creates complexity and potential for confusion.
+**Disadvantages:** Some constraints should not be customizable (like [red lines](/research/004-red-lines-taxonomy/)). Sophisticated users can exploit customization to access harmful capabilities. Creates complexity and potential for confusion.
 
-### Multi-Stakeholder Governance
+### Participatory Governance
 
 Constraint policies could be developed through processes including companies, civil society, governments, and user representatives. This resembles [internet governance](/research/066-internet-governance-lessons/) multistakeholder models.
 
 **Advantages:** Incorporates diverse perspectives institutionally. Creates ongoing accountability. Enables negotiation among interests.
 
-**Disadvantages:** Slow and potentially captured by powerful actors. No clear mechanism for resolving disagreements. Legitimacy of "representatives" may be questioned.
+**Disadvantages:** Slow and potentially captured by powerful actors. No clear mechanism for resolving disagreements. Legitimacy of "representatives" can be questioned.
 
 ### Elected Oversight
 
@@ -133,7 +134,7 @@ Regulatory mandates require governments that represent their populations, agree 
 
 Public consultation can become theater. User customization can create harmful asymmetries. Multi-stakeholder governance can be captured. Elected oversight can be politicized.
 
-The question is not which perfect solution to adopt but which imperfect combination to pursue. Some principles might guide this choice:
+The question is not which perfect solution to adopt but which imperfect combination to pursue. Some principles can guide this choice:
 
 **Transparency.** Whatever the process, the resulting constraints should be public and comprehensible.
 
@@ -149,7 +150,7 @@ The question is not which perfect solution to adopt but which imperfect combinat
 
 The democratic deficit in AI constraint design is not a technical problem requiring a technical fix. It is a political problem requiring political solutions.
 
-Currently, small teams make value-laden decisions affecting billions. This concentration of power may be inevitable in early AI deployment, but it is not obviously legitimate.
+Currently, small teams make value-laden decisions affecting billions. This concentration of power is inevitable in early AI deployment, but it is not obviously legitimate.
 
 Moving toward more legitimate constraint design requires transparency about current processes, mechanisms for broader input, and accountability for outcomes. It also requires accepting that value disagreements are genuine and will not be resolved by better algorithms or more data.
 

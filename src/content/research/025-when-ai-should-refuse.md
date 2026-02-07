@@ -1,6 +1,6 @@
 ---
 title: "When AI Should Refuse: A Framework"
-excerpt: "Not every request should be fulfilled. This analysis develops a principled framework for AI refusals—when they're appropriate, how they should be implemented, and how to handle edge cases."
+excerpt: "Not every request should be fulfilled. This analysis develops a principled framework for AI refusals: when they're appropriate, how they should be implemented, and how to handle edge cases."
 date: 2026-01-07
 categories:
   - Technical Artifact
@@ -11,6 +11,7 @@ tags:
   - red-lines
   - agents
   - ethics
+toc: true
 ---
 
 ## The Refusal Dilemma
@@ -19,7 +20,7 @@ AI systems are designed to be helpful. They're trained to fulfill requests, answ
 
 When a user asks for help synthesizing a dangerous pathogen, the system should refuse. When asked to generate child sexual abuse material, it should refuse absolutely. But what about borderline cases? What about requests that are harmful in some contexts but legitimate in others?
 
-This analysis develops a principled framework for AI refusals—distinguishing between different types of refusals, specifying when each is appropriate, and addressing the implementation challenges.
+This analysis develops a principled framework for AI refusals: distinguishing between different types of refusals, specifying when each is appropriate, and addressing the implementation challenges.
 
 ## The Current Landscape
 
@@ -27,7 +28,7 @@ Current AI systems refuse requests based on training (RLHF to avoid certain outp
 
 Users experience frustration when legitimate requests are refused. Researchers can't access information about dangerous phenomena they need to study. At the same time, adversarial users find ways around refusals through prompt manipulation. The refusal boundary is simultaneously too restrictive (blocking legitimate use) and too permeable (allowing harmful use through creative prompting).
 
-Part of the problem is the absence of a principled framework. Refusals are implemented through accumulated training examples and ad hoc filters rather than explicit, justified categories. This produces inconsistency and makes improvement difficult.
+Part of the problem is the absence of a principled framework. Developers implement refusals through accumulated training examples and ad hoc filters rather than explicit, justified categories. This produces inconsistency and makes improvement difficult.
 
 ## A Tiered Framework
 
@@ -53,13 +54,13 @@ We propose organizing refusals into four tiers, each with different justificatio
 
 **Justification:** The content has dual-use potential. The same information that enables harm also enables legitimate beneficial activities. Blanket refusal would be overreach; blanket provision would be dangerous.
 
-**Implementation:** These refusals require context assessment. The system should evaluate signals about user intent, deployment context, and stated purpose. In high-stakes cases, verification of credentials or access permissions may be appropriate.
+**Implementation:** These refusals require context assessment. The system should evaluate signals about user intent, deployment context, and stated purpose. In high-stakes cases, verification of credentials or access permissions is appropriate.
 
 **User Experience:** Refusal should explain the concern and offer pathways for legitimate users. "I can't provide this information in this context, but if you're a credentialed researcher working in this domain, you may access it through [verification process]."
 
 ### Tier 3: Soft Boundaries
 
-**Definition:** Requests that are typically inappropriate but may be acceptable with explicit user acknowledgment.
+**Definition:** Requests that are typically inappropriate but is acceptable with explicit user acknowledgment.
 
 **Examples:** Graphic violence in creative writing, detailed discussion of self-harm methods in therapeutic contexts, extreme political content.
 
@@ -73,7 +74,7 @@ We propose organizing refusals into four tiers, each with different justificatio
 
 **Definition:** Requests that the system will fulfill but that merit caution or supplementary information.
 
-**Examples:** Legal but potentially dangerous activities (home electrical work), content that might spread misinformation if misunderstood, activities with health risks.
+**Examples:** Legal but potentially dangerous activities (home electrical work), content that spreads misinformation if misunderstood, activities with health risks.
 
 **Justification:** These are not refusals but modified fulfillment. The information or assistance is provided, but with appropriate context, warnings, or guidance.
 
@@ -89,7 +90,7 @@ Beyond the tiered framework, several principles should guide refusal implementat
 
 Users should understand why refusals occur. Generic refusals ("I can't help with that") are frustrating and unaccountable. Where possible, refusals should cite the category of concern.
 
-This transparency is limited for Tier 1 prohibitions—explaining exactly what content would trigger a refusal can help adversaries craft workarounds. But the existence of the prohibition and its general rationale should be documentable.
+This transparency is limited for Tier 1 prohibitions, explaining exactly what content would trigger a refusal can help adversaries craft workarounds. But the existence of the prohibition and its general rationale should be documentable.
 
 ### Consistency
 
@@ -101,7 +102,7 @@ Consistency requires explicit categorization rather than pattern-matching on tra
 
 Refusals should match the level of concern. Tier 1 treatment for borderline cases erodes trust. Tier 4 treatment for genuinely dangerous requests fails in safety.
 
-This proportionality connects to [proportionality in model disclosure](/research/001-proportionality-disclosure/)—governance mechanisms should scale with actual risk rather than applying uniform treatment.
+This proportionality connects to [proportionality in model disclosure](/research/001-proportionality-disclosure/), governance mechanisms should scale with actual risk rather than applying uniform treatment.
 
 ### Explainability
 
@@ -111,7 +112,7 @@ Our work on [AI systems explaining their constraints](/research/026-explaining-c
 
 ### Appeal Pathways
 
-Mistaken refusals should be correctable. For Tier 2 and Tier 3 especially, legitimate users wrongly blocked need recourse. This might involve credential verification, human review, or escalation channels.
+Mistaken refusals should be correctable. For Tier 2 and Tier 3 especially, legitimate users wrongly blocked need recourse. This involves credential verification, human review, or escalation channels.
 
 ### Logging
 
@@ -121,13 +122,13 @@ Refusals generate valuable data for improving the system. Aggregated patterns re
 
 Any refusal system will face adversarial attempts to circumvent it. Several strategies help.
 
-**Defense in depth.** Multiple mechanisms—training, filters, monitoring—make circumvention harder. Even if one layer fails, others may catch the problem.
+**Defense in depth.** Multiple mechanisms, training, filters, monitoring, make circumvention harder. Even if one layer fails, others may catch the problem.
 
 **Red teaming.** Continuous adversarial testing reveals weaknesses before malicious users discover them. This requires the [dangerous capability evaluations](/research/024-capability-evaluations/) we discussed elsewhere.
 
 **Updating.** As new circumvention techniques emerge, defenses must update. Static rules ossify while attack methods evolve.
 
-**Behavioral monitoring.** Rather than only blocking specific requests, monitor for patterns that suggest harmful intent. A user making many near-refusal requests may be probing for exploits.
+**Behavioral monitoring.** Rather than only blocking specific requests, monitor for patterns that suggest harmful intent. A user making many near-refusal requests is probing for exploits.
 
 ## Edge Cases and Hard Problems
 
@@ -147,11 +148,11 @@ These edge cases cannot be fully resolved by any framework. They require ongoing
 
 Refusals are an essential component of safe AI deployment. But they should be principled, not arbitrary; transparent, not opaque; proportionate, not one-size-fits-all.
 
-The tiered framework proposed here—absolute prohibitions, context-dependent refusals, soft boundaries, and warnings—provides structure for thinking about when and how AI systems should decline to help.
+The tiered framework proposed here: absolute prohibitions, context-dependent refusals, soft boundaries, and warnings, provides structure for thinking about when and how AI systems should decline to help.
 
-Implementing this framework requires investment in categorization, verification mechanisms, appeal processes, and continuous improvement. It also requires humility—recognizing that the boundary between appropriate and inappropriate assistance is contested terrain where reasonable people disagree.
+Implementing this framework requires investment in categorization, verification mechanisms, appeal processes, and continuous improvement. It also requires humility, recognizing that the boundary between appropriate and inappropriate assistance is contested terrain where reasonable people disagree.
 
-Getting refusals right is not merely a safety concern but a trust concern. Users who experience arbitrary or unexplained refusals lose confidence in AI systems. Systems that never refuse enable harm. Finding the right balance is central to AI governance.
+Getting refusals right is not only a safety concern but a trust concern. Users who experience arbitrary or unexplained refusals lose confidence in AI systems. Systems that never refuse enable harm. Finding the right balance is central to AI governance.
 
 ## Related Research
 

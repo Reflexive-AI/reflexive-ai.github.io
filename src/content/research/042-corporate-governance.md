@@ -1,6 +1,6 @@
 ---
 title: "Corporate Governance Structures for AI Safety"
-excerpt: "How companies organize to manage AI safety matters as much as what rules they follow. An examination of governance structures that enable—or undermine—responsible AI development."
+excerpt: "How companies organize to manage AI safety matters as much as what rules they follow. An examination of governance structures that enable, or undermine, responsible AI development."
 date: 2026-01-24
 categories:
   - Governance Analysis
@@ -9,13 +9,14 @@ tags:
   - safety
   - institutional-design
   - transparency
+toc: true
 ---
 
 ## Safety as Organizational Challenge
 
-AI safety isn't just a technical problem—it's an organizational one. How companies structure decision-making, allocate resources, and balance competing pressures shapes whether safety research translates into safe products.
+AI safety isn't just a technical problem; it's an organizational one. How companies structure decision-making, allocate resources, and balance competing pressures shapes whether safety research translates into safe products.
 
-Some companies have elaborate safety teams, ethics boards, and review processes. Others treat safety as an afterthought. Understanding what organizational structures actually work—and why—is essential for effective AI governance.
+Some companies have elaborate safety teams, ethics boards, and review processes. Others treat safety as an afterthought. Understanding what organizational structures actually work, and why, is essential for effective AI governance.
 
 This analysis examines how AI companies organize for safety, what structures seem effective, and how external governance should account for organizational dynamics.
 
@@ -33,7 +34,7 @@ Corporate governance structures determine:
 
 **Accountability.** When things go wrong, who is responsible? Are there meaningful consequences?
 
-These organizational factors may matter as much as technical capabilities. A company with strong safety research but weak organizational processes may still produce unsafe products.
+These organizational factors matter as much as technical capabilities. A company with strong safety research but weak organizational processes still produces unsafe products.
 
 ## Current Corporate Approaches
 
@@ -50,7 +51,7 @@ Most major AI labs have dedicated safety research teams:
 
 These teams conduct technical research on alignment, interpretability, robustness, and related topics.
 
-**Limitations:** Safety research teams often lack authority to stop or modify product decisions. Their research may not translate into product changes when it conflicts with commercial interests.
+**Limitations:** Safety research teams often lack authority to stop or modify product decisions. Their research does not translate into product changes when it conflicts with commercial interests.
 
 ### Ethics and Responsible AI Teams
 
@@ -61,7 +62,7 @@ Distinct from technical safety research, some companies have ethics or responsib
 - User safety
 - Policy engagement
 
-**Limitations:** These teams are often understaffed relative to their mandate. They may lack technical authority to review systems. And they're frequently positioned as service functions rather than decision-makers.
+**Limitations:** These teams are often understaffed relative to their mandate. They lack technical authority to review systems. And they're frequently positioned as service functions rather than decision-makers.
 
 ### Review Processes
 
@@ -72,7 +73,7 @@ Companies have implemented various review processes:
 - Red team exercises
 - Ethical review boards
 
-**Limitations:** Review processes can become rubber stamps. Under commercial pressure, reviews may be compressed, overruled, or bypassed. We've seen examples of products launching despite internal concerns.
+**Limitations:** Review processes can become rubber stamps. Under commercial pressure, reviews are compressed, overruled, or bypassed. We've seen examples of products launching despite internal concerns.
 
 ### External Advisory Bodies
 
@@ -81,7 +82,7 @@ Some companies have external advisory structures:
 - Microsoft's Responsible AI Council
 - Various ethics advisory boards
 
-**Limitations:** Advisory bodies are typically advisory only—they can recommend but not require. Their access to information is limited. And companies sometimes dissolve advisory bodies that become inconvenient.
+**Limitations:** Advisory bodies are typically advisory only; they can recommend but not require. Their access to information is limited. And companies sometimes dissolve advisory bodies that become inconvenient.
 
 ### Executive Responsibility
 
@@ -95,7 +96,7 @@ Some companies assign executive-level responsibility for AI safety:
 
 ## What Works (And What Doesn't)
 
-Evidence from AI companies and analogous industries suggests factors that make safety governance effective—or ineffective.
+Evidence from AI companies and analogous industries suggests factors that make safety governance effective, or ineffective.
 
 ### What Seems to Work
 
@@ -107,7 +108,7 @@ Evidence from AI companies and analogous industries suggests factors that make s
 
 **Whistleblower protection.** As we examined in [whistleblower protections](/research/022-whistleblower-protections/), employees who can safely raise concerns are essential for identifying problems.
 
-**Aligned incentives.** When safety and commercial teams share goals—or when safety success is rewarded—conflicts are reduced.
+**Aligned incentives.** When safety and commercial teams share goals, or when safety success is rewarded, conflicts are reduced.
 
 **Independence.** Safety assessment by individuals who don't report to the teams they're assessing provides more honest evaluation.
 
@@ -195,7 +196,7 @@ Liability regimes should create board-level attention to safety:
 
 - Personal liability for executives who ignore safety warnings
 - Enhanced liability for companies lacking adequate governance
-- Safe harbor for companies with robust governance
+- Safe harbor for companies with strong governance
 
 We explored liability implications in [liability frameworks](/research/020-liability-frameworks/).
 
@@ -203,25 +204,25 @@ We explored liability implications in [liability frameworks](/research/020-liabi
 
 Requiring disclosure of governance structures enables:
 
-- Stakeholder assessment of company seriousness
+- External assessment of company seriousness
 - Comparison across companies
 - Pressure for improvement
 
 ### Whistleblower Protection
 
-Robust whistleblower protection, discussed in [our analysis](/research/022-whistleblower-protections/), ensures that organizational failures can be surfaced externally when internal processes fail.
+Strong whistleblower protection, discussed in [our analysis](/research/022-whistleblower-protections/), ensures that organizational failures can be surfaced externally when internal processes fail.
 
 ## The Reflexive Angle
 
 Our work on reflexive governance has implications for corporate structure.
 
-If AI systems are to participate in their own governance—[reporting constraints](/research/014-ai-regulator-protocol/), [explaining limits](/research/026-explaining-constraints/)—corporate structures must enable this:
+If AI systems are to participate in their own governance, [reporting constraints](/research/014-ai-regulator-protocol/) and [explaining limits](/research/026-explaining-constraints/), corporate structures must enable this:
 
 - Systems to receive and surface AI-generated safety signals
 - Processes to act on AI self-assessment
 - Integration of AI safety reporting with human governance structures
 
-This is unexplored territory, but as AI capabilities grow, AI systems themselves may become part of corporate safety infrastructure.
+This is unexplored territory, but as AI capabilities grow, AI systems themselves become part of corporate safety infrastructure.
 
 ## What Good Looks Like
 
@@ -229,13 +230,13 @@ Based on this analysis, effective AI safety governance structures would include:
 
 **Clear safety authority.** Designated individuals or teams with explicit authority to stop or require changes to AI systems, not just to advise.
 
-**Structural independence.** Safety assessment functions that don't report to product or commercial executives whose interests may conflict.
+**Structural independence.** Safety assessment functions that don't report to product or commercial executives whose interests conflict.
 
 **Resource adequacy.** Safety teams resourced proportionally to risk and company scale, with access to systems and information needed for assessment.
 
 **Board engagement.** Regular board-level attention to safety, with safety leadership having direct access.
 
-**Learning processes.** Systematic collection and analysis of safety information—incidents, near-misses, external research—with demonstrated improvement.
+**Learning processes.** Systematic collection and analysis of safety information: incidents, near-misses, external research, with demonstrated improvement.
 
 **Cultural integration.** Safety treated as engineering excellence, not obstacle. Identifying problems valued and rewarded.
 
@@ -245,7 +246,7 @@ Based on this analysis, effective AI safety governance structures would include:
 
 AI safety is an organizational challenge as much as a technical one. Corporate governance structures that concentrate decision authority, create independence, and align incentives produce better outcomes than structures where safety is advisory, marginalized, or under-resourced.
 
-External governance should attend to organizational structure—requiring, assessing, and incentivizing governance arrangements that enable rather than undermine responsible AI development.
+External governance should attend to organizational structure: requiring, assessing, and incentivizing governance arrangements that enable rather than undermine responsible AI development.
 
 ## Further Reading
 
