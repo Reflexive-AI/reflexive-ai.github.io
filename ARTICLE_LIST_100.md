@@ -119,7 +119,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 89. [x] AI Consciousness Claims: Policy Responses [R][P]
 90. [x] Long-Term AI Futures: Scenario Planning [R][P]
 91. [x] AI Governance in Space [R]
-92. [ ] Quantum Computing and AI Security [R]
+92. [x] Quantum Computing and AI Security [R]
 93. [ ] Neuromorphic Computing Governance [R]
 94. [ ] Brain-Computer Interfaces and AI [R][P]
 95. [ ] Digital Minds: Legal and Ethical Status [R][P]

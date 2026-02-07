@@ -1,5 +1,23 @@
 [
   {
+    "id": 92,
+    "title": "Quantum Computing and AI Security",
+    "excerpt": "Examining the intersection of quantum computing and AI, with a focus on the security implications for AI systems and the broader governance challenges.",
+    "slug": "092-quantum-computing-and-ai-security",
+    "date": "2026-02-07",
+    "tags": [
+      "research",
+      "quantum-computing",
+      "ai-security",
+      "ai-safety"
+    ],
+    "categories": [
+      "AI Governance",
+      "Security Analysis"
+    ],
+    "body": "Reflexive Research Object 092 Type: Research & Security Analysis Introduction The convergence of quantum computing and artificial intelligence (AI) represents a paradigm shift with profound implications for security. While quantum computing offers immense potential to solve problems that are intractable for classical systems, it also threatens the cryptographic foundations on which much of AI governance and security infrastructure rely. At the same time, quantum computing could enhance AI system"
+  },
+  {
     "id": 91,
     "title": "AI Governance in Space",
     "excerpt": "Exploring the unique challenges and opportunities for regulating artificial intelligence in extraterrestrial domains, from autonomous systems to interplanetary collaboration.",

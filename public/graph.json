@@ -2177,7 +2177,7 @@
       "id": "ai-safety",
       "title": "ai-safety",
       "group": "concept",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "Monitoring Deployed Models",
@@ -2188,6 +2188,11 @@
           "title": "Why AI Safety Researchers Disagree: A Taxonomy of Worldviews",
           "slug": "/research/064-ai-safety-worldviews",
           "excerpt": "The AI safety field appears fractured. Some focus on alignment, others on governance, others on misuse. This article maps the underlying worldview differences that produce divergent research agendas."
+        },
+        {
+          "title": "Quantum Computing and AI Security",
+          "slug": "/research/092-quantum-computing-and-ai-security",
+          "excerpt": "Examining the intersection of quantum computing and AI, with a focus on the security implications for AI systems and the broader governance challenges."
         }
       ]
     },
@@ -3354,7 +3359,7 @@
       "id": "research",
       "title": "research",
       "group": "technical",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "AI in Agriculture: Data Governance",
@@ -3365,6 +3370,11 @@
           "title": "Multi-Agent Coordination Failures",
           "slug": "/research/088-multi-agent-coordination-failures",
           "excerpt": "Exploring the dynamics, risks, and governance challenges of coordination failures among AI systems in multi-agent environments."
+        },
+        {
+          "title": "Quantum Computing and AI Security",
+          "slug": "/research/092-quantum-computing-and-ai-security",
+          "excerpt": "Examining the intersection of quantum computing and AI, with a focus on the security implications for AI systems and the broader governance challenges."
         }
       ]
     },
@@ -3591,6 +3601,32 @@
           "title": "AI Governance in Space",
           "slug": "/research/091-ai-governance-in-space",
           "excerpt": "Exploring the unique challenges and opportunities for regulating artificial intelligence in extraterrestrial domains, from autonomous systems to interplanetary collaboration."
+        }
+      ]
+    },
+    {
+      "id": "quantum-computing",
+      "title": "quantum-computing",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Quantum Computing and AI Security",
+          "slug": "/research/092-quantum-computing-and-ai-security",
+          "excerpt": "Examining the intersection of quantum computing and AI, with a focus on the security implications for AI systems and the broader governance challenges."
+        }
+      ]
+    },
+    {
+      "id": "ai-security",
+      "title": "ai-security",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Quantum Computing and AI Security",
+          "slug": "/research/092-quantum-computing-and-ai-security",
+          "excerpt": "Examining the intersection of quantum computing and AI, with a focus on the security implications for AI systems and the broader governance challenges."
         }
       ]
     }
@@ -6589,6 +6625,36 @@
     {
       "source": "autonomy",
       "target": "extraterrestrial",
+      "value": 1
+    },
+    {
+      "source": "quantum-computing",
+      "target": "research",
+      "value": 1
+    },
+    {
+      "source": "ai-security",
+      "target": "research",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "research",
+      "value": 1
+    },
+    {
+      "source": "ai-security",
+      "target": "quantum-computing",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "quantum-computing",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "ai-security",
       "value": 1
     }
   ]
