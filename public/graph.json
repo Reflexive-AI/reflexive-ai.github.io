@@ -143,6 +143,11 @@
           "title": "Long-Term AI Futures: Scenario Planning",
           "slug": "/research/090-long-term-ai-futures-scenario-planning",
           "excerpt": "Exploring scenario planning as a method for navigating the uncertainties of long-term AI development and its societal implications."
+        },
+        {
+          "title": "Neuromorphic Computing Governance",
+          "slug": "/research/093-neuromorphic-computing-governance",
+          "excerpt": "Exploring the unique governance challenges and opportunities posed by neuromorphic computing, a paradigm-shifting approach to artificial intelligence inspired by the human brain."
         }
       ]
     },
@@ -2066,7 +2071,7 @@
       "id": "ai-governance",
       "title": "ai-governance",
       "group": "concept",
-      "val": 11,
+      "val": 13,
       "articles": [
         {
           "title": "API-Level Safety Controls",
@@ -2082,6 +2087,11 @@
           "title": "AI Governance in Space",
           "slug": "/research/091-ai-governance-in-space",
           "excerpt": "Exploring the unique challenges and opportunities for regulating artificial intelligence in extraterrestrial domains, from autonomous systems to interplanetary collaboration."
+        },
+        {
+          "title": "Neuromorphic Computing Governance",
+          "slug": "/research/093-neuromorphic-computing-governance",
+          "excerpt": "Exploring the unique governance challenges and opportunities posed by neuromorphic computing, a paradigm-shifting approach to artificial intelligence inspired by the human brain."
         }
       ]
     },
@@ -3629,6 +3639,32 @@
           "excerpt": "Examining the intersection of quantum computing and AI, with a focus on the security implications for AI systems and the broader governance challenges."
         }
       ]
+    },
+    {
+      "id": "neuromorphic-computing",
+      "title": "neuromorphic-computing",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Neuromorphic Computing Governance",
+          "slug": "/research/093-neuromorphic-computing-governance",
+          "excerpt": "Exploring the unique governance challenges and opportunities posed by neuromorphic computing, a paradigm-shifting approach to artificial intelligence inspired by the human brain."
+        }
+      ]
+    },
+    {
+      "id": "emerging-technology",
+      "title": "emerging-technology",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Neuromorphic Computing Governance",
+          "slug": "/research/093-neuromorphic-computing-governance",
+          "excerpt": "Exploring the unique governance challenges and opportunities posed by neuromorphic computing, a paradigm-shifting approach to artificial intelligence inspired by the human brain."
+        }
+      ]
     }
   ],
   "links": [
@@ -5000,7 +5036,7 @@
     {
       "source": "ai-governance",
       "target": "regulation",
-      "value": 1
+      "value": 2
     },
     {
       "source": "abuse detection",
@@ -6655,6 +6691,31 @@
     {
       "source": "ai-safety",
       "target": "ai-security",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "neuromorphic-computing",
+      "value": 1
+    },
+    {
+      "source": "emerging-technology",
+      "target": "neuromorphic-computing",
+      "value": 1
+    },
+    {
+      "source": "neuromorphic-computing",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "emerging-technology",
+      "value": 1
+    },
+    {
+      "source": "emerging-technology",
+      "target": "regulation",
       "value": 1
     }
   ]

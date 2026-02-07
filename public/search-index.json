@@ -1,5 +1,22 @@
 [
   {
+    "id": 93,
+    "title": "Neuromorphic Computing Governance",
+    "excerpt": "Exploring the unique governance challenges and opportunities posed by neuromorphic computing, a paradigm-shifting approach to artificial intelligence inspired by the human brain.",
+    "slug": "093-neuromorphic-computing-governance",
+    "date": "2026-02-07",
+    "tags": [
+      "neuromorphic-computing",
+      "ai-governance",
+      "emerging-technology",
+      "regulation"
+    ],
+    "categories": [
+      "Governance Analysis"
+    ],
+    "body": "Introduction Neuromorphic computing, an emerging frontier in artificial intelligence, promises to revolutionize the field by mimicking the structure and function of biological neural systems. Unlike traditional silicon-based computing architectures, neuromorphic systems are designed to emulate the neural processing capabilities of the human brain, offering significant advantages in energy efficiency, adaptability, and real-time learning. However, as with any transformative technology, neuromorph"
+  },
+  {
     "id": 92,
     "title": "Quantum Computing and AI Security",
     "excerpt": "Examining the intersection of quantum computing and AI, with a focus on the security implications for AI systems and the broader governance challenges.",
