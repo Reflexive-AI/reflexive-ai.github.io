@@ -1,6 +1,7 @@
 ---
 import Base from './Base.astro';
-import type { CollectionEntry } from 'astro:content';
+import LanguageSwitcher from '../components/LanguageSwitcher.astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
 
 interface Props {
   article: CollectionEntry<'research'>;
@@ -16,6 +17,31 @@ const tocHeadings = headings.filter(h => h.depth >= 2 && h.depth <= 3);
 // Calculate reading time
 const wordCount = article.body?.split(/\s+/).length || 0;
 const readingTime = Math.ceil(wordCount / 200);
+
+// Determine current language and base slug
+const slug = article.slug;
+let currentLang: 'en' | 'es' | 'ca' = 'en';
+let baseSlug = slug;
+if (slug.startsWith('es/')) {
+  currentLang = 'es';
+  baseSlug = slug.slice(3);
+} else if (slug.startsWith('ca/')) {
+  currentLang = 'ca';
+  baseSlug = slug.slice(3);
+}
+
+// Check which translations exist
+const allArticles = await getCollection('research');
+const allSlugs = new Set(allArticles.map(a => a.slug));
+const availableTranslations = {
+  en: allSlugs.has(baseSlug),
+  es: allSlugs.has(`es/${baseSlug}`),
+  ca: allSlugs.has(`ca/${baseSlug}`),
+};
+
+// Language metadata
+const langCode = currentLang === 'en' ? 'en' : currentLang === 'es' ? 'es' : 'ca';
+const dateLocale = currentLang === 'es' ? 'es-ES' : currentLang === 'ca' ? 'ca-ES' : 'en-US';
 
 // Build canonical URL
 const canonicalUrl = `https://reflexive-ai.github.io/research/${article.slug}/`;
@@ -62,7 +88,7 @@ const allKeywords = [...new Set([...(keywords || []), ...(tags || [])])];
     "keywords": allKeywords.join(", "),
     "wordCount": wordCount,
     "articleSection": categories[0] || "Research",
-    "inLanguage": "en"
+    "inLanguage": langCode
   })} />
 
   <div class="article-layout">
@@ -74,12 +100,18 @@ const allKeywords = [...new Set([...(keywords || []), ...(tags || [])])];
           ))}
           <span>·</span>
           <time datetime={date.toISOString()} itemprop="datePublished">
-            {date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+            {date.toLocaleDateString(dateLocale, { year: 'numeric', month: 'long', day: 'numeric' })}
           </time>
           <span>·</span>
           <span class="article__reading-time">{readingTime} min read</span>
         </div>
-        
+
+        <LanguageSwitcher
+          currentLang={currentLang}
+          baseSlug={baseSlug}
+          availableTranslations={availableTranslations}
+        />
+
         <h1 class="article__title" itemprop="headline">{title}</h1>
         <p class="article__excerpt" itemprop="description">{excerpt}</p>
       </header>

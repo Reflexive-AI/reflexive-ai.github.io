@@ -1,0 +1,145 @@
+---
+interface Props {
+  currentLang: 'en' | 'es' | 'ca';
+  baseSlug: string;
+  availableTranslations: {
+    en: boolean;
+    es: boolean;
+    ca: boolean;
+  };
+}
+
+const { currentLang, baseSlug, availableTranslations } = Astro.props;
+
+const languages = [
+  { code: 'en' as const, label: 'EN', name: 'English', href: `/research/${baseSlug}/` },
+  { code: 'es' as const, label: 'ES', name: 'Español', href: `/research/es/${baseSlug}/` },
+  { code: 'ca' as const, label: 'CA', name: 'Català', href: `/research/ca/${baseSlug}/` },
+];
+---
+
+<nav class="lang-switcher" aria-label="Language">
+  <svg
+    class="lang-switcher__globe"
+    width="16"
+    height="16"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="1.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    aria-hidden="true"
+  >
+    <circle cx="12" cy="12" r="10" />
+    <path d="M2 12h20" />
+    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10A15.3 15.3 0 0 1 12 2z" />
+  </svg>
+  <div class="lang-switcher__options" role="group">
+    {languages.map((lang) => {
+      const isActive = lang.code === currentLang;
+      const isAvailable = availableTranslations[lang.code];
+
+      return isAvailable && !isActive ? (
+        <a
+          href={lang.href}
+          class="lang-switcher__option"
+          title={lang.name}
+          hreflang={lang.code}
+        >
+          {lang.label}
+        </a>
+      ) : (
+        <span
+          class:list={[
+            'lang-switcher__option',
+            { 'lang-switcher__option--active': isActive },
+            { 'lang-switcher__option--disabled': !isAvailable },
+          ]}
+          title={!isAvailable ? `${lang.name} — not available` : lang.name}
+          aria-current={isActive ? 'page' : undefined}
+        >
+          {lang.label}
+        </span>
+      );
+    })}
+  </div>
+</nav>
+
+<style>
+  .lang-switcher {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+  }
+
+  .lang-switcher__globe {
+    color: var(--color-text-tertiary);
+    flex-shrink: 0;
+  }
+
+  .lang-switcher__options {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    background: var(--color-bg-subtle, #f5f5f5);
+    border-radius: 9999px;
+    padding: 3px;
+  }
+
+  .lang-switcher__option {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2.25rem;
+    height: 1.75rem;
+    padding: 0 0.625rem;
+    border-radius: 9999px;
+    font-family: var(--font-sans, sans-serif);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    text-decoration: none;
+    color: var(--color-text-secondary, #525252);
+    background: transparent;
+    transition: color 200ms ease, background-color 200ms ease, box-shadow 200ms ease;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .lang-switcher__option:hover:not(.lang-switcher__option--active):not(.lang-switcher__option--disabled) {
+    color: var(--color-text, #1a1a1a);
+    background: var(--color-bg, #ffffff);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  }
+
+  .lang-switcher__option--active {
+    color: #ffffff;
+    background: var(--color-accent, #2563eb);
+    box-shadow: 0 1px 3px rgba(37, 99, 235, 0.3);
+    cursor: default;
+  }
+
+  .lang-switcher__option--disabled {
+    color: var(--color-border, #e5e5e5);
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+
+  /* Focus styles for keyboard navigation */
+  .lang-switcher__option:focus-visible {
+    outline: 2px solid var(--color-accent, #2563eb);
+    outline-offset: 2px;
+  }
+
+  /* Responsive: slightly larger touch targets on mobile */
+  @media (max-width: 640px) {
+    .lang-switcher__option {
+      min-width: 2.5rem;
+      height: 2rem;
+      font-size: 0.8125rem;
+    }
+  }
+</style>

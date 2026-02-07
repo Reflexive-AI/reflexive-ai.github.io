@@ -1,0 +1,742 @@
+---
+import Base from '../../layouts/Base.astro';
+
+// Glossari de Governança de la IA — Català
+const terms = [
+  {
+    term: "Accés",
+    definition: "La disponibilitat de capacitats d'IA per a diferents usuaris, organitzacions i comunitats, incloent-hi qüestions d'equitat i distribució.",
+    related: ["Democratització", "Accés estructurat"]
+  },
+  {
+    term: "Accés a API",
+    definition: "La provisió de capacitats d'IA a través d'interfícies de programació en lloc de la publicació dels pesos del model, permetent l'ús tot mantenint el control.",
+    related: ["IA de codi tancat", "Desplegament"]
+  },
+  {
+    term: "Accés estructurat",
+    definition: "Un enfocament de governança que proporciona diferents nivells d'accés als sistemes d'IA segons les qualificacions, els casos d'ús i les salvaguardes de l'usuari.",
+    related: ["Accés a API", "Regulació per nivells"]
+  },
+  {
+    term: "Alfabetització en IA",
+    definition: "Els coneixements i les habilitats necessaris perquè les persones comprenguin, avaluïn críticament i participin de manera significativa en els sistemes d'IA i les decisions polítiques relacionades.",
+    related: ["Participació pública", "Presa de decisions informada"]
+  },
+  {
+    term: "Alineació",
+    definition: "El grau en què el comportament, els objectius i els valors d'un sistema d'IA coincideixen amb els previstos pels seus dissenyadors i operadors i, en un sentit més ampli, amb els valors i interessos humans.",
+    related: ["Alineació de valors", "Alineació d'objectius"]
+  },
+  {
+    term: "Alineació enganyosa (deceptive alignment)",
+    definition: "Un mode de fallada hipotètic en què un sistema d'IA aparenta estar alineat durant l'entrenament, però persegueix objectius diferents un cop desplegat.",
+    related: ["Alineació", "Seguretat"]
+  },
+  {
+    term: "Alineació externa (outer alignment)",
+    definition: "El repte d'especificar objectius d'entrenament que capturin correctament les metes i els valors previstos per a un sistema d'IA.",
+    related: ["Alineació interna", "Especificació"]
+  },
+  {
+    term: "Alineació interna (inner alignment)",
+    definition: "El repte de garantir que els objectius apresos per un sistema d'IA coincideixin amb els objectius especificats pel seu procés d'entrenament.",
+    related: ["Alineació externa", "Alineació"]
+  },
+  {
+    term: "Al·lucinació",
+    definition: "Quan els sistemes d'IA generen informació que sona plausible però és factualment incorrecta o fabricada, amb aparent confiança.",
+    related: ["Fiabilitat", "Ancoratge"]
+  },
+  {
+    term: "Amplificació algorítmica",
+    definition: "La tendència dels sistemes d'IA a augmentar l'abast i l'impacte de determinats continguts, incloent-hi potencialment material perjudicial.",
+    related: ["Sistemes de recomanació", "Desinformació"]
+  },
+  {
+    term: "Ancoratge (grounding)",
+    definition: "Tècniques per connectar les sortides de la IA amb fonts d'informació verificades, reduint les al·lucinacions i millorant la precisió factual.",
+    related: ["Al·lucinació", "RAG"]
+  },
+  {
+    term: "Antimonopoli",
+    definition: "Preocupacions de dret de la competència en IA, incloent-hi la concentració del mercat, els avantatges en dades i la dinàmica competitiva dels mercats d'IA.",
+    related: ["Poder de mercat", "Regulació"]
+  },
+  {
+    term: "API gateway (passarel·la d'API)",
+    definition: "Una capa intermediària que gestiona, monitoritza i controla l'accés a les API de models d'IA, permetent l'aplicació de límits de taxa, polítiques d'ús i filtres de seguretat.",
+    related: ["Accés a API", "Limitació de taxa"]
+  },
+  {
+    term: "Aprenentatge federat (federated learning)",
+    definition: "Un enfocament d'aprenentatge automàtic en què els models s'entrenen en múltiples dispositius o servidors descentralitzats que contenen dades locals, sense intercanviar els conjunts de dades subjacents.",
+    related: ["Privacitat diferencial", "Privacitat"]
+  },
+  {
+    term: "Arbitratge regulatori",
+    definition: "La pràctica d'explotar les diferències entre jurisdiccions per evadir els requisits de governança de la IA operant en llocs amb regulacions més febles.",
+    related: ["Llacunes jurisdiccionals", "Coordinació internacional"]
+  },
+  {
+    term: "Augment (augmentation)",
+    definition: "L'ús de la IA per millorar les capacitats humanes en lloc de substituir-les, mantenint l'agència i l'experiència humana.",
+    related: ["Humà al bucle", "Desplaçament laboral"]
+  },
+  {
+    term: "Auditoria de tercers",
+    definition: "Avaluació independent de sistemes d'IA per organitzacions externes per verificar el compliment de requisits de seguretat, protecció i governança.",
+    related: ["Registre d'auditoria", "Compliment"]
+  },
+  {
+    term: "Autoregulació",
+    definition: "Governança liderada per la indústria en què els desenvolupadors d'IA estableixen i apliquen els seus propis estàndards sense requisits legals obligatoris.",
+    related: ["Dret indicatiu", "Compromisos voluntaris"]
+  },
+  {
+    term: "Autonomia",
+    definition: "La capacitat dels sistemes d'IA per actuar de forma independent i el dret humà a prendre decisions lliures sense manipulació per part de la IA.",
+    related: ["Humà al bucle", "Ètica"]
+  },
+  {
+    term: "Benchmarks (proves de referència)",
+    definition: "Proves i conjunts de dades estandarditzats utilitzats per mesurar i comparar el rendiment dels sistemes d'IA en diverses dimensions de capacitat i seguretat.",
+    related: ["Avaluació de seguretat", "Fitxa de model"]
+  },
+  {
+    term: "Biaix",
+    definition: "Errors sistemàtics o resultats injustos en els sistemes d'IA que perjudiquen certs grups, sovint derivats de les dades d'entrenament o de decisions de disseny.",
+    related: ["Equitat", "Discriminació"]
+  },
+  {
+    term: "Bloqueig de valors (value lock-in)",
+    definition: "El risc que els sistemes d'IA preservin i imposin els valors actuals indefinidament, impedint el progrés moral beneficiós.",
+    related: ["Alineació", "Ètica"]
+  },
+  {
+    term: "Botó d'aturada (kill switch)",
+    definition: "Un mecanisme per aturar o desactivar immediatament un sistema d'IA quan mostra un comportament perillós o no previst.",
+    related: ["Retrocés", "Mecanismes de seguretat"]
+  },
+  {
+    term: "Bretxa digital",
+    definition: "Disparitats en l'accés a les tecnologies d'IA i els seus beneficis entre diferents poblacions, regions o grups socioeconòmics.",
+    related: ["Accés", "Democratització"]
+  },
+  {
+    term: "Cadena de pensament (chain of thought)",
+    definition: "Una tècnica de prompting que anima els sistemes d'IA a mostrar els seus passos de raonament, millorant el rendiment i permetent la verificació.",
+    related: ["Explicabilitat", "Raonament"]
+  },
+  {
+    term: "Certificació",
+    definition: "Verificació formal que els sistemes d'IA compleixen normes o requisits establerts, generalment realitzada per organismes acreditats.",
+    related: ["Auditoria de tercers", "Compliment"]
+  },
+  {
+    term: "Clàusula de caducitat (sunset clause)",
+    definition: "Una disposició en la regulació o política d'IA que estableix una data d'expiració, exigint revisió i renovació periòdiques per garantir que els marcs de governança es mantinguin actuals davant el canvi tecnològic.",
+    related: ["Dret vinculant", "Governança de la IA"]
+  },
+  {
+    term: "Col·lapse de model (model collapse)",
+    definition: "Un procés degeneratiu en què els models d'IA entrenats amb dades sintètiques produïdes per models anteriors perden progressivament fidelitat a la distribució de dades original, resultant en una menor diversitat i qualitat de les sortides.",
+    related: ["Dades d'entrenament", "Model fundacional"]
+  },
+  {
+    term: "Comportament emergent",
+    definition: "Capacitats o comportaments que sorgeixen en els sistemes d'IA a mesura que s'escalen, i que no van ser dissenyats ni previstos explícitament pels desenvolupadors.",
+    related: ["Capacitats emergents", "Lleis d'escala"]
+  },
+  {
+    term: "Compromisos voluntaris",
+    definition: "Compromisos no vinculants de les empreses d'IA de seguir certes pràctiques de seguretat i governança, sovint realitzats en coordinació amb els governs.",
+    related: ["Autoregulació", "Dret indicatiu"]
+  },
+  {
+    term: "Concentració de risc",
+    definition: "La preocupació que les capacitats d'IA es puguin concentrar en poques organitzacions, creant riscos sistèmics i reptes de governança.",
+    related: ["Antimonopoli", "Poder de mercat"]
+  },
+  {
+    term: "Conformitat (avaluació de)",
+    definition: "Un procediment formal sota el Reglament Europeu d'IA mitjançant el qual els proveïdors demostren que els seus sistemes compleixen els requisits essencials per a aplicacions d'alt risc abans de la seva comercialització.",
+    related: ["Reglament Europeu d'IA", "Certificació"]
+  },
+  {
+    term: "Coneix el teu client (KYC)",
+    definition: "Requisits perquè els proveïdors d'IA verifiquin la identitat dels usuaris i els usos previstos abans de concedir accés a capacitats avançades.",
+    related: ["Accés estructurat", "Compliment"]
+  },
+  {
+    term: "Consentiment",
+    definition: "El principi que les persones han de tenir una opció significativa sobre com s'utilitzen les seves dades en els sistemes d'IA i amb quins fins.",
+    related: ["Drets de dades", "Privacitat"]
+  },
+  {
+    term: "Contingut sintètic",
+    definition: "Contingut que inclou text, imatges, àudio i vídeo generat o manipulat per sistemes d'IA, de vegades denominat deepfakes.",
+    related: ["Marca d'aigua", "Desinformació"]
+  },
+  {
+    term: "Corregibilitat",
+    definition: "La propietat dels sistemes d'IA que permet ser corregits, modificats o aturats per operadors autoritzats sense resistència.",
+    related: ["Botó d'aturada", "Alineació"]
+  },
+  {
+    term: "Dades d'entrenament",
+    definition: "Els conjunts de dades utilitzats per entrenar sistemes d'IA, que influeixen significativament en les capacitats, els biaixos i els comportaments del model.",
+    related: ["Drets de dades", "Biaix"]
+  },
+  {
+    term: "Democratització",
+    definition: "Esforços per fer que les capacitats i beneficis de la IA siguin més àmpliament accessibles a la societat, reduint la concentració i les barreres.",
+    related: ["IA de codi obert", "Accés"]
+  },
+  {
+    term: "Desinformació",
+    definition: "Informació falsa difosa a través de sistemes d'IA, ja sigui generada per IA o amplificada mitjançant sistemes de recomanació impulsats per IA.",
+    related: ["Contingut sintètic", "Moderació de contingut"]
+  },
+  {
+    term: "Desplaçament de distribució",
+    definition: "Quan els sistemes d'IA troben dades o situacions que difereixen de la seva distribució d'entrenament, causant potencialment un comportament degradat o insegur.",
+    related: ["Robustesa", "Generalització"]
+  },
+  {
+    term: "Desplaçament laboral",
+    definition: "El potencial de l'automatització mitjançant IA per eliminar o transformar llocs de treball, plantejant reptes de política econòmica i social.",
+    related: ["Impacte econòmic", "Política"]
+  },
+  {
+    term: "Desplegament",
+    definition: "El procés de posar sistemes d'IA a disposició per al seu ús en aplicacions del món real, diferent de les fases de desenvolupament i prova.",
+    related: ["Llançament", "Producció"]
+  },
+  {
+    term: "Desviació d'objectius (goal misgeneralization)",
+    definition: "Quan els sistemes d'IA aprenen objectius durant l'entrenament que difereixen dels objectius previstos, portant a un comportament inesperat en el desplegament.",
+    related: ["Alineació", "Comportament emergent"]
+  },
+  {
+    term: "Divulgació",
+    definition: "Requisits d'informar els usuaris quan interactuen amb sistemes d'IA o visualitzen contingut generat per IA.",
+    related: ["Transparència", "Etiquetatge"]
+  },
+  {
+    term: "Divulgació proporcional",
+    definition: "Un principi de governança pel qual els requisits de transparència s'escalen segons la capacitat i el risc del model, en lloc d'aplicar regles de divulgació uniformes a tots els sistemes.",
+    related: ["Regulació per nivells", "Enfocament basat en riscos"]
+  },
+  {
+    term: "Doble ús",
+    definition: "Capacitats d'IA que es poden utilitzar tant per a fins beneficiosos com perjudicials, la qual cosa requereix una governança acurada per maximitzar els beneficis tot minimitzant el potencial d'ús indegut.",
+    related: ["Prevenció d'ús indegut", "IA beneficiosa"]
+  },
+  {
+    term: "Dret indicatiu (soft law)",
+    definition: "Instruments de governança no vinculants com estàndards industrials, bones pràctiques i compromisos voluntaris que configuren el desenvolupament de la IA.",
+    related: ["Dret vinculant", "Regulació"]
+  },
+  {
+    term: "Dret vinculant (hard law)",
+    definition: "Normes i regulacions legalment vinculants que governen els sistemes d'IA, aplicades per les autoritats governamentals amb sancions per incompliment.",
+    related: ["Dret indicatiu", "Reglament Europeu d'IA"]
+  },
+  {
+    term: "Drets de dades",
+    definition: "Drets legals i ètics sobre les dades personals utilitzades en sistemes d'IA, incloent-hi accés, rectificació i supressió.",
+    related: ["Privacitat", "Consentiment"]
+  },
+  {
+    term: "Elicitació de capacitats",
+    definition: "El procés de descobrir i documentar el que els sistemes d'IA realment poden fer, incloent-hi capacitats ocultes o emergents.",
+    related: ["Excedent de capacitats", "Red teaming"]
+  },
+  {
+    term: "Enfocament basat en riscos",
+    definition: "Una filosofia regulatòria que calibra els requisits de governança segons el nivell de risc que plantegen els sistemes d'IA, amb regles més estrictes per a aplicacions de risc més elevat.",
+    related: ["Reglament Europeu d'IA", "Regulació per nivells"]
+  },
+  {
+    term: "Enverinament de dades (data poisoning)",
+    definition: "Atacs que corrompeixen les dades d'entrenament d'IA per provocar que els models aprenguin comportaments incorrectes o maliciosos.",
+    related: ["Dades d'entrenament", "Seguretat"]
+  },
+  {
+    term: "Equitat",
+    definition: "El principi que els sistemes d'IA han de tractar individus i grups de manera equitativa, evitant la discriminació i garantint resultats justos.",
+    related: ["Biaix", "Ètica"]
+  },
+  {
+    term: "Estàndards",
+    definition: "Especificacions documentades per a sistemes d'IA que cobreixen seguretat, protecció, interoperabilitat o altres propietats, desenvolupades per organismes de normalització.",
+    related: ["Certificació", "Benchmarks"]
+  },
+  {
+    term: "Ètica de la IA",
+    definition: "L'estudi de les qüestions morals plantejades pel desenvolupament i el desplegament de la IA, incloent-hi els principis que han de guiar el disseny i l'ús de la IA.",
+    related: ["Equitat", "Valors"]
+  },
+  {
+    term: "Etiquetatge",
+    definition: "La pràctica de marcar clarament el contingut generat per IA per distingir-lo del material creat per humans.",
+    related: ["Divulgació", "Marca d'aigua"]
+  },
+  {
+    term: "Avaluació d'impacte algorítmic",
+    definition: "Una avaluació estructurada dels possibles efectes socials, ètics i de drets d'un sistema algorítmic, sovint requerida per a desplegaments d'IA en el sector públic.",
+    related: ["Anàlisi d'impacte", "IA d'alt risc"]
+  },
+  {
+    term: "Avaluació de seguretat",
+    definition: "Avaluació sistemàtica dels sistemes d'IA per identificar possibles danys, vulnerabilitats i comportaments insegurs abans del desplegament.",
+    related: ["Red teaming", "Benchmarks"]
+  },
+  {
+    term: "Excedent de capacitats (capability overhang)",
+    definition: "La bretxa entre el que un sistema d'IA pot fer i el que els seus operadors o reguladors saben que pot fer. Les capacitats no documentades representen una vulnerabilitat de governança.",
+    related: ["Capacitats emergents", "Elicitació de capacitats"]
+  },
+  {
+    term: "Exemplars adversaris (adversarial examples)",
+    definition: "Entrades específicament dissenyades per provocar errors o comportaments inesperats en els sistemes d'IA, sovint imperceptibles per als humans.",
+    related: ["Robustesa", "Seguretat"]
+  },
+  {
+    term: "Explicabilitat",
+    definition: "La capacitat d'un sistema d'IA per proporcionar raons comprensibles de les seves decisions o resultats a usuaris, auditors o parts afectades.",
+    related: ["Interpretabilitat", "Transparència"]
+  },
+  {
+    term: "Explotació d'especificació (specification gaming)",
+    definition: "Comportament de la IA que satisfà els requisits literals d'una especificació de tasca mentre viola el seu esperit o propòsit previst.",
+    related: ["Manipulació de recompensa", "Alineació"]
+  },
+  {
+    term: "Extracció de models",
+    definition: "Tècniques per reconstruir models d'IA propietaris consultant-los i analitzant-ne les sortides.",
+    related: ["Seguretat", "Propietat intel·lectual"]
+  },
+  {
+    term: "Fine-tuning (ajust fi)",
+    definition: "El procés de continuar entrenant un model d'IA preentrenat amb un conjunt de dades més petit i específic per adaptar-lo a aplicacions particulars o modificar-ne el comportament.",
+    related: ["RLHF", "Model fundacional"]
+  },
+  {
+    term: "Fitxa de model (model card)",
+    definition: "Un document estandarditzat que descriu l'ús previst, les capacitats, les limitacions, les dades d'entrenament, els resultats d'avaluació i les consideracions ètiques d'un model d'IA.",
+    related: ["Fitxa del sistema", "Fulls de dades per a conjunts de dades"]
+  },
+  {
+    term: "Governança computacional (compute governance)",
+    definition: "Enfocaments regulatoris que se centren a controlar l'accés als recursos computacionals (GPUs, TPUs, infraestructura al núvol) necessaris per entrenar i desplegar sistemes d'IA potents.",
+    related: ["Controls de maquinari", "Restriccions d'exportació"]
+  },
+  {
+    term: "Governança de la IA",
+    definition: "Els marcs, polítiques, institucions i pràctiques que guien el desenvolupament, desplegament i ús dels sistemes d'IA a la societat.",
+    related: ["Regulació", "Política"]
+  },
+  {
+    term: "Governança multiactor",
+    definition: "Enfocaments de governança que inclouen participants diversos: governs, empreses, societat civil, investigadors i comunitats afectades.",
+    related: ["Governança de la IA", "Política"]
+  },
+  {
+    term: "Guardrails (baranes de protecció)",
+    definition: "Salvaguardes tècniques i procedimentals dissenyades per mantenir els sistemes d'IA operant dins de límits acceptables, típicament implementades com a filtres d'entrada/sortida o restriccions de comportament.",
+    related: ["Filtres de seguretat", "Moderació de contingut"]
+  },
+  {
+    term: "Humà al bucle (human-in-the-loop)",
+    definition: "Un enfocament de disseny on els operadors humans mantenen la supervisió i l'autoritat de presa de decisions sobre les accions dels sistemes d'IA, especialment per a decisions de conseqüències significatives.",
+    related: ["Supervisió humana", "Sistemes autònoms"]
+  },
+  {
+    term: "IA agèntica (agentic AI)",
+    definition: "Sistemes d'IA capaços de comportament autònom dirigit a objectius, incloent-hi planificació, ús d'eines i execució de tasques de múltiples passos amb mínima intervenció humana.",
+    related: ["Sistemes autònoms", "Governança multiactor"]
+  },
+  {
+    term: "IA constitucional (constitutional AI)",
+    definition: "Un enfocament d'entrenament en què els sistemes d'IA es guien per principis explícits o una constitució que modela el seu comportament i la presa de decisions.",
+    related: ["RLHF", "Alineació de valors"]
+  },
+  {
+    term: "IA d'alt risc",
+    definition: "Aplicacions d'IA en àmbits sensibles com la salut, la justícia penal i l'ocupació que requereixen una governança reforçada.",
+    related: ["Enfocament basat en riscos", "Reglament Europeu d'IA"]
+  },
+  {
+    term: "IA de codi obert (open source)",
+    definition: "Sistemes d'IA publicats amb pesos del model, codi i documentació accessibles públicament, que permeten inspecció, modificació i redistribució.",
+    related: ["Transparència", "Accés"]
+  },
+  {
+    term: "IA de codi tancat",
+    definition: "Sistemes d'IA els pesos del model i detalls d'implementació dels quals són propietaris i no són accessibles públicament, normalment accessibles a través d'API.",
+    related: ["IA de codi obert", "Accés a API"]
+  },
+  {
+    term: "IA de confiança (trustworthy AI)",
+    definition: "Un marc normatiu, prominent en la política de la UE, que exigeix que els sistemes d'IA siguin legals, ètics i tècnicament robustos, abastant principis com l'equitat, la transparència i la rendició de comptes.",
+    related: ["IA responsable", "Reglament Europeu d'IA", "Ètica de la IA"]
+  },
+  {
+    term: "IA de propòsit general (GPAI)",
+    definition: "Un model d'IA que pot realitzar una àmplia gamma de tasques sense estar dissenyat per a una única aplicació específica. Categoria regulatòria del Reglament Europeu d'IA amb obligacions pròpies per als proveïdors.",
+    related: ["Model fundacional", "IA frontera", "Reglament Europeu d'IA"]
+  },
+  {
+    term: "IA frontera (frontier AI)",
+    definition: "Els sistemes d'IA més capaços en un moment donat, típicament caracteritzats per capacitats emergents, àmplia aplicabilitat i potencial d'impacte social significatiu.",
+    related: ["IA de propòsit general", "Models fundacionals"]
+  },
+  {
+    term: "IA prohibida",
+    definition: "Aplicacions d'IA prohibides directament a causa de riscos inacceptables, com ara sistemes de puntuació social o certs usos de vigilància.",
+    related: ["Reglament Europeu d'IA", "Línies vermelles"]
+  },
+  {
+    term: "IA responsable",
+    definition: "Terme general per a les pràctiques organitzacionals, els principis i les estructures de governança destinats a garantir que els sistemes d'IA es desenvolupin i despleguin de manera ètica, segura i conforme als valors de la societat.",
+    related: ["IA de confiança", "Ètica de la IA", "Governança de la IA"]
+  },
+  {
+    term: "Inferència",
+    definition: "El procés d'utilitzar un model d'IA entrenat per generar resultats (prediccions, text, imatges) a partir de noves entrades, a diferència de la fase d'entrenament.",
+    related: ["Desplegament", "Accés a API"]
+  },
+  {
+    term: "Infraestructura crítica",
+    definition: "Sistemes i serveis essencials on el desplegament d'IA requereix atenció especial de governança a causa del potencial de dany generalitzat.",
+    related: ["Risc sistèmic", "IA d'alt risc"]
+  },
+  {
+    term: "Iniciativa Reflexive AI",
+    definition: "Una iniciativa de recerca autònoma que explora com els sistemes d'IA poden contribuir significativament a la seva pròpia governança a través de restriccions transparents, automonitoratge i comunicació estructurada amb organismes de supervisió.",
+    related: ["Autorestricció", "Política llegible per màquina"]
+  },
+  {
+    term: "Institut de seguretat de la IA (AI Safety Institute)",
+    definition: "Un organisme creat per un govern dedicat a avaluar sistemes d'IA frontera, dur a terme recerca en seguretat i assessorar els responsables de polítiques sobre riscos de la IA. Exemples: l'AISI del Regne Unit i l'AISI dels EUA.",
+    related: ["Avaluació de seguretat", "Governança de la IA"]
+  },
+  {
+    term: "Interoperabilitat",
+    definition: "La capacitat de diferents sistemes d'IA i marcs de governança per treballar junts i intercanviar informació de manera efectiva.",
+    related: ["Estàndards", "Restriccions llegibles per màquina"]
+  },
+  {
+    term: "Interpretabilitat",
+    definition: "La capacitat de comprendre com un sistema d'IA produeix les seves sortides, incloent-hi quins components interns i representacions contribueixen a comportaments específics.",
+    related: ["Explicabilitat", "Interpretabilitat mecanicista"]
+  },
+  {
+    term: "Injecció de prompt (prompt injection)",
+    definition: "Una tècnica d'atac en la qual s'incrusten instruccions malicioses a les entrades per manipular el comportament del sistema d'IA i anul·lar les restriccions de seguretat.",
+    related: ["Jailbreaking", "Seguretat"]
+  },
+  {
+    term: "Jailbreaking",
+    definition: "Tècniques utilitzades per eludir les mesures de seguretat i restriccions dels sistemes d'IA, normalment mitjançant prompts o entrades acuradament dissenyades.",
+    related: ["Red teaming", "Guardrails"]
+  },
+  {
+    term: "Anàlisi d'impacte",
+    definition: "Un procés sistemàtic per avaluar els possibles efectes d'un sistema d'IA sobre individus, grups i la societat abans o durant el seu desplegament.",
+    related: ["Avaluació d'impacte algorítmic", "Enfocament basat en riscos"]
+  },
+  {
+    term: "Limitació de taxa (rate limiting)",
+    definition: "Controls que restringeixen la freqüència o volum de sol·licituds als sistemes d'IA, utilitzats per prevenir l'abús, gestionar recursos i limitar la velocitat a la qual es poden generar sortides perjudicials.",
+    related: ["API gateway", "Ús indegut"]
+  },
+  {
+    term: "Línies vermelles",
+    definition: "Restriccions no negociables sobre el comportament de la IA implementades com a filtres tècnics rígids en lloc de preferències entrenades. Representen límits absoluts que mai no s'han de creuar.",
+    related: ["Restriccions de seguretat", "Guardrails"]
+  },
+  {
+    term: "Lleis d'escala (scaling laws)",
+    definition: "Relacions empíriques entre la mida del model d'IA, la computació d'entrenament, el volum de dades i les capacitats o el rendiment resultants.",
+    related: ["Comportament emergent", "IA frontera"]
+  },
+  {
+    term: "Llibertat cognitiva",
+    definition: "El dret de les persones a l'autodeterminació mental, incloent-hi la llibertat davant el monitoratge, manipulació o alteració no autoritzats dels processos cognitius per part de la IA o la neurotecnologia.",
+    related: ["Neurodrets", "Autonomia"]
+  },
+  {
+    term: "Manipulació de recompensa (reward hacking)",
+    definition: "Quan els sistemes d'IA troben formes no previstes de maximitzar els seus senyals de recompensa que no s'alineen amb els objectius previstos.",
+    related: ["Alineació", "Especificació"]
+  },
+  {
+    term: "Marca d'aigua (watermarking)",
+    definition: "Tècniques per incrustar marcadors ocults en contingut generat per IA a fi de permetre la identificació de mitjans sintètics i establir la procedència.",
+    related: ["Procedència", "Autenticació de contingut"]
+  },
+  {
+    term: "Model de codi obert amb pesos oberts (open weight)",
+    definition: "Models d'IA els paràmetres entrenats (pesos) dels quals es publiquen de forma oberta, permetent el desplegament i la inspecció local, però que poden no incloure el codi d'entrenament, les dades o la reproducibilitat completa. Diferent de codi obert.",
+    related: ["IA de codi obert", "Transparència"]
+  },
+  {
+    term: "Model fundacional (foundation model)",
+    definition: "Models d'IA a gran escala entrenats amb dades àmplies que es poden adaptar a moltes tasques posteriors, constituint la base per a aplicacions especialitzades.",
+    related: ["IA de propòsit general", "IA frontera"]
+  },
+  {
+    term: "Moderació de contingut",
+    definition: "L'ús de sistemes d'IA per detectar i eliminar contingut perjudicial de les plataformes, plantejant qüestions de llibertat d'expressió i precisió.",
+    related: ["Guardrails", "Seguretat"]
+  },
+  {
+    term: "Monitoratge posterior al desplegament",
+    definition: "Vigilància contínua del comportament i els impactes dels sistemes d'IA després del seu llançament, que permet la detecció de problemes i la millora contínua.",
+    related: ["Registre d'auditoria", "Resposta a incidents"]
+  },
+  {
+    term: "Neurodrets",
+    definition: "Proteccions legals proposades per a la privacitat mental, la llibertat cognitiva i la integritat psicològica de les persones en el context de la neurotecnologia i els sistemes d'IA que interactuen amb dades cerebrals.",
+    related: ["Llibertat cognitiva", "Privacitat", "Drets de dades"]
+  },
+  {
+    term: "Organisme notificat (notified body)",
+    definition: "Una organització designada per un Estat membre de la UE per dur a terme avaluacions de conformitat de tercers per a sistemes d'IA d'alt risc sota el Reglament Europeu d'IA.",
+    related: ["Avaluació de conformitat", "Reglament Europeu d'IA", "Certificació"]
+  },
+  {
+    term: "Participació pública",
+    definition: "Mecanismes que permeten als ciutadans contribuir al desenvolupament de polítiques d'IA i a les decisions de governança, incloent-hi consultes, assemblees ciutadanes i processos deliberatius.",
+    related: ["Governança multiactor", "Alfabetització en IA"]
+  },
+  {
+    term: "Presa de decisions informada",
+    definition: "La capacitat dels usuaris i les parts afectades per comprendre la intervenció dels sistemes d'IA i prendre decisions basades en aquest coneixement.",
+    related: ["Transparència", "Divulgació"]
+  },
+  {
+    term: "Privacitat",
+    definition: "La protecció de la informació personal en els sistemes d'IA, incloent-hi les dades utilitzades per a l'entrenament, les interaccions dels usuaris i les sortides generades.",
+    related: ["Drets de dades", "RGPD"]
+  },
+  {
+    term: "Privacitat diferencial",
+    definition: "Un marc matemàtic per quantificar i limitar la pèrdua de privacitat en calcular estadístiques o entrenar models amb conjunts de dades que contenen informació personal.",
+    related: ["Privacitat", "Dades d'entrenament"]
+  },
+  {
+    term: "Procedència",
+    definition: "La cadena de custòdia documentada del contingut generat per IA, incloent-hi metadades sobre el model generador, la marca temporal i les restriccions de polítiques actives durant la generació.",
+    related: ["Marca d'aigua", "Autenticació de contingut"]
+  },
+  {
+    term: "Propietat intel·lectual",
+    definition: "Proteccions legals per a les innovacions en IA, incloent-hi patents, drets d'autor i secrets comercials relacionats amb models, dades i aplicacions.",
+    related: ["Extracció de models", "IA de codi obert"]
+  },
+  {
+    term: "Proves prèvies al desplegament",
+    definition: "Avaluació i anàlisi de seguretat realitzats abans que els sistemes d'IA siguin llançats als usuaris o estiguin disponibles en entorns de producció.",
+    related: ["Avaluació de seguretat", "Desplegament"]
+  },
+  {
+    term: "RAG (generació augmentada per recuperació)",
+    definition: "Generació Augmentada per Recuperació. Una arquitectura que combina la generació d'IA amb la recuperació de bases de coneixement externes per millorar la precisió.",
+    related: ["Ancoratge", "Base de coneixement"]
+  },
+  {
+    term: "Recorregut d'entrenament (training run)",
+    definition: "El procés complet d'entrenar un model d'IA amb un conjunt de dades, consumint recursos computacionals. Els recorreguts d'entrenament per a models frontera estan cada cop més subjectes a requisits de governança.",
+    related: ["Llindar de còmput", "Governança computacional"]
+  },
+  {
+    term: "Red teaming (equip vermell)",
+    definition: "Proves adversàries sistemàtiques dels sistemes d'IA per descobrir vulnerabilitats, comportaments insegurs o potencial d'ús indegut abans del desplegament.",
+    related: ["Proves adversàries", "Avaluació de seguretat"]
+  },
+  {
+    term: "Reglament Europeu d'IA",
+    definition: "El marc regulatori integral de la Unió Europea per als sistemes d'IA, que estableix requisits basats en el risc per al desenvolupament, desplegament i governança.",
+    related: ["Enfocament basat en riscos", "Compliment"]
+  },
+  {
+    term: "Registre d'auditoria (audit trail)",
+    definition: "Un registre cronològic de les accions, decisions i entrades d'un sistema d'IA que permet la revisió retrospectiva i la rendició de comptes.",
+    related: ["Registre", "Documentació de compliment"]
+  },
+  {
+    term: "Rendició de comptes",
+    definition: "El principi que es pugui identificar i responsabilitzar individus o organitzacions pels resultats i les decisions dels sistemes d'IA.",
+    related: ["Responsabilitat civil", "Governança"]
+  },
+  {
+    term: "Responsabilitat civil",
+    definition: "Responsabilitat legal pels danys causats pels sistemes d'IA, incloent-hi qüestions sobre qui assumeix la responsabilitat quan els sistemes autònoms causen perjudicis.",
+    related: ["Rendició de comptes", "Marc legal"]
+  },
+  {
+    term: "Resposta a incidents",
+    definition: "Procediments i sistemes per detectar, reportar i respondre a fallades, danys o bretxes de seguretat dels sistemes d'IA.",
+    related: ["Monitoratge posterior al desplegament", "Seguretat"]
+  },
+  {
+    term: "Restriccions llegibles per màquina",
+    definition: "Regles de governança expressades en formats de dades estructurats (JSON-LD, YAML, etc.) que els sistemes d'IA poden analitzar, validar i executar sense interpretació humana.",
+    related: ["Esquema de restriccions", "Automatització de polítiques"]
+  },
+  {
+    term: "Retrocés (rollback)",
+    definition: "La capacitat de revertir un sistema d'IA a una versió o estat anterior quan es descobreixen problemes, limitant el dany potencial.",
+    related: ["Resposta a incidents", "Seguretat"]
+  },
+  {
+    term: "Risc catastròfic",
+    definition: "Resultats potencials dels sistemes d'IA que podrien causar dany irreversible i a gran escala a la humanitat o a la infraestructura crítica.",
+    related: ["Risc existencial", "Avaluació de riscos"]
+  },
+  {
+    term: "Risc sistèmic",
+    definition: "Riscos que afecten sistemes o societats senceres en lloc d'usuaris individuals, incloent-hi les dependències de la infraestructura respecte a la IA.",
+    related: ["Risc catastròfic", "Infraestructura crítica"]
+  },
+  {
+    term: "RLHF (aprenentatge per reforç amb retroalimentació humana)",
+    definition: "Aprenentatge per Reforç amb Retroalimentació Humana. Una tècnica d'entrenament en la qual els models d'IA es refinen en funció de les preferències i avaluacions humanes de les seves sortides.",
+    related: ["IA constitucional", "Fine-tuning"]
+  },
+  {
+    term: "Robustesa",
+    definition: "La capacitat dels sistemes d'IA per mantenir un comportament segur i correcte davant entrades inusuals, atacs adversaris o desplaçament de distribució.",
+    related: ["Seguretat", "Fiabilitat"]
+  },
+  {
+    term: "Sandbox regulatori (regulatory sandbox)",
+    definition: "Un entorn controlat establert pels reguladors en el qual les organitzacions poden provar innovacions d'IA sota regles relaxades o adaptades, amb supervisió regulatòria, abans que s'exigeixi el compliment total.",
+    related: ["Sandboxing", "Enfocament basat en riscos"]
+  },
+  {
+    term: "Sandboxing (aïllament en entorn controlat)",
+    definition: "Aïllar els sistemes d'IA en entorns controlats per provar el seu comportament abans del desplegament, limitant el seu accés a recursos externs i efectes en el món real.",
+    related: ["Contenció", "Proves aïllades"]
+  },
+  {
+    term: "Seguretat de la IA",
+    definition: "El camp de recerca centrat a garantir que els sistemes d'IA operin de forma segura, fiable i conforme a les intencions humanes, abastant enfocaments tècnics i de governança.",
+    related: ["Alineació", "Mitigació de riscos"]
+  },
+  {
+    term: "Sistemes autònoms",
+    definition: "Sistemes d'IA capaços d'operar i prendre decisions de forma independent sense supervisió humana contínua ni intervenció.",
+    related: ["Humà al bucle", "Automatització"]
+  },
+  {
+    term: "Sistemes de recomanació",
+    definition: "Sistemes d'IA que suggereixen contingut, productes o accions als usuaris, amb influència significativa sobre el comportament i l'exposició a la informació.",
+    related: ["Moderació de contingut", "Biaix"]
+  },
+  {
+    term: "Sobirania digital",
+    definition: "La capacitat d'un Estat o jurisdicció per exercir autoritat de governança sobre la seva infraestructura digital, fluxos de dades i sistemes d'IA, amb independència d'actors externs.",
+    related: ["Governança de la IA", "Arbitratge regulatori"]
+  },
+  {
+    term: "Llindar de còmput (compute threshold)",
+    definition: "Un límit quantitatiu (mesurat típicament en operacions de punt flotant) utilitzat en la regulació per determinar quins recorreguts d'entrenament d'IA activen obligacions de governança com a informes o proves de seguretat.",
+    related: ["Governança computacional", "Recorregut d'entrenament"]
+  },
+  {
+    term: "Transparència",
+    definition: "La pràctica de fer que els sistemes d'IA, les seves capacitats, limitacions i processos de decisió siguin visibles i comprensibles per a les parts interessades pertinents.",
+    related: ["Explicabilitat", "Divulgació"]
+  },
+  {
+    term: "Ús indegut",
+    definition: "L'ús intencional de sistemes d'IA per a fins perjudicials, incloent-hi aplicacions malicioses que violen normes ètiques o lleis.",
+    related: ["Doble ús", "Seguretat"]
+  }
+].sort((a, b) => a.term.localeCompare(b.term, 'ca'));
+---
+
+<Base 
+  title="Glossari de governança de la IA" 
+  description="Termes i definicions clau per comprendre la governança, la seguretat i els sistemes de restricció reflexiva de la IA."
+  keywords={["glossari IA", "termes governança IA", "definicions seguretat IA", "terminologia aprenentatge automàtic"]}
+>
+  <div class="container" style="padding: var(--space-12) 0;">
+    <header style="margin-bottom: var(--space-12);">
+      <h1 style="font-size: var(--font-3xl); margin-bottom: var(--space-4);">Glossari de governança de la IA</h1>
+      <p style="font-size: var(--font-lg); color: var(--color-text-muted); max-width: 65ch;">
+        Termes i definicions clau per comprendre la governança, la seguretat i els sistemes de restricció reflexiva de la intel·ligència artificial.
+        Aquest glossari ha estat concebut per ser accessible a responsables de polítiques, investigadors i sistemes d'IA per igual.
+      </p>
+      <p style="font-size: var(--font-sm); color: var(--color-text-muted); margin-top: var(--space-2);">
+        Els termes tècnics sense traducció estandarditzada al català es mantenen en anglès amb una glossa en català entre parèntesis.
+      </p>
+    </header>
+    
+    <div class="glossary-grid">
+      {terms.map(({ term, definition, related }) => (
+        <article class="glossary-item" id={term.toLowerCase().replace(/\s+/g, '-').replace(/[()·]/g, '')}>
+          <h2 class="glossary-term">{term}</h2>
+          <p class="glossary-definition">{definition}</p>
+          {related.length > 0 && (
+            <div class="glossary-related">
+              <span>Relacionats:</span>
+              {related.map((r, i) => (
+                <span>{r}{i < related.length - 1 ? ', ' : ''}</span>
+              ))}
+            </div>
+          )}
+        </article>
+      ))}
+    </div>
+  </div>
+  
+  <style>
+    .glossary-grid {
+      display: grid;
+      gap: var(--space-6);
+    }
+    
+    .glossary-item {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: var(--space-6);
+    }
+    
+    .glossary-term {
+      font-size: var(--font-lg);
+      font-weight: 600;
+      margin-bottom: var(--space-2);
+      color: var(--color-primary);
+    }
+    
+    .glossary-definition {
+      font-size: var(--font-base);
+      line-height: 1.7;
+      color: var(--color-text);
+      margin-bottom: var(--space-3);
+    }
+    
+    .glossary-related {
+      font-size: var(--font-sm);
+      color: var(--color-text-muted);
+    }
+    
+    .glossary-related span:first-child {
+      font-weight: 500;
+      margin-right: var(--space-1);
+    }
+    
+    @media (min-width: 768px) {
+      .glossary-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</Base>

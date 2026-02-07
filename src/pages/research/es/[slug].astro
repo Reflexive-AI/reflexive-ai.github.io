@@ -5,9 +5,9 @@ import { getCollection, type CollectionEntry } from 'astro:content';
 export async function getStaticPaths() {
   const articles = await getCollection('research');
   return articles
-    .filter(article => !article.slug.startsWith('es/') && !article.slug.startsWith('ca/'))
+    .filter(article => article.slug.startsWith('es/'))
     .map(article => ({
-      params: { slug: article.slug },
+      params: { slug: article.slug.slice(3) },
       props: { article },
     }));
 }

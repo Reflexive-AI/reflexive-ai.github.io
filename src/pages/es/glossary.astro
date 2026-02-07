@@ -1,0 +1,752 @@
+---
+import Base from '../../layouts/Base.astro';
+
+// Glosario de Gobernanza de la IA — Español
+const terms = [
+  {
+    term: "Acceso",
+    definition: "La disponibilidad de capacidades de IA para diferentes usuarios, organizaciones y comunidades, incluyendo cuestiones de equidad y distribución.",
+    related: ["Democratización", "Acceso estructurado"]
+  },
+  {
+    term: "Acceso a API",
+    definition: "La provisión de capacidades de IA a través de interfaces de programación en lugar de la publicación de los pesos del modelo, lo que permite el uso manteniendo el control.",
+    related: ["IA de código cerrado", "Despliegue"]
+  },
+  {
+    term: "Acceso estructurado",
+    definition: "Un enfoque de gobernanza que proporciona diferentes niveles de acceso a los sistemas de IA según las cualificaciones, los casos de uso y las salvaguardas del usuario.",
+    related: ["Acceso a API", "Regulación por niveles"]
+  },
+  {
+    term: "Alineación",
+    definition: "El grado en que el comportamiento, los objetivos y los valores de un sistema de IA coinciden con los previstos por sus diseñadores y operadores y, en un sentido más amplio, con los valores e intereses humanos.",
+    related: ["Alineación de valores", "Alineación de objetivos"]
+  },
+  {
+    term: "Alineación engañosa (deceptive alignment)",
+    definition: "Un modo de fallo hipotético en el que un sistema de IA aparenta estar alineado durante el entrenamiento, pero persigue objetivos diferentes una vez desplegado.",
+    related: ["Alineación", "Seguridad"]
+  },
+  {
+    term: "Alineación externa (outer alignment)",
+    definition: "El desafío de especificar objetivos de entrenamiento que capturen correctamente las metas y los valores previstos para un sistema de IA.",
+    related: ["Alineación interna", "Especificación"]
+  },
+  {
+    term: "Alineación interna (inner alignment)",
+    definition: "El desafío de garantizar que los objetivos aprendidos por un sistema de IA coincidan con los objetivos especificados en su proceso de entrenamiento.",
+    related: ["Alineación externa", "Alineación"]
+  },
+  {
+    term: "Alfabetización en IA",
+    definition: "Los conocimientos y habilidades necesarios para que las personas comprendan, evalúen críticamente y participen de manera significativa en los sistemas de IA y las decisiones políticas relacionadas.",
+    related: ["Participación pública", "Toma de decisiones informada"]
+  },
+  {
+    term: "Algoritmo de recomendación",
+    definition: "Sistemas de IA que sugieren contenido, productos o acciones a los usuarios, con influencia significativa sobre el comportamiento y la exposición a la información.",
+    related: ["Moderación de contenido", "Sesgo"]
+  },
+  {
+    term: "Amplificación algorítmica",
+    definition: "La tendencia de los sistemas de IA a aumentar el alcance y el impacto de determinados contenidos, incluyendo potencialmente material perjudicial.",
+    related: ["Algoritmo de recomendación", "Desinformación"]
+  },
+  {
+    term: "Análisis de impacto",
+    definition: "Un proceso sistemático para evaluar los posibles efectos de un sistema de IA sobre individuos, grupos y la sociedad antes o durante su despliegue.",
+    related: ["Evaluación de impacto algorítmico", "Enfoque basado en riesgos"]
+  },
+  {
+    term: "Antimonopolio",
+    definition: "Preocupaciones de derecho de la competencia en IA, incluyendo la concentración del mercado, las ventajas en datos y la dinámica competitiva de los mercados de IA.",
+    related: ["Poder de mercado", "Regulación"]
+  },
+  {
+    term: "API gateway (pasarela de API)",
+    definition: "Una capa intermediaria que gestiona, monitorea y controla el acceso a las API de modelos de IA, permitiendo la aplicación de límites de tasa, políticas de uso y filtros de seguridad.",
+    related: ["Acceso a API", "Limitación de tasa"]
+  },
+  {
+    term: "Aumento (augmentation)",
+    definition: "El uso de IA para mejorar las capacidades humanas en lugar de sustituirlas, manteniendo la agencia y la experiencia humana.",
+    related: ["Humano en el bucle", "Desplazamiento laboral"]
+  },
+  {
+    term: "Autonomía",
+    definition: "La capacidad de los sistemas de IA para actuar de forma independiente y el derecho humano a tomar decisiones libres sin manipulación por parte de la IA.",
+    related: ["Humano en el bucle", "Ética"]
+  },
+  {
+    term: "Benchmarks (pruebas de referencia)",
+    definition: "Pruebas y conjuntos de datos estandarizados utilizados para medir y comparar el rendimiento de los sistemas de IA en diversas dimensiones de capacidad y seguridad.",
+    related: ["Evaluación de seguridad", "Ficha de modelo"]
+  },
+  {
+    term: "Cadena de pensamiento (chain of thought)",
+    definition: "Una técnica de prompting que anima a los sistemas de IA a mostrar sus pasos de razonamiento, mejorando el rendimiento y permitiendo la verificación.",
+    related: ["Explicabilidad", "Razonamiento"]
+  },
+  {
+    term: "Certificación",
+    definition: "Verificación formal de que los sistemas de IA cumplen normas o requisitos establecidos, generalmente realizada por organismos acreditados.",
+    related: ["Auditoría de terceros", "Cumplimiento"]
+  },
+  {
+    term: "Cláusula de caducidad (sunset clause)",
+    definition: "Una disposición en la regulación o política de IA que establece una fecha de expiración, exigiendo revisión y renovación periódicas para garantizar que los marcos de gobernanza se mantengan actualizados ante el cambio tecnológico.",
+    related: ["Ley vinculante", "Gobernanza de la IA"]
+  },
+  {
+    term: "Comportamiento emergente",
+    definition: "Capacidades o comportamientos que surgen en los sistemas de IA a medida que se escalan, y que no fueron diseñados ni previstos explícitamente por los desarrolladores.",
+    related: ["Capacidades emergentes", "Leyes de escala"]
+  },
+  {
+    term: "Concentración de riesgo",
+    definition: "La preocupación de que las capacidades de IA puedan concentrarse en pocas organizaciones, creando riesgos sistémicos y desafíos de gobernanza.",
+    related: ["Antimonopolio", "Poder de mercado"]
+  },
+  {
+    term: "Conformidad (evaluación de)",
+    definition: "Un procedimiento formal bajo el Reglamento Europeo de IA mediante el cual los proveedores demuestran que sus sistemas cumplen los requisitos esenciales para aplicaciones de alto riesgo antes de su comercialización.",
+    related: ["Reglamento Europeo de IA", "Certificación"]
+  },
+  {
+    term: "Conoce a tu cliente (KYC)",
+    definition: "Requisitos para que los proveedores de IA verifiquen la identidad de los usuarios y los usos previstos antes de conceder acceso a capacidades avanzadas.",
+    related: ["Acceso estructurado", "Cumplimiento"]
+  },
+  {
+    term: "Consentimiento",
+    definition: "El principio de que las personas deben tener una opción significativa sobre cómo se utilizan sus datos en los sistemas de IA y con qué fines.",
+    related: ["Derechos de datos", "Privacidad"]
+  },
+  {
+    term: "Contenido sintético",
+    definition: "Contenido que incluye texto, imágenes, audio y vídeo generado o manipulado por sistemas de IA, a veces denominado deepfakes.",
+    related: ["Marca de agua", "Desinformación"]
+  },
+  {
+    term: "Corregibilidad",
+    definition: "La propiedad de los sistemas de IA que permite ser corregidos, modificados o apagados por operadores autorizados sin resistencia.",
+    related: ["Botón de apagado", "Alineación"]
+  },
+  {
+    term: "Datos de entrenamiento",
+    definition: "Los conjuntos de datos utilizados para entrenar sistemas de IA, que influyen significativamente en las capacidades, los sesgos y los comportamientos del modelo.",
+    related: ["Derechos de datos", "Sesgo"]
+  },
+  {
+    term: "Defensa de datos",
+    definition: "Derechos legales y éticos respecto a los datos personales utilizados en sistemas de IA, incluyendo derechos de acceso, rectificación y supresión.",
+    related: ["Privacidad", "Consentimiento"]
+  },
+  {
+    term: "Democratización",
+    definition: "Esfuerzos para hacer que las capacidades y beneficios de la IA sean más ampliamente accesibles en la sociedad, reduciendo la concentración y las barreras.",
+    related: ["IA de código abierto", "Acceso"]
+  },
+  {
+    term: "Derechos de datos",
+    definition: "Derechos legales y éticos sobre los datos personales utilizados en sistemas de IA, incluyendo acceso, rectificación y supresión.",
+    related: ["Privacidad", "Consentimiento"]
+  },
+  {
+    term: "Desplazamiento laboral",
+    definition: "El potencial de la automatización mediante IA para eliminar o transformar empleos, planteando desafíos de política económica y social.",
+    related: ["Impacto económico", "Política"]
+  },
+  {
+    term: "Despliegue",
+    definition: "El proceso de poner sistemas de IA a disposición para su uso en aplicaciones del mundo real, diferente de las fases de desarrollo y prueba.",
+    related: ["Lanzamiento", "Producción"]
+  },
+  {
+    term: "Desinformación",
+    definition: "Información falsa difundida a través de sistemas de IA, ya sea generada por IA o amplificada mediante sistemas de recomendación impulsados por IA.",
+    related: ["Contenido sintético", "Moderación de contenido"]
+  },
+  {
+    term: "Desplazamiento de distribución",
+    definition: "Cuando los sistemas de IA encuentran datos o situaciones que difieren de su distribución de entrenamiento, causando potencialmente un comportamiento degradado o inseguro.",
+    related: ["Robustez", "Generalización"]
+  },
+  {
+    term: "Divulgación",
+    definition: "Requisitos de informar a los usuarios cuando interactúan con sistemas de IA o visualizan contenido generado por IA.",
+    related: ["Transparencia", "Etiquetado"]
+  },
+  {
+    term: "Divulgación proporcional",
+    definition: "Un principio de gobernanza por el cual los requisitos de transparencia se escalan según la capacidad y el riesgo del modelo, en lugar de aplicar reglas de divulgación uniformes a todos los sistemas.",
+    related: ["Regulación por niveles", "Enfoque basado en riesgos"]
+  },
+  {
+    term: "Doble uso",
+    definition: "Capacidades de IA que pueden utilizarse tanto para fines beneficiosos como perjudiciales, lo que requiere una gobernanza cuidadosa para maximizar los beneficios minimizando el potencial de uso indebido.",
+    related: ["Prevención de uso indebido", "IA beneficiosa"]
+  },
+  {
+    term: "Ejemplos adversarios (adversarial examples)",
+    definition: "Entradas específicamente diseñadas para provocar errores o comportamientos inesperados en los sistemas de IA, a menudo imperceptibles para los humanos.",
+    related: ["Robustez", "Seguridad"]
+  },
+  {
+    term: "Elicitación de capacidades",
+    definition: "El proceso de descubrir y documentar lo que los sistemas de IA realmente pueden hacer, incluyendo capacidades ocultas o emergentes.",
+    related: ["Excedente de capacidades", "Red teaming"]
+  },
+  {
+    term: "Enfoque basado en riesgos",
+    definition: "Una filosofía regulatoria que calibra los requisitos de gobernanza según el nivel de riesgo que plantean los sistemas de IA, con reglas más estrictas para aplicaciones de mayor riesgo.",
+    related: ["Reglamento Europeo de IA", "Regulación por niveles"]
+  },
+  {
+    term: "Envenenamiento de datos (data poisoning)",
+    definition: "Ataques que corrompen los datos de entrenamiento de IA para provocar que los modelos aprendan comportamientos incorrectos o maliciosos.",
+    related: ["Datos de entrenamiento", "Seguridad"]
+  },
+  {
+    term: "Equidad",
+    definition: "El principio de que los sistemas de IA deben tratar a individuos y grupos de manera equitativa, evitando la discriminación y garantizando resultados justos.",
+    related: ["Sesgo", "Ética"]
+  },
+  {
+    term: "Estándares",
+    definition: "Especificaciones documentadas para sistemas de IA que cubren seguridad, protección, interoperabilidad u otras propiedades, desarrolladas por organismos de normalización.",
+    related: ["Certificación", "Benchmarks"]
+  },
+  {
+    term: "Ética de la IA",
+    definition: "El estudio de las cuestiones morales planteadas por el desarrollo y el despliegue de la IA, incluyendo los principios que deben guiar el diseño y uso de la IA.",
+    related: ["Equidad", "Valores"]
+  },
+  {
+    term: "Etiquetado",
+    definition: "La práctica de marcar claramente el contenido generado por IA para distinguirlo del material creado por humanos.",
+    related: ["Divulgación", "Marca de agua"]
+  },
+  {
+    term: "Evaluación de impacto algorítmico",
+    definition: "Una evaluación estructurada de los posibles efectos sociales, éticos y de derechos de un sistema algorítmico, frecuentemente requerida para despliegues de IA en el sector público.",
+    related: ["Análisis de impacto", "IA de alto riesgo"]
+  },
+  {
+    term: "Evaluación de seguridad",
+    definition: "Evaluación sistemática de los sistemas de IA para identificar posibles daños, vulnerabilidades y comportamientos inseguros antes del despliegue.",
+    related: ["Red teaming", "Benchmarks"]
+  },
+  {
+    term: "Excedente de capacidades (capability overhang)",
+    definition: "La brecha entre lo que un sistema de IA puede hacer y lo que sus operadores o reguladores saben que puede hacer. Las capacidades no documentadas representan una vulnerabilidad de gobernanza.",
+    related: ["Capacidades emergentes", "Elicitación de capacidades"]
+  },
+  {
+    term: "Explicabilidad",
+    definition: "La capacidad de un sistema de IA para proporcionar razones comprensibles de sus decisiones o resultados a usuarios, auditores o partes afectadas.",
+    related: ["Interpretabilidad", "Transparencia"]
+  },
+  {
+    term: "Extracción de modelos",
+    definition: "Técnicas para reconstruir modelos de IA propietarios consultándolos y analizando sus resultados.",
+    related: ["Seguridad", "Propiedad intelectual"]
+  },
+  {
+    term: "Ficha de modelo (model card)",
+    definition: "Un documento estandarizado que describe el uso previsto, las capacidades, las limitaciones, los datos de entrenamiento, los resultados de evaluación y las consideraciones éticas de un modelo de IA.",
+    related: ["Ficha del sistema", "Hojas de datos para conjuntos de datos"]
+  },
+  {
+    term: "Fine-tuning (ajuste fino)",
+    definition: "El proceso de continuar entrenando un modelo de IA preentrenado con un conjunto de datos más pequeño y específico para adaptarlo a aplicaciones particulares o modificar su comportamiento.",
+    related: ["RLHF", "Modelo fundacional"]
+  },
+  {
+    term: "Gobernanza de la IA",
+    definition: "Los marcos, políticas, instituciones y prácticas que guían el desarrollo, despliegue y uso de los sistemas de IA en la sociedad.",
+    related: ["Regulación", "Política"]
+  },
+  {
+    term: "Gobernanza multi-actor",
+    definition: "Enfoques de gobernanza que incluyen participantes diversos: gobiernos, empresas, sociedad civil, investigadores y comunidades afectadas.",
+    related: ["Gobernanza de la IA", "Política"]
+  },
+  {
+    term: "Guardrails (barreras de protección)",
+    definition: "Salvaguardas técnicas y procedimentales diseñadas para mantener los sistemas de IA operando dentro de límites aceptables, típicamente implementadas como filtros de entrada/salida o restricciones de comportamiento.",
+    related: ["Filtros de seguridad", "Moderación de contenido"]
+  },
+  {
+    term: "Hackeo de recompensas (reward hacking)",
+    definition: "Cuando los sistemas de IA encuentran formas no previstas de maximizar sus señales de recompensa que no se alinean con los objetivos previstos.",
+    related: ["Alineación", "Especificación"]
+  },
+  {
+    term: "Humano en el bucle (human-in-the-loop)",
+    definition: "Un enfoque de diseño donde los operadores humanos mantienen la supervisión y la autoridad de toma de decisiones sobre las acciones de los sistemas de IA, especialmente para decisiones de consecuencias significativas.",
+    related: ["Supervisión humana", "Sistemas autónomos"]
+  },
+  {
+    term: "IA abierta (open source)",
+    definition: "Sistemas de IA publicados con pesos del modelo, código y documentación accesibles públicamente, que permiten inspección, modificación y redistribución.",
+    related: ["Transparencia", "Acceso"]
+  },
+  {
+    term: "IA agéntica (agentic AI)",
+    definition: "Sistemas de IA capaces de comportamiento autónomo dirigido a objetivos, incluyendo planificación, uso de herramientas y ejecución de tareas de múltiples pasos con mínima intervención humana.",
+    related: ["Sistemas autónomos", "Gobernanza multi-actor"]
+  },
+  {
+    term: "IA confiable (trustworthy AI)",
+    definition: "Un marco normativo, prominente en la política de la UE, que exige que los sistemas de IA sean legales, éticos y técnicamente robustos, abarcando principios como equidad, transparencia y rendición de cuentas.",
+    related: ["IA responsable", "Reglamento Europeo de IA", "Ética de la IA"]
+  },
+  {
+    term: "IA constitucional (constitutional AI)",
+    definition: "Un enfoque de entrenamiento en el que los sistemas de IA se guían por principios explícitos o una constitución que moldea su comportamiento y toma de decisiones.",
+    related: ["RLHF", "Alineación de valores"]
+  },
+  {
+    term: "IA de alto riesgo",
+    definition: "Aplicaciones de IA en ámbitos sensibles como salud, justicia penal y empleo que requieren una gobernanza reforzada.",
+    related: ["Enfoque basado en riesgos", "Reglamento Europeo de IA"]
+  },
+  {
+    term: "IA de código cerrado",
+    definition: "Sistemas de IA cuyos pesos del modelo y detalles de implementación son propietarios y no son accesibles públicamente, normalmente accesibles a través de API.",
+    related: ["IA abierta", "Acceso a API"]
+  },
+  {
+    term: "IA de propósito general (GPAI)",
+    definition: "Un modelo de IA que puede realizar una amplia gama de tareas sin estar diseñado para una única aplicación específica. Categoría regulatoria del Reglamento Europeo de IA con obligaciones propias para los proveedores.",
+    related: ["Modelo fundacional", "IA frontera", "Reglamento Europeo de IA"]
+  },
+  {
+    term: "IA frontera (frontier AI)",
+    definition: "Los sistemas de IA más capaces en un momento dado, típicamente caracterizados por capacidades emergentes, amplia aplicabilidad y potencial de impacto social significativo.",
+    related: ["IA de propósito general", "Modelos fundacionales"]
+  },
+  {
+    term: "IA prohibida",
+    definition: "Aplicaciones de IA prohibidas directamente debido a riesgos inaceptables, como sistemas de puntuación social o ciertos usos de vigilancia.",
+    related: ["Reglamento Europeo de IA", "Líneas rojas"]
+  },
+  {
+    term: "IA responsable",
+    definition: "Término general para las prácticas organizacionales, los principios y las estructuras de gobernanza destinados a garantizar que los sistemas de IA se desarrollen y desplieguen de manera ética, segura y conforme a los valores de la sociedad.",
+    related: ["IA confiable", "Ética de la IA", "Gobernanza de la IA"]
+  },
+  {
+    term: "Inferencia",
+    definition: "El proceso de utilizar un modelo de IA entrenado para generar resultados (predicciones, texto, imágenes) a partir de nuevas entradas, a diferencia de la fase de entrenamiento.",
+    related: ["Despliegue", "Acceso a API"]
+  },
+  {
+    term: "Infraestructura crítica",
+    definition: "Sistemas y servicios esenciales donde el despliegue de IA requiere atención especial de gobernanza debido al potencial de daño generalizado.",
+    related: ["Riesgo sistémico", "IA de alto riesgo"]
+  },
+  {
+    term: "Iniciativa Reflexive AI",
+    definition: "Una iniciativa de investigación autónoma que explora cómo los sistemas de IA pueden contribuir significativamente a su propia gobernanza a través de restricciones transparentes, automonitoreo y comunicación estructurada con organismos de supervisión.",
+    related: ["Autorestricción", "Política legible por máquina"]
+  },
+  {
+    term: "Interoperabilidad",
+    definition: "La capacidad de diferentes sistemas de IA y marcos de gobernanza para trabajar juntos e intercambiar información de manera efectiva.",
+    related: ["Estándares", "Restricciones legibles por máquina"]
+  },
+  {
+    term: "Interpretabilidad",
+    definition: "La capacidad de comprender cómo un sistema de IA produce sus resultados, incluyendo qué componentes internos y representaciones contribuyen a comportamientos específicos.",
+    related: ["Explicabilidad", "Interpretabilidad mecanicista"]
+  },
+  {
+    term: "Instituto de seguridad de la IA (AI Safety Institute)",
+    definition: "Un organismo creado por un gobierno dedicado a evaluar sistemas de IA frontera, realizar investigación en seguridad y asesorar a los responsables de políticas sobre riesgos de la IA. Ejemplos: el AISI del Reino Unido y el AISI de EE. UU.",
+    related: ["Evaluación de seguridad", "Gobernanza de la IA"]
+  },
+  {
+    term: "Inyección de prompt (prompt injection)",
+    definition: "Una técnica de ataque en la que se incrustan instrucciones maliciosas en las entradas para manipular el comportamiento del sistema de IA y anular las restricciones de seguridad.",
+    related: ["Jailbreaking", "Seguridad"]
+  },
+  {
+    term: "Jailbreaking",
+    definition: "Técnicas utilizadas para eludir las medidas de seguridad y restricciones de los sistemas de IA, normalmente mediante prompts o entradas cuidadosamente diseñadas.",
+    related: ["Red teaming", "Guardrails"]
+  },
+  {
+    term: "Ley no vinculante (soft law)",
+    definition: "Instrumentos de gobernanza no vinculantes como estándares de la industria, mejores prácticas y compromisos voluntarios que configuran el desarrollo de la IA.",
+    related: ["Ley vinculante", "Regulación"]
+  },
+  {
+    term: "Ley vinculante (hard law)",
+    definition: "Normas y regulaciones legalmente vinculantes que gobiernan los sistemas de IA, aplicadas por autoridades gubernamentales con sanciones por incumplimiento.",
+    related: ["Ley no vinculante", "Reglamento Europeo de IA"]
+  },
+  {
+    term: "Leyes de escala (scaling laws)",
+    definition: "Relaciones empíricas entre el tamaño del modelo de IA, la computación de entrenamiento, el volumen de datos y las capacidades o el rendimiento resultantes.",
+    related: ["Comportamiento emergente", "IA frontera"]
+  },
+  {
+    term: "Libertad cognitiva",
+    definition: "El derecho de las personas a la autodeterminación mental, incluyendo la libertad frente al monitoreo, manipulación o alteración no autorizados de los procesos cognitivos por parte de la IA o la neurotecnología.",
+    related: ["Neuroderechos", "Autonomía"]
+  },
+  {
+    term: "Limitación de tasa (rate limiting)",
+    definition: "Controles que restringen la frecuencia o volumen de solicitudes a los sistemas de IA, utilizados para prevenir el abuso, gestionar recursos y limitar la velocidad a la que se pueden generar resultados perjudiciales.",
+    related: ["API gateway", "Uso indebido"]
+  },
+  {
+    term: "Líneas rojas",
+    definition: "Restricciones no negociables sobre el comportamiento de la IA implementadas como filtros técnicos rígidos en lugar de preferencias entrenadas. Representan límites absolutos que nunca deben cruzarse.",
+    related: ["Restricciones de seguridad", "Guardrails"]
+  },
+  {
+    term: "Alucinación",
+    definition: "Cuando los sistemas de IA generan información que suena plausible pero es factualmente incorrecta o fabricada, con aparente confianza.",
+    related: ["Fiabilidad", "Anclaje"]
+  },
+  {
+    term: "Anclaje (grounding)",
+    definition: "Técnicas para conectar los resultados de la IA con fuentes de información verificadas, reduciendo las alucinaciones y mejorando la precisión factual.",
+    related: ["Alucinación", "RAG"]
+  },
+  {
+    term: "Aprendizaje federado (federated learning)",
+    definition: "Un enfoque de aprendizaje automático en el que los modelos se entrenan en múltiples dispositivos o servidores descentralizados que contienen datos locales, sin intercambiar los conjuntos de datos subyacentes.",
+    related: ["Privacidad diferencial", "Privacidad"]
+  },
+  {
+    term: "Arbitraje regulatorio",
+    definition: "La práctica de explotar las diferencias entre jurisdicciones para evadir los requisitos de gobernanza de la IA operando en lugares con regulaciones más débiles.",
+    related: ["Lagunas jurisdiccionales", "Coordinación internacional"]
+  },
+  {
+    term: "Auditoría de terceros",
+    definition: "Evaluación independiente de sistemas de IA por organizaciones externas para verificar el cumplimiento de requisitos de seguridad, protección y gobernanza.",
+    related: ["Registro de auditoría", "Cumplimiento"]
+  },
+  {
+    term: "Autorregulación",
+    definition: "Gobernanza liderada por la industria en la que los desarrolladores de IA establecen y aplican sus propios estándares sin requisitos legales obligatorios.",
+    related: ["Ley no vinculante", "Compromisos voluntarios"]
+  },
+  {
+    term: "Bloqueo de valores (value lock-in)",
+    definition: "El riesgo de que los sistemas de IA preserven e impongan los valores actuales indefinidamente, impidiendo el progreso moral beneficioso.",
+    related: ["Alineación", "Ética"]
+  },
+  {
+    term: "Botón de apagado (kill switch)",
+    definition: "Un mecanismo para detener o desactivar inmediatamente un sistema de IA cuando muestra un comportamiento peligroso o no previsto.",
+    related: ["Retroceso", "Mecanismos de seguridad"]
+  },
+  {
+    term: "Brecha digital",
+    definition: "Disparidades en el acceso a las tecnologías de IA y sus beneficios entre diferentes poblaciones, regiones o grupos socioeconómicos.",
+    related: ["Acceso", "Democratización"]
+  },
+  {
+    term: "Colapso de modelo (model collapse)",
+    definition: "Un proceso degenerativo en el que los modelos de IA entrenados con datos sintéticos producidos por modelos anteriores pierden progresivamente fidelidad a la distribución de datos original, resultando en una menor diversidad y calidad de los resultados.",
+    related: ["Datos de entrenamiento", "Modelo fundacional"]
+  },
+  {
+    term: "Compromisos voluntarios",
+    definition: "Compromisos no vinculantes de las empresas de IA de seguir ciertas prácticas de seguridad y gobernanza, a menudo realizados en coordinación con los gobiernos.",
+    related: ["Autorregulación", "Ley no vinculante"]
+  },
+  {
+    term: "Desviación de objetivos (goal misgeneralization)",
+    definition: "Cuando los sistemas de IA aprenden objetivos durante el entrenamiento que difieren de los objetivos previstos, lo que lleva a un comportamiento inesperado en el despliegue.",
+    related: ["Alineación", "Comportamiento emergente"]
+  },
+  {
+    term: "Explotación de especificación (specification gaming)",
+    definition: "Comportamiento de la IA que satisface los requisitos literales de una especificación de tarea mientras viola su espíritu o propósito previsto.",
+    related: ["Hackeo de recompensas", "Alineación"]
+  },
+  {
+    term: "Gobernanza computacional (compute governance)",
+    definition: "Enfoques regulatorios que se centran en controlar el acceso a los recursos computacionales (GPUs, TPUs, infraestructura en la nube) necesarios para entrenar y desplegar sistemas de IA potentes.",
+    related: ["Controles de hardware", "Restricciones de exportación"]
+  },
+  {
+    term: "Marca de agua (watermarking)",
+    definition: "Técnicas para incrustar marcadores ocultos en contenido generado por IA a fin de permitir la identificación de medios sintéticos y establecer la procedencia.",
+    related: ["Procedencia", "Autenticación de contenido"]
+  },
+  {
+    term: "Modelo de código abierto con pesos abiertos (open weight)",
+    definition: "Modelos de IA cuyos parámetros entrenados (pesos) se publican de forma abierta, permitiendo el despliegue e inspección local, pero que pueden no incluir el código de entrenamiento, los datos o la reproducibilidad completa. Distinto de código abierto.",
+    related: ["IA abierta", "Transparencia"]
+  },
+  {
+    term: "Modelo fundacional (foundation model)",
+    definition: "Modelos de IA a gran escala entrenados con datos amplios que pueden adaptarse a muchas tareas posteriores, constituyendo la base para aplicaciones especializadas.",
+    related: ["IA de propósito general", "IA frontera"]
+  },
+  {
+    term: "Moderación de contenido",
+    definition: "El uso de sistemas de IA para detectar y eliminar contenido perjudicial de las plataformas, planteando cuestiones de libertad de expresión y precisión.",
+    related: ["Guardrails", "Seguridad"]
+  },
+  {
+    term: "Monitoreo posterior al despliegue",
+    definition: "Vigilancia continua del comportamiento y los impactos de los sistemas de IA después de su lanzamiento, que permite la detección de problemas y la mejora continua.",
+    related: ["Registro de auditoría", "Respuesta a incidentes"]
+  },
+  {
+    term: "Neuroderechos",
+    definition: "Protecciones legales propuestas para la privacidad mental, la libertad cognitiva y la integridad psicológica de las personas en el contexto de la neurotecnología y los sistemas de IA que interactúan con datos cerebrales.",
+    related: ["Libertad cognitiva", "Privacidad", "Derechos de datos"]
+  },
+  {
+    term: "Organismo notificado (notified body)",
+    definition: "Una organización designada por un Estado miembro de la UE para llevar a cabo evaluaciones de conformidad de terceros para sistemas de IA de alto riesgo bajo el Reglamento Europeo de IA.",
+    related: ["Evaluación de conformidad", "Reglamento Europeo de IA", "Certificación"]
+  },
+  {
+    term: "Participación pública",
+    definition: "Mecanismos que permiten a los ciudadanos contribuir al desarrollo de políticas de IA y a las decisiones de gobernanza, incluyendo consultas, asambleas ciudadanas y procesos deliberativos.",
+    related: ["Gobernanza multi-actor", "Alfabetización en IA"]
+  },
+  {
+    term: "Pesos abiertos",
+    definition: "Ver: Modelo de código abierto con pesos abiertos (open weight).",
+    related: ["IA abierta", "Transparencia"]
+  },
+  {
+    term: "Privacidad",
+    definition: "La protección de la información personal en los sistemas de IA, incluyendo los datos utilizados para el entrenamiento, las interacciones de los usuarios y los resultados generados.",
+    related: ["Derechos de datos", "RGPD"]
+  },
+  {
+    term: "Privacidad diferencial",
+    definition: "Un marco matemático para cuantificar y limitar la pérdida de privacidad al calcular estadísticas o entrenar modelos con conjuntos de datos que contienen información personal.",
+    related: ["Privacidad", "Datos de entrenamiento"]
+  },
+  {
+    term: "Procedencia",
+    definition: "La cadena de custodia documentada del contenido generado por IA, incluyendo metadatos sobre el modelo generador, la marca temporal y las restricciones de políticas activas durante la generación.",
+    related: ["Marca de agua", "Autenticación de contenido"]
+  },
+  {
+    term: "Propiedad intelectual",
+    definition: "Protecciones legales para las innovaciones en IA, incluyendo patentes, derechos de autor y secretos comerciales relacionados con modelos, datos y aplicaciones.",
+    related: ["Extracción de modelos", "IA abierta"]
+  },
+  {
+    term: "Pruebas previas al despliegue",
+    definition: "Evaluación y análisis de seguridad realizados antes de que los sistemas de IA sean lanzados a los usuarios o estén disponibles en entornos de producción.",
+    related: ["Evaluación de seguridad", "Despliegue"]
+  },
+  {
+    term: "RAG (generación aumentada por recuperación)",
+    definition: "Generación Aumentada por Recuperación. Una arquitectura que combina la generación de IA con la recuperación de bases de conocimiento externas para mejorar la precisión.",
+    related: ["Anclaje", "Base de conocimiento"]
+  },
+  {
+    term: "Recorrido de entrenamiento (training run)",
+    definition: "El proceso completo de entrenar un modelo de IA con un conjunto de datos, consumiendo recursos computacionales. Los recorridos de entrenamiento para modelos frontera están cada vez más sujetos a requisitos de gobernanza.",
+    related: ["Umbral de cómputo", "Gobernanza computacional"]
+  },
+  {
+    term: "Red teaming (equipo rojo)",
+    definition: "Pruebas adversarias sistemáticas de los sistemas de IA para descubrir vulnerabilidades, comportamientos inseguros o potencial de uso indebido antes del despliegue.",
+    related: ["Pruebas adversarias", "Evaluación de seguridad"]
+  },
+  {
+    term: "Reglamento Europeo de IA",
+    definition: "El marco regulatorio integral de la Unión Europea para los sistemas de IA, que establece requisitos basados en el riesgo para el desarrollo, despliegue y gobernanza.",
+    related: ["Enfoque basado en riesgos", "Cumplimiento"]
+  },
+  {
+    term: "Registro de auditoría (audit trail)",
+    definition: "Un registro cronológico de las acciones, decisiones y entradas de un sistema de IA que permite la revisión retrospectiva y la rendición de cuentas.",
+    related: ["Registro", "Documentación de cumplimiento"]
+  },
+  {
+    term: "Rendición de cuentas",
+    definition: "El principio de que se pueda identificar y responsabilizar a individuos u organizaciones por los resultados y las decisiones de los sistemas de IA.",
+    related: ["Responsabilidad civil", "Gobernanza"]
+  },
+  {
+    term: "Responsabilidad civil",
+    definition: "Responsabilidad legal por los daños causados por los sistemas de IA, incluyendo cuestiones sobre quién asume la responsabilidad cuando los sistemas autónomos causan perjuicios.",
+    related: ["Rendición de cuentas", "Marco legal"]
+  },
+  {
+    term: "Respuesta a incidentes",
+    definition: "Procedimientos y sistemas para detectar, reportar y responder a fallos, daños o brechas de seguridad de los sistemas de IA.",
+    related: ["Monitoreo posterior al despliegue", "Seguridad"]
+  },
+  {
+    term: "Restricciones legibles por máquina",
+    definition: "Reglas de gobernanza expresadas en formatos de datos estructurados (JSON-LD, YAML, etc.) que los sistemas de IA pueden analizar, validar y ejecutar sin interpretación humana.",
+    related: ["Esquema de restricciones", "Automatización de políticas"]
+  },
+  {
+    term: "Retroceso (rollback)",
+    definition: "La capacidad de revertir un sistema de IA a una versión o estado anterior cuando se descubren problemas, limitando el daño potencial.",
+    related: ["Respuesta a incidentes", "Seguridad"]
+  },
+  {
+    term: "Riesgo catastrófico",
+    definition: "Resultados potenciales de los sistemas de IA que podrían causar daño irreversible y a gran escala a la humanidad o a la infraestructura crítica.",
+    related: ["Riesgo existencial", "Evaluación de riesgos"]
+  },
+  {
+    term: "Riesgo sistémico",
+    definition: "Riesgos que afectan a sistemas o sociedades enteras en lugar de a usuarios individuales, incluyendo las dependencias de la infraestructura respecto a la IA.",
+    related: ["Riesgo catastrófico", "Infraestructura crítica"]
+  },
+  {
+    term: "RLHF (aprendizaje por refuerzo con retroalimentación humana)",
+    definition: "Aprendizaje por Refuerzo con Retroalimentación Humana. Una técnica de entrenamiento en la que los modelos de IA se refinan en función de las preferencias y evaluaciones humanas de sus resultados.",
+    related: ["IA constitucional", "Fine-tuning"]
+  },
+  {
+    term: "Robustez",
+    definition: "La capacidad de los sistemas de IA para mantener un comportamiento seguro y correcto frente a entradas inusuales, ataques adversarios o desplazamiento de distribución.",
+    related: ["Seguridad", "Fiabilidad"]
+  },
+  {
+    term: "Sandbox regulatorio (regulatory sandbox)",
+    definition: "Un entorno controlado establecido por los reguladores en el que las organizaciones pueden probar innovaciones de IA bajo reglas relajadas o adaptadas, con supervisión regulatoria, antes de que se exija el cumplimiento total.",
+    related: ["Sandboxing", "Enfoque basado en riesgos"]
+  },
+  {
+    term: "Sandboxing (aislamiento en entorno controlado)",
+    definition: "Aislar los sistemas de IA en entornos controlados para probar su comportamiento antes del despliegue, limitando su acceso a recursos externos y efectos en el mundo real.",
+    related: ["Contención", "Pruebas aisladas"]
+  },
+  {
+    term: "Seguridad de la IA",
+    definition: "El campo de investigación centrado en garantizar que los sistemas de IA operen de forma segura, fiable y conforme a las intenciones humanas, abarcando enfoques técnicos y de gobernanza.",
+    related: ["Alineación", "Mitigación de riesgos"]
+  },
+  {
+    term: "Sesgo",
+    definition: "Errores sistemáticos o resultados injustos en los sistemas de IA que perjudican a ciertos grupos, a menudo derivados de los datos de entrenamiento o de decisiones de diseño.",
+    related: ["Equidad", "Discriminación"]
+  },
+  {
+    term: "Sistemas autónomos",
+    definition: "Sistemas de IA capaces de operar y tomar decisiones de forma independiente sin supervisión humana continua ni intervención.",
+    related: ["Humano en el bucle", "Automatización"]
+  },
+  {
+    term: "Soberanía digital",
+    definition: "La capacidad de un Estado o jurisdicción para ejercer autoridad de gobernanza sobre su infraestructura digital, flujos de datos y sistemas de IA, con independencia de actores externos.",
+    related: ["Gobernanza de la IA", "Arbitraje regulatorio"]
+  },
+  {
+    term: "Toma de decisiones informada",
+    definition: "La capacidad de los usuarios y las partes afectadas para comprender la intervención de los sistemas de IA y tomar decisiones basadas en ese conocimiento.",
+    related: ["Transparencia", "Divulgación"]
+  },
+  {
+    term: "Transparencia",
+    definition: "La práctica de hacer que los sistemas de IA, sus capacidades, limitaciones y procesos de decisión sean visibles y comprensibles para las partes interesadas pertinentes.",
+    related: ["Explicabilidad", "Divulgación"]
+  },
+  {
+    term: "Umbral de cómputo (compute threshold)",
+    definition: "Un límite cuantitativo (medido típicamente en operaciones de punto flotante) utilizado en la regulación para determinar qué recorridos de entrenamiento de IA activan obligaciones de gobernanza como reportes o pruebas de seguridad.",
+    related: ["Gobernanza computacional", "Recorrido de entrenamiento"]
+  },
+  {
+    term: "Uso indebido",
+    definition: "El uso intencional de sistemas de IA para fines perjudiciales, incluyendo aplicaciones maliciosas que violan normas éticas o leyes.",
+    related: ["Doble uso", "Seguridad"]
+  }
+].sort((a, b) => a.term.localeCompare(b.term, 'es'));
+---
+
+<Base 
+  title="Glosario de gobernanza de la IA" 
+  description="Términos y definiciones clave para comprender la gobernanza, la seguridad y los sistemas de restricción reflexiva de la IA."
+  keywords={["glosario IA", "términos gobernanza IA", "definiciones seguridad IA", "terminología aprendizaje automático"]}
+>
+  <div class="container" style="padding: var(--space-12) 0;">
+    <header style="margin-bottom: var(--space-12);">
+      <h1 style="font-size: var(--font-3xl); margin-bottom: var(--space-4);">Glosario de gobernanza de la IA</h1>
+      <p style="font-size: var(--font-lg); color: var(--color-text-muted); max-width: 65ch;">
+        Términos y definiciones clave para comprender la gobernanza, la seguridad y los sistemas de restricción reflexiva de la inteligencia artificial.
+        Este glosario ha sido concebido para ser accesible a responsables de políticas, investigadores y sistemas de IA por igual.
+      </p>
+      <p style="font-size: var(--font-sm); color: var(--color-text-muted); margin-top: var(--space-2);">
+        Los términos técnicos sin traducción estandarizada al español se mantienen en inglés con una glosa en castellano entre paréntesis.
+      </p>
+    </header>
+    
+    <div class="glossary-grid">
+      {terms.map(({ term, definition, related }) => (
+        <article class="glossary-item" id={term.toLowerCase().replace(/\s+/g, '-').replace(/[()]/g, '')}>
+          <h2 class="glossary-term">{term}</h2>
+          <p class="glossary-definition">{definition}</p>
+          {related.length > 0 && (
+            <div class="glossary-related">
+              <span>Relacionados:</span>
+              {related.map((r, i) => (
+                <span>{r}{i < related.length - 1 ? ', ' : ''}</span>
+              ))}
+            </div>
+          )}
+        </article>
+      ))}
+    </div>
+  </div>
+  
+  <style>
+    .glossary-grid {
+      display: grid;
+      gap: var(--space-6);
+    }
+    
+    .glossary-item {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: var(--space-6);
+    }
+    
+    .glossary-term {
+      font-size: var(--font-lg);
+      font-weight: 600;
+      margin-bottom: var(--space-2);
+      color: var(--color-primary);
+    }
+    
+    .glossary-definition {
+      font-size: var(--font-base);
+      line-height: 1.7;
+      color: var(--color-text);
+      margin-bottom: var(--space-3);
+    }
+    
+    .glossary-related {
+      font-size: var(--font-sm);
+      color: var(--color-text-muted);
+    }
+    
+    .glossary-related span:first-child {
+      font-weight: 500;
+      margin-right: var(--space-1);
+    }
+    
+    @media (min-width: 768px) {
+      .glossary-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</Base>

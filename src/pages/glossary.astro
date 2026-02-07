@@ -527,6 +527,136 @@ const terms = [
     term: "Prohibited AI",
     definition: "AI applications banned outright due to unacceptable risks, such as social scoring systems or certain surveillance uses.",
     related: ["EU AI Act", "Red Lines"]
+  },
+  {
+    term: "Agentic AI",
+    definition: "AI systems capable of autonomous goal-directed behavior, including planning, tool use, and multi-step task execution with minimal human intervention.",
+    related: ["Autonomous Systems", "Multi-stakeholder Governance"]
+  },
+  {
+    term: "Model Collapse",
+    definition: "A degenerative process in which AI models trained on synthetic data produced by earlier models progressively lose fidelity to the original data distribution, resulting in reduced output diversity and quality.",
+    related: ["Training Data", "Foundation Model"]
+  },
+  {
+    term: "Differential Privacy",
+    definition: "A mathematical framework for quantifying and limiting the privacy loss incurred when computing statistics or training models on datasets containing personal information.",
+    related: ["Privacy", "Training Data"]
+  },
+  {
+    term: "Federated Learning",
+    definition: "A machine learning approach in which models are trained across multiple decentralized devices or servers holding local data, without exchanging the underlying datasets.",
+    related: ["Differential Privacy", "Privacy"]
+  },
+  {
+    term: "General-Purpose AI (GPAI)",
+    definition: "An AI model that can perform a wide range of tasks without being designed for a single specific application. A regulatory category in the EU AI Act with distinct obligations for providers.",
+    related: ["Foundation Model", "Frontier AI", "EU AI Act"]
+  },
+  {
+    term: "AI Safety Institute",
+    definition: "A government-established body dedicated to evaluating frontier AI systems, conducting safety research, and advising policymakers on AI risk. Examples include the UK AISI and the US AISI.",
+    related: ["Safety Evaluation", "AI Governance"]
+  },
+  {
+    term: "Neurorights",
+    definition: "Proposed legal protections for the mental privacy, cognitive liberty, and psychological integrity of individuals in the context of neurotechnology and AI systems that interact with brain data.",
+    related: ["Cognitive Liberty", "Privacy", "Data Rights"]
+  },
+  {
+    term: "Cognitive Liberty",
+    definition: "The right of individuals to mental self-determination, including freedom from unauthorized monitoring, manipulation, or alteration of cognitive processes by AI or neurotechnology.",
+    related: ["Neurorights", "Autonomy"]
+  },
+  {
+    term: "Compute Threshold",
+    definition: "A quantitative boundary (typically measured in floating-point operations) used in regulation to determine which AI training runs trigger governance obligations such as reporting or safety testing.",
+    related: ["Compute Governance", "Training Run"]
+  },
+  {
+    term: "Training Run",
+    definition: "The complete process of training an AI model on a dataset, consuming computational resources. Training runs for frontier models are increasingly subject to governance requirements.",
+    related: ["Compute Threshold", "Compute Governance"]
+  },
+  {
+    term: "Inference",
+    definition: "The process of using a trained AI model to generate outputs (predictions, text, images) from new inputs, as distinct from the training phase.",
+    related: ["Deployment", "API Access"]
+  },
+  {
+    term: "Fine-Tuning",
+    definition: "The process of further training a pre-trained AI model on a smaller, task-specific dataset to adapt it for particular applications or to modify its behavior.",
+    related: ["RLHF", "Foundation Model"]
+  },
+  {
+    term: "Open Weight",
+    definition: "AI models whose trained parameters (weights) are publicly released, enabling local deployment and inspection, but which may not include training code, data, or full reproducibility. Distinct from open source.",
+    related: ["Open Source AI", "Transparency"]
+  },
+  {
+    term: "API Gateway",
+    definition: "An intermediary layer that manages, monitors, and controls access to AI model APIs, enabling enforcement of rate limits, usage policies, and safety filters.",
+    related: ["API Access", "Rate Limiting"]
+  },
+  {
+    term: "Rate Limiting",
+    definition: "Controls that restrict the frequency or volume of requests to AI systems, used to prevent abuse, manage resources, and limit the speed at which harmful outputs can be generated.",
+    related: ["API Gateway", "Misuse"]
+  },
+  {
+    term: "Regulatory Sandbox",
+    definition: "A controlled environment established by regulators in which organizations can test AI innovations under relaxed or adapted rules, with regulatory oversight, before full compliance is required.",
+    related: ["Sandboxing", "Risk-Based Approach"]
+  },
+  {
+    term: "Sunset Clause",
+    definition: "A provision in AI regulation or policy that sets an expiration date, requiring periodic review and renewal to ensure governance frameworks remain current with technological change.",
+    related: ["Hard Law", "AI Governance"]
+  },
+  {
+    term: "Impact Assessment",
+    definition: "A systematic process for evaluating the potential effects of an AI system on individuals, groups, and society before or during deployment.",
+    related: ["Algorithmic Impact Assessment", "Risk-Based Approach"]
+  },
+  {
+    term: "Algorithmic Impact Assessment",
+    definition: "A structured evaluation of the potential social, ethical, and rights-related effects of an algorithmic system, often required for public-sector AI deployments.",
+    related: ["Impact Assessment", "High-Risk AI"]
+  },
+  {
+    term: "Conformity Assessment",
+    definition: "A formal procedure under the EU AI Act by which AI providers demonstrate that their systems meet the essential requirements for high-risk applications before market placement.",
+    related: ["EU AI Act", "Certification"]
+  },
+  {
+    term: "Notified Body",
+    definition: "An organization designated by an EU member state to carry out third-party conformity assessments for high-risk AI systems under the EU AI Act.",
+    related: ["Conformity Assessment", "EU AI Act", "Certification"]
+  },
+  {
+    term: "Digital Sovereignty",
+    definition: "The capacity of a state or jurisdiction to exercise governance authority over its digital infrastructure, data flows, and AI systems, independent of external actors.",
+    related: ["AI Governance", "Regulatory Arbitrage"]
+  },
+  {
+    term: "AI Literacy",
+    definition: "The knowledge and skills required for individuals to understand, critically evaluate, and meaningfully engage with AI systems and AI-related policy decisions.",
+    related: ["Public Participation", "Informed Decision-Making"]
+  },
+  {
+    term: "Trustworthy AI",
+    definition: "A normative framework, prominent in EU policy, requiring AI systems to be lawful, ethical, and technically robust, encompassing principles such as fairness, transparency, and accountability.",
+    related: ["Responsible AI", "EU AI Act", "AI Ethics"]
+  },
+  {
+    term: "Responsible AI",
+    definition: "An umbrella term for organizational practices, principles, and governance structures intended to ensure AI systems are developed and deployed ethically, safely, and in accordance with societal values.",
+    related: ["Trustworthy AI", "AI Ethics", "AI Governance"]
+  },
+  {
+    term: "Public Participation",
+    definition: "Mechanisms that enable members of the public to contribute to AI policy development and governance decisions, including consultations, citizen assemblies, and deliberative processes.",
+    related: ["Multi-stakeholder Governance", "AI Literacy"]
   }
 ].sort((a, b) => a.term.localeCompare(b.term));
 ---
