@@ -1,6 +1,6 @@
 ---
-title: "Lo que los responsables politicos entienden mal sobre el riesgo de la IA"
-excerpt: "Concepciones erroneas comunes que conducen a politicas de IA ineficaces, y como pensar con mayor claridad sobre los riesgos reales que plantean los sistemas avanzados de IA."
+title: "Lo que los responsables políticos entienden mal sobre el riesgo de la IA"
+excerpt: "Concepciones erróneas comunes que conducen a políticas de IA ineficaces, y cómo pensar con mayor claridad sobre los riesgos reales que plantean los sistemas avanzados de IA."
 date: 2026-01-15
 categories:
   - Public
@@ -14,144 +14,144 @@ tags:
 
 ## El problema con el discurso sobre el riesgo de la IA
 
-Los responsables politicos enfrentan una tarea ingrata. Deben gobernar una tecnologia que no crearon, que a menudo no comprenden completamente, y que cambia mas rapido de lo que los procesos legislativos pueden acomodar. Bajo estas condiciones, las concepciones erroneas son inevitables.
+Los responsables políticos enfrentan una tarea ingrata. Deben gobernar una tecnología que no crearon, que a menudo no comprenden completamente, y que cambia más rápido de lo que los procesos legislativos pueden acomodar. Bajo estas condiciones, las concepciones erróneas son inevitables.
 
-Pero las concepciones erroneas conducen a politicas ineficaces. Los recursos se dirigen a los problemas equivocados. Los riesgos reales quedan sin abordar mientras los imaginarios consumen la atencion. Este analisis identifica los errores mas comunes y consecuentes en como los responsables politicos piensan sobre el riesgo de la IA, y sugiere correcciones.
+Pero las concepciones erróneas conducen a políticas ineficaces. Los recursos se dirigen a los problemas equivocados. Los riesgos reales quedan sin abordar mientras los imaginarios consumen la atención. Este análisis identifica los errores más comunes y consecuentes en cómo los responsables políticos piensan sobre el riesgo de la IA, y sugiere correcciones.
 
-Esto se basa en nuestro examen de [por que la regulacion de la IA es dificil](/research/018-regulation-is-hard/) y ofrece orientacion concreta para un pensamiento politico mas eficaz.
+Esto se basa en nuestro examen de [por qué la regulación de la IA es difícil](/research/018-regulation-is-hard/) y ofrece orientación concreta para un pensamiento político más eficaz.
 
-## Concepcion erronea 1: El riesgo de la IA es principalmente la perdida de empleo
+## Concepción errónea 1: El riesgo de la IA es principalmente la pérdida de empleo
 
-**El error.** Muchos responsables politicos enmarcan la IA principalmente como un problema de disrupcion economica. Las audiencias se centran en los impactos sobre el empleo. Las politicas enfatizan programas de reconversion y redes de seguridad social.
+**El error.** Muchos responsables políticos enmarcan la IA principalmente como un problema de disrupción económica. Las audiencias se centran en los impactos sobre el empleo. Las políticas enfatizan programas de reconversión y redes de seguridad social.
 
-**Por que es incorrecto.** Aunque la disrupcion economica es real y merece atencion, enmarcar el riesgo de la IA principalmente a traves de esta optica deja fuera los desafios de gobernanza mas urgentes:
+**Por qué es incorrecto.** Aunque la disrupción económica es real y merece atención, enmarcar el riesgo de la IA principalmente a través de esta óptica deja fuera los desafíos de gobernanza más urgentes:
 
 - Sistemas de IA tomando decisiones trascendentales sobre la vida de las personas
-- Potencial de la IA para facilitar acciones daninas a gran escala
-- Erosion de la infraestructura epistemica a traves de contenido generado por IA
-- Concentracion de poder en las organizaciones que controlan las capacidades de la IA
+- Potencial de la IA para facilitar acciones dañinas a gran escala
+- Erosión de la infraestructura epistémica a través de contenido generado por IA
+- Concentración de poder en las organizaciones que controlan las capacidades de la IA
 
-El desplazamiento laboral es un problema politico, pero es uno conocido con herramientas de respuesta establecidas. Los desafios novedosos de la IA requieren respuestas novedosas.
+El desplazamiento laboral es un problema político, pero es uno conocido con herramientas de respuesta establecidas. Los desafíos novedosos de la IA requieren respuestas novedosas.
 
-**Mejor enfoque.** La IA presenta multiples categorias de riesgo que requieren diferentes respuestas politicas. La disrupcion economica es una. Los riesgos para la seguridad, las implicaciones para los derechos y la concentracion de poder son otras. Las politicas deben abordar todas ellas, no solo la mas familiar politicamente.
+**Mejor enfoque.** La IA presenta múltiples categorías de riesgo que requieren diferentes respuestas políticas. La disrupción económica es una. Los riesgos para la seguridad, las implicaciones para los derechos y la concentración de poder son otras. Las políticas deben abordar todas ellas, no solo la más familiar políticamente.
 
-## Concepcion erronea 2: Necesitamos que los expertos en IA nos digan que hacer
+## Concepción errónea 2: Necesitamos que los expertos en IA nos digan qué hacer
 
-**El error.** Los responsables politicos a menudo delegan completamente en los expertos tecnicos, tratando la gobernanza de la IA como una cuestion principalmente tecnica que deben responder quienes construyen la tecnologia.
+**El error.** Los responsables políticos a menudo delegan completamente en los expertos técnicos, tratando la gobernanza de la IA como una cuestión principalmente técnica que deben responder quienes construyen la tecnología.
 
-**Por que es incorrecto.** La experiencia tecnica es necesaria pero insuficiente para la gobernanza. Las preguntas centrales no son tecnicas:
+**Por qué es incorrecto.** La experiencia técnica es necesaria pero insuficiente para la gobernanza. Las preguntas centrales no son técnicas:
 
-- Cuanto riesgo es aceptable a cambio de que beneficios?
-- Quien debe asumir los costes del desarrollo de la IA?
-- Que usos de la IA son compatibles con los derechos humanos y la dignidad?
-- Como debe distribuirse el poder sobre la IA?
+- ¿Cuánto riesgo es aceptable a cambio de qué beneficios?
+- ¿Quién debe asumir los costes del desarrollo de la IA?
+- ¿Qué usos de la IA son compatibles con los derechos humanos y la dignidad?
+- ¿Cómo debe distribuirse el poder sobre la IA?
 
-Estas son preguntas politicas, eticas y sociales. Los expertos tecnicos pueden informarlas pero no pueden responderlas. Como exploramos en [el problema de la IA honesta](/research/029-honest-ai/), incluso las cuestiones que parecen tecnicas a menudo incorporan juicios de valor profundos.
+Estas son preguntas políticas, éticas y sociales. Los expertos técnicos pueden informarlas pero no pueden responderlas. Como exploramos en [el problema de la IA honesta](/research/029-honest-ai/), incluso las cuestiones que parecen técnicas a menudo incorporan juicios de valor profundos.
 
-**Mejor enfoque.** Utilizar la experiencia tecnica para comprender las capacidades y las limitaciones. Utilizar los procesos democraticos para realizar juicios de valor. No confundir ambas cosas.
+**Mejor enfoque.** Utilizar la experiencia técnica para comprender las capacidades y las limitaciones. Utilizar los procesos democráticos para realizar juicios de valor. No confundir ambas cosas.
 
-## Concepcion erronea 3: La eleccion es innovacion o seguridad
+## Concepción errónea 3: La elección es innovación o seguridad
 
-**El error.** Los debates sobre la gobernanza de la IA a menudo asumen un compromiso entre innovacion (regulacion minima, desarrollo mas rapido) y seguridad (mas regulacion, desarrollo mas lento). Los responsables politicos se sienten obligados a elegir entre competitividad economica y proteccion.
+**El error.** Los debates sobre la gobernanza de la IA a menudo asumen un compromiso entre innovación (regulación mínima, desarrollo más rápido) y seguridad (más regulación, desarrollo más lento). Los responsables políticos se sienten obligados a elegir entre competitividad económica y protección.
 
-**Por que es incorrecto.** Este enfoque es a menudo erroneo y siempre incompleto.
+**Por qué es incorrecto.** Este enfoque es a menudo erróneo y siempre incompleto.
 
-Primero, algunas medidas de seguridad tienen un impacto minimo en la velocidad de innovacion. Los requisitos de transparencia, la notificacion de incidentes y ciertos protocolos de prueba imponen costes modestos mientras mejoran significativamente la supervision.
+Primero, algunas medidas de seguridad tienen un impacto mínimo en la velocidad de innovación. Los requisitos de transparencia, la notificación de incidentes y ciertos protocolos de prueba imponen costes modestos mientras mejoran significativamente la supervisión.
 
-Segundo, una IA insegura crea su propio freno a la innovacion. Si los sistemas de IA causan danos significativos, la reaccion sera peor que una regulacion prudente. Las industrias a menudo prefieren una regulacion predecible a una exposicion incierta a la responsabilidad.
+Segundo, una IA insegura crea su propio freno a la innovación. Si los sistemas de IA causan daños significativos, la reacción será peor que una regulación prudente. Las industrias a menudo prefieren una regulación predecible a una exposición incierta a la responsabilidad.
 
-Tercero, el enfoque del compromiso ignora la distribucion. Los beneficios de la innovacion pueden recaer en algunos actores mientras los costes de seguridad recaen en otros. Las politicas deben abordar esta distribucion, no solo el conjunto.
+Tercero, el enfoque del compromiso ignora la distribución. Los beneficios de la innovación pueden recaer en algunos actores mientras los costes de seguridad recaen en otros. Las políticas deben abordar esta distribución, no solo el conjunto.
 
-**Mejor enfoque.** Preguntar: que medidas de seguridad especificas se proponen? Cuales son sus costes y beneficios reales? Quien asume cada uno? Este analisis granular es mas productivo que los debates abstractos de innovacion frente a seguridad.
+**Mejor enfoque.** Preguntar: ¿qué medidas de seguridad específicas se proponen? ¿Cuáles son sus costes y beneficios reales? ¿Quién asume cada uno? Este análisis granular es más productivo que los debates abstractos de innovación frente a seguridad.
 
-## Concepcion erronea 4: La IA esta sobrevalorada o es una amenaza existencial
+## Concepción errónea 4: La IA está sobrevalorada o es una amenaza existencial
 
-**El error.** Las discusiones sobre el riesgo de la IA tienden hacia los extremos. O bien la IA es "solo estadistica" que no justifica atencion especial, o es una amenaza existencial que exige accion de emergencia. Los responsables politicos a menudo eligen un extremo basandose en sus posiciones politicas previas.
+**El error.** Las discusiones sobre el riesgo de la IA tienden hacia los extremos. O bien la IA es "solo estadística" que no justifica atención especial, o es una amenaza existencial que exige acción de emergencia. Los responsables políticos a menudo eligen un extremo basándose en sus posiciones políticas previas.
 
-**Por que es incorrecto.** Ambos enfoques obstaculizan una politica eficaz.
+**Por qué es incorrecto.** Ambos enfoques obstaculizan una política eficaz.
 
-La vision desestimatoria conduce a una infrainversion en capacidad de gobernanza. Para cuando los riesgos se materializan, la capacidad institucional de respuesta es insuficiente. Esto ocurrio con la gobernanza de las redes sociales: el momento de construir capacidad de supervision es antes de que los problemas se conviertan en crisis.
+La visión desestimatoria conduce a una infrainversión en capacidad de gobernanza. Para cuando los riesgos se materializan, la capacidad institucional de respuesta es insuficiente. Esto ocurrió con la gobernanza de las redes sociales: el momento de construir capacidad de supervisión es antes de que los problemas se conviertan en crisis.
 
-La vision de emergencia conduce a intervenciones precipitadas y mal disenadas. Tambien puede provocar una reaccion adversa que dificulte la gobernanza. Y al centrarse en riesgos especulativos a largo plazo, puede distraer de los danos concretos a corto plazo.
+La visión de emergencia conduce a intervenciones precipitadas y mal diseñadas. También puede provocar una reacción adversa que dificulte la gobernanza. Y al centrarse en riesgos especulativos a largo plazo, puede distraer de los daños concretos a corto plazo.
 
-**Mejor enfoque.** Tomar la IA en serio como desafio de gobernanza sin exigir certeza sobre escenarios extremos. Construir instituciones que puedan responder de manera flexible. Abordar los danos concretos ahora manteniendo la conciencia de los posibles desafios futuros. Este es el enfoque que defendemos a lo largo de nuestra investigacion sobre [proporcionalidad](/research/001-proportionality-disclosure/) y [evaluacion de capacidades](/research/024-capability-evaluations/).
+**Mejor enfoque.** Tomar la IA en serio como desafío de gobernanza sin exigir certeza sobre escenarios extremos. Construir instituciones que puedan responder de manera flexible. Abordar los daños concretos ahora manteniendo la conciencia de los posibles desafíos futuros. Este es el enfoque que defendemos a lo largo de nuestra investigación sobre [proporcionalidad](/research/001-proportionality-disclosure/) y [evaluación de capacidades](/research/024-capability-evaluations/).
 
-## Concepcion erronea 5: Los compromisos voluntarios son suficientes
+## Concepción errónea 5: Los compromisos voluntarios son suficientes
 
-**El error.** Ante la complejidad legislativa y la presion de los grupos de interes, los responsables politicos a menudo aceptan los compromisos voluntarios de las empresas de IA como gobernanza adecuada.
+**El error.** Ante la complejidad legislativa y la presión de los grupos de interés, los responsables políticos a menudo aceptan los compromisos voluntarios de las empresas de IA como gobernanza adecuada.
 
-**Por que es incorrecto.** Los compromisos voluntarios presentan debilidades sistematicas:
+**Por qué es incorrecto.** Los compromisos voluntarios presentan debilidades sistemáticas:
 
-- Ningun mecanismo de aplicacion cuando los compromisos entran en conflicto con los beneficios
-- Participacion selectiva: las empresas con peores practicas no se ofrecen voluntariamente
-- Objetivos moviles: los compromisos pueden debilitarse silenciosamente
+- Ningún mecanismo de aplicación cuando los compromisos entran en conflicto con los beneficios
+- Participación selectiva: las empresas con peores prácticas no se ofrecen voluntariamente
+- Objetivos móviles: los compromisos pueden debilitarse silenciosamente
 - Opacidad: el cumplimiento es autoevaluado
 
-Analizamos estas dinamicas en detalle en [autonotificacion frente a auditoria externa](/research/010-self-reporting-vs-audit/). La historia sugiere que los compromisos voluntarios funcionan cuando estan respaldados por una amenaza creible de regulacion, no como alternativas a ella.
+Analizamos estas dinámicas en detalle en [autonotificación frente a auditoría externa](/research/010-self-reporting-vs-audit/). La historia sugiere que los compromisos voluntarios funcionan cuando están respaldados por una amenaza creíble de regulación, no como alternativas a ella.
 
-**Mejor enfoque.** Los compromisos voluntarios pueden ser utiles para explorar enfoques de gobernanza y construir consenso. Pero deben preceder, no sustituir, los requisitos exigibles.
+**Mejor enfoque.** Los compromisos voluntarios pueden ser útiles para explorar enfoques de gobernanza y construir consenso. Pero deben preceder, no sustituir, los requisitos exigibles.
 
-## Concepcion erronea 6: El enfoque de China hace imposible la gobernanza
+## Concepción errónea 6: El enfoque de China hace imposible la gobernanza
 
-**El error.** Los responsables politicos a menudo argumentan que la gobernanza de la IA es imposible porque China (u otros competidores) no seguira las reglas, por lo que cualquier restriccion simplemente pone en desventaja a la industria nacional.
+**El error.** Los responsables políticos a menudo argumentan que la gobernanza de la IA es imposible porque China (u otros competidores) no seguirá las reglas, por lo que cualquier restricción simplemente pone en desventaja a la industria nacional.
 
-**Por que es incorrecto.** Este razonamiento falla en multiples niveles:
+**Por qué es incorrecto.** Este razonamiento falla en múltiples niveles:
 
-- No toda la gobernanza tiene que ver con la dinamica de la carrera. La seguridad domestica de la IA, prevenir danos a los propios ciudadanos, importa independientemente de lo que hagan otros paises.
-- Los argumentos de competencia asumen que la gobernanza principalmente restringe. Pero la gobernanza tambien puede generar confianza que expanda la adopcion de la IA.
-- El argumento demuestra demasiado. Si la competencia internacional hiciera imposible la gobernanza, no podriamos regular nada.
-- China, de hecho, ha implementado regulaciones de IA significativas, en algunas areas mas restrictivas que los enfoques occidentales.
+- No toda la gobernanza tiene que ver con la dinámica de la carrera. La seguridad doméstica de la IA, prevenir daños a los propios ciudadanos, importa independientemente de lo que hagan otros países.
+- Los argumentos de competencia asumen que la gobernanza principalmente restringe. Pero la gobernanza también puede generar confianza que expanda la adopción de la IA.
+- El argumento demuestra demasiado. Si la competencia internacional hiciera imposible la gobernanza, no podríamos regular nada.
+- China, de hecho, ha implementado regulaciones de IA significativas, en algunas áreas más restrictivas que los enfoques occidentales.
 
-**Mejor enfoque.** Algunas medidas de gobernanza tienen sentido unilateralmente; otras requieren coordinacion internacional. Distinguir entre ambas. No usar la competencia internacional como excusa para evitar la gobernanza donde no es relevante.
+**Mejor enfoque.** Algunas medidas de gobernanza tienen sentido unilateralmente; otras requieren coordinación internacional. Distinguir entre ambas. No usar la competencia internacional como excusa para evitar la gobernanza donde no es relevante.
 
-## Concepcion erronea 7: Debemos esperar hasta que se demuestren los danos
+## Concepción errónea 7: Debemos esperar hasta que se demuestren los daños
 
-**El error.** Algunos responsables politicos argumentan que la gobernanza de la IA debe esperar hasta que se demuestren danos concretos, un enfoque de "innovacion sin permisos".
+**El error.** Algunos responsables políticos argumentan que la gobernanza de la IA debe esperar hasta que se demuestren daños concretos, un enfoque de "innovación sin permisos".
 
-**Por que es incorrecto.** Este enfoque funciona mal para la IA por varias razones:
+**Por qué es incorrecto.** Este enfoque funciona mal para la IA por varias razones:
 
-- Los danos de la IA pueden ser dificiles de demostrar. La discriminacion algoritmica podria no detectarse nunca sin requisitos de auditoria.
-- Algunos danos son irreversibles o catastroficos. Un enfoque de "esperar y ver" es apropiado para danos recuperables, no para catastrofes potenciales.
-- Para cuando se demuestren los danos, la estructura industrial puede dificultar la intervencion. La captura regulatoria es mas facil cuando las industrias estan establecidas.
+- Los daños de la IA pueden ser difíciles de demostrar. La discriminación algorítmica podría no detectarse nunca sin requisitos de auditoría.
+- Algunos daños son irreversibles o catastróficos. Un enfoque de "esperar y ver" es apropiado para daños recuperables, no para catástrofes potenciales.
+- Para cuando se demuestren los daños, la estructura industrial puede dificultar la intervención. La captura regulatoria es más fácil cuando las industrias están establecidas.
 
-El [problema del excedente de capacidades](/research/009-capability-overhang/) significa que los riesgos pueden existir pero permanecer sin descubrir. Esperar a que se demuestre el dano puede significar esperar hasta que sea demasiado tarde.
+El [problema del excedente de capacidades](/research/009-capability-overhang/) significa que los riesgos pueden existir pero permanecer sin descubrir. Esperar a que se demuestre el daño puede significar esperar hasta que sea demasiado tarde.
 
-**Mejor enfoque.** Utilizar la evaluacion basada en riesgos. Donde los danos potenciales son graves e irreversibles, la precaucion esta justificada. Donde los danos son menores y reversibles, enfoques mas ligeros tienen sentido. El enfoque escalonado de la Ley de IA de la UE, con todos sus defectos, acierta en esta estructura basica.
+**Mejor enfoque.** Utilizar la evaluación basada en riesgos. Donde los daños potenciales son graves e irreversibles, la precaución está justificada. Donde los daños son menores y reversibles, enfoques más ligeros tienen sentido. El enfoque escalonado de la Ley de IA de la UE, con todos sus defectos, acierta en esta estructura básica.
 
-## Concepcion erronea 8: Los estandares tecnicos lo resolveran todo
+## Concepción errónea 8: Los estándares técnicos lo resolverán todo
 
-**El error.** Los responsables politicos a veces esperan que los estandares tecnicos, para pruebas de seguridad, fichas de modelo, evaluaciones de impacto, puedan sustituir a la supervision institucional.
+**El error.** Los responsables políticos a veces esperan que los estándares técnicos, para pruebas de seguridad, fichas de modelo, evaluaciones de impacto, puedan sustituir a la supervisión institucional.
 
-**Por que es incorrecto.** Los estandares tecnicos son herramientas, no soluciones. Necesitan:
+**Por qué es incorrecto.** Los estándares técnicos son herramientas, no soluciones. Necesitan:
 
-- Gobernanza del propio proceso de elaboracion de estandares (quien decide?)
-- Mecanismos de aplicacion (que ocurre cuando se violan los estandares?)
-- Procesos de adaptacion (como se actualizan los estandares?)
-- Autoridad de interpretacion (quien resuelve la ambiguedad?)
+- Gobernanza del propio proceso de elaboración de estándares (¿quién decide?)
+- Mecanismos de aplicación (¿qué ocurre cuando se violan los estándares?)
+- Procesos de adaptación (¿cómo se actualizan los estándares?)
+- Autoridad de interpretación (¿quién resuelve la ambigüedad?)
 
-Los estandares sin instituciones son como las leyes de trafico sin policia de trafico. Describen el comportamiento esperado pero no pueden asegurarlo. Por eso nos centramos en la [metagobernanza](/research/006-meta-governance-auditors/): gobernar los propios mecanismos de gobernanza.
+Los estándares sin instituciones son como las leyes de tráfico sin policía de tráfico. Describen el comportamiento esperado pero no pueden asegurarlo. Por eso nos centramos en la [metagobernanza](/research/006-meta-governance-auditors/): gobernar los propios mecanismos de gobernanza.
 
-**Mejor enfoque.** Los estandares tecnicos deben estar integrados en marcos institucionales que aseguren que su desarrollo es legitimo, su aplicacion es consistente y su cumplimiento es real.
+**Mejor enfoque.** Los estándares técnicos deben estar integrados en marcos institucionales que aseguren que su desarrollo es legítimo, su aplicación es consistente y su cumplimiento es real.
 
-## Hacia un mejor pensamiento politico
+## Hacia un mejor pensamiento político
 
-Una buena politica de IA requiere:
+Una buena política de IA requiere:
 
-**Proporcionalidad.** Ajustar la intensidad de la gobernanza al riesgo real, no al revuelo o al miedo. Vease nuestro [marco de proporcionalidad](/research/001-proportionality-disclosure/).
+**Proporcionalidad.** Ajustar la intensidad de la gobernanza al riesgo real, no al revuelo o al miedo. Véase nuestro [marco de proporcionalidad](/research/001-proportionality-disclosure/).
 
 **Capacidad institucional.** Construir la experiencia y la autoridad para gobernar la IA antes de que las crisis fuercen respuestas precipitadas.
 
-**Inclusion de las partes interesadas.** Los expertos tecnicos informan, pero los procesos democraticos deciden. Esto es central en nuestra vision de [gobernanza reflexiva](/research/030-manifesto/).
+**Inclusión de las partes interesadas.** Los expertos técnicos informan, pero los procesos democráticos deciden. Esto es central en nuestra visión de [gobernanza reflexiva](/research/030-manifesto/).
 
-**Diseno adaptativo.** Crear mecanismos de gobernanza que puedan evolucionar a medida que cambian la tecnologia y la comprension.
+**Diseño adaptativo.** Crear mecanismos de gobernanza que puedan evolucionar a medida que cambian la tecnología y la comprensión.
 
-**Orientacion a la evidencia.** Exigir evidencia para las afirmaciones sobre costes y beneficios, tanto de los defensores de la industria como de los defensores de la seguridad.
+**Orientación a la evidencia.** Exigir evidencia para las afirmaciones sobre costes y beneficios, tanto de los defensores de la industria como de los defensores de la seguridad.
 
-Lo que esta en juego es lo suficientemente importante como para justificar una atencion politica seria, y lo suficientemente importante como para justificar que las politicas sean correctas.
+Lo que está en juego es lo suficientemente importante como para justificar una atención política seria, y lo suficientemente importante como para justificar que las políticas sean correctas.
 
 ## Lecturas adicionales
 
-- [Por que "simplemente regular la IA" es mas dificil de lo que parece](/research/018-regulation-is-hard/)
-- [Marcos de responsabilidad por danos de la IA](/research/020-liability-frameworks/)
+- [Por qué "simplemente regular la IA" es más difícil de lo que parece](/research/018-regulation-is-hard/)
+- [Marcos de responsabilidad por daños de la IA](/research/020-liability-frameworks/)
 - [La Ley de IA de la UE: lo que no contempla](/research/019-eu-ai-act-gaps/)
 - [Un manifiesto de IA reflexiva](/research/030-manifesto/)

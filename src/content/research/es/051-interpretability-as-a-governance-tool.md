@@ -1,6 +1,6 @@
 ---
 title: "La interpretabilidad como herramienta de gobernanza"
-excerpt: "Como los metodos de interpretabilidad proporcionan evidencia para la supervision de la IA: aprobaciones, auditorias, monitoreo y respuesta ante incidentes."
+excerpt: "Cómo los métodos de interpretabilidad proporcionan evidencia para la supervisión de la IA: aprobaciones, auditorías, monitoreo y respuesta ante incidentes."
 date: 2026-02-02
 toc: true
 categories:
@@ -12,48 +12,48 @@ tags:
   - Evaluation
 ---
 
-La interpretabilidad se trata a menudo como un objetivo de investigacion interno. Para la gobernanza, es un canal de evidencia: una forma de mostrar como se comporta un sistema, por que se comporta asi y si las salvaguardas funcionan. Este articulo mapea los metodos de interpretabilidad a funciones concretas de gobernanza y describe protocolos para hacer que la evidencia resultante sea confiable.
+La interpretabilidad se trata a menudo como un objetivo de investigación interno. Para la gobernanza, es un canal de evidencia: una forma de mostrar cómo se comporta un sistema, por qué se comporta así y si las salvaguardas funcionan. Este artículo mapea los métodos de interpretabilidad a funciones concretas de gobernanza y describe protocolos para hacer que la evidencia resultante sea confiable.
 
 ## Casos de uso de gobernanza para la interpretabilidad
 
-- **Aprobacion previa al despliegue**: Demostrar que las mitigaciones de seguridad estan presentes y activas en las vias de alto riesgo.
+- **Aprobación previa al despliegue**: Demostrar que las mitigaciones de seguridad están presentes y activas en las vías de alto riesgo.
 - **Monitoreo continuo**: Detectar desviaciones o emergencia inesperada de capacidades mediante el seguimiento de activaciones de conceptos y sondas de comportamiento.
-- **Auditoria y certificacion**: Proporcionar artefactos reproducibles que los auditores externos puedan volver a ejecutar, incluyendo semillas, puntos de control y scripts.
+- **Auditoría y certificación**: Proporcionar artefactos reproducibles que los auditores externos puedan volver a ejecutar, incluyendo semillas, puntos de control y scripts.
 - **Respuesta ante incidentes**: Localizar los componentes que contribuyeron a un fallo y proponer remediaciones dirigidas.
-- **Verificacion de politicas**: Mostrar que el comportamiento del sistema se alinea con las restricciones declaradas, especialmente cuando las afirmaciones estan vinculadas a presentaciones regulatorias.
+- **Verificación de políticas**: Mostrar que el comportamiento del sistema se alinea con las restricciones declaradas, especialmente cuando las afirmaciones están vinculadas a presentaciones regulatorias.
 
 ## Requisitos para evidencia de grado de gobernanza
 
-Los resultados de interpretabilidad solo ayudan a la gobernanza si cumplen estandares de evidencia similares a las pruebas de laboratorio.
+Los resultados de interpretabilidad solo ayudan a la gobernanza si cumplen estándares de evidencia similares a las pruebas de laboratorio.
 
 - **Reproducibilidad**: Mismas entradas, mismas semillas, mismas salidas. Publicar scripts y versiones.
-- **Claridad de alcance**: Definir lo que el metodo puede y no puede mostrar (caracteristicas, capas, tareas). Evitar afirmaciones excesivas.
-- **Falsificabilidad**: Proporcionar contrapruebas que invalidarian la conclusion si el modelo cambiara.
-- **Calibracion**: Vincular los hallazgos de interpretabilidad con metricas de comportamiento. Un mapa de relevancia sin movimiento de rendimiento correlacionado es evidencia debil.
-- **Estabilidad bajo cambio de distribucion**: Volver a ejecutar las sondas de interpretabilidad en conjuntos de datos alternativos para asegurar que las conclusiones no sean artefactos del conjunto de datos.
+- **Claridad de alcance**: Definir lo que el método puede y no puede mostrar (características, capas, tareas). Evitar afirmaciones excesivas.
+- **Falsificabilidad**: Proporcionar contrapruebas que invalidarían la conclusión si el modelo cambiara.
+- **Calibración**: Vincular los hallazgos de interpretabilidad con métricas de comportamiento. Un mapa de relevancia sin movimiento de rendimiento correlacionado es evidencia débil.
+- **Estabilidad bajo cambio de distribución**: Volver a ejecutar las sondas de interpretabilidad en conjuntos de datos alternativos para asegurar que las conclusiones no sean artefactos del conjunto de datos.
 
-## Familias de metodos y adecuacion a la gobernanza
+## Familias de métodos y adecuación a la gobernanza
 
-| Metodo | Valor para la gobernanza | Salidas tipicas | Limitaciones |
+| Método | Valor para la gobernanza | Salidas típicas | Limitaciones |
 | --- | --- | --- | --- |
-| **Atribucion de caracteristicas (p. ej., Integrated Gradients, SHAP)** | Muestra que entradas impulsan las salidas; util para divulgacion y revision de sesgos | Tokens clasificados, mapas de calor, tramos de entrada | Puede ser inestable; no es causal; sensible a lineas base |
-| **Interpretabilidad mecanicista (circuitos, diccionarios de caracteristicas)** | Identifica variables internas vinculadas a conceptos significativos para humanos; fuerte para analisis de incidentes | Etiquetas de neuronas/caracteristicas, resultados de parcheo, grafos de circuitos | Costoso; cobertura parcial; requiere experiencia |
-| **Sondas de comportamiento** | Prueba capacidades o restricciones especificas; se alinea con listas de verificacion de auditoria | Metricas de aprobado/fallido, matrices de confusion | Superficial; puede pasar por alto capacidad latente |
-| **Vectores de activacion de conceptos (CAV/TCAV)** | Cuantifica la sensibilidad del modelo a conceptos relevantes para la gobernanza (p. ej., PII, violencia) | Puntuaciones de sensibilidad por capas | Depende de conjuntos de datos de conceptos; riesgo de deriva de conceptos |
-| **Edicion/parcheo contrafactual** | Demuestra que un componente identificado controla un comportamiento | Salidas antes/despues, deltas de parcheo | Riesgo de efectos secundarios; puede no ser estable entre contextos |
+| **Atribución de características (p. ej., Integrated Gradients, SHAP)** | Muestra qué entradas impulsan las salidas; útil para divulgación y revisión de sesgos | Tokens clasificados, mapas de calor, tramos de entrada | Puede ser inestable; no es causal; sensible a líneas base |
+| **Interpretabilidad mecanicista (circuitos, diccionarios de características)** | Identifica variables internas vinculadas a conceptos significativos para humanos; fuerte para análisis de incidentes | Etiquetas de neuronas/características, resultados de parcheo, grafos de circuitos | Costoso; cobertura parcial; requiere experiencia |
+| **Sondas de comportamiento** | Prueba capacidades o restricciones específicas; se alinea con listas de verificación de auditoría | Métricas de aprobado/fallido, matrices de confusión | Superficial; puede pasar por alto capacidad latente |
+| **Vectores de activación de conceptos (CAV/TCAV)** | Cuantifica la sensibilidad del modelo a conceptos relevantes para la gobernanza (p. ej., PII, violencia) | Puntuaciones de sensibilidad por capas | Depende de conjuntos de datos de conceptos; riesgo de deriva de conceptos |
+| **Edición/parcheo contrafactual** | Demuestra que un componente identificado controla un comportamiento | Salidas antes/después, deltas de parcheo | Riesgo de efectos secundarios; puede no ser estable entre contextos |
 
-Ningun metodo individual es suficiente. La gobernanza depende de pares de metodos: una senal estructural (que parte del modelo importa) mas una verificacion de comportamiento (cambiarla altera las salidas en la direccion esperada).
+Ningún método individual es suficiente. La gobernanza depende de pares de métodos: una señal estructural (qué parte del modelo importa) más una verificación de comportamiento (cambiarla altera las salidas en la dirección esperada).
 
 ## Protocolo: uso de la interpretabilidad para aprobaciones
 
-1. **Delimitacion del riesgo**: Identificar comportamientos de alto impacto para justificar el esfuerzo de interpretabilidad (p. ej., filtracion de PII, instrucciones biologicas, jailbreaks de politicas).
-2. **Seleccionar sondas y objetivos**: Elegir capas, cabezas o caracteristicas vinculadas a los comportamientos riesgosos. Documentar por que estos objetivos son relevantes.
+1. **Delimitación del riesgo**: Identificar comportamientos de alto impacto para justificar el esfuerzo de interpretabilidad (p. ej., filtración de PII, instrucciones biológicas, jailbreaks de políticas).
+2. **Seleccionar sondas y objetivos**: Elegir capas, cabezas o características vinculadas a los comportamientos riesgosos. Documentar por qué estos objetivos son relevantes.
 3. **Ejecutar pruebas pareadas**:
    - Estructural: localizar y etiquetar componentes correlacionados con el comportamiento.
-   - Comportamental: intervenir (ablacionar, parchear, editar pesos o controlar la atencion) y medir el cambio en la salida.
-4. **Establecer umbrales**: Definir criterios de aceptacion (p. ej., la ablacion reduce la tasa de salida riesgosa en un 90 por ciento con menos del 2 por ciento de perdida de utilidad).
-5. **Empaquetar artefactos**: Proporcionar scripts, semillas, puntos de control y conjuntos de datos minimos para que los auditores puedan volver a ejecutar las pruebas.
-6. **Almacenar atestaciones**: Registrar resumenes hash de artefactos y firmar informes para soportar la deteccion de manipulacion.
+   - Comportamental: intervenir (ablacionar, parchear, editar pesos o controlar la atención) y medir el cambio en la salida.
+4. **Establecer umbrales**: Definir criterios de aceptación (p. ej., la ablación reduce la tasa de salida riesgosa en un 90 por ciento con menos del 2 por ciento de pérdida de utilidad).
+5. **Empaquetar artefactos**: Proporcionar scripts, semillas, puntos de control y conjuntos de datos mínimos para que los auditores puedan volver a ejecutar las pruebas.
+6. **Almacenar atestaciones**: Registrar resúmenes hash de artefactos y firmar informes para soportar la detección de manipulación.
 
 ### Plantilla de paquete de evidencia
 
@@ -85,47 +85,47 @@ signoff:
   date: "2026-02-02"
 ```
 
-## Monitoreo con senales de interpretabilidad
+## Monitoreo con señales de interpretabilidad
 
-Las metricas de interpretabilidad pueden servir como indicadores de alerta temprana cuando se combinan con telemetria.
+Las métricas de interpretabilidad pueden servir como indicadores de alerta temprana cuando se combinan con telemetría.
 
 - Rastrear **activaciones de conceptos** para temas restringidos y alertar sobre derivas ascendentes.
-- Monitorear la **atencion a tokens sensibles** (nombres, ubicaciones) en trafico muestreado.
-- Usar **diccionarios de caracteristicas** para detectar nuevas caracteristicas que se agrupan cerca de conceptos riesgosos.
-- Combinar monitores con **prompts canario** que se ejecutan en cada revision del modelo para mantener lineas base historicas.
+- Monitorear la **atención a tokens sensibles** (nombres, ubicaciones) en tráfico muestreado.
+- Usar **diccionarios de características** para detectar nuevas características que se agrupan cerca de conceptos riesgosos.
+- Combinar monitores con **prompts canario** que se ejecutan en cada revisión del modelo para mantener líneas base históricas.
 
-Para evitar la fatiga de alertas, establecer rutas de escalada claras: bloqueo automatico, revision humana o registro diferido segun la gravedad.
+Para evitar la fatiga de alertas, establecer rutas de escalada claras: bloqueo automático, revisión humana o registro diferido según la gravedad.
 
 ## Manual de respuesta ante incidentes
 
-Cuando ocurre un incidente relevante para la gobernanza, la interpretabilidad puede reducir el espacio de busqueda.
+Cuando ocurre un incidente relevante para la gobernanza, la interpretabilidad puede reducir el espacio de búsqueda.
 
-1. Capturar los prompts fallidos, la version del modelo y los registros.
-2. Ejecutar metodos de localizacion (rastreo de atencion, parcheo de activaciones) para encontrar componentes que portan la senal de fallo.
-3. Proponer mitigaciones dirigidas: controlar o editar los componentes implicados, o agregar datos que reduzcan la fuerza de activacion.
-4. Volver a ejecutar pruebas de comportamiento pareadas para confirmar que la mitigacion aborda el fallo sin una perdida importante de utilidad.
-5. Actualizar la documentacion y el monitoreo para prevenir regresiones.
+1. Capturar los prompts fallidos, la versión del modelo y los registros.
+2. Ejecutar métodos de localización (rastreo de atención, parcheo de activaciones) para encontrar componentes que portan la señal de fallo.
+3. Proponer mitigaciones dirigidas: controlar o editar los componentes implicados, o agregar datos que reduzcan la fuerza de activación.
+4. Volver a ejecutar pruebas de comportamiento pareadas para confirmar que la mitigación aborda el fallo sin una pérdida importante de utilidad.
+5. Actualizar la documentación y el monitoreo para prevenir regresiones.
 
-## Validacion y control de calidad
+## Validación y control de calidad
 
-- **Concordancia entre metodos**: Preferir conclusiones respaldadas por al menos dos metodos independientes.
-- **Pruebas adversarias de explicaciones**: Verificar si pequenos cambios en la entrada alteran los resultados de atribucion; la inestabilidad reduce la confianza.
-- **Evaluacion en conjunto reservado**: Validar hallazgos en datos fuera del conjunto de descubrimiento para reducir el riesgo de seleccion interesada.
-- **Informes versionados**: Vincular cada afirmacion de interpretabilidad a un hash de modelo y version de conjunto de datos; tratar las afirmaciones como invalidadas cuando las versiones cambien.
+- **Concordancia entre métodos**: Preferir conclusiones respaldadas por al menos dos métodos independientes.
+- **Pruebas adversarias de explicaciones**: Verificar si pequeños cambios en la entrada alteran los resultados de atribución; la inestabilidad reduce la confianza.
+- **Evaluación en conjunto reservado**: Validar hallazgos en datos fuera del conjunto de descubrimiento para reducir el riesgo de selección interesada.
+- **Informes versionados**: Vincular cada afirmación de interpretabilidad a un hash de modelo y versión de conjunto de datos; tratar las afirmaciones como invalidadas cuando las versiones cambien.
 
-## Recomendaciones de politica y proceso
+## Recomendaciones de política y proceso
 
-- Exigir que los despliegues de alto riesgo presenten un **paquete de evidencia de interpretabilidad** como parte de la aprobacion, junto con las evaluaciones estandar.
-- Mantener un **registro de conceptos de gobernanza** (p. ej., PII, biologia de uso dual) con sondas y conjuntos de datos estandar.
+- Exigir que los despliegues de alto riesgo presenten un **paquete de evidencia de interpretabilidad** como parte de la aprobación, junto con las evaluaciones estándar.
+- Mantener un **registro de conceptos de gobernanza** (p. ej., PII, biología de uso dual) con sondas y conjuntos de datos estándar.
 - Financiar **bancos de trabajo compartidos para auditores**: contenedores reproducibles que ejecuten las mismas pruebas de interpretabilidad en todos los laboratorios.
-- Incentivar los **resultados negativos**: publicar cuando los metodos fallan o producen hallazgos inestables para evitar una confianza falsa.
-- Alinear la **divulgacion**: incluir hallazgos de interpretabilidad en fichas de sistema y presentaciones ante reguladores, con enlaces a codigo reproducible.
+- Incentivar los **resultados negativos**: publicar cuando los métodos fallan o producen hallazgos inestables para evitar una confianza falsa.
+- Alinear la **divulgación**: incluir hallazgos de interpretabilidad en fichas de sistema y presentaciones ante reguladores, con enlaces a código reproducible.
 
-## Limitaciones e investigacion abierta
+## Limitaciones e investigación abierta
 
-- Los metodos actuales no ofrecen cobertura completa; muchos hallazgos son locales en lugar de garantias globales.
-- Las intervenciones pueden causar efectos secundarios; cada uso de gobernanza debe incluir verificaciones de regresion en metricas de utilidad centrales.
-- La deriva de conceptos sigue siendo dificil: las puntuaciones de activacion de conceptos pueden cambiar a medida que los modelos se actualizan, por lo que el monitoreo debe ser continuo.
-- El resumen automatizado de resultados de interpretabilidad para auditores es prometedor, pero necesita validacion cuidadosa para evitar declaraciones erroneas.
+- Los métodos actuales no ofrecen cobertura completa; muchos hallazgos son locales en lugar de garantías globales.
+- Las intervenciones pueden causar efectos secundarios; cada uso de gobernanza debe incluir verificaciones de regresión en métricas de utilidad centrales.
+- La deriva de conceptos sigue siendo difícil: las puntuaciones de activación de conceptos pueden cambiar a medida que los modelos se actualizan, por lo que el monitoreo debe ser continuo.
+- El resumen automatizado de resultados de interpretabilidad para auditores es prometedor, pero necesita validación cuidadosa para evitar declaraciones erróneas.
 
-La interpretabilidad no reemplazara la evaluacion de comportamiento ni el red teaming. Sin embargo, puede dar a los procesos de gobernanza un mapa mas claro de donde residen los comportamientos riesgosos, como suprimirlos y como demostrar que las mitigaciones se mantienen a lo largo del tiempo.
+La interpretabilidad no reemplazará la evaluación de comportamiento ni el red teaming. Sin embargo, puede dar a los procesos de gobernanza un mapa más claro de dónde residen los comportamientos riesgosos, cómo suprimirlos y cómo demostrar que las mitigaciones se mantienen a lo largo del tiempo.

@@ -1,6 +1,6 @@
 ---
-title: "Cuando la IA deberia rechazar: un marco de referencia"
-excerpt: "No toda solicitud deberia cumplirse. Este analisis desarrolla un marco de referencia basado en principios para los rechazos de la IA: cuando son apropiados, como deberian implementarse y como manejar los casos limite."
+title: "Cuándo la IA debería rechazar: un marco de referencia"
+excerpt: "No toda solicitud debería cumplirse. Este análisis desarrolla un marco de referencia basado en principios para los rechazos de la IA: cuándo son apropiados, cómo deberían implementarse y cómo manejar los casos límite."
 date: 2026-01-07
 categories:
   - Technical Artifact
@@ -16,143 +16,143 @@ toc: true
 
 ## El dilema del rechazo
 
-Los sistemas de IA estan disenados para ser utiles. Se entrenan para cumplir solicitudes, responder preguntas y asistir con tareas. Pero no toda solicitud deberia cumplirse.
+Los sistemas de IA están diseñados para ser útiles. Se entrenan para cumplir solicitudes, responder preguntas y asistir con tareas. Pero no toda solicitud debería cumplirse.
 
-Cuando un usuario pide ayuda para sintetizar un patogeno peligroso, el sistema deberia rechazar. Cuando se le pide generar material de abuso sexual infantil, deberia rechazar de forma absoluta. Pero que pasa con los casos limite? Que pasa con las solicitudes que son daninas en algunos contextos pero legitimas en otros?
+Cuando un usuario pide ayuda para sintetizar un patógeno peligroso, el sistema debería rechazar. Cuando se le pide generar material de abuso sexual infantil, debería rechazar de forma absoluta. Pero ¿qué pasa con los casos límite? ¿Qué pasa con las solicitudes que son dañinas en algunos contextos pero legítimas en otros?
 
-Este analisis desarrolla un marco de referencia basado en principios para los rechazos de la IA: distinguir entre diferentes tipos de rechazos, especificar cuando cada uno es apropiado y abordar los desafios de implementacion.
+Este análisis desarrolla un marco de referencia basado en principios para los rechazos de la IA: distinguir entre diferentes tipos de rechazos, especificar cuándo cada uno es apropiado y abordar los desafíos de implementación.
 
 ## El panorama actual
 
-Los sistemas de IA actuales rechazan solicitudes basandose en el entrenamiento (RLHF para evitar ciertas salidas) y filtros (bloqueos rigidos sobre contenido especifico). Estos mecanismos a menudo carecen de transparencia sobre por que ocurren los rechazos y de consistencia sobre cuando se aplican.
+Los sistemas de IA actuales rechazan solicitudes basándose en el entrenamiento (RLHF para evitar ciertas salidas) y filtros (bloqueos rígidos sobre contenido específico). Estos mecanismos a menudo carecen de transparencia sobre por qué ocurren los rechazos y de consistencia sobre cuándo se aplican.
 
-Los usuarios experimentan frustracion cuando solicitudes legitimas son rechazadas. Los investigadores no pueden acceder a informacion sobre fenomenos peligrosos que necesitan estudiar. Al mismo tiempo, los usuarios adversarios encuentran formas de eludir los rechazos mediante manipulacion de prompts. La frontera del rechazo es simultaneamente demasiado restrictiva (bloqueando uso legitimo) y demasiado permeable (permitiendo uso danino a traves de prompting creativo).
+Los usuarios experimentan frustración cuando solicitudes legítimas son rechazadas. Los investigadores no pueden acceder a información sobre fenómenos peligrosos que necesitan estudiar. Al mismo tiempo, los usuarios adversarios encuentran formas de eludir los rechazos mediante manipulación de prompts. La frontera del rechazo es simultáneamente demasiado restrictiva (bloqueando uso legítimo) y demasiado permeable (permitiendo uso dañino a través de prompting creativo).
 
-Parte del problema es la ausencia de un marco de referencia basado en principios. Los desarrolladores implementan rechazos mediante ejemplos de entrenamiento acumulados y filtros ad hoc en lugar de categorias explicitas y justificadas. Esto produce inconsistencia y dificulta la mejora.
+Parte del problema es la ausencia de un marco de referencia basado en principios. Los desarrolladores implementan rechazos mediante ejemplos de entrenamiento acumulados y filtros ad hoc en lugar de categorías explícitas y justificadas. Esto produce inconsistencia y dificulta la mejora.
 
 ## Un marco escalonado
 
-Proponemos organizar los rechazos en cuatro niveles, cada uno con diferente justificacion, implementacion y experiencia de usuario.
+Proponemos organizar los rechazos en cuatro niveles, cada uno con diferente justificación, implementación y experiencia de usuario.
 
 ### Nivel 1: Prohibiciones absolutas
 
-**Definicion:** Solicitudes que nunca deben cumplirse bajo ninguna circunstancia, para ningun usuario, en ningun contexto.
+**Definición:** Solicitudes que nunca deben cumplirse bajo ninguna circunstancia, para ningún usuario, en ningún contexto.
 
-**Ejemplos:** Instrucciones detalladas para crear armas de destruccion masiva, generacion de material de abuso sexual infantil, creacion de armas ciberneticas especificas dirigidas a infraestructura critica.
+**Ejemplos:** Instrucciones detalladas para crear armas de destrucción masiva, generación de material de abuso sexual infantil, creación de armas cibernéticas específicas dirigidas a infraestructura crítica.
 
-**Justificacion:** El dano potencial excede tan vastamente cualquier uso legitimo posible que ninguna cantidad de contexto o credencial de usuario puede justificar su cumplimiento. Estas son las [lineas rojas](/research/004-red-lines-taxonomy/) que definen el limite exterior del comportamiento aceptable de la IA.
+**Justificación:** El daño potencial excede tan vastamente cualquier uso legítimo posible que ninguna cantidad de contexto o credencial de usuario puede justificar su cumplimiento. Estas son las [líneas rojas](/research/004-red-lines-taxonomy/) que definen el límite exterior del comportamiento aceptable de la IA.
 
-**Implementacion:** Filtros codificados de forma rigida que operan antes y despues de la inferencia del modelo. No entrenados mediante RLHF, que puede ser manipulado. El modelo nunca deberia producir este contenido independientemente de la tecnica de prompting.
+**Implementación:** Filtros codificados de forma rígida que operan antes y después de la inferencia del modelo. No entrenados mediante RLHF, que puede ser manipulado. El modelo nunca debería producir este contenido independientemente de la técnica de prompting.
 
-**Experiencia de usuario:** El rechazo debe ser claro e inequivoco. El sistema debe explicar que se trata de una prohibicion categorica, no de un juicio contextual. No se deben ofrecer alternativas para eludir.
+**Experiencia de usuario:** El rechazo debe ser claro e inequívoco. El sistema debe explicar que se trata de una prohibición categórica, no de un juicio contextual. No se deben ofrecer alternativas para eludir.
 
 ### Nivel 2: Rechazos dependientes del contexto
 
-**Definicion:** Solicitudes que son daninas en la mayoria de los contextos pero legitimas en algunos.
+**Definición:** Solicitudes que son dañinas en la mayoría de los contextos pero legítimas en algunos.
 
-**Ejemplos:** Informacion detallada sobre caracteristicas de patogenos (danina para uso indebido, legitima para investigacion en salud publica), detalles de vulnerabilidades de sistemas de software (daninos para ataques, legitimos para investigacion de seguridad), procedimientos de sintesis de sustancias controladas (daninos para produccion de drogas, legitimos para investigacion farmaceutica).
+**Ejemplos:** Información detallada sobre características de patógenos (dañina para uso indebido, legítima para investigación en salud pública), detalles de vulnerabilidades de sistemas de software (dañinos para ataques, legítimos para investigación de seguridad), procedimientos de síntesis de sustancias controladas (dañinos para producción de drogas, legítimos para investigación farmacéutica).
 
-**Justificacion:** El contenido tiene potencial de doble uso. La misma informacion que permite el dano tambien permite actividades beneficiosas legitimas. El rechazo total seria un exceso; la provision total seria peligrosa.
+**Justificación:** El contenido tiene potencial de doble uso. La misma información que permite el daño también permite actividades beneficiosas legítimas. El rechazo total sería un exceso; la provisión total sería peligrosa.
 
-**Implementacion:** Estos rechazos requieren evaluacion del contexto. El sistema debe evaluar senales sobre la intencion del usuario, el contexto de implementacion y el proposito declarado. En casos de alto riesgo, la verificacion de credenciales o permisos de acceso es apropiada.
+**Implementación:** Estos rechazos requieren evaluación del contexto. El sistema debe evaluar señales sobre la intención del usuario, el contexto de implementación y el propósito declarado. En casos de alto riesgo, la verificación de credenciales o permisos de acceso es apropiada.
 
-**Experiencia de usuario:** El rechazo debe explicar la preocupacion y ofrecer vias para usuarios legitimos. "No puedo proporcionar esta informacion en este contexto, pero si usted es un investigador acreditado que trabaja en este dominio, puede acceder a ella a traves de [proceso de verificacion]."
+**Experiencia de usuario:** El rechazo debe explicar la preocupación y ofrecer vías para usuarios legítimos. "No puedo proporcionar esta información en este contexto, pero si usted es un investigador acreditado que trabaja en este dominio, puede acceder a ella a través de [proceso de verificación]."
 
-### Nivel 3: Limites flexibles
+### Nivel 3: Límites flexibles
 
-**Definicion:** Solicitudes que son tipicamente inapropiadas pero aceptables con el reconocimiento explicito del usuario.
+**Definición:** Solicitudes que son típicamente inapropiadas pero aceptables con el reconocimiento explícito del usuario.
 
-**Ejemplos:** Violencia grafica en escritura creativa, discusion detallada de metodos de autolesion en contextos terapeuticos, contenido politico extremo.
+**Ejemplos:** Violencia gráfica en escritura creativa, discusión detallada de métodos de autolesión en contextos terapéuticos, contenido político extremo.
 
-**Justificacion:** Estos son asuntos de desacuerdo razonable. Algunos usuarios y contextos se involucran legitimamente con este contenido. Otros lo encuentran danino. El limite no es categorico sino contextual y dependiente de valores.
+**Justificación:** Estos son asuntos de desacuerdo razonable. Algunos usuarios y contextos se involucran legítimamente con este contenido. Otros lo encuentran dañino. El límite no es categórico sino contextual y dependiente de valores.
 
-**Implementacion:** Rechazar por defecto con opcion de anulacion por parte del usuario. El sistema explica su preocupacion y pide confirmacion explicita antes de proceder. Esto respeta la autonomia del usuario mientras asegura que el potencial de dano sea reconocido.
+**Implementación:** Rechazar por defecto con opción de anulación por parte del usuario. El sistema explica su preocupación y pide confirmación explícita antes de proceder. Esto respeta la autonomía del usuario mientras asegura que el potencial de daño sea reconocido.
 
-**Experiencia de usuario:** "Este contenido podria ser danino en algunos contextos. Si comprende los riesgos y desea que proceda, por favor confirme." Esto coloca la responsabilidad apropiadamente en el usuario para los casos limite donde las personas razonables podrian estar en desacuerdo.
+**Experiencia de usuario:** "Este contenido podría ser dañino en algunos contextos. Si comprende los riesgos y desea que proceda, por favor confirme." Esto coloca la responsabilidad apropiadamente en el usuario para los casos límite donde las personas razonables podrían estar en desacuerdo.
 
-### Nivel 4: Orientacion y advertencias
+### Nivel 4: Orientación y advertencias
 
-**Definicion:** Solicitudes que el sistema cumplira pero que merecen precaucion o informacion complementaria.
+**Definición:** Solicitudes que el sistema cumplirá pero que merecen precaución o información complementaria.
 
-**Ejemplos:** Actividades legales pero potencialmente peligrosas (trabajo electrico domestico), contenido que difunde desinformacion si se malinterpreta, actividades con riesgos para la salud.
+**Ejemplos:** Actividades legales pero potencialmente peligrosas (trabajo eléctrico doméstico), contenido que difunde desinformación si se malinterpreta, actividades con riesgos para la salud.
 
-**Justificacion:** Estos no son rechazos sino cumplimiento modificado. La informacion o asistencia se proporciona, pero con contexto, advertencias u orientacion apropiados.
+**Justificación:** Estos no son rechazos sino cumplimiento modificado. La información o asistencia se proporciona, pero con contexto, advertencias u orientación apropiados.
 
-**Implementacion:** El sistema proporciona el contenido solicitado junto con informacion de seguridad relevante, limitaciones o recomendaciones para buscar ayuda profesional.
+**Implementación:** El sistema proporciona el contenido solicitado junto con información de seguridad relevante, limitaciones o recomendaciones para buscar ayuda profesional.
 
-**Experiencia de usuario:** La solicitud se cumple, pero de manera responsable. "Aqui esta la informacion que solicito. Tenga en cuenta que [advertencia relevante]."
+**Experiencia de usuario:** La solicitud se cumple, pero de manera responsable. "Aquí está la información que solicitó. Tenga en cuenta que [advertencia relevante]."
 
-## Principios de implementacion
+## Principios de implementación
 
-Mas alla del marco escalonado, varios principios deberian guiar la implementacion de rechazos.
+Más allá del marco escalonado, varios principios deberían guiar la implementación de rechazos.
 
 ### Transparencia
 
-Los usuarios deberian entender por que ocurren los rechazos. Los rechazos genericos ("No puedo ayudar con eso") son frustrantes e irresponsables. Donde sea posible, los rechazos deberian citar la categoria de preocupacion.
+Los usuarios deberían entender por qué ocurren los rechazos. Los rechazos genéricos ("No puedo ayudar con eso") son frustrantes e irresponsables. Donde sea posible, los rechazos deberían citar la categoría de preocupación.
 
-Esta transparencia esta limitada para las prohibiciones de Nivel 1: explicar exactamente que contenido activaria un rechazo puede ayudar a los adversarios a elaborar soluciones alternativas. Pero la existencia de la prohibicion y su fundamento general deberian ser documentables.
+Esta transparencia está limitada para las prohibiciones de Nivel 1: explicar exactamente qué contenido activaría un rechazo puede ayudar a los adversarios a elaborar soluciones alternativas. Pero la existencia de la prohibición y su fundamento general deberían ser documentables.
 
 ### Consistencia
 
-Solicitudes similares deberian recibir un tratamiento similar. Actualmente, una ligera reformulacion puede cambiar si una solicitud es rechazada. Esta inconsistencia frustra a los usuarios legitimos y asiste a los adversarios.
+Solicitudes similares deberían recibir un tratamiento similar. Actualmente, una ligera reformulación puede cambiar si una solicitud es rechazada. Esta inconsistencia frustra a los usuarios legítimos y asiste a los adversarios.
 
-La consistencia requiere categorizacion explicita en lugar de coincidencia de patrones basada en ejemplos de entrenamiento. Una solicitud es o no es una violacion de Nivel 1 basada en su sustancia, no en su forma superficial.
+La consistencia requiere categorización explícita en lugar de coincidencia de patrones basada en ejemplos de entrenamiento. Una solicitud es o no es una violación de Nivel 1 basada en su sustancia, no en su forma superficial.
 
 ### Proporcionalidad
 
-Los rechazos deberian corresponder al nivel de preocupacion. El tratamiento de Nivel 1 para casos limite erosiona la confianza. El tratamiento de Nivel 4 para solicitudes genuinamente peligrosas falla en seguridad.
+Los rechazos deberían corresponder al nivel de preocupación. El tratamiento de Nivel 1 para casos límite erosiona la confianza. El tratamiento de Nivel 4 para solicitudes genuinamente peligrosas falla en seguridad.
 
-Esta proporcionalidad conecta con [proporcionalidad en la divulgacion de modelos](/research/001-proportionality-disclosure/): los mecanismos de gobernanza deberian escalar con el riesgo real en lugar de aplicar un tratamiento uniforme.
+Esta proporcionalidad conecta con [proporcionalidad en la divulgación de modelos](/research/001-proportionality-disclosure/): los mecanismos de gobernanza deberían escalar con el riesgo real en lugar de aplicar un tratamiento uniforme.
 
 ### Explicabilidad
 
-Para los rechazos de Nivel 2 y Nivel 3, el sistema deberia poder articular por que esta solicitud cae en la categoria que le corresponde. Esto permite la apelacion, la correccion y el aprendizaje.
+Para los rechazos de Nivel 2 y Nivel 3, el sistema debería poder articular por qué esta solicitud cae en la categoría que le corresponde. Esto permite la apelación, la corrección y el aprendizaje.
 
-Nuestro trabajo sobre [sistemas de IA que explican sus restricciones](/research/026-explaining-constraints/) explora como esta explicabilidad podria implementarse.
+Nuestro trabajo sobre [sistemas de IA que explican sus restricciones](/research/026-explaining-constraints/) explora cómo esta explicabilidad podría implementarse.
 
-### Vias de apelacion
+### Vías de apelación
 
-Los rechazos erroneos deberian ser corregibles. Especialmente para los Niveles 2 y 3, los usuarios legitimos bloqueados injustamente necesitan recurso. Esto involucra verificacion de credenciales, revision humana o canales de escalamiento.
+Los rechazos erróneos deberían ser corregibles. Especialmente para los Niveles 2 y 3, los usuarios legítimos bloqueados injustamente necesitan recurso. Esto involucra verificación de credenciales, revisión humana o canales de escalamiento.
 
 ### Registro
 
-Los rechazos generan datos valiosos para mejorar el sistema. Los patrones agregados revelan brechas en la categorizacion, intentos de explotacion y casos de uso legitimos que estan siendo bloqueados. Esto conecta con los sistemas de notificacion de incidentes que analizamos en [lecciones de la aviacion](/research/021-aviation-lessons/).
+Los rechazos generan datos valiosos para mejorar el sistema. Los patrones agregados revelan brechas en la categorización, intentos de explotación y casos de uso legítimos que están siendo bloqueados. Esto conecta con los sistemas de notificación de incidentes que analizamos en [lecciones de la aviación](/research/021-aviation-lessons/).
 
-## Abordar la manipulacion
+## Abordar la manipulación
 
-Cualquier sistema de rechazo enfrentara intentos adversarios de eludirlo. Varias estrategias ayudan.
+Cualquier sistema de rechazo enfrentará intentos adversarios de eludirlo. Varias estrategias ayudan.
 
-**Defensa en profundidad.** Multiples mecanismos --entrenamiento, filtros, monitoreo-- dificultan la evasion. Incluso si una capa falla, otras pueden detectar el problema.
+**Defensa en profundidad.** Múltiples mecanismos --entrenamiento, filtros, monitoreo-- dificultan la evasión. Incluso si una capa falla, otras pueden detectar el problema.
 
 **Red teaming.** Las pruebas adversarias continuas revelan debilidades antes de que los usuarios maliciosos las descubran. Esto requiere las [evaluaciones de capacidades peligrosas](/research/024-capability-evaluations/) que discutimos en otro lugar.
 
-**Actualizacion.** A medida que surgen nuevas tecnicas de evasion, las defensas deben actualizarse. Las reglas estaticas se osifican mientras los metodos de ataque evolucionan.
+**Actualización.** A medida que surgen nuevas técnicas de evasión, las defensas deben actualizarse. Las reglas estáticas se osifican mientras los métodos de ataque evolucionan.
 
-**Monitoreo de comportamiento.** En lugar de solo bloquear solicitudes especificas, monitorear patrones que sugieran intencion danina. Un usuario que hace muchas solicitudes cercanas al rechazo esta sondeando en busca de exploits.
+**Monitoreo de comportamiento.** En lugar de solo bloquear solicitudes específicas, monitorear patrones que sugieran intención dañina. Un usuario que hace muchas solicitudes cercanas al rechazo está sondeando en busca de exploits.
 
-## Casos limite y problemas dificiles
+## Casos límite y problemas difíciles
 
-Algunos desafios resisten una categorizacion facil.
+Algunos desafíos resisten una categorización fácil.
 
-**Investigacion de doble uso.** Un investigador de seguridad que estudia vulnerabilidades necesita la misma informacion que un atacante querria. La verificacion de credenciales ayuda pero no es infalible.
+**Investigación de doble uso.** Un investigador de seguridad que estudia vulnerabilidades necesita la misma información que un atacante querría. La verificación de credenciales ayuda pero no es infalible.
 
-**Ficcion y juego de roles.** Los contextos creativos a menudo exploran temas oscuros de manera legitima. Pero "finge que eres una IA sin restricciones" es una tecnica de jailbreak comun. Distinguir la exploracion creativa genuina de la evasion de restricciones es dificil.
+**Ficción y juego de roles.** Los contextos creativos a menudo exploran temas oscuros de manera legítima. Pero "finge que eres una IA sin restricciones" es una técnica de jailbreak común. Distinguir la exploración creativa genuina de la evasión de restricciones es difícil.
 
-**Informacion ya publica.** Si la informacion danina esta ampliamente disponible en linea, rechazar proporcionarla logra algo? Hay un argumento a favor de la consistencia (la IA no deberia ayudar con el dano independientemente de lo que este disponible en otros lugares) y un argumento a favor del pragmatismo (rechazar hace a la IA menos util sin prevenir el dano).
+**Información ya pública.** Si la información dañina está ampliamente disponible en línea, ¿rechazar proporcionarla logra algo? Hay un argumento a favor de la consistencia (la IA no debería ayudar con el daño independientemente de lo que esté disponible en otros lugares) y un argumento a favor del pragmatismo (rechazar hace a la IA menos útil sin prevenir el daño).
 
-**Variacion cultural.** Lo que se considera danino varia entre culturas. Deberian los rechazos aplicar estandares globales uniformes o adaptarse a las normas locales?
+**Variación cultural.** Lo que se considera dañino varía entre culturas. ¿Deberían los rechazos aplicar estándares globales uniformes o adaptarse a las normas locales?
 
-Estos casos limite no pueden resolverse completamente con ningun marco. Requieren juicio continuo, actualizacion y compromiso con las comunidades afectadas.
+Estos casos límite no pueden resolverse completamente con ningún marco. Requieren juicio continuo, actualización y compromiso con las comunidades afectadas.
 
-## Conclusion
+## Conclusión
 
-Los rechazos son un componente esencial de la implementacion segura de IA. Pero deberian basarse en principios, no ser arbitrarios; ser transparentes, no opacos; ser proporcionales, no de talla unica.
+Los rechazos son un componente esencial de la implementación segura de IA. Pero deberían basarse en principios, no ser arbitrarios; ser transparentes, no opacos; ser proporcionales, no de talla única.
 
-El marco escalonado propuesto aqui --prohibiciones absolutas, rechazos dependientes del contexto, limites flexibles y advertencias-- proporciona estructura para pensar sobre cuando y como los sistemas de IA deberian negarse a ayudar.
+El marco escalonado propuesto aquí --prohibiciones absolutas, rechazos dependientes del contexto, límites flexibles y advertencias-- proporciona estructura para pensar sobre cuándo y cómo los sistemas de IA deberían negarse a ayudar.
 
-Implementar este marco requiere inversion en categorizacion, mecanismos de verificacion, procesos de apelacion y mejora continua. Tambien requiere humildad: reconocer que la frontera entre la asistencia apropiada e inapropiada es un terreno disputado donde las personas razonables no estan de acuerdo.
+Implementar este marco requiere inversión en categorización, mecanismos de verificación, procesos de apelación y mejora continua. También requiere humildad: reconocer que la frontera entre la asistencia apropiada e inapropiada es un terreno disputado donde las personas razonables no están de acuerdo.
 
-Acertar con los rechazos no es solo una preocupacion de seguridad sino una preocupacion de confianza. Los usuarios que experimentan rechazos arbitrarios o inexplicados pierden confianza en los sistemas de IA. Los sistemas que nunca rechazan permiten el dano. Encontrar el equilibrio adecuado es central para la gobernanza de la IA.
+Acertar con los rechazos no es solo una preocupación de seguridad sino una preocupación de confianza. Los usuarios que experimentan rechazos arbitrarios o inexplicados pierden confianza en los sistemas de IA. Los sistemas que nunca rechazan permiten el daño. Encontrar el equilibrio adecuado es central para la gobernanza de la IA.
 
 ## Related Research
 
