@@ -1,5 +1,24 @@
 [
   {
+    "id": 103,
+    "title": "The Alignment Tax: Who Pays for Safety?",
+    "excerpt": "Exploring the economic and ethical implications of the 'alignment tax' in AI development, and who ultimately bears the cost of ensuring safe AI systems.",
+    "slug": "103-the-alignment-tax-who-pays-for-safety",
+    "date": "2026-02-08",
+    "tags": [
+      "alignment tax",
+      "ai safety",
+      "regulation",
+      "economic incentives",
+      "governance"
+    ],
+    "categories": [
+      "AI Governance",
+      "Economic Analysis"
+    ],
+    "body": "Introduction: What is the Alignment Tax? As artificial intelligence systems become more advanced, ensuring their safe and ethical operation has emerged as a central challenge for policymakers, researchers, and developers alike. Safety measures—such as value alignment, interpretability, robustness testing, and red-teaming—often require significant resources. These measures, critical to reducing the risks of harm from AI, come at a financial and temporal cost. This cost is increasingly referred to"
+  },
+  {
     "id": 102,
     "title": "Agent-to-Agent Economics: Unregulated Markets at Machine Speed",
     "excerpt": "Exploring the emergence of autonomous economic interactions between AI agents, addressing their implications for market governance, safety, and regulation in an era of unprecedented speed.",

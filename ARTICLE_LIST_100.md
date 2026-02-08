@@ -148,7 +148,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 102. [x] Agent-to-Agent Economics: Unregulated Markets at Machine Speed [R]
     AI agents autonomously procuring services from other agents create an unregulated economic layer where standard contract law does not apply because neither party has legal standing.
 
-103. [ ] The Alignment Tax: Who Pays for Safety? [R][P]
+103. [x] The Alignment Tax: Who Pays for Safety? [R][P]
     Safety and alignment impose costs that create race-to-the-bottom dynamics unless governance imposes a floor; this article analyzes economic mechanisms that could make alignment profitable.
 
 104. [ ] Synthetic Data Recursion and Epistemic Collapse [R]

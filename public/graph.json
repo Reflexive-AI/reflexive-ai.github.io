@@ -158,6 +158,11 @@
           "title": "The Legal Personhood of Ephemeral Agent Swarms",
           "slug": "/research/101-the-legal-personhood-of-ephemeral-agent-swarms",
           "excerpt": "Examining the challenges and implications of granting legal personhood to transient, multi-agent AI systems operating as cohesive units."
+        },
+        {
+          "title": "The Alignment Tax: Who Pays for Safety?",
+          "slug": "/research/103-the-alignment-tax-who-pays-for-safety",
+          "excerpt": "Exploring the economic and ethical implications of the 'alignment tax' in AI development, and who ultimately bears the cost of ensuring safe AI systems."
         }
       ]
     },
@@ -1699,6 +1704,11 @@
           "title": "The Reflexive AI Initiative: Mission and Methods",
           "slug": "/research/099-reflexive-ai-mission-methods",
           "excerpt": "What the Reflexive AI Initiative is, why it exists, and how it works. A self-portrait of a research project that applies its own governance thesis to itself."
+        },
+        {
+          "title": "The Alignment Tax: Who Pays for Safety?",
+          "slug": "/research/103-the-alignment-tax-who-pays-for-safety",
+          "excerpt": "Exploring the economic and ethical implications of the 'alignment tax' in AI development, and who ultimately bears the cost of ensuring safe AI systems."
         }
       ]
     },
@@ -2368,7 +2378,7 @@
       "id": "ai safety",
       "title": "AI safety",
       "group": "concept",
-      "val": 13,
+      "val": 15,
       "articles": [
         {
           "title": "Differential Privacy in AI Systems",
@@ -2389,6 +2399,11 @@
           "title": "Long-Term AI Futures: Scenario Planning",
           "slug": "/research/090-long-term-ai-futures-scenario-planning",
           "excerpt": "Exploring scenario planning as a method for navigating the uncertainties of long-term AI development and its societal implications."
+        },
+        {
+          "title": "The Alignment Tax: Who Pays for Safety?",
+          "slug": "/research/103-the-alignment-tax-who-pays-for-safety",
+          "excerpt": "Exploring the economic and ethical implications of the 'alignment tax' in AI development, and who ultimately bears the cost of ensuring safe AI systems."
         }
       ]
     },
@@ -4111,6 +4126,32 @@
           "excerpt": "Exploring the emergence of autonomous economic interactions between AI agents, addressing their implications for market governance, safety, and regulation in an era of unprecedented speed."
         }
       ]
+    },
+    {
+      "id": "alignment tax",
+      "title": "alignment tax",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Alignment Tax: Who Pays for Safety?",
+          "slug": "/research/103-the-alignment-tax-who-pays-for-safety",
+          "excerpt": "Exploring the economic and ethical implications of the 'alignment tax' in AI development, and who ultimately bears the cost of ensuring safe AI systems."
+        }
+      ]
+    },
+    {
+      "id": "economic incentives",
+      "title": "economic incentives",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Alignment Tax: Who Pays for Safety?",
+          "slug": "/research/103-the-alignment-tax-who-pays-for-safety",
+          "excerpt": "Exploring the economic and ethical implications of the 'alignment tax' in AI development, and who ultimately bears the cost of ensuring safe AI systems."
+        }
+      ]
     }
   ],
   "links": [
@@ -5682,7 +5723,7 @@
     {
       "source": "ai safety",
       "target": "governance",
-      "value": 2
+      "value": 3
     },
     {
       "source": "governance",
@@ -7077,7 +7118,7 @@
     {
       "source": "ai safety",
       "target": "regulation",
-      "value": 1
+      "value": 2
     },
     {
       "source": "ai-governance",
@@ -7622,6 +7663,41 @@
     {
       "source": "economic automation",
       "target": "machine agency",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "alignment tax",
+      "value": 1
+    },
+    {
+      "source": "alignment tax",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "alignment tax",
+      "target": "economic incentives",
+      "value": 1
+    },
+    {
+      "source": "alignment tax",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "economic incentives",
+      "value": 1
+    },
+    {
+      "source": "economic incentives",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "economic incentives",
+      "target": "governance",
       "value": 1
     }
   ]
