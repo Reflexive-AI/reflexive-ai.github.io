@@ -139,11 +139,6 @@ const terms = [
     related: ["Derechos de datos", "Sesgo"]
   },
   {
-    term: "Defensa de datos",
-    definition: "Derechos legales y éticos respecto a los datos personales utilizados en sistemas de IA, incluyendo derechos de acceso, rectificación y supresión.",
-    related: ["Privacidad", "Consentimiento"]
-  },
-  {
     term: "Democratización",
     definition: "Esfuerzos para hacer que las capacidades y beneficios de la IA sean más ampliamente accesibles en la sociedad, reduciendo la concentración y las barreras.",
     related: ["IA de código abierto", "Acceso"]
@@ -519,11 +514,6 @@ const terms = [
     related: ["Gobernanza multi-actor", "Alfabetización en IA"]
   },
   {
-    term: "Pesos abiertos",
-    definition: "Ver: Modelo de código abierto con pesos abiertos (open weight).",
-    related: ["IA abierta", "Transparencia"]
-  },
-  {
     term: "Privacidad",
     definition: "La protección de la información personal en los sistemas de IA, incluyendo los datos utilizados para el entrenamiento, las interacciones de los usuarios y los resultados generados.",
     related: ["Derechos de datos", "RGPD"]
@@ -667,6 +657,31 @@ const terms = [
     term: "Uso indebido",
     definition: "El uso intencional de sistemas de IA para fines perjudiciales, incluyendo aplicaciones maliciosas que violan normas éticas o leyes.",
     related: ["Doble uso", "Seguridad"]
+  },
+  {
+    term: "Inteligencia Artificial General (IAG)",
+    definition: "Un sistema de IA hipotético que iguala o supera las capacidades cognitivas humanas en prácticamente todos los dominios. Se distingue de la IA estrecha y la IA frontera por su generalidad de capacidad.",
+    related: ["IA frontera (frontier AI)", "Alineación", "Evaluaciones de capacidad"]
+  },
+  {
+    term: "Consciencia de la IA",
+    definition: "La cuestión debatida sobre si los sistemas de IA pueden poseer experiencia subjetiva, sensibilidad o consciencia fenomenal. Relevante para las políticas porque las afirmaciones de consciencia de la IA — sean genuinas o estratégicas — podrían remodelar los marcos legales, el discurso de derechos y la percepción pública.",
+    related: ["Alineación", "Líneas rojas", "Inteligencia Artificial General (IAG)"]
+  },
+  {
+    term: "Impuesto de alineación",
+    definition: "Los costes adicionales — en computación, latencia, capacidad reducida o tiempo de desarrollo — derivados de implementar medidas de seguridad y alineación en sistemas de IA. Plantea preguntas sobre quién asume estos costes y cómo afectan las dinámicas competitivas.",
+    related: ["Seguridad de la IA", "Alineación", "Gobernanza computacional"]
+  },
+  {
+    term: "Sistemas multiagente",
+    definition: "Arquitecturas en las que múltiples agentes de IA interactúan, coordinan o compiten para realizar tareas. Plantean desafíos de gobernanza relacionados con la rendición de cuentas, el comportamiento emergente y los fallos de acción colectiva.",
+    related: ["IA agéntica (agentic AI)", "Rendición de cuentas", "Comportamiento emergente"]
+  },
+  {
+    term: "Automejora recursiva",
+    definition: "La capacidad teórica de un sistema de IA para modificar iterativamente su propia arquitectura, entrenamiento u objetivos para aumentar sus capacidades sin intervención humana directa.",
+    related: ["Inteligencia Artificial General (IAG)", "Alineación", "Seguridad de la IA"]
   }
 ].sort((a, b) => a.term.localeCompare(b.term, 'es'));
 ---

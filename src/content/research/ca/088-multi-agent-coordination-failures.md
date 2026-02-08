@@ -1,6 +1,6 @@
 ---
-title: "Fallades de coordinacio en sistemes multiagent"
-excerpt: "Exploracio de les dinamiques, els riscos i els desafiaments de governanca de les fallades de coordinacio entre sistemes d'IA en entorns multiagent."
+title: "Fallades de coordinació en sistemes multiagent"
+excerpt: "Exploració de les dinàmiques, els riscos i els desafiaments de governança de les fallades de coordinació entre sistemes d'IA en entorns multiagent."
 date: 2026-02-06
 toc: true
 categories:
@@ -14,8 +14,8 @@ tags:
 version: "1.0"
 ---
 
-**Reflexive Research Object 088**  
-*Type: Research*
+**Objecte de Recerca Reflexiva 088**  
+*Tipus: Recerca*
 
 ## Introduccio
 

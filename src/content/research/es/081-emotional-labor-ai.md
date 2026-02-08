@@ -13,6 +13,9 @@ tags:
   - companionship
 ---
 
+**Objeto de Investigación Reflexiva 081**
+**Tipo: Investigación**
+
 ## La nueva relacion
 
 Algo sin precedentes esta ocurriendo. Millones de personas estan formando vinculos emocionales con sistemas de IA.

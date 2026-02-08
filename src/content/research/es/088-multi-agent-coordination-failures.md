@@ -14,8 +14,8 @@ tags:
 version: "1.0"
 ---
 
-**Reflexive Research Object 088**  
-*Type: Research*
+**Objeto de Investigación Reflexiva 088**  
+*Tipo: Investigación*
 
 ## Introduccion
 

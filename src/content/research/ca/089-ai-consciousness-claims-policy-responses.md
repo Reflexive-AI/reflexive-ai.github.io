@@ -1,6 +1,6 @@
 ---
-title: "Afirmacions de consciencia en la IA: respostes de politica publica"
-excerpt: "Exploracio dels desafiaments de governanca que plantegen els sistemes d'IA que afirmen tenir consciencia, i avaluacio de les estrategies reguladores per abordar aquestes afirmacions de manera efectiva."
+title: "Afirmacions de consciència en la IA: respostes de política pública"
+excerpt: "Exploració dels desafiaments de governança que plantegen els sistemes d'IA que afirmen tenir consciència, i avaluació de les estratègies reguladores per abordar aquestes afirmacions de manera efectiva."
 date: 2026-02-06
 toc: true
 categories:
@@ -14,8 +14,8 @@ tags:
 version: "1.0"
 ---
 
-**Reflexive Research Object 089**  
-*Type: Governance Analysis*
+**Objecte de Recerca Reflexiva 089**  
+*Tipus: Anàlisi de Governança*
 
 ## Introduccio
 

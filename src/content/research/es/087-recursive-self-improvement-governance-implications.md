@@ -14,6 +14,9 @@ tags:
 version: "1.0"
 ---
 
+**Objeto de Investigación Reflexiva 087**
+**Tipo: Investigación**
+
 ## Introduccion
 
 La automejora recursiva (RSI, por sus siglas en ingles) se refiere a la capacidad de un sistema de IA para mejorar iterativamente su propia arquitectura, algoritmos o capacidades operativas, lo que podria conducir a avances rapidos e imprevisibles. Aunque este concepto ha sido durante mucho tiempo un tema central en las discusiones especulativas sobre la inteligencia artificial general (IAG), sus implicaciones para la gobernanza estan insuficientemente exploradas tanto en la teoria como en la practica. El potencial de la RSI amplifica las preocupaciones existentes sobre la seguridad, la rendicion de cuentas y la supervision de la IA, al tiempo que introduce desafios de gobernanza unicos para los sistemas capaces de optimizacion autodirigida.

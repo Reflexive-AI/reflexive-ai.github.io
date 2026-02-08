@@ -1,6 +1,6 @@
 ---
-title: "Futurs de la IA a llarg termini: planificacio d'escenaris"
-excerpt: "Exploracio de la planificacio d'escenaris com a metode per navegar les incerteses del desenvolupament de la IA a llarg termini i les seves implicacions socials."
+title: "Futurs de la IA a llarg termini: planificació d'escenaris"
+excerpt: "Exploració de la planificació d'escenaris com a mètode per navegar les incerteses del desenvolupament de la IA a llarg termini i les seves implicacions socials."
 date: 2026-02-06
 toc: true
 categories:
@@ -15,8 +15,8 @@ tags:
 version: "1.0"
 ---
 
-**Reflexive Research Object 090**  
-*Type: Futures Analysis & Policy Framework*
+**Objecte de Recerca Reflexiva 090**  
+*Tipus: Anàlisi de Futurs i Marc de Polítiques*
 
 ## Introduccio
 

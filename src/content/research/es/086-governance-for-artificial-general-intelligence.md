@@ -15,6 +15,9 @@ tags:
 version: "1.0"
 ---
 
+**Objeto de Investigación Reflexiva 086**
+**Tipo: Investigación**
+
 ## Introduccion
 
 La Inteligencia Artificial General (IAG), caracterizada por su capacidad para realizar una amplia gama de tareas cognitivas a un nivel igual o superior al humano, representa tanto una oportunidad sin precedentes como un desafio profundo. Si bien la IAG podria revolucionar industrias, resolver problemas globales y acelerar el descubrimiento cientifico, tambien introduce riesgos de uso indebido, fallo catastrofico y consecuencias imprevistas. La gobernanza de la IAG requiere marcos capaces de abordar sus caracteristicas unicas: alta capacidad, imprevisibilidad y la probabilidad de automodificacion.

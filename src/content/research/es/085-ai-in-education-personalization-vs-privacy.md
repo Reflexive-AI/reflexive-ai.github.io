@@ -15,8 +15,8 @@ tags:
 version: "1.0"
 ---
 
-**Reflexive Research Object 085**  
-*Type: Research & Policy*
+**Objeto de Investigación Reflexiva 085**  
+*Tipo: Investigación y Políticas*
 
 ## Introduccion
 

@@ -15,8 +15,8 @@ tags:
 version: "1.0"
 ---
 
-**Reflexive Research Object 090**  
-*Type: Futures Analysis & Policy Framework*
+**Objeto de Investigación Reflexiva 090**  
+*Tipo: Análisis de Futuros y Marco de Políticas*
 
 ## Introduccion
 

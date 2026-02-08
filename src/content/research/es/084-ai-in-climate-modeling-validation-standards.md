@@ -15,8 +15,8 @@ tags:
 version: "1.0"
 ---
 
-**Reflexive Research Object 084**  
-*Type: Research & AI-Focused*
+**Objeto de Investigación Reflexiva 084**  
+*Tipo: Investigación y Enfoque en IA*
 
 ## Introduccion
 

@@ -14,8 +14,8 @@ tags:
 version: "1.0"
 ---
 
-**Reflexive Research Object 089**  
-*Type: Governance Analysis*
+**Objeto de Investigación Reflexiva 089**  
+*Tipo: Análisis de Gobernanza*
 
 ## Introduccion
 

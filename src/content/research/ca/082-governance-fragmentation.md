@@ -1,6 +1,6 @@
 ---
-title: "Fragmentacio de la governanca: massa marcs, insuficient coherencia"
-excerpt: "El panorama de la governanca de la IA esta saturat de marcs: principis, directrius, regulacions i propostes proliferen. Aquesta abundancia genera incoherencia. Com sintetitzar sense estandarditzar prematurament?"
+title: "Fragmentació de la governança: massa marcs, insuficient coherència"
+excerpt: "El panorama de la governança de la IA està saturat de marcs: principis, directrius, regulacions i propostes proliferen. Aquesta abundància genera incoherència. Com sintetitzar sense estandarditzar prematurament?"
 date: 2026-02-04
 categories:
   - Governance Analysis
@@ -15,135 +15,135 @@ tags:
 
 ## El panorama saturat
 
-Compteu els marcs de governanca de la IA. La Llei d'IA de la UE. El Marc de Gestio de Riscos d'IA del NIST. Els Principis d'IA de l'OCDE. La Declaracio de Bletchley. Els estandards de l'IEEE. Els estandards de l'ISO. Els compromisos de la industria. Les propostes academiques. Les directrius de la societat civil. Les estrategies nacionals de desenes de paisos.
+Compteu els marcs de governança de la IA. La Llei d'IA de la UE. El Marc de Gestió de Riscos d'IA del NIST. Els Principis d'IA de l'OCDE. La Declaració de Bletchley. Els estàndards de l'IEEE. Els estàndards de l'ISO. Els compromisos de la indústria. Les propostes acadèmiques. Les directrius de la societat civil. Les estratègies nacionals de desenes de països.
 
-La llista creix setmanalment. Cada nou marc promet estructura, claredat i orientacio. Cadascun s'afegeix al cumul que els professionals han de navegar d'alguna manera.
+La llista creix setmanalment. Cada nou marc promet estructura, claredat i orientació. Cadascun s'afegeix al cúmul que els professionals han de navegar d'alguna manera.
 
-Aixo es la fragmentacio de la governanca: no absencia de governanca, sino una governanca excessiva, descoordinada i potencialment contradictoria. El problema no es que ningu governi la IA, sino que tothom ho fa, de manera diferent.
+Això és la fragmentació de la governança: no absència de governança, sinó una governança excessiva, descoordinada i potencialment contradiçtòria. El problema no és que ningú governi la IA, sinó que tothom ho fa, de manera diferent.
 
-## Per que es produeix la fragmentacio
+## Per què es produeix la fragmentació
 
-La fragmentacio te causes comprensibles.
+La fragmentació té causes comprensibles.
 
-### Jurisdiccio
+### Jurisdicció
 
-Diferents jurisdiccions tenen autoritat sobre els seus territoris. La UE regula per a Europa. Els Estats Units regulen per a America. La Xina regula per a la Xina. Ningu te autoritat global.
+Diferents jurisdiccions tenen autoritat sobre els seus territoris. La UE regula per a Europa. Els Estats Units regulen per a Amèrica. La Xina regula per a la Xina. Ningú té autoritat global.
 
-Aixo produeix una variacio legitima. Les comunitats democratiques poden regular de manera diferent segons valors distints. Aixo no es un fracas, sino pluralisme.
+Això produeix una variació legítima. Les comunitats democràtiques poden regular de manera diferent segons valors distints. Això no és un fracàs, sinó pluralisme.
 
-Pero crea reptes de navegacio per als actors globals.
+Però crea reptes de navegació per als actors globals.
 
 ### Institucions
 
-Dins de les jurisdiccions, multiples institucions reclamen rellevancia. Les autoritats de proteccio de dades, els reguladors de competencia, les agencies sectorials i els legisladors afirmen tots tenir-hi un paper.
+Dins de les jurisdiccions, múltiples institucions reclamen rellevància. Les autoritats de protecció de dades, els reguladors de competència, les agències sectorials i els legisladors afirmen tots tenir-hi un paper.
 
-Cada institucio aporta la seva experiencia i perspectiva. Cadascuna tambe exhibeix comportament territorial i errors de coordinacio.
+Cada institució aporta la seva experiència i perspectiva. Cadascuna també exhibeix comportament territorial i errors de coordinació.
 
 ### Parts interessades
 
-Diferents parts interessades proposen marcs que reflecteixen els seus interessos. Els marcs de la industria emfatitzen la innovacio i l'autoregulacio. Els marcs de la societat civil emfatitzen els drets i la rendicio de comptes. Els marcs academics emfatitzen el rigor i l'agenda de recerca.
+Diferents parts interessades proposen marcs que reflecteixen els seus interessos. Els marcs de la indústria emfatitzen la innovació i l'autoregulació. Els marcs de la societat civil emfatitzen els drets i la rendició de comptes. Els marcs acadèmics emfatitzen el rigor i l'agenda de recerca.
 
-Aquesta diversitat aporta contribucions. Tambe produeix proliferacio.
+Aquesta diversitat aporta contribucions. També produeix proliferació.
 
 ### Novetat i incertesa
 
-La governanca de la IA es nova. Ningu coneix la resposta correcta. Diferents actors experimenten amb diferents enfocaments. Aquesta experimentacio es valuosa fins que la sintesi es fa possible.
+La governança de la IA és nova. Ningú coneix la resposta correcta. Diferents actors experimenten amb diferents enfocaments. Aquesta experimentació és valuosa fins que la síntesi es fa possible.
 
-Pero la sintesi es lenta. L'experimentacio continua indefinidament.
+Però la síntesi és lenta. L'experimentació continua indefinidament.
 
-### Senyalitzacio
+### Senyalització
 
-Llancar un marc senyalitza compromis. Les organitzacions i els governs publiquen marcs en part per demostrar que estan fent alguna cosa. El contingut importa menys que la demostracio.
+Llançar un marc senyalitza compromís. Les organitzacions i els governs publiquen marcs en part per demostrar que estan fent alguna cosa. El contingut importa menys que la demostració.
 
-Aixo crea incentius per a la proliferacio fins i tot quan els marcs marginals aporten poc valor.
+Això crea incentius per a la proliferació fins i tot quan els marcs marginals aporten poc valor.
 
-## Costos de la fragmentacio
+## Costos de la fragmentació
 
-La fragmentacio te costos.
+La fragmentació té costos.
 
-### Carrega de compliment
+### Càrrega de compliment
 
-Les organitzacions han de navegar multiples marcs superposats. Els recursos de compliment es gasten en comprendre quins marcs s'apliquen, en que difereixen i com satisfer-los tots simultaneament.
+Les organitzacions han de navegar múltiples marcs superposats. Els recursos de compliment es gasten en comprendre quins marcs s'apliquen, en què difereixen i com satisfer-los tots simultàniament.
 
-[Els actors petits afronten una carrega desproporcionada](/research/075-small-actor-problem/). Les grans organitzacions poden contractar equips per gestionar la complexitat. Les organitzacions petites no poden.
+[Els actors petits afronten una càrrega desproporcionada](/research/075-small-actor-problem/). Les grans organitzacions poden contractar equips per gestionar la complexitat. Les organitzacions petites no poden.
 
 ### Buits i contradiccions
 
-Els marcs poden contradir-se entre si. Un pot exigir una divulgacio que un altre prohibeix. Un pot fomentar practiques que un altre considera arriscades.
+Els marcs poden contradir-se entre si. Un pot exigir una divulgació que un altre prohibeix. Un pot fomentar pràctiques que un altre considera arriscades.
 
-Fins i tot sense contradiccio, la cobertura pot ser desigual. Qüestions critiques poden quedar entre marcs, sense ser abordades per cap.
+Fins i tot sense contradicció, la cobertura pot ser desigual. Qüestions crítiques poden quedar entre marcs, sense ser abordades per cap.
 
-### Seleccio de fòrum
+### Selecció de fòrum
 
-Els actors poden triar quins marcs invocar, emfatitzant els favorables i ignorant els desfavorables. Aixo no es compliment, sino enquadrament selectiu.
+Els actors poden triar quins marcs invocar, emfatitzant els favorables i ignorant els desfavorables. Això no és compliment, sinó enquadrament selectiu.
 
-[L'arbitratge regulatori](/research/008-regulatory-arbitrage/) opera dins de les jurisdiccions i entre elles quan multiples marcs ofereixen restriccions diferents.
+[L'arbitratge regulatori](/research/008-regulatory-arbitrage/) opera dins de les jurisdiccions i entre elles quan múltiples marcs ofereixen restriccions diferents.
 
-### Implementacio superficial
+### Implementació superficial
 
-Quan massa marcs demanden atencio, cadascun rep una implementacio superficial. Les organitzacions satisfan els requisits formals sense un compromis substantiu.
+Quan massa marcs demanden atenció, cadascun rep una implementació superficial. Les organitzacions satisfan els requisits formals sense un compromís substantiu.
 
-Els recursos distribuits de manera dispersa produeixen teatre de compliment en lloc de governanca significativa.
+Els recursos distribuïts de manera dispersa produeixen teatre de compliment en lloc de governança significativa.
 
-### Confusio
+### Confusió
 
-Els externs, inclos el public, no poden comprendre un panorama fragmentat. Si els experts no poden articular quins marcs importen i com es relacionen, la confianca en la governanca mateixa s'erosiona.
+Els externs, inclòs el públic, no poden comprendre un panorama fragmentat. Si els experts no poden articular quins marcs importen i com es relacionen, la confiança en la governança mateixa s'erosiona.
 
-## Enfocaments cap a la coherencia
+## Enfocaments cap a la coherència
 
-Com es podria aconseguir coherencia sense estandarditzacio prematura?
+Com es podria aconseguir coherència sense estandardització prematura?
 
-### Mapatge i comparacio
+### Mapatge i comparació
 
-Abans de la sintesi, necessitem comprensio. Un mapatge sistematic dels marcs, que identifiqui superposicions, buits i contradiccions, proporciona la base per a la coherencia.
+Abans de la síntesi, necessitem comprensió. Un mapatge sistemàtic dels marcs, que identifiqui superposicions, buits i contradiccions, proporciona la base per a la coherència.
 
-Diverses organitzacions ho intenten: enquestes de principis d'IA, analisis comparatives de regulacions, documents de correspondencia que relacionen diferents marcs.
+Diverses organitzacions ho intenten: enquestes de principis d'IA, anàlisis comparatives de regulacions, documents de correspondència que relacionen diferents marcs.
 
-Aquest mapatge es valuos pero no produeix coherencia per si sol.
+Aquest mapatge és valuós però no produeix coherència per si sol.
 
-### Jerarquia i estratificacio
+### Jerarquia i estratificació
 
-Alguns marcs podrien posicionar-se com a capes base mentre altres hi afegeixen especificitat. Els principis internacionals podrien establir requisits minims. Les regulacions nacionals podrien afegir-hi detall. Els estandards de la industria podrien operacionalitzar-ho encara mes.
+Alguns marcs podrien posicionar-se com a capes base mentre altres hi afegeixen especificitat. Els principis internacionals podrien establir requisits mínims. Les regulacions nacionals podrien afegir-hi detall. Els estàndards de la indústria podrien operacionalitzar-ho encara més.
 
-Aquesta estratificacio requereix acord sobre que pertany a cada nivell, cosa que es objecte de debat.
+Aquesta estratificació requereix acord sobre què pertany a cada nivell, cosa que és objecte de debat.
 
 ### Reconeixement mutu
 
-Les jurisdiccions i institucions podrien reconèixer els marcs de les altres com a equivalents per a certs proposits. Si el Marc A accepta el compliment del Marc B com a satisfactori per als seus requisits, els actors no necessiten duplicar esforcos.
+Les jurisdiccions i institucions podrien reconèixer els marcs de les altres com a equivalents per a certs propòsits. Si el Marc A accepta el compliment del Marc B com a satisfactori per als seus requisits, els actors no necessiten duplicar esforços.
 
-El reconeixement mutu requereix confianca i negociacio. Sol avancar bilateralment en lloc de comprehensivament.
+El reconeixement mutu requereix confiança i negociació. Sol avançar bilateralment en lloc de comprehensivament.
 
-### Estandards d'interoperabilitat
+### Estàndards d'interoperabilitat
 
-En lloc d'unificar els marcs, els estandards podrien habilitar la interoperabilitat. Vocabularis comuns, definicions compartides i protocols de traduccio permetrien que els marcs es comuniquin mantenint les seves diferencies.
+En lloc d'unificar els marcs, els estàndards podrien habilitar la interoperabilitat. Vocabularis comuns, definicions compartides i protocols de traducció permetrien que els marcs es comuniquin mantenint les seves diferències.
 
-[Els esquemes de restriccio llegibles per maquina](/research/003-machine-readable-constraint-schema/) podrien habilitar la traduccio automatitzada entre els requisits dels marcs.
+[Els esquemes de restricció llegibles per màquina](/research/003-machine-readable-constraint-schema/) podrien habilitar la traducció automatitzada entre els requisits dels marcs.
 
-### Meta-governanca
+### Meta-governança
 
-Les institucions podrien governar el propi panorama de governanca: coordinant el desenvolupament de marcs, identificant redundancies, facilitant la sintesi.
+Les institucions podrien governar el propi panorama de governança: coordinant el desenvolupament de marcs, identificant redundàncies, facilitant la síntesi.
 
-Aixo es governanca de la governanca, o meta-governanca. Requereix una autoritat que cap institucio posseeix actualment.
+Això és governança de la governança, o meta-governança. Requereix una autoritat que cap institució posseeix actualment.
 
-### Pressions de mercat i reputacio
+### Pressions de mercat i reputació
 
-Si els professionals convergeixen en certs marcs perque son utils, els marcs menys utils s'esvaniran. La seleccio de mercat per utilitat pot produir una estandarditzacio de facto sense coordinacio formal.
+Si els professionals convergeixen en certs marcs perquè són útils, els marcs menys útils s'esvaniran. La selecció de mercat per utilitat pot produir una estandardització de facto sense coordinació formal.
 
-Aixo suposa que els professionals poden avaluar la utilitat, cosa que pot no complir-se quan els marcs son nous.
+Això suposa que els professionals poden avaluar la utilitat, cosa que pot no complir-se quan els marcs són nous.
 
-## Riscos de l'estandarditzacio prematura
+## Riscos de l'estandardització prematura
 
-La fragmentacio es costosa, pero l'estandarditzacio prematura tambe te riscos.
+La fragmentació és costosa, però l'estandardització prematura també té riscos.
 
-**Bloqueig en enfocaments incorrectes.** Si estandarditzem abans de comprendre que funciona, podem consolidar errors. Els estandards primerencs poden reflectir supòsits inicials que despres resulten incorrectes.
+**Bloqueig en enfocaments incorrectes.** Si estandarditzem abans de comprendre què funciona, podem consolidar errors. Els estàndards primerencs poden reflectir supòsits inicials que després resulten incorrectes.
 
-**Experimentacio reduida.** L'estandarditzacio desincentiva les alternatives. Si diferents enfocaments podrien funcionar millor en diferents contextos, l'estandarditzacio impedeix l'aprenentatge.
+**Experimentació reduïda.** L'estandardització desincentiva les alternatives. Si diferents enfocaments podrien funcionar millor en diferents contextos, l'estandardització impedeix l'aprenentatge.
 
-**Dinamiques de poder.** Els processos d'estandarditzacio afavoreixen qui hi participa. Els actors poderosos modelen els estandards en el seu benefici. L'estandarditzacio pot consolidar el poder en lloc de servir interessos amplis.
+**Dinàmiques de poder.** Els processos d'estandardització afavoreixen qui hi participa. Els actors poderosos modelen els estàndards en el seu benefici. L'estandardització pot consolidar el poder en lloc de servir interessos amplis.
 
-**Retard respecte a la tecnologia.** La IA evoluciona mes rapid que la governanca. Els estandards apropiats per als sistemes actuals poden no servir per als del futur. L'estandarditzacio congela la governanca alla on podria necessitar-se flexibilitat.
+**Retard respecte a la tecnologia.** La IA evoluciona més ràpid que la governança. Els estàndards apropiats per als sistemes actuals poden no servir per als del futur. L'estandardització congela la governança allà on podria necessitar-se flexibilitat.
 
-L'objectiu no es maximitzar l'estandarditzacio, sino trobar el nivell apropiat de coordinacio per a la comprensio actual.
+L'objectiu no és maximitzar l'estandardització, sinó trobar el nivell apropiat de coordinació per a la comprensió actual.
 
 ## Un cami practic
 
@@ -153,58 +153,58 @@ Atesos els costos de la fragmentacio i els riscos de l'estandarditzacio, que es 
 
 Crear documents de sintesi que relacionin els marcs principals sense reemplacar-los. Aquests documents identificarien: que exigeixen els marcs, com es relacionen els requisits, on entren en conflicte i com podrien resoldre's els conflictes.
 
-La sintesi seria provisional: actualitzada a mesura que els marcs evolucionen i la comprensio millori.
+La síntesi seria provisional: actualitzada a mesura que els marcs evolucionen i la comprensió millori.
 
-### Convergencia en l'essencial
+### Convergència en l'essencial
 
-Identificar requisits centrals on la convergencia sigui possible. Divulgacio basica, processos definits d'avaluacio de riscos i documentacio minima podrien ser assolibles fins i tot quan els detalls varien.
+Identificar requisits centrals on la convergència sigui possible. Divulgació bàsica, processos definits d'avaluació de riscos i documentació mínima podrien ser assolibles fins i tot quan els detalls varien.
 
-La convergencia en l'essencial proporciona coherencia sense plena estandarditzacio.
+La convergència en l'essencial proporciona coherència sense plena estandardització.
 
 ### Compliment modular
 
-Dissenyar sistemes de compliment que puguin satisfer multiples marcs de forma modular. Un enfocament de documentacio podria complir amb diversos requisits de marcs amb una adaptacio minima.
+Dissenyar sistemes de compliment que puguin satisfer múltiples marcs de forma modular. Un enfocament de documentació podria complir amb diversos requisits de marcs amb una adaptació mínima.
 
-Aixo redueix la carrega sense requerir que els marcs es fusionin.
+Això redueix la càrrega sense requerir que els marcs es fusionin.
 
-### Coordinacio activa
+### Coordinació activa
 
-Crear espais on els desenvolupadors de marcs es coordinin activament. No fusionar organitzacions, sino assegurar que els nous marcs es connectin amb els existents.
+Crear espais on els desenvolupadors de marcs es coordinin activament. No fusionar organitzacions, sinó assegurar que els nous marcs es connectin amb els existents.
 
-Quelcom aixi existeix en diversos forums, pero esta poc desenvolupat.
+Quelcom així existeix en diversos fòrums, però està poc desenvolupat.
 
-### Consolidacio periodica
+### Consolidació periòdica
 
-Incorporar revisions periodiques on s'avalua el panorama i es retiren marcs redundants. Clausules de caducitat per a marcs experimentals. Moments de consolidacio on multiples marcs es fusionen.
+Incorporar revisions periòdiques on s'avalua el panorama i es retiren marcs redundants. Clàusules de caducitat per a marcs experimentals. Moments de consolidació on múltiples marcs es fusionen.
 
-Aixo requereix disciplina que les parts interessades fragmentades poden no acceptar.
+Això requereix disciplina que les parts interessades fragmentades poden no acceptar.
 
-## Aplicacio reflexiva
+## Aplicació reflexiva
 
-La Iniciativa Reflexive AI hauria d'aplicar aquesta analisi a si mateixa.
+La Iniciativa Reflexive AI hauria d'aplicar aquesta anàlisi a si mateixa.
 
-Aquesta iniciativa es un marc mes entre molts. Pot contribuir a la fragmentacio en lloc de reduir-la. L'esquema de restriccio llegible per maquina, els principis de governanca reflexiva, els articles de recerca: tot s'afegeix al que els professionals han de navegar.
+Aquesta iniciativa és un marc més entre molts. Pot contribuir a la fragmentació en lloc de reduir-la. L'esquema de restricció llegible per màquina, els principis de governança reflexiva, els articles de recerca: tot s'afegeix al que els professionals han de navegar.
 
-Que significaria buscar coherencia en lloc de proliferacio?
+Què significaria buscar coherència en lloc de proliferació?
 
-- Connectar-se explicitament amb altres marcs en lloc de mantenir-se aillat
+- Connectar-se explícitament amb altres marcs en lloc de mantenir-se aïllat
 - Identificar on els principis reflexius se superposen amb enfocaments existents
-- Abstenir-se de reinventar el que ja existeix adequadament en altres ambits
-- Donar suport als esforcos de sintesi en lloc del posicionament competitiu
+- Abstenir-se de reinventar el que ja existeix adequadament en altres àmbits
+- Donar suport als esforços de síntesi en lloc del posicionament competitiu
 
 Practicar el que analitzem requereix disciplina.
 
-## Conclusio
+## Conclusió
 
-La fragmentacio de la governanca de la IA es real i costosa. Pero tambe reflecteix un pluralisme legitim, una experimentacio util i la novetat del repte de governanca.
+La fragmentació de la governança de la IA és real i costosa. Però també reflecteix un pluralisme legítim, una experimentació útil i la novetat del repte de governança.
 
-El cami a seguir no es ni acceptar la fragmentacio indefinidament ni forcar una estandarditzacio prematura. Es la sintesi iterativa: mapejar, coordinar, convergir en l'essencial i construir interoperabilitat mentre es preserva espai per a l'aprenentatge continu.
+El camí a seguir no és ni acceptar la fragmentació indefinidament ni forçar una estandardització prematura. És la síntesi iterativa: mapejar, coordinar, convergir en l'essencial i construir interoperabilitat mentre es preserva espai per a l'aprenentatge continu.
 
-Qui crea marcs, inclosa aquesta iniciativa, te la responsabilitat de contribuir a la coherencia en lloc del caos.
+Qui crea marcs, inclosa aquesta iniciativa, té la responsabilitat de contribuir a la coherència en lloc del caos.
 
-## Related Research
+## Articles relacionats
 
-- [The Role of Standards Bodies in AI Governance](/research/039-standards-bodies/)
-- [The Small Actor Problem: How AI Regulation Shapes Market Structure](/research/075-small-actor-problem/)
-- [AI Governance Without Borders: Lessons from Internet Governance History](/research/066-internet-governance-lessons/)
-- [A Machine-Readable Constraint Schema](/research/003-machine-readable-constraint-schema/)
+- [El paper dels organismes de normalització en la governança de la IA](/research/039-standards-bodies/)
+- [El problema dels actors petits: com la regulació de la IA modela l'estructura del mercat](/research/075-small-actor-problem/)
+- [Governança de la IA sense fronteres: lliçons de la història de la governança d'Internet](/research/066-internet-governance-lessons/)
+- [Un esquema de restricció llegible per màquina](/research/003-machine-readable-constraint-schema/)

@@ -1,6 +1,6 @@
 ---
-title: "Automillora recursiva: implicacions per a la governanca"
-excerpt: "Examen dels desafiaments de governanca que planteja l'automillora recursiva en els sistemes d'IA, amb enfasi en la seguretat, la rendicio de comptes i la supervisio."
+title: "Automillora recursiva: implicacions per a la governança"
+excerpt: "Examen dels desafiaments de governança que planteja l'automillora recursiva en els sistemes d'IA, amb èmfasi en la seguretat, la rendició de comptes i la supervisió."
 date: 2026-02-06
 toc: true
 categories:

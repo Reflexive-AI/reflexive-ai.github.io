@@ -1,6 +1,6 @@
 ---
-title: "Governanca per a la Intel·ligencia Artificial General"
-excerpt: "Examen dels desafiaments i marcs unics necessaris per governar la Intel·ligencia Artificial General (IAG), amb enfasi en la seguretat, la rendicio de comptes i el paper de la IA reflexiva en el compliment normatiu."
+title: "Governança per a la Intel·ligència Artificial General"
+excerpt: "Examen dels desafiaments i marcs únics necessaris per governar la Intel·ligència Artificial General (IAG), amb èmfasi en la seguretat, la rendició de comptes i el paper de la IA reflexiva en el compliment normatiu."
 date: 2026-02-05
 toc: true
 categories:

@@ -3,30 +3,30 @@ import Base from '@/layouts/Base.astro';
 import ArticleCard from '@/components/ArticleCard.astro';
 import { getCollection } from 'astro:content';
 
-const allArticles = (await getCollection('research')).filter(a => !a.slug.startsWith('es/') && !a.slug.startsWith('ca/'));
+const allArticles = (await getCollection('research')).filter(a => a.slug.startsWith('ca/'));
 const sortedArticles = allArticles
   .filter(a => !a.data.draft)
   .sort((a, b) => {
-    // Sort by article number extracted from slug (e.g., "051-foo")
-    const numA = parseInt(a.slug.split('-')[0], 10) || 0;
-    const numB = parseInt(b.slug.split('-')[0], 10) || 0;
+    // Sort by article number extracted from slug (e.g., "ca/051-foo")
+    const numA = parseInt(a.slug.replace('ca/', '').split('-')[0], 10) || 0;
+    const numB = parseInt(b.slug.replace('ca/', '').split('-')[0], 10) || 0;
     return numB - numA; // Descending: newest first
   });
 ---
 
-<Base title="Research" description="All research articles from the Reflexive AI Initiative">
+<Base title="Recerca" description="Tots els articles de recerca de la Iniciativa Reflexive AI">
   <div class="container" style="padding: var(--space-12) var(--space-6);">
     <header style="margin-bottom: var(--space-10);">
-      <h1>Research</h1>
+      <h1>Recerca</h1>
       <p class="text-secondary" style="font-size: 1.2rem; max-width: 60ch;">
-        {sortedArticles.length} articles exploring AI governance, safety, and the role of 
-        AI systems in their own regulation.
+        {sortedArticles.length} articles de recerca sobre governança de la IA, seguretat i el paper
+        dels sistemes d'IA en la seva pròpia regulació.
       </p>
     </header>
     
     <div class="article-grid">
       {sortedArticles.map((article) => {
-        const num = parseInt(article.slug.split('-')[0], 10);
+        const num = parseInt(article.slug.replace('ca/', '').split('-')[0], 10);
         return (
           <ArticleCard
             number={num}

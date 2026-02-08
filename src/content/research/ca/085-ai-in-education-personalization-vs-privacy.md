@@ -1,6 +1,6 @@
 ---
-title: "IA en l'educacio: personalitzacio davant privacitat"
-excerpt: "Aquest article examina la tensio entre personalitzacio i privacitat en les eines educatives basades en IA, explorant marcs de governanca, solucions tecnologiques i compromisos etics."
+title: "IA en l'educació: personalització davant privacitat"
+excerpt: "Aquest article examina la tensió entre personalització i privacitat en les eines educatives basades en IA, explorant marcs de governança, solucions tecnològiques i compromisos ètics."
 date: 2026-02-05
 toc: true
 categories:
@@ -15,16 +15,16 @@ tags:
 version: "1.0"
 ---
 
-**Reflexive Research Object 085**  
-*Type: Research & Policy*
+**Objecte de Recerca Reflexiva 085**  
+*Tipus: Recerca i Política*
 
-## Introduccio
+## Introducció
 
-La intelligencia artificial (IA) te el potencial de revolucionar l'educacio en oferir itineraris d'aprenentatge personalitzats, millorar la implicacio de l'alumnat i abordar les mancances d'aprenentatge individuals. Les plataformes d'aprenentatge adaptatiu, els sistemes de tutoria intelligent i la informacio basada en dades prometen fer l'educacio mes inclusiva i efectiva. No obstant aixo, aquest potencial transformador planteja qüestions profundes sobre la privacitat, la seguretat de les dades i l'etica de monitorar els comportaments d'aprenentatge de l'alumnat. A mesura que les escoles i els educadors adopten cada vegada mes les tecnologies d'IA, la tensio entre personalitzacio i privacitat es converteix en un repte de governanca fonamental.
+La intel·ligència artificial (IA) té el potencial de revolucionar l'educació en oferir itineraris d'aprenentatge personalitzats, millorar la implicació de l'alumnat i abordar les mancançes d'aprenentatge individuals. Les plataformes d'aprenentatge adaptatiu, els sistemes de tutoria intel·ligent i la informació basada en dades prometen fer l'educació més inclusiva i efectiva. No obstant això, aquest potencial transformador planteja qüestions profundes sobre la privacitat, la seguretat de les dades i l'ètica de monitorar els comportaments d'aprenentatge de l'alumnat. A mesura que les escoles i els educadors adopten cada vegada més les tecnologies d'IA, la tensió entre personalització i privacitat es converteix en un repte de governança fonamental.
 
-Aquesta tensio no es nomes tecnica o logistica; es profundament etica i orientada a les politiques. Una personalitzacio efectiva requereix dades granulars sobre els comportaments, preferencies i fins i tot els estats cognitius i emocionals de l'alumnat. No obstant aixo, la recopilacio i l'us d'aquestes dades poden vulnerar la privacitat de l'alumnat, exposar-lo a riscos d'us indegut i crear mecanismes de vigilancia que s'estenen mes enlla de l'aula. Equilibrar aquestes prioritats en competencia es essencial no nomes per a la seguretat de l'alumnat, sino tambe per mantenir la confianca publica en les eines educatives basades en IA.
+Aquesta tensió no és només tècnica o logística; és profundament ètica i orientada a les polítiques. Una personalització efectiva requereix dades granulars sobre els comportaments, preferències i fins i tot els estats cognitius i emocionals de l'alumnat. No obstant això, la recopilació i l'ús d'aquestes dades poden vulnerar la privacitat de l'alumnat, exposar-lo a riscos d'ús indegut i crear mecanismes de vigilància que s'estenen més enllà de l'aula. Equilibrar aquestes prioritats en competència és essencial no només per a la seguretat de l'alumnat, sinó també per mantenir la confiança pública en les eines educatives basades en IA.
 
-Aquest article explora el compromis entre personalitzacio i privacitat en la IA per a l'educacio, examinant els casos d'us actuals, les llacunes de governanca i les solucions potencials. Tambe situa aquesta qüestio dins de debats mes amplis sobre governanca i seguretat de la IA, recorrent a conceptes relacionats del portafoli de recerca de la Iniciativa Reflexive AI.
+Aquest article explora el compromís entre personalització i privacitat en la IA per a l'educació, examinant els casos d'ús actuals, les llacunes de governança i les solucions potencials. També situa aquesta qüestió dins de debats més amplis sobre governança i seguretat de la IA, recorrent a conceptes relacionats del portafoli de recerca de la Iniciativa Reflexive AI.
 
 ---
 

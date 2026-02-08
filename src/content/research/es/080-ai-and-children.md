@@ -13,6 +13,9 @@ tags:
   - education
 ---
 
+**Objeto de Investigación Reflexiva 080**
+**Tipo: Investigación**
+
 ## Una población diferenciada
 
 Los menores no son adultos pequeños. Esta idea básica, establecida en la psicología del desarrollo y el derecho de la infancia, no se ha incorporado adecuadamente a la gobernanza de la IA.

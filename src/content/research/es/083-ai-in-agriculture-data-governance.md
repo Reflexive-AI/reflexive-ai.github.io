@@ -14,8 +14,8 @@ tags:
 version: "1.0"
 ---
 
-**Reflexive Research Object 083**  
-*Type: Research & Policy Analysis*
+**Objeto de Investigación Reflexiva 083**  
+*Tipo: Investigación y Análisis de Políticas*
 
 ## Introduccion
 

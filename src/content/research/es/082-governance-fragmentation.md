@@ -13,6 +13,9 @@ tags:
   - synthesis
 ---
 
+**Objeto de Investigación Reflexiva 082**
+**Tipo: Investigación**
+
 ## El panorama saturado
 
 Cuenten los marcos de gobernanza de la IA. La Ley de IA de la UE. El Marco de Gestion de Riesgos de IA del NIST. Los Principios de IA de la OCDE. La Declaracion de Bletchley. Los estandares del IEEE. Los estandares de la ISO. Los compromisos de la industria. Las propuestas academicas. Las directrices de la sociedad civil. Las estrategias nacionales de decenas de paises.

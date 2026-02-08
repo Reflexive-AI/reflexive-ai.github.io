@@ -13,7 +13,7 @@ tags:
 version: "1.0"
 ---
 
-**Reflexive Research Object 091**  
+**Objeto de Investigación Reflexiva 091**  
 *Tipo: Análisis de gobernanza e investigación*
 
 ## Introducción

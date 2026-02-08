@@ -4,7 +4,7 @@ import ArticleCard from '@/components/ArticleCard.astro';
 import { getCollection } from 'astro:content';
 
 // Get articles and sort by number in filename
-const allArticles = await getCollection('research');
+const allArticles = (await getCollection('research')).filter(a => !a.slug.startsWith('es/') && !a.slug.startsWith('ca/'));
 const sortedArticles = allArticles
   .filter(a => !a.data.draft)
   .map(a => ({
