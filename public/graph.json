@@ -1709,6 +1709,11 @@
           "title": "The Alignment Tax: Who Pays for Safety?",
           "slug": "/research/103-the-alignment-tax-who-pays-for-safety",
           "excerpt": "Exploring the economic and ethical implications of the 'alignment tax' in AI development, and who ultimately bears the cost of ensuring safe AI systems."
+        },
+        {
+          "title": "Synthetic Data Recursion and Epistemic Collapse",
+          "slug": "/research/104-synthetic-data-recursion-and-epistemic-collapse",
+          "excerpt": "Exploring the recursive use of synthetic data in AI systems, its potential to undermine epistemic reliability, and the governance challenges it poses."
         }
       ]
     },
@@ -2378,7 +2383,7 @@
       "id": "ai safety",
       "title": "AI safety",
       "group": "concept",
-      "val": 15,
+      "val": 17,
       "articles": [
         {
           "title": "Differential Privacy in AI Systems",
@@ -2404,6 +2409,11 @@
           "title": "The Alignment Tax: Who Pays for Safety?",
           "slug": "/research/103-the-alignment-tax-who-pays-for-safety",
           "excerpt": "Exploring the economic and ethical implications of the 'alignment tax' in AI development, and who ultimately bears the cost of ensuring safe AI systems."
+        },
+        {
+          "title": "Synthetic Data Recursion and Epistemic Collapse",
+          "slug": "/research/104-synthetic-data-recursion-and-epistemic-collapse",
+          "excerpt": "Exploring the recursive use of synthetic data in AI systems, its potential to undermine epistemic reliability, and the governance challenges it poses."
         }
       ]
     },
@@ -4152,6 +4162,45 @@
           "excerpt": "Exploring the economic and ethical implications of the 'alignment tax' in AI development, and who ultimately bears the cost of ensuring safe AI systems."
         }
       ]
+    },
+    {
+      "id": "synthetic data",
+      "title": "synthetic data",
+      "group": "technical",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Synthetic Data Recursion and Epistemic Collapse",
+          "slug": "/research/104-synthetic-data-recursion-and-epistemic-collapse",
+          "excerpt": "Exploring the recursive use of synthetic data in AI systems, its potential to undermine epistemic reliability, and the governance challenges it poses."
+        }
+      ]
+    },
+    {
+      "id": "epistemic collapse",
+      "title": "epistemic collapse",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Synthetic Data Recursion and Epistemic Collapse",
+          "slug": "/research/104-synthetic-data-recursion-and-epistemic-collapse",
+          "excerpt": "Exploring the recursive use of synthetic data in AI systems, its potential to undermine epistemic reliability, and the governance challenges it poses."
+        }
+      ]
+    },
+    {
+      "id": "recursion",
+      "title": "recursion",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Synthetic Data Recursion and Epistemic Collapse",
+          "slug": "/research/104-synthetic-data-recursion-and-epistemic-collapse",
+          "excerpt": "Exploring the recursive use of synthetic data in AI systems, its potential to undermine epistemic reliability, and the governance challenges it poses."
+        }
+      ]
     }
   ],
   "links": [
@@ -5723,7 +5772,7 @@
     {
       "source": "ai safety",
       "target": "governance",
-      "value": 3
+      "value": 4
     },
     {
       "source": "governance",
@@ -7698,6 +7747,51 @@
     {
       "source": "economic incentives",
       "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "epistemic collapse",
+      "target": "synthetic data",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "synthetic data",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "synthetic data",
+      "value": 1
+    },
+    {
+      "source": "recursion",
+      "target": "synthetic data",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "epistemic collapse",
+      "value": 1
+    },
+    {
+      "source": "epistemic collapse",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "epistemic collapse",
+      "target": "recursion",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "recursion",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "recursion",
       "value": 1
     }
   ]

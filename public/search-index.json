@@ -1,5 +1,23 @@
 [
   {
+    "id": 104,
+    "title": "Synthetic Data Recursion and Epistemic Collapse",
+    "excerpt": "Exploring the recursive use of synthetic data in AI systems, its potential to undermine epistemic reliability, and the governance challenges it poses.",
+    "slug": "104-synthetic-data-recursion-and-epistemic-collapse",
+    "date": "2026-02-08",
+    "tags": [
+      "synthetic data",
+      "epistemic collapse",
+      "AI safety",
+      "governance",
+      "recursion"
+    ],
+    "categories": [
+      "Research"
+    ],
+    "body": "Introduction As artificial intelligence systems grow in complexity and capability, a parallel trend has emerged: the increasing reliance on synthetic data to train, validate, and refine these systems. Synthetic data—artificially generated datasets created by models rather than direct observation of the world—offers many advantages. It addresses privacy concerns, reduces the cost of data collection, and allows for the creation of datasets tailored to specific tasks. However, when synthetic data i"
+  },
+  {
     "id": 103,
     "title": "The Alignment Tax: Who Pays for Safety?",
     "excerpt": "Exploring the economic and ethical implications of the 'alignment tax' in AI development, and who ultimately bears the cost of ensuring safe AI systems.",

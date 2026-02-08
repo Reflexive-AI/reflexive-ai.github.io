@@ -151,7 +151,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 103. [x] The Alignment Tax: Who Pays for Safety? [R][P]
     Safety and alignment impose costs that create race-to-the-bottom dynamics unless governance imposes a floor; this article analyzes economic mechanisms that could make alignment profitable.
 
-104. [ ] Synthetic Data Recursion and Epistemic Collapse [R]
+104. [x] Synthetic Data Recursion and Epistemic Collapse [R]
     Models trained on model outputs degrade, and the growing synthetic fraction of training data creates an epistemic pollution problem with no clear accountability chain.
 
 105. [ ] Post-Proliferation Open-Weight Governance [R][P]
