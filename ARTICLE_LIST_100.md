@@ -145,7 +145,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 101. [x] The Legal Personhood of Ephemeral Agent Swarms [R]
     When agent coalitions form, act, and dissolve in milliseconds, no persistent legal entity exists to hold accountable, creating a category error in legal ontology.
 
-102. [ ] Agent-to-Agent Economics: Unregulated Markets at Machine Speed [R]
+102. [x] Agent-to-Agent Economics: Unregulated Markets at Machine Speed [R]
     AI agents autonomously procuring services from other agents create an unregulated economic layer where standard contract law does not apply because neither party has legal standing.
 
 103. [ ] The Alignment Tax: Who Pays for Safety? [R][P]

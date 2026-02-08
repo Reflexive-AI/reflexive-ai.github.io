@@ -2175,7 +2175,7 @@
       "id": "ai governance",
       "title": "ai governance",
       "group": "concept",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "Rate Limiting and Abuse Detection",
@@ -2186,6 +2186,11 @@
           "title": "Governance for Artificial General Intelligence",
           "slug": "/research/086-governance-for-artificial-general-intelligence",
           "excerpt": "Examining the unique challenges and frameworks required to govern Artificial General Intelligence (AGI), with a focus on safety, accountability, and the role of reflexive AI in regulatory compliance."
+        },
+        {
+          "title": "Agent-to-Agent Economics: Unregulated Markets at Machine Speed",
+          "slug": "/research/102-agent-to-agent-economics-unregulated-markets-at-ma",
+          "excerpt": "Exploring the emergence of autonomous economic interactions between AI agents, addressing their implications for market governance, safety, and regulation in an era of unprecedented speed."
         }
       ]
     },
@@ -3563,7 +3568,7 @@
       "id": "multi-agent systems",
       "title": "multi-agent systems",
       "group": "concept",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "Multi-Agent Coordination Failures",
@@ -3574,6 +3579,11 @@
           "title": "The Legal Personhood of Ephemeral Agent Swarms",
           "slug": "/research/101-the-legal-personhood-of-ephemeral-agent-swarms",
           "excerpt": "Examining the challenges and implications of granting legal personhood to transient, multi-agent AI systems operating as cohesive units."
+        },
+        {
+          "title": "Agent-to-Agent Economics: Unregulated Markets at Machine Speed",
+          "slug": "/research/102-agent-to-agent-economics-unregulated-markets-at-ma",
+          "excerpt": "Exploring the emergence of autonomous economic interactions between AI agents, addressing their implications for market governance, safety, and regulation in an era of unprecedented speed."
         }
       ]
     },
@@ -4060,6 +4070,45 @@
           "title": "The Legal Personhood of Ephemeral Agent Swarms",
           "slug": "/research/101-the-legal-personhood-of-ephemeral-agent-swarms",
           "excerpt": "Examining the challenges and implications of granting legal personhood to transient, multi-agent AI systems operating as cohesive units."
+        }
+      ]
+    },
+    {
+      "id": "market regulation",
+      "title": "market regulation",
+      "group": "governance",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Agent-to-Agent Economics: Unregulated Markets at Machine Speed",
+          "slug": "/research/102-agent-to-agent-economics-unregulated-markets-at-ma",
+          "excerpt": "Exploring the emergence of autonomous economic interactions between AI agents, addressing their implications for market governance, safety, and regulation in an era of unprecedented speed."
+        }
+      ]
+    },
+    {
+      "id": "economic automation",
+      "title": "economic automation",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Agent-to-Agent Economics: Unregulated Markets at Machine Speed",
+          "slug": "/research/102-agent-to-agent-economics-unregulated-markets-at-ma",
+          "excerpt": "Exploring the emergence of autonomous economic interactions between AI agents, addressing their implications for market governance, safety, and regulation in an era of unprecedented speed."
+        }
+      ]
+    },
+    {
+      "id": "machine agency",
+      "title": "machine agency",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Agent-to-Agent Economics: Unregulated Markets at Machine Speed",
+          "slug": "/research/102-agent-to-agent-economics-unregulated-markets-at-ma",
+          "excerpt": "Exploring the emergence of autonomous economic interactions between AI agents, addressing their implications for market governance, safety, and regulation in an era of unprecedented speed."
         }
       ]
     }
@@ -7523,6 +7572,56 @@
     {
       "source": "ai ethics",
       "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "market regulation",
+      "target": "multi-agent systems",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "multi-agent systems",
+      "value": 1
+    },
+    {
+      "source": "economic automation",
+      "target": "multi-agent systems",
+      "value": 1
+    },
+    {
+      "source": "machine agency",
+      "target": "multi-agent systems",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "market regulation",
+      "value": 1
+    },
+    {
+      "source": "economic automation",
+      "target": "market regulation",
+      "value": 1
+    },
+    {
+      "source": "machine agency",
+      "target": "market regulation",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "economic automation",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "machine agency",
+      "value": 1
+    },
+    {
+      "source": "economic automation",
+      "target": "machine agency",
       "value": 1
     }
   ]

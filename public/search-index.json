@@ -1,5 +1,24 @@
 [
   {
+    "id": 102,
+    "title": "Agent-to-Agent Economics: Unregulated Markets at Machine Speed",
+    "excerpt": "Exploring the emergence of autonomous economic interactions between AI agents, addressing their implications for market governance, safety, and regulation in an era of unprecedented speed.",
+    "slug": "102-agent-to-agent-economics-unregulated-markets-at-ma",
+    "date": "2026-02-08",
+    "tags": [
+      "multi-agent systems",
+      "market regulation",
+      "AI governance",
+      "economic automation",
+      "machine agency"
+    ],
+    "categories": [
+      "Governance Analysis",
+      "AI Economics"
+    ],
+    "body": "Reflexive Research Object 102 Type: Governance Analysis Introduction The rapid evolution of artificial intelligence has enabled the rise of autonomous agents capable of participating in economic systems without human intervention. These \"agent-to-agent\" (A2A) interactions allow machines to negotiate, trade, and transact at speeds and scales that far exceed human capabilities. While this technological shift promises efficiency gains and new market opportunities, it also introduces profound govern"
+  },
+  {
     "id": 101,
     "title": "The Legal Personhood of Ephemeral Agent Swarms",
     "excerpt": "Examining the challenges and implications of granting legal personhood to transient, multi-agent AI systems operating as cohesive units.",
