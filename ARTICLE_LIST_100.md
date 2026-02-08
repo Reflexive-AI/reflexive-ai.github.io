@@ -154,7 +154,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 104. [x] Synthetic Data Recursion and Epistemic Collapse [R]
     Models trained on model outputs degrade, and the growing synthetic fraction of training data creates an epistemic pollution problem with no clear accountability chain.
 
-105. [ ] Post-Proliferation Open-Weight Governance [R][P]
+105. [x] Post-Proliferation Open-Weight Governance [R][P]
     Open-weight models now match frontier capabilities, making pre-deployment review impossible; this article maps governance tools that remain viable after proliferation.
 
 106. [ ] Cryptographic Verification of AI Intent [R][A]

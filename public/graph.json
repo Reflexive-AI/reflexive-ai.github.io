@@ -163,6 +163,11 @@
           "title": "The Alignment Tax: Who Pays for Safety?",
           "slug": "/research/103-the-alignment-tax-who-pays-for-safety",
           "excerpt": "Exploring the economic and ethical implications of the 'alignment tax' in AI development, and who ultimately bears the cost of ensuring safe AI systems."
+        },
+        {
+          "title": "Post-Proliferation Open-Weight Governance",
+          "slug": "/research/105-post-proliferation-open-weight-governance",
+          "excerpt": "Examining regulatory frameworks for governing openly accessible AI model weights in an era of widespread proliferation."
         }
       ]
     },
@@ -294,12 +299,17 @@
       "id": "open-source",
       "title": "open-source",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "The Open Weight Safety Paradox",
           "slug": "/research/002-open-weight-safety-paradox",
           "excerpt": "Open-weight AI models present a governance contradiction: transparency enables both safety research and misuse. This note analyzes the structural tension and proposes a differentiated access framework."
+        },
+        {
+          "title": "Post-Proliferation Open-Weight Governance",
+          "slug": "/research/105-post-proliferation-open-weight-governance",
+          "excerpt": "Examining regulatory frameworks for governing openly accessible AI model weights in an era of widespread proliferation."
         }
       ]
     },
@@ -1714,6 +1724,11 @@
           "title": "Synthetic Data Recursion and Epistemic Collapse",
           "slug": "/research/104-synthetic-data-recursion-and-epistemic-collapse",
           "excerpt": "Exploring the recursive use of synthetic data in AI systems, its potential to undermine epistemic reliability, and the governance challenges it poses."
+        },
+        {
+          "title": "Post-Proliferation Open-Weight Governance",
+          "slug": "/research/105-post-proliferation-open-weight-governance",
+          "excerpt": "Examining regulatory frameworks for governing openly accessible AI model weights in an era of widespread proliferation."
         }
       ]
     },
@@ -2383,7 +2398,7 @@
       "id": "ai safety",
       "title": "AI safety",
       "group": "concept",
-      "val": 17,
+      "val": 19,
       "articles": [
         {
           "title": "Differential Privacy in AI Systems",
@@ -2414,6 +2429,11 @@
           "title": "Synthetic Data Recursion and Epistemic Collapse",
           "slug": "/research/104-synthetic-data-recursion-and-epistemic-collapse",
           "excerpt": "Exploring the recursive use of synthetic data in AI systems, its potential to undermine epistemic reliability, and the governance challenges it poses."
+        },
+        {
+          "title": "Post-Proliferation Open-Weight Governance",
+          "slug": "/research/105-post-proliferation-open-weight-governance",
+          "excerpt": "Examining regulatory frameworks for governing openly accessible AI model weights in an era of widespread proliferation."
         }
       ]
     },
@@ -4201,6 +4221,19 @@
           "excerpt": "Exploring the recursive use of synthetic data in AI systems, its potential to undermine epistemic reliability, and the governance challenges it poses."
         }
       ]
+    },
+    {
+      "id": "proliferation",
+      "title": "proliferation",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Post-Proliferation Open-Weight Governance",
+          "slug": "/research/105-post-proliferation-open-weight-governance",
+          "excerpt": "Examining regulatory frameworks for governing openly accessible AI model weights in an era of widespread proliferation."
+        }
+      ]
     }
   ],
   "links": [
@@ -5772,7 +5805,7 @@
     {
       "source": "ai safety",
       "target": "governance",
-      "value": 4
+      "value": 5
     },
     {
       "source": "governance",
@@ -7167,7 +7200,7 @@
     {
       "source": "ai safety",
       "target": "regulation",
-      "value": 2
+      "value": 3
     },
     {
       "source": "ai-governance",
@@ -7792,6 +7825,41 @@
     {
       "source": "governance",
       "target": "recursion",
+      "value": 1
+    },
+    {
+      "source": "open-source",
+      "target": "proliferation",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "open-source",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "open-source",
+      "value": 1
+    },
+    {
+      "source": "open-source",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "proliferation",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "proliferation",
+      "value": 1
+    },
+    {
+      "source": "proliferation",
+      "target": "regulation",
       "value": 1
     }
   ]

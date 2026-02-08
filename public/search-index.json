@@ -1,5 +1,23 @@
 [
   {
+    "id": 105,
+    "title": "Post-Proliferation Open-Weight Governance",
+    "excerpt": "Examining regulatory frameworks for governing openly accessible AI model weights in an era of widespread proliferation.",
+    "slug": "105-post-proliferation-open-weight-governance",
+    "date": "2026-02-08",
+    "tags": [
+      "open-source",
+      "proliferation",
+      "AI safety",
+      "governance",
+      "regulation"
+    ],
+    "categories": [
+      "Governance Analysis"
+    ],
+    "body": "Reflexive Research Object 105 Type: Governance Analysis & Policy Framework Introduction The rapid proliferation of openly accessible AI model weights has created new governance challenges that demand urgent attention. Once confined to research institutions and well-funded corporate labs, advanced AI capabilities are increasingly available to a global audience. Open-weight models—those whose parameters are shared freely—can democratize innovation, but they also exacerbate risks of misuse, destabi"
+  },
+  {
     "id": 104,
     "title": "Synthetic Data Recursion and Epistemic Collapse",
     "excerpt": "Exploring the recursive use of synthetic data in AI systems, its potential to undermine epistemic reliability, and the governance challenges it poses.",
