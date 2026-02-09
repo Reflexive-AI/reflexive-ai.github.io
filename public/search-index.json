@@ -1,5 +1,24 @@
 [
   {
+    "id": 106,
+    "title": "Cryptographic Verification of AI Intent",
+    "excerpt": "Exploring the role of cryptographic methods in ensuring AI systems act in alignment with stated objectives and ethical frameworks.",
+    "slug": "106-cryptographic-verification-of-ai-intent",
+    "date": "2026-02-09",
+    "tags": [
+      "cryptography",
+      "intent verification",
+      "alignment",
+      "trust",
+      "safety mechanisms"
+    ],
+    "categories": [
+      "AI Governance",
+      "Safety Methodologies"
+    ],
+    "body": "Reflexive Research Object 106 Type: Research Analysis Introduction As artificial intelligence systems grow increasingly autonomous, ensuring their actions align with human-defined ethical and operational objectives becomes critical. One approach gaining traction is the application of cryptographic methods to verify the \"intent\" of AI systems before actions are executed. Cryptographic verification could provide a rigorous, scalable framework for assessing whether an AI system's behavior matches i"
+  },
+  {
     "id": 105,
     "title": "Post-Proliferation Open-Weight Governance",
     "excerpt": "Examining regulatory frameworks for governing openly accessible AI model weights in an era of widespread proliferation.",

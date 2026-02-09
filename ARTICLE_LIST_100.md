@@ -157,7 +157,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 105. [x] Post-Proliferation Open-Weight Governance [R][P]
     Open-weight models now match frontier capabilities, making pre-deployment review impossible; this article maps governance tools that remain viable after proliferation.
 
-106. [ ] Cryptographic Verification of AI Intent [R][A]
+106. [x] Cryptographic Verification of AI Intent [R][A]
     Cryptographic attestation of a model's internal state at inference time could provide tamper-proof records of computational trajectories, analogous to flight data recorders.
 
 107. [ ] AI Labor Market Governance [R][P]

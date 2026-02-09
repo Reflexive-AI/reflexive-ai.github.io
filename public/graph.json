@@ -1322,12 +1322,17 @@
       "id": "cryptography",
       "title": "cryptography",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Constraint: Output Provenance Tagging",
           "slug": "/research/012-output-provenance",
           "excerpt": "A cryptographic proposal for AI systems to sign their own outputs, creating a chain of custody for synthetic information."
+        },
+        {
+          "title": "Cryptographic Verification of AI Intent",
+          "slug": "/research/106-cryptographic-verification-of-ai-intent",
+          "excerpt": "Exploring the role of cryptographic methods in ensuring AI systems act in alignment with stated objectives and ethical frameworks."
         }
       ]
     },
@@ -1500,7 +1505,7 @@
       "id": "alignment",
       "title": "alignment",
       "group": "concept",
-      "val": 15,
+      "val": 17,
       "articles": [
         {
           "title": "What Alignment Actually Means",
@@ -1526,6 +1531,11 @@
           "title": "Why AI Safety Researchers Disagree: A Taxonomy of Worldviews",
           "slug": "/research/064-ai-safety-worldviews",
           "excerpt": "The AI safety field appears fractured. Some focus on alignment, others on governance, others on misuse. This article maps the underlying worldview differences that produce divergent research agendas."
+        },
+        {
+          "title": "Cryptographic Verification of AI Intent",
+          "slug": "/research/106-cryptographic-verification-of-ai-intent",
+          "excerpt": "Exploring the role of cryptographic methods in ensuring AI systems act in alignment with stated objectives and ethical frameworks."
         }
       ]
     },
@@ -1808,7 +1818,7 @@
       "id": "trust",
       "title": "trust",
       "group": "concept",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "Uncertainty Communication in AI Outputs",
@@ -1819,6 +1829,11 @@
           "title": "Trust Calibration: Teaching Users When to Believe AI",
           "slug": "/research/079-trust-calibration",
           "excerpt": "Most AI governance focuses on developers and deployers. But users make trust decisions constantly: should I believe this output? Follow this recommendation? This article explores user-facing trust calibration."
+        },
+        {
+          "title": "Cryptographic Verification of AI Intent",
+          "slug": "/research/106-cryptographic-verification-of-ai-intent",
+          "excerpt": "Exploring the role of cryptographic methods in ensuring AI systems act in alignment with stated objectives and ethical frameworks."
         }
       ]
     },
@@ -2228,12 +2243,17 @@
       "id": "safety mechanisms",
       "title": "safety mechanisms",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Rate Limiting and Abuse Detection",
           "slug": "/research/055-rate-limiting-and-abuse-detection",
           "excerpt": "A comprehensive exploration of how rate limiting and abuse detection mechanisms can be employed to improve AI system safety and governance."
+        },
+        {
+          "title": "Cryptographic Verification of AI Intent",
+          "slug": "/research/106-cryptographic-verification-of-ai-intent",
+          "excerpt": "Exploring the role of cryptographic methods in ensuring AI systems act in alignment with stated objectives and ethical frameworks."
         }
       ]
     },
@@ -4232,6 +4252,19 @@
           "title": "Post-Proliferation Open-Weight Governance",
           "slug": "/research/105-post-proliferation-open-weight-governance",
           "excerpt": "Examining regulatory frameworks for governing openly accessible AI model weights in an era of widespread proliferation."
+        }
+      ]
+    },
+    {
+      "id": "intent verification",
+      "title": "intent verification",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Cryptographic Verification of AI Intent",
+          "slug": "/research/106-cryptographic-verification-of-ai-intent",
+          "excerpt": "Exploring the role of cryptographic methods in ensuring AI systems act in alignment with stated objectives and ethical frameworks."
         }
       ]
     }
@@ -7860,6 +7893,56 @@
     {
       "source": "proliferation",
       "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "cryptography",
+      "target": "intent verification",
+      "value": 1
+    },
+    {
+      "source": "alignment",
+      "target": "cryptography",
+      "value": 1
+    },
+    {
+      "source": "cryptography",
+      "target": "trust",
+      "value": 1
+    },
+    {
+      "source": "cryptography",
+      "target": "safety mechanisms",
+      "value": 1
+    },
+    {
+      "source": "alignment",
+      "target": "intent verification",
+      "value": 1
+    },
+    {
+      "source": "intent verification",
+      "target": "trust",
+      "value": 1
+    },
+    {
+      "source": "intent verification",
+      "target": "safety mechanisms",
+      "value": 1
+    },
+    {
+      "source": "alignment",
+      "target": "trust",
+      "value": 1
+    },
+    {
+      "source": "alignment",
+      "target": "safety mechanisms",
+      "value": 1
+    },
+    {
+      "source": "safety mechanisms",
+      "target": "trust",
       "value": 1
     }
   ]
