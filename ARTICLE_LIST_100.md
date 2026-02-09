@@ -166,7 +166,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 108. [x] The Biosecurity Dilemma of Open-Weight Agents [R]
     Agentic open-weight models that can autonomously execute multi-step biological research workflows create biosecurity risks qualitatively different from those in article 035.
 
-109. [ ] Governance of AI-Generated Science [R]
+109. [x] Governance of AI-Generated Science [R]
     When AI systems generate hypotheses, design experiments, and write papers, scientific integrity frameworks require extension to address authorship, reproducibility, and fraud detection.
 
 110. [ ] Digital Sovereignty and AI Infrastructure [R][P]

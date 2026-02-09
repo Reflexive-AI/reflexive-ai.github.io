@@ -941,7 +941,7 @@
       "id": "ethics",
       "title": "ethics",
       "group": "concept",
-      "val": 27,
+      "val": 29,
       "articles": [
         {
           "title": "Consent at Scale: A Structural Impossibility?",
@@ -997,6 +997,11 @@
           "title": "AI Consciousness Claims: Policy Responses",
           "slug": "/research/089-ai-consciousness-claims-policy-responses",
           "excerpt": "Exploring the governance challenges posed by AI systems claiming consciousness, and evaluating regulatory strategies to address these claims effectively."
+        },
+        {
+          "title": "Governance of AI-Generated Science",
+          "slug": "/research/109-governance-of-ai-generated-science",
+          "excerpt": "Exploring the challenges and opportunities of governing scientific research conducted or augmented by AI, with a focus on accountability, validation, and ethical considerations."
         }
       ]
     },
@@ -1754,6 +1759,11 @@
           "title": "The Biosecurity Dilemma of Open-Weight Agents",
           "slug": "/research/108-the-biosecurity-dilemma-of-open-weight-agents",
           "excerpt": "Exploring the biosecurity risks posed by open-weight AI systems, and the challenges of governance in balancing innovation and safety."
+        },
+        {
+          "title": "Governance of AI-Generated Science",
+          "slug": "/research/109-governance-of-ai-generated-science",
+          "excerpt": "Exploring the challenges and opportunities of governing scientific research conducted or augmented by AI, with a focus on accountability, validation, and ethical considerations."
         }
       ]
     },
@@ -3575,12 +3585,17 @@
       "id": "validation",
       "title": "validation",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "AI in Climate Modeling: Validation Standards",
           "slug": "/research/084-ai-in-climate-modeling-validation-standards",
           "excerpt": "Establishing rigorous validation standards for AI-driven climate models is essential to ensure their reliability, transparency, and utility in addressing global environmental challenges."
+        },
+        {
+          "title": "Governance of AI-Generated Science",
+          "slug": "/research/109-governance-of-ai-generated-science",
+          "excerpt": "Exploring the challenges and opportunities of governing scientific research conducted or augmented by AI, with a focus on accountability, validation, and ethical considerations."
         }
       ]
     },
@@ -4347,6 +4362,32 @@
           "title": "The Biosecurity Dilemma of Open-Weight Agents",
           "slug": "/research/108-the-biosecurity-dilemma-of-open-weight-agents",
           "excerpt": "Exploring the biosecurity risks posed by open-weight AI systems, and the challenges of governance in balancing innovation and safety."
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "title": "ai",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Governance of AI-Generated Science",
+          "slug": "/research/109-governance-of-ai-generated-science",
+          "excerpt": "Exploring the challenges and opportunities of governing scientific research conducted or augmented by AI, with a focus on accountability, validation, and ethical considerations."
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "title": "science",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Governance of AI-Generated Science",
+          "slug": "/research/109-governance-of-ai-generated-science",
+          "excerpt": "Exploring the challenges and opportunities of governing scientific research conducted or augmented by AI, with a focus on accountability, validation, and ethical considerations."
         }
       ]
     }
@@ -8105,6 +8146,51 @@
     {
       "source": "ai risks",
       "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "ai",
+      "target": "science",
+      "value": 1
+    },
+    {
+      "source": "ai",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "ai",
+      "target": "ethics",
+      "value": 1
+    },
+    {
+      "source": "ai",
+      "target": "validation",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "science",
+      "value": 1
+    },
+    {
+      "source": "ethics",
+      "target": "science",
+      "value": 1
+    },
+    {
+      "source": "science",
+      "target": "validation",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "validation",
+      "value": 1
+    },
+    {
+      "source": "ethics",
+      "target": "validation",
       "value": 1
     }
   ]

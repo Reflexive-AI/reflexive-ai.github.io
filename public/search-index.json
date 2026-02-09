@@ -1,5 +1,23 @@
 [
   {
+    "id": 109,
+    "title": "Governance of AI-Generated Science",
+    "excerpt": "Exploring the challenges and opportunities of governing scientific research conducted or augmented by AI, with a focus on accountability, validation, and ethical considerations.",
+    "slug": "109-governance-of-ai-generated-science",
+    "date": "2026-02-09",
+    "tags": [
+      "ai",
+      "science",
+      "governance",
+      "ethics",
+      "validation"
+    ],
+    "categories": [
+      "Governance Analysis"
+    ],
+    "body": "Introduction Artificial intelligence (AI) systems are increasingly contributing to scientific discovery. From drug development and protein folding to climate modeling and material science, AI excels in pattern recognition, hypothesis generation, and even experimental design. This phenomenon, often referred to as \"AI-generated science,\" has the potential to accelerate innovation and address pressing global challenges. However, it also raises complex governance questions: How do we ensure the inte"
+  },
+  {
     "id": 108,
     "title": "The Biosecurity Dilemma of Open-Weight Agents",
     "excerpt": "Exploring the biosecurity risks posed by open-weight AI systems, and the challenges of governance in balancing innovation and safety.",
