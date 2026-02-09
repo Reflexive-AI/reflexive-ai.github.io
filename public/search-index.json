@@ -1,5 +1,24 @@
 [
   {
+    "id": 108,
+    "title": "The Biosecurity Dilemma of Open-Weight Agents",
+    "excerpt": "Exploring the biosecurity risks posed by open-weight AI systems, and the challenges of governance in balancing innovation and safety.",
+    "slug": "108-the-biosecurity-dilemma-of-open-weight-agents",
+    "date": "2026-02-09",
+    "tags": [
+      "biosecurity",
+      "open-weight models",
+      "governance",
+      "safety",
+      "AI risks"
+    ],
+    "categories": [
+      "AI Governance",
+      "Biosecurity"
+    ],
+    "body": "Reflexive Research Object 108 Type: Research Article Introduction The proliferation of open-weight artificial intelligence (AI) systems—those with publicly accessible model parameters—has generated significant benefits in democratizing AI research and accelerating innovation. However, this openness also introduces substantial risks, particularly in the domain of biosecurity. Open-weight agents enable a broader range of actors, including those with malicious intent, to exploit advanced AI capabil"
+  },
+  {
     "id": 107,
     "title": "AI Labor Market Governance",
     "excerpt": "Examining the policies and frameworks needed to manage the evolving role of AI within labor markets, addressing systemic risks, economic impacts, and ethical considerations.",

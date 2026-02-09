@@ -453,6 +453,11 @@
           "title": "Multi-Agent Coordination Failures",
           "slug": "/research/088-multi-agent-coordination-failures",
           "excerpt": "Exploring the dynamics, risks, and governance challenges of coordination failures among AI systems in multi-agent environments."
+        },
+        {
+          "title": "The Biosecurity Dilemma of Open-Weight Agents",
+          "slug": "/research/108-the-biosecurity-dilemma-of-open-weight-agents",
+          "excerpt": "Exploring the biosecurity risks posed by open-weight AI systems, and the challenges of governance in balancing innovation and safety."
         }
       ]
     },
@@ -1744,6 +1749,11 @@
           "title": "Post-Proliferation Open-Weight Governance",
           "slug": "/research/105-post-proliferation-open-weight-governance",
           "excerpt": "Examining regulatory frameworks for governing openly accessible AI model weights in an era of widespread proliferation."
+        },
+        {
+          "title": "The Biosecurity Dilemma of Open-Weight Agents",
+          "slug": "/research/108-the-biosecurity-dilemma-of-open-weight-agents",
+          "excerpt": "Exploring the biosecurity risks posed by open-weight AI systems, and the challenges of governance in balancing innovation and safety."
         }
       ]
     },
@@ -4298,6 +4308,45 @@
           "title": "AI Labor Market Governance",
           "slug": "/research/107-ai-labor-market-governance",
           "excerpt": "Examining the policies and frameworks needed to manage the evolving role of AI within labor markets, addressing systemic risks, economic impacts, and ethical considerations."
+        }
+      ]
+    },
+    {
+      "id": "biosecurity",
+      "title": "biosecurity",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Biosecurity Dilemma of Open-Weight Agents",
+          "slug": "/research/108-the-biosecurity-dilemma-of-open-weight-agents",
+          "excerpt": "Exploring the biosecurity risks posed by open-weight AI systems, and the challenges of governance in balancing innovation and safety."
+        }
+      ]
+    },
+    {
+      "id": "open-weight models",
+      "title": "open-weight models",
+      "group": "technical",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Biosecurity Dilemma of Open-Weight Agents",
+          "slug": "/research/108-the-biosecurity-dilemma-of-open-weight-agents",
+          "excerpt": "Exploring the biosecurity risks posed by open-weight AI systems, and the challenges of governance in balancing innovation and safety."
+        }
+      ]
+    },
+    {
+      "id": "ai risks",
+      "title": "AI risks",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Biosecurity Dilemma of Open-Weight Agents",
+          "slug": "/research/108-the-biosecurity-dilemma-of-open-weight-agents",
+          "excerpt": "Exploring the biosecurity risks posed by open-weight AI systems, and the challenges of governance in balancing innovation and safety."
         }
       ]
     }
@@ -8011,6 +8060,51 @@
     {
       "source": "automation",
       "target": "workforce",
+      "value": 1
+    },
+    {
+      "source": "biosecurity",
+      "target": "open-weight models",
+      "value": 1
+    },
+    {
+      "source": "biosecurity",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "biosecurity",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "ai risks",
+      "target": "biosecurity",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "open-weight models",
+      "value": 1
+    },
+    {
+      "source": "open-weight models",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "ai risks",
+      "target": "open-weight models",
+      "value": 1
+    },
+    {
+      "source": "ai risks",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "ai risks",
+      "target": "safety",
       "value": 1
     }
   ]

@@ -163,7 +163,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 107. [x] AI Labor Market Governance [R][P]
     The most politically salient dimension of AI governance, covering job displacement, retraining infrastructure, transition funds, and sectoral deployment pacing.
 
-108. [ ] The Biosecurity Dilemma of Open-Weight Agents [R]
+108. [x] The Biosecurity Dilemma of Open-Weight Agents [R]
     Agentic open-weight models that can autonomously execute multi-step biological research workflows create biosecurity risks qualitatively different from those in article 035.
 
 109. [ ] Governance of AI-Generated Science [R]
