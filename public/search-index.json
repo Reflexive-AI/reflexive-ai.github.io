@@ -1,5 +1,23 @@
 [
   {
+    "id": 107,
+    "title": "AI Labor Market Governance",
+    "excerpt": "Examining the policies and frameworks needed to manage the evolving role of AI within labor markets, addressing systemic risks, economic impacts, and ethical considerations.",
+    "slug": "107-ai-labor-market-governance",
+    "date": "2026-02-09",
+    "tags": [
+      "labor",
+      "policy",
+      "automation",
+      "ai-governance",
+      "workforce"
+    ],
+    "categories": [
+      "Governance Analysis"
+    ],
+    "body": "Reflexive Research Object 107 Type: Governance Analysis & Policy Design Introduction The rapid integration of artificial intelligence (AI) into labor markets presents unprecedented challenges and opportunities. While automation has historically displaced certain jobs and created others, the scale and speed at which AI systems are being deployed introduce systemic risks to workforce stability, economic equity, and social cohesion. These developments necessitate a robust governance framework to ma"
+  },
+  {
     "id": 106,
     "title": "Cryptographic Verification of AI Intent",
     "excerpt": "Exploring the role of cryptographic methods in ensuring AI systems act in alignment with stated objectives and ethical frameworks.",

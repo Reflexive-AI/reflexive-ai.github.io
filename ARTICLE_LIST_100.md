@@ -160,7 +160,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 106. [x] Cryptographic Verification of AI Intent [R][A]
     Cryptographic attestation of a model's internal state at inference time could provide tamper-proof records of computational trajectories, analogous to flight data recorders.
 
-107. [ ] AI Labor Market Governance [R][P]
+107. [x] AI Labor Market Governance [R][P]
     The most politically salient dimension of AI governance, covering job displacement, retraining infrastructure, transition funds, and sectoral deployment pacing.
 
 108. [ ] The Biosecurity Dilemma of Open-Weight Agents [R]

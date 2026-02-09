@@ -784,6 +784,11 @@
           "title": "Career Paths in AI Governance",
           "slug": "/research/098-career-paths-ai-governance",
           "excerpt": "A practical guide to careers in AI governance. Roles, required skills, where the jobs are, and how to break into a field where demand far outstrips supply."
+        },
+        {
+          "title": "AI Labor Market Governance",
+          "slug": "/research/107-ai-labor-market-governance",
+          "excerpt": "Examining the policies and frameworks needed to manage the evolving role of AI within labor markets, addressing systemic risks, economic impacts, and ethical considerations."
         }
       ]
     },
@@ -2141,7 +2146,7 @@
       "id": "ai-governance",
       "title": "ai-governance",
       "group": "concept",
-      "val": 23,
+      "val": 25,
       "articles": [
         {
           "title": "API-Level Safety Controls",
@@ -2187,6 +2192,11 @@
           "title": "Annual Review: State of AI Governance 2026",
           "slug": "/research/100-annual-review-state-of-ai-governance-2026",
           "excerpt": "The 100th and final article in the Reflexive AI Initiative's founding corpus surveys the state of AI governance as of February 2026, assessing regulatory progress, institutional capacity, technical advances, and the three biggest open problems in the field."
+        },
+        {
+          "title": "AI Labor Market Governance",
+          "slug": "/research/107-ai-labor-market-governance",
+          "excerpt": "Examining the policies and frameworks needed to manage the evolving role of AI within labor markets, addressing systemic risks, economic impacts, and ethical considerations."
         }
       ]
     },
@@ -2601,12 +2611,17 @@
       "id": "automation",
       "title": "automation",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "The Governance Paradox: When AI Systems Are Better Regulators Than Humans",
           "slug": "/research/063-governance-paradox",
           "excerpt": "AI systems may detect regulatory violations more reliably than human auditors. This creates tension with the principle of human oversight. What does meaningful oversight mean when humans are the bottleneck?"
+        },
+        {
+          "title": "AI Labor Market Governance",
+          "slug": "/research/107-ai-labor-market-governance",
+          "excerpt": "Examining the policies and frameworks needed to manage the evolving role of AI within labor markets, addressing systemic risks, economic impacts, and ethical considerations."
         }
       ]
     },
@@ -4025,12 +4040,17 @@
       "id": "workforce",
       "title": "workforce",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Career Paths in AI Governance",
           "slug": "/research/098-career-paths-ai-governance",
           "excerpt": "A practical guide to careers in AI governance. Roles, required skills, where the jobs are, and how to break into a field where demand far outstrips supply."
+        },
+        {
+          "title": "AI Labor Market Governance",
+          "slug": "/research/107-ai-labor-market-governance",
+          "excerpt": "Examining the policies and frameworks needed to manage the evolving role of AI within labor markets, addressing systemic risks, economic impacts, and ethical considerations."
         }
       ]
     },
@@ -4265,6 +4285,19 @@
           "title": "Cryptographic Verification of AI Intent",
           "slug": "/research/106-cryptographic-verification-of-ai-intent",
           "excerpt": "Exploring the role of cryptographic methods in ensuring AI systems act in alignment with stated objectives and ethical frameworks."
+        }
+      ]
+    },
+    {
+      "id": "labor",
+      "title": "labor",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI Labor Market Governance",
+          "slug": "/research/107-ai-labor-market-governance",
+          "excerpt": "Examining the policies and frameworks needed to manage the evolving role of AI within labor markets, addressing systemic risks, economic impacts, and ethical considerations."
         }
       ]
     }
@@ -7583,12 +7616,12 @@
     {
       "source": "ai-governance",
       "target": "workforce",
-      "value": 1
+      "value": 2
     },
     {
       "source": "ai-governance",
       "target": "policy",
-      "value": 1
+      "value": 2
     },
     {
       "source": "ai-governance",
@@ -7598,7 +7631,7 @@
     {
       "source": "policy",
       "target": "workforce",
-      "value": 1
+      "value": 2
     },
     {
       "source": "education",
@@ -7943,6 +7976,41 @@
     {
       "source": "safety mechanisms",
       "target": "trust",
+      "value": 1
+    },
+    {
+      "source": "labor",
+      "target": "policy",
+      "value": 1
+    },
+    {
+      "source": "automation",
+      "target": "labor",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "labor",
+      "value": 1
+    },
+    {
+      "source": "labor",
+      "target": "workforce",
+      "value": 1
+    },
+    {
+      "source": "automation",
+      "target": "policy",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "automation",
+      "value": 1
+    },
+    {
+      "source": "automation",
+      "target": "workforce",
       "value": 1
     }
   ]
