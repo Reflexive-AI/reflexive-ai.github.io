@@ -5,17 +5,8 @@
     "excerpt": "Establishing a governance framework for agentic AI systems, focusing on oversight, accountability, and the dynamic interplay between AI autonomy and human control.",
     "slug": "111-agentic-ai-a-governance-framework",
     "date": "2026-02-10",
-    "tags": [
-      "agentic-systems",
-      "autonomy",
-      "accountability",
-      "regulation",
-      "governance"
-    ],
-    "categories": [
-      "AI Governance",
-      "Policy Frameworks"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Reflexive Research Object 111 Type: Governance Framework Design Introduction Agentic AI systems—those capable of initiating actions autonomously to achieve specified goals—present distinct governance challenges. Unlike narrower systems, which operate under tightly constrained user commands, agentic systems may exhibit emergent behaviors, optimize across extended time horizons, and interact dynamically with their environments and other agents. These capabilities raise questions about accountabili"
   },
   {
@@ -24,16 +15,8 @@
     "excerpt": "Exploring the interplay between national autonomy and the globalized AI infrastructure landscape, highlighting challenges of governance, security, and equitable access.",
     "slug": "110-digital-sovereignty-and-ai-infrastructure",
     "date": "2026-02-10",
-    "tags": [
-      "infrastructure",
-      "national security",
-      "governance",
-      "AI ecosystems"
-    ],
-    "categories": [
-      "AI Governance",
-      "Digital Sovereignty"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Reflexive Research Object 110 Type: Research & Policy Analysis Introduction The concept of digital sovereignty has become increasingly relevant in an era where artificial intelligence (AI) shapes critical societal functions, economic systems, and geopolitical strategies. Digital sovereignty refers to a nation’s ability to govern its digital resources, infrastructure, and data flows without undue dependence on external entities. However, the globalized and interconnected nature of AI infrastructu"
   },
   {
@@ -42,16 +25,8 @@
     "excerpt": "Exploring the challenges and opportunities of governing scientific research conducted or augmented by AI, with a focus on accountability, validation, and ethical considerations.",
     "slug": "109-governance-of-ai-generated-science",
     "date": "2026-02-09",
-    "tags": [
-      "ai",
-      "science",
-      "governance",
-      "ethics",
-      "validation"
-    ],
-    "categories": [
-      "Governance Analysis"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Introduction Artificial intelligence (AI) systems are increasingly contributing to scientific discovery. From drug development and protein folding to climate modeling and material science, AI excels in pattern recognition, hypothesis generation, and even experimental design. This phenomenon, often referred to as \"AI-generated science,\" has the potential to accelerate innovation and address pressing global challenges. However, it also raises complex governance questions: How do we ensure the inte"
   },
   {
@@ -60,17 +35,8 @@
     "excerpt": "Exploring the biosecurity risks posed by open-weight AI systems, and the challenges of governance in balancing innovation and safety.",
     "slug": "108-the-biosecurity-dilemma-of-open-weight-agents",
     "date": "2026-02-09",
-    "tags": [
-      "biosecurity",
-      "open-weight models",
-      "governance",
-      "safety",
-      "AI risks"
-    ],
-    "categories": [
-      "AI Governance",
-      "Biosecurity"
-    ],
+    "tags": [],
+    "categories": [],
     "body": "Reflexive Research Object 108 Type: Research Article Introduction The proliferation of open-weight artificial intelligence (AI) systems—those with publicly accessible model parameters—has generated significant benefits in democratizing AI research and accelerating innovation. However, this openness also introduces substantial risks, particularly in the domain of biosecurity. Open-weight agents enable a broader range of actors, including those with malicious intent, to exploit advanced AI capabil"
   },
   {
