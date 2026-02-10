@@ -169,7 +169,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 109. [x] Governance of AI-Generated Science [R]
     When AI systems generate hypotheses, design experiments, and write papers, scientific integrity frameworks require extension to address authorship, reproducibility, and fraud detection.
 
-110. [ ] Digital Sovereignty and AI Infrastructure [R][P]
+110. [x] Digital Sovereignty and AI Infrastructure [R][P]
     How dependence on foreign-owned AI infrastructure creates strategic vulnerabilities, and the governance tools available to nations seeking technological self-determination.
 
 ### Cluster B: Agentic AI Governance (111-120)

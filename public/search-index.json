@@ -1,5 +1,23 @@
 [
   {
+    "id": 110,
+    "title": "Digital Sovereignty and AI Infrastructure",
+    "excerpt": "Exploring the interplay between national autonomy and the globalized AI infrastructure landscape, highlighting challenges of governance, security, and equitable access.",
+    "slug": "110-digital-sovereignty-and-ai-infrastructure",
+    "date": "2026-02-10",
+    "tags": [
+      "infrastructure",
+      "national security",
+      "governance",
+      "AI ecosystems"
+    ],
+    "categories": [
+      "AI Governance",
+      "Digital Sovereignty"
+    ],
+    "body": "Reflexive Research Object 110 Type: Research & Policy Analysis Introduction The concept of digital sovereignty has become increasingly relevant in an era where artificial intelligence (AI) shapes critical societal functions, economic systems, and geopolitical strategies. Digital sovereignty refers to a nation’s ability to govern its digital resources, infrastructure, and data flows without undue dependence on external entities. However, the globalized and interconnected nature of AI infrastructu"
+  },
+  {
     "id": 109,
     "title": "Governance of AI-Generated Science",
     "excerpt": "Exploring the challenges and opportunities of governing scientific research conducted or augmented by AI, with a focus on accountability, validation, and ethical considerations.",

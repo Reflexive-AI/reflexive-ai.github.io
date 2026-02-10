@@ -1764,6 +1764,11 @@
           "title": "Governance of AI-Generated Science",
           "slug": "/research/109-governance-of-ai-generated-science",
           "excerpt": "Exploring the challenges and opportunities of governing scientific research conducted or augmented by AI, with a focus on accountability, validation, and ethical considerations."
+        },
+        {
+          "title": "Digital Sovereignty and AI Infrastructure",
+          "slug": "/research/110-digital-sovereignty-and-ai-infrastructure",
+          "excerpt": "Exploring the interplay between national autonomy and the globalized AI infrastructure landscape, highlighting challenges of governance, security, and equitable access."
         }
       ]
     },
@@ -2114,12 +2119,17 @@
       "id": "infrastructure",
       "title": "Infrastructure",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Secure Model Weights: Physical and Digital",
           "slug": "/research/053-secure-model-weights-physical-and-digital",
           "excerpt": "Security measures for protecting AI model weights from theft, tampering, and unauthorized access across physical and digital domains."
+        },
+        {
+          "title": "Digital Sovereignty and AI Infrastructure",
+          "slug": "/research/110-digital-sovereignty-and-ai-infrastructure",
+          "excerpt": "Exploring the interplay between national autonomy and the globalized AI infrastructure landscape, highlighting challenges of governance, security, and equitable access."
         }
       ]
     },
@@ -4390,6 +4400,32 @@
           "excerpt": "Exploring the challenges and opportunities of governing scientific research conducted or augmented by AI, with a focus on accountability, validation, and ethical considerations."
         }
       ]
+    },
+    {
+      "id": "national security",
+      "title": "national security",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Digital Sovereignty and AI Infrastructure",
+          "slug": "/research/110-digital-sovereignty-and-ai-infrastructure",
+          "excerpt": "Exploring the interplay between national autonomy and the globalized AI infrastructure landscape, highlighting challenges of governance, security, and equitable access."
+        }
+      ]
+    },
+    {
+      "id": "ai ecosystems",
+      "title": "AI ecosystems",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Digital Sovereignty and AI Infrastructure",
+          "slug": "/research/110-digital-sovereignty-and-ai-infrastructure",
+          "excerpt": "Exploring the interplay between national autonomy and the globalized AI infrastructure landscape, highlighting challenges of governance, security, and equitable access."
+        }
+      ]
     }
   ],
   "links": [
@@ -5711,7 +5747,7 @@
     {
       "source": "governance",
       "target": "infrastructure",
-      "value": 1
+      "value": 2
     },
     {
       "source": "api-controls",
@@ -8191,6 +8227,31 @@
     {
       "source": "ethics",
       "target": "validation",
+      "value": 1
+    },
+    {
+      "source": "infrastructure",
+      "target": "national security",
+      "value": 1
+    },
+    {
+      "source": "ai ecosystems",
+      "target": "infrastructure",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "national security",
+      "value": 1
+    },
+    {
+      "source": "ai ecosystems",
+      "target": "national security",
+      "value": 1
+    },
+    {
+      "source": "ai ecosystems",
+      "target": "governance",
       "value": 1
     }
   ]
