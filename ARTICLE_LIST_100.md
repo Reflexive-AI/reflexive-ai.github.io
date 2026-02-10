@@ -176,7 +176,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 
 *Governance frameworks for AI systems that act autonomously across multi-step tasks with real-world consequences.*
 
-111. [ ] Agentic AI: A Governance Framework [R][P]
+111. [x] Agentic AI: A Governance Framework [R][P]
     Defining the governance challenges unique to AI systems that take autonomous actions across tools, APIs, and real-world systems, distinct from conversational AI governance.
 
 112. [ ] Liability Chains in Agentic Systems [R]

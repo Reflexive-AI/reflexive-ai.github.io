@@ -168,6 +168,11 @@
           "title": "Post-Proliferation Open-Weight Governance",
           "slug": "/research/105-post-proliferation-open-weight-governance",
           "excerpt": "Examining regulatory frameworks for governing openly accessible AI model weights in an era of widespread proliferation."
+        },
+        {
+          "title": "Agentic AI: A Governance Framework",
+          "slug": "/research/111-agentic-ai-a-governance-framework",
+          "excerpt": "Establishing a governance framework for agentic AI systems, focusing on oversight, accountability, and the dynamic interplay between AI autonomy and human control."
         }
       ]
     },
@@ -1769,6 +1774,11 @@
           "title": "Digital Sovereignty and AI Infrastructure",
           "slug": "/research/110-digital-sovereignty-and-ai-infrastructure",
           "excerpt": "Exploring the interplay between national autonomy and the globalized AI infrastructure landscape, highlighting challenges of governance, security, and equitable access."
+        },
+        {
+          "title": "Agentic AI: A Governance Framework",
+          "slug": "/research/111-agentic-ai-a-governance-framework",
+          "excerpt": "Establishing a governance framework for agentic AI systems, focusing on oversight, accountability, and the dynamic interplay between AI autonomy and human control."
         }
       ]
     },
@@ -2360,7 +2370,7 @@
       "id": "accountability",
       "title": "accountability",
       "group": "concept",
-      "val": 13,
+      "val": 15,
       "articles": [
         {
           "title": "Monitoring Deployed Models",
@@ -2381,6 +2391,11 @@
           "title": "AI in Climate Modeling: Validation Standards",
           "slug": "/research/084-ai-in-climate-modeling-validation-standards",
           "excerpt": "Establishing rigorous validation standards for AI-driven climate models is essential to ensure their reliability, transparency, and utility in addressing global environmental challenges."
+        },
+        {
+          "title": "Agentic AI: A Governance Framework",
+          "slug": "/research/111-agentic-ai-a-governance-framework",
+          "excerpt": "Establishing a governance framework for agentic AI systems, focusing on oversight, accountability, and the dynamic interplay between AI autonomy and human control."
         }
       ]
     },
@@ -3797,12 +3812,17 @@
       "id": "autonomy",
       "title": "autonomy",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "AI Governance in Space",
           "slug": "/research/091-ai-governance-in-space",
           "excerpt": "Exploring the unique challenges and opportunities for regulating artificial intelligence in extraterrestrial domains, from autonomous systems to interplanetary collaboration."
+        },
+        {
+          "title": "Agentic AI: A Governance Framework",
+          "slug": "/research/111-agentic-ai-a-governance-framework",
+          "excerpt": "Establishing a governance framework for agentic AI systems, focusing on oversight, accountability, and the dynamic interplay between AI autonomy and human control."
         }
       ]
     },
@@ -4424,6 +4444,19 @@
           "title": "Digital Sovereignty and AI Infrastructure",
           "slug": "/research/110-digital-sovereignty-and-ai-infrastructure",
           "excerpt": "Exploring the interplay between national autonomy and the globalized AI infrastructure landscape, highlighting challenges of governance, security, and equitable access."
+        }
+      ]
+    },
+    {
+      "id": "agentic-systems",
+      "title": "agentic-systems",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Agentic AI: A Governance Framework",
+          "slug": "/research/111-agentic-ai-a-governance-framework",
+          "excerpt": "Establishing a governance framework for agentic AI systems, focusing on oversight, accountability, and the dynamic interplay between AI autonomy and human control."
         }
       ]
     }
@@ -5877,7 +5910,7 @@
     {
       "source": "accountability",
       "target": "governance",
-      "value": 1
+      "value": 2
     },
     {
       "source": "emergent behavior",
@@ -8252,6 +8285,46 @@
     {
       "source": "ai ecosystems",
       "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "agentic-systems",
+      "target": "autonomy",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "agentic-systems",
+      "value": 1
+    },
+    {
+      "source": "agentic-systems",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "agentic-systems",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "autonomy",
+      "value": 1
+    },
+    {
+      "source": "autonomy",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "autonomy",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "regulation",
       "value": 1
     }
   ]

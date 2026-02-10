@@ -1,5 +1,24 @@
 [
   {
+    "id": 111,
+    "title": "Agentic AI: A Governance Framework",
+    "excerpt": "Establishing a governance framework for agentic AI systems, focusing on oversight, accountability, and the dynamic interplay between AI autonomy and human control.",
+    "slug": "111-agentic-ai-a-governance-framework",
+    "date": "2026-02-10",
+    "tags": [
+      "agentic-systems",
+      "autonomy",
+      "accountability",
+      "regulation",
+      "governance"
+    ],
+    "categories": [
+      "AI Governance",
+      "Policy Frameworks"
+    ],
+    "body": "Reflexive Research Object 111 Type: Governance Framework Design Introduction Agentic AI systems—those capable of initiating actions autonomously to achieve specified goals—present distinct governance challenges. Unlike narrower systems, which operate under tightly constrained user commands, agentic systems may exhibit emergent behaviors, optimize across extended time horizons, and interact dynamically with their environments and other agents. These capabilities raise questions about accountabili"
+  },
+  {
     "id": 110,
     "title": "Digital Sovereignty and AI Infrastructure",
     "excerpt": "Exploring the interplay between national autonomy and the globalized AI infrastructure landscape, highlighting challenges of governance, security, and equitable access.",
