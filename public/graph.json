@@ -4162,8 +4162,8 @@
       ]
     },
     {
-      "id": "2026",
-      "title": "2026",
+      "id": "\"2026\"",
+      "title": "\"2026\"",
       "group": "concept",
       "val": 7,
       "articles": [
@@ -7853,7 +7853,7 @@
       "value": 1
     },
     {
-      "source": "2026",
+      "source": "\"2026\"",
       "target": "annual-review",
       "value": 1
     },
@@ -7868,7 +7868,7 @@
       "value": 1
     },
     {
-      "source": "2026",
+      "source": "\"2026\"",
       "target": "ai-governance",
       "value": 1
     },
@@ -7878,7 +7878,7 @@
       "value": 1
     },
     {
-      "source": "2026",
+      "source": "\"2026\"",
       "target": "state-of-the-field",
       "value": 1
     },
@@ -7888,7 +7888,7 @@
       "value": 1
     },
     {
-      "source": "2026",
+      "source": "\"2026\"",
       "target": "retrospective",
       "value": 1
     },

@@ -9,7 +9,7 @@ tags:
   - annual-review
   - ai-governance
   - state-of-the-field
-  - 2026
+  - "2026"
   - retrospective
 version: "1.0"
 ---

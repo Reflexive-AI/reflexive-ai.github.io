@@ -9,7 +9,7 @@ tags:
   - revisió-anual
   - governança-ia
   - estat-del-camp
-  - 2026
+  - "2026"
   - retrospectiva
 version: "1.0"
 ---
