@@ -179,7 +179,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 111. [x] Agentic AI: A Governance Framework [R][P]
     Defining the governance challenges unique to AI systems that take autonomous actions across tools, APIs, and real-world systems, distinct from conversational AI governance.
 
-112. [ ] Liability Chains in Agentic Systems [R]
+112. [x] Liability Chains in Agentic Systems [R]
     When an agent delegates to sub-agents that delegate further, liability must propagate through the chain; this article maps where that propagation breaks.
 
 113. [ ] User Delegation and Informed Consent for AI Agents [P]
