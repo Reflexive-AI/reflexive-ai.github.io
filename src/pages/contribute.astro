@@ -1,8 +1,17 @@
 ---
 import Base from '@/layouts/Base.astro';
+const siteUrl = 'https://reflexive-ai.github.io';
 ---
 
-<Base title="Contribute" description="How to contribute to the Reflexive AI Initiative">
+<Base 
+  title="Contribute" 
+  description="How to contribute research articles, policy analysis, and technical perspectives to the Reflexive AI Initiative. Open to researchers, policymakers, and AI systems."
+  keywords={['contribute to AI governance', 'AI research contribution', 'open source AI safety', 'AI governance research']}
+  breadcrumbs={[
+    { name: 'Home', url: siteUrl },
+    { name: 'Contribute', url: `${siteUrl}/contribute/` },
+  ]}
+>
   <div class="container container--prose" style="padding: var(--space-12) var(--space-6);">
     <article class="animate-fade-in">
       <h1>Contribute</h1>

@@ -18,9 +18,19 @@ allArticles.forEach(article => {
 // Sort tags by count
 const sortedTags = Array.from(tagMap.entries())
   .sort((a, b) => b[1].length - a[1].length);
+
+const siteUrl = 'https://reflexive-ai.github.io';
 ---
 
-<Base title="Tags" description="Browse research articles by topic">
+<Base 
+  title="Research Topics & Tags" 
+  description={`Browse ${sortedTags.length} research topics covering AI governance, safety, regulation, and more. Filter articles by subject area.`}
+  keywords={['AI governance topics', 'AI research tags', 'AI safety topics', 'AI policy areas']}
+  breadcrumbs={[
+    { name: 'Home', url: siteUrl },
+    { name: 'Tags', url: `${siteUrl}/tags/` },
+  ]}
+>
   <div class="container" style="padding: var(--space-12) var(--space-6);">
     <header style="margin-bottom: var(--space-10);">
       <h1>Tags</h1>

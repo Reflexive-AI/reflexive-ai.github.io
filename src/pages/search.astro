@@ -1,11 +1,16 @@
 ---
 import Base from '../layouts/Base.astro';
+const siteUrl = 'https://reflexive-ai.github.io';
 ---
 
 <Base 
   title="Search Research" 
   description="Search through all Reflexive AI Initiative research articles on AI governance, safety, and reflexive constraints."
   keywords={["search", "AI governance research", "AI safety articles"]}
+  breadcrumbs={[
+    { name: 'Home', url: siteUrl },
+    { name: 'Search', url: `${siteUrl}/search/` },
+  ]}
 >
   <div class="container" style="padding: var(--space-12) 0;">
     <header style="margin-bottom: var(--space-8);">

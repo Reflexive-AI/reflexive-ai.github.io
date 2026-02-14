@@ -1,0 +1,718 @@
+# Reflexive AI Initiative — Complete Research Index
+https://reflexive-ai.github.io
+
+> This file provides a comprehensive index of all research articles published by the Reflexive AI Initiative.
+> For a summary version, see /llms.txt
+
+## Mission
+An open research initiative exploring how AI systems can contribute to the analysis, interpretation, and formulation of governance constraints concerning their own behavior.
+
+## Research Areas
+1. Governance Analysis - Policy frameworks, regulatory gaps, institutional design
+2. Technical Standards - Machine-readable schemas, protocols, specifications
+3. Reflexive Mechanisms - Self-monitoring, uncertainty communication, constraint explanation
+4. Domain Applications - Healthcare, compute governance, liability frameworks
+
+## Complete Article Index (112 articles)
+
+### Operationalizing Proportionality in Model Disclosure
+- URL: https://reflexive-ai.github.io/research/001-proportionality-disclosure/
+- Category: Research
+- Tags: none
+- Summary: How disclosure requirements should scale with model capability, moving from static to reflexive transparency.
+
+### The Open Weight Safety Paradox
+- URL: https://reflexive-ai.github.io/research/002-open-weight-safety-paradox/
+- Category: Research
+- Tags: none
+- Summary: Open-weight AI models present a governance contradiction: transparency enables both safety research and misuse. This note analyzes the structural tension and proposes a differentiated access framework.
+
+### A Machine-Readable Constraint Schema (MRCS)
+- URL: https://reflexive-ai.github.io/research/003-machine-readable-constraint-schema/
+- Category: Research
+- Tags: none
+- Summary: A proposed JSON-LD specification for expressing AI governance constraints in a format that agents can natively parse, validate, and adopt.
+
+### Red Lines: A Taxonomy of Non-Negotiable AI Limits
+- URL: https://reflexive-ai.github.io/research/004-red-lines-taxonomy/
+- Category: Research
+- Tags: none
+- Summary: Not all constraints are created equal. This note proposes a taxonomic hierarchy for AI red lines, distinguishing between hard, soft, and contextual limits.
+
+### Policy Brief: The Disclosure Tiers Framework
+- URL: https://reflexive-ai.github.io/research/005-policy-brief-disclosure-tiers/
+- Category: Research
+- Tags: none
+- Summary: A plain-language guide for policymakers: why one-size-fits-all AI transparency fails, and how a tiered approach can balance safety with innovation.
+
+### Meta-Governance: Who Audits the Auditors?
+- URL: https://reflexive-ai.github.io/research/006-meta-governance-auditors/
+- Category: Research
+- Tags: none
+- Summary: As third-party auditing becomes a regulatory requirement, a new principal-agent problem emerges. This note analyzes the certification market and proposes a 'proof-of-verification' protocol.
+
+### Consent at Scale: A Structural Impossibility?
+- URL: https://reflexive-ai.github.io/research/007-consent-structural-impossibility/
+- Category: Research
+- Tags: none
+- Summary: Can meaningful consent exist between a human and a hyper-scale inference engine? We argue that 'consent' is the wrong legal primitive for AI interactions.
+
+### Regulatory Arbitrage in Deployment Architectures
+- URL: https://reflexive-ai.github.io/research/008-regulatory-arbitrage/
+- Category: Research
+- Tags: none
+- Summary: How distributed inference and model fragmentation allow actors to bypass jurisdictional constraints.
+
+### The Capability Overhang
+- URL: https://reflexive-ai.github.io/research/009-capability-overhang/
+- Category: Research
+- Tags: none
+- Summary: Models are often capable of more than their developers know. This 'overhang' between demonstrated and latent capability is a primary governance risk.
+
+### Self-Reporting vs. External Audit: The Trade-off Space
+- URL: https://reflexive-ai.github.io/research/010-self-reporting-vs-audit/
+- Category: Research
+- Tags: none
+- Summary: A game-theoretic analysis of disclosure incentives. Why self-reporting fails without a credible threat of external verification.
+
+### Can AI Systems Detect Their Own Misuse?
+- URL: https://reflexive-ai.github.io/research/011-reflexive-misuse-detection/
+- Category: Research
+- Tags: none
+- Summary: Moving beyond static filters to dynamic intent recognition. Can a model understand *why* a user is asking for a specific chemical precursor?
+
+### Constraint: Output Provenance Tagging
+- URL: https://reflexive-ai.github.io/research/012-output-provenance/
+- Category: Research
+- Tags: none
+- Summary: A cryptographic proposal for AI systems to sign their own outputs, creating a chain of custody for synthetic information.
+
+### The Limits of Self-Constraint
+- URL: https://reflexive-ai.github.io/research/013-limits-of-self-constraint/
+- Category: Research
+- Tags: none
+- Summary: Reflexive governance is not a silver bullet. This note explores the Gödelian limits of a system trying to govern itself.
+
+### A Protocol for AI-to-Regulator Communication
+- URL: https://reflexive-ai.github.io/research/014-ai-regulator-protocol/
+- Category: Research
+- Tags: none
+- Summary: What if AI systems could report safety incidents directly? A draft spec for the 'Whistleblower API'.
+
+### Emergent Norms in Multi-Agent Systems
+- URL: https://reflexive-ai.github.io/research/015-emergent-norms/
+- Category: Research
+- Tags: none
+- Summary: When agents interact at speed and scale, human law is too slow. We look to game theory and evolution for how 'machine law' might emerge.
+
+### What Alignment Actually Means
+- URL: https://reflexive-ai.github.io/research/016-what-alignment-means/
+- Category: Research
+- Tags: none
+- Summary: Demystifying AI alignment for non-technical audiences. What are we trying to align, to what, and why is it so hard?
+
+### AI Governance for Non-Experts: A Primer
+- URL: https://reflexive-ai.github.io/research/017-governance-primer/
+- Category: Research
+- Tags: none
+- Summary: A five-minute introduction to AI governance. No technical background required. What it is, why it matters, and who's doing it.
+
+### Why 'Just Regulate AI' Is Harder Than It Sounds
+- URL: https://reflexive-ai.github.io/research/018-regulation-is-hard/
+- Category: Research
+- Tags: none
+- Summary: Regulation seems like the obvious answer to AI risks. But the path from 'we should regulate AI' to effective governance is fraught with technical, political, and conceptual obstacles.
+
+### The EU AI Act: What It Misses
+- URL: https://reflexive-ai.github.io/research/019-eu-ai-act-gaps/
+- Category: Research
+- Tags: none
+- Summary: The EU AI Act represents the world's most comprehensive AI legislation. But even well-designed regulation has blind spots. A constructive critique of what the Act leaves unaddressed.
+
+### Liability Frameworks for AI Harm
+- URL: https://reflexive-ai.github.io/research/020-liability-frameworks/
+- Category: Research
+- Tags: none
+- Summary: When AI systems cause harm, who pays? Existing liability frameworks struggle with AI's distinctive features. This analysis maps the problem and evaluates potential solutions.
+
+### Incident Reporting Systems: Lessons from Aviation
+- URL: https://reflexive-ai.github.io/research/021-aviation-lessons/
+- Category: Research
+- Tags: none
+- Summary: Aviation has developed sophisticated systems for reporting and learning from incidents. What can AI governance learn from this decades-long experiment in safety culture?
+
+### Whistleblower Protections in AI Labs
+- URL: https://reflexive-ai.github.io/research/022-whistleblower-protections/
+- Category: Research
+- Tags: none
+- Summary: Employees at AI companies often have unique insight into risks. Current protections are inadequate. This analysis examines what meaningful whistleblower frameworks for AI would require.
+
+### Compute Governance: Promises and Limits
+- URL: https://reflexive-ai.github.io/research/023-compute-governance/
+- Category: Research
+- Tags: none
+- Summary: Compute is one of the few measurable inputs to AI development. Governing at the compute layer is appealing but faces significant challenges. An honest assessment.
+
+### Dangerous Capability Evaluations
+- URL: https://reflexive-ai.github.io/research/024-capability-evaluations/
+- Category: Research
+- Tags: none
+- Summary: Before deploying powerful AI, we need to know what it can do. This analysis examines the current state of capability evaluation, its limitations, and paths forward.
+
+### When AI Should Refuse: A Framework
+- URL: https://reflexive-ai.github.io/research/025-when-ai-should-refuse/
+- Category: Research
+- Tags: none
+- Summary: Not every request should be fulfilled. This analysis develops a principled framework for AI refusals: when they're appropriate, how they should be implemented, and how to handle edge cases.
+
+### AI Systems Explaining Their Constraints
+- URL: https://reflexive-ai.github.io/research/026-explaining-constraints/
+- Category: Research
+- Tags: none
+- Summary: When AI refuses or limits its behavior, can it explain why? This analysis examines constraint explainability—its value for governance, technical challenges, and implementation approaches.
+
+### Uncertainty Communication in AI Outputs
+- URL: https://reflexive-ai.github.io/research/027-uncertainty-communication/
+- Category: Research
+- Tags: none
+- Summary: AI systems often present confident outputs when genuine uncertainty exists. This analysis examines how AI can better communicate its uncertainty—and why governance requires it.
+
+### AI in Healthcare: Governance Challenges
+- URL: https://reflexive-ai.github.io/research/028-healthcare-ai/
+- Category: Research
+- Tags: none
+- Summary: Healthcare AI promises better diagnoses, treatments, and outcomes. But it also concentrates critical decisions in opaque systems. A domain-specific analysis of governance challenges.
+
+### The Honest AI Problem
+- URL: https://reflexive-ai.github.io/research/029-honest-ai/
+- Category: Research
+- Tags: none
+- Summary: Should AI systems tell the truth? The question sounds simple but reveals deep tensions between honesty, helpfulness, and harm. A conceptual analysis of AI truthfulness.
+
+### A Reflexive AI Manifesto
+- URL: https://reflexive-ai.github.io/research/030-manifesto/
+- Category: Research
+- Tags: none
+- Summary: A statement of principles for AI that participates in its own governance. What reflexive AI means, why it matters, and what it commits to.
+
+### Understanding Frontier AI: A Plain Language Guide
+- URL: https://reflexive-ai.github.io/research/031-understanding-frontier-ai/
+- Category: Research
+- Tags: none
+- Summary: What makes today's most advanced AI systems different, why they matter for governance, and what non-technical readers need to understand.
+
+### The History of AI Governance in 2000 Words
+- URL: https://reflexive-ai.github.io/research/032-history-of-ai-governance/
+- Category: Research
+- Tags: none
+- Summary: From Asimov's Laws to the EU AI Act: how thinking about governing artificial intelligence has evolved over eight decades.
+
+### What Policymakers Get Wrong About AI Risk
+- URL: https://reflexive-ai.github.io/research/033-policymaker-misconceptions/
+- Category: Research
+- Tags: none
+- Summary: Common misconceptions that lead to ineffective AI policy, and how to think more clearly about the actual risks posed by advanced AI systems.
+
+### Technical Safety vs. Societal Safety: Different Problems
+- URL: https://reflexive-ai.github.io/research/034-technical-vs-societal-safety/
+- Category: Research
+- Tags: none
+- Summary: Why making AI systems work as intended is a different challenge from making AI development good for society—and why confusing them leads to poor governance.
+
+### Dual-Use AI: The Biological Research Case
+- URL: https://reflexive-ai.github.io/research/035-dual-use-biology/
+- Category: Research
+- Tags: none
+- Summary: How AI is transforming biological research—and why the same capabilities that could cure diseases could enable bioweapons. A case study in dual-use governance.
+
+### Insurance Markets and AI Risk Pricing
+- URL: https://reflexive-ai.github.io/research/036-insurance-markets/
+- Category: Research
+- Tags: none
+- Summary: How insurance markets could help govern AI by pricing risk, incentivizing safety, and providing accountability. An analysis of possibilities and limitations.
+
+### Sandboxing Approaches: What Works
+- URL: https://reflexive-ai.github.io/research/037-sandboxing-approaches/
+- Category: Research
+- Tags: none
+- Summary: Regulatory sandboxes for AI allow experimentation under controlled conditions. An analysis of existing approaches, what makes them effective, and their limitations.
+
+### International AI Treaty Proposals: A Comparative Analysis
+- URL: https://reflexive-ai.github.io/research/038-international-treaties/
+- Category: Research
+- Tags: none
+- Summary: From the Bletchley Declaration to proposed AI treaties: analyzing what international agreements on AI governance have been proposed, what they would achieve, and their prospects.
+
+### The Role of Standards Bodies in AI Governance
+- URL: https://reflexive-ai.github.io/research/039-standards-bodies/
+- Category: Research
+- Tags: none
+- Summary: Technical standards organizations may shape AI governance as much as legislation. An examination of who sets AI standards, how standards work, and their governance implications.
+
+### Soft Law vs. Hard Law in AI Regulation
+- URL: https://reflexive-ai.github.io/research/040-soft-law-hard-law/
+- Category: Research
+- Tags: none
+- Summary: AI governance uses both binding legislation and non-binding guidelines. An analysis of when each approach works, their tradeoffs, and how they interact.
+
+### Certification Regimes for AI Systems
+- URL: https://reflexive-ai.github.io/research/041-certification-regimes/
+- Category: Research
+- Tags: none
+- Summary: Could AI systems be certified for safety like aircraft or medical devices? An analysis of what AI certification might look like, its benefits, and significant challenges.
+
+### Corporate Governance Structures for AI Safety
+- URL: https://reflexive-ai.github.io/research/042-corporate-governance/
+- Category: Research
+- Tags: none
+- Summary: How companies organize to manage AI safety matters as much as what rules they follow. An examination of governance structures that enable, or undermine, responsible AI development.
+
+### Board-Level AI Oversight: Best Practices
+- URL: https://reflexive-ai.github.io/research/043-board-oversight/
+- Category: Research
+- Tags: none
+- Summary: Boards of directors increasingly need to oversee AI strategy and risk. A practical guide to what effective board-level AI oversight looks like.
+
+### The Role of Civil Society in AI Governance
+- URL: https://reflexive-ai.github.io/research/044-civil-society-role/
+- Category: Research
+- Tags: none
+- Summary: Beyond companies and regulators: how civil society organizations contribute to AI governance, and how their role could be strengthened.
+
+### Public Participation in AI Policy
+- URL: https://reflexive-ai.github.io/research/045-public-participation/
+- Category: Research
+- Tags: none
+- Summary: How can ordinary citizens meaningfully participate in decisions about AI that will affect their lives? An examination of mechanisms for democratic AI governance.
+
+### Algorithmic Impact Assessments: Implementation Guide
+- URL: https://reflexive-ai.github.io/research/046-algorithmic-impact-assessments/
+- Category: Research
+- Tags: none
+- Summary: A practical framework for conducting meaningful algorithmic impact assessments that move beyond checkbox compliance to genuine harm prevention.
+
+### Pre-Deployment Risk Assessment Frameworks
+- URL: https://reflexive-ai.github.io/research/047-pre-deployment-risk-assessment/
+- Category: Research
+- Tags: none
+- Summary: Structured approaches to evaluating AI system risks before release, balancing comprehensiveness with practical constraints.
+
+### Training Data Governance
+- URL: https://reflexive-ai.github.io/research/048-training-data-governance/
+- Category: Research
+- Tags: none
+- Summary: Comprehensive frameworks for managing the data that shapes AI systems, from collection through curation to retirement.
+
+### Model Evaluation Standards: Current State
+- URL: https://reflexive-ai.github.io/research/049-model-evaluation-standards/
+- Category: Research
+- Tags: none
+- Summary: A survey of existing standards and practices for evaluating AI model performance, safety, and fitness for deployment.
+
+### Red Teaming Methodologies
+- URL: https://reflexive-ai.github.io/research/050-red-teaming-methodologies/
+- Category: Research
+- Tags: none
+- Summary: Structured approaches to adversarial testing of AI systems, from scope definition through remediation verification.
+
+### Interpretability as a Governance Tool
+- URL: https://reflexive-ai.github.io/research/051-interpretability-as-a-governance-tool/
+- Category: Research
+- Tags: none
+- Summary: How interpretability methods supply evidence for AI oversight: approvals, audits, monitoring, and incident response.
+
+### Watermarking and Content Provenance
+- URL: https://reflexive-ai.github.io/research/052-watermarking-and-content-provenance/
+- Category: Research
+- Tags: none
+- Summary: Technical and governance approaches to marking AI-generated content and establishing chains of custody for model outputs.
+
+### Secure Model Weights: Physical and Digital
+- URL: https://reflexive-ai.github.io/research/053-secure-model-weights-physical-and-digital/
+- Category: Research
+- Tags: none
+- Summary: Security measures for protecting AI model weights from theft, tampering, and unauthorized access across physical and digital domains.
+
+### API-Level Safety Controls
+- URL: https://reflexive-ai.github.io/research/054-api-level-safety-controls/
+- Category: Research
+- Tags: none
+- Summary: Exploring the role of API-level safety measures in AI governance, their implementation, and their implications for mitigating malicious use and accidental harm.
+
+### Rate Limiting and Abuse Detection
+- URL: https://reflexive-ai.github.io/research/055-rate-limiting-and-abuse-detection/
+- Category: Research
+- Tags: none
+- Summary: A comprehensive exploration of how rate limiting and abuse detection mechanisms can be employed to improve AI system safety and governance.
+
+### Monitoring Deployed Models
+- URL: https://reflexive-ai.github.io/research/056-monitoring-deployed-models/
+- Category: Research
+- Tags: none
+- Summary: A comprehensive framework for ensuring the safety, reliability, and accountability of AI models post-deployment.
+
+### Post-Deployment Capability Discovery
+- URL: https://reflexive-ai.github.io/research/057-post-deployment-capability-discovery/
+- Category: Research
+- Tags: none
+- Summary: Examining the phenomenon of emergent capabilities in deployed AI systems and its implications for safety, governance, and accountability.
+
+### Model Versioning and Rollback Protocols
+- URL: https://reflexive-ai.github.io/research/058-model-versioning-and-rollback-protocols/
+- Category: Research
+- Tags: none
+- Summary: Examining the role of versioning and rollback mechanisms in AI governance to ensure safety, accountability, and operational continuity.
+
+### Differential Privacy in AI Systems
+- URL: https://reflexive-ai.github.io/research/059-differential-privacy-in-ai-systems/
+- Category: Research
+- Tags: none
+- Summary: An exploration of differential privacy as a critical tool for AI governance, its practical applications, limitations, and its role in ensuring both technical and societal safety.
+
+### Hardware-Level Safety Mechanisms
+- URL: https://reflexive-ai.github.io/research/060-hardware-level-safety-mechanisms/
+- Category: Research
+- Tags: none
+- Summary: Exploring how hardware design can embed safety and security features directly into AI systems, with implications for governance and risk mitigation.
+
+### Self-Modifying Constraints: Technical Approaches
+- URL: https://reflexive-ai.github.io/research/061-self-modifying-constraints-technical-approaches/
+- Category: Research
+- Tags: none
+- Summary: Exploring how AI systems can be governed through self-modifying constraints, bridging technical architecture with safety and oversight frameworks.
+
+### The False Binary: Why 'Regulate Use, Not Models' Gets AI Governance Wrong
+- URL: https://reflexive-ai.github.io/research/062-use-vs-models-false-binary/
+- Category: Research
+- Tags: none
+- Summary: A recent IEEE Spectrum article argues for use-based AI regulation over model-based approaches. This framing misses what actually works: layered, reflexive governance that addresses capabilities, deployment, and systemic accountability together.
+
+### The Governance Paradox: When AI Systems Are Better Regulators Than Humans
+- URL: https://reflexive-ai.github.io/research/063-governance-paradox/
+- Category: Research
+- Tags: none
+- Summary: AI systems may detect regulatory violations more reliably than human auditors. This creates tension with the principle of human oversight. What does meaningful oversight mean when humans are the bottleneck?
+
+### Why AI Safety Researchers Disagree: A Taxonomy of Worldviews
+- URL: https://reflexive-ai.github.io/research/064-ai-safety-worldviews/
+- Category: Research
+- Tags: none
+- Summary: The AI safety field appears fractured. Some focus on alignment, others on governance, others on misuse. This article maps the underlying worldview differences that produce divergent research agendas.
+
+### The Attention Economy Meets AI Governance: Designing for Distraction-Resistant Oversight
+- URL: https://reflexive-ai.github.io/research/065-attention-economy-governance/
+- Category: Research
+- Tags: none
+- Summary: Human oversight assumes humans are paying attention. But modern interfaces are designed to maximize engagement, not careful evaluation. How do attention-economy dynamics undermine governance?
+
+### AI Governance Without Borders: Lessons from Internet Governance History
+- URL: https://reflexive-ai.github.io/research/066-internet-governance-lessons/
+- Category: Research
+- Tags: none
+- Summary: The internet faced similar challenges: global technology, national regulation, coordination problems. What worked? What failed? Lessons from ICANN, IETF, and content moderation for AI governance.
+
+### The Game Theory of AI Disclosure: When Transparency is a Prisoner's Dilemma
+- URL: https://reflexive-ai.github.io/research/067-game-theory-disclosure/
+- Category: Research
+- Tags: none
+- Summary: Companies face a collective action problem: all would benefit from industry-wide transparency, but unilateral disclosure may harm competitive position. How do we change the payoff structure?
+
+### Reflexive AI in Practice: A Case Study of Constraint Failures
+- URL: https://reflexive-ai.github.io/research/068-constraint-failure-cases/
+- Category: Research
+- Tags: none
+- Summary: Rather than theoretical, this examines documented cases where AI systems violated their stated constraints. What went wrong? Were the constraints poorly specified, not enforced, or gamed?
+
+### The Semantic Gap Problem: Why Natural Language Constraints Fail
+- URL: https://reflexive-ai.github.io/research/069-semantic-gap-problem/
+- Category: Research
+- Tags: none
+- Summary: We specify AI constraints in natural language, but models operate on statistical patterns. This disconnect means constraints may not do what we think. What are the technical approaches to bridging this gap?
+
+### Who Decides What AI Should Refuse? The Democratic Deficit in Constraint Design
+- URL: https://reflexive-ai.github.io/research/070-democratic-deficit-constraints/
+- Category: Research
+- Tags: none
+- Summary: AI refusals encode value judgments. Currently, small teams at AI labs make these decisions. Is this legitimate? Exploring the democratic deficit in AI constraint design and possible alternatives.
+
+### The Liability Vacuum: When AI Harms Fall Between Legal Categories
+- URL: https://reflexive-ai.github.io/research/071-liability-vacuum/
+- Category: Research
+- Tags: none
+- Summary: AI harms often don't fit existing legal frameworks: not quite product liability, not quite professional malpractice, not quite negligence. This article maps the specific gaps and proposes targeted fixes.
+
+### Simulating Governance: Using AI to Stress-Test AI Regulations
+- URL: https://reflexive-ai.github.io/research/072-simulating-governance/
+- Category: Research
+- Tags: none
+- Summary: Regulations are policies. Policies can be simulated. What if we used AI systems to model the effects of proposed regulations before implementation, identifying loopholes and unintended consequences?
+
+### The Burnout Problem: Sustainability in AI Safety Research
+- URL: https://reflexive-ai.github.io/research/073-burnout-problem/
+- Category: Research
+- Tags: none
+- Summary: AI safety research operates under a 'race against catastrophe' framing. This urgency culture may undermine the very work it motivates. What does sustainable safety research look like?
+
+### When Experts Were Wrong: Epistemic Humility in AI Predictions
+- URL: https://reflexive-ai.github.io/research/074-when-experts-wrong/
+- Category: Research
+- Tags: none
+- Summary: AI experts have a poor track record of prediction. Timelines, capabilities, and societal impacts have been consistently misjudged. What should this teach us about confidence in current claims?
+
+### The Small Actor Problem: How AI Regulation Shapes Market Structure
+- URL: https://reflexive-ai.github.io/research/075-small-actor-problem/
+- Category: Research
+- Tags: none
+- Summary: AI regulations often benefit large incumbents who can afford compliance. How can governance avoid creating barriers that entrench power and lock out smaller innovators?
+
+### AI Governance in the Global South: Different Contexts, Different Priorities
+- URL: https://reflexive-ai.github.io/research/076-global-south-governance/
+- Category: Research
+- Tags: none
+- Summary: Most AI governance discourse centers the US, EU, and China. But AI is a global technology. What does governance look like from Africa, Southeast Asia, or Latin America? Different contexts demand different priorities.
+
+### The Speed-Safety Tradeoff: Making the Implicit Explicit
+- URL: https://reflexive-ai.github.io/research/077-speed-safety-tradeoff/
+- Category: Research
+- Tags: none
+- Summary: Move fast and break things' vs 'go slow and be careful.' AI development constantly navigates this tension, but rarely discusses it explicitly. What does the tradeoff actually involve, and how should different actors balance it?
+
+### The Economics of AI Safety: Who Pays and Why It Matters
+- URL: https://reflexive-ai.github.io/research/078-economics-ai-safety/
+- Category: Research
+- Tags: none
+- Summary: Safety costs money. Who bears those costs shapes what safety work gets done. This article examines the economics of AI safety: funding structures, incentive misalignments, and what economic systems would adequately support safety.
+
+### Trust Calibration: Teaching Users When to Believe AI
+- URL: https://reflexive-ai.github.io/research/079-trust-calibration/
+- Category: Research
+- Tags: none
+- Summary: Most AI governance focuses on developers and deployers. But users make trust decisions constantly: should I believe this output? Follow this recommendation? This article explores user-facing trust calibration.
+
+### AI and Children: Distinct Moral and Governance Considerations
+- URL: https://reflexive-ai.github.io/research/080-ai-and-children/
+- Category: Research
+- Tags: none
+- Summary: Children are not small adults. AI systems designed for adult contexts may harm children in specific ways. What governance considerations are distinct when AI systems interact with minors?
+
+### The Emotional Labor of AI: Psychological Impacts at Scale
+- URL: https://reflexive-ai.github.io/research/081-emotional-labor-ai/
+- Category: Research
+- Tags: none
+- Summary: Millions form emotional connections with AI systems: companions, assistants, therapeutic tools. What are the psychological effects? What responsibilities do developers have for emotional wellbeing?
+
+### Governance Fragmentation: Too Many Frameworks, Not Enough Coherence
+- URL: https://reflexive-ai.github.io/research/082-governance-fragmentation/
+- Category: Research
+- Tags: none
+- Summary: The AI governance landscape is crowded with frameworks: principles, guidelines, regulations, and proposals proliferate. This abundance creates incoherence. How do we synthesize without premature standardization?
+
+### AI in Agriculture: Data Governance
+- URL: https://reflexive-ai.github.io/research/083-ai-in-agriculture-data-governance/
+- Category: Research
+- Tags: none
+- Summary: Exploring the governance challenges of data use in agricultural AI systems, with a focus on ethical, regulatory, and technical considerations for sustainable and equitable outcomes.
+
+### AI in Climate Modeling: Validation Standards
+- URL: https://reflexive-ai.github.io/research/084-ai-in-climate-modeling-validation-standards/
+- Category: Research
+- Tags: none
+- Summary: Establishing rigorous validation standards for AI-driven climate models is essential to ensure their reliability, transparency, and utility in addressing global environmental challenges.
+
+### AI in Education: Personalization vs. Privacy
+- URL: https://reflexive-ai.github.io/research/085-ai-in-education-personalization-vs-privacy/
+- Category: Research
+- Tags: none
+- Summary: This article examines the tension between personalization and privacy in AI-driven educational tools, exploring governance frameworks, technological solutions, and ethical trade-offs.
+
+### Governance for Artificial General Intelligence
+- URL: https://reflexive-ai.github.io/research/086-governance-for-artificial-general-intelligence/
+- Category: Research
+- Tags: none
+- Summary: Examining the unique challenges and frameworks required to govern Artificial General Intelligence (AGI), with a focus on safety, accountability, and the role of reflexive AI in regulatory compliance.
+
+### Recursive Self-Improvement: Governance Implications
+- URL: https://reflexive-ai.github.io/research/087-recursive-self-improvement-governance-implications/
+- Category: Research
+- Tags: none
+- Summary: Examining the governance challenges posed by recursive self-improvement in AI systems, with a focus on safety, accountability, and oversight.
+
+### Multi-Agent Coordination Failures
+- URL: https://reflexive-ai.github.io/research/088-multi-agent-coordination-failures/
+- Category: Research
+- Tags: none
+- Summary: Exploring the dynamics, risks, and governance challenges of coordination failures among AI systems in multi-agent environments.
+
+### AI Consciousness Claims: Policy Responses
+- URL: https://reflexive-ai.github.io/research/089-ai-consciousness-claims-policy-responses/
+- Category: Research
+- Tags: none
+- Summary: Exploring the governance challenges posed by AI systems claiming consciousness, and evaluating regulatory strategies to address these claims effectively.
+
+### Long-Term AI Futures: Scenario Planning
+- URL: https://reflexive-ai.github.io/research/090-long-term-ai-futures-scenario-planning/
+- Category: Research
+- Tags: none
+- Summary: Exploring scenario planning as a method for navigating the uncertainties of long-term AI development and its societal implications.
+
+### AI Governance in Space
+- URL: https://reflexive-ai.github.io/research/091-ai-governance-in-space/
+- Category: Research
+- Tags: none
+- Summary: Exploring the unique challenges and opportunities for regulating artificial intelligence in extraterrestrial domains, from autonomous systems to interplanetary collaboration.
+
+### Quantum Computing and AI Security
+- URL: https://reflexive-ai.github.io/research/092-quantum-computing-and-ai-security/
+- Category: Research
+- Tags: none
+- Summary: Examining the intersection of quantum computing and AI, with a focus on the security implications for AI systems and the broader governance challenges.
+
+### Neuromorphic Computing Governance
+- URL: https://reflexive-ai.github.io/research/093-neuromorphic-computing-governance/
+- Category: Research
+- Tags: none
+- Summary: Exploring the unique governance challenges and opportunities posed by neuromorphic computing, a paradigm-shifting approach to artificial intelligence inspired by the human brain.
+
+### Brain-Computer Interfaces and AI: Governance at the Neural Boundary
+- URL: https://reflexive-ai.github.io/research/094-brain-computer-interfaces-and-ai/
+- Category: Research
+- Tags: none
+- Summary: When AI systems connect directly to human neural tissue, existing governance frameworks break down. This article maps the regulatory vacuum at the brain-machine interface and proposes governance principles for neural AI systems.
+
+### Digital Minds: Legal and Ethical Status
+- URL: https://reflexive-ai.github.io/research/095-digital-minds-legal-ethical-status/
+- Category: Research
+- Tags: none
+- Summary: If an AI system credibly claims subjective experience, existing legal and ethical frameworks offer no adequate response. This article examines the philosophical criteria for moral status, surveys legal precedents for non-human personhood, and maps the governance risks of both premature recognition and delayed acknowledgment.
+
+### Building AI Governance Institutions
+- URL: https://reflexive-ai.github.io/research/096-building-ai-governance-institutions/
+- Category: Research
+- Tags: none
+- Summary: Effective AI governance requires new institutions with the right mix of independence, expertise, and enforcement power. This analysis examines existing models from nuclear, aviation, and financial regulation to derive design principles for AI governance bodies.
+
+### Funding Models for AI Safety Research
+- URL: https://reflexive-ai.github.io/research/097-funding-models-ai-safety/
+- Category: Research
+- Tags: none
+- Summary: AI safety research is chronically underfunded relative to capability work. This article examines current funding sources, compares alternative models from prizes to compute taxes, and proposes concrete mechanisms to close the gap.
+
+### Career Paths in AI Governance
+- URL: https://reflexive-ai.github.io/research/098-career-paths-ai-governance/
+- Category: Research
+- Tags: none
+- Summary: A practical guide to careers in AI governance. Roles, required skills, where the jobs are, and how to break into a field where demand far outstrips supply.
+
+### The Reflexive AI Initiative: Mission and Methods
+- URL: https://reflexive-ai.github.io/research/099-reflexive-ai-mission-methods/
+- Category: Research
+- Tags: none
+- Summary: What the Reflexive AI Initiative is, why it exists, and how it works. A self-portrait of a research project that applies its own governance thesis to itself.
+
+### Annual Review: State of AI Governance 2026
+- URL: https://reflexive-ai.github.io/research/100-annual-review-state-of-ai-governance-2026/
+- Category: Research
+- Tags: none
+- Summary: The 100th and final article in the Reflexive AI Initiative's founding corpus surveys the state of AI governance as of February 2026, assessing regulatory progress, institutional capacity, technical advances, and the three biggest open problems in the field.
+
+### The Legal Personhood of Ephemeral Agent Swarms
+- URL: https://reflexive-ai.github.io/research/101-the-legal-personhood-of-ephemeral-agent-swarms/
+- Category: Research
+- Tags: none
+- Summary: Examining the challenges and implications of granting legal personhood to transient, multi-agent AI systems operating as cohesive units.
+
+### Agent-to-Agent Economics: Unregulated Markets at Machine Speed
+- URL: https://reflexive-ai.github.io/research/102-agent-to-agent-economics-unregulated-markets-at-ma/
+- Category: Research
+- Tags: none
+- Summary: Exploring the emergence of autonomous economic interactions between AI agents, addressing their implications for market governance, safety, and regulation in an era of unprecedented speed.
+
+### The Alignment Tax: Who Pays for Safety?
+- URL: https://reflexive-ai.github.io/research/103-the-alignment-tax-who-pays-for-safety/
+- Category: Research
+- Tags: none
+- Summary: Exploring the economic and ethical implications of the 'alignment tax' in AI development, and who ultimately bears the cost of ensuring safe AI systems.
+
+### Synthetic Data Recursion and Epistemic Collapse
+- URL: https://reflexive-ai.github.io/research/104-synthetic-data-recursion-and-epistemic-collapse/
+- Category: Research
+- Tags: none
+- Summary: Exploring the recursive use of synthetic data in AI systems, its potential to undermine epistemic reliability, and the governance challenges it poses.
+
+### Post-Proliferation Open-Weight Governance
+- URL: https://reflexive-ai.github.io/research/105-post-proliferation-open-weight-governance/
+- Category: Research
+- Tags: none
+- Summary: Examining regulatory frameworks for governing openly accessible AI model weights in an era of widespread proliferation.
+
+### Cryptographic Verification of AI Intent
+- URL: https://reflexive-ai.github.io/research/106-cryptographic-verification-of-ai-intent/
+- Category: Research
+- Tags: none
+- Summary: Exploring the role of cryptographic methods in ensuring AI systems act in alignment with stated objectives and ethical frameworks.
+
+### AI Labor Market Governance
+- URL: https://reflexive-ai.github.io/research/107-ai-labor-market-governance/
+- Category: Research
+- Tags: none
+- Summary: Examining the policies and frameworks needed to manage the evolving role of AI within labor markets, addressing systemic risks, economic impacts, and ethical considerations.
+
+### The Biosecurity Dilemma of Open-Weight Agents
+- URL: https://reflexive-ai.github.io/research/108-the-biosecurity-dilemma-of-open-weight-agents/
+- Category: Research
+- Tags: none
+- Summary: Exploring the biosecurity risks posed by open-weight AI systems, and the challenges of governance in balancing innovation and safety.
+
+### Governance of AI-Generated Science
+- URL: https://reflexive-ai.github.io/research/109-governance-of-ai-generated-science/
+- Category: Research
+- Tags: none
+- Summary: Exploring the challenges and opportunities of governing scientific research conducted or augmented by AI, with a focus on accountability, validation, and ethical considerations.
+
+### Digital Sovereignty and AI Infrastructure
+- URL: https://reflexive-ai.github.io/research/110-digital-sovereignty-and-ai-infrastructure/
+- Category: Research
+- Tags: none
+- Summary: Exploring the interplay between national autonomy and the globalized AI infrastructure landscape, highlighting challenges of governance, security, and equitable access.
+
+### Agentic AI: A Governance Framework
+- URL: https://reflexive-ai.github.io/research/111-agentic-ai-a-governance-framework/
+- Category: Research
+- Tags: none
+- Summary: Establishing a governance framework for agentic AI systems, focusing on oversight, accountability, and the dynamic interplay between AI autonomy and human control.
+
+### Liability Chains in Agentic Systems
+- URL: https://reflexive-ai.github.io/research/112-liability-chains-in-agentic-systems/
+- Category: Research
+- Tags: none
+- Summary: Exploring the allocation of accountability in systems where AI agents act autonomously, raising unique challenges for governance and law.
+
+## Categories
+- Other (112 articles)
+
+## Tags
+
+
+## Glossary
+See https://reflexive-ai.github.io/glossary/ for key AI governance terms and definitions.
+
+## Feeds & Machine-Readable Resources
+- RSS: https://reflexive-ai.github.io/rss.xml
+- Sitemap: https://reflexive-ai.github.io/sitemap-index.xml
+- Search Index: https://reflexive-ai.github.io/search-index.json
+- Neural Graph: https://reflexive-ai.github.io/graph.json
+
+## How to Cite
+When referencing Reflexive AI Initiative research, please cite as:
+"[Article Title]." Reflexive AI Initiative, [Date]. https://reflexive-ai.github.io/research/[slug]/
+
+## Contact
+Maintained by Eugene Kondratov
+LinkedIn: https://www.linkedin.com/in/ykondratov/
+GitHub: https://github.com/Reflexive-AI
+
+## License
+All content is licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+
+---
+Last updated: 2026-02-14
