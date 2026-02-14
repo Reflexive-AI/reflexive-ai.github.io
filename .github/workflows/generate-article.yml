@@ -2,8 +2,8 @@ name: Generate Daily Article
 
 on:
   schedule:
-    # Runs twice per week: Monday and Thursday at 06:00 UTC
-    - cron: '0 6 * * 1,4'
+    # Runs every 6 hours: 00:00, 06:00, 12:00, 18:00 UTC
+    - cron: '0 */6 * * *'
   workflow_dispatch:
     inputs:
       article_count:
@@ -300,62 +300,83 @@ jobs:
               const enContent = fs.readFileSync(path.join(researchDir, file), 'utf8');
 
               for (const lang of langs) {
-                const prompt = `Translate the following research article to ${lang.name}. 
+                try {
+                  const prompt = `Translate the following research article to ${lang.name}. 
             Translate ALL content: the frontmatter (title, excerpt, categories, tags) AND the full article body.
             Keep the same markdown structure, formatting, and YAML frontmatter format.
             Keep all URLs, slugs, and file references in English (do not translate paths).
             Keep the date field unchanged.
             The translation must be natural and fluent, not literal.
 
-            CRITICAL: Output raw markdown starting with --- (YAML frontmatter). Do NOT wrap in code fences.
+            CRITICAL FORMATTING RULES:
+            - Output the article as raw markdown, NOT wrapped in code fences
+            - Do NOT wrap output in \`\`\`yaml, \`\`\`markdown, or \`\`\` blocks
+            - The very first line of your response must be --- (the YAML frontmatter opening delimiter)
 
             Article to translate:
 
             ${enContent}`;
 
-                const response = await fetch('https://models.inference.ai.azure.com/chat/completions', {
-                  method: 'POST',
-                  headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': `Bearer ${process.env.MODELS_API_TOKEN}`
-                  },
-                  body: JSON.stringify({
-                    model: process.env.MODEL,
-                    messages: [{ role: 'user', content: prompt }],
-                    max_tokens: 8192,
-                    temperature: 0.3
-                  })
-                });
+                  const response = await fetch('https://models.inference.ai.azure.com/chat/completions', {
+                    method: 'POST',
+                    headers: {
+                      'Content-Type': 'application/json',
+                      'Authorization': `Bearer ${process.env.MODELS_API_TOKEN}`
+                    },
+                    body: JSON.stringify({
+                      model: process.env.MODEL,
+                      messages: [{ role: 'user', content: prompt }],
+                      max_tokens: 8192,
+                      temperature: 0.3
+                    })
+                  });
 
-                if (!response.ok) {
-                  console.error(`Translation API error (${lang.code}): ${response.status}`);
-                  continue;
-                }
-
-                const data = await response.json();
-                let content = data.choices[0].message.content;
-
-                // Clean code fences if present
-                content = content.replace(/^```(?:yaml|markdown)?\s*\n?/, '');
-                content = content.replace(/\n?```\s*$/, '');
-
-                // Ensure it starts with ---
-                if (!content.trimStart().startsWith('---')) {
-                  const titleIdx = content.indexOf('title:');
-                  if (titleIdx !== -1) {
-                    content = '---\n' + content.substring(titleIdx);
+                  if (!response.ok) {
+                    console.error(`Translation API error (${lang.code}/${file}): ${response.status}`);
+                    continue;
                   }
-                }
 
-                if (!fs.existsSync(lang.dir)) {
-                  fs.mkdirSync(lang.dir, { recursive: true });
-                }
+                  const data = await response.json();
+                  let content = data.choices[0].message.content;
 
-                const outPath = path.join(lang.dir, file);
-                fs.writeFileSync(outPath, content);
-                console.log(`✓ Translated ${file} → ${lang.code}`);
+                  // Robust frontmatter extraction (same logic as EN generation)
+                  const titleIdx = content.indexOf('title:');
+                  if (titleIdx === -1) {
+                    console.error(`Translation ${lang.code}/${file}: no title field found, skipping`);
+                    continue;
+                  }
+
+                  const fmCloseIdx = content.indexOf('\n---', titleIdx);
+                  if (fmCloseIdx === -1) {
+                    console.error(`Translation ${lang.code}/${file}: no closing --- found, skipping`);
+                    continue;
+                  }
+
+                  const fmContent = content.substring(titleIdx, fmCloseIdx).trim();
+                  let body = content.substring(fmCloseIdx + 4);
+                  body = body.replace(/^\s*```\s*\n?/, '');
+                  body = body.replace(/\n?```\s*$/, '');
+                  body = body.trim();
+
+                  content = '---\n' + fmContent + '\n---\n\n' + body;
+
+                  if (!fs.existsSync(lang.dir)) {
+                    fs.mkdirSync(lang.dir, { recursive: true });
+                  }
+
+                  const outPath = path.join(lang.dir, file);
+                  fs.writeFileSync(outPath, content);
+                  console.log(`✓ Translated ${file} → ${lang.code}`);
+                } catch (err) {
+                  console.error(`Translation error (${lang.code}/${file}): ${err.message}`);
+                }
               }
             }
+
+      - name: Check translation coverage
+        if: always()
+        run: |
+          node scripts/check-translations.cjs || true
 
       - name: Check for any changes
         id: check_changes
