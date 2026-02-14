@@ -182,7 +182,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 112. [x] Liability Chains in Agentic Systems [R]
     When an agent delegates to sub-agents that delegate further, liability must propagate through the chain; this article maps where that propagation breaks.
 
-113. [ ] User Delegation and Informed Consent for AI Agents [P]
+113. [x] User Delegation and Informed Consent for AI Agents [P]
     What users need to understand before granting an AI agent authority to act on their behalf, and why current consent mechanisms are structurally inadequate.
 
 114. [ ] Agentic Guardrails: Technical Specification [R][A]

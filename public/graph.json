@@ -178,6 +178,11 @@
           "title": "Liability Chains in Agentic Systems",
           "slug": "/research/112-liability-chains-in-agentic-systems",
           "excerpt": "Exploring the allocation of accountability in systems where AI agents act autonomously, raising unique challenges for governance and law."
+        },
+        {
+          "title": "User Delegation and Informed Consent for AI Agents",
+          "slug": "/research/113-user-delegation-and-informed-consent-for-ai-agents",
+          "excerpt": "Examining the mechanisms and challenges of ensuring informed consent and responsible delegation when users interact with autonomous AI agents."
         }
       ]
     },
@@ -1873,7 +1878,7 @@
       "id": "trust",
       "title": "trust",
       "group": "concept",
-      "val": 11,
+      "val": 13,
       "articles": [
         {
           "title": "Uncertainty Communication in AI Outputs",
@@ -1889,6 +1894,11 @@
           "title": "Cryptographic Verification of AI Intent",
           "slug": "/research/106-cryptographic-verification-of-ai-intent",
           "excerpt": "Exploring the role of cryptographic methods in ensuring AI systems act in alignment with stated objectives and ethical frameworks."
+        },
+        {
+          "title": "User Delegation and Informed Consent for AI Agents",
+          "slug": "/research/113-user-delegation-and-informed-consent-for-ai-agents",
+          "excerpt": "Examining the mechanisms and challenges of ensuring informed consent and responsible delegation when users interact with autonomous AI agents."
         }
       ]
     },
@@ -4490,6 +4500,45 @@
           "title": "Liability Chains in Agentic Systems",
           "slug": "/research/112-liability-chains-in-agentic-systems",
           "excerpt": "Exploring the allocation of accountability in systems where AI agents act autonomously, raising unique challenges for governance and law."
+        }
+      ]
+    },
+    {
+      "id": "delegation",
+      "title": "delegation",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "User Delegation and Informed Consent for AI Agents",
+          "slug": "/research/113-user-delegation-and-informed-consent-for-ai-agents",
+          "excerpt": "Examining the mechanisms and challenges of ensuring informed consent and responsible delegation when users interact with autonomous AI agents."
+        }
+      ]
+    },
+    {
+      "id": "informed consent",
+      "title": "informed consent",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "User Delegation and Informed Consent for AI Agents",
+          "slug": "/research/113-user-delegation-and-informed-consent-for-ai-agents",
+          "excerpt": "Examining the mechanisms and challenges of ensuring informed consent and responsible delegation when users interact with autonomous AI agents."
+        }
+      ]
+    },
+    {
+      "id": "user agency",
+      "title": "user agency",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "User Delegation and Informed Consent for AI Agents",
+          "slug": "/research/113-user-delegation-and-informed-consent-for-ai-agents",
+          "excerpt": "Examining the mechanisms and challenges of ensuring informed consent and responsible delegation when users interact with autonomous AI agents."
         }
       ]
     }
@@ -8378,6 +8427,56 @@
     {
       "source": "agentic-ai",
       "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "delegation",
+      "target": "informed consent",
+      "value": 1
+    },
+    {
+      "source": "delegation",
+      "target": "user agency",
+      "value": 1
+    },
+    {
+      "source": "delegation",
+      "target": "trust",
+      "value": 1
+    },
+    {
+      "source": "delegation",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "informed consent",
+      "target": "user agency",
+      "value": 1
+    },
+    {
+      "source": "informed consent",
+      "target": "trust",
+      "value": 1
+    },
+    {
+      "source": "informed consent",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "trust",
+      "target": "user agency",
+      "value": 1
+    },
+    {
+      "source": "regulation",
+      "target": "user agency",
+      "value": 1
+    },
+    {
+      "source": "regulation",
+      "target": "trust",
       "value": 1
     }
   ]
