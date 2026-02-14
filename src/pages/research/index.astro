@@ -12,9 +12,38 @@ const sortedArticles = allArticles
     const numB = parseInt(b.slug.split('-')[0], 10) || 0;
     return numB - numA; // Descending: newest first
   });
+
+const siteUrl = 'https://reflexive-ai.github.io';
+
+const collectionJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "AI Governance Research Articles",
+  "description": `${sortedArticles.length} research articles exploring AI governance, safety, regulation, and the role of AI systems in their own oversight.`,
+  "url": `${siteUrl}/research/`,
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": sortedArticles.length,
+    "itemListElement": sortedArticles.slice(0, 20).map((article, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "url": `${siteUrl}/research/${article.slug}/`,
+      "name": article.data.title
+    }))
+  }
+};
 ---
 
-<Base title="Research" description="All research articles from the Reflexive AI Initiative">
+<Base 
+  title="Research" 
+  description={`Browse ${sortedArticles.length} research articles on AI governance, safety, reflexive AI, and regulation. From EU AI Act analysis to machine-readable constraint schemas.`}
+  keywords={['AI governance articles', 'AI safety research', 'AI regulation papers', 'reflexive AI research', 'AI policy analysis']}
+  breadcrumbs={[
+    { name: 'Home', url: siteUrl },
+    { name: 'Research', url: `${siteUrl}/research/` },
+  ]}
+  jsonLd={[collectionJsonLd]}
+>
   <div class="container" style="padding: var(--space-12) var(--space-6);">
     <header style="margin-bottom: var(--space-10);">
       <h1>Research</h1>

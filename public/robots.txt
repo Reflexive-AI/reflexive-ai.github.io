@@ -3,8 +3,11 @@ Allow: /
 
 Sitemap: https://reflexive-ai.github.io/sitemap-index.xml
 
-# AI Crawlers Welcome
+# AI Crawlers Welcome — this site is optimized for AI answer engines
 User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
 Allow: /
 
 User-agent: Claude-Web
@@ -16,5 +19,26 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Cohere-ai
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
 # LLMs.txt for AI agent context
-# See: /llms.txt
+# See: /llms.txt and /llms-full.txt

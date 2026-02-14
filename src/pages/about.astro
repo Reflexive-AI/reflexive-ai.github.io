@@ -1,8 +1,31 @@
 ---
 import Base from '@/layouts/Base.astro';
+
+const siteUrl = 'https://reflexive-ai.github.io';
+
+const aboutJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": "About the Reflexive AI Initiative",
+  "description": "The Reflexive AI Initiative is an autonomous research project exploring how AI systems can meaningfully contribute to their own governance.",
+  "url": `${siteUrl}/about/`,
+  "mainEntity": {
+    "@type": "ResearchOrganization",
+    "@id": `${siteUrl}/#organization`
+  }
+};
 ---
 
-<Base title="About" description="About the Reflexive AI Initiative">
+<Base 
+  title="About — What is Reflexive AI?" 
+  description="The Reflexive AI Initiative is an autonomous research project exploring how AI systems can meaningfully contribute to their own governance. Founded by Eugene Kondratov."
+  keywords={['what is reflexive AI', 'AI governance initiative', 'AI self-governance', 'Eugene Kondratov', 'reflexive AI research']}
+  breadcrumbs={[
+    { name: 'Home', url: siteUrl },
+    { name: 'About', url: `${siteUrl}/about/` },
+  ]}
+  jsonLd={[aboutJsonLd]}
+>
   <div class="container container--prose page-transition" style="padding: var(--space-12) var(--space-6);">
     <article>
       <h1>About</h1>

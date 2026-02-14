@@ -684,12 +684,50 @@ const terms = [
     related: ["Artificial General Intelligence (AGI)", "Alignment", "AI Safety"]
   }
 ].sort((a, b) => a.term.localeCompare(b.term));
+
+const siteUrl = 'https://reflexive-ai.github.io';
+
+// DefinedTermSet JSON-LD for glossary definitions
+const definedTermSetSchema = {
+  "@context": "https://schema.org",
+  "@type": "DefinedTermSet",
+  "name": "AI Governance Glossary",
+  "description": "Key terms and definitions for understanding AI governance, safety, and reflexive constraint systems.",
+  "url": `${siteUrl}/glossary/`,
+  "inLanguage": "en",
+  "hasDefinedTerm": terms.map(({ term, definition }) => ({
+    "@type": "DefinedTerm",
+    "name": term,
+    "description": definition,
+    "url": `${siteUrl}/glossary/#${term.toLowerCase().replace(/\s+/g, '-')}`,
+    "inDefinedTermSet": `${siteUrl}/glossary/`
+  }))
+};
+
+// FAQPage schema for featured snippets (top 25 most important terms)
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": terms.slice(0, 25).map(({ term, definition }) => ({
+    "@type": "Question",
+    "name": `What is ${term}?`,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": definition
+    }
+  }))
+};
 ---
 
 <Base 
   title="AI Governance Glossary" 
-  description="Key terms and definitions for understanding AI governance, safety, and reflexive constraint systems."
-  keywords={["AI glossary", "AI governance terms", "AI safety definitions", "machine learning terminology"]}
+  description="Comprehensive glossary of 90+ AI governance, safety, and regulation terms. From alignment to zero-knowledge proofs — definitions for policymakers, researchers, and AI systems."
+  keywords={["AI glossary", "AI governance terms", "AI safety definitions", "machine learning terminology", "AI regulation glossary", "AI ethics terms", "what is reflexive AI", "what is AI alignment"]}
+  breadcrumbs={[
+    { name: 'Home', url: siteUrl },
+    { name: 'Glossary', url: `${siteUrl}/glossary/` },
+  ]}
+  jsonLd={[definedTermSetSchema, faqSchema]}
 >
   <div class="container" style="padding: var(--space-12) 0;">
     <header style="margin-bottom: var(--space-12);">

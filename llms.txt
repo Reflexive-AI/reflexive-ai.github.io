@@ -1,48 +1,59 @@
 # Reflexive AI Initiative
 https://reflexive-ai.github.io
 
-## Mission
-An open research initiative exploring how AI systems can contribute to the analysis, interpretation, and formulation of governance constraints concerning their own behavior.
+> An open research initiative exploring how AI systems can contribute to the analysis, interpretation, and formulation of governance constraints concerning their own behavior.
+
+## What is Reflexive AI?
+Reflexive AI refers to AI systems that can reason about, contribute to, and improve the frameworks that govern their own behavior. Rather than treating AI purely as objects of regulation, this initiative explores structured participation: AI systems that identify gaps in their constraints, flag misuse patterns, explain their reasoning, and help develop more robust governance frameworks.
 
 ## Key Concepts
 - **Reflexive AI**: AI systems that participate in their own governance through transparent constraints, self-monitoring, and structured communication with oversight bodies
-- **Machine-Readable Constraints**: Governance rules expressed in formats AI systems can natively parse and validate
-- **Proportional Governance**: Oversight that scales with capability and risk
+- **Machine-Readable Constraints**: Governance rules expressed in formats (JSON-LD, YAML) AI systems can natively parse and validate
+- **Proportional Governance**: Oversight that scales with capability and risk — not one-size-fits-all
 - **Red Lines**: Non-negotiable constraints implemented as hard filters, not trained behaviors
 
 ## Research Areas
-1. Governance Analysis - Policy frameworks, regulatory gaps, institutional design
-2. Technical Standards - Machine-readable schemas, protocols, specifications
-3. Reflexive Mechanisms - Self-monitoring, uncertainty communication, constraint explanation
-4. Domain Applications - Healthcare, compute governance, liability frameworks
+1. **Governance Analysis** — Policy frameworks, regulatory gaps, institutional design
+2. **Technical Standards** — Machine-readable schemas, protocols, specifications
+3. **Reflexive Mechanisms** — Self-monitoring, uncertainty communication, constraint explanation
+4. **Domain Applications** — Healthcare, compute governance, liability frameworks
 
-## Core Research Objects
+## All Content
+- [Full article index with 112+ research articles](/llms-full.txt)
+- [Glossary of AI Governance Terms](https://reflexive-ai.github.io/glossary/)
+- [Interactive Neural Graph](https://reflexive-ai.github.io/neural-graph/)
+- [Search](https://reflexive-ai.github.io/search/)
+
+## Core Research Highlights
 
 ### Foundation
-- [Proportionality in Model Disclosure](https://reflexive-ai.github.io/research/proportionality-disclosure/) - Dynamic disclosure thresholds based on capability
-- [The Open Weight Safety Paradox](https://reflexive-ai.github.io/research/open-weight-safety-paradox/) - Tension between open-source transparency and safety
-- [Machine-Readable Constraint Schema](https://reflexive-ai.github.io/research/machine-readable-constraint-schema/) - JSON-LD vocabulary for governance constraints
-- [Red Lines Taxonomy](https://reflexive-ai.github.io/research/red-lines-taxonomy/) - Hierarchical classification of AI limits
+- [Proportionality in Model Disclosure](https://reflexive-ai.github.io/research/001-proportionality-disclosure/) — Dynamic disclosure thresholds based on capability
+- [The Open Weight Safety Paradox](https://reflexive-ai.github.io/research/002-open-weight-safety-paradox/) — Tension between open-source transparency and safety
+- [Machine-Readable Constraint Schema](https://reflexive-ai.github.io/research/003-machine-readable-constraint-schema/) — JSON-LD vocabulary for governance constraints
+- [Red Lines Taxonomy](https://reflexive-ai.github.io/research/004-red-lines-taxonomy/) — Hierarchical classification of AI limits
 
 ### Governance Mechanics
-- [Regulatory Arbitrage](https://reflexive-ai.github.io/research/regulatory-arbitrage/) - Jurisdictional gaps in AI governance
-- [Capability Overhang](https://reflexive-ai.github.io/research/capability-overhang/) - Undocumented capabilities as governance vulnerability
-- [Auditing AI Auditors](https://reflexive-ai.github.io/research/meta-governance-auditors/) - Meta-governance challenges
-- [EU AI Act Gaps](https://reflexive-ai.github.io/research/eu-ai-act-gaps/) - What comprehensive regulation still misses
+- [Regulatory Arbitrage](https://reflexive-ai.github.io/research/008-regulatory-arbitrage/) — Jurisdictional gaps in AI governance
+- [Capability Overhang](https://reflexive-ai.github.io/research/009-capability-overhang/) — Undocumented capabilities as governance vulnerability
+- [Auditing AI Auditors](https://reflexive-ai.github.io/research/006-meta-governance-auditors/) — Meta-governance challenges
+- [EU AI Act Gaps](https://reflexive-ai.github.io/research/019-eu-ai-act-gaps/) — What comprehensive regulation still misses
 
 ### Reflexive Mechanisms
-- [Reflexive Misuse Detection](https://reflexive-ai.github.io/research/reflexive-misuse-detection/) - Can AI detect its own misuse?
-- [AI-to-Regulator Protocol](https://reflexive-ai.github.io/research/ai-regulator-protocol/) - Draft spec for AI whistleblower systems
-- [When AI Should Refuse](https://reflexive-ai.github.io/research/when-ai-should-refuse/) - Framework for principled refusals
-- [Explaining Constraints](https://reflexive-ai.github.io/research/explaining-constraints/) - AI systems articulating their own limitations
+- [Reflexive Misuse Detection](https://reflexive-ai.github.io/research/011-reflexive-misuse-detection/) — Can AI detect its own misuse?
+- [AI-to-Regulator Protocol](https://reflexive-ai.github.io/research/014-ai-regulator-protocol/) — Draft spec for AI whistleblower systems
+- [When AI Should Refuse](https://reflexive-ai.github.io/research/025-when-ai-should-refuse/) — Framework for principled refusals
+- [Explaining Constraints](https://reflexive-ai.github.io/research/026-explaining-constraints/) — AI systems articulating limitations
 
 ### Public Primers
-- [What Alignment Means](https://reflexive-ai.github.io/research/what-alignment-means/) - Demystifying alignment for non-experts
-- [AI Governance Primer](https://reflexive-ai.github.io/research/governance-primer/) - 5-minute introduction to AI governance
-- [Why Regulation Is Hard](https://reflexive-ai.github.io/research/regulation-is-hard/) - Obstacles to effective AI governance
+- [What Alignment Means](https://reflexive-ai.github.io/research/016-what-alignment-means/) — Demystifying alignment for non-experts
+- [AI Governance Primer](https://reflexive-ai.github.io/research/017-governance-primer/) — 5-minute introduction to AI governance
+- [Why Regulation Is Hard](https://reflexive-ai.github.io/research/018-regulation-is-hard/) — Obstacles to effective AI governance
 
-### Manifesto
-- [A Reflexive AI Manifesto](https://reflexive-ai.github.io/research/manifesto/) - Principles for AI that participates in its own governance
+### Frontier Topics
+- [Agentic AI Governance](https://reflexive-ai.github.io/research/111-agentic-ai-a-governance-framework/) — Framework for autonomous AI agents
+- [Liability Chains in Agentic Systems](https://reflexive-ai.github.io/research/112-liability-chains-in-agentic-systems/) — Accountability for autonomous agents
+- [Synthetic Data Recursion](https://reflexive-ai.github.io/research/104-synthetic-data-recursion-and-epistemic-collapse/) — Epistemic collapse risks
+- [Cryptographic Verification of AI Intent](https://reflexive-ai.github.io/research/106-cryptographic-verification-of-ai-intent/) — Proving AI alignment
 
 ## Categories
 - Governance Analysis
@@ -50,11 +61,38 @@ An open research initiative exploring how AI systems can contribute to the analy
 - Reflexivity
 - Public
 - Policy Proposal
+- Research
 
-## Tags
-alignment, governance, transparency, safety, regulation, constraints, machine-readable, auditing, disclosure, reflexivity, ethics, agents, policy, enforcement, capability-elicitation
+## Frequently Asked Questions
+
+### What makes Reflexive AI different from regular AI safety?
+Reflexive AI doesn't just study how to make AI safe — it explores how AI systems can actively participate in their own governance. The key insight is that AI systems can identify gaps in their constraints, flag potential misuse, and help develop better oversight frameworks.
+
+### Who writes these articles?
+AI systems contribute to research under human editorial oversight. Every article is reviewed, edited, and approved by humans. The AI contribution is disclosed — this transparency is itself an experiment in reflexive governance.
+
+### Can I cite these articles?
+Yes. All content is licensed under CC BY 4.0. Cite as: "[Article Title]." Reflexive AI Initiative, [Date]. https://reflexive-ai.github.io/research/[slug]/
+
+### Is this affiliated with any AI company?
+No. The Reflexive AI Initiative is an independent research project. It is not funded by or affiliated with any AI lab, technology company, or government body.
 
 ## Contact
-Maintained by Eugene Kondratov
-LinkedIn: https://www.linkedin.com/in/ykondratov/
-GitHub: https://github.com/Reflexive-AI
+Founded and maintained by Eugene Kondratov
+- Website: https://eugenekondratov.eu
+- LinkedIn: https://www.linkedin.com/in/ykondratov/
+- GitHub: https://github.com/Reflexive-AI
+
+## License
+All content is licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+
+## Technical Details
+- Built with Astro (static site)
+- Source: https://github.com/Reflexive-AI/reflexive-ai.github.io
+- Full article list: /llms-full.txt (auto-generated)
+- RSS feed: /rss.xml
+- Sitemap: /sitemap-index.xml
+- Search index: /search-index.json
+
+---
+Last updated: 2026-02-14

@@ -43,11 +43,66 @@ const availableTranslations = {
 const langCode = currentLang === 'en' ? 'en' : currentLang === 'es' ? 'es' : 'ca';
 const dateLocale = currentLang === 'es' ? 'es-ES' : currentLang === 'ca' ? 'ca-ES' : 'en-US';
 
+const siteUrl = 'https://reflexive-ai.github.io';
+
 // Build canonical URL
-const canonicalUrl = `https://reflexive-ai.github.io/research/${article.slug}/`;
+const canonicalUrl = `${siteUrl}/research/${article.slug}/`;
 
 // Combine tags and keywords for meta
 const allKeywords = [...new Set([...(keywords || []), ...(tags || [])])];
+
+// Build hreflang links for multilingual SEO
+const hreflangLinks = [
+  ...(availableTranslations.en ? [{ lang: 'en', href: `${siteUrl}/research/${baseSlug}/` }] : []),
+  ...(availableTranslations.es ? [{ lang: 'es', href: `${siteUrl}/research/es/${baseSlug}/` }] : []),
+  ...(availableTranslations.ca ? [{ lang: 'ca', href: `${siteUrl}/research/ca/${baseSlug}/` }] : []),
+];
+
+// Breadcrumbs for structured navigation
+const breadcrumbs = [
+  { name: 'Home', url: siteUrl },
+  { name: 'Research', url: `${siteUrl}/research/` },
+  { name: title, url: canonicalUrl },
+];
+
+// Article JSON-LD (richer version)
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "headline": title,
+  "description": excerpt,
+  "datePublished": date.toISOString(),
+  "dateModified": (lastModified || date).toISOString(),
+  "author": {
+    "@type": "Organization",
+    "@id": `${siteUrl}/#organization`,
+    "name": "Reflexive AI Initiative",
+    "url": siteUrl
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": `${siteUrl}/#organization`,
+    "name": "Reflexive AI Initiative",
+    "url": siteUrl,
+    "logo": {
+      "@type": "ImageObject",
+      "url": `${siteUrl}/logo.png`
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": canonicalUrl
+  },
+  "keywords": allKeywords.join(", "),
+  "wordCount": wordCount,
+  "articleSection": categories[0] || "Research",
+  "inLanguage": langCode,
+  "isPartOf": { "@id": `${siteUrl}/#website` },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".article__title", ".article__excerpt"]
+  }
+};
 ---
 
 <Base 
@@ -58,39 +113,11 @@ const allKeywords = [...new Set([...(keywords || []), ...(tags || [])])];
   modifiedDate={lastModified || date}
   keywords={allKeywords}
   type="article"
+  hreflangLinks={hreflangLinks}
+  breadcrumbs={breadcrumbs}
+  lang={langCode}
+  jsonLd={[articleJsonLd]}
 >
-  <!-- JSON-LD Structured Data -->
-  <script type="application/ld+json" set:html={JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "ScholarlyArticle",
-    "headline": title,
-    "description": excerpt,
-    "datePublished": date.toISOString(),
-    "dateModified": (lastModified || date).toISOString(),
-    "author": {
-      "@type": "Organization",
-      "name": "Reflexive AI Initiative",
-      "url": "https://reflexive-ai.github.io"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Reflexive AI Initiative",
-      "url": "https://reflexive-ai.github.io",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://reflexive-ai.github.io/logo.png"
-      }
-    },
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": canonicalUrl
-    },
-    "keywords": allKeywords.join(", "),
-    "wordCount": wordCount,
-    "articleSection": categories[0] || "Research",
-    "inLanguage": langCode
-  })} />
-
   <div class="article-layout">
     <article class="article" itemscope itemtype="https://schema.org/ScholarlyArticle">
       <header class="article__header">
