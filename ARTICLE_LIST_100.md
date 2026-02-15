@@ -188,7 +188,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 114. [x] Agentic Guardrails: Technical Specification [R][A]
     A machine-readable specification for constraining agent behavior across tool-use, API calls, and autonomous decisions, extending the constraint schema from article 003.
 
-115. [ ] The Principal-Agent Problem, Literally [R][P]
+115. [x] The Principal-Agent Problem, Literally [R][P]
     Classical economics' principal-agent framework applied to human-AI delegation, analyzing information asymmetry, moral hazard, and adverse selection in agentic systems.
 
 116. [ ] Model-as-a-Service Liability: Who Is Responsible? [R][P]

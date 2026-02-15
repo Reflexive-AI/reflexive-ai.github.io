@@ -1535,7 +1535,7 @@
       "id": "alignment",
       "title": "alignment",
       "group": "concept",
-      "val": 19,
+      "val": 21,
       "articles": [
         {
           "title": "What Alignment Actually Means",
@@ -1571,6 +1571,11 @@
           "title": "Agentic Guardrails: Technical Specification",
           "slug": "/research/114-agentic-guardrails-technical-specification",
           "excerpt": "A detailed examination of technical design principles for implementing guardrails in agentic AI systems to ensure safety, alignment, and accountability."
+        },
+        {
+          "title": "The Principal-Agent Problem, Literally",
+          "slug": "/research/115-the-principal-agent-problem-literally",
+          "excerpt": "How the principal-agent problem manifests in AI governance: challenges, risks, and strategies for aligning autonomous agents with human intent."
         }
       ]
     },
@@ -1799,6 +1804,11 @@
           "title": "Liability Chains in Agentic Systems",
           "slug": "/research/112-liability-chains-in-agentic-systems",
           "excerpt": "Exploring the allocation of accountability in systems where AI agents act autonomously, raising unique challenges for governance and law."
+        },
+        {
+          "title": "The Principal-Agent Problem, Literally",
+          "slug": "/research/115-the-principal-agent-problem-literally",
+          "excerpt": "How the principal-agent problem manifests in AI governance: challenges, risks, and strategies for aligning autonomous agents with human intent."
         }
       ]
     },
@@ -3743,7 +3753,7 @@
       "id": "multi-agent systems",
       "title": "multi-agent systems",
       "group": "concept",
-      "val": 13,
+      "val": 15,
       "articles": [
         {
           "title": "Multi-Agent Coordination Failures",
@@ -3764,6 +3774,11 @@
           "title": "Agentic Guardrails: Technical Specification",
           "slug": "/research/114-agentic-guardrails-technical-specification",
           "excerpt": "A detailed examination of technical design principles for implementing guardrails in agentic AI systems to ensure safety, alignment, and accountability."
+        },
+        {
+          "title": "The Principal-Agent Problem, Literally",
+          "slug": "/research/115-the-principal-agent-problem-literally",
+          "excerpt": "How the principal-agent problem manifests in AI governance: challenges, risks, and strategies for aligning autonomous agents with human intent."
         }
       ]
     },
@@ -4566,12 +4581,30 @@
       "id": "agentic ai",
       "title": "agentic AI",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Agentic Guardrails: Technical Specification",
           "slug": "/research/114-agentic-guardrails-technical-specification",
           "excerpt": "A detailed examination of technical design principles for implementing guardrails in agentic AI systems to ensure safety, alignment, and accountability."
+        },
+        {
+          "title": "The Principal-Agent Problem, Literally",
+          "slug": "/research/115-the-principal-agent-problem-literally",
+          "excerpt": "How the principal-agent problem manifests in AI governance: challenges, risks, and strategies for aligning autonomous agents with human intent."
+        }
+      ]
+    },
+    {
+      "id": "principal-agent problem",
+      "title": "principal-agent problem",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Principal-Agent Problem, Literally",
+          "slug": "/research/115-the-principal-agent-problem-literally",
+          "excerpt": "How the principal-agent problem manifests in AI governance: challenges, risks, and strategies for aligning autonomous agents with human intent."
         }
       ]
     }
@@ -5575,7 +5608,7 @@
     {
       "source": "alignment",
       "target": "governance",
-      "value": 2
+      "value": 3
     },
     {
       "source": "cbrn",
@@ -8515,7 +8548,7 @@
     {
       "source": "agentic ai",
       "target": "alignment",
-      "value": 1
+      "value": 2
     },
     {
       "source": "agentic ai",
@@ -8530,7 +8563,7 @@
     {
       "source": "agentic ai",
       "target": "multi-agent systems",
-      "value": 1
+      "value": 2
     },
     {
       "source": "accountability",
@@ -8540,7 +8573,7 @@
     {
       "source": "alignment",
       "target": "multi-agent systems",
-      "value": 1
+      "value": 2
     },
     {
       "source": "accountability",
@@ -8554,6 +8587,36 @@
     },
     {
       "source": "accountability",
+      "target": "multi-agent systems",
+      "value": 1
+    },
+    {
+      "source": "alignment",
+      "target": "principal-agent problem",
+      "value": 1
+    },
+    {
+      "source": "agentic ai",
+      "target": "principal-agent problem",
+      "value": 1
+    },
+    {
+      "source": "multi-agent systems",
+      "target": "principal-agent problem",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "principal-agent problem",
+      "value": 1
+    },
+    {
+      "source": "agentic ai",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "governance",
       "target": "multi-agent systems",
       "value": 1
     }
