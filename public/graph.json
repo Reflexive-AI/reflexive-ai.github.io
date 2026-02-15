@@ -1535,7 +1535,7 @@
       "id": "alignment",
       "title": "alignment",
       "group": "concept",
-      "val": 17,
+      "val": 19,
       "articles": [
         {
           "title": "What Alignment Actually Means",
@@ -1566,6 +1566,11 @@
           "title": "Cryptographic Verification of AI Intent",
           "slug": "/research/106-cryptographic-verification-of-ai-intent",
           "excerpt": "Exploring the role of cryptographic methods in ensuring AI systems act in alignment with stated objectives and ethical frameworks."
+        },
+        {
+          "title": "Agentic Guardrails: Technical Specification",
+          "slug": "/research/114-agentic-guardrails-technical-specification",
+          "excerpt": "A detailed examination of technical design principles for implementing guardrails in agentic AI systems to ensure safety, alignment, and accountability."
         }
       ]
     },
@@ -2318,7 +2323,7 @@
       "id": "safety mechanisms",
       "title": "safety mechanisms",
       "group": "concept",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "Rate Limiting and Abuse Detection",
@@ -2329,6 +2334,11 @@
           "title": "Cryptographic Verification of AI Intent",
           "slug": "/research/106-cryptographic-verification-of-ai-intent",
           "excerpt": "Exploring the role of cryptographic methods in ensuring AI systems act in alignment with stated objectives and ethical frameworks."
+        },
+        {
+          "title": "Agentic Guardrails: Technical Specification",
+          "slug": "/research/114-agentic-guardrails-technical-specification",
+          "excerpt": "A detailed examination of technical design principles for implementing guardrails in agentic AI systems to ensure safety, alignment, and accountability."
         }
       ]
     },
@@ -2395,7 +2405,7 @@
       "id": "accountability",
       "title": "accountability",
       "group": "concept",
-      "val": 17,
+      "val": 19,
       "articles": [
         {
           "title": "Monitoring Deployed Models",
@@ -2426,6 +2436,11 @@
           "title": "Liability Chains in Agentic Systems",
           "slug": "/research/112-liability-chains-in-agentic-systems",
           "excerpt": "Exploring the allocation of accountability in systems where AI agents act autonomously, raising unique challenges for governance and law."
+        },
+        {
+          "title": "Agentic Guardrails: Technical Specification",
+          "slug": "/research/114-agentic-guardrails-technical-specification",
+          "excerpt": "A detailed examination of technical design principles for implementing guardrails in agentic AI systems to ensure safety, alignment, and accountability."
         }
       ]
     },
@@ -3728,7 +3743,7 @@
       "id": "multi-agent systems",
       "title": "multi-agent systems",
       "group": "concept",
-      "val": 11,
+      "val": 13,
       "articles": [
         {
           "title": "Multi-Agent Coordination Failures",
@@ -3744,6 +3759,11 @@
           "title": "Agent-to-Agent Economics: Unregulated Markets at Machine Speed",
           "slug": "/research/102-agent-to-agent-economics-unregulated-markets-at-ma",
           "excerpt": "Exploring the emergence of autonomous economic interactions between AI agents, addressing their implications for market governance, safety, and regulation in an era of unprecedented speed."
+        },
+        {
+          "title": "Agentic Guardrails: Technical Specification",
+          "slug": "/research/114-agentic-guardrails-technical-specification",
+          "excerpt": "A detailed examination of technical design principles for implementing guardrails in agentic AI systems to ensure safety, alignment, and accountability."
         }
       ]
     },
@@ -4539,6 +4559,19 @@
           "title": "User Delegation and Informed Consent for AI Agents",
           "slug": "/research/113-user-delegation-and-informed-consent-for-ai-agents",
           "excerpt": "Examining the mechanisms and challenges of ensuring informed consent and responsible delegation when users interact with autonomous AI agents."
+        }
+      ]
+    },
+    {
+      "id": "agentic ai",
+      "title": "agentic AI",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Agentic Guardrails: Technical Specification",
+          "slug": "/research/114-agentic-guardrails-technical-specification",
+          "excerpt": "A detailed examination of technical design principles for implementing guardrails in agentic AI systems to ensure safety, alignment, and accountability."
         }
       ]
     }
@@ -8212,7 +8245,7 @@
     {
       "source": "alignment",
       "target": "safety mechanisms",
-      "value": 1
+      "value": 2
     },
     {
       "source": "safety mechanisms",
@@ -8477,6 +8510,51 @@
     {
       "source": "regulation",
       "target": "trust",
+      "value": 1
+    },
+    {
+      "source": "agentic ai",
+      "target": "alignment",
+      "value": 1
+    },
+    {
+      "source": "agentic ai",
+      "target": "safety mechanisms",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "agentic ai",
+      "value": 1
+    },
+    {
+      "source": "agentic ai",
+      "target": "multi-agent systems",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "alignment",
+      "value": 1
+    },
+    {
+      "source": "alignment",
+      "target": "multi-agent systems",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "safety mechanisms",
+      "value": 1
+    },
+    {
+      "source": "multi-agent systems",
+      "target": "safety mechanisms",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "multi-agent systems",
       "value": 1
     }
   ]

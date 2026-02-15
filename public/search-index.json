@@ -1,5 +1,24 @@
 [
   {
+    "id": 114,
+    "title": "Agentic Guardrails: Technical Specification",
+    "excerpt": "A detailed examination of technical design principles for implementing guardrails in agentic AI systems to ensure safety, alignment, and accountability.",
+    "slug": "114-agentic-guardrails-technical-specification",
+    "date": "2026-02-15",
+    "tags": [
+      "agentic AI",
+      "alignment",
+      "safety mechanisms",
+      "accountability",
+      "multi-agent systems"
+    ],
+    "categories": [
+      "AI Safety",
+      "Technical Governance"
+    ],
+    "body": "Reflexive Research Object 114 Type: Technical Specification & Safety Design Introduction As agentic AI systems—those capable of making autonomous decisions and taking actions to achieve goals—become increasingly integrated into society, their potential to produce both positive and catastrophic outcomes has grown. The development and deployment of these systems demand robust technical guardrails to ensure they act safely, are aligned with human values, and remain accountable to human oversight. W"
+  },
+  {
     "id": 113,
     "title": "User Delegation and Informed Consent for AI Agents",
     "excerpt": "Examining the mechanisms and challenges of ensuring informed consent and responsible delegation when users interact with autonomous AI agents.",
