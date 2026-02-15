@@ -183,6 +183,11 @@
           "title": "User Delegation and Informed Consent for AI Agents",
           "slug": "/research/113-user-delegation-and-informed-consent-for-ai-agents",
           "excerpt": "Examining the mechanisms and challenges of ensuring informed consent and responsible delegation when users interact with autonomous AI agents."
+        },
+        {
+          "title": "Model-as-a-Service Liability: Who Is Responsible?",
+          "slug": "/research/116-model-as-a-service-liability-who-is-responsible",
+          "excerpt": "Examining legal and ethical accountability in Model-as-a-Service (MaaS) systems and the challenges of assigning liability across developers, providers, and users."
         }
       ]
     },
@@ -1816,7 +1821,7 @@
       "id": "liability",
       "title": "liability",
       "group": "concept",
-      "val": 15,
+      "val": 17,
       "articles": [
         {
           "title": "Liability Frameworks for AI Harm",
@@ -1842,6 +1847,11 @@
           "title": "Liability Chains in Agentic Systems",
           "slug": "/research/112-liability-chains-in-agentic-systems",
           "excerpt": "Exploring the allocation of accountability in systems where AI agents act autonomously, raising unique challenges for governance and law."
+        },
+        {
+          "title": "Model-as-a-Service Liability: Who Is Responsible?",
+          "slug": "/research/116-model-as-a-service-liability-who-is-responsible",
+          "excerpt": "Examining legal and ethical accountability in Model-as-a-Service (MaaS) systems and the challenges of assigning liability across developers, providers, and users."
         }
       ]
     },
@@ -2310,7 +2320,7 @@
       "id": "ai governance",
       "title": "ai governance",
       "group": "concept",
-      "val": 11,
+      "val": 13,
       "articles": [
         {
           "title": "Rate Limiting and Abuse Detection",
@@ -2326,6 +2336,11 @@
           "title": "Agent-to-Agent Economics: Unregulated Markets at Machine Speed",
           "slug": "/research/102-agent-to-agent-economics-unregulated-markets-at-ma",
           "excerpt": "Exploring the emergence of autonomous economic interactions between AI agents, addressing their implications for market governance, safety, and regulation in an era of unprecedented speed."
+        },
+        {
+          "title": "Model-as-a-Service Liability: Who Is Responsible?",
+          "slug": "/research/116-model-as-a-service-liability-who-is-responsible",
+          "excerpt": "Examining legal and ethical accountability in Model-as-a-Service (MaaS) systems and the challenges of assigning liability across developers, providers, and users."
         }
       ]
     },
@@ -4607,6 +4622,19 @@
           "excerpt": "How the principal-agent problem manifests in AI governance: challenges, risks, and strategies for aligning autonomous agents with human intent."
         }
       ]
+    },
+    {
+      "id": "model-as-a-service",
+      "title": "model-as-a-service",
+      "group": "technical",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Model-as-a-Service Liability: Who Is Responsible?",
+          "slug": "/research/116-model-as-a-service-liability-who-is-responsible",
+          "excerpt": "Examining legal and ethical accountability in Model-as-a-Service (MaaS) systems and the challenges of assigning liability across developers, providers, and users."
+        }
+      ]
     }
   ],
   "links": [
@@ -5253,7 +5281,7 @@
     {
       "source": "liability",
       "target": "regulation",
-      "value": 3
+      "value": 4
     },
     {
       "source": "enforcement",
@@ -7393,7 +7421,7 @@
     {
       "source": "ai governance",
       "target": "regulation",
-      "value": 1
+      "value": 2
     },
     {
       "source": "ai governance",
@@ -8618,6 +8646,26 @@
     {
       "source": "governance",
       "target": "multi-agent systems",
+      "value": 1
+    },
+    {
+      "source": "liability",
+      "target": "model-as-a-service",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "liability",
+      "value": 1
+    },
+    {
+      "source": "model-as-a-service",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "model-as-a-service",
       "value": 1
     }
   ]
