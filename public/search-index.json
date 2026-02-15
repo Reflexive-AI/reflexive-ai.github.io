@@ -1,5 +1,23 @@
 [
   {
+    "id": 117,
+    "title": "Agentic AI and Financial Regulation",
+    "excerpt": "Exploring the governance challenges posed by agentic AI systems in the financial sector, including risks, opportunities, and regulatory strategies.",
+    "slug": "117-agentic-ai-and-financial-regulation",
+    "date": "2026-02-15",
+    "tags": [
+      "agentic-ai",
+      "financial-regulation",
+      "governance",
+      "systemic-risk"
+    ],
+    "categories": [
+      "Financial Governance",
+      "AI Regulation"
+    ],
+    "body": "Reflexive Research Object 117 Type: Research and Policy Analysis Introduction The rise of agentic AI systems—AI systems capable of autonomous decision-making and self-directed action—has generated significant challenges for financial governance. These systems, when deployed in financial markets, offer unparalleled speed, efficiency, and adaptability. However, their deployment also introduces risks of systemic failures, coordination breakdowns, and exploitation of regulatory gaps. This article ex"
+  },
+  {
     "id": 116,
     "title": "Model-as-a-Service Liability: Who Is Responsible?",
     "excerpt": "Examining legal and ethical accountability in Model-as-a-Service (MaaS) systems and the challenges of assigning liability across developers, providers, and users.",

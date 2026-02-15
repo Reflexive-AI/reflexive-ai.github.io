@@ -194,7 +194,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 116. [x] Model-as-a-Service Liability: Who Is Responsible? [R][P]
     Mapping liability when AI is consumed as a service and harm occurs downstream, analyzing the gap between product liability and service liability doctrines.
 
-117. [ ] Agentic AI and Financial Regulation [R][P]
+117. [x] Agentic AI and Financial Regulation [R][P]
     How existing securities, banking, and consumer protection law applies (or fails to apply) when AI agents autonomously execute financial transactions.
 
 118. [ ] Autonomous Procurement by AI Systems [R]

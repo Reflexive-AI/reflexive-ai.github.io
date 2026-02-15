@@ -1814,6 +1814,11 @@
           "title": "The Principal-Agent Problem, Literally",
           "slug": "/research/115-the-principal-agent-problem-literally",
           "excerpt": "How the principal-agent problem manifests in AI governance: challenges, risks, and strategies for aligning autonomous agents with human intent."
+        },
+        {
+          "title": "Agentic AI and Financial Regulation",
+          "slug": "/research/117-agentic-ai-and-financial-regulation",
+          "excerpt": "Exploring the governance challenges posed by agentic AI systems in the financial sector, including risks, opportunities, and regulatory strategies."
         }
       ]
     },
@@ -4544,12 +4549,17 @@
       "id": "agentic-ai",
       "title": "agentic-ai",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Liability Chains in Agentic Systems",
           "slug": "/research/112-liability-chains-in-agentic-systems",
           "excerpt": "Exploring the allocation of accountability in systems where AI agents act autonomously, raising unique challenges for governance and law."
+        },
+        {
+          "title": "Agentic AI and Financial Regulation",
+          "slug": "/research/117-agentic-ai-and-financial-regulation",
+          "excerpt": "Exploring the governance challenges posed by agentic AI systems in the financial sector, including risks, opportunities, and regulatory strategies."
         }
       ]
     },
@@ -4633,6 +4643,32 @@
           "title": "Model-as-a-Service Liability: Who Is Responsible?",
           "slug": "/research/116-model-as-a-service-liability-who-is-responsible",
           "excerpt": "Examining legal and ethical accountability in Model-as-a-Service (MaaS) systems and the challenges of assigning liability across developers, providers, and users."
+        }
+      ]
+    },
+    {
+      "id": "financial-regulation",
+      "title": "financial-regulation",
+      "group": "governance",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Agentic AI and Financial Regulation",
+          "slug": "/research/117-agentic-ai-and-financial-regulation",
+          "excerpt": "Exploring the governance challenges posed by agentic AI systems in the financial sector, including risks, opportunities, and regulatory strategies."
+        }
+      ]
+    },
+    {
+      "id": "systemic-risk",
+      "title": "systemic-risk",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Agentic AI and Financial Regulation",
+          "slug": "/research/117-agentic-ai-and-financial-regulation",
+          "excerpt": "Exploring the governance challenges posed by agentic AI systems in the financial sector, including risks, opportunities, and regulatory strategies."
         }
       ]
     }
@@ -8516,7 +8552,7 @@
     {
       "source": "agentic-ai",
       "target": "governance",
-      "value": 1
+      "value": 2
     },
     {
       "source": "agentic-ai",
@@ -8666,6 +8702,31 @@
     {
       "source": "ai governance",
       "target": "model-as-a-service",
+      "value": 1
+    },
+    {
+      "source": "agentic-ai",
+      "target": "financial-regulation",
+      "value": 1
+    },
+    {
+      "source": "agentic-ai",
+      "target": "systemic-risk",
+      "value": 1
+    },
+    {
+      "source": "financial-regulation",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "financial-regulation",
+      "target": "systemic-risk",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "systemic-risk",
       "value": 1
     }
   ]
