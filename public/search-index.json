@@ -1,5 +1,22 @@
 [
   {
+    "id": 119,
+    "title": "Memory and State in Agentic Systems: Governance Implications",
+    "excerpt": "Examining how stateful memory in agentic AI systems reshapes governance challenges, particularly regarding accountability, safety, and regulation.",
+    "slug": "119-memory-and-state-in-agentic-systems-governance-imp",
+    "date": "2026-02-16",
+    "tags": [
+      "agentic-ai",
+      "memory",
+      "accountability",
+      "regulation"
+    ],
+    "categories": [
+      "Governance Analysis"
+    ],
+    "body": "Reflexive Research Object 119 Type: Governance Analysis & Policy Framework Introduction Agentic AI systems—those capable of autonomous decision-making and action—are increasingly integral to complex domains such as finance, logistics, and scientific research. A key feature distinguishing these systems from traditional software or stateless models is their ability to maintain and adapt internal memory and state. This capability allows agentic systems to learn dynamically, contextualize operations"
+  },
+  {
     "id": 118,
     "title": "Autonomous Procurement by AI Systems",
     "excerpt": "Exploring the technical, ethical, and governance implications of AI-driven procurement processes, from agentic autonomy to systemic risks.",

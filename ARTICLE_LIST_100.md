@@ -200,7 +200,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 118. [x] Autonomous Procurement by AI Systems [R]
     Governance implications when AI agents independently purchase cloud compute, API access, or data without explicit human approval for each transaction.
 
-119. [ ] Memory and State in Agentic Systems: Governance Implications [R][A]
+119. [x] Memory and State in Agentic Systems: Governance Implications [R][A]
     How persistent memory in AI agents creates new governance requirements around data retention, forgetting mandates, and audit trail integrity.
 
 120. [ ] Plain Language Guide to Agentic AI Risks [P]

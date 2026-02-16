@@ -193,6 +193,11 @@
           "title": "Autonomous Procurement by AI Systems",
           "slug": "/research/118-autonomous-procurement-by-ai-systems",
           "excerpt": "Exploring the technical, ethical, and governance implications of AI-driven procurement processes, from agentic autonomy to systemic risks."
+        },
+        {
+          "title": "Memory and State in Agentic Systems: Governance Implications",
+          "slug": "/research/119-memory-and-state-in-agentic-systems-governance-imp",
+          "excerpt": "Examining how stateful memory in agentic AI systems reshapes governance challenges, particularly regarding accountability, safety, and regulation."
         }
       ]
     },
@@ -2445,7 +2450,7 @@
       "id": "accountability",
       "title": "accountability",
       "group": "concept",
-      "val": 19,
+      "val": 21,
       "articles": [
         {
           "title": "Monitoring Deployed Models",
@@ -2481,6 +2486,11 @@
           "title": "Agentic Guardrails: Technical Specification",
           "slug": "/research/114-agentic-guardrails-technical-specification",
           "excerpt": "A detailed examination of technical design principles for implementing guardrails in agentic AI systems to ensure safety, alignment, and accountability."
+        },
+        {
+          "title": "Memory and State in Agentic Systems: Governance Implications",
+          "slug": "/research/119-memory-and-state-in-agentic-systems-governance-imp",
+          "excerpt": "Examining how stateful memory in agentic AI systems reshapes governance challenges, particularly regarding accountability, safety, and regulation."
         }
       ]
     },
@@ -4564,7 +4574,7 @@
       "id": "agentic-ai",
       "title": "agentic-ai",
       "group": "concept",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "Liability Chains in Agentic Systems",
@@ -4575,6 +4585,11 @@
           "title": "Agentic AI and Financial Regulation",
           "slug": "/research/117-agentic-ai-and-financial-regulation",
           "excerpt": "Exploring the governance challenges posed by agentic AI systems in the financial sector, including risks, opportunities, and regulatory strategies."
+        },
+        {
+          "title": "Memory and State in Agentic Systems: Governance Implications",
+          "slug": "/research/119-memory-and-state-in-agentic-systems-governance-imp",
+          "excerpt": "Examining how stateful memory in agentic AI systems reshapes governance challenges, particularly regarding accountability, safety, and regulation."
         }
       ]
     },
@@ -4702,6 +4717,19 @@
           "title": "Autonomous Procurement by AI Systems",
           "slug": "/research/118-autonomous-procurement-by-ai-systems",
           "excerpt": "Exploring the technical, ethical, and governance implications of AI-driven procurement processes, from agentic autonomy to systemic risks."
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "title": "memory",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Memory and State in Agentic Systems: Governance Implications",
+          "slug": "/research/119-memory-and-state-in-agentic-systems-governance-imp",
+          "excerpt": "Examining how stateful memory in agentic AI systems reshapes governance challenges, particularly regarding accountability, safety, and regulation."
         }
       ]
     }
@@ -8570,7 +8598,7 @@
     {
       "source": "accountability",
       "target": "regulation",
-      "value": 2
+      "value": 3
     },
     {
       "source": "agentic-ai",
@@ -8580,7 +8608,7 @@
     {
       "source": "accountability",
       "target": "agentic-ai",
-      "value": 1
+      "value": 2
     },
     {
       "source": "agentic-ai",
@@ -8590,7 +8618,7 @@
     {
       "source": "agentic-ai",
       "target": "regulation",
-      "value": 1
+      "value": 2
     },
     {
       "source": "delegation",
@@ -8789,6 +8817,21 @@
     },
     {
       "source": "agentic ai",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "agentic-ai",
+      "target": "memory",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "memory",
+      "value": 1
+    },
+    {
+      "source": "memory",
       "target": "regulation",
       "value": 1
     }
