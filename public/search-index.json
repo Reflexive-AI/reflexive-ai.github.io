@@ -1,5 +1,23 @@
 [
   {
+    "id": 120,
+    "title": "Plain Language Guide to Agentic AI Risks",
+    "excerpt": "An accessible exploration of the risks posed by agentic AI systems, including autonomy, alignment, and societal impacts.",
+    "slug": "120-plain-language-guide-to-agentic-ai-risks",
+    "date": "2026-02-16",
+    "tags": [
+      "agentic-ai",
+      "safety",
+      "autonomy",
+      "alignment",
+      "governance"
+    ],
+    "categories": [
+      "Risk Analysis"
+    ],
+    "body": "Introduction: What Is Agentic AI? Agentic AI refers to artificial intelligence systems designed to exhibit agency, meaning they can make decisions and take actions to achieve specific goals, often without continuous human oversight. These systems are not merely tools or passive algorithms that execute pre-programmed instructions: they are goal-oriented and can adapt their behavior based on new information or changing circumstances. While this capability can unlock transformative societal benefit"
+  },
+  {
     "id": 119,
     "title": "Memory and State in Agentic Systems: Governance Implications",
     "excerpt": "Examining how stateful memory in agentic AI systems reshapes governance challenges, particularly regarding accountability, safety, and regulation.",

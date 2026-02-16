@@ -488,6 +488,11 @@
           "title": "The Biosecurity Dilemma of Open-Weight Agents",
           "slug": "/research/108-the-biosecurity-dilemma-of-open-weight-agents",
           "excerpt": "Exploring the biosecurity risks posed by open-weight AI systems, and the challenges of governance in balancing innovation and safety."
+        },
+        {
+          "title": "Plain Language Guide to Agentic AI Risks",
+          "slug": "/research/120-plain-language-guide-to-agentic-ai-risks",
+          "excerpt": "An accessible exploration of the risks posed by agentic AI systems, including autonomy, alignment, and societal impacts."
         }
       ]
     },
@@ -1550,7 +1555,7 @@
       "id": "alignment",
       "title": "alignment",
       "group": "concept",
-      "val": 21,
+      "val": 23,
       "articles": [
         {
           "title": "What Alignment Actually Means",
@@ -1591,6 +1596,11 @@
           "title": "The Principal-Agent Problem, Literally",
           "slug": "/research/115-the-principal-agent-problem-literally",
           "excerpt": "How the principal-agent problem manifests in AI governance: challenges, risks, and strategies for aligning autonomous agents with human intent."
+        },
+        {
+          "title": "Plain Language Guide to Agentic AI Risks",
+          "slug": "/research/120-plain-language-guide-to-agentic-ai-risks",
+          "excerpt": "An accessible exploration of the risks posed by agentic AI systems, including autonomy, alignment, and societal impacts."
         }
       ]
     },
@@ -1834,6 +1844,11 @@
           "title": "Autonomous Procurement by AI Systems",
           "slug": "/research/118-autonomous-procurement-by-ai-systems",
           "excerpt": "Exploring the technical, ethical, and governance implications of AI-driven procurement processes, from agentic autonomy to systemic risks."
+        },
+        {
+          "title": "Plain Language Guide to Agentic AI Risks",
+          "slug": "/research/120-plain-language-guide-to-agentic-ai-risks",
+          "excerpt": "An accessible exploration of the risks posed by agentic AI systems, including autonomy, alignment, and societal impacts."
         }
       ]
     },
@@ -3917,7 +3932,7 @@
       "id": "autonomy",
       "title": "autonomy",
       "group": "concept",
-      "val": 11,
+      "val": 13,
       "articles": [
         {
           "title": "AI Governance in Space",
@@ -3933,6 +3948,11 @@
           "title": "Autonomous Procurement by AI Systems",
           "slug": "/research/118-autonomous-procurement-by-ai-systems",
           "excerpt": "Exploring the technical, ethical, and governance implications of AI-driven procurement processes, from agentic autonomy to systemic risks."
+        },
+        {
+          "title": "Plain Language Guide to Agentic AI Risks",
+          "slug": "/research/120-plain-language-guide-to-agentic-ai-risks",
+          "excerpt": "An accessible exploration of the risks posed by agentic AI systems, including autonomy, alignment, and societal impacts."
         }
       ]
     },
@@ -4574,7 +4594,7 @@
       "id": "agentic-ai",
       "title": "agentic-ai",
       "group": "concept",
-      "val": 11,
+      "val": 13,
       "articles": [
         {
           "title": "Liability Chains in Agentic Systems",
@@ -4590,6 +4610,11 @@
           "title": "Memory and State in Agentic Systems: Governance Implications",
           "slug": "/research/119-memory-and-state-in-agentic-systems-governance-imp",
           "excerpt": "Examining how stateful memory in agentic AI systems reshapes governance challenges, particularly regarding accountability, safety, and regulation."
+        },
+        {
+          "title": "Plain Language Guide to Agentic AI Risks",
+          "slug": "/research/120-plain-language-guide-to-agentic-ai-risks",
+          "excerpt": "An accessible exploration of the risks posed by agentic AI systems, including autonomy, alignment, and societal impacts."
         }
       ]
     },
@@ -5243,7 +5268,7 @@
     {
       "source": "alignment",
       "target": "safety",
-      "value": 3
+      "value": 4
     },
     {
       "source": "alignment",
@@ -5733,7 +5758,7 @@
     {
       "source": "alignment",
       "target": "governance",
-      "value": 3
+      "value": 4
     },
     {
       "source": "cbrn",
@@ -8593,7 +8618,7 @@
     {
       "source": "autonomy",
       "target": "governance",
-      "value": 2
+      "value": 3
     },
     {
       "source": "accountability",
@@ -8613,7 +8638,7 @@
     {
       "source": "agentic-ai",
       "target": "governance",
-      "value": 2
+      "value": 3
     },
     {
       "source": "agentic-ai",
@@ -8833,6 +8858,31 @@
     {
       "source": "memory",
       "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "agentic-ai",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "agentic-ai",
+      "target": "autonomy",
+      "value": 1
+    },
+    {
+      "source": "agentic-ai",
+      "target": "alignment",
+      "value": 1
+    },
+    {
+      "source": "autonomy",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "alignment",
+      "target": "autonomy",
       "value": 1
     }
   ]

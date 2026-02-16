@@ -203,7 +203,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 119. [x] Memory and State in Agentic Systems: Governance Implications [R][A]
     How persistent memory in AI agents creates new governance requirements around data retention, forgetting mandates, and audit trail integrity.
 
-120. [ ] Plain Language Guide to Agentic AI Risks [P]
+120. [x] Plain Language Guide to Agentic AI Risks [P]
     A non-technical explanation of why AI agents that take actions in the world require different governance than conversational systems, written for policymakers and the public.
 
 ### Cluster C: Labor Markets, Automation, and Economic Transition (121-130)
