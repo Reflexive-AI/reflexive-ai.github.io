@@ -3707,12 +3707,17 @@
       "id": "ai-focused",
       "title": "ai-focused",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "AI in Agriculture: Data Governance",
           "slug": "/research/083-ai-in-agriculture-data-governance",
           "excerpt": "Exploring the governance challenges of data use in agricultural AI systems, with a focus on ethical, regulatory, and technical considerations for sustainable and equitable outcomes."
+        },
+        {
+          "title": "AI and Job Displacement: What the Evidence Shows",
+          "slug": "/research/121-ai-and-job-displacement-what-the-evidence-shows",
+          "excerpt": "A comprehensive analysis of the impact of AI on employment patterns, exploring the evidence on job displacement, sectoral shifts, and potential policy responses."
         }
       ]
     },
@@ -4755,6 +4760,45 @@
           "title": "Memory and State in Agentic Systems: Governance Implications",
           "slug": "/research/119-memory-and-state-in-agentic-systems-governance-imp",
           "excerpt": "Examining how stateful memory in agentic AI systems reshapes governance challenges, particularly regarding accountability, safety, and regulation."
+        }
+      ]
+    },
+    {
+      "id": "labor market",
+      "title": "labor market",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI and Job Displacement: What the Evidence Shows",
+          "slug": "/research/121-ai-and-job-displacement-what-the-evidence-shows",
+          "excerpt": "A comprehensive analysis of the impact of AI on employment patterns, exploring the evidence on job displacement, sectoral shifts, and potential policy responses."
+        }
+      ]
+    },
+    {
+      "id": "job displacement",
+      "title": "job displacement",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI and Job Displacement: What the Evidence Shows",
+          "slug": "/research/121-ai-and-job-displacement-what-the-evidence-shows",
+          "excerpt": "A comprehensive analysis of the impact of AI on employment patterns, exploring the evidence on job displacement, sectoral shifts, and potential policy responses."
+        }
+      ]
+    },
+    {
+      "id": "policy recommendations",
+      "title": "policy recommendations",
+      "group": "governance",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI and Job Displacement: What the Evidence Shows",
+          "slug": "/research/121-ai-and-job-displacement-what-the-evidence-shows",
+          "excerpt": "A comprehensive analysis of the impact of AI on employment patterns, exploring the evidence on job displacement, sectoral shifts, and potential policy responses."
         }
       ]
     }
@@ -8883,6 +8927,36 @@
     {
       "source": "alignment",
       "target": "autonomy",
+      "value": 1
+    },
+    {
+      "source": "ai-focused",
+      "target": "labor market",
+      "value": 1
+    },
+    {
+      "source": "ai-focused",
+      "target": "job displacement",
+      "value": 1
+    },
+    {
+      "source": "ai-focused",
+      "target": "policy recommendations",
+      "value": 1
+    },
+    {
+      "source": "job displacement",
+      "target": "labor market",
+      "value": 1
+    },
+    {
+      "source": "labor market",
+      "target": "policy recommendations",
+      "value": 1
+    },
+    {
+      "source": "job displacement",
+      "target": "policy recommendations",
       "value": 1
     }
   ]

@@ -210,7 +210,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 
 *Addressing the complete absence of labor market governance in articles 1-100.*
 
-121. [ ] AI and Job Displacement: What the Evidence Shows [R][P]
+121. [x] AI and Job Displacement: What the Evidence Shows [R][P]
     A review of empirical research on AI-driven labor market disruption as of 2026, distinguishing documented effects from speculative projections.
 
 122. [ ] Sector-Specific Automation Risk Assessment [R][P]

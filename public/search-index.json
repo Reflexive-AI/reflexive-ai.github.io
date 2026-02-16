@@ -1,5 +1,23 @@
 [
   {
+    "id": 121,
+    "title": "AI and Job Displacement: What the Evidence Shows",
+    "excerpt": "A comprehensive analysis of the impact of AI on employment patterns, exploring the evidence on job displacement, sectoral shifts, and potential policy responses.",
+    "slug": "121-ai-and-job-displacement-what-the-evidence-shows",
+    "date": "2026-02-16",
+    "tags": [
+      "AI-focused",
+      "labor market",
+      "job displacement",
+      "policy recommendations"
+    ],
+    "categories": [
+      "Research",
+      "Policy"
+    ],
+    "body": "Introduction The role of artificial intelligence (AI) in reshaping labor markets is one of the most pressing societal challenges of the 21st century. From early warnings of mass unemployment to more tempered analyses suggesting a net-neutral or even net-positive effect, discourse around AI-driven job displacement is often polarized. However, as AI systems become increasingly capable, particularly in fields requiring cognitive labor, the evidence demands a rigorous and nuanced examination. This a"
+  },
+  {
     "id": 120,
     "title": "Plain Language Guide to Agentic AI Risks",
     "excerpt": "An accessible exploration of the risks posed by agentic AI systems, including autonomy, alignment, and societal impacts.",
