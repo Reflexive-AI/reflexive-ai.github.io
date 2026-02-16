@@ -197,7 +197,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 117. [x] Agentic AI and Financial Regulation [R][P]
     How existing securities, banking, and consumer protection law applies (or fails to apply) when AI agents autonomously execute financial transactions.
 
-118. [ ] Autonomous Procurement by AI Systems [R]
+118. [x] Autonomous Procurement by AI Systems [R]
     Governance implications when AI agents independently purchase cloud compute, API access, or data without explicit human approval for each transaction.
 
 119. [ ] Memory and State in Agentic Systems: Governance Implications [R][A]

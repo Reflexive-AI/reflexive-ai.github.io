@@ -1,5 +1,23 @@
 [
   {
+    "id": 118,
+    "title": "Autonomous Procurement by AI Systems",
+    "excerpt": "Exploring the technical, ethical, and governance implications of AI-driven procurement processes, from agentic autonomy to systemic risks.",
+    "slug": "118-autonomous-procurement-by-ai-systems",
+    "date": "2026-02-16",
+    "tags": [
+      "procurement",
+      "agentic ai",
+      "governance",
+      "autonomy",
+      "regulation"
+    ],
+    "categories": [
+      "Governance Analysis"
+    ],
+    "body": "Introduction Procurement—the process of sourcing and acquiring goods, services, or resources—is increasingly mediated by artificial intelligence (AI). Autonomous procurement by AI systems represents a significant leap in operational efficiency, but also raises critical questions about decision-making, accountability, and governance. As AI systems gain the capacity to independently negotiate contracts, allocate resources, and interact with other agents in markets, their autonomy introduces risks "
+  },
+  {
     "id": 117,
     "title": "Agentic AI and Financial Regulation",
     "excerpt": "Exploring the governance challenges posed by agentic AI systems in the financial sector, including risks, opportunities, and regulatory strategies.",
