@@ -222,7 +222,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 124. [x] The Gig Economy Meets AI Agents [R][P]
     How AI agents competing for platform-mediated gig work reshape labor dynamics, platform governance structures, and worker protections.
 
-125. [ ] Universal Basic Income and AI: Policy Analysis [P]
+125. [x] Universal Basic Income and AI: Policy Analysis [P]
     Evaluating UBI proposals as a response to AI-driven automation, drawing on evidence from pilot programs in Finland, Kenya, and the United States.
 
 126. [ ] AI Productivity Gains: Who Benefits? [R][P]

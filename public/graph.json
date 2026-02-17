@@ -2281,7 +2281,7 @@
       "id": "ai-governance",
       "title": "ai-governance",
       "group": "concept",
-      "val": 25,
+      "val": 27,
       "articles": [
         {
           "title": "API-Level Safety Controls",
@@ -2332,6 +2332,11 @@
           "title": "AI Labor Market Governance",
           "slug": "/research/107-ai-labor-market-governance",
           "excerpt": "Examining the policies and frameworks needed to manage the evolving role of AI within labor markets, addressing systemic risks, economic impacts, and ethical considerations."
+        },
+        {
+          "title": "Universal Basic Income and AI: Policy Analysis",
+          "slug": "/research/125-universal-basic-income-and-ai-policy-analysis",
+          "excerpt": "Examining the intersection of AI-driven economic transformation and Universal Basic Income, with a focus on policy design and governance implications."
         }
       ]
     },
@@ -2781,7 +2786,7 @@
       "id": "automation",
       "title": "automation",
       "group": "concept",
-      "val": 15,
+      "val": 17,
       "articles": [
         {
           "title": "The Governance Paradox: When AI Systems Are Better Regulators Than Humans",
@@ -2807,6 +2812,11 @@
           "title": "The Gig Economy Meets AI Agents",
           "slug": "/research/124-the-gig-economy-meets-ai-agents",
           "excerpt": "Exploring the integration of AI agents into gig platforms, implications for workers, and the governance challenges of a rapidly evolving labor model."
+        },
+        {
+          "title": "Universal Basic Income and AI: Policy Analysis",
+          "slug": "/research/125-universal-basic-income-and-ai-policy-analysis",
+          "excerpt": "Examining the intersection of AI-driven economic transformation and Universal Basic Income, with a focus on policy design and governance implications."
         }
       ]
     },
@@ -4925,6 +4935,32 @@
           "title": "The Gig Economy Meets AI Agents",
           "slug": "/research/124-the-gig-economy-meets-ai-agents",
           "excerpt": "Exploring the integration of AI agents into gig platforms, implications for workers, and the governance challenges of a rapidly evolving labor model."
+        }
+      ]
+    },
+    {
+      "id": "universal-basic-income",
+      "title": "universal-basic-income",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Universal Basic Income and AI: Policy Analysis",
+          "slug": "/research/125-universal-basic-income-and-ai-policy-analysis",
+          "excerpt": "Examining the intersection of AI-driven economic transformation and Universal Basic Income, with a focus on policy design and governance implications."
+        }
+      ]
+    },
+    {
+      "id": "economic-policy",
+      "title": "economic-policy",
+      "group": "governance",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Universal Basic Income and AI: Policy Analysis",
+          "slug": "/research/125-universal-basic-income-and-ai-policy-analysis",
+          "excerpt": "Examining the intersection of AI-driven economic transformation and Universal Basic Income, with a focus on policy design and governance implications."
         }
       ]
     }
@@ -8633,7 +8669,7 @@
     {
       "source": "ai-governance",
       "target": "automation",
-      "value": 1
+      "value": 2
     },
     {
       "source": "automation",
@@ -9203,6 +9239,31 @@
     {
       "source": "governance",
       "target": "labor markets",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "universal-basic-income",
+      "value": 1
+    },
+    {
+      "source": "automation",
+      "target": "universal-basic-income",
+      "value": 1
+    },
+    {
+      "source": "economic-policy",
+      "target": "universal-basic-income",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "economic-policy",
+      "value": 1
+    },
+    {
+      "source": "automation",
+      "target": "economic-policy",
       "value": 1
     }
   ]
