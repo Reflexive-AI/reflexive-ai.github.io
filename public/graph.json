@@ -1849,6 +1849,11 @@
           "title": "Plain Language Guide to Agentic AI Risks",
           "slug": "/research/120-plain-language-guide-to-agentic-ai-risks",
           "excerpt": "An accessible exploration of the risks posed by agentic AI systems, including autonomy, alignment, and societal impacts."
+        },
+        {
+          "title": "The Gig Economy Meets AI Agents",
+          "slug": "/research/124-the-gig-economy-meets-ai-agents",
+          "excerpt": "Exploring the integration of AI agents into gig platforms, implications for workers, and the governance challenges of a rapidly evolving labor model."
         }
       ]
     },
@@ -2776,7 +2781,7 @@
       "id": "automation",
       "title": "automation",
       "group": "concept",
-      "val": 13,
+      "val": 15,
       "articles": [
         {
           "title": "The Governance Paradox: When AI Systems Are Better Regulators Than Humans",
@@ -2797,6 +2802,11 @@
           "title": "Retraining Programs for AI-Displaced Workers: What Works",
           "slug": "/research/123-retraining-programs-for-ai-displaced-workers-what",
           "excerpt": "Analyzing the effectiveness of retraining initiatives for workers displaced by AI-driven automation, including program design, delivery, and socioeconomic outcomes."
+        },
+        {
+          "title": "The Gig Economy Meets AI Agents",
+          "slug": "/research/124-the-gig-economy-meets-ai-agents",
+          "excerpt": "Exploring the integration of AI agents into gig platforms, implications for workers, and the governance challenges of a rapidly evolving labor model."
         }
       ]
     },
@@ -4839,12 +4849,17 @@
       "id": "labor markets",
       "title": "labor markets",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Sector-Specific Automation Risk Assessment",
           "slug": "/research/122-sector-specific-automation-risk-assessment",
           "excerpt": "An evaluation framework for identifying and mitigating automation risks across critical industries, with a focus on governance and policy implications."
+        },
+        {
+          "title": "The Gig Economy Meets AI Agents",
+          "slug": "/research/124-the-gig-economy-meets-ai-agents",
+          "excerpt": "Exploring the integration of AI agents into gig platforms, implications for workers, and the governance challenges of a rapidly evolving labor model."
         }
       ]
     },
@@ -4884,6 +4899,32 @@
           "title": "Retraining Programs for AI-Displaced Workers: What Works",
           "slug": "/research/123-retraining-programs-for-ai-displaced-workers-what",
           "excerpt": "Analyzing the effectiveness of retraining initiatives for workers displaced by AI-driven automation, including program design, delivery, and socioeconomic outcomes."
+        }
+      ]
+    },
+    {
+      "id": "gig economy",
+      "title": "gig economy",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Gig Economy Meets AI Agents",
+          "slug": "/research/124-the-gig-economy-meets-ai-agents",
+          "excerpt": "Exploring the integration of AI agents into gig platforms, implications for workers, and the governance challenges of a rapidly evolving labor model."
+        }
+      ]
+    },
+    {
+      "id": "ai agents",
+      "title": "ai agents",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Gig Economy Meets AI Agents",
+          "slug": "/research/124-the-gig-economy-meets-ai-agents",
+          "excerpt": "Exploring the integration of AI agents into gig platforms, implications for workers, and the governance challenges of a rapidly evolving labor model."
         }
       ]
     }
@@ -6607,7 +6648,7 @@
     {
       "source": "automation",
       "target": "governance",
-      "value": 1
+      "value": 2
     },
     {
       "source": "automation",
@@ -9062,7 +9103,7 @@
     {
       "source": "automation",
       "target": "labor markets",
-      "value": 1
+      "value": 2
     },
     {
       "source": "risk assessment",
@@ -9122,6 +9163,46 @@
     {
       "source": "automation",
       "target": "retraining-programs",
+      "value": 1
+    },
+    {
+      "source": "ai agents",
+      "target": "gig economy",
+      "value": 1
+    },
+    {
+      "source": "gig economy",
+      "target": "labor markets",
+      "value": 1
+    },
+    {
+      "source": "automation",
+      "target": "gig economy",
+      "value": 1
+    },
+    {
+      "source": "gig economy",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "ai agents",
+      "target": "labor markets",
+      "value": 1
+    },
+    {
+      "source": "ai agents",
+      "target": "automation",
+      "value": 1
+    },
+    {
+      "source": "ai agents",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "labor markets",
       "value": 1
     }
   ]

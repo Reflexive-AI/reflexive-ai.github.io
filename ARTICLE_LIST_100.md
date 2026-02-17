@@ -219,7 +219,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 123. [x] Retraining Programs for AI-Displaced Workers: What Works [P]
     Evidence-based analysis of workforce transition programs across OECD countries, identifying which program designs produce measurable re-employment outcomes.
 
-124. [ ] The Gig Economy Meets AI Agents [R][P]
+124. [x] The Gig Economy Meets AI Agents [R][P]
     How AI agents competing for platform-mediated gig work reshape labor dynamics, platform governance structures, and worker protections.
 
 125. [ ] Universal Basic Income and AI: Policy Analysis [P]
