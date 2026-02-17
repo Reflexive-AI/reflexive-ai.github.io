@@ -213,7 +213,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 121. [x] AI and Job Displacement: What the Evidence Shows [R][P]
     A review of empirical research on AI-driven labor market disruption as of 2026, distinguishing documented effects from speculative projections.
 
-122. [ ] Sector-Specific Automation Risk Assessment [R][P]
+122. [x] Sector-Specific Automation Risk Assessment [R][P]
     Mapping which industries face near-term displacement and identifying the governance tools available for each sector, from healthcare to logistics to legal services.
 
 123. [ ] Retraining Programs for AI-Displaced Workers: What Works [P]

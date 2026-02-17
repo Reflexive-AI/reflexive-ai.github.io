@@ -2041,12 +2041,17 @@
       "id": "risk assessment",
       "title": "Risk Assessment",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Pre-Deployment Risk Assessment Frameworks",
           "slug": "/research/047-pre-deployment-risk-assessment",
           "excerpt": "Structured approaches to evaluating AI system risks before release, balancing comprehensiveness with practical constraints."
+        },
+        {
+          "title": "Sector-Specific Automation Risk Assessment",
+          "slug": "/research/122-sector-specific-automation-risk-assessment",
+          "excerpt": "An evaluation framework for identifying and mitigating automation risks across critical industries, with a focus on governance and policy implications."
         }
       ]
     },
@@ -2355,7 +2360,7 @@
       "id": "ai governance",
       "title": "ai governance",
       "group": "concept",
-      "val": 13,
+      "val": 15,
       "articles": [
         {
           "title": "Rate Limiting and Abuse Detection",
@@ -2376,6 +2381,11 @@
           "title": "Model-as-a-Service Liability: Who Is Responsible?",
           "slug": "/research/116-model-as-a-service-liability-who-is-responsible",
           "excerpt": "Examining legal and ethical accountability in Model-as-a-Service (MaaS) systems and the challenges of assigning liability across developers, providers, and users."
+        },
+        {
+          "title": "Sector-Specific Automation Risk Assessment",
+          "slug": "/research/122-sector-specific-automation-risk-assessment",
+          "excerpt": "An evaluation framework for identifying and mitigating automation risks across critical industries, with a focus on governance and policy implications."
         }
       ]
     },
@@ -2766,7 +2776,7 @@
       "id": "automation",
       "title": "automation",
       "group": "concept",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "The Governance Paradox: When AI Systems Are Better Regulators Than Humans",
@@ -2777,6 +2787,11 @@
           "title": "AI Labor Market Governance",
           "slug": "/research/107-ai-labor-market-governance",
           "excerpt": "Examining the policies and frameworks needed to manage the evolving role of AI within labor markets, addressing systemic risks, economic impacts, and ethical considerations."
+        },
+        {
+          "title": "Sector-Specific Automation Risk Assessment",
+          "slug": "/research/122-sector-specific-automation-risk-assessment",
+          "excerpt": "An evaluation framework for identifying and mitigating automation risks across critical industries, with a focus on governance and policy implications."
         }
       ]
     },
@@ -4799,6 +4814,32 @@
           "title": "AI and Job Displacement: What the Evidence Shows",
           "slug": "/research/121-ai-and-job-displacement-what-the-evidence-shows",
           "excerpt": "A comprehensive analysis of the impact of AI on employment patterns, exploring the evidence on job displacement, sectoral shifts, and potential policy responses."
+        }
+      ]
+    },
+    {
+      "id": "sectoral impact",
+      "title": "sectoral impact",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Sector-Specific Automation Risk Assessment",
+          "slug": "/research/122-sector-specific-automation-risk-assessment",
+          "excerpt": "An evaluation framework for identifying and mitigating automation risks across critical industries, with a focus on governance and policy implications."
+        }
+      ]
+    },
+    {
+      "id": "labor markets",
+      "title": "labor markets",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Sector-Specific Automation Risk Assessment",
+          "slug": "/research/122-sector-specific-automation-risk-assessment",
+          "excerpt": "An evaluation framework for identifying and mitigating automation risks across critical industries, with a focus on governance and policy implications."
         }
       ]
     }
@@ -8957,6 +8998,56 @@
     {
       "source": "job displacement",
       "target": "policy recommendations",
+      "value": 1
+    },
+    {
+      "source": "automation",
+      "target": "risk assessment",
+      "value": 1
+    },
+    {
+      "source": "automation",
+      "target": "sectoral impact",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "automation",
+      "value": 1
+    },
+    {
+      "source": "automation",
+      "target": "labor markets",
+      "value": 1
+    },
+    {
+      "source": "risk assessment",
+      "target": "sectoral impact",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "risk assessment",
+      "value": 1
+    },
+    {
+      "source": "labor markets",
+      "target": "risk assessment",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "sectoral impact",
+      "value": 1
+    },
+    {
+      "source": "labor markets",
+      "target": "sectoral impact",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "labor markets",
       "value": 1
     }
   ]

@@ -1,5 +1,24 @@
 [
   {
+    "id": 122,
+    "title": "Sector-Specific Automation Risk Assessment",
+    "excerpt": "An evaluation framework for identifying and mitigating automation risks across critical industries, with a focus on governance and policy implications.",
+    "slug": "122-sector-specific-automation-risk-assessment",
+    "date": "2026-02-17",
+    "tags": [
+      "automation",
+      "risk assessment",
+      "sectoral impact",
+      "ai governance",
+      "labor markets"
+    ],
+    "categories": [
+      "Risk Assessment",
+      "Governance Analysis"
+    ],
+    "body": "Reflexive Research Object 122 Type: Research & Policy Analysis Introduction The rapid proliferation of artificial intelligence (AI) and automation technologies is reshaping industries at an unprecedented rate. As machine learning systems, robotics, and agentic AI increasingly take on tasks traditionally performed by humans, the associated risks vary significantly across sectors. While some industries experience efficiency gains and enhanced capabilities, others face disruption, labor displacemen"
+  },
+  {
     "id": 121,
     "title": "AI and Job Displacement: What the Evidence Shows",
     "excerpt": "A comprehensive analysis of the impact of AI on employment patterns, exploring the evidence on job displacement, sectoral shifts, and potential policy responses.",
