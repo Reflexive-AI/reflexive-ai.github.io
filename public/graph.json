@@ -2776,7 +2776,7 @@
       "id": "automation",
       "title": "automation",
       "group": "concept",
-      "val": 11,
+      "val": 13,
       "articles": [
         {
           "title": "The Governance Paradox: When AI Systems Are Better Regulators Than Humans",
@@ -2792,6 +2792,11 @@
           "title": "Sector-Specific Automation Risk Assessment",
           "slug": "/research/122-sector-specific-automation-risk-assessment",
           "excerpt": "An evaluation framework for identifying and mitigating automation risks across critical industries, with a focus on governance and policy implications."
+        },
+        {
+          "title": "Retraining Programs for AI-Displaced Workers: What Works",
+          "slug": "/research/123-retraining-programs-for-ai-displaced-workers-what",
+          "excerpt": "Analyzing the effectiveness of retraining initiatives for workers displaced by AI-driven automation, including program design, delivery, and socioeconomic outcomes."
         }
       ]
     },
@@ -4840,6 +4845,45 @@
           "title": "Sector-Specific Automation Risk Assessment",
           "slug": "/research/122-sector-specific-automation-risk-assessment",
           "excerpt": "An evaluation framework for identifying and mitigating automation risks across critical industries, with a focus on governance and policy implications."
+        }
+      ]
+    },
+    {
+      "id": "ai-labor-market",
+      "title": "ai-labor-market",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Retraining Programs for AI-Displaced Workers: What Works",
+          "slug": "/research/123-retraining-programs-for-ai-displaced-workers-what",
+          "excerpt": "Analyzing the effectiveness of retraining initiatives for workers displaced by AI-driven automation, including program design, delivery, and socioeconomic outcomes."
+        }
+      ]
+    },
+    {
+      "id": "workforce-displacement",
+      "title": "workforce-displacement",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Retraining Programs for AI-Displaced Workers: What Works",
+          "slug": "/research/123-retraining-programs-for-ai-displaced-workers-what",
+          "excerpt": "Analyzing the effectiveness of retraining initiatives for workers displaced by AI-driven automation, including program design, delivery, and socioeconomic outcomes."
+        }
+      ]
+    },
+    {
+      "id": "retraining-programs",
+      "title": "retraining-programs",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Retraining Programs for AI-Displaced Workers: What Works",
+          "slug": "/research/123-retraining-programs-for-ai-displaced-workers-what",
+          "excerpt": "Analyzing the effectiveness of retraining initiatives for workers displaced by AI-driven automation, including program design, delivery, and socioeconomic outcomes."
         }
       ]
     }
@@ -9048,6 +9092,36 @@
     {
       "source": "ai governance",
       "target": "labor markets",
+      "value": 1
+    },
+    {
+      "source": "ai-labor-market",
+      "target": "workforce-displacement",
+      "value": 1
+    },
+    {
+      "source": "ai-labor-market",
+      "target": "retraining-programs",
+      "value": 1
+    },
+    {
+      "source": "ai-labor-market",
+      "target": "automation",
+      "value": 1
+    },
+    {
+      "source": "retraining-programs",
+      "target": "workforce-displacement",
+      "value": 1
+    },
+    {
+      "source": "automation",
+      "target": "workforce-displacement",
+      "value": 1
+    },
+    {
+      "source": "automation",
+      "target": "retraining-programs",
       "value": 1
     }
   ]

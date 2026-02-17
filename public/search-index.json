@@ -1,5 +1,22 @@
 [
   {
+    "id": 123,
+    "title": "Retraining Programs for AI-Displaced Workers: What Works",
+    "excerpt": "Analyzing the effectiveness of retraining initiatives for workers displaced by AI-driven automation, including program design, delivery, and socioeconomic outcomes.",
+    "slug": "123-retraining-programs-for-ai-displaced-workers-what",
+    "date": "2026-02-17",
+    "tags": [
+      "ai-labor-market",
+      "workforce-displacement",
+      "retraining-programs",
+      "automation"
+    ],
+    "categories": [
+      "Policy Analysis"
+    ],
+    "body": "Introduction The rapid integration of artificial intelligence into various industries has led to significant disruptions in labor markets. While AI technologies promise increased efficiency and productivity, they also displace workers, particularly in sectors vulnerable to automation. Retraining programs have emerged as a policy response to mitigate the negative impact of AI-driven job displacement, aiming to equip affected workers with new skills and re-integrate them into the labor force. Desp"
+  },
+  {
     "id": 122,
     "title": "Sector-Specific Automation Risk Assessment",
     "excerpt": "An evaluation framework for identifying and mitigating automation risks across critical industries, with a focus on governance and policy implications.",

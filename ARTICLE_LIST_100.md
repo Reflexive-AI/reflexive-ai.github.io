@@ -216,7 +216,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 122. [x] Sector-Specific Automation Risk Assessment [R][P]
     Mapping which industries face near-term displacement and identifying the governance tools available for each sector, from healthcare to logistics to legal services.
 
-123. [ ] Retraining Programs for AI-Displaced Workers: What Works [P]
+123. [x] Retraining Programs for AI-Displaced Workers: What Works [P]
     Evidence-based analysis of workforce transition programs across OECD countries, identifying which program designs produce measurable re-employment outcomes.
 
 124. [ ] The Gig Economy Meets AI Agents [R][P]
