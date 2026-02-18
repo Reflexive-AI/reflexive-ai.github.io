@@ -2796,7 +2796,7 @@
       "id": "automation",
       "title": "automation",
       "group": "concept",
-      "val": 19,
+      "val": 21,
       "articles": [
         {
           "title": "The Governance Paradox: When AI Systems Are Better Regulators Than Humans",
@@ -2832,6 +2832,11 @@
           "title": "Occupational Licensing in an AI Era",
           "slug": "/research/127-occupational-licensing-in-an-ai-era",
           "excerpt": "Exploring how AI is reshaping professional licensure, its implications for labor markets, and the challenges of ensuring trustworthy oversight in an automated world."
+        },
+        {
+          "title": "Labor Union Perspectives on AI Deployment",
+          "slug": "/research/128-labor-union-perspectives-on-ai-deployment",
+          "excerpt": "How labor unions perceive and respond to the deployment of artificial intelligence across industries, focusing on automation, job displacement, and collective bargaining strategies."
         }
       ]
     },
@@ -4835,12 +4840,17 @@
       "id": "job displacement",
       "title": "job displacement",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "AI and Job Displacement: What the Evidence Shows",
           "slug": "/research/121-ai-and-job-displacement-what-the-evidence-shows",
           "excerpt": "A comprehensive analysis of the impact of AI on employment patterns, exploring the evidence on job displacement, sectoral shifts, and potential policy responses."
+        },
+        {
+          "title": "Labor Union Perspectives on AI Deployment",
+          "slug": "/research/128-labor-union-perspectives-on-ai-deployment",
+          "excerpt": "How labor unions perceive and respond to the deployment of artificial intelligence across industries, focusing on automation, job displacement, and collective bargaining strategies."
         }
       ]
     },
@@ -5059,6 +5069,32 @@
           "title": "Occupational Licensing in an AI Era",
           "slug": "/research/127-occupational-licensing-in-an-ai-era",
           "excerpt": "Exploring how AI is reshaping professional licensure, its implications for labor markets, and the challenges of ensuring trustworthy oversight in an automated world."
+        }
+      ]
+    },
+    {
+      "id": "labor unions",
+      "title": "labor unions",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Labor Union Perspectives on AI Deployment",
+          "slug": "/research/128-labor-union-perspectives-on-ai-deployment",
+          "excerpt": "How labor unions perceive and respond to the deployment of artificial intelligence across industries, focusing on automation, job displacement, and collective bargaining strategies."
+        }
+      ]
+    },
+    {
+      "id": "collective bargaining",
+      "title": "collective bargaining",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Labor Union Perspectives on AI Deployment",
+          "slug": "/research/128-labor-union-perspectives-on-ai-deployment",
+          "excerpt": "How labor unions perceive and respond to the deployment of artificial intelligence across industries, focusing on automation, job displacement, and collective bargaining strategies."
         }
       ]
     }
@@ -9457,6 +9493,36 @@
     {
       "source": "automation",
       "target": "trust",
+      "value": 1
+    },
+    {
+      "source": "automation",
+      "target": "labor unions",
+      "value": 1
+    },
+    {
+      "source": "job displacement",
+      "target": "labor unions",
+      "value": 1
+    },
+    {
+      "source": "collective bargaining",
+      "target": "labor unions",
+      "value": 1
+    },
+    {
+      "source": "automation",
+      "target": "job displacement",
+      "value": 1
+    },
+    {
+      "source": "automation",
+      "target": "collective bargaining",
+      "value": 1
+    },
+    {
+      "source": "collective bargaining",
+      "target": "job displacement",
       "value": 1
     }
   ]

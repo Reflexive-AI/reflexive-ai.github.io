@@ -231,7 +231,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 127. [x] Occupational Licensing in an AI Era [P]
     How professional licensing frameworks adapt when AI systems can perform regulated tasks in medicine, law, accounting, and engineering.
 
-128. [ ] Labor Union Perspectives on AI Deployment [P]
+128. [x] Labor Union Perspectives on AI Deployment [P]
     Documenting organized labor's governance proposals across sectors, assessing their technical feasibility and political viability.
 
 129. [ ] Creative Industries and AI: Economic Impact [R][P]

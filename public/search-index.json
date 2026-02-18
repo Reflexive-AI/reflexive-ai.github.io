@@ -1,5 +1,22 @@
 [
   {
+    "id": 128,
+    "title": "Labor Union Perspectives on AI Deployment",
+    "excerpt": "How labor unions perceive and respond to the deployment of artificial intelligence across industries, focusing on automation, job displacement, and collective bargaining strategies.",
+    "slug": "128-labor-union-perspectives-on-ai-deployment",
+    "date": "2026-02-18",
+    "tags": [
+      "labor unions",
+      "automation",
+      "job displacement",
+      "collective bargaining"
+    ],
+    "categories": [
+      "Policy"
+    ],
+    "body": "Introduction The deployment of artificial intelligence (AI) technologies across industries is reshaping workplaces, employment structures, and the balance of labor rights. Labor unions, as longstanding institutions for collective worker advocacy, are grappling with both the opportunities and risks posed by AI systems. From automation in manufacturing to algorithmic management in gig work, AI is challenging traditional union strategies, necessitating new approaches to protect workers’ rights whil"
+  },
+  {
     "id": 127,
     "title": "Occupational Licensing in an AI Era",
     "excerpt": "Exploring how AI is reshaping professional licensure, its implications for labor markets, and the challenges of ensuring trustworthy oversight in an automated world.",
