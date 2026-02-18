@@ -1854,6 +1854,11 @@
           "title": "The Gig Economy Meets AI Agents",
           "slug": "/research/124-the-gig-economy-meets-ai-agents",
           "excerpt": "Exploring the integration of AI agents into gig platforms, implications for workers, and the governance challenges of a rapidly evolving labor model."
+        },
+        {
+          "title": "AI Productivity Gains: Who Benefits?",
+          "slug": "/research/126-ai-productivity-gains-who-benefits",
+          "excerpt": "Examining the distributional impacts of AI-driven productivity increases across social, economic, and geopolitical contexts."
         }
       ]
     },
@@ -4961,6 +4966,58 @@
           "title": "Universal Basic Income and AI: Policy Analysis",
           "slug": "/research/125-universal-basic-income-and-ai-policy-analysis",
           "excerpt": "Examining the intersection of AI-driven economic transformation and Universal Basic Income, with a focus on policy design and governance implications."
+        }
+      ]
+    },
+    {
+      "id": "ai-productivity",
+      "title": "ai-productivity",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI Productivity Gains: Who Benefits?",
+          "slug": "/research/126-ai-productivity-gains-who-benefits",
+          "excerpt": "Examining the distributional impacts of AI-driven productivity increases across social, economic, and geopolitical contexts."
+        }
+      ]
+    },
+    {
+      "id": "economic-impact",
+      "title": "economic-impact",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI Productivity Gains: Who Benefits?",
+          "slug": "/research/126-ai-productivity-gains-who-benefits",
+          "excerpt": "Examining the distributional impacts of AI-driven productivity increases across social, economic, and geopolitical contexts."
+        }
+      ]
+    },
+    {
+      "id": "distributional-effects",
+      "title": "distributional-effects",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI Productivity Gains: Who Benefits?",
+          "slug": "/research/126-ai-productivity-gains-who-benefits",
+          "excerpt": "Examining the distributional impacts of AI-driven productivity increases across social, economic, and geopolitical contexts."
+        }
+      ]
+    },
+    {
+      "id": "inequality",
+      "title": "inequality",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI Productivity Gains: Who Benefits?",
+          "slug": "/research/126-ai-productivity-gains-who-benefits",
+          "excerpt": "Examining the distributional impacts of AI-driven productivity increases across social, economic, and geopolitical contexts."
         }
       ]
     }
@@ -9264,6 +9321,56 @@
     {
       "source": "automation",
       "target": "economic-policy",
+      "value": 1
+    },
+    {
+      "source": "ai-productivity",
+      "target": "economic-impact",
+      "value": 1
+    },
+    {
+      "source": "ai-productivity",
+      "target": "distributional-effects",
+      "value": 1
+    },
+    {
+      "source": "ai-productivity",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "ai-productivity",
+      "target": "inequality",
+      "value": 1
+    },
+    {
+      "source": "distributional-effects",
+      "target": "economic-impact",
+      "value": 1
+    },
+    {
+      "source": "economic-impact",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "economic-impact",
+      "target": "inequality",
+      "value": 1
+    },
+    {
+      "source": "distributional-effects",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "distributional-effects",
+      "target": "inequality",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "inequality",
       "value": 1
     }
   ]

@@ -225,7 +225,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 125. [x] Universal Basic Income and AI: Policy Analysis [P]
     Evaluating UBI proposals as a response to AI-driven automation, drawing on evidence from pilot programs in Finland, Kenya, and the United States.
 
-126. [ ] AI Productivity Gains: Who Benefits? [R][P]
+126. [x] AI Productivity Gains: Who Benefits? [R][P]
     Empirical analysis of how AI-driven productivity improvements distribute across workers, firms, and capital holders, with implications for tax and redistribution policy.
 
 127. [ ] Occupational Licensing in an AI Era [P]
