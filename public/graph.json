@@ -2796,7 +2796,7 @@
       "id": "automation",
       "title": "automation",
       "group": "concept",
-      "val": 21,
+      "val": 23,
       "articles": [
         {
           "title": "The Governance Paradox: When AI Systems Are Better Regulators Than Humans",
@@ -2837,6 +2837,11 @@
           "title": "Labor Union Perspectives on AI Deployment",
           "slug": "/research/128-labor-union-perspectives-on-ai-deployment",
           "excerpt": "How labor unions perceive and respond to the deployment of artificial intelligence across industries, focusing on automation, job displacement, and collective bargaining strategies."
+        },
+        {
+          "title": "Creative Industries and AI: Economic Impact",
+          "slug": "/research/129-creative-industries-and-ai-economic-impact",
+          "excerpt": "Exploring the transformative role of AI in creative industries, its economic implications, and the need for governance frameworks to balance innovation with equitable outcomes."
         }
       ]
     },
@@ -5011,12 +5016,17 @@
       "id": "economic-impact",
       "title": "economic-impact",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "AI Productivity Gains: Who Benefits?",
           "slug": "/research/126-ai-productivity-gains-who-benefits",
           "excerpt": "Examining the distributional impacts of AI-driven productivity increases across social, economic, and geopolitical contexts."
+        },
+        {
+          "title": "Creative Industries and AI: Economic Impact",
+          "slug": "/research/129-creative-industries-and-ai-economic-impact",
+          "excerpt": "Exploring the transformative role of AI in creative industries, its economic implications, and the need for governance frameworks to balance innovation with equitable outcomes."
         }
       ]
     },
@@ -5095,6 +5105,45 @@
           "title": "Labor Union Perspectives on AI Deployment",
           "slug": "/research/128-labor-union-perspectives-on-ai-deployment",
           "excerpt": "How labor unions perceive and respond to the deployment of artificial intelligence across industries, focusing on automation, job displacement, and collective bargaining strategies."
+        }
+      ]
+    },
+    {
+      "id": "creative-industries",
+      "title": "creative-industries",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Creative Industries and AI: Economic Impact",
+          "slug": "/research/129-creative-industries-and-ai-economic-impact",
+          "excerpt": "Exploring the transformative role of AI in creative industries, its economic implications, and the need for governance frameworks to balance innovation with equitable outcomes."
+        }
+      ]
+    },
+    {
+      "id": "ai-policy",
+      "title": "ai-policy",
+      "group": "governance",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Creative Industries and AI: Economic Impact",
+          "slug": "/research/129-creative-industries-and-ai-economic-impact",
+          "excerpt": "Exploring the transformative role of AI in creative industries, its economic implications, and the need for governance frameworks to balance innovation with equitable outcomes."
+        }
+      ]
+    },
+    {
+      "id": "innovation",
+      "title": "innovation",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Creative Industries and AI: Economic Impact",
+          "slug": "/research/129-creative-industries-and-ai-economic-impact",
+          "excerpt": "Exploring the transformative role of AI in creative industries, its economic implications, and the need for governance frameworks to balance innovation with equitable outcomes."
         }
       ]
     }
@@ -9523,6 +9572,56 @@
     {
       "source": "collective bargaining",
       "target": "job displacement",
+      "value": 1
+    },
+    {
+      "source": "creative-industries",
+      "target": "economic-impact",
+      "value": 1
+    },
+    {
+      "source": "automation",
+      "target": "creative-industries",
+      "value": 1
+    },
+    {
+      "source": "ai-policy",
+      "target": "creative-industries",
+      "value": 1
+    },
+    {
+      "source": "creative-industries",
+      "target": "innovation",
+      "value": 1
+    },
+    {
+      "source": "automation",
+      "target": "economic-impact",
+      "value": 1
+    },
+    {
+      "source": "ai-policy",
+      "target": "economic-impact",
+      "value": 1
+    },
+    {
+      "source": "economic-impact",
+      "target": "innovation",
+      "value": 1
+    },
+    {
+      "source": "ai-policy",
+      "target": "automation",
+      "value": 1
+    },
+    {
+      "source": "automation",
+      "target": "innovation",
+      "value": 1
+    },
+    {
+      "source": "ai-policy",
+      "target": "innovation",
       "value": 1
     }
   ]

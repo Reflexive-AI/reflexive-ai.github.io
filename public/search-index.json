@@ -1,5 +1,24 @@
 [
   {
+    "id": 129,
+    "title": "Creative Industries and AI: Economic Impact",
+    "excerpt": "Exploring the transformative role of AI in creative industries, its economic implications, and the need for governance frameworks to balance innovation with equitable outcomes.",
+    "slug": "129-creative-industries-and-ai-economic-impact",
+    "date": "2026-02-18",
+    "tags": [
+      "creative-industries",
+      "economic-impact",
+      "automation",
+      "ai-policy",
+      "innovation"
+    ],
+    "categories": [
+      "Economic Analysis",
+      "AI Governance"
+    ],
+    "body": "Reflexive Research Object 129 Type: Economic Analysis & Policy Implications Introduction Artificial intelligence (AI) is reshaping industries across the global economy, and few sectors are being transformed as rapidly as the creative industries. From music composition and film production to graphic design and publishing, AI tools are automating workflows, enhancing creative capabilities, and lowering barriers to entry. However, this transformation is not without consequences: while AI enables un"
+  },
+  {
     "id": 128,
     "title": "Labor Union Perspectives on AI Deployment",
     "excerpt": "How labor unions perceive and respond to the deployment of artificial intelligence across industries, focusing on automation, job displacement, and collective bargaining strategies.",

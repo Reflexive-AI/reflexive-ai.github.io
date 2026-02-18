@@ -234,7 +234,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 128. [x] Labor Union Perspectives on AI Deployment [P]
     Documenting organized labor's governance proposals across sectors, assessing their technical feasibility and political viability.
 
-129. [ ] Creative Industries and AI: Economic Impact [R][P]
+129. [x] Creative Industries and AI: Economic Impact [R][P]
     Evidence-based assessment of AI's effect on creative labor markets, intellectual property economics, and the viability of creative careers.
 
 130. [ ] Transition Funds: Financing the Adjustment [P]
