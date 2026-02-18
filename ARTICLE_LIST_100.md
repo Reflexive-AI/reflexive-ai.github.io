@@ -228,7 +228,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 126. [x] AI Productivity Gains: Who Benefits? [R][P]
     Empirical analysis of how AI-driven productivity improvements distribute across workers, firms, and capital holders, with implications for tax and redistribution policy.
 
-127. [ ] Occupational Licensing in an AI Era [P]
+127. [x] Occupational Licensing in an AI Era [P]
     How professional licensing frameworks adapt when AI systems can perform regulated tasks in medicine, law, accounting, and engineering.
 
 128. [ ] Labor Union Perspectives on AI Deployment [P]

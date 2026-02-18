@@ -1,5 +1,24 @@
 [
   {
+    "id": 127,
+    "title": "Occupational Licensing in an AI Era",
+    "excerpt": "Exploring how AI is reshaping professional licensure, its implications for labor markets, and the challenges of ensuring trustworthy oversight in an automated world.",
+    "slug": "127-occupational-licensing-in-an-ai-era",
+    "date": "2026-02-18",
+    "tags": [
+      "occupational licensing",
+      "AI regulation",
+      "labor markets",
+      "trust",
+      "automation"
+    ],
+    "categories": [
+      "Governance Analysis",
+      "Labor Market Policy"
+    ],
+    "body": "Reflexive Research Object 127 Type: Policy Analysis & AI-Focused Inquiry Introduction Occupational licensing, long a cornerstone of professional regulation, is facing a transformative challenge in the era of artificial intelligence (AI). For decades, licensing has served as a mechanism to ensure public trust in professions ranging from healthcare to engineering. By setting standards for education, training, and ethical behavior, licensing has provided a social contract: professionals receive exc"
+  },
+  {
     "id": 126,
     "title": "AI Productivity Gains: Who Benefits?",
     "excerpt": "Examining the distributional impacts of AI-driven productivity increases across social, economic, and geopolitical contexts.",

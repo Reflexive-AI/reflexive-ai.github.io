@@ -1948,7 +1948,7 @@
       "id": "trust",
       "title": "trust",
       "group": "concept",
-      "val": 13,
+      "val": 15,
       "articles": [
         {
           "title": "Uncertainty Communication in AI Outputs",
@@ -1969,6 +1969,11 @@
           "title": "User Delegation and Informed Consent for AI Agents",
           "slug": "/research/113-user-delegation-and-informed-consent-for-ai-agents",
           "excerpt": "Examining the mechanisms and challenges of ensuring informed consent and responsible delegation when users interact with autonomous AI agents."
+        },
+        {
+          "title": "Occupational Licensing in an AI Era",
+          "slug": "/research/127-occupational-licensing-in-an-ai-era",
+          "excerpt": "Exploring how AI is reshaping professional licensure, its implications for labor markets, and the challenges of ensuring trustworthy oversight in an automated world."
         }
       ]
     },
@@ -2791,7 +2796,7 @@
       "id": "automation",
       "title": "automation",
       "group": "concept",
-      "val": 17,
+      "val": 19,
       "articles": [
         {
           "title": "The Governance Paradox: When AI Systems Are Better Regulators Than Humans",
@@ -2822,6 +2827,11 @@
           "title": "Universal Basic Income and AI: Policy Analysis",
           "slug": "/research/125-universal-basic-income-and-ai-policy-analysis",
           "excerpt": "Examining the intersection of AI-driven economic transformation and Universal Basic Income, with a focus on policy design and governance implications."
+        },
+        {
+          "title": "Occupational Licensing in an AI Era",
+          "slug": "/research/127-occupational-licensing-in-an-ai-era",
+          "excerpt": "Exploring how AI is reshaping professional licensure, its implications for labor markets, and the challenges of ensuring trustworthy oversight in an automated world."
         }
       ]
     },
@@ -4864,7 +4874,7 @@
       "id": "labor markets",
       "title": "labor markets",
       "group": "concept",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "Sector-Specific Automation Risk Assessment",
@@ -4875,6 +4885,11 @@
           "title": "The Gig Economy Meets AI Agents",
           "slug": "/research/124-the-gig-economy-meets-ai-agents",
           "excerpt": "Exploring the integration of AI agents into gig platforms, implications for workers, and the governance challenges of a rapidly evolving labor model."
+        },
+        {
+          "title": "Occupational Licensing in an AI Era",
+          "slug": "/research/127-occupational-licensing-in-an-ai-era",
+          "excerpt": "Exploring how AI is reshaping professional licensure, its implications for labor markets, and the challenges of ensuring trustworthy oversight in an automated world."
         }
       ]
     },
@@ -5018,6 +5033,32 @@
           "title": "AI Productivity Gains: Who Benefits?",
           "slug": "/research/126-ai-productivity-gains-who-benefits",
           "excerpt": "Examining the distributional impacts of AI-driven productivity increases across social, economic, and geopolitical contexts."
+        }
+      ]
+    },
+    {
+      "id": "occupational licensing",
+      "title": "occupational licensing",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Occupational Licensing in an AI Era",
+          "slug": "/research/127-occupational-licensing-in-an-ai-era",
+          "excerpt": "Exploring how AI is reshaping professional licensure, its implications for labor markets, and the challenges of ensuring trustworthy oversight in an automated world."
+        }
+      ]
+    },
+    {
+      "id": "ai regulation",
+      "title": "AI regulation",
+      "group": "governance",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Occupational Licensing in an AI Era",
+          "slug": "/research/127-occupational-licensing-in-an-ai-era",
+          "excerpt": "Exploring how AI is reshaping professional licensure, its implications for labor markets, and the challenges of ensuring trustworthy oversight in an automated world."
         }
       ]
     }
@@ -9196,7 +9237,7 @@
     {
       "source": "automation",
       "target": "labor markets",
-      "value": 2
+      "value": 3
     },
     {
       "source": "risk assessment",
@@ -9371,6 +9412,51 @@
     {
       "source": "governance",
       "target": "inequality",
+      "value": 1
+    },
+    {
+      "source": "ai regulation",
+      "target": "occupational licensing",
+      "value": 1
+    },
+    {
+      "source": "labor markets",
+      "target": "occupational licensing",
+      "value": 1
+    },
+    {
+      "source": "occupational licensing",
+      "target": "trust",
+      "value": 1
+    },
+    {
+      "source": "automation",
+      "target": "occupational licensing",
+      "value": 1
+    },
+    {
+      "source": "ai regulation",
+      "target": "labor markets",
+      "value": 1
+    },
+    {
+      "source": "ai regulation",
+      "target": "trust",
+      "value": 1
+    },
+    {
+      "source": "ai regulation",
+      "target": "automation",
+      "value": 1
+    },
+    {
+      "source": "labor markets",
+      "target": "trust",
+      "value": 1
+    },
+    {
+      "source": "automation",
+      "target": "trust",
       "value": 1
     }
   ]
