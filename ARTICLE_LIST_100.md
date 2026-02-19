@@ -250,7 +250,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 132. [x] India's AI Governance Approach: A Case Study [R][P]
     Analysis of India's regulatory strategy balancing innovation incentives with population-scale deployment risks across a linguistically and economically diverse nation.
 
-133. [ ] AI and Agricultural Development in Low-Income Countries [P]
+133. [x] AI and Agricultural Development in Low-Income Countries [P]
     How AI-driven agriculture intersects with data sovereignty, seed intellectual property, and smallholder economics in the Global South.
 
 134. [ ] Language Model Bias Against Low-Resource Languages [R]

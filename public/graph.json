@@ -2372,6 +2372,11 @@
           "title": "AI Governance in Sub-Saharan Africa: Current State",
           "slug": "/research/131-ai-governance-in-sub-saharan-africa-current-state",
           "excerpt": "An overview of AI governance initiatives, challenges, and opportunities in Sub-Saharan Africa, focusing on policy frameworks, institutional capacity, and regional priorities."
+        },
+        {
+          "title": "AI and Agricultural Development in Low-Income Countries",
+          "slug": "/research/133-ai-and-agricultural-development-in-low-income-coun",
+          "excerpt": "Exploring the transformative potential of AI in enhancing agricultural productivity, food security, and economic stability in low-income countries, alongside the governance challenges it presents."
         }
       ]
     },
@@ -3419,12 +3424,17 @@
       "id": "global-south",
       "title": "global-south",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "AI Governance in the Global South: Different Contexts, Different Priorities",
           "slug": "/research/076-global-south-governance",
           "excerpt": "Most AI governance discourse centers the US, EU, and China. But AI is a global technology. What does governance look like from Africa, Southeast Asia, or Latin America? Different contexts demand different priorities."
+        },
+        {
+          "title": "AI and Agricultural Development in Low-Income Countries",
+          "slug": "/research/133-ai-and-agricultural-development-in-low-income-coun",
+          "excerpt": "Exploring the transformative potential of AI in enhancing agricultural productivity, food security, and economic stability in low-income countries, alongside the governance challenges it presents."
         }
       ]
     },
@@ -5257,6 +5267,45 @@
           "title": "India's AI Governance Approach: A Case Study",
           "slug": "/research/132-indias-ai-governance-approach-a-case-study",
           "excerpt": "Examining India's unique approach to AI governance, its regulatory frameworks, and the balancing act between innovation and risk mitigation."
+        }
+      ]
+    },
+    {
+      "id": "agricultural-technology",
+      "title": "agricultural-technology",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI and Agricultural Development in Low-Income Countries",
+          "slug": "/research/133-ai-and-agricultural-development-in-low-income-coun",
+          "excerpt": "Exploring the transformative potential of AI in enhancing agricultural productivity, food security, and economic stability in low-income countries, alongside the governance challenges it presents."
+        }
+      ]
+    },
+    {
+      "id": "food-security",
+      "title": "food-security",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI and Agricultural Development in Low-Income Countries",
+          "slug": "/research/133-ai-and-agricultural-development-in-low-income-coun",
+          "excerpt": "Exploring the transformative potential of AI in enhancing agricultural productivity, food security, and economic stability in low-income countries, alongside the governance challenges it presents."
+        }
+      ]
+    },
+    {
+      "id": "economic-development",
+      "title": "economic-development",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI and Agricultural Development in Low-Income Countries",
+          "slug": "/research/133-ai-and-agricultural-development-in-low-income-coun",
+          "excerpt": "Exploring the transformative potential of AI in enhancing agricultural productivity, food security, and economic stability in low-income countries, alongside the governance challenges it presents."
         }
       ]
     }
@@ -9835,6 +9884,56 @@
     {
       "source": "ai-regulation",
       "target": "india",
+      "value": 1
+    },
+    {
+      "source": "agricultural-technology",
+      "target": "ai-governance",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "food-security",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "economic-development",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "global-south",
+      "value": 1
+    },
+    {
+      "source": "agricultural-technology",
+      "target": "food-security",
+      "value": 1
+    },
+    {
+      "source": "agricultural-technology",
+      "target": "economic-development",
+      "value": 1
+    },
+    {
+      "source": "agricultural-technology",
+      "target": "global-south",
+      "value": 1
+    },
+    {
+      "source": "economic-development",
+      "target": "food-security",
+      "value": 1
+    },
+    {
+      "source": "food-security",
+      "target": "global-south",
+      "value": 1
+    },
+    {
+      "source": "economic-development",
+      "target": "global-south",
       "value": 1
     }
   ]

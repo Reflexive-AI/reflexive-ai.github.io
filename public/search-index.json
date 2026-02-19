@@ -1,5 +1,25 @@
 [
   {
+    "id": 133,
+    "title": "AI and Agricultural Development in Low-Income Countries",
+    "excerpt": "Exploring the transformative potential of AI in enhancing agricultural productivity, food security, and economic stability in low-income countries, alongside the governance challenges it presents.",
+    "slug": "133-ai-and-agricultural-development-in-low-income-coun",
+    "date": "2026-02-19",
+    "tags": [
+      "ai-governance",
+      "agricultural-technology",
+      "food-security",
+      "economic-development",
+      "global-south"
+    ],
+    "categories": [
+      "AI and Development",
+      "Agriculture",
+      "Low-Income Countries"
+    ],
+    "body": "Introduction Agriculture remains the backbone of many low-income countries, where it accounts for a significant share of GDP, employment, and food security. Yet, these regions often face persistent challenges: low crop yields, inefficient farming practices, vulnerability to climate change, and limited access to markets. Artificial intelligence (AI) has emerged as a transformative tool with the potential to address these issues by enabling data-driven decision-making, optimizing resource allocati"
+  },
+  {
     "id": 132,
     "title": "India's AI Governance Approach: A Case Study",
     "excerpt": "Examining India's unique approach to AI governance, its regulatory frameworks, and the balancing act between innovation and risk mitigation.",
