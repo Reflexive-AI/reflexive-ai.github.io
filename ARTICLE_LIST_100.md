@@ -237,7 +237,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 129. [x] Creative Industries and AI: Economic Impact [R][P]
     Evidence-based assessment of AI's effect on creative labor markets, intellectual property economics, and the viability of creative careers.
 
-130. [ ] Transition Funds: Financing the Adjustment [P]
+130. [x] Transition Funds: Financing the Adjustment [P]
     Comparative analysis of proposed mechanisms (automation taxes, sovereign wealth funds, training levies) for financing worker transitions during AI-driven economic shifts.
 
 ### Cluster D: Global South and Development Contexts (131-140)

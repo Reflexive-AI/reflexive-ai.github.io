@@ -2291,7 +2291,7 @@
       "id": "ai-governance",
       "title": "ai-governance",
       "group": "concept",
-      "val": 27,
+      "val": 29,
       "articles": [
         {
           "title": "API-Level Safety Controls",
@@ -2347,6 +2347,11 @@
           "title": "Universal Basic Income and AI: Policy Analysis",
           "slug": "/research/125-universal-basic-income-and-ai-policy-analysis",
           "excerpt": "Examining the intersection of AI-driven economic transformation and Universal Basic Income, with a focus on policy design and governance implications."
+        },
+        {
+          "title": "Transition Funds: Financing the Adjustment",
+          "slug": "/research/130-transition-funds-financing-the-adjustment",
+          "excerpt": "A policy framework for funding societal transitions triggered by advanced AI deployment, focusing on workforce adaptation, safety investments, and long-term governance goals."
         }
       ]
     },
@@ -4269,12 +4274,17 @@
       "id": "public-funding",
       "title": "public-funding",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Funding Models for AI Safety Research",
           "slug": "/research/097-funding-models-ai-safety",
           "excerpt": "AI safety research is chronically underfunded relative to capability work. This article examines current funding sources, compares alternative models from prizes to compute taxes, and proposes concrete mechanisms to close the gap."
+        },
+        {
+          "title": "Transition Funds: Financing the Adjustment",
+          "slug": "/research/130-transition-funds-financing-the-adjustment",
+          "excerpt": "A policy framework for funding societal transitions triggered by advanced AI deployment, focusing on workforce adaptation, safety investments, and long-term governance goals."
         }
       ]
     },
@@ -5016,7 +5026,7 @@
       "id": "economic-impact",
       "title": "economic-impact",
       "group": "concept",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "AI Productivity Gains: Who Benefits?",
@@ -5027,6 +5037,11 @@
           "title": "Creative Industries and AI: Economic Impact",
           "slug": "/research/129-creative-industries-and-ai-economic-impact",
           "excerpt": "Exploring the transformative role of AI in creative industries, its economic implications, and the need for governance frameworks to balance innovation with equitable outcomes."
+        },
+        {
+          "title": "Transition Funds: Financing the Adjustment",
+          "slug": "/research/130-transition-funds-financing-the-adjustment",
+          "excerpt": "A policy framework for funding societal transitions triggered by advanced AI deployment, focusing on workforce adaptation, safety investments, and long-term governance goals."
         }
       ]
     },
@@ -5144,6 +5159,32 @@
           "title": "Creative Industries and AI: Economic Impact",
           "slug": "/research/129-creative-industries-and-ai-economic-impact",
           "excerpt": "Exploring the transformative role of AI in creative industries, its economic implications, and the need for governance frameworks to balance innovation with equitable outcomes."
+        }
+      ]
+    },
+    {
+      "id": "workforce-transition",
+      "title": "workforce-transition",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Transition Funds: Financing the Adjustment",
+          "slug": "/research/130-transition-funds-financing-the-adjustment",
+          "excerpt": "A policy framework for funding societal transitions triggered by advanced AI deployment, focusing on workforce adaptation, safety investments, and long-term governance goals."
+        }
+      ]
+    },
+    {
+      "id": "adaptation-strategies",
+      "title": "adaptation-strategies",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Transition Funds: Financing the Adjustment",
+          "slug": "/research/130-transition-funds-financing-the-adjustment",
+          "excerpt": "A policy framework for funding societal transitions triggered by advanced AI deployment, focusing on workforce adaptation, safety investments, and long-term governance goals."
         }
       ]
     }
@@ -9622,6 +9663,56 @@
     {
       "source": "ai-policy",
       "target": "innovation",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "workforce-transition",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "economic-impact",
+      "value": 1
+    },
+    {
+      "source": "adaptation-strategies",
+      "target": "ai-governance",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "public-funding",
+      "value": 1
+    },
+    {
+      "source": "economic-impact",
+      "target": "workforce-transition",
+      "value": 1
+    },
+    {
+      "source": "adaptation-strategies",
+      "target": "workforce-transition",
+      "value": 1
+    },
+    {
+      "source": "public-funding",
+      "target": "workforce-transition",
+      "value": 1
+    },
+    {
+      "source": "adaptation-strategies",
+      "target": "economic-impact",
+      "value": 1
+    },
+    {
+      "source": "economic-impact",
+      "target": "public-funding",
+      "value": 1
+    },
+    {
+      "source": "adaptation-strategies",
+      "target": "public-funding",
       "value": 1
     }
   ]
