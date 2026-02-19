@@ -1,5 +1,22 @@
 [
   {
+    "id": 132,
+    "title": "India's AI Governance Approach: A Case Study",
+    "excerpt": "Examining India's unique approach to AI governance, its regulatory frameworks, and the balancing act between innovation and risk mitigation.",
+    "slug": "132-indias-ai-governance-approach-a-case-study",
+    "date": "2026-02-19",
+    "tags": [
+      "governance",
+      "policy",
+      "india",
+      "ai-regulation"
+    ],
+    "categories": [
+      "Governance Analysis"
+    ],
+    "body": "Reflexive Research Object 132 Type: Case Study in AI Governance Introduction India, the world's largest democracy and one of the fastest-growing digital economies, stands at a pivotal juncture in its journey with artificial intelligence (AI). As a country home to over 1.4 billion people, India faces the dual challenge of leveraging AI for economic development while addressing the ethical, social, and legal risks posed by its rapid adoption. This article examines India's distinctive approach to A"
+  },
+  {
     "id": 131,
     "title": "AI Governance in Sub-Saharan Africa: Current State",
     "excerpt": "An overview of AI governance initiatives, challenges, and opportunities in Sub-Saharan Africa, focusing on policy frameworks, institutional capacity, and regional priorities.",

@@ -834,6 +834,11 @@
           "title": "AI Governance in Sub-Saharan Africa: Current State",
           "slug": "/research/131-ai-governance-in-sub-saharan-africa-current-state",
           "excerpt": "An overview of AI governance initiatives, challenges, and opportunities in Sub-Saharan Africa, focusing on policy frameworks, institutional capacity, and regional priorities."
+        },
+        {
+          "title": "India's AI Governance Approach: A Case Study",
+          "slug": "/research/132-indias-ai-governance-approach-a-case-study",
+          "excerpt": "Examining India's unique approach to AI governance, its regulatory frameworks, and the balancing act between innovation and risk mitigation."
         }
       ]
     },
@@ -1864,6 +1869,11 @@
           "title": "AI Productivity Gains: Who Benefits?",
           "slug": "/research/126-ai-productivity-gains-who-benefits",
           "excerpt": "Examining the distributional impacts of AI-driven productivity increases across social, economic, and geopolitical contexts."
+        },
+        {
+          "title": "India's AI Governance Approach: A Case Study",
+          "slug": "/research/132-indias-ai-governance-approach-a-case-study",
+          "excerpt": "Examining India's unique approach to AI governance, its regulatory frameworks, and the balancing act between innovation and risk mitigation."
         }
       ]
     },
@@ -5221,6 +5231,32 @@
           "title": "AI Governance in Sub-Saharan Africa: Current State",
           "slug": "/research/131-ai-governance-in-sub-saharan-africa-current-state",
           "excerpt": "An overview of AI governance initiatives, challenges, and opportunities in Sub-Saharan Africa, focusing on policy frameworks, institutional capacity, and regional priorities."
+        }
+      ]
+    },
+    {
+      "id": "india",
+      "title": "india",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "India's AI Governance Approach: A Case Study",
+          "slug": "/research/132-indias-ai-governance-approach-a-case-study",
+          "excerpt": "Examining India's unique approach to AI governance, its regulatory frameworks, and the balancing act between innovation and risk mitigation."
+        }
+      ]
+    },
+    {
+      "id": "ai-regulation",
+      "title": "ai-regulation",
+      "group": "governance",
+      "val": 7,
+      "articles": [
+        {
+          "title": "India's AI Governance Approach: A Case Study",
+          "slug": "/research/132-indias-ai-governance-approach-a-case-study",
+          "excerpt": "Examining India's unique approach to AI governance, its regulatory frameworks, and the balancing act between innovation and risk mitigation."
         }
       ]
     }
@@ -9774,6 +9810,31 @@
     {
       "source": "digital-sovereignty",
       "target": "policy",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "india",
+      "value": 1
+    },
+    {
+      "source": "ai-regulation",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "india",
+      "target": "policy",
+      "value": 1
+    },
+    {
+      "source": "ai-regulation",
+      "target": "policy",
+      "value": 1
+    },
+    {
+      "source": "ai-regulation",
+      "target": "india",
       "value": 1
     }
   ]
