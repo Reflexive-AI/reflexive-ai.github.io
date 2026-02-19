@@ -1,5 +1,23 @@
 [
   {
+    "id": 131,
+    "title": "AI Governance in Sub-Saharan Africa: Current State",
+    "excerpt": "An overview of AI governance initiatives, challenges, and opportunities in Sub-Saharan Africa, focusing on policy frameworks, institutional capacity, and regional priorities.",
+    "slug": "131-ai-governance-in-sub-saharan-africa-current-state",
+    "date": "2026-02-19",
+    "tags": [
+      "ai-governance",
+      "sub-saharan-africa",
+      "policy",
+      "digital-sovereignty"
+    ],
+    "categories": [
+      "Governance Analysis",
+      "Regional Policy"
+    ],
+    "body": "Introduction Artificial intelligence is rapidly transforming societies and economies worldwide, yet the governance frameworks necessary to regulate its risks and benefits remain unevenly developed across regions. In Sub-Saharan Africa, AI governance poses unique challenges rooted in socio-economic conditions, institutional capacity, and infrastructural disparities. While AI adoption is accelerating in sectors such as agriculture, healthcare, and logistics, these advancements often outpace the de"
+  },
+  {
     "id": 130,
     "title": "Transition Funds: Financing the Adjustment",
     "excerpt": "A policy framework for funding societal transitions triggered by advanced AI deployment, focusing on workforce adaptation, safety investments, and long-term governance goals.",

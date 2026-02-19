@@ -244,7 +244,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 
 *Providing the depth on Global South governance absent from the first 100 articles.*
 
-131. [ ] AI Governance in Sub-Saharan Africa: Current State [R][P]
+131. [x] AI Governance in Sub-Saharan Africa: Current State [R][P]
     Mapping regulatory frameworks, institutional capacity, and deployment patterns across sub-Saharan Africa, identifying governance models adapted to low-resource contexts.
 
 132. [ ] India's AI Governance Approach: A Case Study [R][P]

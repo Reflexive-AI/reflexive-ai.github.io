@@ -829,6 +829,11 @@
           "title": "AI Labor Market Governance",
           "slug": "/research/107-ai-labor-market-governance",
           "excerpt": "Examining the policies and frameworks needed to manage the evolving role of AI within labor markets, addressing systemic risks, economic impacts, and ethical considerations."
+        },
+        {
+          "title": "AI Governance in Sub-Saharan Africa: Current State",
+          "slug": "/research/131-ai-governance-in-sub-saharan-africa-current-state",
+          "excerpt": "An overview of AI governance initiatives, challenges, and opportunities in Sub-Saharan Africa, focusing on policy frameworks, institutional capacity, and regional priorities."
         }
       ]
     },
@@ -2291,7 +2296,7 @@
       "id": "ai-governance",
       "title": "ai-governance",
       "group": "concept",
-      "val": 29,
+      "val": 30,
       "articles": [
         {
           "title": "API-Level Safety Controls",
@@ -2352,6 +2357,11 @@
           "title": "Transition Funds: Financing the Adjustment",
           "slug": "/research/130-transition-funds-financing-the-adjustment",
           "excerpt": "A policy framework for funding societal transitions triggered by advanced AI deployment, focusing on workforce adaptation, safety investments, and long-term governance goals."
+        },
+        {
+          "title": "AI Governance in Sub-Saharan Africa: Current State",
+          "slug": "/research/131-ai-governance-in-sub-saharan-africa-current-state",
+          "excerpt": "An overview of AI governance initiatives, challenges, and opportunities in Sub-Saharan Africa, focusing on policy frameworks, institutional capacity, and regional priorities."
         }
       ]
     },
@@ -5185,6 +5195,32 @@
           "title": "Transition Funds: Financing the Adjustment",
           "slug": "/research/130-transition-funds-financing-the-adjustment",
           "excerpt": "A policy framework for funding societal transitions triggered by advanced AI deployment, focusing on workforce adaptation, safety investments, and long-term governance goals."
+        }
+      ]
+    },
+    {
+      "id": "sub-saharan-africa",
+      "title": "sub-saharan-africa",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI Governance in Sub-Saharan Africa: Current State",
+          "slug": "/research/131-ai-governance-in-sub-saharan-africa-current-state",
+          "excerpt": "An overview of AI governance initiatives, challenges, and opportunities in Sub-Saharan Africa, focusing on policy frameworks, institutional capacity, and regional priorities."
+        }
+      ]
+    },
+    {
+      "id": "digital-sovereignty",
+      "title": "digital-sovereignty",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI Governance in Sub-Saharan Africa: Current State",
+          "slug": "/research/131-ai-governance-in-sub-saharan-africa-current-state",
+          "excerpt": "An overview of AI governance initiatives, challenges, and opportunities in Sub-Saharan Africa, focusing on policy frameworks, institutional capacity, and regional priorities."
         }
       ]
     }
@@ -8508,7 +8544,7 @@
     {
       "source": "ai-governance",
       "target": "policy",
-      "value": 2
+      "value": 3
     },
     {
       "source": "ai-governance",
@@ -9713,6 +9749,31 @@
     {
       "source": "adaptation-strategies",
       "target": "public-funding",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "sub-saharan-africa",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "digital-sovereignty",
+      "value": 1
+    },
+    {
+      "source": "policy",
+      "target": "sub-saharan-africa",
+      "value": 1
+    },
+    {
+      "source": "digital-sovereignty",
+      "target": "sub-saharan-africa",
+      "value": 1
+    },
+    {
+      "source": "digital-sovereignty",
+      "target": "policy",
       "value": 1
     }
   ]
