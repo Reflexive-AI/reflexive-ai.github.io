@@ -259,7 +259,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 135. [x] Digital Infrastructure Gaps and AI Readiness [P]
     How infrastructure inequality shapes which populations can participate in and benefit from AI governance, and what bridging strategies exist.
 
-136. [ ] Data Colonialism: Extraction Patterns in AI Training [R][P]
+136. [x] Data Colonialism: Extraction Patterns in AI Training [R][P]
     Documenting how training data sourced from the Global South generates value captured predominantly in the Global North, and governance responses.
 
 137. [ ] South-South AI Governance Cooperation [P]

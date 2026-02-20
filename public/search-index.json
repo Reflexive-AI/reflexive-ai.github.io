@@ -1,5 +1,24 @@
 [
   {
+    "id": 136,
+    "title": "Data Colonialism: Extraction Patterns in AI Training",
+    "excerpt": "Examining the parallels between historical colonial extraction and the practices of data collection for AI model training, and their implications for global equity and governance.",
+    "slug": "136-data-colonialism-extraction-patterns-in-ai-trainin",
+    "date": "2026-02-20",
+    "tags": [
+      "data-extraction",
+      "ai-governance",
+      "global-inequality",
+      "data-colonialism",
+      "ai-training"
+    ],
+    "categories": [
+      "Governance Analysis",
+      "Ethical AI"
+    ],
+    "body": "Introduction Artificial Intelligence systems are increasingly integrated into every facet of modern life, from healthcare to finance to creative industries. Yet, the development of these systems often relies on vast amounts of data collected globally, raising ethical and governance concerns. The term data colonialism has emerged to describe the extractive practices involved in amassing this data, drawing a provocative analogy between the historical colonial exploitation of resources and the cont"
+  },
+  {
     "id": 135,
     "title": "Digital Infrastructure Gaps and AI Readiness",
     "excerpt": "An exploration of how digital infrastructure gaps hinder AI readiness, with a focus on global disparities, risks, and pathways for effective policy interventions.",

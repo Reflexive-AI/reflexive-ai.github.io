@@ -2382,6 +2382,11 @@
           "title": "AI and Agricultural Development in Low-Income Countries",
           "slug": "/research/133-ai-and-agricultural-development-in-low-income-coun",
           "excerpt": "Exploring the transformative potential of AI in enhancing agricultural productivity, food security, and economic stability in low-income countries, alongside the governance challenges it presents."
+        },
+        {
+          "title": "Data Colonialism: Extraction Patterns in AI Training",
+          "slug": "/research/136-data-colonialism-extraction-patterns-in-ai-trainin",
+          "excerpt": "Examining the parallels between historical colonial extraction and the practices of data collection for AI model training, and their implications for global equity and governance."
         }
       ]
     },
@@ -5415,6 +5420,58 @@
           "title": "Digital Infrastructure Gaps and AI Readiness",
           "slug": "/research/135-digital-infrastructure-gaps-and-ai-readiness",
           "excerpt": "An exploration of how digital infrastructure gaps hinder AI readiness, with a focus on global disparities, risks, and pathways for effective policy interventions."
+        }
+      ]
+    },
+    {
+      "id": "data-extraction",
+      "title": "data-extraction",
+      "group": "technical",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Data Colonialism: Extraction Patterns in AI Training",
+          "slug": "/research/136-data-colonialism-extraction-patterns-in-ai-trainin",
+          "excerpt": "Examining the parallels between historical colonial extraction and the practices of data collection for AI model training, and their implications for global equity and governance."
+        }
+      ]
+    },
+    {
+      "id": "global-inequality",
+      "title": "global-inequality",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Data Colonialism: Extraction Patterns in AI Training",
+          "slug": "/research/136-data-colonialism-extraction-patterns-in-ai-trainin",
+          "excerpt": "Examining the parallels between historical colonial extraction and the practices of data collection for AI model training, and their implications for global equity and governance."
+        }
+      ]
+    },
+    {
+      "id": "data-colonialism",
+      "title": "data-colonialism",
+      "group": "technical",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Data Colonialism: Extraction Patterns in AI Training",
+          "slug": "/research/136-data-colonialism-extraction-patterns-in-ai-trainin",
+          "excerpt": "Examining the parallels between historical colonial extraction and the practices of data collection for AI model training, and their implications for global equity and governance."
+        }
+      ]
+    },
+    {
+      "id": "ai-training",
+      "title": "ai-training",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Data Colonialism: Extraction Patterns in AI Training",
+          "slug": "/research/136-data-colonialism-extraction-patterns-in-ai-trainin",
+          "excerpt": "Examining the parallels between historical colonial extraction and the practices of data collection for AI model training, and their implications for global equity and governance."
         }
       ]
     }
@@ -10123,6 +10180,56 @@
     {
       "source": "digital-divide",
       "target": "global-governance",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "data-extraction",
+      "value": 1
+    },
+    {
+      "source": "data-extraction",
+      "target": "global-inequality",
+      "value": 1
+    },
+    {
+      "source": "data-colonialism",
+      "target": "data-extraction",
+      "value": 1
+    },
+    {
+      "source": "ai-training",
+      "target": "data-extraction",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "global-inequality",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "data-colonialism",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "ai-training",
+      "value": 1
+    },
+    {
+      "source": "data-colonialism",
+      "target": "global-inequality",
+      "value": 1
+    },
+    {
+      "source": "ai-training",
+      "target": "global-inequality",
+      "value": 1
+    },
+    {
+      "source": "ai-training",
+      "target": "data-colonialism",
       "value": 1
     }
   ]
