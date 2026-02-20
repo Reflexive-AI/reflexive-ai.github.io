@@ -262,7 +262,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 136. [x] Data Colonialism: Extraction Patterns in AI Training [R][P]
     Documenting how training data sourced from the Global South generates value captured predominantly in the Global North, and governance responses.
 
-137. [ ] South-South AI Governance Cooperation [P]
+137. [x] South-South AI Governance Cooperation [P]
     Mapping emerging governance coalitions among developing nations and their policy proposals, from the African Union to ASEAN frameworks.
 
 138. [ ] AI-Driven Surveillance in Authoritarian Contexts [R][P]

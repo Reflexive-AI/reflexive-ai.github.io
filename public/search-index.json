@@ -1,5 +1,23 @@
 [
   {
+    "id": 137,
+    "title": "South-South AI Governance Cooperation",
+    "excerpt": "Exploring the opportunities and challenges of collaborative AI governance among countries in the Global South, addressing shared priorities, capacity-building, and regional leadership.",
+    "slug": "137-south-south-ai-governance-cooperation",
+    "date": "2026-02-20",
+    "tags": [
+      "AI governance",
+      "Global South",
+      "international cooperation",
+      "capacity-building",
+      "regional leadership"
+    ],
+    "categories": [
+      "Governance Analysis"
+    ],
+    "body": "Reflexive Research Object 137 Type: Policy Analysis Introduction AI governance has largely been shaped by global power dynamics, with countries in the Global North—such as the United States, members of the European Union, and China—dominating rule-making and standard-setting processes. However, as artificial intelligence systems become increasingly embedded across economies and societies worldwide, countries in the Global South are beginning to assert their unique perspectives and priorities. Th"
+  },
+  {
     "id": 136,
     "title": "Data Colonialism: Extraction Patterns in AI Training",
     "excerpt": "Examining the parallels between historical colonial extraction and the practices of data collection for AI model training, and their implications for global equity and governance.",

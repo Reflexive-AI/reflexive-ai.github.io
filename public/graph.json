@@ -2420,7 +2420,7 @@
       "id": "ai governance",
       "title": "ai governance",
       "group": "concept",
-      "val": 15,
+      "val": 17,
       "articles": [
         {
           "title": "Rate Limiting and Abuse Detection",
@@ -2446,6 +2446,11 @@
           "title": "Sector-Specific Automation Risk Assessment",
           "slug": "/research/122-sector-specific-automation-risk-assessment",
           "excerpt": "An evaluation framework for identifying and mitigating automation risks across critical industries, with a focus on governance and policy implications."
+        },
+        {
+          "title": "South-South AI Governance Cooperation",
+          "slug": "/research/137-south-south-ai-governance-cooperation",
+          "excerpt": "Exploring the opportunities and challenges of collaborative AI governance among countries in the Global South, addressing shared priorities, capacity-building, and regional leadership."
         }
       ]
     },
@@ -5472,6 +5477,58 @@
           "title": "Data Colonialism: Extraction Patterns in AI Training",
           "slug": "/research/136-data-colonialism-extraction-patterns-in-ai-trainin",
           "excerpt": "Examining the parallels between historical colonial extraction and the practices of data collection for AI model training, and their implications for global equity and governance."
+        }
+      ]
+    },
+    {
+      "id": "global south",
+      "title": "Global South",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "South-South AI Governance Cooperation",
+          "slug": "/research/137-south-south-ai-governance-cooperation",
+          "excerpt": "Exploring the opportunities and challenges of collaborative AI governance among countries in the Global South, addressing shared priorities, capacity-building, and regional leadership."
+        }
+      ]
+    },
+    {
+      "id": "international cooperation",
+      "title": "international cooperation",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "South-South AI Governance Cooperation",
+          "slug": "/research/137-south-south-ai-governance-cooperation",
+          "excerpt": "Exploring the opportunities and challenges of collaborative AI governance among countries in the Global South, addressing shared priorities, capacity-building, and regional leadership."
+        }
+      ]
+    },
+    {
+      "id": "capacity-building",
+      "title": "capacity-building",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "South-South AI Governance Cooperation",
+          "slug": "/research/137-south-south-ai-governance-cooperation",
+          "excerpt": "Exploring the opportunities and challenges of collaborative AI governance among countries in the Global South, addressing shared priorities, capacity-building, and regional leadership."
+        }
+      ]
+    },
+    {
+      "id": "regional leadership",
+      "title": "regional leadership",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "South-South AI Governance Cooperation",
+          "slug": "/research/137-south-south-ai-governance-cooperation",
+          "excerpt": "Exploring the opportunities and challenges of collaborative AI governance among countries in the Global South, addressing shared priorities, capacity-building, and regional leadership."
         }
       ]
     }
@@ -10230,6 +10287,56 @@
     {
       "source": "ai-training",
       "target": "data-colonialism",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "global south",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "international cooperation",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "capacity-building",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "regional leadership",
+      "value": 1
+    },
+    {
+      "source": "global south",
+      "target": "international cooperation",
+      "value": 1
+    },
+    {
+      "source": "capacity-building",
+      "target": "global south",
+      "value": 1
+    },
+    {
+      "source": "global south",
+      "target": "regional leadership",
+      "value": 1
+    },
+    {
+      "source": "capacity-building",
+      "target": "international cooperation",
+      "value": 1
+    },
+    {
+      "source": "international cooperation",
+      "target": "regional leadership",
+      "value": 1
+    },
+    {
+      "source": "capacity-building",
+      "target": "regional leadership",
       "value": 1
     }
   ]
