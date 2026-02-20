@@ -5308,6 +5308,71 @@
           "excerpt": "Exploring the transformative potential of AI in enhancing agricultural productivity, food security, and economic stability in low-income countries, alongside the governance challenges it presents."
         }
       ]
+    },
+    {
+      "id": "language models",
+      "title": "language models",
+      "group": "technical",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Language Model Bias Against Low-Resource Languages",
+          "slug": "/research/134-language-model-bias-against-low-resource-languages",
+          "excerpt": "Examining the systemic biases of language models against low-resource languages, the implications for global equity, and potential pathways to address the challenges."
+        }
+      ]
+    },
+    {
+      "id": "bias",
+      "title": "bias",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Language Model Bias Against Low-Resource Languages",
+          "slug": "/research/134-language-model-bias-against-low-resource-languages",
+          "excerpt": "Examining the systemic biases of language models against low-resource languages, the implications for global equity, and potential pathways to address the challenges."
+        }
+      ]
+    },
+    {
+      "id": "low-resource languages",
+      "title": "low-resource languages",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Language Model Bias Against Low-Resource Languages",
+          "slug": "/research/134-language-model-bias-against-low-resource-languages",
+          "excerpt": "Examining the systemic biases of language models against low-resource languages, the implications for global equity, and potential pathways to address the challenges."
+        }
+      ]
+    },
+    {
+      "id": "ai inequities",
+      "title": "AI inequities",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Language Model Bias Against Low-Resource Languages",
+          "slug": "/research/134-language-model-bias-against-low-resource-languages",
+          "excerpt": "Examining the systemic biases of language models against low-resource languages, the implications for global equity, and potential pathways to address the challenges."
+        }
+      ]
+    },
+    {
+      "id": "multilingual ai",
+      "title": "multilingual AI",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Language Model Bias Against Low-Resource Languages",
+          "slug": "/research/134-language-model-bias-against-low-resource-languages",
+          "excerpt": "Examining the systemic biases of language models against low-resource languages, the implications for global equity, and potential pathways to address the challenges."
+        }
+      ]
     }
   ],
   "links": [
@@ -9934,6 +9999,56 @@
     {
       "source": "economic-development",
       "target": "global-south",
+      "value": 1
+    },
+    {
+      "source": "bias",
+      "target": "language models",
+      "value": 1
+    },
+    {
+      "source": "language models",
+      "target": "low-resource languages",
+      "value": 1
+    },
+    {
+      "source": "ai inequities",
+      "target": "language models",
+      "value": 1
+    },
+    {
+      "source": "language models",
+      "target": "multilingual ai",
+      "value": 1
+    },
+    {
+      "source": "bias",
+      "target": "low-resource languages",
+      "value": 1
+    },
+    {
+      "source": "ai inequities",
+      "target": "bias",
+      "value": 1
+    },
+    {
+      "source": "bias",
+      "target": "multilingual ai",
+      "value": 1
+    },
+    {
+      "source": "ai inequities",
+      "target": "low-resource languages",
+      "value": 1
+    },
+    {
+      "source": "low-resource languages",
+      "target": "multilingual ai",
+      "value": 1
+    },
+    {
+      "source": "ai inequities",
+      "target": "multilingual ai",
       "value": 1
     }
   ]

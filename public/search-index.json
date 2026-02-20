@@ -1,5 +1,23 @@
 [
   {
+    "id": 134,
+    "title": "Language Model Bias Against Low-Resource Languages",
+    "excerpt": "Examining the systemic biases of language models against low-resource languages, the implications for global equity, and potential pathways to address the challenges.",
+    "slug": "134-language-model-bias-against-low-resource-languages",
+    "date": "2026-02-20",
+    "tags": [
+      "language models",
+      "bias",
+      "low-resource languages",
+      "AI inequities",
+      "multilingual AI"
+    ],
+    "categories": [
+      "Research"
+    ],
+    "body": "Introduction The rapid development of large language models (LLMs) has transformed natural language processing (NLP) and human-computer interaction. These models, exemplified by OpenAI's GPT series, Google's Bard, and others, are capable of generating human-like text and performing a wide range of language-related tasks. However, their training and performance are disproportionately weighted toward high-resource languages such as English, Mandarin, and Spanish. Low-resource languages—those with "
+  },
+  {
     "id": 133,
     "title": "AI and Agricultural Development in Low-Income Countries",
     "excerpt": "Exploring the transformative potential of AI in enhancing agricultural productivity, food security, and economic stability in low-income countries, alongside the governance challenges it presents.",

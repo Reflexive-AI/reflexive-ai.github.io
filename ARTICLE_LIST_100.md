@@ -253,7 +253,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 133. [x] AI and Agricultural Development in Low-Income Countries [P]
     How AI-driven agriculture intersects with data sovereignty, seed intellectual property, and smallholder economics in the Global South.
 
-134. [ ] Language Model Bias Against Low-Resource Languages [R]
+134. [x] Language Model Bias Against Low-Resource Languages [R]
     Empirical analysis of how training data gaps systematically disadvantage non-English, non-European language communities in AI system performance and safety.
 
 135. [ ] Digital Infrastructure Gaps and AI Readiness [P]
