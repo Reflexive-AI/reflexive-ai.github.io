@@ -2249,7 +2249,7 @@
       "id": "infrastructure",
       "title": "Infrastructure",
       "group": "concept",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "Secure Model Weights: Physical and Digital",
@@ -2260,6 +2260,11 @@
           "title": "Digital Sovereignty and AI Infrastructure",
           "slug": "/research/110-digital-sovereignty-and-ai-infrastructure",
           "excerpt": "Exploring the interplay between national autonomy and the globalized AI infrastructure landscape, highlighting challenges of governance, security, and equitable access."
+        },
+        {
+          "title": "Digital Infrastructure Gaps and AI Readiness",
+          "slug": "/research/135-digital-infrastructure-gaps-and-ai-readiness",
+          "excerpt": "An exploration of how digital infrastructure gaps hinder AI readiness, with a focus on global disparities, risks, and pathways for effective policy interventions."
         }
       ]
     },
@@ -5371,6 +5376,45 @@
           "title": "Language Model Bias Against Low-Resource Languages",
           "slug": "/research/134-language-model-bias-against-low-resource-languages",
           "excerpt": "Examining the systemic biases of language models against low-resource languages, the implications for global equity, and potential pathways to address the challenges."
+        }
+      ]
+    },
+    {
+      "id": "ai-readiness",
+      "title": "ai-readiness",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Digital Infrastructure Gaps and AI Readiness",
+          "slug": "/research/135-digital-infrastructure-gaps-and-ai-readiness",
+          "excerpt": "An exploration of how digital infrastructure gaps hinder AI readiness, with a focus on global disparities, risks, and pathways for effective policy interventions."
+        }
+      ]
+    },
+    {
+      "id": "digital-divide",
+      "title": "digital-divide",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Digital Infrastructure Gaps and AI Readiness",
+          "slug": "/research/135-digital-infrastructure-gaps-and-ai-readiness",
+          "excerpt": "An exploration of how digital infrastructure gaps hinder AI readiness, with a focus on global disparities, risks, and pathways for effective policy interventions."
+        }
+      ]
+    },
+    {
+      "id": "global-governance",
+      "title": "global-governance",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Digital Infrastructure Gaps and AI Readiness",
+          "slug": "/research/135-digital-infrastructure-gaps-and-ai-readiness",
+          "excerpt": "An exploration of how digital infrastructure gaps hinder AI readiness, with a focus on global disparities, risks, and pathways for effective policy interventions."
         }
       ]
     }
@@ -10049,6 +10093,36 @@
     {
       "source": "ai inequities",
       "target": "multilingual ai",
+      "value": 1
+    },
+    {
+      "source": "ai-readiness",
+      "target": "infrastructure",
+      "value": 1
+    },
+    {
+      "source": "digital-divide",
+      "target": "infrastructure",
+      "value": 1
+    },
+    {
+      "source": "global-governance",
+      "target": "infrastructure",
+      "value": 1
+    },
+    {
+      "source": "ai-readiness",
+      "target": "digital-divide",
+      "value": 1
+    },
+    {
+      "source": "ai-readiness",
+      "target": "global-governance",
+      "value": 1
+    },
+    {
+      "source": "digital-divide",
+      "target": "global-governance",
       "value": 1
     }
   ]

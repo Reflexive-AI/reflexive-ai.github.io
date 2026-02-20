@@ -1,5 +1,22 @@
 [
   {
+    "id": 135,
+    "title": "Digital Infrastructure Gaps and AI Readiness",
+    "excerpt": "An exploration of how digital infrastructure gaps hinder AI readiness, with a focus on global disparities, risks, and pathways for effective policy interventions.",
+    "slug": "135-digital-infrastructure-gaps-and-ai-readiness",
+    "date": "2026-02-20",
+    "tags": [
+      "infrastructure",
+      "ai-readiness",
+      "digital-divide",
+      "global-governance"
+    ],
+    "categories": [
+      "Policy Analysis"
+    ],
+    "body": "Reflexive Research Object 135 Type: Policy Analysis & AI-Focused Assessment Introduction The rapid development of artificial intelligence (AI) technologies has spurred intense debate about their transformative potential. However, the realization of this potential depends on robust and equitable digital infrastructure. \"AI readiness\"—the ability of a nation, organization, or community to effectively adopt and govern AI systems—is inexorably tied to the quality, availability, and inclusivity of it"
+  },
+  {
     "id": 134,
     "title": "Language Model Bias Against Low-Resource Languages",
     "excerpt": "Examining the systemic biases of language models against low-resource languages, the implications for global equity, and potential pathways to address the challenges.",

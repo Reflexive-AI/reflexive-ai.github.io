@@ -256,7 +256,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 134. [x] Language Model Bias Against Low-Resource Languages [R]
     Empirical analysis of how training data gaps systematically disadvantage non-English, non-European language communities in AI system performance and safety.
 
-135. [ ] Digital Infrastructure Gaps and AI Readiness [P]
+135. [x] Digital Infrastructure Gaps and AI Readiness [P]
     How infrastructure inequality shapes which populations can participate in and benefit from AI governance, and what bridging strategies exist.
 
 136. [ ] Data Colonialism: Extraction Patterns in AI Training [R][P]
