@@ -986,7 +986,7 @@
       "id": "ethics",
       "title": "ethics",
       "group": "concept",
-      "val": 29,
+      "val": 30,
       "articles": [
         {
           "title": "Consent at Scale: A Structural Impossibility?",
@@ -1047,6 +1047,11 @@
           "title": "Governance of AI-Generated Science",
           "slug": "/research/109-governance-of-ai-generated-science",
           "excerpt": "Exploring the challenges and opportunities of governing scientific research conducted or augmented by AI, with a focus on accountability, validation, and ethical considerations."
+        },
+        {
+          "title": "AI-Driven Surveillance in Authoritarian Contexts",
+          "slug": "/research/138-ai-driven-surveillance-in-authoritarian-contexts",
+          "excerpt": "Examining the deployment of AI surveillance technologies in authoritarian states, their implications for human rights, and considerations for international governance."
         }
       ]
     },
@@ -1874,6 +1879,11 @@
           "title": "India's AI Governance Approach: A Case Study",
           "slug": "/research/132-indias-ai-governance-approach-a-case-study",
           "excerpt": "Examining India's unique approach to AI governance, its regulatory frameworks, and the balancing act between innovation and risk mitigation."
+        },
+        {
+          "title": "AI-Driven Surveillance in Authoritarian Contexts",
+          "slug": "/research/138-ai-driven-surveillance-in-authoritarian-contexts",
+          "excerpt": "Examining the deployment of AI surveillance technologies in authoritarian states, their implications for human rights, and considerations for international governance."
         }
       ]
     },
@@ -5529,6 +5539,32 @@
           "title": "South-South AI Governance Cooperation",
           "slug": "/research/137-south-south-ai-governance-cooperation",
           "excerpt": "Exploring the opportunities and challenges of collaborative AI governance among countries in the Global South, addressing shared priorities, capacity-building, and regional leadership."
+        }
+      ]
+    },
+    {
+      "id": "authoritarianism",
+      "title": "authoritarianism",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI-Driven Surveillance in Authoritarian Contexts",
+          "slug": "/research/138-ai-driven-surveillance-in-authoritarian-contexts",
+          "excerpt": "Examining the deployment of AI surveillance technologies in authoritarian states, their implications for human rights, and considerations for international governance."
+        }
+      ]
+    },
+    {
+      "id": "surveillance",
+      "title": "surveillance",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI-Driven Surveillance in Authoritarian Contexts",
+          "slug": "/research/138-ai-driven-surveillance-in-authoritarian-contexts",
+          "excerpt": "Examining the deployment of AI surveillance technologies in authoritarian states, their implications for human rights, and considerations for international governance."
         }
       ]
     }
@@ -10337,6 +10373,31 @@
     {
       "source": "capacity-building",
       "target": "regional leadership",
+      "value": 1
+    },
+    {
+      "source": "authoritarianism",
+      "target": "surveillance",
+      "value": 1
+    },
+    {
+      "source": "authoritarianism",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "authoritarianism",
+      "target": "ethics",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "surveillance",
+      "value": 1
+    },
+    {
+      "source": "ethics",
+      "target": "surveillance",
       "value": 1
     }
   ]

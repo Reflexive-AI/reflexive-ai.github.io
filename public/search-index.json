@@ -1,5 +1,24 @@
 [
   {
+    "id": 138,
+    "title": "AI-Driven Surveillance in Authoritarian Contexts",
+    "excerpt": "Examining the deployment of AI surveillance technologies in authoritarian states, their implications for human rights, and considerations for international governance.",
+    "slug": "138-ai-driven-surveillance-in-authoritarian-contexts",
+    "date": "2026-02-21",
+    "tags": [
+      "authoritarianism",
+      "surveillance",
+      "governance",
+      "ethics"
+    ],
+    "categories": [
+      "Surveillance",
+      "Human Rights",
+      "AI Governance"
+    ],
+    "body": "Reflexive Research Object 138 Type: Research & Policy Introduction The rapid advancement of artificial intelligence (AI) has enabled unprecedented capabilities for surveillance. While surveillance technologies can enhance public safety and streamline governance, their misuse in authoritarian contexts raises profound concerns about privacy, freedom, and human rights. AI-driven surveillance systems, from facial recognition to predictive policing, are increasingly deployed by governments seeking to"
+  },
+  {
     "id": 137,
     "title": "South-South AI Governance Cooperation",
     "excerpt": "Exploring the opportunities and challenges of collaborative AI governance among countries in the Global South, addressing shared priorities, capacity-building, and regional leadership.",
