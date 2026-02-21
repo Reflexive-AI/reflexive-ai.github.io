@@ -1,5 +1,23 @@
 [
   {
+    "id": 139,
+    "title": "Localization Requirements for AI Systems",
+    "excerpt": "Examining the role of localization in AI governance, balancing national sovereignty with global interoperability.",
+    "slug": "139-localization-requirements-for-ai-systems",
+    "date": "2026-02-21",
+    "tags": [
+      "localization",
+      "sovereignty",
+      "interoperability",
+      "ai-governance"
+    ],
+    "categories": [
+      "Policy Analysis",
+      "Governance Frameworks"
+    ],
+    "body": "Reflexive Research Object 139 Type: Policy Analysis & Governance Recommendation Introduction Localization requirements for AI systems represent an increasingly salient issue in the governance of artificial intelligence. As nations assert sovereignty over data and computational infrastructure, the tension between localization mandates and the inherently global nature of AI systems becomes apparent. Localization requirements—policies that compel AI systems to operate within specific geographic or "
+  },
+  {
     "id": 138,
     "title": "AI-Driven Surveillance in Authoritarian Contexts",
     "excerpt": "Examining the deployment of AI surveillance technologies in authoritarian states, their implications for human rights, and considerations for international governance.",

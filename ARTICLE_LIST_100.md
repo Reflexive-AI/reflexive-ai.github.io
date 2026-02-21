@@ -268,7 +268,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 138. [x] AI-Driven Surveillance in Authoritarian Contexts [R][P]
     How AI governance frameworks must account for systems exported to and deployed for civil liberties suppression, and the responsibilities of exporting nations.
 
-139. [ ] Localization Requirements for AI Systems [R][P]
+139. [x] Localization Requirements for AI Systems [R][P]
     Analysis of data localization mandates, local content requirements, and local language support obligations as governance tools, with evidence on their effectiveness.
 
 140. [ ] Indigenous Data Sovereignty and AI [R][P]

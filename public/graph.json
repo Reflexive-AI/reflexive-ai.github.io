@@ -605,7 +605,7 @@
       "id": "interoperability",
       "title": "interoperability",
       "group": "concept",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "A Machine-Readable Constraint Schema (MRCS)",
@@ -616,6 +616,11 @@
           "title": "The Role of Standards Bodies in AI Governance",
           "slug": "/research/039-standards-bodies",
           "excerpt": "Technical standards organizations may shape AI governance as much as legislation. An examination of who sets AI standards, how standards work, and their governance implications."
+        },
+        {
+          "title": "Localization Requirements for AI Systems",
+          "slug": "/research/139-localization-requirements-for-ai-systems",
+          "excerpt": "Examining the role of localization in AI governance, balancing national sovereignty with global interoperability."
         }
       ]
     },
@@ -2397,6 +2402,11 @@
           "title": "Data Colonialism: Extraction Patterns in AI Training",
           "slug": "/research/136-data-colonialism-extraction-patterns-in-ai-trainin",
           "excerpt": "Examining the parallels between historical colonial extraction and the practices of data collection for AI model training, and their implications for global equity and governance."
+        },
+        {
+          "title": "Localization Requirements for AI Systems",
+          "slug": "/research/139-localization-requirements-for-ai-systems",
+          "excerpt": "Examining the role of localization in AI governance, balancing national sovereignty with global interoperability."
         }
       ]
     },
@@ -5565,6 +5575,32 @@
           "title": "AI-Driven Surveillance in Authoritarian Contexts",
           "slug": "/research/138-ai-driven-surveillance-in-authoritarian-contexts",
           "excerpt": "Examining the deployment of AI surveillance technologies in authoritarian states, their implications for human rights, and considerations for international governance."
+        }
+      ]
+    },
+    {
+      "id": "localization",
+      "title": "localization",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Localization Requirements for AI Systems",
+          "slug": "/research/139-localization-requirements-for-ai-systems",
+          "excerpt": "Examining the role of localization in AI governance, balancing national sovereignty with global interoperability."
+        }
+      ]
+    },
+    {
+      "id": "sovereignty",
+      "title": "sovereignty",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Localization Requirements for AI Systems",
+          "slug": "/research/139-localization-requirements-for-ai-systems",
+          "excerpt": "Examining the role of localization in AI governance, balancing national sovereignty with global interoperability."
         }
       ]
     }
@@ -10398,6 +10434,36 @@
     {
       "source": "ethics",
       "target": "surveillance",
+      "value": 1
+    },
+    {
+      "source": "localization",
+      "target": "sovereignty",
+      "value": 1
+    },
+    {
+      "source": "interoperability",
+      "target": "localization",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "localization",
+      "value": 1
+    },
+    {
+      "source": "interoperability",
+      "target": "sovereignty",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "sovereignty",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "interoperability",
       "value": 1
     }
   ]
