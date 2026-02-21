@@ -278,7 +278,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 
 *Building the methodological infrastructure for evidence-based AI governance.*
 
-141. [ ] Measuring AI Governance Effectiveness [R][P]
+141. [x] Measuring AI Governance Effectiveness [R][P]
     Proposed metrics, baselines, and evaluation frameworks for determining whether governance interventions produce their intended safety outcomes.
 
 142. [ ] Incident Databases: Standardizing AI Harm Reporting [R][A]

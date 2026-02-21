@@ -493,6 +493,11 @@
           "title": "Plain Language Guide to Agentic AI Risks",
           "slug": "/research/120-plain-language-guide-to-agentic-ai-risks",
           "excerpt": "An accessible exploration of the risks posed by agentic AI systems, including autonomy, alignment, and societal impacts."
+        },
+        {
+          "title": "Measuring AI Governance Effectiveness",
+          "slug": "/research/141-measuring-ai-governance-effectiveness",
+          "excerpt": "Defining and assessing metrics for evaluating the success of AI governance frameworks in ensuring safe, ethical, and equitable AI deployment."
         }
       ]
     },
@@ -844,6 +849,11 @@
           "title": "India's AI Governance Approach: A Case Study",
           "slug": "/research/132-indias-ai-governance-approach-a-case-study",
           "excerpt": "Examining India's unique approach to AI governance, its regulatory frameworks, and the balancing act between innovation and risk mitigation."
+        },
+        {
+          "title": "Measuring AI Governance Effectiveness",
+          "slug": "/research/141-measuring-ai-governance-effectiveness",
+          "excerpt": "Defining and assessing metrics for evaluating the success of AI governance frameworks in ensuring safe, ethical, and equitable AI deployment."
         }
       ]
     },
@@ -1899,6 +1909,11 @@
           "title": "Indigenous Data Sovereignty and AI",
           "slug": "/research/140-indigenous-data-sovereignty-and-ai",
           "excerpt": "Exploring the intersection of Indigenous data sovereignty principles and the development of ethical, equitable AI governance frameworks."
+        },
+        {
+          "title": "Measuring AI Governance Effectiveness",
+          "slug": "/research/141-measuring-ai-governance-effectiveness",
+          "excerpt": "Defining and assessing metrics for evaluating the success of AI governance frameworks in ensuring safe, ethical, and equitable AI deployment."
         }
       ]
     },
@@ -2570,7 +2585,7 @@
       "id": "accountability",
       "title": "accountability",
       "group": "concept",
-      "val": 21,
+      "val": 23,
       "articles": [
         {
           "title": "Monitoring Deployed Models",
@@ -2611,6 +2626,11 @@
           "title": "Memory and State in Agentic Systems: Governance Implications",
           "slug": "/research/119-memory-and-state-in-agentic-systems-governance-imp",
           "excerpt": "Examining how stateful memory in agentic AI systems reshapes governance challenges, particularly regarding accountability, safety, and regulation."
+        },
+        {
+          "title": "Measuring AI Governance Effectiveness",
+          "slug": "/research/141-measuring-ai-governance-effectiveness",
+          "excerpt": "Defining and assessing metrics for evaluating the success of AI governance frameworks in ensuring safe, ethical, and equitable AI deployment."
         }
       ]
     },
@@ -5644,6 +5664,19 @@
           "excerpt": "Exploring the intersection of Indigenous data sovereignty principles and the development of ethical, equitable AI governance frameworks."
         }
       ]
+    },
+    {
+      "id": "metrics",
+      "title": "metrics",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Measuring AI Governance Effectiveness",
+          "slug": "/research/141-measuring-ai-governance-effectiveness",
+          "excerpt": "Defining and assessing metrics for evaluating the success of AI governance frameworks in ensuring safe, ethical, and equitable AI deployment."
+        }
+      ]
     }
   ],
   "links": [
@@ -7095,7 +7128,7 @@
     {
       "source": "accountability",
       "target": "governance",
-      "value": 3
+      "value": 4
     },
     {
       "source": "emergent behavior",
@@ -7180,7 +7213,7 @@
     {
       "source": "accountability",
       "target": "safety",
-      "value": 1
+      "value": 2
     },
     {
       "source": "ai-governance",
@@ -10555,6 +10588,36 @@
     {
       "source": "ai-policy",
       "target": "data-rights",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "metrics",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "metrics",
+      "value": 1
+    },
+    {
+      "source": "metrics",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "metrics",
+      "target": "policy",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "policy",
+      "value": 1
+    },
+    {
+      "source": "policy",
+      "target": "safety",
       "value": 1
     }
   ]

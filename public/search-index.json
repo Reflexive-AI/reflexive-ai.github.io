@@ -1,5 +1,23 @@
 [
   {
+    "id": 141,
+    "title": "Measuring AI Governance Effectiveness",
+    "excerpt": "Defining and assessing metrics for evaluating the success of AI governance frameworks in ensuring safe, ethical, and equitable AI deployment.",
+    "slug": "141-measuring-ai-governance-effectiveness",
+    "date": "2026-02-21",
+    "tags": [
+      "governance",
+      "metrics",
+      "accountability",
+      "safety",
+      "policy"
+    ],
+    "categories": [
+      "Governance Research"
+    ],
+    "body": "Introduction The rapid development and deployment of artificial intelligence (AI) systems have raised significant concerns about safety, transparency, and accountability. To address these challenges, various governance frameworks have been proposed, ranging from technical guardrails to policy interventions. However, a core question remains underexplored: how do we measure the effectiveness of AI governance? Without clear metrics, it becomes difficult to evaluate whether existing frameworks are a"
+  },
+  {
     "id": 140,
     "title": "Indigenous Data Sovereignty and AI",
     "excerpt": "Exploring the intersection of Indigenous data sovereignty principles and the development of ethical, equitable AI governance frameworks.",
