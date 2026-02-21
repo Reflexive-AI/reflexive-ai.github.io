@@ -1,5 +1,25 @@
 [
   {
+    "id": 140,
+    "title": "Indigenous Data Sovereignty and AI",
+    "excerpt": "Exploring the intersection of Indigenous data sovereignty principles and the development of ethical, equitable AI governance frameworks.",
+    "slug": "140-indigenous-data-sovereignty-and-ai",
+    "date": "2026-02-21",
+    "tags": [
+      "indigenous-data-sovereignty",
+      "ethical-ai",
+      "governance",
+      "data-rights",
+      "ai-policy"
+    ],
+    "categories": [
+      "AI Governance",
+      "Data Sovereignty",
+      "Ethical AI"
+    ],
+    "body": "Introduction As artificial intelligence (AI) systems grow in capability and influence, the ethical challenges surrounding data governance have become more pronounced. Among these challenges is the question of Indigenous data sovereignty: the right of Indigenous peoples to govern the collection, ownership, and use of data that pertains to their communities, lands, and cultures. Historically, data about Indigenous communities has been collected, used, and shared without meaningful consultation or "
+  },
+  {
     "id": 139,
     "title": "Localization Requirements for AI Systems",
     "excerpt": "Examining the role of localization in AI governance, balancing national sovereignty with global interoperability.",

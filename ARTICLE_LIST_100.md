@@ -271,7 +271,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 139. [x] Localization Requirements for AI Systems [R][P]
     Analysis of data localization mandates, local content requirements, and local language support obligations as governance tools, with evidence on their effectiveness.
 
-140. [ ] Indigenous Data Sovereignty and AI [R][P]
+140. [x] Indigenous Data Sovereignty and AI [R][P]
     Governance frameworks for protecting indigenous communities' data rights in the context of AI training and deployment, drawing on existing indigenous data governance principles.
 
 ### Cluster E: Empirical Methods and Measurement (141-150)

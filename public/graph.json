@@ -1095,12 +1095,17 @@
       "id": "data-rights",
       "title": "data-rights",
       "group": "technical",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Consent at Scale: A Structural Impossibility?",
           "slug": "/research/007-consent-structural-impossibility",
           "excerpt": "Can meaningful consent exist between a human and a hyper-scale inference engine? We argue that 'consent' is the wrong legal primitive for AI interactions."
+        },
+        {
+          "title": "Indigenous Data Sovereignty and AI",
+          "slug": "/research/140-indigenous-data-sovereignty-and-ai",
+          "excerpt": "Exploring the intersection of Indigenous data sovereignty principles and the development of ethical, equitable AI governance frameworks."
         }
       ]
     },
@@ -1889,6 +1894,11 @@
           "title": "AI-Driven Surveillance in Authoritarian Contexts",
           "slug": "/research/138-ai-driven-surveillance-in-authoritarian-contexts",
           "excerpt": "Examining the deployment of AI surveillance technologies in authoritarian states, their implications for human rights, and considerations for international governance."
+        },
+        {
+          "title": "Indigenous Data Sovereignty and AI",
+          "slug": "/research/140-indigenous-data-sovereignty-and-ai",
+          "excerpt": "Exploring the intersection of Indigenous data sovereignty principles and the development of ethical, equitable AI governance frameworks."
         }
       ]
     },
@@ -5205,12 +5215,17 @@
       "id": "ai-policy",
       "title": "ai-policy",
       "group": "governance",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Creative Industries and AI: Economic Impact",
           "slug": "/research/129-creative-industries-and-ai-economic-impact",
           "excerpt": "Exploring the transformative role of AI in creative industries, its economic implications, and the need for governance frameworks to balance innovation with equitable outcomes."
+        },
+        {
+          "title": "Indigenous Data Sovereignty and AI",
+          "slug": "/research/140-indigenous-data-sovereignty-and-ai",
+          "excerpt": "Exploring the intersection of Indigenous data sovereignty principles and the development of ethical, equitable AI governance frameworks."
         }
       ]
     },
@@ -5601,6 +5616,32 @@
           "title": "Localization Requirements for AI Systems",
           "slug": "/research/139-localization-requirements-for-ai-systems",
           "excerpt": "Examining the role of localization in AI governance, balancing national sovereignty with global interoperability."
+        }
+      ]
+    },
+    {
+      "id": "indigenous-data-sovereignty",
+      "title": "indigenous-data-sovereignty",
+      "group": "technical",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Indigenous Data Sovereignty and AI",
+          "slug": "/research/140-indigenous-data-sovereignty-and-ai",
+          "excerpt": "Exploring the intersection of Indigenous data sovereignty principles and the development of ethical, equitable AI governance frameworks."
+        }
+      ]
+    },
+    {
+      "id": "ethical-ai",
+      "title": "ethical-ai",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Indigenous Data Sovereignty and AI",
+          "slug": "/research/140-indigenous-data-sovereignty-and-ai",
+          "excerpt": "Exploring the intersection of Indigenous data sovereignty principles and the development of ethical, equitable AI governance frameworks."
         }
       ]
     }
@@ -10464,6 +10505,56 @@
     {
       "source": "ai-governance",
       "target": "interoperability",
+      "value": 1
+    },
+    {
+      "source": "ethical-ai",
+      "target": "indigenous-data-sovereignty",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "indigenous-data-sovereignty",
+      "value": 1
+    },
+    {
+      "source": "data-rights",
+      "target": "indigenous-data-sovereignty",
+      "value": 1
+    },
+    {
+      "source": "ai-policy",
+      "target": "indigenous-data-sovereignty",
+      "value": 1
+    },
+    {
+      "source": "ethical-ai",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "data-rights",
+      "target": "ethical-ai",
+      "value": 1
+    },
+    {
+      "source": "ai-policy",
+      "target": "ethical-ai",
+      "value": 1
+    },
+    {
+      "source": "data-rights",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "ai-policy",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "ai-policy",
+      "target": "data-rights",
       "value": 1
     }
   ]
