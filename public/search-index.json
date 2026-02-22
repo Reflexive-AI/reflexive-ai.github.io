@@ -1,5 +1,24 @@
 [
   {
+    "id": 142,
+    "title": "Incident Databases: Standardizing AI Harm Reporting",
+    "excerpt": "A framework for building standard AI incident databases to improve governance, accountability, and safety in AI systems.",
+    "slug": "142-incident-databases-standardizing-ai-harm-reporting",
+    "date": "2026-02-22",
+    "tags": [
+      "incident-reporting",
+      "accountability",
+      "standardization",
+      "safety",
+      "governance"
+    ],
+    "categories": [
+      "Risk Mitigation",
+      "AI Governance"
+    ],
+    "body": "Reflexive Research Object 142 Type: Risk Mitigation & Systems Design Introduction Artificial intelligence systems are increasingly integrated into critical sectors such as healthcare, finance, and transportation. As these systems grow in complexity and autonomy, so too does their potential for harm. From biased hiring algorithms to autonomous vehicle accidents, incidents involving AI systems have already had significant social, economic, and ethical consequences. However, there remains a critica"
+  },
+  {
     "id": 141,
     "title": "Measuring AI Governance Effectiveness",
     "excerpt": "Defining and assessing metrics for evaluating the success of AI governance frameworks in ensuring safe, ethical, and equitable AI deployment.",

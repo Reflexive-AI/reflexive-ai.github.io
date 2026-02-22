@@ -498,6 +498,11 @@
           "title": "Measuring AI Governance Effectiveness",
           "slug": "/research/141-measuring-ai-governance-effectiveness",
           "excerpt": "Defining and assessing metrics for evaluating the success of AI governance frameworks in ensuring safe, ethical, and equitable AI deployment."
+        },
+        {
+          "title": "Incident Databases: Standardizing AI Harm Reporting",
+          "slug": "/research/142-incident-databases-standardizing-ai-harm-reporting",
+          "excerpt": "A framework for building standard AI incident databases to improve governance, accountability, and safety in AI systems."
         }
       ]
     },
@@ -1914,6 +1919,11 @@
           "title": "Measuring AI Governance Effectiveness",
           "slug": "/research/141-measuring-ai-governance-effectiveness",
           "excerpt": "Defining and assessing metrics for evaluating the success of AI governance frameworks in ensuring safe, ethical, and equitable AI deployment."
+        },
+        {
+          "title": "Incident Databases: Standardizing AI Harm Reporting",
+          "slug": "/research/142-incident-databases-standardizing-ai-harm-reporting",
+          "excerpt": "A framework for building standard AI incident databases to improve governance, accountability, and safety in AI systems."
         }
       ]
     },
@@ -1959,12 +1969,17 @@
       "id": "incident-reporting",
       "title": "incident-reporting",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Incident Reporting Systems: Lessons from Aviation",
           "slug": "/research/021-aviation-lessons",
           "excerpt": "Aviation has developed sophisticated systems for reporting and learning from incidents. What can AI governance learn from this decades-long experiment in safety culture?"
+        },
+        {
+          "title": "Incident Databases: Standardizing AI Harm Reporting",
+          "slug": "/research/142-incident-databases-standardizing-ai-harm-reporting",
+          "excerpt": "A framework for building standard AI incident databases to improve governance, accountability, and safety in AI systems."
         }
       ]
     },
@@ -2585,7 +2600,7 @@
       "id": "accountability",
       "title": "accountability",
       "group": "concept",
-      "val": 23,
+      "val": 25,
       "articles": [
         {
           "title": "Monitoring Deployed Models",
@@ -2631,6 +2646,11 @@
           "title": "Measuring AI Governance Effectiveness",
           "slug": "/research/141-measuring-ai-governance-effectiveness",
           "excerpt": "Defining and assessing metrics for evaluating the success of AI governance frameworks in ensuring safe, ethical, and equitable AI deployment."
+        },
+        {
+          "title": "Incident Databases: Standardizing AI Harm Reporting",
+          "slug": "/research/142-incident-databases-standardizing-ai-harm-reporting",
+          "excerpt": "A framework for building standard AI incident databases to improve governance, accountability, and safety in AI systems."
         }
       ]
     },
@@ -5677,6 +5697,19 @@
           "excerpt": "Defining and assessing metrics for evaluating the success of AI governance frameworks in ensuring safe, ethical, and equitable AI deployment."
         }
       ]
+    },
+    {
+      "id": "standardization",
+      "title": "standardization",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Incident Databases: Standardizing AI Harm Reporting",
+          "slug": "/research/142-incident-databases-standardizing-ai-harm-reporting",
+          "excerpt": "A framework for building standard AI incident databases to improve governance, accountability, and safety in AI systems."
+        }
+      ]
     }
   ],
   "links": [
@@ -6348,7 +6381,7 @@
     {
       "source": "incident-reporting",
       "target": "safety",
-      "value": 1
+      "value": 2
     },
     {
       "source": "incident-reporting",
@@ -7128,7 +7161,7 @@
     {
       "source": "accountability",
       "target": "governance",
-      "value": 4
+      "value": 5
     },
     {
       "source": "emergent behavior",
@@ -7213,7 +7246,7 @@
     {
       "source": "accountability",
       "target": "safety",
-      "value": 2
+      "value": 3
     },
     {
       "source": "ai-governance",
@@ -10618,6 +10651,36 @@
     {
       "source": "policy",
       "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "incident-reporting",
+      "value": 1
+    },
+    {
+      "source": "incident-reporting",
+      "target": "standardization",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "incident-reporting",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "standardization",
+      "value": 1
+    },
+    {
+      "source": "safety",
+      "target": "standardization",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "standardization",
       "value": 1
     }
   ]

@@ -281,7 +281,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 141. [x] Measuring AI Governance Effectiveness [R][P]
     Proposed metrics, baselines, and evaluation frameworks for determining whether governance interventions produce their intended safety outcomes.
 
-142. [ ] Incident Databases: Standardizing AI Harm Reporting [R][A]
+142. [x] Incident Databases: Standardizing AI Harm Reporting [R][A]
     A machine-readable schema for AI incident reports enabling cross-jurisdictional analysis, trend detection, and systematic comparison of governance failures.
 
 143. [ ] Causal Inference in AI Policy Evaluation [R]
