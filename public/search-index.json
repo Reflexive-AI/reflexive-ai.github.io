@@ -1,5 +1,24 @@
 [
   {
+    "id": 144,
+    "title": "Benchmarking AI Safety: Beyond Capability Evaluations",
+    "excerpt": "Expanding the scope of AI safety benchmarks to include sociotechnical risks, governance considerations, and real-world impact assessments.",
+    "slug": "144-benchmarking-ai-safety-beyond-capability-evaluatio",
+    "date": "2026-02-22",
+    "tags": [
+      "safety",
+      "benchmarks",
+      "governance",
+      "risk-assessment",
+      "sociotechnical systems"
+    ],
+    "categories": [
+      "AI Safety",
+      "Governance Analysis"
+    ],
+    "body": "Reflexive Research Object 144 Type: Research Introduction As artificial intelligence systems grow increasingly capable, the field of AI safety has become a critical focus for researchers, policymakers, and industry practitioners alike. Much of the discourse has centered on advancing technical benchmarks to evaluate and compare the capabilities of AI models—accuracy, efficiency, and robustness being some of the most cited metrics. While these benchmarks are undoubtedly essential, they fail to ful"
+  },
+  {
     "id": 143,
     "title": "Causal Inference in AI Policy Evaluation",
     "excerpt": "Exploring how causal inference methods can improve the evaluation of AI policies, ensuring accountability and effectiveness in governance frameworks.",

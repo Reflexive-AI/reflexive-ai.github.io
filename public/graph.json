@@ -503,6 +503,11 @@
           "title": "Incident Databases: Standardizing AI Harm Reporting",
           "slug": "/research/142-incident-databases-standardizing-ai-harm-reporting",
           "excerpt": "A framework for building standard AI incident databases to improve governance, accountability, and safety in AI systems."
+        },
+        {
+          "title": "Benchmarking AI Safety: Beyond Capability Evaluations",
+          "slug": "/research/144-benchmarking-ai-safety-beyond-capability-evaluatio",
+          "excerpt": "Expanding the scope of AI safety benchmarks to include sociotechnical risks, governance considerations, and real-world impact assessments."
         }
       ]
     },
@@ -1276,7 +1281,7 @@
       "id": "risk-assessment",
       "title": "risk-assessment",
       "group": "concept",
-      "val": 17,
+      "val": 19,
       "articles": [
         {
           "title": "The Capability Overhang",
@@ -1307,6 +1312,11 @@
           "title": "Insurance Markets and AI Risk Pricing",
           "slug": "/research/036-insurance-markets",
           "excerpt": "How insurance markets could help govern AI by pricing risk, incentivizing safety, and providing accountability. An analysis of possibilities and limitations."
+        },
+        {
+          "title": "Benchmarking AI Safety: Beyond Capability Evaluations",
+          "slug": "/research/144-benchmarking-ai-safety-beyond-capability-evaluatio",
+          "excerpt": "Expanding the scope of AI safety benchmarks to include sociotechnical risks, governance considerations, and real-world impact assessments."
         }
       ]
     },
@@ -1929,6 +1939,11 @@
           "title": "Causal Inference in AI Policy Evaluation",
           "slug": "/research/143-causal-inference-in-ai-policy-evaluation",
           "excerpt": "Exploring how causal inference methods can improve the evaluation of AI policies, ensuring accountability and effectiveness in governance frameworks."
+        },
+        {
+          "title": "Benchmarking AI Safety: Beyond Capability Evaluations",
+          "slug": "/research/144-benchmarking-ai-safety-beyond-capability-evaluatio",
+          "excerpt": "Expanding the scope of AI safety benchmarks to include sociotechnical risks, governance considerations, and real-world impact assessments."
         }
       ]
     },
@@ -2231,12 +2246,17 @@
       "id": "benchmarks",
       "title": "Benchmarks",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Model Evaluation Standards: Current State",
           "slug": "/research/049-model-evaluation-standards",
           "excerpt": "A survey of existing standards and practices for evaluating AI model performance, safety, and fitness for deployment."
+        },
+        {
+          "title": "Benchmarking AI Safety: Beyond Capability Evaluations",
+          "slug": "/research/144-benchmarking-ai-safety-beyond-capability-evaluatio",
+          "excerpt": "Expanding the scope of AI safety benchmarks to include sociotechnical risks, governance considerations, and real-world impact assessments."
         }
       ]
     },
@@ -5743,6 +5763,19 @@
           "excerpt": "Exploring how causal inference methods can improve the evaluation of AI policies, ensuring accountability and effectiveness in governance frameworks."
         }
       ]
+    },
+    {
+      "id": "sociotechnical systems",
+      "title": "sociotechnical systems",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Benchmarking AI Safety: Beyond Capability Evaluations",
+          "slug": "/research/144-benchmarking-ai-safety-beyond-capability-evaluatio",
+          "excerpt": "Expanding the scope of AI safety benchmarks to include sociotechnical risks, governance considerations, and real-world impact assessments."
+        }
+      ]
     }
   ],
   "links": [
@@ -6094,7 +6127,7 @@
     {
       "source": "risk-assessment",
       "target": "safety",
-      "value": 4
+      "value": 5
     },
     {
       "source": "overhang",
@@ -6739,7 +6772,7 @@
     {
       "source": "governance",
       "target": "risk-assessment",
-      "value": 3
+      "value": 4
     },
     {
       "source": "alignment",
@@ -6959,7 +6992,7 @@
     {
       "source": "benchmarks",
       "target": "safety",
-      "value": 1
+      "value": 2
     },
     {
       "source": "red teaming",
@@ -10749,6 +10782,36 @@
     {
       "source": "accountability",
       "target": "evaluation",
+      "value": 1
+    },
+    {
+      "source": "safety",
+      "target": "sociotechnical systems",
+      "value": 1
+    },
+    {
+      "source": "benchmarks",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "benchmarks",
+      "target": "risk-assessment",
+      "value": 1
+    },
+    {
+      "source": "benchmarks",
+      "target": "sociotechnical systems",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "sociotechnical systems",
+      "value": 1
+    },
+    {
+      "source": "risk-assessment",
+      "target": "sociotechnical systems",
       "value": 1
     }
   ]

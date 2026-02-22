@@ -287,7 +287,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 143. [x] Causal Inference in AI Policy Evaluation [R]
     Applying econometric methods (difference-in-differences, regression discontinuity, synthetic controls) to isolate the effects of specific governance interventions on safety outcomes.
 
-144. [ ] Benchmarking AI Safety: Beyond Capability Evaluations [R]
+144. [x] Benchmarking AI Safety: Beyond Capability Evaluations [R]
     Why current evaluation benchmarks fail to capture safety-relevant behaviors in deployment contexts, and what alternatives exist.
 
 145. [ ] Survey Methods for Public AI Attitudes [R][P]
