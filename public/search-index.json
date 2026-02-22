@@ -1,5 +1,24 @@
 [
   {
+    "id": 145,
+    "title": "Survey Methods for Public AI Attitudes",
+    "excerpt": "A comprehensive review of methodologies for measuring public opinion on artificial intelligence, with insights into their design, limitations, and implications for policy.",
+    "slug": "145-survey-methods-for-public-ai-attitudes",
+    "date": "2026-02-22",
+    "tags": [
+      "public opinion",
+      "survey methods",
+      "ai governance",
+      "policy design",
+      "social research"
+    ],
+    "categories": [
+      "Research",
+      "Policy"
+    ],
+    "body": "Reflexive Research Object 145 Type: Research & Policy Design Framework Introduction Public attitudes toward artificial intelligence (AI) are a critical input into both governance and policy design. Policymakers, researchers, and industry leaders increasingly cite public trust as a central consideration in AI deployment. However, understanding public opinion on AI is fraught with methodological challenges. What people think about AI is not static: it evolves with exposure, media framing, and live"
+  },
+  {
     "id": 144,
     "title": "Benchmarking AI Safety: Beyond Capability Evaluations",
     "excerpt": "Expanding the scope of AI safety benchmarks to include sociotechnical risks, governance considerations, and real-world impact assessments.",

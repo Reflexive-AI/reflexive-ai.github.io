@@ -290,7 +290,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 144. [x] Benchmarking AI Safety: Beyond Capability Evaluations [R]
     Why current evaluation benchmarks fail to capture safety-relevant behaviors in deployment contexts, and what alternatives exist.
 
-145. [ ] Survey Methods for Public AI Attitudes [R][P]
+145. [x] Survey Methods for Public AI Attitudes [R][P]
     Reviewing and improving methodologies for measuring public opinion on AI governance, addressing framing effects, knowledge gaps, and cross-cultural validity.
 
 146. [ ] Audit Trail Analysis: Detecting Governance Failures [R]

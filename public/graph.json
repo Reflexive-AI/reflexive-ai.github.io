@@ -2510,7 +2510,7 @@
       "id": "ai governance",
       "title": "ai governance",
       "group": "concept",
-      "val": 17,
+      "val": 19,
       "articles": [
         {
           "title": "Rate Limiting and Abuse Detection",
@@ -2541,6 +2541,11 @@
           "title": "South-South AI Governance Cooperation",
           "slug": "/research/137-south-south-ai-governance-cooperation",
           "excerpt": "Exploring the opportunities and challenges of collaborative AI governance among countries in the Global South, addressing shared priorities, capacity-building, and regional leadership."
+        },
+        {
+          "title": "Survey Methods for Public AI Attitudes",
+          "slug": "/research/145-survey-methods-for-public-ai-attitudes",
+          "excerpt": "A comprehensive review of methodologies for measuring public opinion on artificial intelligence, with insights into their design, limitations, and implications for policy."
         }
       ]
     },
@@ -5774,6 +5779,58 @@
           "title": "Benchmarking AI Safety: Beyond Capability Evaluations",
           "slug": "/research/144-benchmarking-ai-safety-beyond-capability-evaluatio",
           "excerpt": "Expanding the scope of AI safety benchmarks to include sociotechnical risks, governance considerations, and real-world impact assessments."
+        }
+      ]
+    },
+    {
+      "id": "public opinion",
+      "title": "public opinion",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Survey Methods for Public AI Attitudes",
+          "slug": "/research/145-survey-methods-for-public-ai-attitudes",
+          "excerpt": "A comprehensive review of methodologies for measuring public opinion on artificial intelligence, with insights into their design, limitations, and implications for policy."
+        }
+      ]
+    },
+    {
+      "id": "survey methods",
+      "title": "survey methods",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Survey Methods for Public AI Attitudes",
+          "slug": "/research/145-survey-methods-for-public-ai-attitudes",
+          "excerpt": "A comprehensive review of methodologies for measuring public opinion on artificial intelligence, with insights into their design, limitations, and implications for policy."
+        }
+      ]
+    },
+    {
+      "id": "policy design",
+      "title": "policy design",
+      "group": "governance",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Survey Methods for Public AI Attitudes",
+          "slug": "/research/145-survey-methods-for-public-ai-attitudes",
+          "excerpt": "A comprehensive review of methodologies for measuring public opinion on artificial intelligence, with insights into their design, limitations, and implications for policy."
+        }
+      ]
+    },
+    {
+      "id": "social research",
+      "title": "social research",
+      "group": "technical",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Survey Methods for Public AI Attitudes",
+          "slug": "/research/145-survey-methods-for-public-ai-attitudes",
+          "excerpt": "A comprehensive review of methodologies for measuring public opinion on artificial intelligence, with insights into their design, limitations, and implications for policy."
         }
       ]
     }
@@ -10812,6 +10869,56 @@
     {
       "source": "risk-assessment",
       "target": "sociotechnical systems",
+      "value": 1
+    },
+    {
+      "source": "public opinion",
+      "target": "survey methods",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "public opinion",
+      "value": 1
+    },
+    {
+      "source": "policy design",
+      "target": "public opinion",
+      "value": 1
+    },
+    {
+      "source": "public opinion",
+      "target": "social research",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "survey methods",
+      "value": 1
+    },
+    {
+      "source": "policy design",
+      "target": "survey methods",
+      "value": 1
+    },
+    {
+      "source": "social research",
+      "target": "survey methods",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "policy design",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "social research",
+      "value": 1
+    },
+    {
+      "source": "policy design",
+      "target": "social research",
       "value": 1
     }
   ]
