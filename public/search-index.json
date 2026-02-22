@@ -1,5 +1,23 @@
 [
   {
+    "id": 143,
+    "title": "Causal Inference in AI Policy Evaluation",
+    "excerpt": "Exploring how causal inference methods can improve the evaluation of AI policies, ensuring accountability and effectiveness in governance frameworks.",
+    "slug": "143-causal-inference-in-ai-policy-evaluation",
+    "date": "2026-02-22",
+    "tags": [
+      "causal-inference",
+      "ai-policy",
+      "governance",
+      "evaluation",
+      "accountability"
+    ],
+    "categories": [
+      "Policy Analysis"
+    ],
+    "body": "Introduction The rapid deployment of artificial intelligence (AI) systems has brought forth urgent policy questions. From regulating autonomous systems to addressing biases in machine learning, policymakers are tasked with crafting frameworks that mitigate harm while fostering innovation. However, evaluating the impact of these policies remains a significant challenge. What metrics should be used? How can one attribute observed changes—positive or negative—to specific interventions? This is wher"
+  },
+  {
     "id": 142,
     "title": "Incident Databases: Standardizing AI Harm Reporting",
     "excerpt": "A framework for building standard AI incident databases to improve governance, accountability, and safety in AI systems.",

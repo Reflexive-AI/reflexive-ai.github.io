@@ -284,7 +284,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 142. [x] Incident Databases: Standardizing AI Harm Reporting [R][A]
     A machine-readable schema for AI incident reports enabling cross-jurisdictional analysis, trend detection, and systematic comparison of governance failures.
 
-143. [ ] Causal Inference in AI Policy Evaluation [R]
+143. [x] Causal Inference in AI Policy Evaluation [R]
     Applying econometric methods (difference-in-differences, regression discontinuity, synthetic controls) to isolate the effects of specific governance interventions on safety outcomes.
 
 144. [ ] Benchmarking AI Safety: Beyond Capability Evaluations [R]

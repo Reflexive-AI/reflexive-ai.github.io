@@ -1924,6 +1924,11 @@
           "title": "Incident Databases: Standardizing AI Harm Reporting",
           "slug": "/research/142-incident-databases-standardizing-ai-harm-reporting",
           "excerpt": "A framework for building standard AI incident databases to improve governance, accountability, and safety in AI systems."
+        },
+        {
+          "title": "Causal Inference in AI Policy Evaluation",
+          "slug": "/research/143-causal-inference-in-ai-policy-evaluation",
+          "excerpt": "Exploring how causal inference methods can improve the evaluation of AI policies, ensuring accountability and effectiveness in governance frameworks."
         }
       ]
     },
@@ -2144,7 +2149,7 @@
       "id": "evaluation",
       "title": "Evaluation",
       "group": "concept",
-      "val": 13,
+      "val": 15,
       "articles": [
         {
           "title": "Pre-Deployment Risk Assessment Frameworks",
@@ -2165,6 +2170,11 @@
           "title": "Interpretability as a Governance Tool",
           "slug": "/research/051-interpretability-as-a-governance-tool",
           "excerpt": "How interpretability methods supply evidence for AI oversight: approvals, audits, monitoring, and incident response."
+        },
+        {
+          "title": "Causal Inference in AI Policy Evaluation",
+          "slug": "/research/143-causal-inference-in-ai-policy-evaluation",
+          "excerpt": "Exploring how causal inference methods can improve the evaluation of AI policies, ensuring accountability and effectiveness in governance frameworks."
         }
       ]
     },
@@ -2600,7 +2610,7 @@
       "id": "accountability",
       "title": "accountability",
       "group": "concept",
-      "val": 25,
+      "val": 27,
       "articles": [
         {
           "title": "Monitoring Deployed Models",
@@ -2651,6 +2661,11 @@
           "title": "Incident Databases: Standardizing AI Harm Reporting",
           "slug": "/research/142-incident-databases-standardizing-ai-harm-reporting",
           "excerpt": "A framework for building standard AI incident databases to improve governance, accountability, and safety in AI systems."
+        },
+        {
+          "title": "Causal Inference in AI Policy Evaluation",
+          "slug": "/research/143-causal-inference-in-ai-policy-evaluation",
+          "excerpt": "Exploring how causal inference methods can improve the evaluation of AI policies, ensuring accountability and effectiveness in governance frameworks."
         }
       ]
     },
@@ -5255,7 +5270,7 @@
       "id": "ai-policy",
       "title": "ai-policy",
       "group": "governance",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "Creative Industries and AI: Economic Impact",
@@ -5266,6 +5281,11 @@
           "title": "Indigenous Data Sovereignty and AI",
           "slug": "/research/140-indigenous-data-sovereignty-and-ai",
           "excerpt": "Exploring the intersection of Indigenous data sovereignty principles and the development of ethical, equitable AI governance frameworks."
+        },
+        {
+          "title": "Causal Inference in AI Policy Evaluation",
+          "slug": "/research/143-causal-inference-in-ai-policy-evaluation",
+          "excerpt": "Exploring how causal inference methods can improve the evaluation of AI policies, ensuring accountability and effectiveness in governance frameworks."
         }
       ]
     },
@@ -5708,6 +5728,19 @@
           "title": "Incident Databases: Standardizing AI Harm Reporting",
           "slug": "/research/142-incident-databases-standardizing-ai-harm-reporting",
           "excerpt": "A framework for building standard AI incident databases to improve governance, accountability, and safety in AI systems."
+        }
+      ]
+    },
+    {
+      "id": "causal-inference",
+      "title": "causal-inference",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Causal Inference in AI Policy Evaluation",
+          "slug": "/research/143-causal-inference-in-ai-policy-evaluation",
+          "excerpt": "Exploring how causal inference methods can improve the evaluation of AI policies, ensuring accountability and effectiveness in governance frameworks."
         }
       ]
     }
@@ -6976,7 +7009,7 @@
     {
       "source": "evaluation",
       "target": "governance",
-      "value": 1
+      "value": 2
     },
     {
       "source": "content authentication",
@@ -10616,7 +10649,7 @@
     {
       "source": "ai-policy",
       "target": "governance",
-      "value": 1
+      "value": 2
     },
     {
       "source": "ai-policy",
@@ -10681,6 +10714,41 @@
     {
       "source": "governance",
       "target": "standardization",
+      "value": 1
+    },
+    {
+      "source": "ai-policy",
+      "target": "causal-inference",
+      "value": 1
+    },
+    {
+      "source": "causal-inference",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "causal-inference",
+      "target": "evaluation",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "causal-inference",
+      "value": 1
+    },
+    {
+      "source": "ai-policy",
+      "target": "evaluation",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "ai-policy",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "evaluation",
       "value": 1
     }
   ]
