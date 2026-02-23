@@ -1,5 +1,23 @@
 [
   {
+    "id": 148,
+    "title": "Economic Impact Assessment for AI Regulation",
+    "excerpt": "Analyzing the costs and benefits of regulating artificial intelligence across industries, with a focus on balancing innovation and societal safety.",
+    "slug": "148-economic-impact-assessment-for-ai-regulation",
+    "date": "2026-02-23",
+    "tags": [
+      "ai-regulation",
+      "economic-impact",
+      "governance",
+      "cost-benefit-analysis"
+    ],
+    "categories": [
+      "Economic Analysis",
+      "Policy Evaluation"
+    ],
+    "body": "Introduction Artificial intelligence (AI) represents both an economic boon and a source of profound risks. As policymakers debate regulation frameworks, the economic implications—both costs and benefits—must be thoroughly assessed. Regulation can mitigate harm, such as job displacement, algorithmic bias, and safety failures, but it also imposes constraints that may hinder innovation and productivity gains. This article explores the economic impact of AI regulation across sectors, examining how s"
+  },
+  {
     "id": 147,
     "title": "Reproducibility in AI Safety Research",
     "excerpt": "Exploring the role of reproducibility in advancing AI safety, ensuring reliable findings, and fostering collaboration across the research community.",

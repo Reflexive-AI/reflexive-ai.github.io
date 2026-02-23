@@ -299,7 +299,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 147. [x] Reproducibility in AI Safety Research [R]
     How reproducibility deficits in AI safety research undermine evidence-based governance, and what standards (pre-registration, shared benchmarks, open data) would help.
 
-148. [ ] Economic Impact Assessment for AI Regulation [R][P]
+148. [x] Economic Impact Assessment for AI Regulation [R][P]
     Methodologies for estimating the costs and benefits of proposed AI regulations before implementation, adapted from environmental and financial regulatory impact analysis.
 
 149. [ ] Longitudinal Studies of AI Deployment Effects [R]

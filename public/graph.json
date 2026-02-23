@@ -1954,6 +1954,11 @@
           "title": "Reproducibility in AI Safety Research",
           "slug": "/research/147-reproducibility-in-ai-safety-research",
           "excerpt": "Exploring the role of reproducibility in advancing AI safety, ensuring reliable findings, and fostering collaboration across the research community."
+        },
+        {
+          "title": "Economic Impact Assessment for AI Regulation",
+          "slug": "/research/148-economic-impact-assessment-for-ai-regulation",
+          "excerpt": "Analyzing the costs and benefits of regulating artificial intelligence across industries, with a focus on balancing innovation and societal safety."
         }
       ]
     },
@@ -5206,7 +5211,7 @@
       "id": "economic-impact",
       "title": "economic-impact",
       "group": "concept",
-      "val": 11,
+      "val": 13,
       "articles": [
         {
           "title": "AI Productivity Gains: Who Benefits?",
@@ -5222,6 +5227,11 @@
           "title": "Transition Funds: Financing the Adjustment",
           "slug": "/research/130-transition-funds-financing-the-adjustment",
           "excerpt": "A policy framework for funding societal transitions triggered by advanced AI deployment, focusing on workforce adaptation, safety investments, and long-term governance goals."
+        },
+        {
+          "title": "Economic Impact Assessment for AI Regulation",
+          "slug": "/research/148-economic-impact-assessment-for-ai-regulation",
+          "excerpt": "Analyzing the costs and benefits of regulating artificial intelligence across industries, with a focus on balancing innovation and societal safety."
         }
       ]
     },
@@ -5421,12 +5431,17 @@
       "id": "ai-regulation",
       "title": "ai-regulation",
       "group": "governance",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "India's AI Governance Approach: A Case Study",
           "slug": "/research/132-indias-ai-governance-approach-a-case-study",
           "excerpt": "Examining India's unique approach to AI governance, its regulatory frameworks, and the balancing act between innovation and risk mitigation."
+        },
+        {
+          "title": "Economic Impact Assessment for AI Regulation",
+          "slug": "/research/148-economic-impact-assessment-for-ai-regulation",
+          "excerpt": "Analyzing the costs and benefits of regulating artificial intelligence across industries, with a focus on balancing innovation and societal safety."
         }
       ]
     },
@@ -5895,6 +5910,19 @@
           "title": "Reproducibility in AI Safety Research",
           "slug": "/research/147-reproducibility-in-ai-safety-research",
           "excerpt": "Exploring the role of reproducibility in advancing AI safety, ensuring reliable findings, and fostering collaboration across the research community."
+        }
+      ]
+    },
+    {
+      "id": "cost-benefit-analysis",
+      "title": "cost-benefit-analysis",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Economic Impact Assessment for AI Regulation",
+          "slug": "/research/148-economic-impact-assessment-for-ai-regulation",
+          "excerpt": "Analyzing the costs and benefits of regulating artificial intelligence across industries, with a focus on balancing innovation and societal safety."
         }
       ]
     }
@@ -10228,7 +10256,7 @@
     {
       "source": "economic-impact",
       "target": "governance",
-      "value": 1
+      "value": 2
     },
     {
       "source": "economic-impact",
@@ -10458,7 +10486,7 @@
     {
       "source": "ai-regulation",
       "target": "governance",
-      "value": 1
+      "value": 2
     },
     {
       "source": "india",
@@ -11038,6 +11066,26 @@
     {
       "source": "governance",
       "target": "reproducibility",
+      "value": 1
+    },
+    {
+      "source": "ai-regulation",
+      "target": "economic-impact",
+      "value": 1
+    },
+    {
+      "source": "ai-regulation",
+      "target": "cost-benefit-analysis",
+      "value": 1
+    },
+    {
+      "source": "cost-benefit-analysis",
+      "target": "economic-impact",
+      "value": 1
+    },
+    {
+      "source": "cost-benefit-analysis",
+      "target": "governance",
       "value": 1
     }
   ]
