@@ -296,7 +296,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 146. [x] Audit Trail Analysis: Detecting Governance Failures [R]
     Forensic methods for analyzing system logs and governance constraint records to identify failures, near-misses, and systematic compliance gaps after incidents.
 
-147. [ ] Reproducibility in AI Safety Research [R]
+147. [x] Reproducibility in AI Safety Research [R]
     How reproducibility deficits in AI safety research undermine evidence-based governance, and what standards (pre-registration, shared benchmarks, open data) would help.
 
 148. [ ] Economic Impact Assessment for AI Regulation [R][P]

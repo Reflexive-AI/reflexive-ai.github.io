@@ -1949,6 +1949,11 @@
           "title": "Benchmarking AI Safety: Beyond Capability Evaluations",
           "slug": "/research/144-benchmarking-ai-safety-beyond-capability-evaluatio",
           "excerpt": "Expanding the scope of AI safety benchmarks to include sociotechnical risks, governance considerations, and real-world impact assessments."
+        },
+        {
+          "title": "Reproducibility in AI Safety Research",
+          "slug": "/research/147-reproducibility-in-ai-safety-research",
+          "excerpt": "Exploring the role of reproducibility in advancing AI safety, ensuring reliable findings, and fostering collaboration across the research community."
         }
       ]
     },
@@ -2612,7 +2617,7 @@
       "id": "ai-safety",
       "title": "ai-safety",
       "group": "concept",
-      "val": 13,
+      "val": 15,
       "articles": [
         {
           "title": "Monitoring Deployed Models",
@@ -2633,6 +2638,11 @@
           "title": "Funding Models for AI Safety Research",
           "slug": "/research/097-funding-models-ai-safety",
           "excerpt": "AI safety research is chronically underfunded relative to capability work. This article examines current funding sources, compares alternative models from prizes to compute taxes, and proposes concrete mechanisms to close the gap."
+        },
+        {
+          "title": "Reproducibility in AI Safety Research",
+          "slug": "/research/147-reproducibility-in-ai-safety-research",
+          "excerpt": "Exploring the role of reproducibility in advancing AI safety, ensuring reliable findings, and fostering collaboration across the research community."
         }
       ]
     },
@@ -5874,6 +5884,19 @@
           "excerpt": "Exploring how audit trails can be used to identify and address governance failures in AI systems, with a focus on transparency, accountability, and systemic oversight."
         }
       ]
+    },
+    {
+      "id": "reproducibility",
+      "title": "reproducibility",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Reproducibility in AI Safety Research",
+          "slug": "/research/147-reproducibility-in-ai-safety-research",
+          "excerpt": "Exploring the role of reproducibility in advancing AI safety, ensuring reliable findings, and fostering collaboration across the research community."
+        }
+      ]
     }
   ],
   "links": [
@@ -7315,7 +7338,7 @@
     {
       "source": "ai-safety",
       "target": "governance",
-      "value": 2
+      "value": 3
     },
     {
       "source": "accountability",
@@ -11005,6 +11028,16 @@
     {
       "source": "ai safety",
       "target": "transparency",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "reproducibility",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "reproducibility",
       "value": 1
     }
   ]
