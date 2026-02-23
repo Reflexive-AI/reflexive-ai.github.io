@@ -293,7 +293,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 145. [x] Survey Methods for Public AI Attitudes [R][P]
     Reviewing and improving methodologies for measuring public opinion on AI governance, addressing framing effects, knowledge gaps, and cross-cultural validity.
 
-146. [ ] Audit Trail Analysis: Detecting Governance Failures [R]
+146. [x] Audit Trail Analysis: Detecting Governance Failures [R]
     Forensic methods for analyzing system logs and governance constraint records to identify failures, near-misses, and systematic compliance gaps after incidents.
 
 147. [ ] Reproducibility in AI Safety Research [R]

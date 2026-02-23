@@ -322,6 +322,11 @@
           "title": "The Reflexive AI Initiative: Mission and Methods",
           "slug": "/research/099-reflexive-ai-mission-methods",
           "excerpt": "What the Reflexive AI Initiative is, why it exists, and how it works. A self-portrait of a research project that applies its own governance thesis to itself."
+        },
+        {
+          "title": "Audit Trail Analysis: Detecting Governance Failures",
+          "slug": "/research/146-audit-trail-analysis-detecting-governance-failures",
+          "excerpt": "Exploring how audit trails can be used to identify and address governance failures in AI systems, with a focus on transparency, accountability, and systemic oversight."
         }
       ]
     },
@@ -2635,7 +2640,7 @@
       "id": "accountability",
       "title": "accountability",
       "group": "concept",
-      "val": 27,
+      "val": 29,
       "articles": [
         {
           "title": "Monitoring Deployed Models",
@@ -2691,6 +2696,11 @@
           "title": "Causal Inference in AI Policy Evaluation",
           "slug": "/research/143-causal-inference-in-ai-policy-evaluation",
           "excerpt": "Exploring how causal inference methods can improve the evaluation of AI policies, ensuring accountability and effectiveness in governance frameworks."
+        },
+        {
+          "title": "Audit Trail Analysis: Detecting Governance Failures",
+          "slug": "/research/146-audit-trail-analysis-detecting-governance-failures",
+          "excerpt": "Exploring how audit trails can be used to identify and address governance failures in AI systems, with a focus on transparency, accountability, and systemic oversight."
         }
       ]
     },
@@ -2768,7 +2778,7 @@
       "id": "ai safety",
       "title": "AI safety",
       "group": "concept",
-      "val": 19,
+      "val": 21,
       "articles": [
         {
           "title": "Differential Privacy in AI Systems",
@@ -2804,6 +2814,11 @@
           "title": "Post-Proliferation Open-Weight Governance",
           "slug": "/research/105-post-proliferation-open-weight-governance",
           "excerpt": "Examining regulatory frameworks for governing openly accessible AI model weights in an era of widespread proliferation."
+        },
+        {
+          "title": "Audit Trail Analysis: Detecting Governance Failures",
+          "slug": "/research/146-audit-trail-analysis-detecting-governance-failures",
+          "excerpt": "Exploring how audit trails can be used to identify and address governance failures in AI systems, with a focus on transparency, accountability, and systemic oversight."
         }
       ]
     },
@@ -5833,6 +5848,32 @@
           "excerpt": "A comprehensive review of methodologies for measuring public opinion on artificial intelligence, with insights into their design, limitations, and implications for policy."
         }
       ]
+    },
+    {
+      "id": "audit trails",
+      "title": "audit trails",
+      "group": "governance",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Audit Trail Analysis: Detecting Governance Failures",
+          "slug": "/research/146-audit-trail-analysis-detecting-governance-failures",
+          "excerpt": "Exploring how audit trails can be used to identify and address governance failures in AI systems, with a focus on transparency, accountability, and systemic oversight."
+        }
+      ]
+    },
+    {
+      "id": "governance failures",
+      "title": "governance failures",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Audit Trail Analysis: Detecting Governance Failures",
+          "slug": "/research/146-audit-trail-analysis-detecting-governance-failures",
+          "excerpt": "Exploring how audit trails can be used to identify and address governance failures in AI systems, with a focus on transparency, accountability, and systemic oversight."
+        }
+      ]
     }
   ],
   "links": [
@@ -8549,7 +8590,7 @@
     {
       "source": "accountability",
       "target": "ai safety",
-      "value": 1
+      "value": 2
     },
     {
       "source": "personalization",
@@ -10919,6 +10960,51 @@
     {
       "source": "policy design",
       "target": "social research",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "audit trails",
+      "value": 1
+    },
+    {
+      "source": "audit trails",
+      "target": "governance failures",
+      "value": 1
+    },
+    {
+      "source": "audit trails",
+      "target": "transparency",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "audit trails",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "governance failures",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "transparency",
+      "value": 1
+    },
+    {
+      "source": "governance failures",
+      "target": "transparency",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "governance failures",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "transparency",
       "value": 1
     }
   ]

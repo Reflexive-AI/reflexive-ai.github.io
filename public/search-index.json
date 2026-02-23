@@ -1,5 +1,23 @@
 [
   {
+    "id": 146,
+    "title": "Audit Trail Analysis: Detecting Governance Failures",
+    "excerpt": "Exploring how audit trails can be used to identify and address governance failures in AI systems, with a focus on transparency, accountability, and systemic oversight.",
+    "slug": "146-audit-trail-analysis-detecting-governance-failures",
+    "date": "2026-02-23",
+    "tags": [
+      "audit trails",
+      "accountability",
+      "governance failures",
+      "transparency",
+      "ai safety"
+    ],
+    "categories": [
+      "Governance Analysis"
+    ],
+    "body": "Introduction As artificial intelligence (AI) systems grow more complex and influential, the mechanisms for overseeing their development and deployment must evolve. Governance failures, ranging from opaque decision-making to misuse of AI, can have catastrophic consequences, particularly in systems deployed at scale. Audit trails, which provide a detailed log of system operations and decisions, represent a key tool in identifying and mitigating such failures. By analyzing these records, stakeholde"
+  },
+  {
     "id": 145,
     "title": "Survey Methods for Public AI Attitudes",
     "excerpt": "A comprehensive review of methodologies for measuring public opinion on artificial intelligence, with insights into their design, limitations, and implications for policy.",
