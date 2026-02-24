@@ -1,5 +1,23 @@
 [
   {
+    "id": 151,
+    "title": "AI in Elections: Threat Taxonomy",
+    "excerpt": "Identifying and categorizing risks posed by artificial intelligence to electoral processes, including manipulation, security vulnerabilities, and governance concerns.",
+    "slug": "151-ai-in-elections-threat-taxonomy",
+    "date": "2026-02-24",
+    "tags": [
+      "AI risks",
+      "democracy",
+      "election interference",
+      "governance"
+    ],
+    "categories": [
+      "Governance Analysis",
+      "Election Security"
+    ],
+    "body": "Introduction The integrity of elections is foundational to democracy. Advances in artificial intelligence (AI) have introduced both opportunities and risks to electoral systems worldwide. While AI can enhance voter engagement, improve administrative efficiency, and facilitate transparency, its misuse threatens democratic processes. From disinformation campaigns to algorithmic biases in voter outreach, the scope of AI's impact on elections requires a systematic understanding to enable effective g"
+  },
+  {
     "id": 150,
     "title": "The Evidence Gap in AI Governance: A Systematic Review",
     "excerpt": "This article examines the persistent evidence gap in AI governance, exploring its causes, implications, and strategies to address it through a systematic review of existing literature and case studies.",

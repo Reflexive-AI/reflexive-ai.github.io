@@ -1969,6 +1969,11 @@
           "title": "The Evidence Gap in AI Governance: A Systematic Review",
           "slug": "/research/150-the-evidence-gap-in-ai-governance-a-systematic-rev",
           "excerpt": "This article examines the persistent evidence gap in AI governance, exploring its causes, implications, and strategies to address it through a systematic review of existing literature and case studies."
+        },
+        {
+          "title": "AI in Elections: Threat Taxonomy",
+          "slug": "/research/151-ai-in-elections-threat-taxonomy",
+          "excerpt": "Identifying and categorizing risks posed by artificial intelligence to electoral processes, including manipulation, security vulnerabilities, and governance concerns."
         }
       ]
     },
@@ -3290,12 +3295,17 @@
       "id": "democracy",
       "title": "democracy",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Who Decides What AI Should Refuse? The Democratic Deficit in Constraint Design",
           "slug": "/research/070-democratic-deficit-constraints",
           "excerpt": "AI refusals encode value judgments. Currently, small teams at AI labs make these decisions. Is this legitimate? Exploring the democratic deficit in AI constraint design and possible alternatives."
+        },
+        {
+          "title": "AI in Elections: Threat Taxonomy",
+          "slug": "/research/151-ai-in-elections-threat-taxonomy",
+          "excerpt": "Identifying and categorizing risks posed by artificial intelligence to electoral processes, including manipulation, security vulnerabilities, and governance concerns."
         }
       ]
     },
@@ -4796,12 +4806,17 @@
       "id": "ai risks",
       "title": "AI risks",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "The Biosecurity Dilemma of Open-Weight Agents",
           "slug": "/research/108-the-biosecurity-dilemma-of-open-weight-agents",
           "excerpt": "Exploring the biosecurity risks posed by open-weight AI systems, and the challenges of governance in balancing innovation and safety."
+        },
+        {
+          "title": "AI in Elections: Threat Taxonomy",
+          "slug": "/research/151-ai-in-elections-threat-taxonomy",
+          "excerpt": "Identifying and categorizing risks posed by artificial intelligence to electoral processes, including manipulation, security vulnerabilities, and governance concerns."
         }
       ]
     },
@@ -6008,6 +6023,19 @@
           "title": "The Evidence Gap in AI Governance: A Systematic Review",
           "slug": "/research/150-the-evidence-gap-in-ai-governance-a-systematic-rev",
           "excerpt": "This article examines the persistent evidence gap in AI governance, exploring its causes, implications, and strategies to address it through a systematic review of existing literature and case studies."
+        }
+      ]
+    },
+    {
+      "id": "election interference",
+      "title": "election interference",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI in Elections: Threat Taxonomy",
+          "slug": "/research/151-ai-in-elections-threat-taxonomy",
+          "excerpt": "Identifying and categorizing risks posed by artificial intelligence to electoral processes, including manipulation, security vulnerabilities, and governance concerns."
         }
       ]
     }
@@ -9761,7 +9789,7 @@
     {
       "source": "ai risks",
       "target": "governance",
-      "value": 1
+      "value": 2
     },
     {
       "source": "ai risks",
@@ -11241,6 +11269,31 @@
     {
       "source": "governance",
       "target": "systematic-review",
+      "value": 1
+    },
+    {
+      "source": "ai risks",
+      "target": "democracy",
+      "value": 1
+    },
+    {
+      "source": "ai risks",
+      "target": "election interference",
+      "value": 1
+    },
+    {
+      "source": "democracy",
+      "target": "election interference",
+      "value": 1
+    },
+    {
+      "source": "democracy",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "election interference",
+      "target": "governance",
       "value": 1
     }
   ]

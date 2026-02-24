@@ -312,7 +312,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 
 *AI's intersection with democratic processes, from deepfakes to automated lobbying.*
 
-151. [ ] AI in Elections: Threat Taxonomy [R][P]
+151. [x] AI in Elections: Threat Taxonomy [R][P]
     Categorizing the mechanisms by which AI systems can undermine electoral integrity, from synthetic media to micro-targeting to automated voter suppression.
 
 152. [ ] Deepfakes and Electoral Law [P]
