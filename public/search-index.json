@@ -1,5 +1,22 @@
 [
   {
+    "id": 149,
+    "title": "Longitudinal Studies of AI Deployment Effects",
+    "excerpt": "Examining the long-term impacts of AI deployment across social, economic, and governance dimensions to inform evidence-based policy and regulation.",
+    "slug": "149-longitudinal-studies-of-ai-deployment-effects",
+    "date": "2026-02-24",
+    "tags": [
+      "longitudinal studies",
+      "ai-governance",
+      "societal impact",
+      "ai-deployment"
+    ],
+    "categories": [
+      "Research"
+    ],
+    "body": "Introduction Artificial Intelligence (AI) systems are being deployed at an accelerating rate across diverse sectors, from healthcare and education to logistics and creative industries. While short-term impacts have been widely studied, understanding the long-term effects of AI deployment remains a critical and underexplored area. Longitudinal studies—research conducted over extended periods to observe effects and trends—are essential for capturing the full scope of AI's societal, economic, and g"
+  },
+  {
     "id": 148,
     "title": "Economic Impact Assessment for AI Regulation",
     "excerpt": "Analyzing the costs and benefits of regulating artificial intelligence across industries, with a focus on balancing innovation and societal safety.",

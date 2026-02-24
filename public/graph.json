@@ -2492,6 +2492,11 @@
           "title": "Localization Requirements for AI Systems",
           "slug": "/research/139-localization-requirements-for-ai-systems",
           "excerpt": "Examining the role of localization in AI governance, balancing national sovereignty with global interoperability."
+        },
+        {
+          "title": "Longitudinal Studies of AI Deployment Effects",
+          "slug": "/research/149-longitudinal-studies-of-ai-deployment-effects",
+          "excerpt": "Examining the long-term impacts of AI deployment across social, economic, and governance dimensions to inform evidence-based policy and regulation."
         }
       ]
     },
@@ -5923,6 +5928,45 @@
           "title": "Economic Impact Assessment for AI Regulation",
           "slug": "/research/148-economic-impact-assessment-for-ai-regulation",
           "excerpt": "Analyzing the costs and benefits of regulating artificial intelligence across industries, with a focus on balancing innovation and societal safety."
+        }
+      ]
+    },
+    {
+      "id": "longitudinal studies",
+      "title": "longitudinal studies",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Longitudinal Studies of AI Deployment Effects",
+          "slug": "/research/149-longitudinal-studies-of-ai-deployment-effects",
+          "excerpt": "Examining the long-term impacts of AI deployment across social, economic, and governance dimensions to inform evidence-based policy and regulation."
+        }
+      ]
+    },
+    {
+      "id": "societal impact",
+      "title": "societal impact",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Longitudinal Studies of AI Deployment Effects",
+          "slug": "/research/149-longitudinal-studies-of-ai-deployment-effects",
+          "excerpt": "Examining the long-term impacts of AI deployment across social, economic, and governance dimensions to inform evidence-based policy and regulation."
+        }
+      ]
+    },
+    {
+      "id": "ai-deployment",
+      "title": "ai-deployment",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Longitudinal Studies of AI Deployment Effects",
+          "slug": "/research/149-longitudinal-studies-of-ai-deployment-effects",
+          "excerpt": "Examining the long-term impacts of AI deployment across social, economic, and governance dimensions to inform evidence-based policy and regulation."
         }
       ]
     }
@@ -11086,6 +11130,36 @@
     {
       "source": "cost-benefit-analysis",
       "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "longitudinal studies",
+      "value": 1
+    },
+    {
+      "source": "longitudinal studies",
+      "target": "societal impact",
+      "value": 1
+    },
+    {
+      "source": "ai-deployment",
+      "target": "longitudinal studies",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "societal impact",
+      "value": 1
+    },
+    {
+      "source": "ai-deployment",
+      "target": "ai-governance",
+      "value": 1
+    },
+    {
+      "source": "ai-deployment",
+      "target": "societal impact",
       "value": 1
     }
   ]

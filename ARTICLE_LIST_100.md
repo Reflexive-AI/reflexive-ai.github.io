@@ -302,7 +302,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 148. [x] Economic Impact Assessment for AI Regulation [R][P]
     Methodologies for estimating the costs and benefits of proposed AI regulations before implementation, adapted from environmental and financial regulatory impact analysis.
 
-149. [ ] Longitudinal Studies of AI Deployment Effects [R]
+149. [x] Longitudinal Studies of AI Deployment Effects [R]
     Why cross-sectional studies of AI impact are insufficient for governance, and how to design longitudinal studies that track deployment effects over years.
 
 150. [ ] The Evidence Gap in AI Governance: A Systematic Review [R][P]
