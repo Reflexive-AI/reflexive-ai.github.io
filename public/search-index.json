@@ -1,5 +1,23 @@
 [
   {
+    "id": 152,
+    "title": "Deepfakes and Electoral Law",
+    "excerpt": "Examining the intersection of deepfake technology, electoral integrity, and the challenges of regulating synthetic media in democratic processes.",
+    "slug": "152-deepfakes-and-electoral-law",
+    "date": "2026-02-24",
+    "tags": [
+      "deepfakes",
+      "elections",
+      "regulation",
+      "synthetic media",
+      "electoral law"
+    ],
+    "categories": [
+      "AI Policy"
+    ],
+    "body": "Introduction Advancements in artificial intelligence have enabled the rapid development of synthetic media, with deepfakes emerging as one of the most controversial applications. Deepfakes—hyper-realistic, AI-generated videos or audio that mimic real individuals—pose unique challenges to democratic processes and institutions. Nowhere is this more evident than in their potential impact on elections. As democracies worldwide grapple with threats to electoral integrity, the intersection of deepfake"
+  },
+  {
     "id": 151,
     "title": "AI in Elections: Threat Taxonomy",
     "excerpt": "Identifying and categorizing risks posed by artificial intelligence to electoral processes, including manipulation, security vulnerabilities, and governance concerns.",

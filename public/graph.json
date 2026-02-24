@@ -203,6 +203,11 @@
           "title": "The Evidence Gap in AI Governance: A Systematic Review",
           "slug": "/research/150-the-evidence-gap-in-ai-governance-a-systematic-rev",
           "excerpt": "This article examines the persistent evidence gap in AI governance, exploring its causes, implications, and strategies to address it through a systematic review of existing literature and case studies."
+        },
+        {
+          "title": "Deepfakes and Electoral Law",
+          "slug": "/research/152-deepfakes-and-electoral-law",
+          "excerpt": "Examining the intersection of deepfake technology, electoral integrity, and the challenges of regulating synthetic media in democratic processes."
         }
       ]
     },
@@ -6038,6 +6043,58 @@
           "excerpt": "Identifying and categorizing risks posed by artificial intelligence to electoral processes, including manipulation, security vulnerabilities, and governance concerns."
         }
       ]
+    },
+    {
+      "id": "deepfakes",
+      "title": "deepfakes",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Deepfakes and Electoral Law",
+          "slug": "/research/152-deepfakes-and-electoral-law",
+          "excerpt": "Examining the intersection of deepfake technology, electoral integrity, and the challenges of regulating synthetic media in democratic processes."
+        }
+      ]
+    },
+    {
+      "id": "elections",
+      "title": "elections",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Deepfakes and Electoral Law",
+          "slug": "/research/152-deepfakes-and-electoral-law",
+          "excerpt": "Examining the intersection of deepfake technology, electoral integrity, and the challenges of regulating synthetic media in democratic processes."
+        }
+      ]
+    },
+    {
+      "id": "synthetic media",
+      "title": "synthetic media",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Deepfakes and Electoral Law",
+          "slug": "/research/152-deepfakes-and-electoral-law",
+          "excerpt": "Examining the intersection of deepfake technology, electoral integrity, and the challenges of regulating synthetic media in democratic processes."
+        }
+      ]
+    },
+    {
+      "id": "electoral law",
+      "title": "electoral law",
+      "group": "governance",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Deepfakes and Electoral Law",
+          "slug": "/research/152-deepfakes-and-electoral-law",
+          "excerpt": "Examining the intersection of deepfake technology, electoral integrity, and the challenges of regulating synthetic media in democratic processes."
+        }
+      ]
     }
   ],
   "links": [
@@ -11294,6 +11351,56 @@
     {
       "source": "election interference",
       "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "deepfakes",
+      "target": "elections",
+      "value": 1
+    },
+    {
+      "source": "deepfakes",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "deepfakes",
+      "target": "synthetic media",
+      "value": 1
+    },
+    {
+      "source": "deepfakes",
+      "target": "electoral law",
+      "value": 1
+    },
+    {
+      "source": "elections",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "elections",
+      "target": "synthetic media",
+      "value": 1
+    },
+    {
+      "source": "elections",
+      "target": "electoral law",
+      "value": 1
+    },
+    {
+      "source": "regulation",
+      "target": "synthetic media",
+      "value": 1
+    },
+    {
+      "source": "electoral law",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "electoral law",
+      "target": "synthetic media",
       "value": 1
     }
   ]

@@ -315,7 +315,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 151. [x] AI in Elections: Threat Taxonomy [R][P]
     Categorizing the mechanisms by which AI systems can undermine electoral integrity, from synthetic media to micro-targeting to automated voter suppression.
 
-152. [ ] Deepfakes and Electoral Law [P]
+152. [x] Deepfakes and Electoral Law [P]
     How existing election law handles synthetic media and where legal gaps remain, with comparative analysis across the US, EU, India, and Brazil.
 
 153. [ ] AI-Powered Political Micro-Targeting: Governance Options [R][P]
