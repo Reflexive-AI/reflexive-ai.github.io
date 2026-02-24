@@ -198,6 +198,11 @@
           "title": "Memory and State in Agentic Systems: Governance Implications",
           "slug": "/research/119-memory-and-state-in-agentic-systems-governance-imp",
           "excerpt": "Examining how stateful memory in agentic AI systems reshapes governance challenges, particularly regarding accountability, safety, and regulation."
+        },
+        {
+          "title": "The Evidence Gap in AI Governance: A Systematic Review",
+          "slug": "/research/150-the-evidence-gap-in-ai-governance-a-systematic-rev",
+          "excerpt": "This article examines the persistent evidence gap in AI governance, exploring its causes, implications, and strategies to address it through a systematic review of existing literature and case studies."
         }
       ]
     },
@@ -1959,6 +1964,11 @@
           "title": "Economic Impact Assessment for AI Regulation",
           "slug": "/research/148-economic-impact-assessment-for-ai-regulation",
           "excerpt": "Analyzing the costs and benefits of regulating artificial intelligence across industries, with a focus on balancing innovation and societal safety."
+        },
+        {
+          "title": "The Evidence Gap in AI Governance: A Systematic Review",
+          "slug": "/research/150-the-evidence-gap-in-ai-governance-a-systematic-rev",
+          "excerpt": "This article examines the persistent evidence gap in AI governance, exploring its causes, implications, and strategies to address it through a systematic review of existing literature and case studies."
         }
       ]
     },
@@ -5335,7 +5345,7 @@
       "id": "ai-policy",
       "title": "ai-policy",
       "group": "governance",
-      "val": 11,
+      "val": 13,
       "articles": [
         {
           "title": "Creative Industries and AI: Economic Impact",
@@ -5351,6 +5361,11 @@
           "title": "Causal Inference in AI Policy Evaluation",
           "slug": "/research/143-causal-inference-in-ai-policy-evaluation",
           "excerpt": "Exploring how causal inference methods can improve the evaluation of AI policies, ensuring accountability and effectiveness in governance frameworks."
+        },
+        {
+          "title": "The Evidence Gap in AI Governance: A Systematic Review",
+          "slug": "/research/150-the-evidence-gap-in-ai-governance-a-systematic-rev",
+          "excerpt": "This article examines the persistent evidence gap in AI governance, exploring its causes, implications, and strategies to address it through a systematic review of existing literature and case studies."
         }
       ]
     },
@@ -5967,6 +5982,32 @@
           "title": "Longitudinal Studies of AI Deployment Effects",
           "slug": "/research/149-longitudinal-studies-of-ai-deployment-effects",
           "excerpt": "Examining the long-term impacts of AI deployment across social, economic, and governance dimensions to inform evidence-based policy and regulation."
+        }
+      ]
+    },
+    {
+      "id": "evidence-gap",
+      "title": "evidence-gap",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Evidence Gap in AI Governance: A Systematic Review",
+          "slug": "/research/150-the-evidence-gap-in-ai-governance-a-systematic-rev",
+          "excerpt": "This article examines the persistent evidence gap in AI governance, exploring its causes, implications, and strategies to address it through a systematic review of existing literature and case studies."
+        }
+      ]
+    },
+    {
+      "id": "systematic-review",
+      "title": "systematic-review",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Evidence Gap in AI Governance: A Systematic Review",
+          "slug": "/research/150-the-evidence-gap-in-ai-governance-a-systematic-rev",
+          "excerpt": "This article examines the persistent evidence gap in AI governance, exploring its causes, implications, and strategies to address it through a systematic review of existing literature and case studies."
         }
       ]
     }
@@ -10875,7 +10916,7 @@
     {
       "source": "ai-policy",
       "target": "governance",
-      "value": 2
+      "value": 3
     },
     {
       "source": "ai-policy",
@@ -11160,6 +11201,46 @@
     {
       "source": "ai-deployment",
       "target": "societal impact",
+      "value": 1
+    },
+    {
+      "source": "ai-policy",
+      "target": "evidence-gap",
+      "value": 1
+    },
+    {
+      "source": "evidence-gap",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "evidence-gap",
+      "target": "systematic-review",
+      "value": 1
+    },
+    {
+      "source": "evidence-gap",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "ai-policy",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "ai-policy",
+      "target": "systematic-review",
+      "value": 1
+    },
+    {
+      "source": "regulation",
+      "target": "systematic-review",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "systematic-review",
       "value": 1
     }
   ]

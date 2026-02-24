@@ -305,7 +305,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 149. [x] Longitudinal Studies of AI Deployment Effects [R]
     Why cross-sectional studies of AI impact are insufficient for governance, and how to design longitudinal studies that track deployment effects over years.
 
-150. [ ] The Evidence Gap in AI Governance: A Systematic Review [R][P]
+150. [x] The Evidence Gap in AI Governance: A Systematic Review [R][P]
     Cataloging which governance claims in the field are supported by empirical evidence and which remain theoretical, speculative, or assumption-dependent.
 
 ### Cluster F: Elections, Democracy, and Information Integrity (151-160)

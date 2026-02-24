@@ -1,5 +1,23 @@
 [
   {
+    "id": 150,
+    "title": "The Evidence Gap in AI Governance: A Systematic Review",
+    "excerpt": "This article examines the persistent evidence gap in AI governance, exploring its causes, implications, and strategies to address it through a systematic review of existing literature and case studies.",
+    "slug": "150-the-evidence-gap-in-ai-governance-a-systematic-rev",
+    "date": "2026-02-24",
+    "tags": [
+      "evidence-gap",
+      "ai-policy",
+      "regulation",
+      "systematic-review",
+      "governance"
+    ],
+    "categories": [
+      "Governance Analysis"
+    ],
+    "body": "Reflexive Research Object 150 Type: Research & Policy Analysis Introduction As artificial intelligence (AI) systems grow increasingly pervasive, questions about their governance have become urgent. Policymakers, regulators, and civil society organizations are grappling with how to design effective frameworks to ensure AI systems are safe, fair, and aligned with societal goals. However, a critical challenge has emerged: the lack of robust, empirical evidence on which to base governance decisions."
+  },
+  {
     "id": 149,
     "title": "Longitudinal Studies of AI Deployment Effects",
     "excerpt": "Examining the long-term impacts of AI deployment across social, economic, and governance dimensions to inform evidence-based policy and regulation.",
