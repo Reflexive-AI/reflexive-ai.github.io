@@ -1,5 +1,23 @@
 [
   {
+    "id": 155,
+    "title": "Automated Lobbying: AI in the Policy Process",
+    "excerpt": "Exploring the implications of AI-driven lobbying systems for democratic governance, transparency, and the future of policymaking.",
+    "slug": "155-automated-lobbying-ai-in-the-policy-process",
+    "date": "2026-02-25",
+    "tags": [
+      "lobbying",
+      "ai-policy",
+      "governance",
+      "transparency"
+    ],
+    "categories": [
+      "Governance Analysis",
+      "Political Processes"
+    ],
+    "body": "Introduction Advances in artificial intelligence are reshaping the contours of political decision-making globally. Among the most transformative yet underexamined developments is the rise of AI-driven lobbying: the use of automated systems to influence policymaking. Traditionally, lobbying has been a human-centered process, requiring expertise in legislative procedures, deep personal connections, and persuasive communication. However, the advent of AI systems capable of processing vast datasets,"
+  },
+  {
     "id": 154,
     "title": "Platform Governance During Elections",
     "excerpt": "Exploring the challenges and opportunities of regulating online platforms to safeguard electoral integrity in the age of AI.",

@@ -324,7 +324,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 154. [x] Platform Governance During Elections [P]
     Evaluating social media platform policies on AI-generated political content during election periods, with evidence on enforcement effectiveness.
 
-155. [ ] Automated Lobbying: AI in the Policy Process [R][P]
+155. [x] Automated Lobbying: AI in the Policy Process [R][P]
     When AI systems generate and submit public comments, draft legislation, or lobby officials at scale, the resulting distortion of democratic input channels requires new governance.
 
 156. [ ] Deliberative Democracy and AI Tools [P]

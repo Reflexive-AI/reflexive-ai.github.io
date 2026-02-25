@@ -342,6 +342,11 @@
           "title": "Audit Trail Analysis: Detecting Governance Failures",
           "slug": "/research/146-audit-trail-analysis-detecting-governance-failures",
           "excerpt": "Exploring how audit trails can be used to identify and address governance failures in AI systems, with a focus on transparency, accountability, and systemic oversight."
+        },
+        {
+          "title": "Automated Lobbying: AI in the Policy Process",
+          "slug": "/research/155-automated-lobbying-ai-in-the-policy-process",
+          "excerpt": "Exploring the implications of AI-driven lobbying systems for democratic governance, transparency, and the future of policymaking."
         }
       ]
     },
@@ -1989,6 +1994,11 @@
           "title": "Platform Governance During Elections",
           "slug": "/research/154-platform-governance-during-elections",
           "excerpt": "Exploring the challenges and opportunities of regulating online platforms to safeguard electoral integrity in the age of AI."
+        },
+        {
+          "title": "Automated Lobbying: AI in the Policy Process",
+          "slug": "/research/155-automated-lobbying-ai-in-the-policy-process",
+          "excerpt": "Exploring the implications of AI-driven lobbying systems for democratic governance, transparency, and the future of policymaking."
         }
       ]
     },
@@ -5385,7 +5395,7 @@
       "id": "ai-policy",
       "title": "ai-policy",
       "group": "governance",
-      "val": 13,
+      "val": 15,
       "articles": [
         {
           "title": "Creative Industries and AI: Economic Impact",
@@ -5406,6 +5416,11 @@
           "title": "The Evidence Gap in AI Governance: A Systematic Review",
           "slug": "/research/150-the-evidence-gap-in-ai-governance-a-systematic-rev",
           "excerpt": "This article examines the persistent evidence gap in AI governance, exploring its causes, implications, and strategies to address it through a systematic review of existing literature and case studies."
+        },
+        {
+          "title": "Automated Lobbying: AI in the Policy Process",
+          "slug": "/research/155-automated-lobbying-ai-in-the-policy-process",
+          "excerpt": "Exploring the implications of AI-driven lobbying systems for democratic governance, transparency, and the future of policymaking."
         }
       ]
     },
@@ -6183,6 +6198,19 @@
           "title": "Platform Governance During Elections",
           "slug": "/research/154-platform-governance-during-elections",
           "excerpt": "Exploring the challenges and opportunities of regulating online platforms to safeguard electoral integrity in the age of AI."
+        }
+      ]
+    },
+    {
+      "id": "lobbying",
+      "title": "lobbying",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Automated Lobbying: AI in the Policy Process",
+          "slug": "/research/155-automated-lobbying-ai-in-the-policy-process",
+          "excerpt": "Exploring the implications of AI-driven lobbying systems for democratic governance, transparency, and the future of policymaking."
         }
       ]
     }
@@ -11091,7 +11119,7 @@
     {
       "source": "ai-policy",
       "target": "governance",
-      "value": 3
+      "value": 4
     },
     {
       "source": "ai-policy",
@@ -11581,6 +11609,26 @@
     {
       "source": "ai",
       "target": "platform accountability",
+      "value": 1
+    },
+    {
+      "source": "ai-policy",
+      "target": "lobbying",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "lobbying",
+      "value": 1
+    },
+    {
+      "source": "lobbying",
+      "target": "transparency",
+      "value": 1
+    },
+    {
+      "source": "ai-policy",
+      "target": "transparency",
       "value": 1
     }
   ]
