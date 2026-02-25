@@ -1,5 +1,25 @@
 [
   {
+    "id": 154,
+    "title": "Platform Governance During Elections",
+    "excerpt": "Exploring the challenges and opportunities of regulating online platforms to safeguard electoral integrity in the age of AI.",
+    "slug": "154-platform-governance-during-elections",
+    "date": "2026-02-25",
+    "tags": [
+      "elections",
+      "disinformation",
+      "platform accountability",
+      "governance",
+      "AI"
+    ],
+    "categories": [
+      "Platform Governance",
+      "Electoral Integrity",
+      "AI Regulation"
+    ],
+    "body": "Introduction Elections are the cornerstone of democratic societies, yet they are increasingly vulnerable to manipulation in a digital era. Online platforms, which host a significant portion of modern political discourse, play a pivotal role in shaping public opinion and electoral outcomes. As artificial intelligence (AI) tools become more sophisticated, they amplify both the benefits and risks of these platforms. This article examines the governance challenges surrounding platforms during electi"
+  },
+  {
     "id": 153,
     "title": "AI-Powered Political Micro-Targeting: Governance Options",
     "excerpt": "Exploring regulatory frameworks and policy interventions to address the challenges posed by AI-driven political micro-targeting in democratic societies.",

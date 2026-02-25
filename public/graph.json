@@ -1984,6 +1984,11 @@
           "title": "AI in Elections: Threat Taxonomy",
           "slug": "/research/151-ai-in-elections-threat-taxonomy",
           "excerpt": "Identifying and categorizing risks posed by artificial intelligence to electoral processes, including manipulation, security vulnerabilities, and governance concerns."
+        },
+        {
+          "title": "Platform Governance During Elections",
+          "slug": "/research/154-platform-governance-during-elections",
+          "excerpt": "Exploring the challenges and opportunities of regulating online platforms to safeguard electoral integrity in the age of AI."
         }
       ]
     },
@@ -4839,12 +4844,17 @@
       "id": "ai",
       "title": "ai",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Governance of AI-Generated Science",
           "slug": "/research/109-governance-of-ai-generated-science",
           "excerpt": "Exploring the challenges and opportunities of governing scientific research conducted or augmented by AI, with a focus on accountability, validation, and ethical considerations."
+        },
+        {
+          "title": "Platform Governance During Elections",
+          "slug": "/research/154-platform-governance-during-elections",
+          "excerpt": "Exploring the challenges and opportunities of regulating online platforms to safeguard electoral integrity in the age of AI."
         }
       ]
     },
@@ -6071,12 +6081,17 @@
       "id": "elections",
       "title": "elections",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Deepfakes and Electoral Law",
           "slug": "/research/152-deepfakes-and-electoral-law",
           "excerpt": "Examining the intersection of deepfake technology, electoral integrity, and the challenges of regulating synthetic media in democratic processes."
+        },
+        {
+          "title": "Platform Governance During Elections",
+          "slug": "/research/154-platform-governance-during-elections",
+          "excerpt": "Exploring the challenges and opportunities of regulating online platforms to safeguard electoral integrity in the age of AI."
         }
       ]
     },
@@ -6142,6 +6157,32 @@
           "title": "AI-Powered Political Micro-Targeting: Governance Options",
           "slug": "/research/153-ai-powered-political-micro-targeting-governance-op",
           "excerpt": "Exploring regulatory frameworks and policy interventions to address the challenges posed by AI-driven political micro-targeting in democratic societies."
+        }
+      ]
+    },
+    {
+      "id": "disinformation",
+      "title": "disinformation",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Platform Governance During Elections",
+          "slug": "/research/154-platform-governance-during-elections",
+          "excerpt": "Exploring the challenges and opportunities of regulating online platforms to safeguard electoral integrity in the age of AI."
+        }
+      ]
+    },
+    {
+      "id": "platform accountability",
+      "title": "platform accountability",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Platform Governance During Elections",
+          "slug": "/research/154-platform-governance-during-elections",
+          "excerpt": "Exploring the challenges and opportunities of regulating online platforms to safeguard electoral integrity in the age of AI."
         }
       ]
     }
@@ -9910,7 +9951,7 @@
     {
       "source": "ai",
       "target": "governance",
-      "value": 1
+      "value": 2
     },
     {
       "source": "ai",
@@ -11495,6 +11536,51 @@
     {
       "source": "data privacy",
       "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "disinformation",
+      "target": "elections",
+      "value": 1
+    },
+    {
+      "source": "elections",
+      "target": "platform accountability",
+      "value": 1
+    },
+    {
+      "source": "elections",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "ai",
+      "target": "elections",
+      "value": 1
+    },
+    {
+      "source": "disinformation",
+      "target": "platform accountability",
+      "value": 1
+    },
+    {
+      "source": "disinformation",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "ai",
+      "target": "disinformation",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "platform accountability",
+      "value": 1
+    },
+    {
+      "source": "ai",
+      "target": "platform accountability",
       "value": 1
     }
   ]

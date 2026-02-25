@@ -321,7 +321,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 153. [x] AI-Powered Political Micro-Targeting: Governance Options [R][P]
     Technical and regulatory approaches to constraining AI-driven voter manipulation, balancing free expression with electoral integrity.
 
-154. [ ] Platform Governance During Elections [P]
+154. [x] Platform Governance During Elections [P]
     Evaluating social media platform policies on AI-generated political content during election periods, with evidence on enforcement effectiveness.
 
 155. [ ] Automated Lobbying: AI in the Policy Process [R][P]
