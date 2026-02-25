@@ -318,7 +318,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 152. [x] Deepfakes and Electoral Law [P]
     How existing election law handles synthetic media and where legal gaps remain, with comparative analysis across the US, EU, India, and Brazil.
 
-153. [ ] AI-Powered Political Micro-Targeting: Governance Options [R][P]
+153. [x] AI-Powered Political Micro-Targeting: Governance Options [R][P]
     Technical and regulatory approaches to constraining AI-driven voter manipulation, balancing free expression with electoral integrity.
 
 154. [ ] Platform Governance During Elections [P]

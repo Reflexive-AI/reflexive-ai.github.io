@@ -208,6 +208,11 @@
           "title": "Deepfakes and Electoral Law",
           "slug": "/research/152-deepfakes-and-electoral-law",
           "excerpt": "Examining the intersection of deepfake technology, electoral integrity, and the challenges of regulating synthetic media in democratic processes."
+        },
+        {
+          "title": "AI-Powered Political Micro-Targeting: Governance Options",
+          "slug": "/research/153-ai-powered-political-micro-targeting-governance-op",
+          "excerpt": "Exploring regulatory frameworks and policy interventions to address the challenges posed by AI-driven political micro-targeting in democratic societies."
         }
       ]
     },
@@ -2550,7 +2555,7 @@
       "id": "ai governance",
       "title": "ai governance",
       "group": "concept",
-      "val": 19,
+      "val": 21,
       "articles": [
         {
           "title": "Rate Limiting and Abuse Detection",
@@ -2586,6 +2591,11 @@
           "title": "Survey Methods for Public AI Attitudes",
           "slug": "/research/145-survey-methods-for-public-ai-attitudes",
           "excerpt": "A comprehensive review of methodologies for measuring public opinion on artificial intelligence, with insights into their design, limitations, and implications for policy."
+        },
+        {
+          "title": "AI-Powered Political Micro-Targeting: Governance Options",
+          "slug": "/research/153-ai-powered-political-micro-targeting-governance-op",
+          "excerpt": "Exploring regulatory frameworks and policy interventions to address the challenges posed by AI-driven political micro-targeting in democratic societies."
         }
       ]
     },
@@ -6095,6 +6105,45 @@
           "excerpt": "Examining the intersection of deepfake technology, electoral integrity, and the challenges of regulating synthetic media in democratic processes."
         }
       ]
+    },
+    {
+      "id": "political micro-targeting",
+      "title": "political micro-targeting",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI-Powered Political Micro-Targeting: Governance Options",
+          "slug": "/research/153-ai-powered-political-micro-targeting-governance-op",
+          "excerpt": "Exploring regulatory frameworks and policy interventions to address the challenges posed by AI-driven political micro-targeting in democratic societies."
+        }
+      ]
+    },
+    {
+      "id": "electoral integrity",
+      "title": "electoral integrity",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI-Powered Political Micro-Targeting: Governance Options",
+          "slug": "/research/153-ai-powered-political-micro-targeting-governance-op",
+          "excerpt": "Exploring regulatory frameworks and policy interventions to address the challenges posed by AI-driven political micro-targeting in democratic societies."
+        }
+      ]
+    },
+    {
+      "id": "data privacy",
+      "title": "data privacy",
+      "group": "technical",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI-Powered Political Micro-Targeting: Governance Options",
+          "slug": "/research/153-ai-powered-political-micro-targeting-governance-op",
+          "excerpt": "Exploring regulatory frameworks and policy interventions to address the challenges posed by AI-driven political micro-targeting in democratic societies."
+        }
+      ]
     }
   ],
   "links": [
@@ -8881,7 +8930,7 @@
     {
       "source": "ai governance",
       "target": "regulation",
-      "value": 2
+      "value": 3
     },
     {
       "source": "ai governance",
@@ -11401,6 +11450,51 @@
     {
       "source": "electoral law",
       "target": "synthetic media",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "political micro-targeting",
+      "value": 1
+    },
+    {
+      "source": "electoral integrity",
+      "target": "political micro-targeting",
+      "value": 1
+    },
+    {
+      "source": "political micro-targeting",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "data privacy",
+      "target": "political micro-targeting",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "electoral integrity",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "data privacy",
+      "value": 1
+    },
+    {
+      "source": "electoral integrity",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "data privacy",
+      "target": "electoral integrity",
+      "value": 1
+    },
+    {
+      "source": "data privacy",
+      "target": "regulation",
       "value": 1
     }
   ]

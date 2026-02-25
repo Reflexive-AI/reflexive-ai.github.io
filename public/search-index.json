@@ -1,5 +1,23 @@
 [
   {
+    "id": 153,
+    "title": "AI-Powered Political Micro-Targeting: Governance Options",
+    "excerpt": "Exploring regulatory frameworks and policy interventions to address the challenges posed by AI-driven political micro-targeting in democratic societies.",
+    "slug": "153-ai-powered-political-micro-targeting-governance-op",
+    "date": "2026-02-25",
+    "tags": [
+      "political micro-targeting",
+      "AI governance",
+      "electoral integrity",
+      "regulation",
+      "data privacy"
+    ],
+    "categories": [
+      "Governance Analysis"
+    ],
+    "body": "Reflexive Research Object 153 Type: Governance Analysis & Policy Proposal Introduction Artificial intelligence (AI) has transformed political campaigning, enabling unprecedented precision in voter outreach through political micro-targeting. By analyzing vast amounts of personal data, AI systems can deliver highly tailored political messages to individuals, exploiting psychological profiles, behavioral patterns, and even real-time emotional states. While this technology has the potential to enhan"
+  },
+  {
     "id": 152,
     "title": "Deepfakes and Electoral Law",
     "excerpt": "Examining the intersection of deepfake technology, electoral integrity, and the challenges of regulating synthetic media in democratic processes.",
