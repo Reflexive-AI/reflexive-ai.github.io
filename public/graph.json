@@ -1999,6 +1999,11 @@
           "title": "Automated Lobbying: AI in the Policy Process",
           "slug": "/research/155-automated-lobbying-ai-in-the-policy-process",
           "excerpt": "Exploring the implications of AI-driven lobbying systems for democratic governance, transparency, and the future of policymaking."
+        },
+        {
+          "title": "Deliberative Democracy and AI Tools",
+          "slug": "/research/156-deliberative-democracy-and-ai-tools",
+          "excerpt": "Exploring how AI technologies can enhance or hinder deliberative democratic processes, and the governance challenges posed by their integration into civic decision-making."
         }
       ]
     },
@@ -6211,6 +6216,45 @@
           "title": "Automated Lobbying: AI in the Policy Process",
           "slug": "/research/155-automated-lobbying-ai-in-the-policy-process",
           "excerpt": "Exploring the implications of AI-driven lobbying systems for democratic governance, transparency, and the future of policymaking."
+        }
+      ]
+    },
+    {
+      "id": "deliberative democracy",
+      "title": "deliberative democracy",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Deliberative Democracy and AI Tools",
+          "slug": "/research/156-deliberative-democracy-and-ai-tools",
+          "excerpt": "Exploring how AI technologies can enhance or hinder deliberative democratic processes, and the governance challenges posed by their integration into civic decision-making."
+        }
+      ]
+    },
+    {
+      "id": "civic decision-making",
+      "title": "civic decision-making",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Deliberative Democracy and AI Tools",
+          "slug": "/research/156-deliberative-democracy-and-ai-tools",
+          "excerpt": "Exploring how AI technologies can enhance or hinder deliberative democratic processes, and the governance challenges posed by their integration into civic decision-making."
+        }
+      ]
+    },
+    {
+      "id": "ai tools",
+      "title": "AI tools",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Deliberative Democracy and AI Tools",
+          "slug": "/research/156-deliberative-democracy-and-ai-tools",
+          "excerpt": "Exploring how AI technologies can enhance or hinder deliberative democratic processes, and the governance challenges posed by their integration into civic decision-making."
         }
       ]
     }
@@ -11629,6 +11673,36 @@
     {
       "source": "ai-policy",
       "target": "transparency",
+      "value": 1
+    },
+    {
+      "source": "civic decision-making",
+      "target": "deliberative democracy",
+      "value": 1
+    },
+    {
+      "source": "ai tools",
+      "target": "deliberative democracy",
+      "value": 1
+    },
+    {
+      "source": "deliberative democracy",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "ai tools",
+      "target": "civic decision-making",
+      "value": 1
+    },
+    {
+      "source": "civic decision-making",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "ai tools",
+      "target": "governance",
       "value": 1
     }
   ]

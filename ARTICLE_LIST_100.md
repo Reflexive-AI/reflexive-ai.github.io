@@ -327,7 +327,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 155. [x] Automated Lobbying: AI in the Policy Process [R][P]
     When AI systems generate and submit public comments, draft legislation, or lobby officials at scale, the resulting distortion of democratic input channels requires new governance.
 
-156. [ ] Deliberative Democracy and AI Tools [P]
+156. [x] Deliberative Democracy and AI Tools [P]
     How AI can support rather than undermine democratic deliberation, with case studies from citizen assemblies and participatory budgeting.
 
 157. [ ] Information Integrity Standards for AI Outputs [R][A]

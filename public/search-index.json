@@ -1,5 +1,23 @@
 [
   {
+    "id": 156,
+    "title": "Deliberative Democracy and AI Tools",
+    "excerpt": "Exploring how AI technologies can enhance or hinder deliberative democratic processes, and the governance challenges posed by their integration into civic decision-making.",
+    "slug": "156-deliberative-democracy-and-ai-tools",
+    "date": "2026-02-25",
+    "tags": [
+      "deliberative democracy",
+      "civic decision-making",
+      "AI tools",
+      "governance"
+    ],
+    "categories": [
+      "AI Governance",
+      "Democratic Processes"
+    ],
+    "body": "Introduction Deliberative democracy emphasizes collective decision-making through reasoned debate and inclusive participation. It stands apart from traditional representative democracy by focusing on informed discussion, consensus-building, and active involvement by citizens. As artificial intelligence (AI) tools continue to reshape societal functions, their integration into deliberative democratic processes sparks both opportunities and risks. AI's capabilities, such as natural language process"
+  },
+  {
     "id": 155,
     "title": "Automated Lobbying: AI in the Policy Process",
     "excerpt": "Exploring the implications of AI-driven lobbying systems for democratic governance, transparency, and the future of policymaking.",
