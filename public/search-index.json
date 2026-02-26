@@ -1,5 +1,24 @@
 [
   {
+    "id": 159,
+    "title": "Voter Data and AI: Privacy Implications",
+    "excerpt": "Examining how AI's use of voter data challenges privacy norms, the risks posed by algorithmic processing, and the need for robust governance frameworks.",
+    "slug": "159-voter-data-and-ai-privacy-implications",
+    "date": "2026-02-26",
+    "tags": [
+      "voter data",
+      "privacy",
+      "ai-regulation",
+      "elections",
+      "data ethics"
+    ],
+    "categories": [
+      "AI Governance",
+      "Privacy"
+    ],
+    "body": "Introduction The intersection of artificial intelligence (AI) and voter data raises urgent questions about privacy, agency, and democratic integrity. Voter data—ranging from basic demographic information to detailed behavioral profiles—has long been a cornerstone of political campaigns. However, the advent of AI-driven analysis has amplified the scale and sophistication of its use. While AI offers tools for understanding voter behavior and refining political strategies, it also introduces new ri"
+  },
+  {
     "id": 158,
     "title": "AI-Generated Disinformation: Detection and Response",
     "excerpt": "An analysis of AI's role in generating disinformation, current detection methodologies, and policy responses to mitigate its impact.",

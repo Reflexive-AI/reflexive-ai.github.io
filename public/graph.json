@@ -2293,7 +2293,7 @@
       "id": "privacy",
       "title": "Privacy",
       "group": "concept",
-      "val": 11,
+      "val": 13,
       "articles": [
         {
           "title": "Training Data Governance",
@@ -2309,6 +2309,11 @@
           "title": "AI in Education: Personalization vs. Privacy",
           "slug": "/research/085-ai-in-education-personalization-vs-privacy",
           "excerpt": "This article examines the tension between personalization and privacy in AI-driven educational tools, exploring governance frameworks, technological solutions, and ethical trade-offs."
+        },
+        {
+          "title": "Voter Data and AI: Privacy Implications",
+          "slug": "/research/159-voter-data-and-ai-privacy-implications",
+          "excerpt": "Examining how AI's use of voter data challenges privacy norms, the risks posed by algorithmic processing, and the need for robust governance frameworks."
         }
       ]
     },
@@ -5531,7 +5536,7 @@
       "id": "ai-regulation",
       "title": "ai-regulation",
       "group": "governance",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "India's AI Governance Approach: A Case Study",
@@ -5542,6 +5547,11 @@
           "title": "Economic Impact Assessment for AI Regulation",
           "slug": "/research/148-economic-impact-assessment-for-ai-regulation",
           "excerpt": "Analyzing the costs and benefits of regulating artificial intelligence across industries, with a focus on balancing innovation and societal safety."
+        },
+        {
+          "title": "Voter Data and AI: Privacy Implications",
+          "slug": "/research/159-voter-data-and-ai-privacy-implications",
+          "excerpt": "Examining how AI's use of voter data challenges privacy norms, the risks posed by algorithmic processing, and the need for robust governance frameworks."
         }
       ]
     },
@@ -6121,7 +6131,7 @@
       "id": "elections",
       "title": "elections",
       "group": "concept",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "Deepfakes and Electoral Law",
@@ -6132,6 +6142,11 @@
           "title": "Platform Governance During Elections",
           "slug": "/research/154-platform-governance-during-elections",
           "excerpt": "Exploring the challenges and opportunities of regulating online platforms to safeguard electoral integrity in the age of AI."
+        },
+        {
+          "title": "Voter Data and AI: Privacy Implications",
+          "slug": "/research/159-voter-data-and-ai-privacy-implications",
+          "excerpt": "Examining how AI's use of voter data challenges privacy norms, the risks posed by algorithmic processing, and the need for robust governance frameworks."
         }
       ]
     },
@@ -6345,6 +6360,32 @@
           "title": "AI-Generated Disinformation: Detection and Response",
           "slug": "/research/158-ai-generated-disinformation-detection-and-response",
           "excerpt": "An analysis of AI's role in generating disinformation, current detection methodologies, and policy responses to mitigate its impact."
+        }
+      ]
+    },
+    {
+      "id": "voter data",
+      "title": "voter data",
+      "group": "technical",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Voter Data and AI: Privacy Implications",
+          "slug": "/research/159-voter-data-and-ai-privacy-implications",
+          "excerpt": "Examining how AI's use of voter data challenges privacy norms, the risks posed by algorithmic processing, and the need for robust governance frameworks."
+        }
+      ]
+    },
+    {
+      "id": "data ethics",
+      "title": "data ethics",
+      "group": "technical",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Voter Data and AI: Privacy Implications",
+          "slug": "/research/159-voter-data-and-ai-privacy-implications",
+          "excerpt": "Examining how AI's use of voter data challenges privacy norms, the risks posed by algorithmic processing, and the need for robust governance frameworks."
         }
       ]
     }
@@ -11888,6 +11929,56 @@
     {
       "source": "detection methods",
       "target": "policy responses",
+      "value": 1
+    },
+    {
+      "source": "privacy",
+      "target": "voter data",
+      "value": 1
+    },
+    {
+      "source": "ai-regulation",
+      "target": "voter data",
+      "value": 1
+    },
+    {
+      "source": "elections",
+      "target": "voter data",
+      "value": 1
+    },
+    {
+      "source": "data ethics",
+      "target": "voter data",
+      "value": 1
+    },
+    {
+      "source": "ai-regulation",
+      "target": "privacy",
+      "value": 1
+    },
+    {
+      "source": "elections",
+      "target": "privacy",
+      "value": 1
+    },
+    {
+      "source": "data ethics",
+      "target": "privacy",
+      "value": 1
+    },
+    {
+      "source": "ai-regulation",
+      "target": "elections",
+      "value": 1
+    },
+    {
+      "source": "ai-regulation",
+      "target": "data ethics",
+      "value": 1
+    },
+    {
+      "source": "data ethics",
+      "target": "elections",
       "value": 1
     }
   ]

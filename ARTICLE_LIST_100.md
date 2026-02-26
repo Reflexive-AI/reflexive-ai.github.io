@@ -336,7 +336,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 158. [x] AI-Generated Disinformation: Detection and Response [R][P]
     Technical detection methods and governance frameworks for identifying and responding to AI-generated disinformation campaigns at scale.
 
-159. [ ] Voter Data and AI: Privacy Implications [P]
+159. [x] Voter Data and AI: Privacy Implications [P]
     How AI-driven voter analytics create new privacy risks beyond traditional data protection, and what legal protections are needed.
 
 160. [ ] The Right to Know You Are Talking to AI [P]
