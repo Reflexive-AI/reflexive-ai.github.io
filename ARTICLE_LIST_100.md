@@ -330,7 +330,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 156. [x] Deliberative Democracy and AI Tools [P]
     How AI can support rather than undermine democratic deliberation, with case studies from citizen assemblies and participatory budgeting.
 
-157. [ ] Information Integrity Standards for AI Outputs [R][A]
+157. [x] Information Integrity Standards for AI Outputs [R][A]
     A machine-readable specification for AI systems to flag output reliability, source quality, and epistemic confidence levels in structured metadata.
 
 158. [ ] AI-Generated Disinformation: Detection and Response [R][P]

@@ -602,7 +602,7 @@
       "id": "standards",
       "title": "standards",
       "group": "concept",
-      "val": 19,
+      "val": 21,
       "articles": [
         {
           "title": "A Machine-Readable Constraint Schema (MRCS)",
@@ -638,6 +638,11 @@
           "title": "AI in Climate Modeling: Validation Standards",
           "slug": "/research/084-ai-in-climate-modeling-validation-standards",
           "excerpt": "Establishing rigorous validation standards for AI-driven climate models is essential to ensure their reliability, transparency, and utility in addressing global environmental challenges."
+        },
+        {
+          "title": "Information Integrity Standards for AI Outputs",
+          "slug": "/research/157-information-integrity-standards-for-ai-outputs",
+          "excerpt": "Developing robust information integrity standards for AI-generated outputs is critical for addressing misinformation risks and ensuring trust in automated systems."
         }
       ]
     },
@@ -2098,7 +2103,7 @@
       "id": "trust",
       "title": "trust",
       "group": "concept",
-      "val": 15,
+      "val": 17,
       "articles": [
         {
           "title": "Uncertainty Communication in AI Outputs",
@@ -2124,6 +2129,11 @@
           "title": "Occupational Licensing in an AI Era",
           "slug": "/research/127-occupational-licensing-in-an-ai-era",
           "excerpt": "Exploring how AI is reshaping professional licensure, its implications for labor markets, and the challenges of ensuring trustworthy oversight in an automated world."
+        },
+        {
+          "title": "Information Integrity Standards for AI Outputs",
+          "slug": "/research/157-information-integrity-standards-for-ai-outputs",
+          "excerpt": "Developing robust information integrity standards for AI-generated outputs is critical for addressing misinformation risks and ensuring trust in automated systems."
         }
       ]
     },
@@ -2710,7 +2720,7 @@
       "id": "accountability",
       "title": "accountability",
       "group": "concept",
-      "val": 29,
+      "val": 30,
       "articles": [
         {
           "title": "Monitoring Deployed Models",
@@ -2771,6 +2781,11 @@
           "title": "Audit Trail Analysis: Detecting Governance Failures",
           "slug": "/research/146-audit-trail-analysis-detecting-governance-failures",
           "excerpt": "Exploring how audit trails can be used to identify and address governance failures in AI systems, with a focus on transparency, accountability, and systemic oversight."
+        },
+        {
+          "title": "Information Integrity Standards for AI Outputs",
+          "slug": "/research/157-information-integrity-standards-for-ai-outputs",
+          "excerpt": "Developing robust information integrity standards for AI-generated outputs is critical for addressing misinformation risks and ensuring trust in automated systems."
         }
       ]
     },
@@ -6257,6 +6272,32 @@
           "excerpt": "Exploring how AI technologies can enhance or hinder deliberative democratic processes, and the governance challenges posed by their integration into civic decision-making."
         }
       ]
+    },
+    {
+      "id": "information integrity",
+      "title": "information integrity",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Information Integrity Standards for AI Outputs",
+          "slug": "/research/157-information-integrity-standards-for-ai-outputs",
+          "excerpt": "Developing robust information integrity standards for AI-generated outputs is critical for addressing misinformation risks and ensuring trust in automated systems."
+        }
+      ]
+    },
+    {
+      "id": "misinformation",
+      "title": "misinformation",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Information Integrity Standards for AI Outputs",
+          "slug": "/research/157-information-integrity-standards-for-ai-outputs",
+          "excerpt": "Developing robust information integrity standards for AI-generated outputs is critical for addressing misinformation risks and ensuring trust in automated systems."
+        }
+      ]
     }
   ],
   "links": [
@@ -8968,7 +9009,7 @@
     {
       "source": "accountability",
       "target": "standards",
-      "value": 1
+      "value": 2
     },
     {
       "source": "accountability",
@@ -11703,6 +11744,51 @@
     {
       "source": "ai tools",
       "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "information integrity",
+      "target": "misinformation",
+      "value": 1
+    },
+    {
+      "source": "information integrity",
+      "target": "trust",
+      "value": 1
+    },
+    {
+      "source": "information integrity",
+      "target": "standards",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "information integrity",
+      "value": 1
+    },
+    {
+      "source": "misinformation",
+      "target": "trust",
+      "value": 1
+    },
+    {
+      "source": "misinformation",
+      "target": "standards",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "misinformation",
+      "value": 1
+    },
+    {
+      "source": "standards",
+      "target": "trust",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "trust",
       "value": 1
     }
   ]

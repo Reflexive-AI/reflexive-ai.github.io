@@ -1,5 +1,23 @@
 [
   {
+    "id": 157,
+    "title": "Information Integrity Standards for AI Outputs",
+    "excerpt": "Developing robust information integrity standards for AI-generated outputs is critical for addressing misinformation risks and ensuring trust in automated systems.",
+    "slug": "157-information-integrity-standards-for-ai-outputs",
+    "date": "2026-02-26",
+    "tags": [
+      "information integrity",
+      "misinformation",
+      "trust",
+      "standards",
+      "accountability"
+    ],
+    "categories": [
+      "AI Governance"
+    ],
+    "body": "Introduction As artificial intelligence systems increasingly contribute to knowledge generation, the integrity of their outputs has become a pressing concern. From generating news articles to assisting in policy analysis, AI's role as a content creator is growing rapidly. However, this utility is accompanied by significant risks, including the propagation of misinformation, biased outputs, and the erosion of public trust in information systems. Addressing these challenges requires robust informa"
+  },
+  {
     "id": 156,
     "title": "Deliberative Democracy and AI Tools",
     "excerpt": "Exploring how AI technologies can enhance or hinder deliberative democratic processes, and the governance challenges posed by their integration into civic decision-making.",
