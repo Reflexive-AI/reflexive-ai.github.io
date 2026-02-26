@@ -339,7 +339,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 159. [x] Voter Data and AI: Privacy Implications [P]
     How AI-driven voter analytics create new privacy risks beyond traditional data protection, and what legal protections are needed.
 
-160. [ ] The Right to Know You Are Talking to AI [P]
+160. [x] The Right to Know You Are Talking to AI [P]
     Policy arguments and implementation approaches for mandatory AI disclosure in political, commercial, and public-facing contexts.
 
 ### Cluster G: Autonomous Weapons, Security, and Conflict (161-170)

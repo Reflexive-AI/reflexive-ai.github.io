@@ -4,7 +4,7 @@
       "id": "disclosure",
       "title": "disclosure",
       "group": "concept",
-      "val": 11,
+      "val": 13,
       "articles": [
         {
           "title": "Operationalizing Proportionality in Model Disclosure",
@@ -20,6 +20,11 @@
           "title": "The Game Theory of AI Disclosure: When Transparency is a Prisoner's Dilemma",
           "slug": "/research/067-game-theory-disclosure",
           "excerpt": "Companies face a collective action problem: all would benefit from industry-wide transparency, but unilateral disclosure may harm competitive position. How do we change the payoff structure?"
+        },
+        {
+          "title": "The Right to Know You Are Talking to AI",
+          "slug": "/research/160-the-right-to-know-you-are-talking-to-ai",
+          "excerpt": "Examining the ethical, legal, and societal implications of requiring AI systems to disclose their non-human identity in human interactions."
         }
       ]
     },
@@ -347,6 +352,11 @@
           "title": "Automated Lobbying: AI in the Policy Process",
           "slug": "/research/155-automated-lobbying-ai-in-the-policy-process",
           "excerpt": "Exploring the implications of AI-driven lobbying systems for democratic governance, transparency, and the future of policymaking."
+        },
+        {
+          "title": "The Right to Know You Are Talking to AI",
+          "slug": "/research/160-the-right-to-know-you-are-talking-to-ai",
+          "excerpt": "Examining the ethical, legal, and societal implications of requiring AI systems to disclose their non-human identity in human interactions."
         }
       ]
     },
@@ -1107,6 +1117,11 @@
           "title": "AI-Driven Surveillance in Authoritarian Contexts",
           "slug": "/research/138-ai-driven-surveillance-in-authoritarian-contexts",
           "excerpt": "Examining the deployment of AI surveillance technologies in authoritarian states, their implications for human rights, and considerations for international governance."
+        },
+        {
+          "title": "The Right to Know You Are Talking to AI",
+          "slug": "/research/160-the-right-to-know-you-are-talking-to-ai",
+          "excerpt": "Examining the ethical, legal, and societal implications of requiring AI systems to disclose their non-human identity in human interactions."
         }
       ]
     },
@@ -2557,6 +2572,11 @@
           "title": "Longitudinal Studies of AI Deployment Effects",
           "slug": "/research/149-longitudinal-studies-of-ai-deployment-effects",
           "excerpt": "Examining the long-term impacts of AI deployment across social, economic, and governance dimensions to inform evidence-based policy and regulation."
+        },
+        {
+          "title": "The Right to Know You Are Talking to AI",
+          "slug": "/research/160-the-right-to-know-you-are-talking-to-ai",
+          "excerpt": "Examining the ethical, legal, and societal implications of requiring AI systems to disclose their non-human identity in human interactions."
         }
       ]
     },
@@ -6409,7 +6429,7 @@
     {
       "source": "disclosure",
       "target": "transparency",
-      "value": 3
+      "value": 4
     },
     {
       "source": "eu-ai-act",
@@ -11979,6 +11999,26 @@
     {
       "source": "data ethics",
       "target": "elections",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "transparency",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "ethics",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "disclosure",
+      "value": 1
+    },
+    {
+      "source": "disclosure",
+      "target": "ethics",
       "value": 1
     }
   ]

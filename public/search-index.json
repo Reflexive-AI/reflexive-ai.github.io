@@ -1,5 +1,22 @@
 [
   {
+    "id": 160,
+    "title": "The Right to Know You Are Talking to AI",
+    "excerpt": "Examining the ethical, legal, and societal implications of requiring AI systems to disclose their non-human identity in human interactions.",
+    "slug": "160-the-right-to-know-you-are-talking-to-ai",
+    "date": "2026-02-26",
+    "tags": [
+      "ai-governance",
+      "transparency",
+      "ethics",
+      "disclosure"
+    ],
+    "categories": [
+      "Policy Analysis"
+    ],
+    "body": "Introduction As AI systems become increasingly sophisticated and pervasive, they are no longer confined to industrial or specialized domains. From customer service chatbots and virtual assistants to large language models that facilitate creative writing, AI systems are engaging directly with the public in contexts that were once exclusively human. This shift raises a critical question: should individuals have a right to know when they are interacting with artificial intelligence? The notion of d"
+  },
+  {
     "id": 159,
     "title": "Voter Data and AI: Privacy Implications",
     "excerpt": "Examining how AI's use of voter data challenges privacy norms, the risks posed by algorithmic processing, and the need for robust governance frameworks.",
