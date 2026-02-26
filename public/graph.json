@@ -2687,7 +2687,7 @@
       "id": "ai-safety",
       "title": "ai-safety",
       "group": "concept",
-      "val": 15,
+      "val": 17,
       "articles": [
         {
           "title": "Monitoring Deployed Models",
@@ -2713,6 +2713,11 @@
           "title": "Reproducibility in AI Safety Research",
           "slug": "/research/147-reproducibility-in-ai-safety-research",
           "excerpt": "Exploring the role of reproducibility in advancing AI safety, ensuring reliable findings, and fostering collaboration across the research community."
+        },
+        {
+          "title": "AI-Generated Disinformation: Detection and Response",
+          "slug": "/research/158-ai-generated-disinformation-detection-and-response",
+          "excerpt": "An analysis of AI's role in generating disinformation, current detection methodologies, and policy responses to mitigate its impact."
         }
       ]
     },
@@ -6199,12 +6204,17 @@
       "id": "disinformation",
       "title": "disinformation",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Platform Governance During Elections",
           "slug": "/research/154-platform-governance-during-elections",
           "excerpt": "Exploring the challenges and opportunities of regulating online platforms to safeguard electoral integrity in the age of AI."
+        },
+        {
+          "title": "AI-Generated Disinformation: Detection and Response",
+          "slug": "/research/158-ai-generated-disinformation-detection-and-response",
+          "excerpt": "An analysis of AI's role in generating disinformation, current detection methodologies, and policy responses to mitigate its impact."
         }
       ]
     },
@@ -6296,6 +6306,45 @@
           "title": "Information Integrity Standards for AI Outputs",
           "slug": "/research/157-information-integrity-standards-for-ai-outputs",
           "excerpt": "Developing robust information integrity standards for AI-generated outputs is critical for addressing misinformation risks and ensuring trust in automated systems."
+        }
+      ]
+    },
+    {
+      "id": "content moderation",
+      "title": "content moderation",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI-Generated Disinformation: Detection and Response",
+          "slug": "/research/158-ai-generated-disinformation-detection-and-response",
+          "excerpt": "An analysis of AI's role in generating disinformation, current detection methodologies, and policy responses to mitigate its impact."
+        }
+      ]
+    },
+    {
+      "id": "detection methods",
+      "title": "detection methods",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI-Generated Disinformation: Detection and Response",
+          "slug": "/research/158-ai-generated-disinformation-detection-and-response",
+          "excerpt": "An analysis of AI's role in generating disinformation, current detection methodologies, and policy responses to mitigate its impact."
+        }
+      ]
+    },
+    {
+      "id": "policy responses",
+      "title": "policy responses",
+      "group": "governance",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI-Generated Disinformation: Detection and Response",
+          "slug": "/research/158-ai-generated-disinformation-detection-and-response",
+          "excerpt": "An analysis of AI's role in generating disinformation, current detection methodologies, and policy responses to mitigate its impact."
         }
       ]
     }
@@ -11789,6 +11838,56 @@
     {
       "source": "accountability",
       "target": "trust",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "disinformation",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "content moderation",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "detection methods",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "policy responses",
+      "value": 1
+    },
+    {
+      "source": "content moderation",
+      "target": "disinformation",
+      "value": 1
+    },
+    {
+      "source": "detection methods",
+      "target": "disinformation",
+      "value": 1
+    },
+    {
+      "source": "disinformation",
+      "target": "policy responses",
+      "value": 1
+    },
+    {
+      "source": "content moderation",
+      "target": "detection methods",
+      "value": 1
+    },
+    {
+      "source": "content moderation",
+      "target": "policy responses",
+      "value": 1
+    },
+    {
+      "source": "detection methods",
+      "target": "policy responses",
       "value": 1
     }
   ]

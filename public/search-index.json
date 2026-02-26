@@ -1,5 +1,25 @@
 [
   {
+    "id": 158,
+    "title": "AI-Generated Disinformation: Detection and Response",
+    "excerpt": "An analysis of AI's role in generating disinformation, current detection methodologies, and policy responses to mitigate its impact.",
+    "slug": "158-ai-generated-disinformation-detection-and-response",
+    "date": "2026-02-26",
+    "tags": [
+      "ai-safety",
+      "disinformation",
+      "content moderation",
+      "detection methods",
+      "policy responses"
+    ],
+    "categories": [
+      "AI Governance",
+      "Disinformation",
+      "Policy"
+    ],
+    "body": "Introduction AI-generated disinformation has emerged as a critical challenge in the digital age. The capacity of advanced AI systems, particularly large language models (LLMs), to produce highly convincing text, images, and videos has raised pressing concerns about their misuse in spreading falsehoods and manipulating public opinion. Disinformation campaigns powered by AI are not only faster and more scalable than traditional methods but also more difficult to detect, given the sophistication of"
+  },
+  {
     "id": 157,
     "title": "Information Integrity Standards for AI Outputs",
     "excerpt": "Developing robust information integrity standards for AI-generated outputs is critical for addressing misinformation risks and ensuring trust in automated systems.",

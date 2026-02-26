@@ -333,7 +333,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 157. [x] Information Integrity Standards for AI Outputs [R][A]
     A machine-readable specification for AI systems to flag output reliability, source quality, and epistemic confidence levels in structured metadata.
 
-158. [ ] AI-Generated Disinformation: Detection and Response [R][P]
+158. [x] AI-Generated Disinformation: Detection and Response [R][P]
     Technical detection methods and governance frameworks for identifying and responding to AI-generated disinformation campaigns at scale.
 
 159. [ ] Voter Data and AI: Privacy Implications [P]
