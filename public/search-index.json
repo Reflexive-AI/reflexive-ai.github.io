@@ -1,5 +1,23 @@
 [
   {
+    "id": 164,
+    "title": "AI-Enabled Cyber Operations: Governance Gaps",
+    "excerpt": "Examining the challenges posed by AI-driven cyber operations and the gaps in governance frameworks that undermine effective oversight and mitigation.",
+    "slug": "164-ai-enabled-cyber-operations-governance-gaps",
+    "date": "2026-02-27",
+    "tags": [
+      "ai-enabled-cybersecurity",
+      "cyber-operations",
+      "governance-gaps",
+      "ai-regulation"
+    ],
+    "categories": [
+      "Cybersecurity",
+      "Governance Analysis"
+    ],
+    "body": "Reflexive Research Object 164 Type: Governance Analysis & Risk Identification Introduction The convergence of artificial intelligence (AI) and cybersecurity has transformed the landscape of cyber operations. AI-enabled systems are now deployed in offensive and defensive cyber strategies, from automating vulnerability detection to launching sophisticated phishing campaigns. While these advancements have introduced new capabilities, they have also exposed critical governance gaps. Existing regulat"
+  },
+  {
     "id": 163,
     "title": "Autonomous Targeting and International Humanitarian Law",
     "excerpt": "Examining the implications of autonomous targeting systems for International Humanitarian Law, including the principles of distinction, proportionality, and accountability.",

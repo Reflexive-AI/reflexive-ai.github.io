@@ -5591,7 +5591,7 @@
       "id": "ai-regulation",
       "title": "ai-regulation",
       "group": "governance",
-      "val": 11,
+      "val": 13,
       "articles": [
         {
           "title": "India's AI Governance Approach: A Case Study",
@@ -5607,6 +5607,11 @@
           "title": "Voter Data and AI: Privacy Implications",
           "slug": "/research/159-voter-data-and-ai-privacy-implications",
           "excerpt": "Examining how AI's use of voter data challenges privacy norms, the risks posed by algorithmic processing, and the need for robust governance frameworks."
+        },
+        {
+          "title": "AI-Enabled Cyber Operations: Governance Gaps",
+          "slug": "/research/164-ai-enabled-cyber-operations-governance-gaps",
+          "excerpt": "Examining the challenges posed by AI-driven cyber operations and the gaps in governance frameworks that undermine effective oversight and mitigation."
         }
       ]
     },
@@ -6545,6 +6550,45 @@
           "title": "Autonomous Targeting and International Humanitarian Law",
           "slug": "/research/163-autonomous-targeting-and-international-humanitaria",
           "excerpt": "Examining the implications of autonomous targeting systems for International Humanitarian Law, including the principles of distinction, proportionality, and accountability."
+        }
+      ]
+    },
+    {
+      "id": "ai-enabled-cybersecurity",
+      "title": "ai-enabled-cybersecurity",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI-Enabled Cyber Operations: Governance Gaps",
+          "slug": "/research/164-ai-enabled-cyber-operations-governance-gaps",
+          "excerpt": "Examining the challenges posed by AI-driven cyber operations and the gaps in governance frameworks that undermine effective oversight and mitigation."
+        }
+      ]
+    },
+    {
+      "id": "cyber-operations",
+      "title": "cyber-operations",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI-Enabled Cyber Operations: Governance Gaps",
+          "slug": "/research/164-ai-enabled-cyber-operations-governance-gaps",
+          "excerpt": "Examining the challenges posed by AI-driven cyber operations and the gaps in governance frameworks that undermine effective oversight and mitigation."
+        }
+      ]
+    },
+    {
+      "id": "governance-gaps",
+      "title": "governance-gaps",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI-Enabled Cyber Operations: Governance Gaps",
+          "slug": "/research/164-ai-enabled-cyber-operations-governance-gaps",
+          "excerpt": "Examining the challenges posed by AI-driven cyber operations and the gaps in governance frameworks that undermine effective oversight and mitigation."
         }
       ]
     }
@@ -12298,6 +12342,36 @@
     {
       "source": "accountability",
       "target": "proportionality",
+      "value": 1
+    },
+    {
+      "source": "ai-enabled-cybersecurity",
+      "target": "cyber-operations",
+      "value": 1
+    },
+    {
+      "source": "ai-enabled-cybersecurity",
+      "target": "governance-gaps",
+      "value": 1
+    },
+    {
+      "source": "ai-enabled-cybersecurity",
+      "target": "ai-regulation",
+      "value": 1
+    },
+    {
+      "source": "cyber-operations",
+      "target": "governance-gaps",
+      "value": 1
+    },
+    {
+      "source": "ai-regulation",
+      "target": "cyber-operations",
+      "value": 1
+    },
+    {
+      "source": "ai-regulation",
+      "target": "governance-gaps",
       "value": 1
     }
   ]

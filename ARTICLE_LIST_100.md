@@ -355,7 +355,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 163. [x] Autonomous Targeting and International Humanitarian Law [R]
     Whether the existing laws of armed conflict (distinction, proportionality, precaution) adequately constrain AI-driven targeting decisions, or require new protocols.
 
-164. [ ] AI-Enabled Cyber Operations: Governance Gaps [R][P]
+164. [x] AI-Enabled Cyber Operations: Governance Gaps [R][P]
     How autonomous cyber-attack and defense tools fit (or fail to fit) within existing arms control, international law, and norms frameworks.
 
 165. [ ] Dual-Use AI Research and National Security [R][P]
