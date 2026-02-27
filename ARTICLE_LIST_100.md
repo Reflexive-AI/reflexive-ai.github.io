@@ -352,7 +352,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 162. [x] Meaningful Human Control: Operationalizing the Standard [R]
     Technical and procedural definitions of what constitutes meaningful human control over autonomous weapons, moving beyond aspirational language to testable criteria.
 
-163. [ ] Autonomous Targeting and International Humanitarian Law [R]
+163. [x] Autonomous Targeting and International Humanitarian Law [R]
     Whether the existing laws of armed conflict (distinction, proportionality, precaution) adequately constrain AI-driven targeting decisions, or require new protocols.
 
 164. [ ] AI-Enabled Cyber Operations: Governance Gaps [R][P]

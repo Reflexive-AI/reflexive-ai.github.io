@@ -1,5 +1,25 @@
 [
   {
+    "id": 163,
+    "title": "Autonomous Targeting and International Humanitarian Law",
+    "excerpt": "Examining the implications of autonomous targeting systems for International Humanitarian Law, including the principles of distinction, proportionality, and accountability.",
+    "slug": "163-autonomous-targeting-and-international-humanitaria",
+    "date": "2026-02-27",
+    "tags": [
+      "autonomous-weapons",
+      "international-humanitarian-law",
+      "ai-governance",
+      "accountability",
+      "proportionality"
+    ],
+    "categories": [
+      "AI Governance",
+      "Military Ethics",
+      "International Law"
+    ],
+    "body": "Reflexive Research Object 163 Type: Research & Governance Analysis Introduction The integration of artificial intelligence (AI) into military systems has raised profound ethical, legal, and technical questions, particularly concerning autonomous targeting systems. These systems, capable of identifying and engaging targets with minimal or no human intervention, challenge the foundational principles of International Humanitarian Law (IHL). IHL, also known as the Law of Armed Conflict, is designed "
+  },
+  {
     "id": 162,
     "title": "Meaningful Human Control: Operationalizing the Standard",
     "excerpt": "Examining how the principle of meaningful human control can be systematically embedded in AI systems, with a focus on practical frameworks and governance mechanisms.",

@@ -243,12 +243,17 @@
       "id": "proportionality",
       "title": "proportionality",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Operationalizing Proportionality in Model Disclosure",
           "slug": "/research/001-proportionality-disclosure",
           "excerpt": "How disclosure requirements should scale with model capability, moving from static to reflexive transparency."
+        },
+        {
+          "title": "Autonomous Targeting and International Humanitarian Law",
+          "slug": "/research/163-autonomous-targeting-and-international-humanitaria",
+          "excerpt": "Examining the implications of autonomous targeting systems for International Humanitarian Law, including the principles of distinction, proportionality, and accountability."
         }
       ]
     },
@@ -2582,6 +2587,11 @@
           "title": "The Right to Know You Are Talking to AI",
           "slug": "/research/160-the-right-to-know-you-are-talking-to-ai",
           "excerpt": "Examining the ethical, legal, and societal implications of requiring AI systems to disclose their non-human identity in human interactions."
+        },
+        {
+          "title": "Autonomous Targeting and International Humanitarian Law",
+          "slug": "/research/163-autonomous-targeting-and-international-humanitaria",
+          "excerpt": "Examining the implications of autonomous targeting systems for International Humanitarian Law, including the principles of distinction, proportionality, and accountability."
         }
       ]
     },
@@ -2826,6 +2836,11 @@
           "title": "Meaningful Human Control: Operationalizing the Standard",
           "slug": "/research/162-meaningful-human-control-operationalizing-the-stan",
           "excerpt": "Examining how the principle of meaningful human control can be systematically embedded in AI systems, with a focus on practical frameworks and governance mechanisms."
+        },
+        {
+          "title": "Autonomous Targeting and International Humanitarian Law",
+          "slug": "/research/163-autonomous-targeting-and-international-humanitaria",
+          "excerpt": "Examining the implications of autonomous targeting systems for International Humanitarian Law, including the principles of distinction, proportionality, and accountability."
         }
       ]
     },
@@ -6506,6 +6521,32 @@
           "excerpt": "Examining how the principle of meaningful human control can be systematically embedded in AI systems, with a focus on practical frameworks and governance mechanisms."
         }
       ]
+    },
+    {
+      "id": "autonomous-weapons",
+      "title": "autonomous-weapons",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Autonomous Targeting and International Humanitarian Law",
+          "slug": "/research/163-autonomous-targeting-and-international-humanitaria",
+          "excerpt": "Examining the implications of autonomous targeting systems for International Humanitarian Law, including the principles of distinction, proportionality, and accountability."
+        }
+      ]
+    },
+    {
+      "id": "international-humanitarian-law",
+      "title": "international-humanitarian-law",
+      "group": "governance",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Autonomous Targeting and International Humanitarian Law",
+          "slug": "/research/163-autonomous-targeting-and-international-humanitaria",
+          "excerpt": "Examining the implications of autonomous targeting systems for International Humanitarian Law, including the principles of distinction, proportionality, and accountability."
+        }
+      ]
     }
   ],
   "links": [
@@ -8052,7 +8093,7 @@
     {
       "source": "accountability",
       "target": "ai-governance",
-      "value": 1
+      "value": 2
     },
     {
       "source": "governance",
@@ -12212,6 +12253,51 @@
     {
       "source": "oversight",
       "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "autonomous-weapons",
+      "target": "international-humanitarian-law",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "autonomous-weapons",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "autonomous-weapons",
+      "value": 1
+    },
+    {
+      "source": "autonomous-weapons",
+      "target": "proportionality",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "international-humanitarian-law",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "international-humanitarian-law",
+      "value": 1
+    },
+    {
+      "source": "international-humanitarian-law",
+      "target": "proportionality",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "proportionality",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "proportionality",
       "value": 1
     }
   ]
