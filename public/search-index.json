@@ -1,5 +1,23 @@
 [
   {
+    "id": 162,
+    "title": "Meaningful Human Control: Operationalizing the Standard",
+    "excerpt": "Examining how the principle of meaningful human control can be systematically embedded in AI systems, with a focus on practical frameworks and governance mechanisms.",
+    "slug": "162-meaningful-human-control-operationalizing-the-stan",
+    "date": "2026-02-27",
+    "tags": [
+      "human control",
+      "accountability",
+      "operational frameworks",
+      "safety",
+      "oversight"
+    ],
+    "categories": [
+      "AI Governance"
+    ],
+    "body": "Reflexive Research Object 162 Type: Research & Governance Framework Introduction The principle of \"meaningful human control\" has emerged as a cornerstone in discussions about AI governance and safety. It encapsulates the idea that human decision-makers should retain oversight and authority over critical decisions made by artificial intelligence systems. Whether applied to autonomous vehicles, content moderation algorithms, or military-grade autonomous weapons systems, meaningful human control is"
+  },
+  {
     "id": 161,
     "title": "Autonomous Weapons: The State of Treaty Negotiations",
     "excerpt": "An analysis of the current status, challenges, and progress in global treaty negotiations concerning autonomous weapons systems.",

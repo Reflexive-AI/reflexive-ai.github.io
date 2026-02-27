@@ -349,7 +349,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 161. [x] Autonomous Weapons: The State of Treaty Negotiations [R][P]
     An updated assessment of international legal efforts to regulate lethal autonomous weapons systems as of 2026, including the CCW process and alternative frameworks.
 
-162. [ ] Meaningful Human Control: Operationalizing the Standard [R]
+162. [x] Meaningful Human Control: Operationalizing the Standard [R]
     Technical and procedural definitions of what constitutes meaningful human control over autonomous weapons, moving beyond aspirational language to testable criteria.
 
 163. [ ] Autonomous Targeting and International Humanitarian Law [R]

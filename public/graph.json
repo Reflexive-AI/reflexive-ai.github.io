@@ -543,6 +543,11 @@
           "title": "Benchmarking AI Safety: Beyond Capability Evaluations",
           "slug": "/research/144-benchmarking-ai-safety-beyond-capability-evaluatio",
           "excerpt": "Expanding the scope of AI safety benchmarks to include sociotechnical risks, governance considerations, and real-world impact assessments."
+        },
+        {
+          "title": "Meaningful Human Control: Operationalizing the Standard",
+          "slug": "/research/162-meaningful-human-control-operationalizing-the-stan",
+          "excerpt": "Examining how the principle of meaningful human control can be systematically embedded in AI systems, with a focus on practical frameworks and governance mechanisms."
         }
       ]
     },
@@ -2816,6 +2821,11 @@
           "title": "Information Integrity Standards for AI Outputs",
           "slug": "/research/157-information-integrity-standards-for-ai-outputs",
           "excerpt": "Developing robust information integrity standards for AI-generated outputs is critical for addressing misinformation risks and ensuring trust in automated systems."
+        },
+        {
+          "title": "Meaningful Human Control: Operationalizing the Standard",
+          "slug": "/research/162-meaningful-human-control-operationalizing-the-stan",
+          "excerpt": "Examining how the principle of meaningful human control can be systematically embedded in AI systems, with a focus on practical frameworks and governance mechanisms."
         }
       ]
     },
@@ -3050,7 +3060,7 @@
       "id": "oversight",
       "title": "oversight",
       "group": "concept",
-      "val": 11,
+      "val": 13,
       "articles": [
         {
           "title": "The Governance Paradox: When AI Systems Are Better Regulators Than Humans",
@@ -3066,6 +3076,11 @@
           "title": "Recursive Self-Improvement: Governance Implications",
           "slug": "/research/087-recursive-self-improvement-governance-implications",
           "excerpt": "Examining the governance challenges posed by recursive self-improvement in AI systems, with a focus on safety, accountability, and oversight."
+        },
+        {
+          "title": "Meaningful Human Control: Operationalizing the Standard",
+          "slug": "/research/162-meaningful-human-control-operationalizing-the-stan",
+          "excerpt": "Examining how the principle of meaningful human control can be systematically embedded in AI systems, with a focus on practical frameworks and governance mechanisms."
         }
       ]
     },
@@ -6465,6 +6480,32 @@
           "excerpt": "An analysis of the current status, challenges, and progress in global treaty negotiations concerning autonomous weapons systems."
         }
       ]
+    },
+    {
+      "id": "human control",
+      "title": "human control",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Meaningful Human Control: Operationalizing the Standard",
+          "slug": "/research/162-meaningful-human-control-operationalizing-the-stan",
+          "excerpt": "Examining how the principle of meaningful human control can be systematically embedded in AI systems, with a focus on practical frameworks and governance mechanisms."
+        }
+      ]
+    },
+    {
+      "id": "operational frameworks",
+      "title": "operational frameworks",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Meaningful Human Control: Operationalizing the Standard",
+          "slug": "/research/162-meaningful-human-control-operationalizing-the-stan",
+          "excerpt": "Examining how the principle of meaningful human control can be systematically embedded in AI systems, with a focus on practical frameworks and governance mechanisms."
+        }
+      ]
     }
   ],
   "links": [
@@ -8001,7 +8042,7 @@
     {
       "source": "accountability",
       "target": "safety",
-      "value": 3
+      "value": 4
     },
     {
       "source": "ai-governance",
@@ -12126,6 +12167,51 @@
     {
       "source": "arms control",
       "target": "international law",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "human control",
+      "value": 1
+    },
+    {
+      "source": "human control",
+      "target": "operational frameworks",
+      "value": 1
+    },
+    {
+      "source": "human control",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "human control",
+      "target": "oversight",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "operational frameworks",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "oversight",
+      "value": 1
+    },
+    {
+      "source": "operational frameworks",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "operational frameworks",
+      "target": "oversight",
+      "value": 1
+    },
+    {
+      "source": "oversight",
+      "target": "safety",
       "value": 1
     }
   ]
