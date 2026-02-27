@@ -346,7 +346,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 
 *Military AI governance, from treaty negotiations to escalation dynamics.*
 
-161. [ ] Autonomous Weapons: The State of Treaty Negotiations [R][P]
+161. [x] Autonomous Weapons: The State of Treaty Negotiations [R][P]
     An updated assessment of international legal efforts to regulate lethal autonomous weapons systems as of 2026, including the CCW process and alternative frameworks.
 
 162. [ ] Meaningful Human Control: Operationalizing the Standard [R]

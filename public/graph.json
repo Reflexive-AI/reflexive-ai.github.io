@@ -2893,7 +2893,7 @@
       "id": "ai safety",
       "title": "AI safety",
       "group": "concept",
-      "val": 21,
+      "val": 23,
       "articles": [
         {
           "title": "Differential Privacy in AI Systems",
@@ -2934,6 +2934,11 @@
           "title": "Audit Trail Analysis: Detecting Governance Failures",
           "slug": "/research/146-audit-trail-analysis-detecting-governance-failures",
           "excerpt": "Exploring how audit trails can be used to identify and address governance failures in AI systems, with a focus on transparency, accountability, and systemic oversight."
+        },
+        {
+          "title": "Autonomous Weapons: The State of Treaty Negotiations",
+          "slug": "/research/161-autonomous-weapons-the-state-of-treaty-negotiation",
+          "excerpt": "An analysis of the current status, challenges, and progress in global treaty negotiations concerning autonomous weapons systems."
         }
       ]
     },
@@ -6406,6 +6411,58 @@
           "title": "Voter Data and AI: Privacy Implications",
           "slug": "/research/159-voter-data-and-ai-privacy-implications",
           "excerpt": "Examining how AI's use of voter data challenges privacy norms, the risks posed by algorithmic processing, and the need for robust governance frameworks."
+        }
+      ]
+    },
+    {
+      "id": "autonomous weapons",
+      "title": "autonomous weapons",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Autonomous Weapons: The State of Treaty Negotiations",
+          "slug": "/research/161-autonomous-weapons-the-state-of-treaty-negotiation",
+          "excerpt": "An analysis of the current status, challenges, and progress in global treaty negotiations concerning autonomous weapons systems."
+        }
+      ]
+    },
+    {
+      "id": "treaty negotiations",
+      "title": "treaty negotiations",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Autonomous Weapons: The State of Treaty Negotiations",
+          "slug": "/research/161-autonomous-weapons-the-state-of-treaty-negotiation",
+          "excerpt": "An analysis of the current status, challenges, and progress in global treaty negotiations concerning autonomous weapons systems."
+        }
+      ]
+    },
+    {
+      "id": "arms control",
+      "title": "arms control",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Autonomous Weapons: The State of Treaty Negotiations",
+          "slug": "/research/161-autonomous-weapons-the-state-of-treaty-negotiation",
+          "excerpt": "An analysis of the current status, challenges, and progress in global treaty negotiations concerning autonomous weapons systems."
+        }
+      ]
+    },
+    {
+      "id": "international law",
+      "title": "international law",
+      "group": "governance",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Autonomous Weapons: The State of Treaty Negotiations",
+          "slug": "/research/161-autonomous-weapons-the-state-of-treaty-negotiation",
+          "excerpt": "An analysis of the current status, challenges, and progress in global treaty negotiations concerning autonomous weapons systems."
         }
       ]
     }
@@ -12019,6 +12076,56 @@
     {
       "source": "disclosure",
       "target": "ethics",
+      "value": 1
+    },
+    {
+      "source": "autonomous weapons",
+      "target": "treaty negotiations",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "autonomous weapons",
+      "value": 1
+    },
+    {
+      "source": "arms control",
+      "target": "autonomous weapons",
+      "value": 1
+    },
+    {
+      "source": "autonomous weapons",
+      "target": "international law",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "treaty negotiations",
+      "value": 1
+    },
+    {
+      "source": "arms control",
+      "target": "treaty negotiations",
+      "value": 1
+    },
+    {
+      "source": "international law",
+      "target": "treaty negotiations",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "arms control",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "international law",
+      "value": 1
+    },
+    {
+      "source": "arms control",
+      "target": "international law",
       "value": 1
     }
   ]

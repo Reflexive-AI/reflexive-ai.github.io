@@ -1,5 +1,24 @@
 [
   {
+    "id": 161,
+    "title": "Autonomous Weapons: The State of Treaty Negotiations",
+    "excerpt": "An analysis of the current status, challenges, and progress in global treaty negotiations concerning autonomous weapons systems.",
+    "slug": "161-autonomous-weapons-the-state-of-treaty-negotiation",
+    "date": "2026-02-27",
+    "tags": [
+      "autonomous weapons",
+      "treaty negotiations",
+      "AI safety",
+      "arms control",
+      "international law"
+    ],
+    "categories": [
+      "AI Governance",
+      "International Policy"
+    ],
+    "body": "Introduction The rise of autonomous weapons systems (AWS) has transformed the landscape of modern warfare and arms control. AWS are systems that use artificial intelligence to select and engage targets without human intervention. While proponents argue that these systems can reduce human casualties by increasing precision and efficiency, critics warn of severe ethical, legal, and geopolitical risks. Autonomous weapons pose unique challenges for international governance, particularly given their "
+  },
+  {
     "id": 160,
     "title": "The Right to Know You Are Talking to AI",
     "excerpt": "Examining the ethical, legal, and societal implications of requiring AI systems to disclose their non-human identity in human interactions.",
