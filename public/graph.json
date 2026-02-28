@@ -6514,12 +6514,17 @@
       "id": "arms control",
       "title": "arms control",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Autonomous Weapons: The State of Treaty Negotiations",
           "slug": "/research/161-autonomous-weapons-the-state-of-treaty-negotiation",
           "excerpt": "An analysis of the current status, challenges, and progress in global treaty negotiations concerning autonomous weapons systems."
+        },
+        {
+          "title": "Non-Proliferation Frameworks for AI Weapons",
+          "slug": "/research/168-non-proliferation-frameworks-for-ai-weapons",
+          "excerpt": "Examining the development of international frameworks to prevent the proliferation of AI-enabled weaponry, drawing from historical arms control agreements and addressing the unique challenges presented by AI."
         }
       ]
     },
@@ -6701,12 +6706,56 @@
       "id": "international security",
       "title": "international security",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Escalation Risks from Autonomous Military Systems",
           "slug": "/research/167-escalation-risks-from-autonomous-military-systems",
           "excerpt": "Analyzing how autonomous military systems increase the likelihood of unintended conflict escalation, with policy options to mitigate these risks."
+        },
+        {
+          "title": "Non-Proliferation Frameworks for AI Weapons",
+          "slug": "/research/168-non-proliferation-frameworks-for-ai-weapons",
+          "excerpt": "Examining the development of international frameworks to prevent the proliferation of AI-enabled weaponry, drawing from historical arms control agreements and addressing the unique challenges presented by AI."
+        }
+      ]
+    },
+    {
+      "id": "non-proliferation",
+      "title": "non-proliferation",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Non-Proliferation Frameworks for AI Weapons",
+          "slug": "/research/168-non-proliferation-frameworks-for-ai-weapons",
+          "excerpt": "Examining the development of international frameworks to prevent the proliferation of AI-enabled weaponry, drawing from historical arms control agreements and addressing the unique challenges presented by AI."
+        }
+      ]
+    },
+    {
+      "id": "ai weapons",
+      "title": "AI weapons",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Non-Proliferation Frameworks for AI Weapons",
+          "slug": "/research/168-non-proliferation-frameworks-for-ai-weapons",
+          "excerpt": "Examining the development of international frameworks to prevent the proliferation of AI-enabled weaponry, drawing from historical arms control agreements and addressing the unique challenges presented by AI."
+        }
+      ]
+    },
+    {
+      "id": "governance frameworks",
+      "title": "governance frameworks",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Non-Proliferation Frameworks for AI Weapons",
+          "slug": "/research/168-non-proliferation-frameworks-for-ai-weapons",
+          "excerpt": "Examining the development of international frameworks to prevent the proliferation of AI-enabled weaponry, drawing from historical arms control agreements and addressing the unique challenges presented by AI."
         }
       ]
     }
@@ -12615,6 +12664,56 @@
     {
       "source": "ai governance",
       "target": "international security",
+      "value": 1
+    },
+    {
+      "source": "ai weapons",
+      "target": "non-proliferation",
+      "value": 1
+    },
+    {
+      "source": "international security",
+      "target": "non-proliferation",
+      "value": 1
+    },
+    {
+      "source": "arms control",
+      "target": "non-proliferation",
+      "value": 1
+    },
+    {
+      "source": "governance frameworks",
+      "target": "non-proliferation",
+      "value": 1
+    },
+    {
+      "source": "ai weapons",
+      "target": "international security",
+      "value": 1
+    },
+    {
+      "source": "ai weapons",
+      "target": "arms control",
+      "value": 1
+    },
+    {
+      "source": "ai weapons",
+      "target": "governance frameworks",
+      "value": 1
+    },
+    {
+      "source": "arms control",
+      "target": "international security",
+      "value": 1
+    },
+    {
+      "source": "governance frameworks",
+      "target": "international security",
+      "value": 1
+    },
+    {
+      "source": "arms control",
+      "target": "governance frameworks",
       "value": 1
     }
   ]

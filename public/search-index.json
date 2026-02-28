@@ -1,5 +1,24 @@
 [
   {
+    "id": 168,
+    "title": "Non-Proliferation Frameworks for AI Weapons",
+    "excerpt": "Examining the development of international frameworks to prevent the proliferation of AI-enabled weaponry, drawing from historical arms control agreements and addressing the unique challenges presented by AI.",
+    "slug": "168-non-proliferation-frameworks-for-ai-weapons",
+    "date": "2026-02-28",
+    "tags": [
+      "non-proliferation",
+      "AI weapons",
+      "international security",
+      "arms control",
+      "governance frameworks"
+    ],
+    "categories": [
+      "AI Governance",
+      "Security Policy"
+    ],
+    "body": "Introduction The rapid advancement of artificial intelligence poses unprecedented challenges to global security. Among the most pressing concerns is the potential proliferation of AI-enabled weapons: systems that use machine learning or other AI techniques to enhance targeting, decision-making, or autonomous action in combat scenarios. These technologies, often referred to as lethal autonomous weapon systems (LAWS), are not only reshaping traditional military capabilities but also raising profou"
+  },
+  {
     "id": 167,
     "title": "Escalation Risks from Autonomous Military Systems",
     "excerpt": "Analyzing how autonomous military systems increase the likelihood of unintended conflict escalation, with policy options to mitigate these risks.",

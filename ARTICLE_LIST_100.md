@@ -367,7 +367,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 167. [x] Escalation Risks from Autonomous Military Systems [R][P]
     How AI-driven speed in military decision-making compresses response timelines, increases escalation risks, and reduces crisis stability between nuclear-armed states.
 
-168. [ ] Non-Proliferation Frameworks for AI Weapons [R]
+168. [x] Non-Proliferation Frameworks for AI Weapons [R]
     Adapting nuclear non-proliferation treaty structures, verification mechanisms, and enforcement tools for application to AI weapons systems.
 
 169. [ ] Private Military AI: Contractor Accountability [R][P]
