@@ -358,7 +358,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 164. [x] AI-Enabled Cyber Operations: Governance Gaps [R][P]
     How autonomous cyber-attack and defense tools fit (or fail to fit) within existing arms control, international law, and norms frameworks.
 
-165. [ ] Dual-Use AI Research and National Security [R][P]
+165. [x] Dual-Use AI Research and National Security [R][P]
     How national security classification and export control considerations interact with open publication norms in AI research, creating tension between safety and openness.
 
 166. [ ] Defense Procurement and AI Safety Standards [R][P]

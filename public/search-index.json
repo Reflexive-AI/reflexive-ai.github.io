@@ -1,5 +1,24 @@
 [
   {
+    "id": 165,
+    "title": "Dual-Use AI Research and National Security",
+    "excerpt": "Exploring the dual-use nature of artificial intelligence research, its implications for national security, and the governance structures needed to manage associated risks.",
+    "slug": "165-dual-use-ai-research-and-national-security",
+    "date": "2026-02-28",
+    "tags": [
+      "dual-use technology",
+      "ai governance",
+      "national security",
+      "risk management",
+      "policy"
+    ],
+    "categories": [
+      "AI Governance",
+      "National Security"
+    ],
+    "body": "Reflexive Research Object 165 Type: Research & Policy Introduction: The Dual-Use Dilemma in AI Artificial intelligence (AI) research occupies a unique and paradoxical space in science and technology: its rapid advancements promise transformative benefits across sectors, yet these same advancements can be repurposed for harmful applications. This \"dual-use\" nature of AI presents profound challenges for national security, as well as for the governance mechanisms tasked with mitigating risks while "
+  },
+  {
     "id": 164,
     "title": "AI-Enabled Cyber Operations: Governance Gaps",
     "excerpt": "Examining the challenges posed by AI-driven cyber operations and the gaps in governance frameworks that undermine effective oversight and mitigation.",

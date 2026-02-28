@@ -914,6 +914,11 @@
           "title": "Measuring AI Governance Effectiveness",
           "slug": "/research/141-measuring-ai-governance-effectiveness",
           "excerpt": "Defining and assessing metrics for evaluating the success of AI governance frameworks in ensuring safe, ethical, and equitable AI deployment."
+        },
+        {
+          "title": "Dual-Use AI Research and National Security",
+          "slug": "/research/165-dual-use-ai-research-and-national-security",
+          "excerpt": "Exploring the dual-use nature of artificial intelligence research, its implications for national security, and the governance structures needed to manage associated risks."
         }
       ]
     },
@@ -2625,7 +2630,7 @@
       "id": "ai governance",
       "title": "ai governance",
       "group": "concept",
-      "val": 21,
+      "val": 23,
       "articles": [
         {
           "title": "Rate Limiting and Abuse Detection",
@@ -2666,6 +2671,11 @@
           "title": "AI-Powered Political Micro-Targeting: Governance Options",
           "slug": "/research/153-ai-powered-political-micro-targeting-governance-op",
           "excerpt": "Exploring regulatory frameworks and policy interventions to address the challenges posed by AI-driven political micro-targeting in democratic societies."
+        },
+        {
+          "title": "Dual-Use AI Research and National Security",
+          "slug": "/research/165-dual-use-ai-research-and-national-security",
+          "excerpt": "Exploring the dual-use nature of artificial intelligence research, its implications for national security, and the governance structures needed to manage associated risks."
         }
       ]
     },
@@ -4970,12 +4980,17 @@
       "id": "national security",
       "title": "national security",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Digital Sovereignty and AI Infrastructure",
           "slug": "/research/110-digital-sovereignty-and-ai-infrastructure",
           "excerpt": "Exploring the interplay between national autonomy and the globalized AI infrastructure landscape, highlighting challenges of governance, security, and equitable access."
+        },
+        {
+          "title": "Dual-Use AI Research and National Security",
+          "slug": "/research/165-dual-use-ai-research-and-national-security",
+          "excerpt": "Exploring the dual-use nature of artificial intelligence research, its implications for national security, and the governance structures needed to manage associated risks."
         }
       ]
     },
@@ -6589,6 +6604,32 @@
           "title": "AI-Enabled Cyber Operations: Governance Gaps",
           "slug": "/research/164-ai-enabled-cyber-operations-governance-gaps",
           "excerpt": "Examining the challenges posed by AI-driven cyber operations and the gaps in governance frameworks that undermine effective oversight and mitigation."
+        }
+      ]
+    },
+    {
+      "id": "dual-use technology",
+      "title": "dual-use technology",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Dual-Use AI Research and National Security",
+          "slug": "/research/165-dual-use-ai-research-and-national-security",
+          "excerpt": "Exploring the dual-use nature of artificial intelligence research, its implications for national security, and the governance structures needed to manage associated risks."
+        }
+      ]
+    },
+    {
+      "id": "risk management",
+      "title": "risk management",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Dual-Use AI Research and National Security",
+          "slug": "/research/165-dual-use-ai-research-and-national-security",
+          "excerpt": "Exploring the dual-use nature of artificial intelligence research, its implications for national security, and the governance structures needed to manage associated risks."
         }
       ]
     }
@@ -12372,6 +12413,56 @@
     {
       "source": "ai-regulation",
       "target": "governance-gaps",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "dual-use technology",
+      "value": 1
+    },
+    {
+      "source": "dual-use technology",
+      "target": "national security",
+      "value": 1
+    },
+    {
+      "source": "dual-use technology",
+      "target": "risk management",
+      "value": 1
+    },
+    {
+      "source": "dual-use technology",
+      "target": "policy",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "national security",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "risk management",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "policy",
+      "value": 1
+    },
+    {
+      "source": "national security",
+      "target": "risk management",
+      "value": 1
+    },
+    {
+      "source": "national security",
+      "target": "policy",
+      "value": 1
+    },
+    {
+      "source": "policy",
+      "target": "risk management",
       "value": 1
     }
   ]
