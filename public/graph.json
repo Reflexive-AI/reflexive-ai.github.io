@@ -622,7 +622,7 @@
       "id": "standards",
       "title": "standards",
       "group": "concept",
-      "val": 21,
+      "val": 23,
       "articles": [
         {
           "title": "A Machine-Readable Constraint Schema (MRCS)",
@@ -663,6 +663,11 @@
           "title": "Information Integrity Standards for AI Outputs",
           "slug": "/research/157-information-integrity-standards-for-ai-outputs",
           "excerpt": "Developing robust information integrity standards for AI-generated outputs is critical for addressing misinformation risks and ensuring trust in automated systems."
+        },
+        {
+          "title": "Defense Procurement and AI Safety Standards",
+          "slug": "/research/166-defense-procurement-and-ai-safety-standards",
+          "excerpt": "Examining the intersection of defense procurement processes and the establishment of robust AI safety standards in military and dual-use technologies."
         }
       ]
     },
@@ -2928,7 +2933,7 @@
       "id": "ai safety",
       "title": "AI safety",
       "group": "concept",
-      "val": 23,
+      "val": 25,
       "articles": [
         {
           "title": "Differential Privacy in AI Systems",
@@ -2974,6 +2979,11 @@
           "title": "Autonomous Weapons: The State of Treaty Negotiations",
           "slug": "/research/161-autonomous-weapons-the-state-of-treaty-negotiation",
           "excerpt": "An analysis of the current status, challenges, and progress in global treaty negotiations concerning autonomous weapons systems."
+        },
+        {
+          "title": "Defense Procurement and AI Safety Standards",
+          "slug": "/research/166-defense-procurement-and-ai-safety-standards",
+          "excerpt": "Examining the intersection of defense procurement processes and the establishment of robust AI safety standards in military and dual-use technologies."
         }
       ]
     },
@@ -6611,12 +6621,17 @@
       "id": "dual-use technology",
       "title": "dual-use technology",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Dual-Use AI Research and National Security",
           "slug": "/research/165-dual-use-ai-research-and-national-security",
           "excerpt": "Exploring the dual-use nature of artificial intelligence research, its implications for national security, and the governance structures needed to manage associated risks."
+        },
+        {
+          "title": "Defense Procurement and AI Safety Standards",
+          "slug": "/research/166-defense-procurement-and-ai-safety-standards",
+          "excerpt": "Examining the intersection of defense procurement processes and the establishment of robust AI safety standards in military and dual-use technologies."
         }
       ]
     },
@@ -6630,6 +6645,32 @@
           "title": "Dual-Use AI Research and National Security",
           "slug": "/research/165-dual-use-ai-research-and-national-security",
           "excerpt": "Exploring the dual-use nature of artificial intelligence research, its implications for national security, and the governance structures needed to manage associated risks."
+        }
+      ]
+    },
+    {
+      "id": "defense procurement",
+      "title": "defense procurement",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Defense Procurement and AI Safety Standards",
+          "slug": "/research/166-defense-procurement-and-ai-safety-standards",
+          "excerpt": "Examining the intersection of defense procurement processes and the establishment of robust AI safety standards in military and dual-use technologies."
+        }
+      ]
+    },
+    {
+      "id": "military ai",
+      "title": "military AI",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Defense Procurement and AI Safety Standards",
+          "slug": "/research/166-defense-procurement-and-ai-safety-standards",
+          "excerpt": "Examining the intersection of defense procurement processes and the establishment of robust AI safety standards in military and dual-use technologies."
         }
       ]
     }
@@ -9338,7 +9379,7 @@
     {
       "source": "ai safety",
       "target": "standards",
-      "value": 1
+      "value": 2
     },
     {
       "source": "accountability",
@@ -12463,6 +12504,51 @@
     {
       "source": "policy",
       "target": "risk management",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "defense procurement",
+      "value": 1
+    },
+    {
+      "source": "defense procurement",
+      "target": "military ai",
+      "value": 1
+    },
+    {
+      "source": "defense procurement",
+      "target": "standards",
+      "value": 1
+    },
+    {
+      "source": "defense procurement",
+      "target": "dual-use technology",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "military ai",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "dual-use technology",
+      "value": 1
+    },
+    {
+      "source": "military ai",
+      "target": "standards",
+      "value": 1
+    },
+    {
+      "source": "dual-use technology",
+      "target": "military ai",
+      "value": 1
+    },
+    {
+      "source": "dual-use technology",
+      "target": "standards",
       "value": 1
     }
   ]

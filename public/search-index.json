@@ -1,5 +1,23 @@
 [
   {
+    "id": 166,
+    "title": "Defense Procurement and AI Safety Standards",
+    "excerpt": "Examining the intersection of defense procurement processes and the establishment of robust AI safety standards in military and dual-use technologies.",
+    "slug": "166-defense-procurement-and-ai-safety-standards",
+    "date": "2026-02-28",
+    "tags": [
+      "defense procurement",
+      "ai safety",
+      "military AI",
+      "standards",
+      "dual-use technology"
+    ],
+    "categories": [
+      "Governance Analysis"
+    ],
+    "body": "Reflexive Research Object 166 Type: Research & Policy Analysis Introduction The integration of artificial intelligence (AI) into defense systems presents both significant opportunities and critical challenges. As militaries worldwide adopt AI to enhance operational capabilities, the need for robust safety standards becomes paramount. Defense procurement—the processes by which governments acquire military technologies—plays a pivotal role in shaping the development, deployment, and oversight of A"
+  },
+  {
     "id": 165,
     "title": "Dual-Use AI Research and National Security",
     "excerpt": "Exploring the dual-use nature of artificial intelligence research, its implications for national security, and the governance structures needed to manage associated risks.",

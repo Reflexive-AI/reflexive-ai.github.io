@@ -361,7 +361,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 165. [x] Dual-Use AI Research and National Security [R][P]
     How national security classification and export control considerations interact with open publication norms in AI research, creating tension between safety and openness.
 
-166. [ ] Defense Procurement and AI Safety Standards [R][P]
+166. [x] Defense Procurement and AI Safety Standards [R][P]
     Whether military AI acquisition processes incorporate safety standards comparable to civilian frameworks, and how defense-specific safety requirements differ.
 
 167. [ ] Escalation Risks from Autonomous Military Systems [R][P]
