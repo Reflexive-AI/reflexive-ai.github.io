@@ -364,7 +364,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 166. [x] Defense Procurement and AI Safety Standards [R][P]
     Whether military AI acquisition processes incorporate safety standards comparable to civilian frameworks, and how defense-specific safety requirements differ.
 
-167. [ ] Escalation Risks from Autonomous Military Systems [R][P]
+167. [x] Escalation Risks from Autonomous Military Systems [R][P]
     How AI-driven speed in military decision-making compresses response timelines, increases escalation risks, and reduces crisis stability between nuclear-armed states.
 
 168. [ ] Non-Proliferation Frameworks for AI Weapons [R]

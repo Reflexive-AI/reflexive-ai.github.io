@@ -1,5 +1,23 @@
 [
   {
+    "id": 167,
+    "title": "Escalation Risks from Autonomous Military Systems",
+    "excerpt": "Analyzing how autonomous military systems increase the likelihood of unintended conflict escalation, with policy options to mitigate these risks.",
+    "slug": "167-escalation-risks-from-autonomous-military-systems",
+    "date": "2026-02-28",
+    "tags": [
+      "autonomous weapons",
+      "escalation risks",
+      "AI governance",
+      "international security"
+    ],
+    "categories": [
+      "Military AI",
+      "Conflict Escalation"
+    ],
+    "body": "Introduction Autonomous military systems, including lethal autonomous weapons (LAWs) and AI-enabled surveillance platforms, are rapidly transforming the nature of warfare. While these systems promise operational efficiencies and reduced human casualties, they also introduce significant risks of unintended conflict escalation. Escalation risks emerge from their inherent unpredictability, lack of human oversight, and the complex interplay of strategic deterrence in multi-actor conflicts. This arti"
+  },
+  {
     "id": 166,
     "title": "Defense Procurement and AI Safety Standards",
     "excerpt": "Examining the intersection of defense procurement processes and the establishment of robust AI safety standards in military and dual-use technologies.",

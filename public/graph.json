@@ -2635,7 +2635,7 @@
       "id": "ai governance",
       "title": "ai governance",
       "group": "concept",
-      "val": 23,
+      "val": 25,
       "articles": [
         {
           "title": "Rate Limiting and Abuse Detection",
@@ -2681,6 +2681,11 @@
           "title": "Dual-Use AI Research and National Security",
           "slug": "/research/165-dual-use-ai-research-and-national-security",
           "excerpt": "Exploring the dual-use nature of artificial intelligence research, its implications for national security, and the governance structures needed to manage associated risks."
+        },
+        {
+          "title": "Escalation Risks from Autonomous Military Systems",
+          "slug": "/research/167-escalation-risks-from-autonomous-military-systems",
+          "excerpt": "Analyzing how autonomous military systems increase the likelihood of unintended conflict escalation, with policy options to mitigate these risks."
         }
       ]
     },
@@ -6478,12 +6483,17 @@
       "id": "autonomous weapons",
       "title": "autonomous weapons",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Autonomous Weapons: The State of Treaty Negotiations",
           "slug": "/research/161-autonomous-weapons-the-state-of-treaty-negotiation",
           "excerpt": "An analysis of the current status, challenges, and progress in global treaty negotiations concerning autonomous weapons systems."
+        },
+        {
+          "title": "Escalation Risks from Autonomous Military Systems",
+          "slug": "/research/167-escalation-risks-from-autonomous-military-systems",
+          "excerpt": "Analyzing how autonomous military systems increase the likelihood of unintended conflict escalation, with policy options to mitigate these risks."
         }
       ]
     },
@@ -6671,6 +6681,32 @@
           "title": "Defense Procurement and AI Safety Standards",
           "slug": "/research/166-defense-procurement-and-ai-safety-standards",
           "excerpt": "Examining the intersection of defense procurement processes and the establishment of robust AI safety standards in military and dual-use technologies."
+        }
+      ]
+    },
+    {
+      "id": "escalation risks",
+      "title": "escalation risks",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Escalation Risks from Autonomous Military Systems",
+          "slug": "/research/167-escalation-risks-from-autonomous-military-systems",
+          "excerpt": "Analyzing how autonomous military systems increase the likelihood of unintended conflict escalation, with policy options to mitigate these risks."
+        }
+      ]
+    },
+    {
+      "id": "international security",
+      "title": "international security",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Escalation Risks from Autonomous Military Systems",
+          "slug": "/research/167-escalation-risks-from-autonomous-military-systems",
+          "excerpt": "Analyzing how autonomous military systems increase the likelihood of unintended conflict escalation, with policy options to mitigate these risks."
         }
       ]
     }
@@ -12549,6 +12585,36 @@
     {
       "source": "dual-use technology",
       "target": "standards",
+      "value": 1
+    },
+    {
+      "source": "autonomous weapons",
+      "target": "escalation risks",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "autonomous weapons",
+      "value": 1
+    },
+    {
+      "source": "autonomous weapons",
+      "target": "international security",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "escalation risks",
+      "value": 1
+    },
+    {
+      "source": "escalation risks",
+      "target": "international security",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "international security",
       "value": 1
     }
   ]
