@@ -362,6 +362,11 @@
           "title": "The Right to Know You Are Talking to AI",
           "slug": "/research/160-the-right-to-know-you-are-talking-to-ai",
           "excerpt": "Examining the ethical, legal, and societal implications of requiring AI systems to disclose their non-human identity in human interactions."
+        },
+        {
+          "title": "Confidence-Building Measures for Military AI",
+          "slug": "/research/170-confidence-building-measures-for-military-ai",
+          "excerpt": "Exploring strategies to enhance transparency, trust, and stability in the development and deployment of artificial intelligence in military contexts."
         }
       ]
     },
@@ -2138,7 +2143,7 @@
       "id": "trust",
       "title": "trust",
       "group": "concept",
-      "val": 17,
+      "val": 19,
       "articles": [
         {
           "title": "Uncertainty Communication in AI Outputs",
@@ -2169,6 +2174,11 @@
           "title": "Information Integrity Standards for AI Outputs",
           "slug": "/research/157-information-integrity-standards-for-ai-outputs",
           "excerpt": "Developing robust information integrity standards for AI-generated outputs is critical for addressing misinformation risks and ensuring trust in automated systems."
+        },
+        {
+          "title": "Confidence-Building Measures for Military AI",
+          "slug": "/research/170-confidence-building-measures-for-military-ai",
+          "excerpt": "Exploring strategies to enhance transparency, trust, and stability in the development and deployment of artificial intelligence in military contexts."
         }
       ]
     },
@@ -6529,7 +6539,7 @@
       "id": "arms control",
       "title": "arms control",
       "group": "concept",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "Autonomous Weapons: The State of Treaty Negotiations",
@@ -6540,6 +6550,11 @@
           "title": "Non-Proliferation Frameworks for AI Weapons",
           "slug": "/research/168-non-proliferation-frameworks-for-ai-weapons",
           "excerpt": "Examining the development of international frameworks to prevent the proliferation of AI-enabled weaponry, drawing from historical arms control agreements and addressing the unique challenges presented by AI."
+        },
+        {
+          "title": "Confidence-Building Measures for Military AI",
+          "slug": "/research/170-confidence-building-measures-for-military-ai",
+          "excerpt": "Exploring strategies to enhance transparency, trust, and stability in the development and deployment of artificial intelligence in military contexts."
         }
       ]
     },
@@ -6797,6 +6812,32 @@
           "title": "Private Military AI: Contractor Accountability",
           "slug": "/research/169-private-military-ai-contractor-accountability",
           "excerpt": "Examining the governance, ethical considerations, and regulatory challenges of private military AI systems and their operators in conflict zones."
+        }
+      ]
+    },
+    {
+      "id": "military-ai",
+      "title": "military-AI",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Confidence-Building Measures for Military AI",
+          "slug": "/research/170-confidence-building-measures-for-military-ai",
+          "excerpt": "Exploring strategies to enhance transparency, trust, and stability in the development and deployment of artificial intelligence in military contexts."
+        }
+      ]
+    },
+    {
+      "id": "confidence-building",
+      "title": "confidence-building",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Confidence-Building Measures for Military AI",
+          "slug": "/research/170-confidence-building-measures-for-military-ai",
+          "excerpt": "Exploring strategies to enhance transparency, trust, and stability in the development and deployment of artificial intelligence in military contexts."
         }
       ]
     }
@@ -7680,7 +7721,7 @@
     {
       "source": "transparency",
       "target": "trust",
-      "value": 1
+      "value": 2
     },
     {
       "source": "agents",
@@ -12805,6 +12846,51 @@
     {
       "source": "ai ethics",
       "target": "autonomous systems",
+      "value": 1
+    },
+    {
+      "source": "confidence-building",
+      "target": "military-ai",
+      "value": 1
+    },
+    {
+      "source": "military-ai",
+      "target": "transparency",
+      "value": 1
+    },
+    {
+      "source": "military-ai",
+      "target": "trust",
+      "value": 1
+    },
+    {
+      "source": "arms control",
+      "target": "military-ai",
+      "value": 1
+    },
+    {
+      "source": "confidence-building",
+      "target": "transparency",
+      "value": 1
+    },
+    {
+      "source": "confidence-building",
+      "target": "trust",
+      "value": 1
+    },
+    {
+      "source": "arms control",
+      "target": "confidence-building",
+      "value": 1
+    },
+    {
+      "source": "arms control",
+      "target": "transparency",
+      "value": 1
+    },
+    {
+      "source": "arms control",
+      "target": "trust",
       "value": 1
     }
   ]

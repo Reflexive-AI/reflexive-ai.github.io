@@ -373,7 +373,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 169. [x] Private Military AI: Contractor Accountability [R][P]
     Governance of AI systems developed and deployed by private military contractors, where accountability gaps exist between state obligations and corporate incentives.
 
-170. [ ] Confidence-Building Measures for Military AI [R][P]
+170. [x] Confidence-Building Measures for Military AI [R][P]
     Diplomatic instruments (hotlines, notification protocols, joint testing, shared definitions) for reducing misperception and miscalculation between AI-equipped militaries.
 
 ### Cluster H: Climate, Environment, and Sustainability (171-180)

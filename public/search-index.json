@@ -1,5 +1,24 @@
 [
   {
+    "id": 170,
+    "title": "Confidence-Building Measures for Military AI",
+    "excerpt": "Exploring strategies to enhance transparency, trust, and stability in the development and deployment of artificial intelligence in military contexts.",
+    "slug": "170-confidence-building-measures-for-military-ai",
+    "date": "2026-03-01",
+    "tags": [
+      "military-AI",
+      "confidence-building",
+      "transparency",
+      "trust",
+      "arms control"
+    ],
+    "categories": [
+      "International Security",
+      "AI Governance"
+    ],
+    "body": "Introduction The rapid integration of artificial intelligence (AI) into military systems has introduced new capabilities and strategic opportunities, but also significant risks. The development and deployment of military AI systems, including autonomous weapons, surveillance systems, and AI-enabled logistics, are raising concerns about unintended escalations, accidents, and the erosion of international stability. In this context, confidence-building measures (CBMs)—mechanisms designed to reduce "
+  },
+  {
     "id": 169,
     "title": "Private Military AI: Contractor Accountability",
     "excerpt": "Examining the governance, ethical considerations, and regulatory challenges of private military AI systems and their operators in conflict zones.",
