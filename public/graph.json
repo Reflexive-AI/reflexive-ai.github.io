@@ -2635,7 +2635,7 @@
       "id": "ai governance",
       "title": "ai governance",
       "group": "concept",
-      "val": 25,
+      "val": 27,
       "articles": [
         {
           "title": "Rate Limiting and Abuse Detection",
@@ -2686,6 +2686,11 @@
           "title": "Escalation Risks from Autonomous Military Systems",
           "slug": "/research/167-escalation-risks-from-autonomous-military-systems",
           "excerpt": "Analyzing how autonomous military systems increase the likelihood of unintended conflict escalation, with policy options to mitigate these risks."
+        },
+        {
+          "title": "Private Military AI: Contractor Accountability",
+          "slug": "/research/169-private-military-ai-contractor-accountability",
+          "excerpt": "Examining the governance, ethical considerations, and regulatory challenges of private military AI systems and their operators in conflict zones."
         }
       ]
     },
@@ -2861,6 +2866,11 @@
           "title": "Autonomous Targeting and International Humanitarian Law",
           "slug": "/research/163-autonomous-targeting-and-international-humanitaria",
           "excerpt": "Examining the implications of autonomous targeting systems for International Humanitarian Law, including the principles of distinction, proportionality, and accountability."
+        },
+        {
+          "title": "Private Military AI: Contractor Accountability",
+          "slug": "/research/169-private-military-ai-contractor-accountability",
+          "excerpt": "Examining the governance, ethical considerations, and regulatory challenges of private military AI systems and their operators in conflict zones."
         }
       ]
     },
@@ -4764,12 +4774,17 @@
       "id": "ai ethics",
       "title": "AI ethics",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "The Legal Personhood of Ephemeral Agent Swarms",
           "slug": "/research/101-the-legal-personhood-of-ephemeral-agent-swarms",
           "excerpt": "Examining the challenges and implications of granting legal personhood to transient, multi-agent AI systems operating as cohesive units."
+        },
+        {
+          "title": "Private Military AI: Contractor Accountability",
+          "slug": "/research/169-private-military-ai-contractor-accountability",
+          "excerpt": "Examining the governance, ethical considerations, and regulatory challenges of private military AI systems and their operators in conflict zones."
         }
       ]
     },
@@ -6756,6 +6771,32 @@
           "title": "Non-Proliferation Frameworks for AI Weapons",
           "slug": "/research/168-non-proliferation-frameworks-for-ai-weapons",
           "excerpt": "Examining the development of international frameworks to prevent the proliferation of AI-enabled weaponry, drawing from historical arms control agreements and addressing the unique challenges presented by AI."
+        }
+      ]
+    },
+    {
+      "id": "private military contractors",
+      "title": "private military contractors",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Private Military AI: Contractor Accountability",
+          "slug": "/research/169-private-military-ai-contractor-accountability",
+          "excerpt": "Examining the governance, ethical considerations, and regulatory challenges of private military AI systems and their operators in conflict zones."
+        }
+      ]
+    },
+    {
+      "id": "autonomous systems",
+      "title": "autonomous systems",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Private Military AI: Contractor Accountability",
+          "slug": "/research/169-private-military-ai-contractor-accountability",
+          "excerpt": "Examining the governance, ethical considerations, and regulatory challenges of private military AI systems and their operators in conflict zones."
         }
       ]
     }
@@ -12714,6 +12755,56 @@
     {
       "source": "arms control",
       "target": "governance frameworks",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "ai governance",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "private military contractors",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "ai ethics",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "autonomous systems",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "private military contractors",
+      "value": 1
+    },
+    {
+      "source": "ai ethics",
+      "target": "ai governance",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "autonomous systems",
+      "value": 1
+    },
+    {
+      "source": "ai ethics",
+      "target": "private military contractors",
+      "value": 1
+    },
+    {
+      "source": "autonomous systems",
+      "target": "private military contractors",
+      "value": 1
+    },
+    {
+      "source": "ai ethics",
+      "target": "autonomous systems",
       "value": 1
     }
   ]

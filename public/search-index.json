@@ -1,5 +1,24 @@
 [
   {
+    "id": 169,
+    "title": "Private Military AI: Contractor Accountability",
+    "excerpt": "Examining the governance, ethical considerations, and regulatory challenges of private military AI systems and their operators in conflict zones.",
+    "slug": "169-private-military-ai-contractor-accountability",
+    "date": "2026-03-01",
+    "tags": [
+      "accountability",
+      "AI governance",
+      "private military contractors",
+      "AI ethics",
+      "autonomous systems"
+    ],
+    "categories": [
+      "Governance Analysis",
+      "Military AI"
+    ],
+    "body": "Reflexive Research Object 169 Type: Research and Policy Analysis Introduction The integration of artificial intelligence (AI) into military operations has introduced a new layer of complexity to questions of accountability, particularly when private military contractors (PMCs) employ AI systems. Governments are increasingly outsourcing military and defense-related tasks to private firms, a trend that raises distinct concerns about oversight, transparency, and responsibility. When such PMCs deplo"
+  },
+  {
     "id": 168,
     "title": "Non-Proliferation Frameworks for AI Weapons",
     "excerpt": "Examining the development of international frameworks to prevent the proliferation of AI-enabled weaponry, drawing from historical arms control agreements and addressing the unique challenges presented by AI.",

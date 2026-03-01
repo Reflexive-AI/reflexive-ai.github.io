@@ -370,7 +370,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 168. [x] Non-Proliferation Frameworks for AI Weapons [R]
     Adapting nuclear non-proliferation treaty structures, verification mechanisms, and enforcement tools for application to AI weapons systems.
 
-169. [ ] Private Military AI: Contractor Accountability [R][P]
+169. [x] Private Military AI: Contractor Accountability [R][P]
     Governance of AI systems developed and deployed by private military contractors, where accountability gaps exist between state obligations and corporate incentives.
 
 170. [ ] Confidence-Building Measures for Military AI [R][P]
