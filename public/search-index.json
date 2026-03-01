@@ -1,5 +1,24 @@
 [
   {
+    "id": 171,
+    "title": "AI and Climate Adaptation: Governance Framework",
+    "excerpt": "Exploring the role of AI in climate adaptation governance, focusing on policy structures, accountability mechanisms, and ethical considerations.",
+    "slug": "171-ai-and-climate-adaptation-governance-framework",
+    "date": "2026-03-01",
+    "tags": [
+      "climate adaptation",
+      "ai governance",
+      "accountability",
+      "resilience",
+      "sustainability"
+    ],
+    "categories": [
+      "Climate Governance",
+      "AI Regulation"
+    ],
+    "body": "Introduction Climate adaptation has emerged as a critical priority for governments, industries, and communities facing increasingly severe environmental disruptions. As global warming drives more frequent natural disasters, resource scarcity, and socio-economic upheaval, the need for adaptive strategies is paramount. Artificial intelligence (AI), with its capacity for predictive analytics, resource optimization, and system modeling, offers significant potential for improving climate resilience. "
+  },
+  {
     "id": 170,
     "title": "Confidence-Building Measures for Military AI",
     "excerpt": "Exploring strategies to enhance transparency, trust, and stability in the development and deployment of artificial intelligence in military contexts.",

@@ -380,7 +380,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 
 *AI's environmental footprint and its role in climate adaptation governance.*
 
-171. [ ] AI and Climate Adaptation: Governance Framework [R][P]
+171. [x] AI and Climate Adaptation: Governance Framework [R][P]
     How AI systems deployed for climate adaptation (flood prediction, crop optimization, infrastructure planning) require domain-specific governance addressing data quality, equity, and decision authority.
 
 172. [ ] The Carbon Footprint of AI: Measurement and Disclosure [R][P]

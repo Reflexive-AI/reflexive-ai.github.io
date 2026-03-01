@@ -2645,7 +2645,7 @@
       "id": "ai governance",
       "title": "ai governance",
       "group": "concept",
-      "val": 27,
+      "val": 29,
       "articles": [
         {
           "title": "Rate Limiting and Abuse Detection",
@@ -2701,6 +2701,11 @@
           "title": "Private Military AI: Contractor Accountability",
           "slug": "/research/169-private-military-ai-contractor-accountability",
           "excerpt": "Examining the governance, ethical considerations, and regulatory challenges of private military AI systems and their operators in conflict zones."
+        },
+        {
+          "title": "AI and Climate Adaptation: Governance Framework",
+          "slug": "/research/171-ai-and-climate-adaptation-governance-framework",
+          "excerpt": "Exploring the role of AI in climate adaptation governance, focusing on policy structures, accountability mechanisms, and ethical considerations."
         }
       ]
     },
@@ -2881,6 +2886,11 @@
           "title": "Private Military AI: Contractor Accountability",
           "slug": "/research/169-private-military-ai-contractor-accountability",
           "excerpt": "Examining the governance, ethical considerations, and regulatory challenges of private military AI systems and their operators in conflict zones."
+        },
+        {
+          "title": "AI and Climate Adaptation: Governance Framework",
+          "slug": "/research/171-ai-and-climate-adaptation-governance-framework",
+          "excerpt": "Exploring the role of AI in climate adaptation governance, focusing on policy structures, accountability mechanisms, and ethical considerations."
         }
       ]
     },
@@ -3616,12 +3626,17 @@
       "id": "sustainability",
       "title": "sustainability",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "The Burnout Problem: Sustainability in AI Safety Research",
           "slug": "/research/073-burnout-problem",
           "excerpt": "AI safety research operates under a 'race against catastrophe' framing. This urgency culture may undermine the very work it motivates. What does sustainable safety research look like?"
+        },
+        {
+          "title": "AI and Climate Adaptation: Governance Framework",
+          "slug": "/research/171-ai-and-climate-adaptation-governance-framework",
+          "excerpt": "Exploring the role of AI in climate adaptation governance, focusing on policy structures, accountability mechanisms, and ethical considerations."
         }
       ]
     },
@@ -6838,6 +6853,32 @@
           "title": "Confidence-Building Measures for Military AI",
           "slug": "/research/170-confidence-building-measures-for-military-ai",
           "excerpt": "Exploring strategies to enhance transparency, trust, and stability in the development and deployment of artificial intelligence in military contexts."
+        }
+      ]
+    },
+    {
+      "id": "climate adaptation",
+      "title": "climate adaptation",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI and Climate Adaptation: Governance Framework",
+          "slug": "/research/171-ai-and-climate-adaptation-governance-framework",
+          "excerpt": "Exploring the role of AI in climate adaptation governance, focusing on policy structures, accountability mechanisms, and ethical considerations."
+        }
+      ]
+    },
+    {
+      "id": "resilience",
+      "title": "resilience",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI and Climate Adaptation: Governance Framework",
+          "slug": "/research/171-ai-and-climate-adaptation-governance-framework",
+          "excerpt": "Exploring the role of AI in climate adaptation governance, focusing on policy structures, accountability mechanisms, and ethical considerations."
         }
       ]
     }
@@ -12801,7 +12842,7 @@
     {
       "source": "accountability",
       "target": "ai governance",
-      "value": 1
+      "value": 2
     },
     {
       "source": "accountability",
@@ -12891,6 +12932,51 @@
     {
       "source": "arms control",
       "target": "trust",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "climate adaptation",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "climate adaptation",
+      "value": 1
+    },
+    {
+      "source": "climate adaptation",
+      "target": "resilience",
+      "value": 1
+    },
+    {
+      "source": "climate adaptation",
+      "target": "sustainability",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "resilience",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "sustainability",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "resilience",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "sustainability",
+      "value": 1
+    },
+    {
+      "source": "resilience",
+      "target": "sustainability",
       "value": 1
     }
   ]
