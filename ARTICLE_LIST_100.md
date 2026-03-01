@@ -383,7 +383,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 171. [x] AI and Climate Adaptation: Governance Framework [R][P]
     How AI systems deployed for climate adaptation (flood prediction, crop optimization, infrastructure planning) require domain-specific governance addressing data quality, equity, and decision authority.
 
-172. [ ] The Carbon Footprint of AI: Measurement and Disclosure [R][P]
+172. [x] The Carbon Footprint of AI: Measurement and Disclosure [R][P]
     Standards for measuring and reporting the energy consumption and greenhouse gas emissions of AI training and inference, building toward mandatory disclosure.
 
 173. [ ] AI for Biodiversity Monitoring: Data Governance [R][P]

@@ -367,6 +367,11 @@
           "title": "Confidence-Building Measures for Military AI",
           "slug": "/research/170-confidence-building-measures-for-military-ai",
           "excerpt": "Exploring strategies to enhance transparency, trust, and stability in the development and deployment of artificial intelligence in military contexts."
+        },
+        {
+          "title": "The Carbon Footprint of AI: Measurement and Disclosure",
+          "slug": "/research/172-the-carbon-footprint-of-ai-measurement-and-disclos",
+          "excerpt": "Assessing the environmental impact of AI systems by quantifying their carbon footprint and proposing frameworks for transparent disclosure."
         }
       ]
     },
@@ -1600,7 +1605,7 @@
       "id": "reporting",
       "title": "reporting",
       "group": "concept",
-      "val": 11,
+      "val": 13,
       "articles": [
         {
           "title": "A Protocol for AI-to-Regulator Communication",
@@ -1616,6 +1621,11 @@
           "title": "Uncertainty Communication in AI Outputs",
           "slug": "/research/027-uncertainty-communication",
           "excerpt": "AI systems often present confident outputs when genuine uncertainty exists. This analysis examines how AI can better communicate its uncertainty—and why governance requires it."
+        },
+        {
+          "title": "The Carbon Footprint of AI: Measurement and Disclosure",
+          "slug": "/research/172-the-carbon-footprint-of-ai-measurement-and-disclos",
+          "excerpt": "Assessing the environmental impact of AI systems by quantifying their carbon footprint and proposing frameworks for transparent disclosure."
         }
       ]
     },
@@ -6881,6 +6891,45 @@
           "excerpt": "Exploring the role of AI in climate adaptation governance, focusing on policy structures, accountability mechanisms, and ethical considerations."
         }
       ]
+    },
+    {
+      "id": "carbon-footprint",
+      "title": "carbon-footprint",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Carbon Footprint of AI: Measurement and Disclosure",
+          "slug": "/research/172-the-carbon-footprint-of-ai-measurement-and-disclos",
+          "excerpt": "Assessing the environmental impact of AI systems by quantifying their carbon footprint and proposing frameworks for transparent disclosure."
+        }
+      ]
+    },
+    {
+      "id": "environmental-governance",
+      "title": "environmental-governance",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Carbon Footprint of AI: Measurement and Disclosure",
+          "slug": "/research/172-the-carbon-footprint-of-ai-measurement-and-disclos",
+          "excerpt": "Assessing the environmental impact of AI systems by quantifying their carbon footprint and proposing frameworks for transparent disclosure."
+        }
+      ]
+    },
+    {
+      "id": "ai-systems",
+      "title": "ai-systems",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "The Carbon Footprint of AI: Measurement and Disclosure",
+          "slug": "/research/172-the-carbon-footprint-of-ai-measurement-and-disclos",
+          "excerpt": "Assessing the environmental impact of AI systems by quantifying their carbon footprint and proposing frameworks for transparent disclosure."
+        }
+      ]
     }
   ],
   "links": [
@@ -7617,7 +7666,7 @@
     {
       "source": "reporting",
       "target": "transparency",
-      "value": 2
+      "value": 3
     },
     {
       "source": "governance",
@@ -12977,6 +13026,51 @@
     {
       "source": "resilience",
       "target": "sustainability",
+      "value": 1
+    },
+    {
+      "source": "carbon-footprint",
+      "target": "transparency",
+      "value": 1
+    },
+    {
+      "source": "carbon-footprint",
+      "target": "environmental-governance",
+      "value": 1
+    },
+    {
+      "source": "ai-systems",
+      "target": "carbon-footprint",
+      "value": 1
+    },
+    {
+      "source": "carbon-footprint",
+      "target": "reporting",
+      "value": 1
+    },
+    {
+      "source": "environmental-governance",
+      "target": "transparency",
+      "value": 1
+    },
+    {
+      "source": "ai-systems",
+      "target": "transparency",
+      "value": 1
+    },
+    {
+      "source": "ai-systems",
+      "target": "environmental-governance",
+      "value": 1
+    },
+    {
+      "source": "environmental-governance",
+      "target": "reporting",
+      "value": 1
+    },
+    {
+      "source": "ai-systems",
+      "target": "reporting",
       "value": 1
     }
   ]

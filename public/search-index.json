@@ -1,5 +1,24 @@
 [
   {
+    "id": 172,
+    "title": "The Carbon Footprint of AI: Measurement and Disclosure",
+    "excerpt": "Assessing the environmental impact of AI systems by quantifying their carbon footprint and proposing frameworks for transparent disclosure.",
+    "slug": "172-the-carbon-footprint-of-ai-measurement-and-disclos",
+    "date": "2026-03-01",
+    "tags": [
+      "carbon-footprint",
+      "transparency",
+      "environmental-governance",
+      "ai-systems",
+      "reporting"
+    ],
+    "categories": [
+      "Sustainability",
+      "AI Regulation"
+    ],
+    "body": "Introduction The rapid development and deployment of artificial intelligence (AI) systems have brought unprecedented opportunities across sectors. However, these advancements come with a significant environmental cost: the energy-intensive processes involved in training and operating AI models contribute to carbon emissions at levels that demand scrutiny. As AI becomes more integrated into global infrastructure, the need to measure, disclose, and mitigate its environmental impact grows ever more"
+  },
+  {
     "id": 171,
     "title": "AI and Climate Adaptation: Governance Framework",
     "excerpt": "Exploring the role of AI in climate adaptation governance, focusing on policy structures, accountability mechanisms, and ethical considerations.",
