@@ -392,7 +392,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 174. [x] Climate Model Validation with AI: Governance Standards [R]
     Ensuring AI-enhanced climate models meet scientific validation standards, disclose uncertainty bounds, and avoid overstating predictive confidence to decision-makers.
 
-175. [ ] AI-Optimized Energy Grids: Regulatory Challenges [R][P]
+175. [x] AI-Optimized Energy Grids: Regulatory Challenges [R][P]
     How AI-managed energy infrastructure intersects with utility regulation, grid security requirements, and the allocation of decision authority between algorithms and human operators.
 
 176. [ ] Environmental Impact Assessment for AI Infrastructure [P]

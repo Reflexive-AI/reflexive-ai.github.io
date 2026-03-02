@@ -218,6 +218,11 @@
           "title": "AI-Powered Political Micro-Targeting: Governance Options",
           "slug": "/research/153-ai-powered-political-micro-targeting-governance-op",
           "excerpt": "Exploring regulatory frameworks and policy interventions to address the challenges posed by AI-driven political micro-targeting in democratic societies."
+        },
+        {
+          "title": "AI-Optimized Energy Grids: Regulatory Challenges",
+          "slug": "/research/175-ai-optimized-energy-grids-regulatory-challenges",
+          "excerpt": "Exploring the governance complexities of integrating AI into energy grid management, including safety, accountability, and ethical considerations."
         }
       ]
     },
@@ -563,6 +568,11 @@
           "title": "Meaningful Human Control: Operationalizing the Standard",
           "slug": "/research/162-meaningful-human-control-operationalizing-the-stan",
           "excerpt": "Examining how the principle of meaningful human control can be systematically embedded in AI systems, with a focus on practical frameworks and governance mechanisms."
+        },
+        {
+          "title": "AI-Optimized Energy Grids: Regulatory Challenges",
+          "slug": "/research/175-ai-optimized-energy-grids-regulatory-challenges",
+          "excerpt": "Exploring the governance complexities of integrating AI into energy grid management, including safety, accountability, and ethical considerations."
         }
       ]
     },
@@ -2632,6 +2642,11 @@
           "title": "AI for Biodiversity Monitoring: Data Governance",
           "slug": "/research/173-ai-for-biodiversity-monitoring-data-governance",
           "excerpt": "Exploring the intersection of AI-driven biodiversity monitoring and the challenges of data governance, including privacy, access, and accountability frameworks."
+        },
+        {
+          "title": "AI-Optimized Energy Grids: Regulatory Challenges",
+          "slug": "/research/175-ai-optimized-energy-grids-regulatory-challenges",
+          "excerpt": "Exploring the governance complexities of integrating AI into energy grid management, including safety, accountability, and ethical considerations."
         }
       ]
     },
@@ -2916,6 +2931,11 @@
           "title": "AI and Climate Adaptation: Governance Framework",
           "slug": "/research/171-ai-and-climate-adaptation-governance-framework",
           "excerpt": "Exploring the role of AI in climate adaptation governance, focusing on policy structures, accountability mechanisms, and ethical considerations."
+        },
+        {
+          "title": "AI-Optimized Energy Grids: Regulatory Challenges",
+          "slug": "/research/175-ai-optimized-energy-grids-regulatory-challenges",
+          "excerpt": "Exploring the governance complexities of integrating AI into energy grid management, including safety, accountability, and ethical considerations."
         }
       ]
     },
@@ -7002,6 +7022,19 @@
           "excerpt": "Exploring the role of AI in climate model validation and the need for governance mechanisms to ensure reliability, safety, and accountability."
         }
       ]
+    },
+    {
+      "id": "energy-grids",
+      "title": "energy-grids",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI-Optimized Energy Grids: Regulatory Challenges",
+          "slug": "/research/175-ai-optimized-energy-grids-regulatory-challenges",
+          "excerpt": "Exploring the governance complexities of integrating AI into energy grid management, including safety, accountability, and ethical considerations."
+        }
+      ]
     }
   ],
   "links": [
@@ -7778,7 +7811,7 @@
     {
       "source": "regulation",
       "target": "safety",
-      "value": 4
+      "value": 5
     },
     {
       "source": "enforcement",
@@ -8373,7 +8406,7 @@
     {
       "source": "ai-governance",
       "target": "regulation",
-      "value": 3
+      "value": 4
     },
     {
       "source": "abuse detection",
@@ -8538,17 +8571,17 @@
     {
       "source": "accountability",
       "target": "safety",
-      "value": 4
+      "value": 5
     },
     {
       "source": "ai-governance",
       "target": "safety",
-      "value": 1
+      "value": 2
     },
     {
       "source": "accountability",
       "target": "ai-governance",
-      "value": 2
+      "value": 3
     },
     {
       "source": "governance",
@@ -10868,7 +10901,7 @@
     {
       "source": "accountability",
       "target": "regulation",
-      "value": 3
+      "value": 4
     },
     {
       "source": "agentic-ai",
@@ -13193,6 +13226,26 @@
     {
       "source": "climate-models",
       "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "energy-grids",
+      "value": 1
+    },
+    {
+      "source": "energy-grids",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "energy-grids",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "energy-grids",
       "value": 1
     }
   ]

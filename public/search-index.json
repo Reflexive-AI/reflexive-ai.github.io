@@ -1,5 +1,25 @@
 [
   {
+    "id": 175,
+    "title": "AI-Optimized Energy Grids: Regulatory Challenges",
+    "excerpt": "Exploring the governance complexities of integrating AI into energy grid management, including safety, accountability, and ethical considerations.",
+    "slug": "175-ai-optimized-energy-grids-regulatory-challenges",
+    "date": "2026-03-02",
+    "tags": [
+      "ai-governance",
+      "energy-grids",
+      "regulation",
+      "safety",
+      "accountability"
+    ],
+    "categories": [
+      "Governance Analysis",
+      "Energy Systems",
+      "AI Regulation"
+    ],
+    "body": "Introduction The global transition to a sustainable energy future has accelerated the adoption of advanced technologies to optimize energy grid operations. Among these, artificial intelligence (AI) has emerged as a transformative tool, capable of balancing energy supply and demand, integrating renewable sources, and enhancing grid resilience. AI-optimized energy grids promise significant benefits: reduced carbon emissions, cost savings, and improved reliability. However, they also introduce new "
+  },
+  {
     "id": 174,
     "title": "Climate Model Validation with AI: Governance Standards",
     "excerpt": "Exploring the role of AI in climate model validation and the need for governance mechanisms to ensure reliability, safety, and accountability.",
