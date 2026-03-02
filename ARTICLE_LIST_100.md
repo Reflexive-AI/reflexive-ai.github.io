@@ -395,7 +395,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 175. [x] AI-Optimized Energy Grids: Regulatory Challenges [R][P]
     How AI-managed energy infrastructure intersects with utility regulation, grid security requirements, and the allocation of decision authority between algorithms and human operators.
 
-176. [ ] Environmental Impact Assessment for AI Infrastructure [P]
+176. [x] Environmental Impact Assessment for AI Infrastructure [P]
     Adapting environmental review processes to account for the physical footprint (energy, water, land use, materials) of data centers and compute infrastructure.
 
 177. [ ] Supply Chain Transparency for AI Hardware [R][P]

@@ -2647,6 +2647,11 @@
           "title": "AI-Optimized Energy Grids: Regulatory Challenges",
           "slug": "/research/175-ai-optimized-energy-grids-regulatory-challenges",
           "excerpt": "Exploring the governance complexities of integrating AI into energy grid management, including safety, accountability, and ethical considerations."
+        },
+        {
+          "title": "Environmental Impact Assessment for AI Infrastructure",
+          "slug": "/research/176-environmental-impact-assessment-for-ai-infrastruct",
+          "excerpt": "Examining the ecological footprint of AI systems, from energy-intensive training processes to hardware production, and proposing a framework for sustainable development."
         }
       ]
     },
@@ -3671,7 +3676,7 @@
       "id": "sustainability",
       "title": "sustainability",
       "group": "concept",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "The Burnout Problem: Sustainability in AI Safety Research",
@@ -3682,6 +3687,11 @@
           "title": "AI and Climate Adaptation: Governance Framework",
           "slug": "/research/171-ai-and-climate-adaptation-governance-framework",
           "excerpt": "Exploring the role of AI in climate adaptation governance, focusing on policy structures, accountability mechanisms, and ethical considerations."
+        },
+        {
+          "title": "Environmental Impact Assessment for AI Infrastructure",
+          "slug": "/research/176-environmental-impact-assessment-for-ai-infrastruct",
+          "excerpt": "Examining the ecological footprint of AI systems, from energy-intensive training processes to hardware production, and proposing a framework for sustainable development."
         }
       ]
     },
@@ -7033,6 +7043,32 @@
           "title": "AI-Optimized Energy Grids: Regulatory Challenges",
           "slug": "/research/175-ai-optimized-energy-grids-regulatory-challenges",
           "excerpt": "Exploring the governance complexities of integrating AI into energy grid management, including safety, accountability, and ethical considerations."
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "title": "environment",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Environmental Impact Assessment for AI Infrastructure",
+          "slug": "/research/176-environmental-impact-assessment-for-ai-infrastruct",
+          "excerpt": "Examining the ecological footprint of AI systems, from energy-intensive training processes to hardware production, and proposing a framework for sustainable development."
+        }
+      ]
+    },
+    {
+      "id": "energy-use",
+      "title": "energy-use",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Environmental Impact Assessment for AI Infrastructure",
+          "slug": "/research/176-environmental-impact-assessment-for-ai-infrastruct",
+          "excerpt": "Examining the ecological footprint of AI systems, from energy-intensive training processes to hardware production, and proposing a framework for sustainable development."
         }
       ]
     }
@@ -13246,6 +13282,36 @@
     {
       "source": "accountability",
       "target": "energy-grids",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "environment",
+      "value": 1
+    },
+    {
+      "source": "environment",
+      "target": "sustainability",
+      "value": 1
+    },
+    {
+      "source": "energy-use",
+      "target": "environment",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "sustainability",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "energy-use",
+      "value": 1
+    },
+    {
+      "source": "energy-use",
+      "target": "sustainability",
       "value": 1
     }
   ]

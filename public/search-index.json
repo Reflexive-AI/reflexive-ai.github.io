@@ -1,5 +1,22 @@
 [
   {
+    "id": 176,
+    "title": "Environmental Impact Assessment for AI Infrastructure",
+    "excerpt": "Examining the ecological footprint of AI systems, from energy-intensive training processes to hardware production, and proposing a framework for sustainable development.",
+    "slug": "176-environmental-impact-assessment-for-ai-infrastruct",
+    "date": "2026-03-02",
+    "tags": [
+      "environment",
+      "ai-governance",
+      "sustainability",
+      "energy-use"
+    ],
+    "categories": [
+      "Policy Analysis"
+    ],
+    "body": "Reflexive Research Object 176 Type: Policy Analysis Introduction Artificial Intelligence (AI) systems are rapidly transforming industries, economies, and societies. However, the environmental costs associated with AI infrastructure remain underexplored in both academic literature and policy frameworks. This article investigates the ecological impact of AI systems, focusing on energy consumption, hardware production, and disposal practices. By addressing these issues, we aim to propose principles"
+  },
+  {
     "id": 175,
     "title": "AI-Optimized Energy Grids: Regulatory Challenges",
     "excerpt": "Exploring the governance complexities of integrating AI into energy grid management, including safety, accountability, and ethical considerations.",
