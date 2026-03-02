@@ -2059,6 +2059,11 @@
           "title": "Deliberative Democracy and AI Tools",
           "slug": "/research/156-deliberative-democracy-and-ai-tools",
           "excerpt": "Exploring how AI technologies can enhance or hinder deliberative democratic processes, and the governance challenges posed by their integration into civic decision-making."
+        },
+        {
+          "title": "Climate Model Validation with AI: Governance Standards",
+          "slug": "/research/174-climate-model-validation-with-ai-governance-standa",
+          "excerpt": "Exploring the role of AI in climate model validation and the need for governance mechanisms to ensure reliability, safety, and accountability."
         }
       ]
     },
@@ -2782,7 +2787,7 @@
       "id": "ai-safety",
       "title": "ai-safety",
       "group": "concept",
-      "val": 17,
+      "val": 19,
       "articles": [
         {
           "title": "Monitoring Deployed Models",
@@ -2813,6 +2818,11 @@
           "title": "AI-Generated Disinformation: Detection and Response",
           "slug": "/research/158-ai-generated-disinformation-detection-and-response",
           "excerpt": "An analysis of AI's role in generating disinformation, current detection methodologies, and policy responses to mitigate its impact."
+        },
+        {
+          "title": "Climate Model Validation with AI: Governance Standards",
+          "slug": "/research/174-climate-model-validation-with-ai-governance-standa",
+          "excerpt": "Exploring the role of AI in climate model validation and the need for governance mechanisms to ensure reliability, safety, and accountability."
         }
       ]
     },
@@ -4195,7 +4205,7 @@
       "id": "validation",
       "title": "validation",
       "group": "concept",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "AI in Climate Modeling: Validation Standards",
@@ -4206,6 +4216,11 @@
           "title": "Governance of AI-Generated Science",
           "slug": "/research/109-governance-of-ai-generated-science",
           "excerpt": "Exploring the challenges and opportunities of governing scientific research conducted or augmented by AI, with a focus on accountability, validation, and ethical considerations."
+        },
+        {
+          "title": "Climate Model Validation with AI: Governance Standards",
+          "slug": "/research/174-climate-model-validation-with-ai-governance-standa",
+          "excerpt": "Exploring the role of AI in climate model validation and the need for governance mechanisms to ensure reliability, safety, and accountability."
         }
       ]
     },
@@ -6974,6 +6989,19 @@
           "excerpt": "Exploring the intersection of AI-driven biodiversity monitoring and the challenges of data governance, including privacy, access, and accountability frameworks."
         }
       ]
+    },
+    {
+      "id": "climate-models",
+      "title": "climate-models",
+      "group": "technical",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Climate Model Validation with AI: Governance Standards",
+          "slug": "/research/174-climate-model-validation-with-ai-governance-standa",
+          "excerpt": "Exploring the role of AI in climate model validation and the need for governance mechanisms to ensure reliability, safety, and accountability."
+        }
+      ]
     }
   ],
   "links": [
@@ -8415,7 +8443,7 @@
     {
       "source": "ai-safety",
       "target": "governance",
-      "value": 3
+      "value": 4
     },
     {
       "source": "accountability",
@@ -10770,7 +10798,7 @@
     {
       "source": "governance",
       "target": "validation",
-      "value": 1
+      "value": 2
     },
     {
       "source": "ethics",
@@ -13145,6 +13173,26 @@
     {
       "source": "data-governance",
       "target": "environmental-monitoring",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "validation",
+      "value": 1
+    },
+    {
+      "source": "climate-models",
+      "target": "validation",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "climate-models",
+      "value": 1
+    },
+    {
+      "source": "climate-models",
+      "target": "governance",
       "value": 1
     }
   ]

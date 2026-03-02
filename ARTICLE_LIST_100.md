@@ -389,7 +389,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 173. [x] AI for Biodiversity Monitoring: Data Governance [R][P]
     Governance challenges in using AI for species identification and ecosystem monitoring at scale, including data sovereignty, access rights, and validation standards.
 
-174. [ ] Climate Model Validation with AI: Governance Standards [R]
+174. [x] Climate Model Validation with AI: Governance Standards [R]
     Ensuring AI-enhanced climate models meet scientific validation standards, disclose uncertainty bounds, and avoid overstating predictive confidence to decision-makers.
 
 175. [ ] AI-Optimized Energy Grids: Regulatory Challenges [R][P]

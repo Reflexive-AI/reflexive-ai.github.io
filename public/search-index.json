@@ -1,5 +1,23 @@
 [
   {
+    "id": 174,
+    "title": "Climate Model Validation with AI: Governance Standards",
+    "excerpt": "Exploring the role of AI in climate model validation and the need for governance mechanisms to ensure reliability, safety, and accountability.",
+    "slug": "174-climate-model-validation-with-ai-governance-standa",
+    "date": "2026-03-02",
+    "tags": [
+      "validation",
+      "ai-safety",
+      "climate-models",
+      "governance"
+    ],
+    "categories": [
+      "AI Governance",
+      "Climate Science"
+    ],
+    "body": "Introduction As climate change continues to accelerate, accurate climate modeling is essential for forecasting impacts, informing policy, and guiding mitigation efforts. Increasingly, artificial intelligence (AI) is being integrated into climate model development and validation processes. AI's ability to analyze vast datasets, optimize complex simulations, and identify patterns has the potential to significantly enhance the accuracy and efficiency of climate models. However, this reliance on AI "
+  },
+  {
     "id": 173,
     "title": "AI for Biodiversity Monitoring: Data Governance",
     "excerpt": "Exploring the intersection of AI-driven biodiversity monitoring and the challenges of data governance, including privacy, access, and accountability frameworks.",
