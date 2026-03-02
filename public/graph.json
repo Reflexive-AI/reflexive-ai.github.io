@@ -2622,6 +2622,11 @@
           "title": "Autonomous Targeting and International Humanitarian Law",
           "slug": "/research/163-autonomous-targeting-and-international-humanitaria",
           "excerpt": "Examining the implications of autonomous targeting systems for International Humanitarian Law, including the principles of distinction, proportionality, and accountability."
+        },
+        {
+          "title": "AI for Biodiversity Monitoring: Data Governance",
+          "slug": "/research/173-ai-for-biodiversity-monitoring-data-governance",
+          "excerpt": "Exploring the intersection of AI-driven biodiversity monitoring and the challenges of data governance, including privacy, access, and accountability frameworks."
         }
       ]
     },
@@ -6928,6 +6933,45 @@
           "title": "The Carbon Footprint of AI: Measurement and Disclosure",
           "slug": "/research/172-the-carbon-footprint-of-ai-measurement-and-disclos",
           "excerpt": "Assessing the environmental impact of AI systems by quantifying their carbon footprint and proposing frameworks for transparent disclosure."
+        }
+      ]
+    },
+    {
+      "id": "biodiversity",
+      "title": "biodiversity",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI for Biodiversity Monitoring: Data Governance",
+          "slug": "/research/173-ai-for-biodiversity-monitoring-data-governance",
+          "excerpt": "Exploring the intersection of AI-driven biodiversity monitoring and the challenges of data governance, including privacy, access, and accountability frameworks."
+        }
+      ]
+    },
+    {
+      "id": "data-governance",
+      "title": "data-governance",
+      "group": "technical",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI for Biodiversity Monitoring: Data Governance",
+          "slug": "/research/173-ai-for-biodiversity-monitoring-data-governance",
+          "excerpt": "Exploring the intersection of AI-driven biodiversity monitoring and the challenges of data governance, including privacy, access, and accountability frameworks."
+        }
+      ]
+    },
+    {
+      "id": "environmental-monitoring",
+      "title": "environmental-monitoring",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI for Biodiversity Monitoring: Data Governance",
+          "slug": "/research/173-ai-for-biodiversity-monitoring-data-governance",
+          "excerpt": "Exploring the intersection of AI-driven biodiversity monitoring and the challenges of data governance, including privacy, access, and accountability frameworks."
         }
       ]
     }
@@ -13071,6 +13115,36 @@
     {
       "source": "ai-systems",
       "target": "reporting",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "biodiversity",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "data-governance",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "environmental-monitoring",
+      "value": 1
+    },
+    {
+      "source": "biodiversity",
+      "target": "data-governance",
+      "value": 1
+    },
+    {
+      "source": "biodiversity",
+      "target": "environmental-monitoring",
+      "value": 1
+    },
+    {
+      "source": "data-governance",
+      "target": "environmental-monitoring",
       "value": 1
     }
   ]

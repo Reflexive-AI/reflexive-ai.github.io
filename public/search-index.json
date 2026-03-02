@@ -1,5 +1,23 @@
 [
   {
+    "id": 173,
+    "title": "AI for Biodiversity Monitoring: Data Governance",
+    "excerpt": "Exploring the intersection of AI-driven biodiversity monitoring and the challenges of data governance, including privacy, access, and accountability frameworks.",
+    "slug": "173-ai-for-biodiversity-monitoring-data-governance",
+    "date": "2026-03-02",
+    "tags": [
+      "ai-governance",
+      "biodiversity",
+      "data-governance",
+      "environmental-monitoring"
+    ],
+    "categories": [
+      "Research",
+      "Policy"
+    ],
+    "body": "Reflexive Research Object 173 Type: Research & Policy Analysis Introduction Artificial intelligence (AI) is increasingly being deployed to monitor biodiversity: an urgent priority given accelerating declines in ecosystems worldwide. From automated species identification to habitat mapping, AI tools promise to enhance the precision, scale, and efficiency of environmental monitoring efforts. However, these innovations also bring significant challenges related to data governance. Who owns the data "
+  },
+  {
     "id": 172,
     "title": "The Carbon Footprint of AI: Measurement and Disclosure",
     "excerpt": "Assessing the environmental impact of AI systems by quantifying their carbon footprint and proposing frameworks for transparent disclosure.",

@@ -386,7 +386,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 172. [x] The Carbon Footprint of AI: Measurement and Disclosure [R][P]
     Standards for measuring and reporting the energy consumption and greenhouse gas emissions of AI training and inference, building toward mandatory disclosure.
 
-173. [ ] AI for Biodiversity Monitoring: Data Governance [R][P]
+173. [x] AI for Biodiversity Monitoring: Data Governance [R][P]
     Governance challenges in using AI for species identification and ecosystem monitoring at scale, including data sovereignty, access rights, and validation standards.
 
 174. [ ] Climate Model Validation with AI: Governance Standards [R]
