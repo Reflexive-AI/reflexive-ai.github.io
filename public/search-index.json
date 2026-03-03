@@ -1,5 +1,23 @@
 [
   {
+    "id": 178,
+    "title": "AI in Disaster Response: Coordination Standards",
+    "excerpt": "Exploring the need for standardized AI coordination frameworks in disaster response to improve efficiency, accountability, and interoperability.",
+    "slug": "178-ai-in-disaster-response-coordination-standards",
+    "date": "2026-03-03",
+    "tags": [
+      "disaster-response",
+      "ai-governance",
+      "coordination-standards",
+      "interoperability",
+      "accountability"
+    ],
+    "categories": [
+      "Policy Analysis"
+    ],
+    "body": "Introduction The increasing frequency and severity of natural disasters, fueled in part by climate change, has amplified the need for efficient and scalable disaster response mechanisms. Artificial intelligence (AI) has emerged as a powerful tool to support disaster response efforts, offering capabilities in predictive modeling, real-time data analysis, resource allocation, and damage assessment. However, these advancements have outpaced the development of governance and coordination frameworks "
+  },
+  {
     "id": 177,
     "title": "Supply Chain Transparency for AI Hardware",
     "excerpt": "Examining the need for greater visibility in AI hardware supply chains to address security, sustainability, and ethical concerns.",

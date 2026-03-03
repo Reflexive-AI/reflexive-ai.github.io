@@ -401,7 +401,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 177. [x] Supply Chain Transparency for AI Hardware [R][P]
     Governance of the mineral extraction, manufacturing, and disposal lifecycle of AI hardware, from cobalt mines to chip fabrication to electronic waste.
 
-178. [ ] AI in Disaster Response: Coordination Standards [P]
+178. [x] AI in Disaster Response: Coordination Standards [P]
     Governance frameworks for deploying AI systems in humanitarian emergencies, addressing coordination between agencies, data sharing protocols, and accountability for wrong predictions.
 
 179. [ ] Water Consumption of AI Data Centers [P]

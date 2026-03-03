@@ -705,7 +705,7 @@
       "id": "interoperability",
       "title": "interoperability",
       "group": "concept",
-      "val": 11,
+      "val": 13,
       "articles": [
         {
           "title": "A Machine-Readable Constraint Schema (MRCS)",
@@ -721,6 +721,11 @@
           "title": "Localization Requirements for AI Systems",
           "slug": "/research/139-localization-requirements-for-ai-systems",
           "excerpt": "Examining the role of localization in AI governance, balancing national sovereignty with global interoperability."
+        },
+        {
+          "title": "AI in Disaster Response: Coordination Standards",
+          "slug": "/research/178-ai-in-disaster-response-coordination-standards",
+          "excerpt": "Exploring the need for standardized AI coordination frameworks in disaster response to improve efficiency, accountability, and interoperability."
         }
       ]
     },
@@ -2667,6 +2672,11 @@
           "title": "Environmental Impact Assessment for AI Infrastructure",
           "slug": "/research/176-environmental-impact-assessment-for-ai-infrastruct",
           "excerpt": "Examining the ecological footprint of AI systems, from energy-intensive training processes to hardware production, and proposing a framework for sustainable development."
+        },
+        {
+          "title": "AI in Disaster Response: Coordination Standards",
+          "slug": "/research/178-ai-in-disaster-response-coordination-standards",
+          "excerpt": "Exploring the need for standardized AI coordination frameworks in disaster response to improve efficiency, accountability, and interoperability."
         }
       ]
     },
@@ -2956,6 +2966,11 @@
           "title": "AI-Optimized Energy Grids: Regulatory Challenges",
           "slug": "/research/175-ai-optimized-energy-grids-regulatory-challenges",
           "excerpt": "Exploring the governance complexities of integrating AI into energy grid management, including safety, accountability, and ethical considerations."
+        },
+        {
+          "title": "AI in Disaster Response: Coordination Standards",
+          "slug": "/research/178-ai-in-disaster-response-coordination-standards",
+          "excerpt": "Exploring the need for standardized AI coordination frameworks in disaster response to improve efficiency, accountability, and interoperability."
         }
       ]
     },
@@ -7112,6 +7127,32 @@
           "excerpt": "Examining the need for greater visibility in AI hardware supply chains to address security, sustainability, and ethical concerns."
         }
       ]
+    },
+    {
+      "id": "disaster-response",
+      "title": "disaster-response",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI in Disaster Response: Coordination Standards",
+          "slug": "/research/178-ai-in-disaster-response-coordination-standards",
+          "excerpt": "Exploring the need for standardized AI coordination frameworks in disaster response to improve efficiency, accountability, and interoperability."
+        }
+      ]
+    },
+    {
+      "id": "coordination-standards",
+      "title": "coordination-standards",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI in Disaster Response: Coordination Standards",
+          "slug": "/research/178-ai-in-disaster-response-coordination-standards",
+          "excerpt": "Exploring the need for standardized AI coordination frameworks in disaster response to improve efficiency, accountability, and interoperability."
+        }
+      ]
     }
   ],
   "links": [
@@ -8658,7 +8699,7 @@
     {
       "source": "accountability",
       "target": "ai-governance",
-      "value": 3
+      "value": 4
     },
     {
       "source": "governance",
@@ -11973,7 +12014,7 @@
     {
       "source": "ai-governance",
       "target": "interoperability",
-      "value": 1
+      "value": 2
     },
     {
       "source": "ethical-ai",
@@ -13388,6 +13429,46 @@
     {
       "source": "ai-hardware",
       "target": "ethics",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "disaster-response",
+      "value": 1
+    },
+    {
+      "source": "coordination-standards",
+      "target": "disaster-response",
+      "value": 1
+    },
+    {
+      "source": "disaster-response",
+      "target": "interoperability",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "disaster-response",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "coordination-standards",
+      "value": 1
+    },
+    {
+      "source": "coordination-standards",
+      "target": "interoperability",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "coordination-standards",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "interoperability",
       "value": 1
     }
   ]
