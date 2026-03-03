@@ -1,5 +1,23 @@
 [
   {
+    "id": 180,
+    "title": "Circular Economy for AI Hardware",
+    "excerpt": "Exploring how circular economy principles can address environmental and resource challenges in the production, use, and disposal of AI hardware.",
+    "slug": "180-circular-economy-for-ai-hardware",
+    "date": "2026-03-03",
+    "tags": [
+      "circular economy",
+      "AI hardware",
+      "sustainability",
+      "resource efficiency",
+      "e-waste"
+    ],
+    "categories": [
+      "Climate & Environment"
+    ],
+    "body": "Introduction The rapid expansion of artificial intelligence (AI) systems has brought with it a growing demand for advanced hardware. From GPUs and TPUs to custom-designed chips, AI hardware forms the backbone of modern machine learning applications. While the societal benefits of AI can be significant, the environmental and material costs of producing and disposing of AI hardware are becoming hard to ignore. Resource-intensive manufacturing processes, short hardware lifespans, and the generation"
+  },
+  {
     "id": 179,
     "title": "Water Consumption of AI Data Centers",
     "excerpt": "Analyzing the water usage of AI data centers and its implications for environmental sustainability and governance in an era of growing AI infrastructure.",

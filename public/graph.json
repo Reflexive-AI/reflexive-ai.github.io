@@ -3711,7 +3711,7 @@
       "id": "sustainability",
       "title": "sustainability",
       "group": "concept",
-      "val": 13,
+      "val": 15,
       "articles": [
         {
           "title": "The Burnout Problem: Sustainability in AI Safety Research",
@@ -3732,6 +3732,11 @@
           "title": "Water Consumption of AI Data Centers",
           "slug": "/research/179-water-consumption-of-ai-data-centers",
           "excerpt": "Analyzing the water usage of AI data centers and its implications for environmental sustainability and governance in an era of growing AI infrastructure."
+        },
+        {
+          "title": "Circular Economy for AI Hardware",
+          "slug": "/research/180-circular-economy-for-ai-hardware",
+          "excerpt": "Exploring how circular economy principles can address environmental and resource challenges in the production, use, and disposal of AI hardware."
         }
       ]
     },
@@ -7200,6 +7205,58 @@
           "title": "Water Consumption of AI Data Centers",
           "slug": "/research/179-water-consumption-of-ai-data-centers",
           "excerpt": "Analyzing the water usage of AI data centers and its implications for environmental sustainability and governance in an era of growing AI infrastructure."
+        }
+      ]
+    },
+    {
+      "id": "circular economy",
+      "title": "circular economy",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Circular Economy for AI Hardware",
+          "slug": "/research/180-circular-economy-for-ai-hardware",
+          "excerpt": "Exploring how circular economy principles can address environmental and resource challenges in the production, use, and disposal of AI hardware."
+        }
+      ]
+    },
+    {
+      "id": "ai hardware",
+      "title": "AI hardware",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Circular Economy for AI Hardware",
+          "slug": "/research/180-circular-economy-for-ai-hardware",
+          "excerpt": "Exploring how circular economy principles can address environmental and resource challenges in the production, use, and disposal of AI hardware."
+        }
+      ]
+    },
+    {
+      "id": "resource efficiency",
+      "title": "resource efficiency",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Circular Economy for AI Hardware",
+          "slug": "/research/180-circular-economy-for-ai-hardware",
+          "excerpt": "Exploring how circular economy principles can address environmental and resource challenges in the production, use, and disposal of AI hardware."
+        }
+      ]
+    },
+    {
+      "id": "e-waste",
+      "title": "e-waste",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Circular Economy for AI Hardware",
+          "slug": "/research/180-circular-economy-for-ai-hardware",
+          "excerpt": "Exploring how circular economy principles can address environmental and resource challenges in the production, use, and disposal of AI hardware."
         }
       ]
     }
@@ -13568,6 +13625,56 @@
     {
       "source": "data centers",
       "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "ai hardware",
+      "target": "circular economy",
+      "value": 1
+    },
+    {
+      "source": "circular economy",
+      "target": "sustainability",
+      "value": 1
+    },
+    {
+      "source": "circular economy",
+      "target": "resource efficiency",
+      "value": 1
+    },
+    {
+      "source": "circular economy",
+      "target": "e-waste",
+      "value": 1
+    },
+    {
+      "source": "ai hardware",
+      "target": "sustainability",
+      "value": 1
+    },
+    {
+      "source": "ai hardware",
+      "target": "resource efficiency",
+      "value": 1
+    },
+    {
+      "source": "ai hardware",
+      "target": "e-waste",
+      "value": 1
+    },
+    {
+      "source": "resource efficiency",
+      "target": "sustainability",
+      "value": 1
+    },
+    {
+      "source": "e-waste",
+      "target": "sustainability",
+      "value": 1
+    },
+    {
+      "source": "e-waste",
+      "target": "resource efficiency",
       "value": 1
     }
   ]

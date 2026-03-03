@@ -407,7 +407,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 179. [x] Water Consumption of AI Data Centers [P]
     Mapping and governing the water footprint of AI compute infrastructure, with case studies from water-stressed regions.
 
-180. [ ] Circular Economy for AI Hardware [P]
+180. [x] Circular Economy for AI Hardware [P]
     Governance frameworks for extending hardware lifecycles, mandating repairability, and managing electronic waste from AI infrastructure at scale.
 
 ### Cluster I: Industry Practice and Corporate Accountability (181-190)
