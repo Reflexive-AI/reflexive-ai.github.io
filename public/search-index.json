@@ -1,5 +1,23 @@
 [
   {
+    "id": 179,
+    "title": "Water Consumption of AI Data Centers",
+    "excerpt": "Analyzing the water usage of AI data centers and its implications for environmental sustainability and governance in an era of growing AI infrastructure.",
+    "slug": "179-water-consumption-of-ai-data-centers",
+    "date": "2026-03-03",
+    "tags": [
+      "water consumption",
+      "sustainability",
+      "AI infrastructure",
+      "governance",
+      "data centers"
+    ],
+    "categories": [
+      "Environmental Impact"
+    ],
+    "body": "Introduction The rapid expansion of artificial intelligence (AI) and its associated infrastructure has brought about significant environmental challenges. While the energy consumption and carbon footprint of AI systems have received considerable attention (see The Carbon Footprint of AI: Measurement and Disclosure), water consumption by data centers remains an underexplored yet critical issue. Water is essential for cooling servers in data centers, which are the backbone of AI operations. As AI "
+  },
+  {
     "id": 178,
     "title": "AI in Disaster Response: Coordination Standards",
     "excerpt": "Exploring the need for standardized AI coordination frameworks in disaster response to improve efficiency, accountability, and interoperability.",

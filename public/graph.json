@@ -2094,6 +2094,11 @@
           "title": "Climate Model Validation with AI: Governance Standards",
           "slug": "/research/174-climate-model-validation-with-ai-governance-standa",
           "excerpt": "Exploring the role of AI in climate model validation and the need for governance mechanisms to ensure reliability, safety, and accountability."
+        },
+        {
+          "title": "Water Consumption of AI Data Centers",
+          "slug": "/research/179-water-consumption-of-ai-data-centers",
+          "excerpt": "Analyzing the water usage of AI data centers and its implications for environmental sustainability and governance in an era of growing AI infrastructure."
         }
       ]
     },
@@ -3706,7 +3711,7 @@
       "id": "sustainability",
       "title": "sustainability",
       "group": "concept",
-      "val": 11,
+      "val": 13,
       "articles": [
         {
           "title": "The Burnout Problem: Sustainability in AI Safety Research",
@@ -3722,6 +3727,11 @@
           "title": "Environmental Impact Assessment for AI Infrastructure",
           "slug": "/research/176-environmental-impact-assessment-for-ai-infrastruct",
           "excerpt": "Examining the ecological footprint of AI systems, from energy-intensive training processes to hardware production, and proposing a framework for sustainable development."
+        },
+        {
+          "title": "Water Consumption of AI Data Centers",
+          "slug": "/research/179-water-consumption-of-ai-data-centers",
+          "excerpt": "Analyzing the water usage of AI data centers and its implications for environmental sustainability and governance in an era of growing AI infrastructure."
         }
       ]
     },
@@ -7151,6 +7161,45 @@
           "title": "AI in Disaster Response: Coordination Standards",
           "slug": "/research/178-ai-in-disaster-response-coordination-standards",
           "excerpt": "Exploring the need for standardized AI coordination frameworks in disaster response to improve efficiency, accountability, and interoperability."
+        }
+      ]
+    },
+    {
+      "id": "water consumption",
+      "title": "water consumption",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Water Consumption of AI Data Centers",
+          "slug": "/research/179-water-consumption-of-ai-data-centers",
+          "excerpt": "Analyzing the water usage of AI data centers and its implications for environmental sustainability and governance in an era of growing AI infrastructure."
+        }
+      ]
+    },
+    {
+      "id": "ai infrastructure",
+      "title": "AI infrastructure",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Water Consumption of AI Data Centers",
+          "slug": "/research/179-water-consumption-of-ai-data-centers",
+          "excerpt": "Analyzing the water usage of AI data centers and its implications for environmental sustainability and governance in an era of growing AI infrastructure."
+        }
+      ]
+    },
+    {
+      "id": "data centers",
+      "title": "data centers",
+      "group": "technical",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Water Consumption of AI Data Centers",
+          "slug": "/research/179-water-consumption-of-ai-data-centers",
+          "excerpt": "Analyzing the water usage of AI data centers and its implications for environmental sustainability and governance in an era of growing AI infrastructure."
         }
       ]
     }
@@ -13469,6 +13518,56 @@
     {
       "source": "accountability",
       "target": "interoperability",
+      "value": 1
+    },
+    {
+      "source": "sustainability",
+      "target": "water consumption",
+      "value": 1
+    },
+    {
+      "source": "ai infrastructure",
+      "target": "water consumption",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "water consumption",
+      "value": 1
+    },
+    {
+      "source": "data centers",
+      "target": "water consumption",
+      "value": 1
+    },
+    {
+      "source": "ai infrastructure",
+      "target": "sustainability",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "sustainability",
+      "value": 1
+    },
+    {
+      "source": "data centers",
+      "target": "sustainability",
+      "value": 1
+    },
+    {
+      "source": "ai infrastructure",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "ai infrastructure",
+      "target": "data centers",
+      "value": 1
+    },
+    {
+      "source": "data centers",
+      "target": "governance",
       "value": 1
     }
   ]

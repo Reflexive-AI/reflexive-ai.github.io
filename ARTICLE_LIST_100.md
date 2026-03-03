@@ -404,7 +404,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 178. [x] AI in Disaster Response: Coordination Standards [P]
     Governance frameworks for deploying AI systems in humanitarian emergencies, addressing coordination between agencies, data sharing protocols, and accountability for wrong predictions.
 
-179. [ ] Water Consumption of AI Data Centers [P]
+179. [x] Water Consumption of AI Data Centers [P]
     Mapping and governing the water footprint of AI compute infrastructure, with case studies from water-stressed regions.
 
 180. [ ] Circular Economy for AI Hardware [P]
