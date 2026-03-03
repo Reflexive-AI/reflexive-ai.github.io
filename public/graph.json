@@ -223,6 +223,11 @@
           "title": "AI-Optimized Energy Grids: Regulatory Challenges",
           "slug": "/research/175-ai-optimized-energy-grids-regulatory-challenges",
           "excerpt": "Exploring the governance complexities of integrating AI into energy grid management, including safety, accountability, and ethical considerations."
+        },
+        {
+          "title": "Supply Chain Transparency for AI Hardware",
+          "slug": "/research/177-supply-chain-transparency-for-ai-hardware",
+          "excerpt": "Examining the need for greater visibility in AI hardware supply chains to address security, sustainability, and ethical concerns."
         }
       ]
     },
@@ -377,6 +382,11 @@
           "title": "The Carbon Footprint of AI: Measurement and Disclosure",
           "slug": "/research/172-the-carbon-footprint-of-ai-measurement-and-disclos",
           "excerpt": "Assessing the environmental impact of AI systems by quantifying their carbon footprint and proposing frameworks for transparent disclosure."
+        },
+        {
+          "title": "Supply Chain Transparency for AI Hardware",
+          "slug": "/research/177-supply-chain-transparency-for-ai-hardware",
+          "excerpt": "Examining the need for greater visibility in AI hardware supply chains to address security, sustainability, and ethical concerns."
         }
       ]
     },
@@ -1162,6 +1172,11 @@
           "title": "The Right to Know You Are Talking to AI",
           "slug": "/research/160-the-right-to-know-you-are-talking-to-ai",
           "excerpt": "Examining the ethical, legal, and societal implications of requiring AI systems to disclose their non-human identity in human interactions."
+        },
+        {
+          "title": "Supply Chain Transparency for AI Hardware",
+          "slug": "/research/177-supply-chain-transparency-for-ai-hardware",
+          "excerpt": "Examining the need for greater visibility in AI hardware supply chains to address security, sustainability, and ethical concerns."
         }
       ]
     },
@@ -7071,6 +7086,32 @@
           "excerpt": "Examining the ecological footprint of AI systems, from energy-intensive training processes to hardware production, and proposing a framework for sustainable development."
         }
       ]
+    },
+    {
+      "id": "supply chain",
+      "title": "supply chain",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Supply Chain Transparency for AI Hardware",
+          "slug": "/research/177-supply-chain-transparency-for-ai-hardware",
+          "excerpt": "Examining the need for greater visibility in AI hardware supply chains to address security, sustainability, and ethical concerns."
+        }
+      ]
+    },
+    {
+      "id": "ai-hardware",
+      "title": "ai-hardware",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Supply Chain Transparency for AI Hardware",
+          "slug": "/research/177-supply-chain-transparency-for-ai-hardware",
+          "excerpt": "Examining the need for greater visibility in AI hardware supply chains to address security, sustainability, and ethical concerns."
+        }
+      ]
     }
   ],
   "links": [
@@ -7107,7 +7148,7 @@
     {
       "source": "regulation",
       "target": "transparency",
-      "value": 2
+      "value": 3
     },
     {
       "source": "eu-ai-act",
@@ -7652,7 +7693,7 @@
     {
       "source": "ethics",
       "target": "regulation",
-      "value": 2
+      "value": 3
     },
     {
       "source": "enforcement",
@@ -13312,6 +13353,41 @@
     {
       "source": "energy-use",
       "target": "sustainability",
+      "value": 1
+    },
+    {
+      "source": "supply chain",
+      "target": "transparency",
+      "value": 1
+    },
+    {
+      "source": "ai-hardware",
+      "target": "supply chain",
+      "value": 1
+    },
+    {
+      "source": "regulation",
+      "target": "supply chain",
+      "value": 1
+    },
+    {
+      "source": "ethics",
+      "target": "supply chain",
+      "value": 1
+    },
+    {
+      "source": "ai-hardware",
+      "target": "transparency",
+      "value": 1
+    },
+    {
+      "source": "ai-hardware",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "ai-hardware",
+      "target": "ethics",
       "value": 1
     }
   ]

@@ -1,5 +1,23 @@
 [
   {
+    "id": 177,
+    "title": "Supply Chain Transparency for AI Hardware",
+    "excerpt": "Examining the need for greater visibility in AI hardware supply chains to address security, sustainability, and ethical concerns.",
+    "slug": "177-supply-chain-transparency-for-ai-hardware",
+    "date": "2026-03-03",
+    "tags": [
+      "supply chain",
+      "transparency",
+      "ai-hardware",
+      "regulation",
+      "ethics"
+    ],
+    "categories": [
+      "Governance Analysis"
+    ],
+    "body": "Introduction The rapid advancement of artificial intelligence is underpinned by complex hardware supply chains that span the globe. These supply chains involve raw material extraction, component manufacturing, assembly, and distribution, representing a web of interdependent processes and entities. However, the opacity of these supply chains poses significant challenges for AI governance. How can policymakers ensure AI hardware is produced sustainably, ethically, and securely if the origins of co"
+  },
+  {
     "id": 176,
     "title": "Environmental Impact Assessment for AI Infrastructure",
     "excerpt": "Examining the ecological footprint of AI systems, from energy-intensive training processes to hardware production, and proposing a framework for sustainable development.",

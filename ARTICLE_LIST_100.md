@@ -398,7 +398,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 176. [x] Environmental Impact Assessment for AI Infrastructure [P]
     Adapting environmental review processes to account for the physical footprint (energy, water, land use, materials) of data centers and compute infrastructure.
 
-177. [ ] Supply Chain Transparency for AI Hardware [R][P]
+177. [x] Supply Chain Transparency for AI Hardware [R][P]
     Governance of the mineral extraction, manufacturing, and disposal lifecycle of AI hardware, from cobalt mines to chip fabrication to electronic waste.
 
 178. [ ] AI in Disaster Response: Coordination Standards [P]
