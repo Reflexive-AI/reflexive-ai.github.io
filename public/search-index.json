@@ -1,5 +1,23 @@
 [
   {
+    "id": 181,
+    "title": "Industry Self-Regulation: Track Record and Limits",
+    "excerpt": "Examining the historical effectiveness of industry self-regulation across sectors and its implications for AI governance.",
+    "slug": "181-industry-self-regulation-track-record-and-limits",
+    "date": "2026-03-04",
+    "tags": [
+      "self-regulation",
+      "ai-governance",
+      "policy",
+      "regulation",
+      "accountability"
+    ],
+    "categories": [
+      "Governance Analysis"
+    ],
+    "body": "Reflexive Research Object 181 Type: Governance Analysis & Policy Review Introduction Industry self-regulation has often been proposed as a pragmatic alternative to government-led oversight, particularly in fast-moving and technically complex fields. From financial services to data privacy, self-regulation has been framed as a mechanism to balance innovation with public accountability. However, the track record of self-regulation is mixed at best: while it can provide flexible and adaptive govern"
+  },
+  {
     "id": 180,
     "title": "Circular Economy for AI Hardware",
     "excerpt": "Exploring how circular economy principles can address environmental and resource challenges in the production, use, and disposal of AI hardware.",

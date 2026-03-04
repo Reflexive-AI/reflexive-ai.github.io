@@ -228,6 +228,11 @@
           "title": "Supply Chain Transparency for AI Hardware",
           "slug": "/research/177-supply-chain-transparency-for-ai-hardware",
           "excerpt": "Examining the need for greater visibility in AI hardware supply chains to address security, sustainability, and ethical concerns."
+        },
+        {
+          "title": "Industry Self-Regulation: Track Record and Limits",
+          "slug": "/research/181-industry-self-regulation-track-record-and-limits",
+          "excerpt": "Examining the historical effectiveness of industry self-regulation across sectors and its implications for AI governance."
         }
       ]
     },
@@ -959,6 +964,11 @@
           "title": "Dual-Use AI Research and National Security",
           "slug": "/research/165-dual-use-ai-research-and-national-security",
           "excerpt": "Exploring the dual-use nature of artificial intelligence research, its implications for national security, and the governance structures needed to manage associated risks."
+        },
+        {
+          "title": "Industry Self-Regulation: Track Record and Limits",
+          "slug": "/research/181-industry-self-regulation-track-record-and-limits",
+          "excerpt": "Examining the historical effectiveness of industry self-regulation across sectors and its implications for AI governance."
         }
       ]
     },
@@ -2682,6 +2692,11 @@
           "title": "AI in Disaster Response: Coordination Standards",
           "slug": "/research/178-ai-in-disaster-response-coordination-standards",
           "excerpt": "Exploring the need for standardized AI coordination frameworks in disaster response to improve efficiency, accountability, and interoperability."
+        },
+        {
+          "title": "Industry Self-Regulation: Track Record and Limits",
+          "slug": "/research/181-industry-self-regulation-track-record-and-limits",
+          "excerpt": "Examining the historical effectiveness of industry self-regulation across sectors and its implications for AI governance."
         }
       ]
     },
@@ -2976,6 +2991,11 @@
           "title": "AI in Disaster Response: Coordination Standards",
           "slug": "/research/178-ai-in-disaster-response-coordination-standards",
           "excerpt": "Exploring the need for standardized AI coordination frameworks in disaster response to improve efficiency, accountability, and interoperability."
+        },
+        {
+          "title": "Industry Self-Regulation: Track Record and Limits",
+          "slug": "/research/181-industry-self-regulation-track-record-and-limits",
+          "excerpt": "Examining the historical effectiveness of industry self-regulation across sectors and its implications for AI governance."
         }
       ]
     },
@@ -7259,6 +7279,19 @@
           "excerpt": "Exploring how circular economy principles can address environmental and resource challenges in the production, use, and disposal of AI hardware."
         }
       ]
+    },
+    {
+      "id": "self-regulation",
+      "title": "self-regulation",
+      "group": "governance",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Industry Self-Regulation: Track Record and Limits",
+          "slug": "/research/181-industry-self-regulation-track-record-and-limits",
+          "excerpt": "Examining the historical effectiveness of industry self-regulation across sectors and its implications for AI governance."
+        }
+      ]
     }
   ],
   "links": [
@@ -8630,7 +8663,7 @@
     {
       "source": "ai-governance",
       "target": "regulation",
-      "value": 4
+      "value": 5
     },
     {
       "source": "abuse detection",
@@ -8805,7 +8838,7 @@
     {
       "source": "accountability",
       "target": "ai-governance",
-      "value": 4
+      "value": 5
     },
     {
       "source": "governance",
@@ -10580,7 +10613,7 @@
     {
       "source": "ai-governance",
       "target": "policy",
-      "value": 3
+      "value": 4
     },
     {
       "source": "ai-governance",
@@ -11125,7 +11158,7 @@
     {
       "source": "accountability",
       "target": "regulation",
-      "value": 4
+      "value": 5
     },
     {
       "source": "agentic-ai",
@@ -12195,7 +12228,7 @@
     {
       "source": "accountability",
       "target": "policy",
-      "value": 1
+      "value": 2
     },
     {
       "source": "policy",
@@ -13675,6 +13708,26 @@
     {
       "source": "e-waste",
       "target": "resource efficiency",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "self-regulation",
+      "value": 1
+    },
+    {
+      "source": "policy",
+      "target": "self-regulation",
+      "value": 1
+    },
+    {
+      "source": "regulation",
+      "target": "self-regulation",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "self-regulation",
       "value": 1
     }
   ]

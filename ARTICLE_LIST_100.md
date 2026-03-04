@@ -414,7 +414,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 
 *Moving beyond policy theory to document how industry actually governs AI.*
 
-181. [ ] Industry Self-Regulation: Track Record and Limits [R][P]
+181. [x] Industry Self-Regulation: Track Record and Limits [R][P]
     Empirical assessment of voluntary AI safety commitments and their compliance rates, drawn from public pledges, audit reports, and incident records.
 
 182. [ ] AI Safety Teams Inside Labs: Structural Analysis [R]
