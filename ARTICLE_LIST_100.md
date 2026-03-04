@@ -423,7 +423,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 183. [x] Startup AI Safety: Resource Constraints and Shortcuts [R][P]
     Governance challenges specific to early-stage companies that lack the resources for comprehensive safety programs, and minimum viable safety frameworks for startups.
 
-184. [ ] Venture Capital and AI Safety Incentives [R][P]
+184. [x] Venture Capital and AI Safety Incentives [R][P]
     How investor incentive structures (growth metrics, exit timelines, competitive pressure) shape AI safety investment decisions at portfolio companies.
 
 185. [ ] Third-Party Auditing: Market Structure and Independence [R]

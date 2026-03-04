@@ -1,5 +1,24 @@
 [
   {
+    "id": 184,
+    "title": "Venture Capital and AI Safety Incentives",
+    "excerpt": "Examining the interplay between venture capital funding and the prioritization of safety in the development of artificial intelligence technologies.",
+    "slug": "184-venture-capital-and-ai-safety-incentives",
+    "date": "2026-03-04",
+    "tags": [
+      "venture capital",
+      "ai safety",
+      "funding incentives",
+      "governance",
+      "startups"
+    ],
+    "categories": [
+      "Governance Analysis",
+      "Policy Design"
+    ],
+    "body": "Introduction The rapid evolution of artificial intelligence (AI) technologies has been fueled, in no small part, by substantial venture capital (VC) investments. From early-stage startups to established tech unicorns, AI development has become a magnet for capital seeking transformative innovation and market dominance. However, the speed and scale of this investment environment often raise critical questions about how venture capital influences the prioritization of AI safety. This article explo"
+  },
+  {
     "id": 183,
     "title": "Startup AI Safety: Resource Constraints and Shortcuts",
     "excerpt": "Exploring how resource limitations in AI startups impact safety practices, the risks of cutting corners, and potential policy interventions to ensure responsible development.",

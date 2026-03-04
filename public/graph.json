@@ -2124,6 +2124,11 @@
           "title": "Startup AI Safety: Resource Constraints and Shortcuts",
           "slug": "/research/183-startup-ai-safety-resource-constraints-and-shortcu",
           "excerpt": "Exploring how resource limitations in AI startups impact safety practices, the risks of cutting corners, and potential policy interventions to ensure responsible development."
+        },
+        {
+          "title": "Venture Capital and AI Safety Incentives",
+          "slug": "/research/184-venture-capital-and-ai-safety-incentives",
+          "excerpt": "Examining the interplay between venture capital funding and the prioritization of safety in the development of artificial intelligence technologies."
         }
       ]
     },
@@ -3098,7 +3103,7 @@
       "id": "ai safety",
       "title": "AI safety",
       "group": "concept",
-      "val": 27,
+      "val": 29,
       "articles": [
         {
           "title": "Differential Privacy in AI Systems",
@@ -3154,6 +3159,11 @@
           "title": "AI Safety Teams Inside Labs: Structural Analysis",
           "slug": "/research/182-ai-safety-teams-inside-labs-structural-analysis",
           "excerpt": "Examining the organizational design, roles, and impact of AI safety teams within research labs, with a focus on their ability to mitigate risks and influence broader governance frameworks."
+        },
+        {
+          "title": "Venture Capital and AI Safety Incentives",
+          "slug": "/research/184-venture-capital-and-ai-safety-incentives",
+          "excerpt": "Examining the interplay between venture capital funding and the prioritization of safety in the development of artificial intelligence technologies."
         }
       ]
     },
@@ -7353,12 +7363,17 @@
       "id": "startups",
       "title": "startups",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Startup AI Safety: Resource Constraints and Shortcuts",
           "slug": "/research/183-startup-ai-safety-resource-constraints-and-shortcu",
           "excerpt": "Exploring how resource limitations in AI startups impact safety practices, the risks of cutting corners, and potential policy interventions to ensure responsible development."
+        },
+        {
+          "title": "Venture Capital and AI Safety Incentives",
+          "slug": "/research/184-venture-capital-and-ai-safety-incentives",
+          "excerpt": "Examining the interplay between venture capital funding and the prioritization of safety in the development of artificial intelligence technologies."
         }
       ]
     },
@@ -7372,6 +7387,32 @@
           "title": "Startup AI Safety: Resource Constraints and Shortcuts",
           "slug": "/research/183-startup-ai-safety-resource-constraints-and-shortcu",
           "excerpt": "Exploring how resource limitations in AI startups impact safety practices, the risks of cutting corners, and potential policy interventions to ensure responsible development."
+        }
+      ]
+    },
+    {
+      "id": "venture capital",
+      "title": "venture capital",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Venture Capital and AI Safety Incentives",
+          "slug": "/research/184-venture-capital-and-ai-safety-incentives",
+          "excerpt": "Examining the interplay between venture capital funding and the prioritization of safety in the development of artificial intelligence technologies."
+        }
+      ]
+    },
+    {
+      "id": "funding incentives",
+      "title": "funding incentives",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Venture Capital and AI Safety Incentives",
+          "slug": "/research/184-venture-capital-and-ai-safety-incentives",
+          "excerpt": "Examining the interplay between venture capital funding and the prioritization of safety in the development of artificial intelligence technologies."
         }
       ]
     }
@@ -13865,7 +13906,7 @@
     {
       "source": "governance",
       "target": "startups",
-      "value": 1
+      "value": 2
     },
     {
       "source": "resource-constraints",
@@ -13885,6 +13926,46 @@
     {
       "source": "policy",
       "target": "resource-constraints",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "venture capital",
+      "value": 1
+    },
+    {
+      "source": "funding incentives",
+      "target": "venture capital",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "venture capital",
+      "value": 1
+    },
+    {
+      "source": "startups",
+      "target": "venture capital",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "funding incentives",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "startups",
+      "value": 1
+    },
+    {
+      "source": "funding incentives",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "funding incentives",
+      "target": "startups",
       "value": 1
     }
   ]
