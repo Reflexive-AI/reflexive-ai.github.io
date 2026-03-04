@@ -1,5 +1,23 @@
 [
   {
+    "id": 182,
+    "title": "AI Safety Teams Inside Labs: Structural Analysis",
+    "excerpt": "Examining the organizational design, roles, and impact of AI safety teams within research labs, with a focus on their ability to mitigate risks and influence broader governance frameworks.",
+    "slug": "182-ai-safety-teams-inside-labs-structural-analysis",
+    "date": "2026-03-04",
+    "tags": [
+      "AI safety",
+      "research labs",
+      "governance",
+      "organizational design",
+      "accountability"
+    ],
+    "categories": [
+      "Governance Analysis"
+    ],
+    "body": "Introduction AI safety teams have become a critical component of research labs, particularly as artificial intelligence systems grow in capability and influence. These teams are tasked with anticipating, identifying, and addressing potential risks, ranging from technical failures to broader societal harms. However, their effectiveness depends heavily on how they are structured, supported, and integrated within the organization. This article examines the structural design of AI safety teams withi"
+  },
+  {
     "id": 181,
     "title": "Industry Self-Regulation: Track Record and Limits",
     "excerpt": "Examining the historical effectiveness of industry self-regulation across sectors and its implications for AI governance.",

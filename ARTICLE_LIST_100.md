@@ -417,7 +417,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 181. [x] Industry Self-Regulation: Track Record and Limits [R][P]
     Empirical assessment of voluntary AI safety commitments and their compliance rates, drawn from public pledges, audit reports, and incident records.
 
-182. [ ] AI Safety Teams Inside Labs: Structural Analysis [R]
+182. [x] AI Safety Teams Inside Labs: Structural Analysis [R]
     How AI safety teams are positioned within corporate hierarchies, their reporting lines, budget authority, and veto power, assessed through organizational design research.
 
 183. [ ] Startup AI Safety: Resource Constraints and Shortcuts [R][P]

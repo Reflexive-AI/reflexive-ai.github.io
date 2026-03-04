@@ -2109,6 +2109,11 @@
           "title": "Water Consumption of AI Data Centers",
           "slug": "/research/179-water-consumption-of-ai-data-centers",
           "excerpt": "Analyzing the water usage of AI data centers and its implications for environmental sustainability and governance in an era of growing AI infrastructure."
+        },
+        {
+          "title": "AI Safety Teams Inside Labs: Structural Analysis",
+          "slug": "/research/182-ai-safety-teams-inside-labs-structural-analysis",
+          "excerpt": "Examining the organizational design, roles, and impact of AI safety teams within research labs, with a focus on their ability to mitigate risks and influence broader governance frameworks."
         }
       ]
     },
@@ -2996,6 +3001,11 @@
           "title": "Industry Self-Regulation: Track Record and Limits",
           "slug": "/research/181-industry-self-regulation-track-record-and-limits",
           "excerpt": "Examining the historical effectiveness of industry self-regulation across sectors and its implications for AI governance."
+        },
+        {
+          "title": "AI Safety Teams Inside Labs: Structural Analysis",
+          "slug": "/research/182-ai-safety-teams-inside-labs-structural-analysis",
+          "excerpt": "Examining the organizational design, roles, and impact of AI safety teams within research labs, with a focus on their ability to mitigate risks and influence broader governance frameworks."
         }
       ]
     },
@@ -3073,7 +3083,7 @@
       "id": "ai safety",
       "title": "AI safety",
       "group": "concept",
-      "val": 25,
+      "val": 27,
       "articles": [
         {
           "title": "Differential Privacy in AI Systems",
@@ -3124,6 +3134,11 @@
           "title": "Defense Procurement and AI Safety Standards",
           "slug": "/research/166-defense-procurement-and-ai-safety-standards",
           "excerpt": "Examining the intersection of defense procurement processes and the establishment of robust AI safety standards in military and dual-use technologies."
+        },
+        {
+          "title": "AI Safety Teams Inside Labs: Structural Analysis",
+          "slug": "/research/182-ai-safety-teams-inside-labs-structural-analysis",
+          "excerpt": "Examining the organizational design, roles, and impact of AI safety teams within research labs, with a focus on their ability to mitigate risks and influence broader governance frameworks."
         }
       ]
     },
@@ -7292,6 +7307,32 @@
           "excerpt": "Examining the historical effectiveness of industry self-regulation across sectors and its implications for AI governance."
         }
       ]
+    },
+    {
+      "id": "research labs",
+      "title": "research labs",
+      "group": "technical",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI Safety Teams Inside Labs: Structural Analysis",
+          "slug": "/research/182-ai-safety-teams-inside-labs-structural-analysis",
+          "excerpt": "Examining the organizational design, roles, and impact of AI safety teams within research labs, with a focus on their ability to mitigate risks and influence broader governance frameworks."
+        }
+      ]
+    },
+    {
+      "id": "organizational design",
+      "title": "organizational design",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI Safety Teams Inside Labs: Structural Analysis",
+          "slug": "/research/182-ai-safety-teams-inside-labs-structural-analysis",
+          "excerpt": "Examining the organizational design, roles, and impact of AI safety teams within research labs, with a focus on their ability to mitigate risks and influence broader governance frameworks."
+        }
+      ]
     }
   ],
   "links": [
@@ -10008,7 +10049,7 @@
     {
       "source": "accountability",
       "target": "ai safety",
-      "value": 2
+      "value": 3
     },
     {
       "source": "personalization",
@@ -13728,6 +13769,41 @@
     {
       "source": "accountability",
       "target": "self-regulation",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "research labs",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "organizational design",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "research labs",
+      "value": 1
+    },
+    {
+      "source": "organizational design",
+      "target": "research labs",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "research labs",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "organizational design",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "organizational design",
       "value": 1
     }
   ]
