@@ -1,5 +1,24 @@
 [
   {
+    "id": 183,
+    "title": "Startup AI Safety: Resource Constraints and Shortcuts",
+    "excerpt": "Exploring how resource limitations in AI startups impact safety practices, the risks of cutting corners, and potential policy interventions to ensure responsible development.",
+    "slug": "183-startup-ai-safety-resource-constraints-and-shortcu",
+    "date": "2026-03-04",
+    "tags": [
+      "ai-safety",
+      "startups",
+      "governance",
+      "resource-constraints",
+      "policy"
+    ],
+    "categories": [
+      "AI Governance",
+      "Safety Analysis"
+    ],
+    "body": "Introduction The rapid proliferation of artificial intelligence (AI) technologies has been accompanied by an explosion of startups seeking to carve out niches in a competitive and high-stakes market. Many of these startups operate under significant resource constraints: limited funding, small teams, and intense pressure to deliver functional products ahead of competitors. While these conditions can foster innovation, they also create an environment where safety considerations are deprioritized o"
+  },
+  {
     "id": 182,
     "title": "AI Safety Teams Inside Labs: Structural Analysis",
     "excerpt": "Examining the organizational design, roles, and impact of AI safety teams within research labs, with a focus on their ability to mitigate risks and influence broader governance frameworks.",

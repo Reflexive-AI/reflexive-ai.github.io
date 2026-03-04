@@ -420,7 +420,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 182. [x] AI Safety Teams Inside Labs: Structural Analysis [R]
     How AI safety teams are positioned within corporate hierarchies, their reporting lines, budget authority, and veto power, assessed through organizational design research.
 
-183. [ ] Startup AI Safety: Resource Constraints and Shortcuts [R][P]
+183. [x] Startup AI Safety: Resource Constraints and Shortcuts [R][P]
     Governance challenges specific to early-stage companies that lack the resources for comprehensive safety programs, and minimum viable safety frameworks for startups.
 
 184. [ ] Venture Capital and AI Safety Incentives [R][P]

@@ -969,6 +969,11 @@
           "title": "Industry Self-Regulation: Track Record and Limits",
           "slug": "/research/181-industry-self-regulation-track-record-and-limits",
           "excerpt": "Examining the historical effectiveness of industry self-regulation across sectors and its implications for AI governance."
+        },
+        {
+          "title": "Startup AI Safety: Resource Constraints and Shortcuts",
+          "slug": "/research/183-startup-ai-safety-resource-constraints-and-shortcu",
+          "excerpt": "Exploring how resource limitations in AI startups impact safety practices, the risks of cutting corners, and potential policy interventions to ensure responsible development."
         }
       ]
     },
@@ -2114,6 +2119,11 @@
           "title": "AI Safety Teams Inside Labs: Structural Analysis",
           "slug": "/research/182-ai-safety-teams-inside-labs-structural-analysis",
           "excerpt": "Examining the organizational design, roles, and impact of AI safety teams within research labs, with a focus on their ability to mitigate risks and influence broader governance frameworks."
+        },
+        {
+          "title": "Startup AI Safety: Resource Constraints and Shortcuts",
+          "slug": "/research/183-startup-ai-safety-resource-constraints-and-shortcu",
+          "excerpt": "Exploring how resource limitations in AI startups impact safety practices, the risks of cutting corners, and potential policy interventions to ensure responsible development."
         }
       ]
     },
@@ -2857,7 +2867,7 @@
       "id": "ai-safety",
       "title": "ai-safety",
       "group": "concept",
-      "val": 19,
+      "val": 21,
       "articles": [
         {
           "title": "Monitoring Deployed Models",
@@ -2893,6 +2903,11 @@
           "title": "Climate Model Validation with AI: Governance Standards",
           "slug": "/research/174-climate-model-validation-with-ai-governance-standa",
           "excerpt": "Exploring the role of AI in climate model validation and the need for governance mechanisms to ensure reliability, safety, and accountability."
+        },
+        {
+          "title": "Startup AI Safety: Resource Constraints and Shortcuts",
+          "slug": "/research/183-startup-ai-safety-resource-constraints-and-shortcu",
+          "excerpt": "Exploring how resource limitations in AI startups impact safety practices, the risks of cutting corners, and potential policy interventions to ensure responsible development."
         }
       ]
     },
@@ -7333,6 +7348,32 @@
           "excerpt": "Examining the organizational design, roles, and impact of AI safety teams within research labs, with a focus on their ability to mitigate risks and influence broader governance frameworks."
         }
       ]
+    },
+    {
+      "id": "startups",
+      "title": "startups",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Startup AI Safety: Resource Constraints and Shortcuts",
+          "slug": "/research/183-startup-ai-safety-resource-constraints-and-shortcu",
+          "excerpt": "Exploring how resource limitations in AI startups impact safety practices, the risks of cutting corners, and potential policy interventions to ensure responsible development."
+        }
+      ]
+    },
+    {
+      "id": "resource-constraints",
+      "title": "resource-constraints",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Startup AI Safety: Resource Constraints and Shortcuts",
+          "slug": "/research/183-startup-ai-safety-resource-constraints-and-shortcu",
+          "excerpt": "Exploring how resource limitations in AI startups impact safety practices, the risks of cutting corners, and potential policy interventions to ensure responsible development."
+        }
+      ]
     }
   ],
   "links": [
@@ -8774,7 +8815,7 @@
     {
       "source": "ai-safety",
       "target": "governance",
-      "value": 4
+      "value": 5
     },
     {
       "source": "accountability",
@@ -13804,6 +13845,46 @@
     {
       "source": "accountability",
       "target": "organizational design",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "startups",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "resource-constraints",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "policy",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "startups",
+      "value": 1
+    },
+    {
+      "source": "resource-constraints",
+      "target": "startups",
+      "value": 1
+    },
+    {
+      "source": "policy",
+      "target": "startups",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "resource-constraints",
+      "value": 1
+    },
+    {
+      "source": "policy",
+      "target": "resource-constraints",
       "value": 1
     }
   ]
