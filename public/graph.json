@@ -4,7 +4,7 @@
       "id": "disclosure",
       "title": "disclosure",
       "group": "concept",
-      "val": 13,
+      "val": 15,
       "articles": [
         {
           "title": "Operationalizing Proportionality in Model Disclosure",
@@ -25,6 +25,11 @@
           "title": "The Right to Know You Are Talking to AI",
           "slug": "/research/160-the-right-to-know-you-are-talking-to-ai",
           "excerpt": "Examining the ethical, legal, and societal implications of requiring AI systems to disclose their non-human identity in human interactions."
+        },
+        {
+          "title": "Responsible Disclosure for AI Vulnerabilities",
+          "slug": "/research/186-responsible-disclosure-for-ai-vulnerabilities",
+          "excerpt": "Developing robust frameworks for the responsible disclosure of AI vulnerabilities to ensure safety, mitigate risks, and foster trust in AI systems."
         }
       ]
     },
@@ -2134,6 +2139,11 @@
           "title": "Third-Party Auditing: Market Structure and Independence",
           "slug": "/research/185-third-party-auditing-market-structure-and-independ",
           "excerpt": "Examining the complexities of third-party auditing in AI systems, with a focus on balancing market dynamics and ensuring independence for effective accountability."
+        },
+        {
+          "title": "Responsible Disclosure for AI Vulnerabilities",
+          "slug": "/research/186-responsible-disclosure-for-ai-vulnerabilities",
+          "excerpt": "Developing robust frameworks for the responsible disclosure of AI vulnerabilities to ensure safety, mitigate risks, and foster trust in AI systems."
         }
       ]
     },
@@ -2877,7 +2887,7 @@
       "id": "ai-safety",
       "title": "ai-safety",
       "group": "concept",
-      "val": 21,
+      "val": 23,
       "articles": [
         {
           "title": "Monitoring Deployed Models",
@@ -2918,6 +2928,11 @@
           "title": "Startup AI Safety: Resource Constraints and Shortcuts",
           "slug": "/research/183-startup-ai-safety-resource-constraints-and-shortcu",
           "excerpt": "Exploring how resource limitations in AI startups impact safety practices, the risks of cutting corners, and potential policy interventions to ensure responsible development."
+        },
+        {
+          "title": "Responsible Disclosure for AI Vulnerabilities",
+          "slug": "/research/186-responsible-disclosure-for-ai-vulnerabilities",
+          "excerpt": "Developing robust frameworks for the responsible disclosure of AI vulnerabilities to ensure safety, mitigate risks, and foster trust in AI systems."
         }
       ]
     },
@@ -7441,6 +7456,32 @@
           "title": "Third-Party Auditing: Market Structure and Independence",
           "slug": "/research/185-third-party-auditing-market-structure-and-independ",
           "excerpt": "Examining the complexities of third-party auditing in AI systems, with a focus on balancing market dynamics and ensuring independence for effective accountability."
+        }
+      ]
+    },
+    {
+      "id": "cybersecurity",
+      "title": "cybersecurity",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Responsible Disclosure for AI Vulnerabilities",
+          "slug": "/research/186-responsible-disclosure-for-ai-vulnerabilities",
+          "excerpt": "Developing robust frameworks for the responsible disclosure of AI vulnerabilities to ensure safety, mitigate risks, and foster trust in AI systems."
+        }
+      ]
+    },
+    {
+      "id": "vulnerability-management",
+      "title": "vulnerability-management",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Responsible Disclosure for AI Vulnerabilities",
+          "slug": "/research/186-responsible-disclosure-for-ai-vulnerabilities",
+          "excerpt": "Developing robust frameworks for the responsible disclosure of AI vulnerabilities to ensure safety, mitigate risks, and foster trust in AI systems."
         }
       ]
     }
@@ -14009,6 +14050,51 @@
     {
       "source": "governance",
       "target": "third-party auditing",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "disclosure",
+      "value": 1
+    },
+    {
+      "source": "cybersecurity",
+      "target": "disclosure",
+      "value": 1
+    },
+    {
+      "source": "disclosure",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "disclosure",
+      "target": "vulnerability-management",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "cybersecurity",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "vulnerability-management",
+      "value": 1
+    },
+    {
+      "source": "cybersecurity",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "cybersecurity",
+      "target": "vulnerability-management",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "vulnerability-management",
       "value": 1
     }
   ]

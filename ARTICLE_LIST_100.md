@@ -429,7 +429,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 185. [x] Third-Party Auditing: Market Structure and Independence [R]
     Analysis of the emerging AI audit market, conflict-of-interest risks (auditor shopping, regulatory capture), and quality assurance mechanisms.
 
-186. [ ] Responsible Disclosure for AI Vulnerabilities [R][P]
+186. [x] Responsible Disclosure for AI Vulnerabilities [R][P]
     Adapting cybersecurity responsible disclosure norms to AI safety vulnerabilities, jailbreaks, and dangerous capability discoveries.
 
 187. [ ] AI Ethics Washing: Detection and Response [P]

@@ -1,5 +1,23 @@
 [
   {
+    "id": 186,
+    "title": "Responsible Disclosure for AI Vulnerabilities",
+    "excerpt": "Developing robust frameworks for the responsible disclosure of AI vulnerabilities to ensure safety, mitigate risks, and foster trust in AI systems.",
+    "slug": "186-responsible-disclosure-for-ai-vulnerabilities",
+    "date": "2026-03-05",
+    "tags": [
+      "disclosure",
+      "ai-safety",
+      "cybersecurity",
+      "governance",
+      "vulnerability-management"
+    ],
+    "categories": [
+      "Governance Analysis"
+    ],
+    "body": "Introduction As artificial intelligence (AI) systems become increasingly integrated into critical infrastructure, public services, and private enterprise, the potential risks associated with their vulnerabilities grow. From biases embedded in model outputs to exploitable weaknesses in deployment, AI systems present novel challenges that require rethinking traditional approaches to vulnerability disclosure. Responsible disclosure for AI vulnerabilities is not merely a technical issue: it is a gov"
+  },
+  {
     "id": 185,
     "title": "Third-Party Auditing: Market Structure and Independence",
     "excerpt": "Examining the complexities of third-party auditing in AI systems, with a focus on balancing market dynamics and ensuring independence for effective accountability.",
