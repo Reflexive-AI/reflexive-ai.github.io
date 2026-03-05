@@ -435,7 +435,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 187. [x] AI Ethics Washing: Detection and Response [P]
     How to distinguish genuine safety commitments from performative ethics programs, and what governance mechanisms enforce accountability beyond public relations.
 
-188. [ ] Customer Pressure as a Governance Mechanism [P]
+188. [x] Customer Pressure as a Governance Mechanism [P]
     How enterprise procurement requirements, government purchasing standards, and consumer demand can drive AI safety improvements through market mechanisms.
 
 189. [ ] Open-Source AI Safety Tooling: Ecosystem Analysis [R]

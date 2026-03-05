@@ -2149,6 +2149,11 @@
           "title": "Responsible Disclosure for AI Vulnerabilities",
           "slug": "/research/186-responsible-disclosure-for-ai-vulnerabilities",
           "excerpt": "Developing robust frameworks for the responsible disclosure of AI vulnerabilities to ensure safety, mitigate risks, and foster trust in AI systems."
+        },
+        {
+          "title": "Customer Pressure as a Governance Mechanism",
+          "slug": "/research/188-customer-pressure-as-a-governance-mechanism",
+          "excerpt": "Examining how consumer demands and market pressure can serve as informal but powerful levers in the governance of AI systems, with implications for industry accountability and safety."
         }
       ]
     },
@@ -2897,7 +2902,7 @@
       "id": "ai-safety",
       "title": "ai-safety",
       "group": "concept",
-      "val": 23,
+      "val": 25,
       "articles": [
         {
           "title": "Monitoring Deployed Models",
@@ -2943,6 +2948,11 @@
           "title": "Responsible Disclosure for AI Vulnerabilities",
           "slug": "/research/186-responsible-disclosure-for-ai-vulnerabilities",
           "excerpt": "Developing robust frameworks for the responsible disclosure of AI vulnerabilities to ensure safety, mitigate risks, and foster trust in AI systems."
+        },
+        {
+          "title": "Customer Pressure as a Governance Mechanism",
+          "slug": "/research/188-customer-pressure-as-a-governance-mechanism",
+          "excerpt": "Examining how consumer demands and market pressure can serve as informal but powerful levers in the governance of AI systems, with implications for industry accountability and safety."
         }
       ]
     },
@@ -3066,6 +3076,11 @@
           "title": "AI Ethics Washing: Detection and Response",
           "slug": "/research/187-ai-ethics-washing-detection-and-response",
           "excerpt": "Examining the phenomenon of ethics washing in the AI industry, with strategies for detection, mitigation, and building robust accountability frameworks."
+        },
+        {
+          "title": "Customer Pressure as a Governance Mechanism",
+          "slug": "/research/188-customer-pressure-as-a-governance-mechanism",
+          "excerpt": "Examining how consumer demands and market pressure can serve as informal but powerful levers in the governance of AI systems, with implications for industry accountability and safety."
         }
       ]
     },
@@ -7517,6 +7532,32 @@
           "excerpt": "Examining the phenomenon of ethics washing in the AI industry, with strategies for detection, mitigation, and building robust accountability frameworks."
         }
       ]
+    },
+    {
+      "id": "customer-pressure",
+      "title": "customer-pressure",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Customer Pressure as a Governance Mechanism",
+          "slug": "/research/188-customer-pressure-as-a-governance-mechanism",
+          "excerpt": "Examining how consumer demands and market pressure can serve as informal but powerful levers in the governance of AI systems, with implications for industry accountability and safety."
+        }
+      ]
+    },
+    {
+      "id": "market-dynamics",
+      "title": "market-dynamics",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Customer Pressure as a Governance Mechanism",
+          "slug": "/research/188-customer-pressure-as-a-governance-mechanism",
+          "excerpt": "Examining how consumer demands and market pressure can serve as informal but powerful levers in the governance of AI systems, with implications for industry accountability and safety."
+        }
+      ]
     }
   ],
   "links": [
@@ -8963,7 +9004,7 @@
     {
       "source": "accountability",
       "target": "ai-safety",
-      "value": 1
+      "value": 2
     },
     {
       "source": "accountability",
@@ -14163,6 +14204,41 @@
     {
       "source": "corporate-responsibility",
       "target": "trust",
+      "value": 1
+    },
+    {
+      "source": "customer-pressure",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "market-dynamics",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "customer-pressure",
+      "value": 1
+    },
+    {
+      "source": "customer-pressure",
+      "target": "market-dynamics",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "customer-pressure",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "market-dynamics",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "market-dynamics",
       "value": 1
     }
   ]

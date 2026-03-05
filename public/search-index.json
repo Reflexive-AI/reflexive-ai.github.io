@@ -1,5 +1,23 @@
 [
   {
+    "id": 188,
+    "title": "Customer Pressure as a Governance Mechanism",
+    "excerpt": "Examining how consumer demands and market pressure can serve as informal but powerful levers in the governance of AI systems, with implications for industry accountability and safety.",
+    "slug": "188-customer-pressure-as-a-governance-mechanism",
+    "date": "2026-03-05",
+    "tags": [
+      "governance",
+      "customer-pressure",
+      "accountability",
+      "market-dynamics",
+      "ai-safety"
+    ],
+    "categories": [
+      "Governance Analysis"
+    ],
+    "body": "Reflexive Research Object 188 Type: Policy Analysis Introduction As artificial intelligence (AI) systems become increasingly integrated into daily life, their development and deployment are under growing scrutiny. While governments and international bodies struggle to keep pace with the rapid evolution of AI technologies, another form of governance is emerging: customer pressure. Consumer demands for ethical, safe, and transparent AI systems are influencing corporate behavior in significant ways"
+  },
+  {
     "id": 187,
     "title": "AI Ethics Washing: Detection and Response",
     "excerpt": "Examining the phenomenon of ethics washing in the AI industry, with strategies for detection, mitigation, and building robust accountability frameworks.",
