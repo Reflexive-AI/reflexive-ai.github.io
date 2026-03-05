@@ -1,5 +1,23 @@
 [
   {
+    "id": 187,
+    "title": "AI Ethics Washing: Detection and Response",
+    "excerpt": "Examining the phenomenon of ethics washing in the AI industry, with strategies for detection, mitigation, and building robust accountability frameworks.",
+    "slug": "187-ai-ethics-washing-detection-and-response",
+    "date": "2026-03-05",
+    "tags": [
+      "ai-ethics",
+      "accountability",
+      "regulation",
+      "trust",
+      "corporate-responsibility"
+    ],
+    "categories": [
+      "Governance Analysis"
+    ],
+    "body": "Introduction As artificial intelligence (AI) becomes increasingly integrated into critical systems and decision-making processes, organizations face mounting pressure to adopt ethical AI practices. However, alongside genuine efforts to address ethical concerns, a troubling trend has emerged: ethics washing. This phenomenon occurs when organizations present a facade of ethical commitment to deflect criticism, garner public trust, or delay regulatory scrutiny, without implementing meaningful chang"
+  },
+  {
     "id": 186,
     "title": "Responsible Disclosure for AI Vulnerabilities",
     "excerpt": "Developing robust frameworks for the responsible disclosure of AI vulnerabilities to ensure safety, mitigate risks, and foster trust in AI systems.",

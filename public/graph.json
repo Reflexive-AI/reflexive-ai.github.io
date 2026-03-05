@@ -238,6 +238,11 @@
           "title": "Industry Self-Regulation: Track Record and Limits",
           "slug": "/research/181-industry-self-regulation-track-record-and-limits",
           "excerpt": "Examining the historical effectiveness of industry self-regulation across sectors and its implications for AI governance."
+        },
+        {
+          "title": "AI Ethics Washing: Detection and Response",
+          "slug": "/research/187-ai-ethics-washing-detection-and-response",
+          "excerpt": "Examining the phenomenon of ethics washing in the AI industry, with strategies for detection, mitigation, and building robust accountability frameworks."
         }
       ]
     },
@@ -2238,7 +2243,7 @@
       "id": "trust",
       "title": "trust",
       "group": "concept",
-      "val": 19,
+      "val": 21,
       "articles": [
         {
           "title": "Uncertainty Communication in AI Outputs",
@@ -2274,6 +2279,11 @@
           "title": "Confidence-Building Measures for Military AI",
           "slug": "/research/170-confidence-building-measures-for-military-ai",
           "excerpt": "Exploring strategies to enhance transparency, trust, and stability in the development and deployment of artificial intelligence in military contexts."
+        },
+        {
+          "title": "AI Ethics Washing: Detection and Response",
+          "slug": "/research/187-ai-ethics-washing-detection-and-response",
+          "excerpt": "Examining the phenomenon of ethics washing in the AI industry, with strategies for detection, mitigation, and building robust accountability frameworks."
         }
       ]
     },
@@ -3051,6 +3061,11 @@
           "title": "Third-Party Auditing: Market Structure and Independence",
           "slug": "/research/185-third-party-auditing-market-structure-and-independ",
           "excerpt": "Examining the complexities of third-party auditing in AI systems, with a focus on balancing market dynamics and ensuring independence for effective accountability."
+        },
+        {
+          "title": "AI Ethics Washing: Detection and Response",
+          "slug": "/research/187-ai-ethics-washing-detection-and-response",
+          "excerpt": "Examining the phenomenon of ethics washing in the AI industry, with strategies for detection, mitigation, and building robust accountability frameworks."
         }
       ]
     },
@@ -4763,12 +4778,17 @@
       "id": "ai-ethics",
       "title": "ai-ethics",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Digital Minds: Legal and Ethical Status",
           "slug": "/research/095-digital-minds-legal-ethical-status",
           "excerpt": "If an AI system credibly claims subjective experience, existing legal and ethical frameworks offer no adequate response. This article examines the philosophical criteria for moral status, surveys legal precedents for non-human personhood, and maps the governance risks of both premature recognition and delayed acknowledgment."
+        },
+        {
+          "title": "AI Ethics Washing: Detection and Response",
+          "slug": "/research/187-ai-ethics-washing-detection-and-response",
+          "excerpt": "Examining the phenomenon of ethics washing in the AI industry, with strategies for detection, mitigation, and building robust accountability frameworks."
         }
       ]
     },
@@ -7482,6 +7502,19 @@
           "title": "Responsible Disclosure for AI Vulnerabilities",
           "slug": "/research/186-responsible-disclosure-for-ai-vulnerabilities",
           "excerpt": "Developing robust frameworks for the responsible disclosure of AI vulnerabilities to ensure safety, mitigate risks, and foster trust in AI systems."
+        }
+      ]
+    },
+    {
+      "id": "corporate-responsibility",
+      "title": "corporate-responsibility",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI Ethics Washing: Detection and Response",
+          "slug": "/research/187-ai-ethics-washing-detection-and-response",
+          "excerpt": "Examining the phenomenon of ethics washing in the AI industry, with strategies for detection, mitigation, and building robust accountability frameworks."
         }
       ]
     }
@@ -11420,7 +11453,7 @@
     {
       "source": "regulation",
       "target": "trust",
-      "value": 1
+      "value": 2
     },
     {
       "source": "agentic ai",
@@ -12975,7 +13008,7 @@
     {
       "source": "accountability",
       "target": "trust",
-      "value": 1
+      "value": 2
     },
     {
       "source": "ai-safety",
@@ -14095,6 +14128,41 @@
     {
       "source": "governance",
       "target": "vulnerability-management",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "ai-ethics",
+      "value": 1
+    },
+    {
+      "source": "ai-ethics",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "ai-ethics",
+      "target": "trust",
+      "value": 1
+    },
+    {
+      "source": "ai-ethics",
+      "target": "corporate-responsibility",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "corporate-responsibility",
+      "value": 1
+    },
+    {
+      "source": "corporate-responsibility",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "corporate-responsibility",
+      "target": "trust",
       "value": 1
     }
   ]

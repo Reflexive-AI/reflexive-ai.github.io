@@ -432,7 +432,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 186. [x] Responsible Disclosure for AI Vulnerabilities [R][P]
     Adapting cybersecurity responsible disclosure norms to AI safety vulnerabilities, jailbreaks, and dangerous capability discoveries.
 
-187. [ ] AI Ethics Washing: Detection and Response [P]
+187. [x] AI Ethics Washing: Detection and Response [P]
     How to distinguish genuine safety commitments from performative ethics programs, and what governance mechanisms enforce accountability beyond public relations.
 
 188. [ ] Customer Pressure as a Governance Mechanism [P]
