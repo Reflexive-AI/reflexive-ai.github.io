@@ -426,7 +426,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 184. [x] Venture Capital and AI Safety Incentives [R][P]
     How investor incentive structures (growth metrics, exit timelines, competitive pressure) shape AI safety investment decisions at portfolio companies.
 
-185. [ ] Third-Party Auditing: Market Structure and Independence [R]
+185. [x] Third-Party Auditing: Market Structure and Independence [R]
     Analysis of the emerging AI audit market, conflict-of-interest risks (auditor shopping, regulatory capture), and quality assurance mechanisms.
 
 186. [ ] Responsible Disclosure for AI Vulnerabilities [R][P]

@@ -1,5 +1,23 @@
 [
   {
+    "id": 185,
+    "title": "Third-Party Auditing: Market Structure and Independence",
+    "excerpt": "Examining the complexities of third-party auditing in AI systems, with a focus on balancing market dynamics and ensuring independence for effective accountability.",
+    "slug": "185-third-party-auditing-market-structure-and-independ",
+    "date": "2026-03-05",
+    "tags": [
+      "third-party auditing",
+      "accountability",
+      "AI safety",
+      "governance"
+    ],
+    "categories": [
+      "AI Governance",
+      "Accountability Mechanisms"
+    ],
+    "body": "Introduction As artificial intelligence (AI) systems grow in power and complexity, the need for robust governance mechanisms has become paramount. Among these mechanisms, third-party auditing has emerged as a critical component for ensuring accountability and mitigating risks. An independent, transparent auditing process can provide assurances to stakeholders—governments, private entities, and the public—that AI systems meet safety, ethical, and performance standards. However, the structure of t"
+  },
+  {
     "id": 184,
     "title": "Venture Capital and AI Safety Incentives",
     "excerpt": "Examining the interplay between venture capital funding and the prioritization of safety in the development of artificial intelligence technologies.",

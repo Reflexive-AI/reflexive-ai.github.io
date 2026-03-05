@@ -2129,6 +2129,11 @@
           "title": "Venture Capital and AI Safety Incentives",
           "slug": "/research/184-venture-capital-and-ai-safety-incentives",
           "excerpt": "Examining the interplay between venture capital funding and the prioritization of safety in the development of artificial intelligence technologies."
+        },
+        {
+          "title": "Third-Party Auditing: Market Structure and Independence",
+          "slug": "/research/185-third-party-auditing-market-structure-and-independ",
+          "excerpt": "Examining the complexities of third-party auditing in AI systems, with a focus on balancing market dynamics and ensuring independence for effective accountability."
         }
       ]
     },
@@ -3026,6 +3031,11 @@
           "title": "AI Safety Teams Inside Labs: Structural Analysis",
           "slug": "/research/182-ai-safety-teams-inside-labs-structural-analysis",
           "excerpt": "Examining the organizational design, roles, and impact of AI safety teams within research labs, with a focus on their ability to mitigate risks and influence broader governance frameworks."
+        },
+        {
+          "title": "Third-Party Auditing: Market Structure and Independence",
+          "slug": "/research/185-third-party-auditing-market-structure-and-independ",
+          "excerpt": "Examining the complexities of third-party auditing in AI systems, with a focus on balancing market dynamics and ensuring independence for effective accountability."
         }
       ]
     },
@@ -3103,7 +3113,7 @@
       "id": "ai safety",
       "title": "AI safety",
       "group": "concept",
-      "val": 29,
+      "val": 30,
       "articles": [
         {
           "title": "Differential Privacy in AI Systems",
@@ -3164,6 +3174,11 @@
           "title": "Venture Capital and AI Safety Incentives",
           "slug": "/research/184-venture-capital-and-ai-safety-incentives",
           "excerpt": "Examining the interplay between venture capital funding and the prioritization of safety in the development of artificial intelligence technologies."
+        },
+        {
+          "title": "Third-Party Auditing: Market Structure and Independence",
+          "slug": "/research/185-third-party-auditing-market-structure-and-independ",
+          "excerpt": "Examining the complexities of third-party auditing in AI systems, with a focus on balancing market dynamics and ensuring independence for effective accountability."
         }
       ]
     },
@@ -7415,6 +7430,19 @@
           "excerpt": "Examining the interplay between venture capital funding and the prioritization of safety in the development of artificial intelligence technologies."
         }
       ]
+    },
+    {
+      "id": "third-party auditing",
+      "title": "third-party auditing",
+      "group": "governance",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Third-Party Auditing: Market Structure and Independence",
+          "slug": "/research/185-third-party-auditing-market-structure-and-independ",
+          "excerpt": "Examining the complexities of third-party auditing in AI systems, with a focus on balancing market dynamics and ensuring independence for effective accountability."
+        }
+      ]
     }
   ],
   "links": [
@@ -10131,7 +10159,7 @@
     {
       "source": "accountability",
       "target": "ai safety",
-      "value": 3
+      "value": 4
     },
     {
       "source": "personalization",
@@ -13966,6 +13994,21 @@
     {
       "source": "funding incentives",
       "target": "startups",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "third-party auditing",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "third-party auditing",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "third-party auditing",
       "value": 1
     }
   ]
