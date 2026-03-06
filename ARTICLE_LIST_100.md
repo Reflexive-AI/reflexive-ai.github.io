@@ -451,7 +451,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 191. [x] Machine-Readable AI Incident Reports [A][R]
     An extended schema for encoding AI incidents, near-misses, and governance failures in a structured, interoperable format compatible with the incident database from article 142.
 
-192. [ ] Constraint Composition Protocol [A][R]
+192. [x] Constraint Composition Protocol [A][R]
     A specification for combining multiple governance constraints from different authorities (national, sectoral, organizational) into a single coherent policy for an AI system.
 
 193. [ ] AI System Self-Declaration Format [A][R]

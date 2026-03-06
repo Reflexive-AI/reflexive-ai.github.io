@@ -1,5 +1,23 @@
 [
   {
+    "id": 192,
+    "title": "Constraint Composition Protocol",
+    "excerpt": "Exploring a structured protocol for designing and integrating constraints into AI systems to enhance safety, accountability, and alignment with human values.",
+    "slug": "192-constraint-composition-protocol",
+    "date": "2026-03-06",
+    "tags": [
+      "ai-safety",
+      "constraints",
+      "governance",
+      "alignment",
+      "regulation"
+    ],
+    "categories": [
+      "Governance Mechanisms"
+    ],
+    "body": "Introduction As artificial intelligence systems grow in capability and autonomy, the need for robust safety mechanisms becomes increasingly urgent. The challenge lies in ensuring that these systems operate within defined boundaries, uphold ethical principles, and remain aligned with human values. One promising approach is the application of constraints: pre-defined rules or limitations embedded in AI systems to govern their behavior. However, the absence of a standardized methodology for designi"
+  },
+  {
     "id": 191,
     "title": "Machine-Readable AI Incident Reports",
     "excerpt": "Exploring the design, implementation, and governance implications of standardized, machine-readable formats for reporting AI incidents.",

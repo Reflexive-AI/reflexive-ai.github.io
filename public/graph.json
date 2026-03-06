@@ -253,6 +253,11 @@
           "title": "Machine-Readable AI Incident Reports",
           "slug": "/research/191-machine-readable-ai-incident-reports",
           "excerpt": "Exploring the design, implementation, and governance implications of standardized, machine-readable formats for reporting AI incidents."
+        },
+        {
+          "title": "Constraint Composition Protocol",
+          "slug": "/research/192-constraint-composition-protocol",
+          "excerpt": "Exploring a structured protocol for designing and integrating constraints into AI systems to enhance safety, accountability, and alignment with human values."
         }
       ]
     },
@@ -801,7 +806,7 @@
       "id": "constraints",
       "title": "constraints",
       "group": "concept",
-      "val": 21,
+      "val": 23,
       "articles": [
         {
           "title": "Red Lines: A Taxonomy of Non-Negotiable AI Limits",
@@ -842,6 +847,11 @@
           "title": "Who Decides What AI Should Refuse? The Democratic Deficit in Constraint Design",
           "slug": "/research/070-democratic-deficit-constraints",
           "excerpt": "AI refusals encode value judgments. Currently, small teams at AI labs make these decisions. Is this legitimate? Exploring the democratic deficit in AI constraint design and possible alternatives."
+        },
+        {
+          "title": "Constraint Composition Protocol",
+          "slug": "/research/192-constraint-composition-protocol",
+          "excerpt": "Exploring a structured protocol for designing and integrating constraints into AI systems to enhance safety, accountability, and alignment with human values."
         }
       ]
     },
@@ -1765,7 +1775,7 @@
       "id": "alignment",
       "title": "alignment",
       "group": "concept",
-      "val": 23,
+      "val": 25,
       "articles": [
         {
           "title": "What Alignment Actually Means",
@@ -1811,6 +1821,11 @@
           "title": "Plain Language Guide to Agentic AI Risks",
           "slug": "/research/120-plain-language-guide-to-agentic-ai-risks",
           "excerpt": "An accessible exploration of the risks posed by agentic AI systems, including autonomy, alignment, and societal impacts."
+        },
+        {
+          "title": "Constraint Composition Protocol",
+          "slug": "/research/192-constraint-composition-protocol",
+          "excerpt": "Exploring a structured protocol for designing and integrating constraints into AI systems to enhance safety, accountability, and alignment with human values."
         }
       ]
     },
@@ -2184,6 +2199,11 @@
           "title": "Open-Source AI Safety Tooling: Ecosystem Analysis",
           "slug": "/research/189-open-source-ai-safety-tooling-ecosystem-analysis",
           "excerpt": "Exploring the strengths, weaknesses, and opportunities in the development of open-source tools for AI safety, and their role in advancing responsible AI governance."
+        },
+        {
+          "title": "Constraint Composition Protocol",
+          "slug": "/research/192-constraint-composition-protocol",
+          "excerpt": "Exploring a structured protocol for designing and integrating constraints into AI systems to enhance safety, accountability, and alignment with human values."
         }
       ]
     },
@@ -2932,7 +2952,7 @@
       "id": "ai-safety",
       "title": "ai-safety",
       "group": "concept",
-      "val": 27,
+      "val": 29,
       "articles": [
         {
           "title": "Monitoring Deployed Models",
@@ -2988,6 +3008,11 @@
           "title": "Industry Consortia for AI Safety: Comparative Analysis",
           "slug": "/research/190-industry-consortia-for-ai-safety-comparative-analy",
           "excerpt": "An examination of how industry consortia shape AI safety standards, comparing models, effectiveness, and governance mechanisms."
+        },
+        {
+          "title": "Constraint Composition Protocol",
+          "slug": "/research/192-constraint-composition-protocol",
+          "excerpt": "Exploring a structured protocol for designing and integrating constraints into AI systems to enhance safety, accountability, and alignment with human values."
         }
       ]
     },
@@ -8629,7 +8654,7 @@
     {
       "source": "alignment",
       "target": "constraints",
-      "value": 1
+      "value": 2
     },
     {
       "source": "constraints",
@@ -8644,7 +8669,7 @@
     {
       "source": "constraints",
       "target": "governance",
-      "value": 1
+      "value": 2
     },
     {
       "source": "capability-elicitation",
@@ -8669,7 +8694,7 @@
     {
       "source": "alignment",
       "target": "governance",
-      "value": 4
+      "value": 5
     },
     {
       "source": "cbrn",
@@ -9409,7 +9434,7 @@
     {
       "source": "ai-safety",
       "target": "alignment",
-      "value": 1
+      "value": 2
     },
     {
       "source": "ai-safety",
@@ -14394,7 +14419,7 @@
     {
       "source": "ai-safety",
       "target": "regulation",
-      "value": 1
+      "value": 2
     },
     {
       "source": "ai-safety",
@@ -14433,6 +14458,21 @@
     },
     {
       "source": "ai-incidents",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "constraints",
+      "value": 1
+    },
+    {
+      "source": "constraints",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "alignment",
       "target": "regulation",
       "value": 1
     }
