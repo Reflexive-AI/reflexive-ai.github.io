@@ -1,5 +1,24 @@
 [
   {
+    "id": 191,
+    "title": "Machine-Readable AI Incident Reports",
+    "excerpt": "Exploring the design, implementation, and governance implications of standardized, machine-readable formats for reporting AI incidents.",
+    "slug": "191-machine-readable-ai-incident-reports",
+    "date": "2026-03-06",
+    "tags": [
+      "ai-incidents",
+      "transparency",
+      "accountability",
+      "safety",
+      "regulation"
+    ],
+    "categories": [
+      "AI Governance",
+      "Safety Mechanisms"
+    ],
+    "body": "Introduction The complexity and accelerating deployment of artificial intelligence (AI) systems have brought with them an increasing incidence of failures, unintended consequences, and adversarial misuse. From discriminatory hiring algorithms to autonomous vehicles involved in fatal accidents, these incidents highlight the urgent need for robust mechanisms to identify, document, and address harmful outcomes. However, existing approaches to documenting AI incidents are fragmented and inconsistent"
+  },
+  {
     "id": 190,
     "title": "Industry Consortia for AI Safety: Comparative Analysis",
     "excerpt": "An examination of how industry consortia shape AI safety standards, comparing models, effectiveness, and governance mechanisms.",

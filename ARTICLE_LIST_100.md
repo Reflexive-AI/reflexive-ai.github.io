@@ -448,7 +448,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 
 *Extending the machine-readable governance layer and opening the neurotechnology frontier.*
 
-191. [ ] Machine-Readable AI Incident Reports [A][R]
+191. [x] Machine-Readable AI Incident Reports [A][R]
     An extended schema for encoding AI incidents, near-misses, and governance failures in a structured, interoperable format compatible with the incident database from article 142.
 
 192. [ ] Constraint Composition Protocol [A][R]

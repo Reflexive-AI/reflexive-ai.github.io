@@ -248,6 +248,11 @@
           "title": "Industry Consortia for AI Safety: Comparative Analysis",
           "slug": "/research/190-industry-consortia-for-ai-safety-comparative-analy",
           "excerpt": "An examination of how industry consortia shape AI safety standards, comparing models, effectiveness, and governance mechanisms."
+        },
+        {
+          "title": "Machine-Readable AI Incident Reports",
+          "slug": "/research/191-machine-readable-ai-incident-reports",
+          "excerpt": "Exploring the design, implementation, and governance implications of standardized, machine-readable formats for reporting AI incidents."
         }
       ]
     },
@@ -407,6 +412,11 @@
           "title": "Supply Chain Transparency for AI Hardware",
           "slug": "/research/177-supply-chain-transparency-for-ai-hardware",
           "excerpt": "Examining the need for greater visibility in AI hardware supply chains to address security, sustainability, and ethical concerns."
+        },
+        {
+          "title": "Machine-Readable AI Incident Reports",
+          "slug": "/research/191-machine-readable-ai-incident-reports",
+          "excerpt": "Exploring the design, implementation, and governance implications of standardized, machine-readable formats for reporting AI incidents."
         }
       ]
     },
@@ -608,6 +618,11 @@
           "title": "AI-Optimized Energy Grids: Regulatory Challenges",
           "slug": "/research/175-ai-optimized-energy-grids-regulatory-challenges",
           "excerpt": "Exploring the governance complexities of integrating AI into energy grid management, including safety, accountability, and ethical considerations."
+        },
+        {
+          "title": "Machine-Readable AI Incident Reports",
+          "slug": "/research/191-machine-readable-ai-incident-reports",
+          "excerpt": "Exploring the design, implementation, and governance implications of standardized, machine-readable formats for reporting AI incidents."
         }
       ]
     },
@@ -3101,6 +3116,11 @@
           "title": "Customer Pressure as a Governance Mechanism",
           "slug": "/research/188-customer-pressure-as-a-governance-mechanism",
           "excerpt": "Examining how consumer demands and market pressure can serve as informal but powerful levers in the governance of AI systems, with implications for industry accountability and safety."
+        },
+        {
+          "title": "Machine-Readable AI Incident Reports",
+          "slug": "/research/191-machine-readable-ai-incident-reports",
+          "excerpt": "Exploring the design, implementation, and governance implications of standardized, machine-readable formats for reporting AI incidents."
         }
       ]
     },
@@ -7635,6 +7655,19 @@
           "excerpt": "An examination of how industry consortia shape AI safety standards, comparing models, effectiveness, and governance mechanisms."
         }
       ]
+    },
+    {
+      "id": "ai-incidents",
+      "title": "ai-incidents",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Machine-Readable AI Incident Reports",
+          "slug": "/research/191-machine-readable-ai-incident-reports",
+          "excerpt": "Exploring the design, implementation, and governance implications of standardized, machine-readable formats for reporting AI incidents."
+        }
+      ]
     }
   ],
   "links": [
@@ -7671,7 +7704,7 @@
     {
       "source": "regulation",
       "target": "transparency",
-      "value": 3
+      "value": 4
     },
     {
       "source": "eu-ai-act",
@@ -12751,7 +12784,7 @@
     {
       "source": "accountability",
       "target": "transparency",
-      "value": 1
+      "value": 2
     },
     {
       "source": "governance failures",
@@ -14380,6 +14413,26 @@
     },
     {
       "source": "industry",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "ai-incidents",
+      "target": "transparency",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "ai-incidents",
+      "value": 1
+    },
+    {
+      "source": "ai-incidents",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "ai-incidents",
       "target": "regulation",
       "value": 1
     }
