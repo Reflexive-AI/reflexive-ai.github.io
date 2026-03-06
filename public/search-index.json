@@ -1,5 +1,22 @@
 [
   {
+    "id": 190,
+    "title": "Industry Consortia for AI Safety: Comparative Analysis",
+    "excerpt": "An examination of how industry consortia shape AI safety standards, comparing models, effectiveness, and governance mechanisms.",
+    "slug": "190-industry-consortia-for-ai-safety-comparative-analy",
+    "date": "2026-03-06",
+    "tags": [
+      "ai-safety",
+      "consortia",
+      "regulation",
+      "industry"
+    ],
+    "categories": [
+      "Governance Analysis"
+    ],
+    "body": "Reflexive Research Object 190 Type: Research & Policy Analysis Introduction As artificial intelligence systems continue to scale in power and complexity, the risks associated with their misuse or malfunction grow proportionally. Industry consortia have emerged as significant players in addressing these risks, offering platforms for collaboration, standard-setting, and collective governance. This article analyzes the role of industry consortia in promoting AI safety, comparing structural models, "
+  },
+  {
     "id": 189,
     "title": "Open-Source AI Safety Tooling: Ecosystem Analysis",
     "excerpt": "Exploring the strengths, weaknesses, and opportunities in the development of open-source tools for AI safety, and their role in advancing responsible AI governance.",

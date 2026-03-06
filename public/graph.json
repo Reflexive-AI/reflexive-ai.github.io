@@ -243,6 +243,11 @@
           "title": "AI Ethics Washing: Detection and Response",
           "slug": "/research/187-ai-ethics-washing-detection-and-response",
           "excerpt": "Examining the phenomenon of ethics washing in the AI industry, with strategies for detection, mitigation, and building robust accountability frameworks."
+        },
+        {
+          "title": "Industry Consortia for AI Safety: Comparative Analysis",
+          "slug": "/research/190-industry-consortia-for-ai-safety-comparative-analy",
+          "excerpt": "An examination of how industry consortia shape AI safety standards, comparing models, effectiveness, and governance mechanisms."
         }
       ]
     },
@@ -2912,7 +2917,7 @@
       "id": "ai-safety",
       "title": "ai-safety",
       "group": "concept",
-      "val": 25,
+      "val": 27,
       "articles": [
         {
           "title": "Monitoring Deployed Models",
@@ -2963,6 +2968,11 @@
           "title": "Customer Pressure as a Governance Mechanism",
           "slug": "/research/188-customer-pressure-as-a-governance-mechanism",
           "excerpt": "Examining how consumer demands and market pressure can serve as informal but powerful levers in the governance of AI systems, with implications for industry accountability and safety."
+        },
+        {
+          "title": "Industry Consortia for AI Safety: Comparative Analysis",
+          "slug": "/research/190-industry-consortia-for-ai-safety-comparative-analy",
+          "excerpt": "An examination of how industry consortia shape AI safety standards, comparing models, effectiveness, and governance mechanisms."
         }
       ]
     },
@@ -7597,6 +7607,32 @@
           "title": "Open-Source AI Safety Tooling: Ecosystem Analysis",
           "slug": "/research/189-open-source-ai-safety-tooling-ecosystem-analysis",
           "excerpt": "Exploring the strengths, weaknesses, and opportunities in the development of open-source tools for AI safety, and their role in advancing responsible AI governance."
+        }
+      ]
+    },
+    {
+      "id": "consortia",
+      "title": "consortia",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Industry Consortia for AI Safety: Comparative Analysis",
+          "slug": "/research/190-industry-consortia-for-ai-safety-comparative-analy",
+          "excerpt": "An examination of how industry consortia shape AI safety standards, comparing models, effectiveness, and governance mechanisms."
+        }
+      ]
+    },
+    {
+      "id": "industry",
+      "title": "industry",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Industry Consortia for AI Safety: Comparative Analysis",
+          "slug": "/research/190-industry-consortia-for-ai-safety-comparative-analy",
+          "excerpt": "An examination of how industry consortia shape AI safety standards, comparing models, effectiveness, and governance mechanisms."
         }
       ]
     }
@@ -14315,6 +14351,36 @@
     {
       "source": "community-driven development",
       "target": "tooling",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "consortia",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "industry",
+      "value": 1
+    },
+    {
+      "source": "consortia",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "consortia",
+      "target": "industry",
+      "value": 1
+    },
+    {
+      "source": "industry",
+      "target": "regulation",
       "value": 1
     }
   ]

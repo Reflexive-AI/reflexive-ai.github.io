@@ -441,7 +441,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 189. [x] Open-Source AI Safety Tooling: Ecosystem Analysis [R]
     Mapping the ecosystem of open-source tools for AI evaluation, red teaming, auditing, and governance, identifying gaps and sustainability risks.
 
-190. [ ] Industry Consortia for AI Safety: Comparative Analysis [R][P]
+190. [x] Industry Consortia for AI Safety: Comparative Analysis [R][P]
     Evaluating the effectiveness of industry-led AI safety collaborations (Frontier Model Forum, Partnership on AI, MLCommons) and their governance structures.
 
 ### Cluster J: Machine-Readable Governance Artifacts and Neurotechnology (191-200)
