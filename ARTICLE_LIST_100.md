@@ -438,7 +438,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 188. [x] Customer Pressure as a Governance Mechanism [P]
     How enterprise procurement requirements, government purchasing standards, and consumer demand can drive AI safety improvements through market mechanisms.
 
-189. [ ] Open-Source AI Safety Tooling: Ecosystem Analysis [R]
+189. [x] Open-Source AI Safety Tooling: Ecosystem Analysis [R]
     Mapping the ecosystem of open-source tools for AI evaluation, red teaming, auditing, and governance, identifying gaps and sustainability risks.
 
 190. [ ] Industry Consortia for AI Safety: Comparative Analysis [R][P]

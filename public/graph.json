@@ -409,7 +409,7 @@
       "id": "open-source",
       "title": "open-source",
       "group": "concept",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "The Open Weight Safety Paradox",
@@ -420,6 +420,11 @@
           "title": "Post-Proliferation Open-Weight Governance",
           "slug": "/research/105-post-proliferation-open-weight-governance",
           "excerpt": "Examining regulatory frameworks for governing openly accessible AI model weights in an era of widespread proliferation."
+        },
+        {
+          "title": "Open-Source AI Safety Tooling: Ecosystem Analysis",
+          "slug": "/research/189-open-source-ai-safety-tooling-ecosystem-analysis",
+          "excerpt": "Exploring the strengths, weaknesses, and opportunities in the development of open-source tools for AI safety, and their role in advancing responsible AI governance."
         }
       ]
     },
@@ -2154,6 +2159,11 @@
           "title": "Customer Pressure as a Governance Mechanism",
           "slug": "/research/188-customer-pressure-as-a-governance-mechanism",
           "excerpt": "Examining how consumer demands and market pressure can serve as informal but powerful levers in the governance of AI systems, with implications for industry accountability and safety."
+        },
+        {
+          "title": "Open-Source AI Safety Tooling: Ecosystem Analysis",
+          "slug": "/research/189-open-source-ai-safety-tooling-ecosystem-analysis",
+          "excerpt": "Exploring the strengths, weaknesses, and opportunities in the development of open-source tools for AI safety, and their role in advancing responsible AI governance."
         }
       ]
     },
@@ -3224,6 +3234,11 @@
           "title": "Third-Party Auditing: Market Structure and Independence",
           "slug": "/research/185-third-party-auditing-market-structure-and-independ",
           "excerpt": "Examining the complexities of third-party auditing in AI systems, with a focus on balancing market dynamics and ensuring independence for effective accountability."
+        },
+        {
+          "title": "Open-Source AI Safety Tooling: Ecosystem Analysis",
+          "slug": "/research/189-open-source-ai-safety-tooling-ecosystem-analysis",
+          "excerpt": "Exploring the strengths, weaknesses, and opportunities in the development of open-source tools for AI safety, and their role in advancing responsible AI governance."
         }
       ]
     },
@@ -7558,6 +7573,32 @@
           "excerpt": "Examining how consumer demands and market pressure can serve as informal but powerful levers in the governance of AI systems, with implications for industry accountability and safety."
         }
       ]
+    },
+    {
+      "id": "tooling",
+      "title": "tooling",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Open-Source AI Safety Tooling: Ecosystem Analysis",
+          "slug": "/research/189-open-source-ai-safety-tooling-ecosystem-analysis",
+          "excerpt": "Exploring the strengths, weaknesses, and opportunities in the development of open-source tools for AI safety, and their role in advancing responsible AI governance."
+        }
+      ]
+    },
+    {
+      "id": "community-driven development",
+      "title": "community-driven development",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Open-Source AI Safety Tooling: Ecosystem Analysis",
+          "slug": "/research/189-open-source-ai-safety-tooling-ecosystem-analysis",
+          "excerpt": "Exploring the strengths, weaknesses, and opportunities in the development of open-source tools for AI safety, and their role in advancing responsible AI governance."
+        }
+      ]
     }
   ],
   "links": [
@@ -11159,12 +11200,12 @@
     {
       "source": "ai safety",
       "target": "open-source",
-      "value": 1
+      "value": 2
     },
     {
       "source": "governance",
       "target": "open-source",
-      "value": 1
+      "value": 2
     },
     {
       "source": "open-source",
@@ -14239,6 +14280,41 @@
     {
       "source": "ai-safety",
       "target": "market-dynamics",
+      "value": 1
+    },
+    {
+      "source": "open-source",
+      "target": "tooling",
+      "value": 1
+    },
+    {
+      "source": "community-driven development",
+      "target": "open-source",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "tooling",
+      "value": 1
+    },
+    {
+      "source": "ai safety",
+      "target": "community-driven development",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "tooling",
+      "value": 1
+    },
+    {
+      "source": "community-driven development",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "community-driven development",
+      "target": "tooling",
       "value": 1
     }
   ]
