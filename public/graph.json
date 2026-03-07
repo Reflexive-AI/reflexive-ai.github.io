@@ -263,6 +263,11 @@
           "title": "Governance Constraint Testing Framework",
           "slug": "/research/195-governance-constraint-testing-framework",
           "excerpt": "A structured approach to evaluating governance constraints for AI systems, ensuring robust oversight and alignment with safety objectives."
+        },
+        {
+          "title": "Neurotechnology Regulation: The Emerging Frontier",
+          "slug": "/research/196-neurotechnology-regulation-the-emerging-frontier",
+          "excerpt": "Exploring the intersection of neurotechnology and governance, this article examines the regulatory challenges posed by innovations that blur the line between human cognition and artificial intelligence."
         }
       ]
     },
@@ -643,6 +648,11 @@
           "title": "Governance Constraint Testing Framework",
           "slug": "/research/195-governance-constraint-testing-framework",
           "excerpt": "A structured approach to evaluating governance constraints for AI systems, ensuring robust oversight and alignment with safety objectives."
+        },
+        {
+          "title": "Neurotechnology Regulation: The Emerging Frontier",
+          "slug": "/research/196-neurotechnology-regulation-the-emerging-frontier",
+          "excerpt": "Exploring the intersection of neurotechnology and governance, this article examines the regulatory challenges posed by innovations that blur the line between human cognition and artificial intelligence."
         }
       ]
     },
@@ -1039,6 +1049,11 @@
           "title": "Startup AI Safety: Resource Constraints and Shortcuts",
           "slug": "/research/183-startup-ai-safety-resource-constraints-and-shortcu",
           "excerpt": "Exploring how resource limitations in AI startups impact safety practices, the risks of cutting corners, and potential policy interventions to ensure responsible development."
+        },
+        {
+          "title": "Neurotechnology Regulation: The Emerging Frontier",
+          "slug": "/research/196-neurotechnology-regulation-the-emerging-frontier",
+          "excerpt": "Exploring the intersection of neurotechnology and governance, this article examines the regulatory challenges posed by innovations that blur the line between human cognition and artificial intelligence."
         }
       ]
     },
@@ -2822,6 +2837,11 @@
           "title": "Industry Self-Regulation: Track Record and Limits",
           "slug": "/research/181-industry-self-regulation-track-record-and-limits",
           "excerpt": "Examining the historical effectiveness of industry self-regulation across sectors and its implications for AI governance."
+        },
+        {
+          "title": "Neurotechnology Regulation: The Emerging Frontier",
+          "slug": "/research/196-neurotechnology-regulation-the-emerging-frontier",
+          "excerpt": "Exploring the intersection of neurotechnology and governance, this article examines the regulatory challenges posed by innovations that blur the line between human cognition and artificial intelligence."
         }
       ]
     },
@@ -4838,12 +4858,17 @@
       "id": "neurotechnology",
       "title": "neurotechnology",
       "group": "concept",
-      "val": 7,
+      "val": 9,
       "articles": [
         {
           "title": "Brain-Computer Interfaces and AI: Governance at the Neural Boundary",
           "slug": "/research/094-brain-computer-interfaces-and-ai",
           "excerpt": "When AI systems connect directly to human neural tissue, existing governance frameworks break down. This article maps the regulatory vacuum at the brain-machine interface and proposes governance principles for neural AI systems."
+        },
+        {
+          "title": "Neurotechnology Regulation: The Emerging Frontier",
+          "slug": "/research/196-neurotechnology-regulation-the-emerging-frontier",
+          "excerpt": "Exploring the intersection of neurotechnology and governance, this article examines the regulatory challenges posed by innovations that blur the line between human cognition and artificial intelligence."
         }
       ]
     },
@@ -9352,7 +9377,7 @@
     {
       "source": "ai-governance",
       "target": "safety",
-      "value": 2
+      "value": 3
     },
     {
       "source": "accountability",
@@ -10892,7 +10917,7 @@
     {
       "source": "ai-governance",
       "target": "neurotechnology",
-      "value": 1
+      "value": 2
     },
     {
       "source": "bodily-autonomy",
@@ -11132,7 +11157,7 @@
     {
       "source": "ai-governance",
       "target": "policy",
-      "value": 4
+      "value": 5
     },
     {
       "source": "ai-governance",
@@ -12752,7 +12777,7 @@
     {
       "source": "policy",
       "target": "safety",
-      "value": 1
+      "value": 2
     },
     {
       "source": "accountability",
@@ -14682,6 +14707,21 @@
     {
       "source": "ai testing",
       "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "neurotechnology",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "neurotechnology",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "neurotechnology",
+      "target": "policy",
       "value": 1
     }
   ]

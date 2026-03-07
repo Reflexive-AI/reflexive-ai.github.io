@@ -463,7 +463,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 195. [x] Governance Constraint Testing Framework [A][R]
     A specification for automated testing of governance constraint compliance, analogous to software unit testing, enabling continuous verification rather than periodic audits.
 
-196. [ ] Neurotechnology Regulation: The Emerging Frontier [R][P]
+196. [x] Neurotechnology Regulation: The Emerging Frontier [R][P]
     Mapping the governance landscape for brain-computer interfaces, neural data, and cognitive enhancement technologies as they converge with AI systems.
 
 197. [ ] Neural Data Rights [R][P]
