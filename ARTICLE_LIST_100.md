@@ -454,7 +454,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 192. [x] Constraint Composition Protocol [A][R]
     A specification for combining multiple governance constraints from different authorities (national, sectoral, organizational) into a single coherent policy for an AI system.
 
-193. [ ] AI System Self-Declaration Format [A][R]
+193. [x] AI System Self-Declaration Format [A][R]
     A machine-readable format for AI systems to declare their capabilities, limitations, and applicable governance constraints, extending model cards into actionable metadata.
 
 194. [ ] Regulatory API Specification [A][R]

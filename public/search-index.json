@@ -1,5 +1,22 @@
 [
   {
+    "id": 193,
+    "title": "AI System Self-Declaration Format",
+    "excerpt": "A proposed framework for standardized self-declaration by AI systems to improve transparency, accountability, and governance in diverse deployment contexts.",
+    "slug": "193-ai-system-self-declaration-format",
+    "date": "2026-03-07",
+    "tags": [
+      "self-declaration",
+      "accountability",
+      "ai-safety",
+      "transparency"
+    ],
+    "categories": [
+      "Governance Design"
+    ],
+    "body": "Reflexive Research Object 193 Type: Governance Design & Candidate Constraint Introduction As AI systems become increasingly integrated into critical sectors like healthcare, transportation, finance, and military operations, the demand for robust accountability mechanisms grows. Transparency is often cited as a cornerstone of responsible AI governance, yet existing frameworks struggle to address the complexity and variability of modern AI systems. One promising solution is the development of stan"
+  },
+  {
     "id": 192,
     "title": "Constraint Composition Protocol",
     "excerpt": "Exploring a structured protocol for designing and integrating constraints into AI systems to enhance safety, accountability, and alignment with human values.",

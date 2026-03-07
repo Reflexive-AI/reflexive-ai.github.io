@@ -422,6 +422,11 @@
           "title": "Machine-Readable AI Incident Reports",
           "slug": "/research/191-machine-readable-ai-incident-reports",
           "excerpt": "Exploring the design, implementation, and governance implications of standardized, machine-readable formats for reporting AI incidents."
+        },
+        {
+          "title": "AI System Self-Declaration Format",
+          "slug": "/research/193-ai-system-self-declaration-format",
+          "excerpt": "A proposed framework for standardized self-declaration by AI systems to improve transparency, accountability, and governance in diverse deployment contexts."
         }
       ]
     },
@@ -2952,7 +2957,7 @@
       "id": "ai-safety",
       "title": "ai-safety",
       "group": "concept",
-      "val": 29,
+      "val": 30,
       "articles": [
         {
           "title": "Monitoring Deployed Models",
@@ -3013,6 +3018,11 @@
           "title": "Constraint Composition Protocol",
           "slug": "/research/192-constraint-composition-protocol",
           "excerpt": "Exploring a structured protocol for designing and integrating constraints into AI systems to enhance safety, accountability, and alignment with human values."
+        },
+        {
+          "title": "AI System Self-Declaration Format",
+          "slug": "/research/193-ai-system-self-declaration-format",
+          "excerpt": "A proposed framework for standardized self-declaration by AI systems to improve transparency, accountability, and governance in diverse deployment contexts."
         }
       ]
     },
@@ -3146,6 +3156,11 @@
           "title": "Machine-Readable AI Incident Reports",
           "slug": "/research/191-machine-readable-ai-incident-reports",
           "excerpt": "Exploring the design, implementation, and governance implications of standardized, machine-readable formats for reporting AI incidents."
+        },
+        {
+          "title": "AI System Self-Declaration Format",
+          "slug": "/research/193-ai-system-self-declaration-format",
+          "excerpt": "A proposed framework for standardized self-declaration by AI systems to improve transparency, accountability, and governance in diverse deployment contexts."
         }
       ]
     },
@@ -7693,6 +7708,19 @@
           "excerpt": "Exploring the design, implementation, and governance implications of standardized, machine-readable formats for reporting AI incidents."
         }
       ]
+    },
+    {
+      "id": "self-declaration",
+      "title": "self-declaration",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI System Self-Declaration Format",
+          "slug": "/research/193-ai-system-self-declaration-format",
+          "excerpt": "A proposed framework for standardized self-declaration by AI systems to improve transparency, accountability, and governance in diverse deployment contexts."
+        }
+      ]
     }
   ],
   "links": [
@@ -9139,7 +9167,7 @@
     {
       "source": "accountability",
       "target": "ai-safety",
-      "value": 2
+      "value": 3
     },
     {
       "source": "accountability",
@@ -12809,7 +12837,7 @@
     {
       "source": "accountability",
       "target": "transparency",
-      "value": 2
+      "value": 3
     },
     {
       "source": "governance failures",
@@ -14474,6 +14502,26 @@
     {
       "source": "alignment",
       "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "accountability",
+      "target": "self-declaration",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "self-declaration",
+      "value": 1
+    },
+    {
+      "source": "self-declaration",
+      "target": "transparency",
+      "value": 1
+    },
+    {
+      "source": "ai-safety",
+      "target": "transparency",
       "value": 1
     }
   ]
