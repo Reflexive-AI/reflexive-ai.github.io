@@ -2835,7 +2835,7 @@
       "id": "ai governance",
       "title": "ai governance",
       "group": "concept",
-      "val": 29,
+      "val": 30,
       "articles": [
         {
           "title": "Rate Limiting and Abuse Detection",
@@ -2896,6 +2896,11 @@
           "title": "AI and Climate Adaptation: Governance Framework",
           "slug": "/research/171-ai-and-climate-adaptation-governance-framework",
           "excerpt": "Exploring the role of AI in climate adaptation governance, focusing on policy structures, accountability mechanisms, and ethical considerations."
+        },
+        {
+          "title": "Regulatory API Specification",
+          "slug": "/research/194-regulatory-api-specification",
+          "excerpt": "A proposal for creating standardized, machine-readable API specifications to enhance regulatory oversight, facilitate compliance, and improve AI safety and governance."
         }
       ]
     },
@@ -7719,6 +7724,58 @@
           "title": "AI System Self-Declaration Format",
           "slug": "/research/193-ai-system-self-declaration-format",
           "excerpt": "A proposed framework for standardized self-declaration by AI systems to improve transparency, accountability, and governance in diverse deployment contexts."
+        }
+      ]
+    },
+    {
+      "id": "api",
+      "title": "api",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Regulatory API Specification",
+          "slug": "/research/194-regulatory-api-specification",
+          "excerpt": "A proposal for creating standardized, machine-readable API specifications to enhance regulatory oversight, facilitate compliance, and improve AI safety and governance."
+        }
+      ]
+    },
+    {
+      "id": "regulation technology",
+      "title": "regulation technology",
+      "group": "governance",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Regulatory API Specification",
+          "slug": "/research/194-regulatory-api-specification",
+          "excerpt": "A proposal for creating standardized, machine-readable API specifications to enhance regulatory oversight, facilitate compliance, and improve AI safety and governance."
+        }
+      ]
+    },
+    {
+      "id": "compliance",
+      "title": "compliance",
+      "group": "governance",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Regulatory API Specification",
+          "slug": "/research/194-regulatory-api-specification",
+          "excerpt": "A proposal for creating standardized, machine-readable API specifications to enhance regulatory oversight, facilitate compliance, and improve AI safety and governance."
+        }
+      ]
+    },
+    {
+      "id": "machine-readable standards",
+      "title": "machine-readable standards",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Regulatory API Specification",
+          "slug": "/research/194-regulatory-api-specification",
+          "excerpt": "A proposal for creating standardized, machine-readable API specifications to enhance regulatory oversight, facilitate compliance, and improve AI safety and governance."
         }
       ]
     }
@@ -14522,6 +14579,56 @@
     {
       "source": "ai-safety",
       "target": "transparency",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "api",
+      "value": 1
+    },
+    {
+      "source": "api",
+      "target": "regulation technology",
+      "value": 1
+    },
+    {
+      "source": "api",
+      "target": "compliance",
+      "value": 1
+    },
+    {
+      "source": "api",
+      "target": "machine-readable standards",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "regulation technology",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "compliance",
+      "value": 1
+    },
+    {
+      "source": "ai governance",
+      "target": "machine-readable standards",
+      "value": 1
+    },
+    {
+      "source": "compliance",
+      "target": "regulation technology",
+      "value": 1
+    },
+    {
+      "source": "machine-readable standards",
+      "target": "regulation technology",
+      "value": 1
+    },
+    {
+      "source": "compliance",
+      "target": "machine-readable standards",
       "value": 1
     }
   ]

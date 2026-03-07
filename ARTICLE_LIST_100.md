@@ -457,7 +457,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 193. [x] AI System Self-Declaration Format [A][R]
     A machine-readable format for AI systems to declare their capabilities, limitations, and applicable governance constraints, extending model cards into actionable metadata.
 
-194. [ ] Regulatory API Specification [A][R]
+194. [x] Regulatory API Specification [A][R]
     A standardized API through which AI systems can query applicable regulations in real time and receive machine-parseable responses, building on the protocol from article 014.
 
 195. [ ] Governance Constraint Testing Framework [A][R]

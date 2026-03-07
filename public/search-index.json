@@ -1,5 +1,23 @@
 [
   {
+    "id": 194,
+    "title": "Regulatory API Specification",
+    "excerpt": "A proposal for creating standardized, machine-readable API specifications to enhance regulatory oversight, facilitate compliance, and improve AI safety and governance.",
+    "slug": "194-regulatory-api-specification",
+    "date": "2026-03-07",
+    "tags": [
+      "api",
+      "ai governance",
+      "regulation technology",
+      "compliance",
+      "machine-readable standards"
+    ],
+    "categories": [
+      "Policy Proposal"
+    ],
+    "body": "Reflexive Research Object 194 Type: Policy Proposal & Technical Specification Introduction The rapid proliferation of artificial intelligence (AI) systems and their integration into critical societal and economic functions have outpaced traditional regulatory frameworks. Policymakers and regulators face significant challenges in monitoring, auditing, and enforcing compliance at scale. One promising solution is the development of a Regulatory API Specification: a standardized, machine-readable in"
+  },
+  {
     "id": 193,
     "title": "AI System Self-Declaration Format",
     "excerpt": "A proposed framework for standardized self-declaration by AI systems to improve transparency, accountability, and governance in diverse deployment contexts.",
