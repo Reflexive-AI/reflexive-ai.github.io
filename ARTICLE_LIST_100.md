@@ -460,7 +460,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 194. [x] Regulatory API Specification [A][R]
     A standardized API through which AI systems can query applicable regulations in real time and receive machine-parseable responses, building on the protocol from article 014.
 
-195. [ ] Governance Constraint Testing Framework [A][R]
+195. [x] Governance Constraint Testing Framework [A][R]
     A specification for automated testing of governance constraint compliance, analogous to software unit testing, enabling continuous verification rather than periodic audits.
 
 196. [ ] Neurotechnology Regulation: The Emerging Frontier [R][P]

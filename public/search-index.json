@@ -1,5 +1,23 @@
 [
   {
+    "id": 195,
+    "title": "Governance Constraint Testing Framework",
+    "excerpt": "A structured approach to evaluating governance constraints for AI systems, ensuring robust oversight and alignment with safety objectives.",
+    "slug": "195-governance-constraint-testing-framework",
+    "date": "2026-03-07",
+    "tags": [
+      "governance",
+      "constraints",
+      "safety",
+      "regulation",
+      "AI testing"
+    ],
+    "categories": [
+      "Governance Research"
+    ],
+    "body": "Reflexive Research Object 195 Type: Governance Framework & Testing Protocol Introduction As artificial intelligence systems become increasingly integral to societal functions, the frameworks governing their development, deployment, and operation must evolve to ensure safety, accountability, and alignment with human values. A critical challenge in AI governance lies in designing constraints that are not only robust in theory but also effective and enforceable in practice. This paper introduces th"
+  },
+  {
     "id": 194,
     "title": "Regulatory API Specification",
     "excerpt": "A proposal for creating standardized, machine-readable API specifications to enhance regulatory oversight, facilitate compliance, and improve AI safety and governance.",

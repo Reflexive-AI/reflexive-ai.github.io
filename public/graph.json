@@ -258,6 +258,11 @@
           "title": "Constraint Composition Protocol",
           "slug": "/research/192-constraint-composition-protocol",
           "excerpt": "Exploring a structured protocol for designing and integrating constraints into AI systems to enhance safety, accountability, and alignment with human values."
+        },
+        {
+          "title": "Governance Constraint Testing Framework",
+          "slug": "/research/195-governance-constraint-testing-framework",
+          "excerpt": "A structured approach to evaluating governance constraints for AI systems, ensuring robust oversight and alignment with safety objectives."
         }
       ]
     },
@@ -633,6 +638,11 @@
           "title": "Machine-Readable AI Incident Reports",
           "slug": "/research/191-machine-readable-ai-incident-reports",
           "excerpt": "Exploring the design, implementation, and governance implications of standardized, machine-readable formats for reporting AI incidents."
+        },
+        {
+          "title": "Governance Constraint Testing Framework",
+          "slug": "/research/195-governance-constraint-testing-framework",
+          "excerpt": "A structured approach to evaluating governance constraints for AI systems, ensuring robust oversight and alignment with safety objectives."
         }
       ]
     },
@@ -811,7 +821,7 @@
       "id": "constraints",
       "title": "constraints",
       "group": "concept",
-      "val": 23,
+      "val": 25,
       "articles": [
         {
           "title": "Red Lines: A Taxonomy of Non-Negotiable AI Limits",
@@ -857,6 +867,11 @@
           "title": "Constraint Composition Protocol",
           "slug": "/research/192-constraint-composition-protocol",
           "excerpt": "Exploring a structured protocol for designing and integrating constraints into AI systems to enhance safety, accountability, and alignment with human values."
+        },
+        {
+          "title": "Governance Constraint Testing Framework",
+          "slug": "/research/195-governance-constraint-testing-framework",
+          "excerpt": "A structured approach to evaluating governance constraints for AI systems, ensuring robust oversight and alignment with safety objectives."
         }
       ]
     },
@@ -2209,6 +2224,11 @@
           "title": "Constraint Composition Protocol",
           "slug": "/research/192-constraint-composition-protocol",
           "excerpt": "Exploring a structured protocol for designing and integrating constraints into AI systems to enhance safety, accountability, and alignment with human values."
+        },
+        {
+          "title": "Governance Constraint Testing Framework",
+          "slug": "/research/195-governance-constraint-testing-framework",
+          "excerpt": "A structured approach to evaluating governance constraints for AI systems, ensuring robust oversight and alignment with safety objectives."
         }
       ]
     },
@@ -7778,6 +7798,19 @@
           "excerpt": "A proposal for creating standardized, machine-readable API specifications to enhance regulatory oversight, facilitate compliance, and improve AI safety and governance."
         }
       ]
+    },
+    {
+      "id": "ai testing",
+      "title": "AI testing",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Governance Constraint Testing Framework",
+          "slug": "/research/195-governance-constraint-testing-framework",
+          "excerpt": "A structured approach to evaluating governance constraints for AI systems, ensuring robust oversight and alignment with safety objectives."
+        }
+      ]
     }
   ],
   "links": [
@@ -7934,7 +7967,7 @@
     {
       "source": "constraints",
       "target": "safety",
-      "value": 2
+      "value": 3
     },
     {
       "source": "red-lines",
@@ -8754,7 +8787,7 @@
     {
       "source": "constraints",
       "target": "governance",
-      "value": 2
+      "value": 3
     },
     {
       "source": "capability-elicitation",
@@ -14554,7 +14587,7 @@
     {
       "source": "constraints",
       "target": "regulation",
-      "value": 1
+      "value": 2
     },
     {
       "source": "alignment",
@@ -14629,6 +14662,26 @@
     {
       "source": "compliance",
       "target": "machine-readable standards",
+      "value": 1
+    },
+    {
+      "source": "ai testing",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "ai testing",
+      "target": "constraints",
+      "value": 1
+    },
+    {
+      "source": "ai testing",
+      "target": "safety",
+      "value": 1
+    },
+    {
+      "source": "ai testing",
+      "target": "regulation",
       "value": 1
     }
   ]
