@@ -1,5 +1,23 @@
 [
   {
+    "id": 199,
+    "title": "Cognitive Enhancement and Equity",
+    "excerpt": "Exploring the ethical, social, and regulatory challenges of cognitive enhancement technologies, with a focus on ensuring equitable access and outcomes.",
+    "slug": "199-cognitive-enhancement-and-equity",
+    "date": "2026-03-08",
+    "tags": [
+      "equity",
+      "cognitive enhancement",
+      "neurotechnology",
+      "governance",
+      "AI"
+    ],
+    "categories": [
+      "Policy Analysis"
+    ],
+    "body": "Introduction Cognitive enhancement technologies—ranging from neurotechnology-assisted learning to pharmaceutical approaches—are rapidly advancing. These systems often integrate artificial intelligence (AI) for personalization and optimization, promising to augment human capabilities. However, the societal impact of such technologies is deeply intertwined with questions of equity. Who benefits from cognitive enhancement? How can access and outcomes be distributed fairly? What role should AI play "
+  },
+  {
     "id": 198,
     "title": "AI-Neurotechnology Convergence: Governance Implications",
     "excerpt": "Examining the intersection of AI and neurotechnology, with a focus on governance challenges and opportunities for proactive regulation.",

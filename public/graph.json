@@ -2264,6 +2264,11 @@
           "title": "AI-Neurotechnology Convergence: Governance Implications",
           "slug": "/research/198-ai-neurotechnology-convergence-governance-implicat",
           "excerpt": "Examining the intersection of AI and neurotechnology, with a focus on governance challenges and opportunities for proactive regulation."
+        },
+        {
+          "title": "Cognitive Enhancement and Equity",
+          "slug": "/research/199-cognitive-enhancement-and-equity",
+          "excerpt": "Exploring the ethical, social, and regulatory challenges of cognitive enhancement technologies, with a focus on ensuring equitable access and outcomes."
         }
       ]
     },
@@ -4888,7 +4893,7 @@
       "id": "neurotechnology",
       "title": "neurotechnology",
       "group": "concept",
-      "val": 13,
+      "val": 15,
       "articles": [
         {
           "title": "Brain-Computer Interfaces and AI: Governance at the Neural Boundary",
@@ -4909,6 +4914,11 @@
           "title": "AI-Neurotechnology Convergence: Governance Implications",
           "slug": "/research/198-ai-neurotechnology-convergence-governance-implicat",
           "excerpt": "Examining the intersection of AI and neurotechnology, with a focus on governance challenges and opportunities for proactive regulation."
+        },
+        {
+          "title": "Cognitive Enhancement and Equity",
+          "slug": "/research/199-cognitive-enhancement-and-equity",
+          "excerpt": "Exploring the ethical, social, and regulatory challenges of cognitive enhancement technologies, with a focus on ensuring equitable access and outcomes."
         }
       ]
     },
@@ -5409,7 +5419,7 @@
       "id": "ai",
       "title": "ai",
       "group": "concept",
-      "val": 11,
+      "val": 13,
       "articles": [
         {
           "title": "Governance of AI-Generated Science",
@@ -5425,6 +5435,11 @@
           "title": "AI-Neurotechnology Convergence: Governance Implications",
           "slug": "/research/198-ai-neurotechnology-convergence-governance-implicat",
           "excerpt": "Examining the intersection of AI and neurotechnology, with a focus on governance challenges and opportunities for proactive regulation."
+        },
+        {
+          "title": "Cognitive Enhancement and Equity",
+          "slug": "/research/199-cognitive-enhancement-and-equity",
+          "excerpt": "Exploring the ethical, social, and regulatory challenges of cognitive enhancement technologies, with a focus on ensuring equitable access and outcomes."
         }
       ]
     },
@@ -7892,6 +7907,32 @@
           "title": "AI-Neurotechnology Convergence: Governance Implications",
           "slug": "/research/198-ai-neurotechnology-convergence-governance-implicat",
           "excerpt": "Examining the intersection of AI and neurotechnology, with a focus on governance challenges and opportunities for proactive regulation."
+        }
+      ]
+    },
+    {
+      "id": "equity",
+      "title": "equity",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Cognitive Enhancement and Equity",
+          "slug": "/research/199-cognitive-enhancement-and-equity",
+          "excerpt": "Exploring the ethical, social, and regulatory challenges of cognitive enhancement technologies, with a focus on ensuring equitable access and outcomes."
+        }
+      ]
+    },
+    {
+      "id": "cognitive enhancement",
+      "title": "cognitive enhancement",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "Cognitive Enhancement and Equity",
+          "slug": "/research/199-cognitive-enhancement-and-equity",
+          "excerpt": "Exploring the ethical, social, and regulatory challenges of cognitive enhancement technologies, with a focus on ensuring equitable access and outcomes."
         }
       ]
     }
@@ -11660,7 +11701,7 @@
     {
       "source": "ai",
       "target": "governance",
-      "value": 3
+      "value": 4
     },
     {
       "source": "ai",
@@ -14820,7 +14861,7 @@
     {
       "source": "ai",
       "target": "neurotechnology",
-      "value": 1
+      "value": 2
     },
     {
       "source": "ai",
@@ -14835,7 +14876,7 @@
     {
       "source": "governance",
       "target": "neurotechnology",
-      "value": 1
+      "value": 2
     },
     {
       "source": "convergence",
@@ -14850,6 +14891,41 @@
     {
       "source": "convergence",
       "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "cognitive enhancement",
+      "target": "equity",
+      "value": 1
+    },
+    {
+      "source": "equity",
+      "target": "neurotechnology",
+      "value": 1
+    },
+    {
+      "source": "equity",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "ai",
+      "target": "equity",
+      "value": 1
+    },
+    {
+      "source": "cognitive enhancement",
+      "target": "neurotechnology",
+      "value": 1
+    },
+    {
+      "source": "cognitive enhancement",
+      "target": "governance",
+      "value": 1
+    },
+    {
+      "source": "ai",
+      "target": "cognitive enhancement",
       "value": 1
     }
   ]

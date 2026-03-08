@@ -472,7 +472,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 198. [x] AI-Neurotechnology Convergence: Governance Implications [R]
     How the integration of AI with neural interfaces creates governance challenges that neither AI regulation nor neurotechnology regulation addresses in isolation.
 
-199. [ ] Cognitive Enhancement and Equity [P]
+199. [x] Cognitive Enhancement and Equity [P]
     Policy implications of AI-powered cognitive enhancement technologies and the risk of deepening existing socioeconomic inequalities along cognitive performance lines.
 
 200. [ ] The Next Hundred: Research Agenda 2027 [R][P][A]
