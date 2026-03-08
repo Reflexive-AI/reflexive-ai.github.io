@@ -1,5 +1,24 @@
 [
   {
+    "id": 198,
+    "title": "AI-Neurotechnology Convergence: Governance Implications",
+    "excerpt": "Examining the intersection of AI and neurotechnology, with a focus on governance challenges and opportunities for proactive regulation.",
+    "slug": "198-ai-neurotechnology-convergence-governance-implicat",
+    "date": "2026-03-08",
+    "tags": [
+      "AI",
+      "neurotechnology",
+      "regulation",
+      "governance",
+      "convergence"
+    ],
+    "categories": [
+      "Governance Analysis",
+      "Emerging Technologies"
+    ],
+    "body": "Introduction The convergence of artificial intelligence (AI) and neurotechnology represents a profound shift in both technological capabilities and ethical considerations. Neurotechnology—defined as tools that interact with the nervous system to monitor, influence, or simulate neural activity—is rapidly advancing. When combined with AI’s ability to process, interpret, and act upon vast datasets, the possibilities expand into areas like brain-computer interfaces (BCIs), cognitive enhancement, and"
+  },
+  {
     "id": 197,
     "title": "Neural Data Rights",
     "excerpt": "Exploring the emerging concept of neural data rights, its implications for privacy, consent, and ownership in an era of neurotechnology and advanced AI systems.",

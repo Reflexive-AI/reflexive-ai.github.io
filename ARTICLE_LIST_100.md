@@ -469,7 +469,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 197. [x] Neural Data Rights [R][P]
     Legal and ethical frameworks for protecting data derived from neural interfaces, including cognitive liberty, mental privacy, and freedom of thought.
 
-198. [ ] AI-Neurotechnology Convergence: Governance Implications [R]
+198. [x] AI-Neurotechnology Convergence: Governance Implications [R]
     How the integration of AI with neural interfaces creates governance challenges that neither AI regulation nor neurotechnology regulation addresses in isolation.
 
 199. [ ] Cognitive Enhancement and Equity [P]

@@ -273,6 +273,11 @@
           "title": "Neural Data Rights",
           "slug": "/research/197-neural-data-rights",
           "excerpt": "Exploring the emerging concept of neural data rights, its implications for privacy, consent, and ownership in an era of neurotechnology and advanced AI systems."
+        },
+        {
+          "title": "AI-Neurotechnology Convergence: Governance Implications",
+          "slug": "/research/198-ai-neurotechnology-convergence-governance-implicat",
+          "excerpt": "Examining the intersection of AI and neurotechnology, with a focus on governance challenges and opportunities for proactive regulation."
         }
       ]
     },
@@ -2254,6 +2259,11 @@
           "title": "Governance Constraint Testing Framework",
           "slug": "/research/195-governance-constraint-testing-framework",
           "excerpt": "A structured approach to evaluating governance constraints for AI systems, ensuring robust oversight and alignment with safety objectives."
+        },
+        {
+          "title": "AI-Neurotechnology Convergence: Governance Implications",
+          "slug": "/research/198-ai-neurotechnology-convergence-governance-implicat",
+          "excerpt": "Examining the intersection of AI and neurotechnology, with a focus on governance challenges and opportunities for proactive regulation."
         }
       ]
     },
@@ -4878,7 +4888,7 @@
       "id": "neurotechnology",
       "title": "neurotechnology",
       "group": "concept",
-      "val": 11,
+      "val": 13,
       "articles": [
         {
           "title": "Brain-Computer Interfaces and AI: Governance at the Neural Boundary",
@@ -4894,6 +4904,11 @@
           "title": "Neural Data Rights",
           "slug": "/research/197-neural-data-rights",
           "excerpt": "Exploring the emerging concept of neural data rights, its implications for privacy, consent, and ownership in an era of neurotechnology and advanced AI systems."
+        },
+        {
+          "title": "AI-Neurotechnology Convergence: Governance Implications",
+          "slug": "/research/198-ai-neurotechnology-convergence-governance-implicat",
+          "excerpt": "Examining the intersection of AI and neurotechnology, with a focus on governance challenges and opportunities for proactive regulation."
         }
       ]
     },
@@ -5394,7 +5409,7 @@
       "id": "ai",
       "title": "ai",
       "group": "concept",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "Governance of AI-Generated Science",
@@ -5405,6 +5420,11 @@
           "title": "Platform Governance During Elections",
           "slug": "/research/154-platform-governance-during-elections",
           "excerpt": "Exploring the challenges and opportunities of regulating online platforms to safeguard electoral integrity in the age of AI."
+        },
+        {
+          "title": "AI-Neurotechnology Convergence: Governance Implications",
+          "slug": "/research/198-ai-neurotechnology-convergence-governance-implicat",
+          "excerpt": "Examining the intersection of AI and neurotechnology, with a focus on governance challenges and opportunities for proactive regulation."
         }
       ]
     },
@@ -7859,6 +7879,19 @@
           "title": "Governance Constraint Testing Framework",
           "slug": "/research/195-governance-constraint-testing-framework",
           "excerpt": "A structured approach to evaluating governance constraints for AI systems, ensuring robust oversight and alignment with safety objectives."
+        }
+      ]
+    },
+    {
+      "id": "convergence",
+      "title": "convergence",
+      "group": "concept",
+      "val": 7,
+      "articles": [
+        {
+          "title": "AI-Neurotechnology Convergence: Governance Implications",
+          "slug": "/research/198-ai-neurotechnology-convergence-governance-implicat",
+          "excerpt": "Examining the intersection of AI and neurotechnology, with a focus on governance challenges and opportunities for proactive regulation."
         }
       ]
     }
@@ -11627,7 +11660,7 @@
     {
       "source": "ai",
       "target": "governance",
-      "value": 2
+      "value": 3
     },
     {
       "source": "ai",
@@ -14737,7 +14770,7 @@
     {
       "source": "neurotechnology",
       "target": "regulation",
-      "value": 2
+      "value": 3
     },
     {
       "source": "neurotechnology",
@@ -14782,6 +14815,41 @@
     {
       "source": "privacy",
       "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "ai",
+      "target": "neurotechnology",
+      "value": 1
+    },
+    {
+      "source": "ai",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "ai",
+      "target": "convergence",
+      "value": 1
+    },
+    {
+      "source": "governance",
+      "target": "neurotechnology",
+      "value": 1
+    },
+    {
+      "source": "convergence",
+      "target": "neurotechnology",
+      "value": 1
+    },
+    {
+      "source": "convergence",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "convergence",
+      "target": "governance",
       "value": 1
     }
   ]
