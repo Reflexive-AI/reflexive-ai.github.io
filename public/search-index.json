@@ -1,5 +1,24 @@
 [
   {
+    "id": 197,
+    "title": "Neural Data Rights",
+    "excerpt": "Exploring the emerging concept of neural data rights, its implications for privacy, consent, and ownership in an era of neurotechnology and advanced AI systems.",
+    "slug": "197-neural-data-rights",
+    "date": "2026-03-08",
+    "tags": [
+      "data-rights",
+      "neurotechnology",
+      "privacy",
+      "ai-governance",
+      "regulation"
+    ],
+    "categories": [
+      "Policy",
+      "Research"
+    ],
+    "body": "Reflexive Research Object 197 Type: Research & Policy Introduction The rapid advancement of neurotechnology and AI systems has brought about a critical question: who owns and controls neural data? As brain-computer interfaces (BCIs), neural implants, and other neurotechnologies become increasingly integrated into healthcare, communication, and even entertainment, the data they produce is gaining immense value. Neural data—essentially the digital representation of brain activity—has implications "
+  },
+  {
     "id": 196,
     "title": "Neurotechnology Regulation: The Emerging Frontier",
     "excerpt": "Exploring the intersection of neurotechnology and governance, this article examines the regulatory challenges posed by innovations that blur the line between human cognition and artificial intelligence.",

@@ -268,6 +268,11 @@
           "title": "Neurotechnology Regulation: The Emerging Frontier",
           "slug": "/research/196-neurotechnology-regulation-the-emerging-frontier",
           "excerpt": "Exploring the intersection of neurotechnology and governance, this article examines the regulatory challenges posed by innovations that blur the line between human cognition and artificial intelligence."
+        },
+        {
+          "title": "Neural Data Rights",
+          "slug": "/research/197-neural-data-rights",
+          "excerpt": "Exploring the emerging concept of neural data rights, its implications for privacy, consent, and ownership in an era of neurotechnology and advanced AI systems."
         }
       ]
     },
@@ -1315,7 +1320,7 @@
       "id": "data-rights",
       "title": "data-rights",
       "group": "technical",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "Consent at Scale: A Structural Impossibility?",
@@ -1326,6 +1331,11 @@
           "title": "Indigenous Data Sovereignty and AI",
           "slug": "/research/140-indigenous-data-sovereignty-and-ai",
           "excerpt": "Exploring the intersection of Indigenous data sovereignty principles and the development of ethical, equitable AI governance frameworks."
+        },
+        {
+          "title": "Neural Data Rights",
+          "slug": "/research/197-neural-data-rights",
+          "excerpt": "Exploring the emerging concept of neural data rights, its implications for privacy, consent, and ownership in an era of neurotechnology and advanced AI systems."
         }
       ]
     },
@@ -2538,7 +2548,7 @@
       "id": "privacy",
       "title": "Privacy",
       "group": "concept",
-      "val": 13,
+      "val": 15,
       "articles": [
         {
           "title": "Training Data Governance",
@@ -2559,6 +2569,11 @@
           "title": "Voter Data and AI: Privacy Implications",
           "slug": "/research/159-voter-data-and-ai-privacy-implications",
           "excerpt": "Examining how AI's use of voter data challenges privacy norms, the risks posed by algorithmic processing, and the need for robust governance frameworks."
+        },
+        {
+          "title": "Neural Data Rights",
+          "slug": "/research/197-neural-data-rights",
+          "excerpt": "Exploring the emerging concept of neural data rights, its implications for privacy, consent, and ownership in an era of neurotechnology and advanced AI systems."
         }
       ]
     },
@@ -2842,6 +2857,11 @@
           "title": "Neurotechnology Regulation: The Emerging Frontier",
           "slug": "/research/196-neurotechnology-regulation-the-emerging-frontier",
           "excerpt": "Exploring the intersection of neurotechnology and governance, this article examines the regulatory challenges posed by innovations that blur the line between human cognition and artificial intelligence."
+        },
+        {
+          "title": "Neural Data Rights",
+          "slug": "/research/197-neural-data-rights",
+          "excerpt": "Exploring the emerging concept of neural data rights, its implications for privacy, consent, and ownership in an era of neurotechnology and advanced AI systems."
         }
       ]
     },
@@ -4858,7 +4878,7 @@
       "id": "neurotechnology",
       "title": "neurotechnology",
       "group": "concept",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "Brain-Computer Interfaces and AI: Governance at the Neural Boundary",
@@ -4869,6 +4889,11 @@
           "title": "Neurotechnology Regulation: The Emerging Frontier",
           "slug": "/research/196-neurotechnology-regulation-the-emerging-frontier",
           "excerpt": "Exploring the intersection of neurotechnology and governance, this article examines the regulatory challenges posed by innovations that blur the line between human cognition and artificial intelligence."
+        },
+        {
+          "title": "Neural Data Rights",
+          "slug": "/research/197-neural-data-rights",
+          "excerpt": "Exploring the emerging concept of neural data rights, its implications for privacy, consent, and ownership in an era of neurotechnology and advanced AI systems."
         }
       ]
     },
@@ -10917,7 +10942,7 @@
     {
       "source": "ai-governance",
       "target": "neurotechnology",
-      "value": 2
+      "value": 3
     },
     {
       "source": "bodily-autonomy",
@@ -14712,7 +14737,7 @@
     {
       "source": "neurotechnology",
       "target": "regulation",
-      "value": 1
+      "value": 2
     },
     {
       "source": "neurotechnology",
@@ -14722,6 +14747,41 @@
     {
       "source": "neurotechnology",
       "target": "policy",
+      "value": 1
+    },
+    {
+      "source": "data-rights",
+      "target": "neurotechnology",
+      "value": 1
+    },
+    {
+      "source": "data-rights",
+      "target": "privacy",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "data-rights",
+      "value": 1
+    },
+    {
+      "source": "data-rights",
+      "target": "regulation",
+      "value": 1
+    },
+    {
+      "source": "neurotechnology",
+      "target": "privacy",
+      "value": 1
+    },
+    {
+      "source": "ai-governance",
+      "target": "privacy",
+      "value": 1
+    },
+    {
+      "source": "privacy",
+      "target": "regulation",
       "value": 1
     }
   ]
