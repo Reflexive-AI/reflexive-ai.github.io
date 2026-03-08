@@ -1,5 +1,21 @@
 [
   {
+    "id": 200,
+    "title": "The Next Hundred: Research Agenda 2027",
+    "excerpt": "A forward-looking research agenda to navigate the next hundred technological developments in AI, with a focus on governance, safety, and AI's role in self-regulation.",
+    "slug": "200-the-next-hundred-research-agenda-2027",
+    "date": "2026-03-08",
+    "tags": [
+      "research",
+      "policy",
+      "AI-focused"
+    ],
+    "categories": [
+      "AI Governance"
+    ],
+    "body": "Introduction The rapid pace of artificial intelligence (AI) development has created both unprecedented opportunities and equally significant risks. Over the next century, AI will increasingly shape every dimension of human life: from governance and economics to ethics and environmental sustainability. The year 2027 will be a pivotal moment in this trajectory, as the world moves further into an era of large-scale AI deployment and integration. This article proposes a research agenda for 2027, out"
+  },
+  {
     "id": 199,
     "title": "Cognitive Enhancement and Equity",
     "excerpt": "Exploring the ethical, social, and regulatory challenges of cognitive enhancement technologies, with a focus on ensuring equitable access and outcomes.",

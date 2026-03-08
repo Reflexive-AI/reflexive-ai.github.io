@@ -475,7 +475,7 @@ This document lists all articles needed to reach 100 research objects for the Re
 199. [x] Cognitive Enhancement and Equity [P]
     Policy implications of AI-powered cognitive enhancement technologies and the risk of deepening existing socioeconomic inequalities along cognitive performance lines.
 
-200. [ ] The Next Hundred: Research Agenda 2027 [R][P][A]
+200. [x] The Next Hundred: Research Agenda 2027 [R][P][A]
     A reflexive assessment of what the first 200 articles covered, what they missed, and a structured, machine-readable research agenda for the next phase of the initiative.
 
 ---

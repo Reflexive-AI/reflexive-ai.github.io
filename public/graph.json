@@ -1064,6 +1064,11 @@
           "title": "Neurotechnology Regulation: The Emerging Frontier",
           "slug": "/research/196-neurotechnology-regulation-the-emerging-frontier",
           "excerpt": "Exploring the intersection of neurotechnology and governance, this article examines the regulatory challenges posed by innovations that blur the line between human cognition and artificial intelligence."
+        },
+        {
+          "title": "The Next Hundred: Research Agenda 2027",
+          "slug": "/research/200-the-next-hundred-research-agenda-2027",
+          "excerpt": "A forward-looking research agenda to navigate the next hundred technological developments in AI, with a focus on governance, safety, and AI's role in self-regulation."
         }
       ]
     },
@@ -4524,7 +4529,7 @@
       "id": "research",
       "title": "research",
       "group": "technical",
-      "val": 11,
+      "val": 13,
       "articles": [
         {
           "title": "AI in Agriculture: Data Governance",
@@ -4540,6 +4545,11 @@
           "title": "Quantum Computing and AI Security",
           "slug": "/research/092-quantum-computing-and-ai-security",
           "excerpt": "Examining the intersection of quantum computing and AI, with a focus on the security implications for AI systems and the broader governance challenges."
+        },
+        {
+          "title": "The Next Hundred: Research Agenda 2027",
+          "slug": "/research/200-the-next-hundred-research-agenda-2027",
+          "excerpt": "A forward-looking research agenda to navigate the next hundred technological developments in AI, with a focus on governance, safety, and AI's role in self-regulation."
         }
       ]
     },
@@ -4547,7 +4557,7 @@
       "id": "ai-focused",
       "title": "ai-focused",
       "group": "concept",
-      "val": 9,
+      "val": 11,
       "articles": [
         {
           "title": "AI in Agriculture: Data Governance",
@@ -4558,6 +4568,11 @@
           "title": "AI and Job Displacement: What the Evidence Shows",
           "slug": "/research/121-ai-and-job-displacement-what-the-evidence-shows",
           "excerpt": "A comprehensive analysis of the impact of AI on employment patterns, exploring the evidence on job displacement, sectoral shifts, and potential policy responses."
+        },
+        {
+          "title": "The Next Hundred: Research Agenda 2027",
+          "slug": "/research/200-the-next-hundred-research-agenda-2027",
+          "excerpt": "A forward-looking research agenda to navigate the next hundred technological developments in AI, with a focus on governance, safety, and AI's role in self-regulation."
         }
       ]
     },
@@ -10591,17 +10606,17 @@
     {
       "source": "policy",
       "target": "research",
-      "value": 1
+      "value": 2
     },
     {
       "source": "ai-focused",
       "target": "research",
-      "value": 1
+      "value": 2
     },
     {
       "source": "ai-focused",
       "target": "policy",
-      "value": 1
+      "value": 2
     },
     {
       "source": "climate modeling",
